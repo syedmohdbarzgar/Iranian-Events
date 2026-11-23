@@ -83,8 +83,8 @@ def main() -> int:
     # همیشه درخت را «کثیف» نشان می‌دهد و provenance بی‌معنا می‌شود.
     dirty = bool(git(
         "status", "--porcelain", "--",
-        "data/events-master.json", "data/official-calendar-*.json",
-        "data/years", "data/*.json", "scripts", "tests", "docs",
+        "data/events-master.json", "data/official-corrections-1404-1405.json",
+        "data/official-calendar-*.json", "data/years", "scripts", "tests", "docs",
     ))
     manifest = {
         "schema": 1,
