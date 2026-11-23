@@ -1,0 +1,3649 @@
+{
+ "year": 1328,
+ "mode": "rule",
+ "count": 130,
+ "droppedRows": 0,
+ "addedRows": 0,
+ "rows": [
+  {
+   "title": "آغاز نوروز",
+   "solar": [
+    1328,
+    1,
+    1
+   ],
+   "gregorian": [
+    1949,
+    3,
+    21
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "cultural",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "عید نوروز",
+   "solar": [
+    1328,
+    1,
+    2
+   ],
+   "gregorian": [
+    1949,
+    3,
+    22
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": false,
+   "category": "cultural",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "عید نوروز",
+   "solar": [
+    1328,
+    1,
+    3
+   ],
+   "gregorian": [
+    1949,
+    3,
+    23
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": false,
+   "category": "cultural",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "عید نوروز",
+   "solar": [
+    1328,
+    1,
+    4
+   ],
+   "gregorian": [
+    1949,
+    3,
+    24
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": false,
+   "category": "cultural",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز بزرگداشت رودکی",
+   "solar": [
+    1328,
+    1,
+    12
+   ],
+   "gregorian": [
+    1949,
+    4,
+    1
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت عیسی مسیح علیه‌السلام",
+   "solar": [
+    1328,
+    1,
+    12
+   ],
+   "gregorian": [
+    1949,
+    4,
+    1
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "سیزده‌بدر",
+   "solar": [
+    1328,
+    1,
+    13
+   ],
+   "gregorian": [
+    1949,
+    4,
+    2
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "cultural",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت حضرت فاطمه زهرا سلام الله علیها",
+   "solar": [
+    1328,
+    1,
+    14
+   ],
+   "gregorian": [
+    1949,
+    4,
+    3
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز تکریم مادران و همسران شهدا",
+   "solar": [
+    1328,
+    1,
+    24
+   ],
+   "gregorian": [
+    1949,
+    4,
+    13
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "وفات حضرت ام‌البنین سلام الله علیها",
+   "solar": [
+    1328,
+    1,
+    24
+   ],
+   "gregorian": [
+    1949,
+    4,
+    13
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "تولد حضرت امام خمینی (ره)، رهبر کبیر انقلاب اسلامی",
+   "solar": [
+    1328,
+    1,
+    31
+   ],
+   "gregorian": [
+    1949,
+    4,
+    20
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز زن",
+   "solar": [
+    1328,
+    1,
+    31
+   ],
+   "gregorian": [
+    1949,
+    4,
+    20
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت فاطمه زهرا سلام الله علیها (هشتم قبل از هجرت",
+   "solar": [
+    1328,
+    1,
+    31
+   ],
+   "gregorian": [
+    1949,
+    4,
+    20
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز ترویج زکات",
+   "solar": [
+    1328,
+    2,
+    10
+   ],
+   "gregorian": [
+    1949,
+    4,
+    30
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز نهج‌البلاغه",
+   "solar": [
+    1328,
+    2,
+    10
+   ],
+   "gregorian": [
+    1949,
+    4,
+    30
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت امام محمد باقر علیه‌السلام",
+   "solar": [
+    1328,
+    2,
+    10
+   ],
+   "gregorian": [
+    1949,
+    4,
+    30
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت حضرت امام علی النقی الهادی علیه‌السلام",
+   "solar": [
+    1328,
+    2,
+    12
+   ],
+   "gregorian": [
+    1949,
+    5,
+    2
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت سربازان دلیر",
+   "solar": [
+    1328,
+    2,
+    12
+   ],
+   "gregorian": [
+    1949,
+    5,
+    2
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز پسر",
+   "solar": [
+    1328,
+    2,
+    19
+   ],
+   "gregorian": [
+    1949,
+    5,
+    9
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت امام محمدتقی علیه‌السلام «جوادالائمه»",
+   "solar": [
+    1328,
+    2,
+    19
+   ],
+   "gregorian": [
+    1949,
+    5,
+    9
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "آغاز ایام البیض (اعتکاف",
+   "solar": [
+    1328,
+    2,
+    22
+   ],
+   "gregorian": [
+    1949,
+    5,
+    12
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز پدر",
+   "solar": [
+    1328,
+    2,
+    22
+   ],
+   "gregorian": [
+    1949,
+    5,
+    12
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت امام علی علیه‌السلام (23 سال قبل از هجرت",
+   "solar": [
+    1328,
+    2,
+    22
+   ],
+   "gregorian": [
+    1949,
+    5,
+    12
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ارتحال حضرت زینب سلام الله علیها",
+   "solar": [
+    1328,
+    2,
+    24
+   ],
+   "gregorian": [
+    1949,
+    5,
+    14
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "تغییر قبله مسلمین از بیت‌المقدس به مکه معظمه",
+   "solar": [
+    1328,
+    2,
+    24
+   ],
+   "gregorian": [
+    1949,
+    5,
+    14
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "وفات حضرت زینب سلام الله علیها 62",
+   "solar": [
+    1328,
+    2,
+    24
+   ],
+   "gregorian": [
+    1949,
+    5,
+    14
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز ارتباطات و روابط عمومی",
+   "solar": [
+    1328,
+    2,
+    27
+   ],
+   "gregorian": [
+    1949,
+    5,
+    17
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۷ اردیبهشت ۱۳۸۶",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   }
+  },
+  {
+   "title": "روز بزرگداشت حکیم عمر خیام",
+   "solar": [
+    1328,
+    2,
+    28
+   ],
+   "gregorian": [
+    1949,
+    5,
+    18
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۸ اردیبهشت ۱۳۸۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   }
+  },
+  {
+   "title": "شهادت حضرت امام موسی کاظم علیه‌السلام",
+   "solar": [
+    1328,
+    3,
+    3
+   ],
+   "gregorian": [
+    1949,
+    5,
+    24
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "مبعث حضرت رسول اکرم صلی الله علیه و آله (13 سال قبل از هجرت",
+   "solar": [
+    1328,
+    3,
+    5
+   ],
+   "gregorian": [
+    1949,
+    5,
+    26
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "خردادگان",
+   "solar": [
+    1328,
+    3,
+    6
+   ],
+   "gregorian": [
+    1949,
+    5,
+    27
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "cultural",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز پاسدار",
+   "solar": [
+    1328,
+    3,
+    11
+   ],
+   "gregorian": [
+    1949,
+    6,
+    1
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت امام حسین علیه‌السلام",
+   "solar": [
+    1328,
+    3,
+    11
+   ],
+   "gregorian": [
+    1949,
+    6,
+    1
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز جانباز",
+   "solar": [
+    1328,
+    3,
+    12
+   ],
+   "gregorian": [
+    1949,
+    6,
+    2
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت ابوالفضل العباس علیه‌السلام",
+   "solar": [
+    1328,
+    3,
+    12
+   ],
+   "gregorian": [
+    1949,
+    6,
+    2
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز صحیفه سجادیه",
+   "solar": [
+    1328,
+    3,
+    13
+   ],
+   "gregorian": [
+    1949,
+    6,
+    3
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت امام زین‌العابدین علیه‌السلام",
+   "solar": [
+    1328,
+    3,
+    13
+   ],
+   "gregorian": [
+    1949,
+    6,
+    3
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز جوان",
+   "solar": [
+    1328,
+    3,
+    19
+   ],
+   "gregorian": [
+    1949,
+    6,
+    9
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت علی اکبر علیه‌السلام",
+   "solar": [
+    1328,
+    3,
+    19
+   ],
+   "gregorian": [
+    1949,
+    6,
+    9
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز جهانی مستضعفان",
+   "solar": [
+    1328,
+    3,
+    23
+   ],
+   "gregorian": [
+    1949,
+    6,
+    13
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز سربازان گمنام امام زمان (عج",
+   "solar": [
+    1328,
+    3,
+    23
+   ],
+   "gregorian": [
+    1949,
+    6,
+    13
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت قائم عجل‌الله‌تعالی‌فرجه",
+   "solar": [
+    1328,
+    3,
+    23
+   ],
+   "gregorian": [
+    1949,
+    6,
+    13
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "وفات آیت‌الله سید محمود طالقانی اولین امام جمعه تهران",
+   "solar": [
+    1328,
+    3,
+    24
+   ],
+   "gregorian": [
+    1949,
+    6,
+    14
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "وفات آیت‌الله سید محمود طالقانی اولین امام جمعه تهران",
+   "solar": [
+    1328,
+    4,
+    4
+   ],
+   "gregorian": [
+    1949,
+    6,
+    25
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "تیرگان",
+   "solar": [
+    1328,
+    4,
+    13
+   ],
+   "gregorian": [
+    1949,
+    7,
+    4
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "cultural",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "وفات حضرت خدیجه سلام الله علیها (3 سال قبل از هجرت",
+   "solar": [
+    1328,
+    4,
+    16
+   ],
+   "gregorian": [
+    1949,
+    7,
+    7
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز اکرام و تکریم خیرین",
+   "solar": [
+    1328,
+    4,
+    21
+   ],
+   "gregorian": [
+    1949,
+    7,
+    12
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت امام حسن مجتبی علیه‌السلام",
+   "solar": [
+    1328,
+    4,
+    21
+   ],
+   "gregorian": [
+    1949,
+    7,
+    12
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شب قدر",
+   "solar": [
+    1328,
+    4,
+    24
+   ],
+   "gregorian": [
+    1949,
+    7,
+    15
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز نهج‌البلاغه",
+   "solar": [
+    1328,
+    4,
+    25
+   ],
+   "gregorian": [
+    1949,
+    7,
+    16
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ضربت خوردن حضرت امام علی علیه‌السلام",
+   "solar": [
+    1328,
+    4,
+    25
+   ],
+   "gregorian": [
+    1949,
+    7,
+    16
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شب قدر",
+   "solar": [
+    1328,
+    4,
+    26
+   ],
+   "gregorian": [
+    1949,
+    7,
+    17
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت حضرت امام علی علیه‌السلام",
+   "solar": [
+    1328,
+    4,
+    27
+   ],
+   "gregorian": [
+    1949,
+    7,
+    18
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شب قدر",
+   "solar": [
+    1328,
+    4,
+    28
+   ],
+   "gregorian": [
+    1949,
+    7,
+    19
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "عید سعید فطر",
+   "solar": [
+    1328,
+    5,
+    6
+   ],
+   "gregorian": [
+    1949,
+    7,
+    28
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "تعطیل به مناسبت عید سعید فطر",
+   "solar": [
+    1328,
+    5,
+    7
+   ],
+   "gregorian": [
+    1949,
+    7,
+    29
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "صدور فرمان مشروطیت",
+   "solar": [
+    1328,
+    5,
+    14
+   ],
+   "gregorian": [
+    1949,
+    8,
+    5
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "D",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۱۴ مرداد ۱۳۸۲",
+    "note": "وقوع",
+    "gregorian": "2003-8-5",
+    "source": "دادهٔ PDF"
+   }
+  },
+  {
+   "title": "روز فرهنگ پهلوانی و ورزش زورخانه‌ای",
+   "solar": [
+    1328,
+    5,
+    22
+   ],
+   "gregorian": [
+    1949,
+    8,
+    13
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "فتح اندلس به دست مسلمانان",
+   "solar": [
+    1328,
+    5,
+    26
+   ],
+   "gregorian": [
+    1949,
+    8,
+    17
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز بزرگداشت علامه مجلسی",
+   "solar": [
+    1328,
+    5,
+    30
+   ],
+   "gregorian": [
+    1949,
+    8,
+    21
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳۰ مرداد ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   }
+  },
+  {
+   "title": "شهادت حضرت امام جعفر صادق علیه‌السلام",
+   "solar": [
+    1328,
+    5,
+    30
+   ],
+   "gregorian": [
+    1949,
+    8,
+    21
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "آغاز دهه کرامت",
+   "solar": [
+    1328,
+    6,
+    4
+   ],
+   "gregorian": [
+    1949,
+    8,
+    26
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز دختران",
+   "solar": [
+    1328,
+    6,
+    4
+   ],
+   "gregorian": [
+    1949,
+    8,
+    26
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت معصومه سلام الله علیها",
+   "solar": [
+    1328,
+    6,
+    4
+   ],
+   "gregorian": [
+    1949,
+    8,
+    26
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز بزرگداشت حضرت صالح بن موسی کاظم علیه‌السلام",
+   "solar": [
+    1328,
+    6,
+    8
+   ],
+   "gregorian": [
+    1949,
+    8,
+    30
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز بزرگداشت حضرت احمد بن موسی شاهچراغ علیه‌السلام",
+   "solar": [
+    1328,
+    6,
+    9
+   ],
+   "gregorian": [
+    1949,
+    8,
+    31
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "سالروز صدور فرمان حضرت امام خمینی (رحمةالله علیه) مبنی بر",
+   "solar": [
+    1328,
+    6,
+    14
+   ],
+   "gregorian": [
+    1949,
+    9,
+    5
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت امام رضا علیه‌السلام",
+   "solar": [
+    1328,
+    6,
+    14
+   ],
+   "gregorian": [
+    1949,
+    9,
+    5
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت حضرت امام محمد تقی علیه‌السلام «جوادالائمه»",
+   "solar": [
+    1328,
+    7,
+    1
+   ],
+   "gregorian": [
+    1949,
+    9,
+    23
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز ازدواج",
+   "solar": [
+    1328,
+    7,
+    3
+   ],
+   "gregorian": [
+    1949,
+    9,
+    25
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "سالروز ازدواج حضرت علی علیه‌السلام و حضرت فاطمه سلام الله علیها",
+   "solar": [
+    1328,
+    7,
+    3
+   ],
+   "gregorian": [
+    1949,
+    9,
+    25
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت مظلومانه زائران خانه خدا به دست مأموران آل سعود",
+   "solar": [
+    1328,
+    7,
+    8
+   ],
+   "gregorian": [
+    1949,
+    9,
+    30
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت حضرت امام محمد باقر علیه‌السلام",
+   "solar": [
+    1328,
+    7,
+    9
+   ],
+   "gregorian": [
+    1949,
+    10,
+    1
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "وفات آیت‌الله سیدمحمود طالقانی ق هادت حضرت امام محمد باقر علیه‌السلام اولین امام جمعه تهران",
+   "solar": [
+    1328,
+    7,
+    9
+   ],
+   "gregorian": [
+    1949,
+    10,
+    1
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز نخبگان",
+   "solar": [
+    1328,
+    7,
+    10
+   ],
+   "gregorian": [
+    1949,
+    10,
+    2
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۰ مهر ۱۴۰۴",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   }
+  },
+  {
+   "title": "روز عرفه (روز نیایش",
+   "solar": [
+    1328,
+    7,
+    11
+   ],
+   "gregorian": [
+    1949,
+    10,
+    3
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "آغاز دهه امامت و ولایت",
+   "solar": [
+    1328,
+    7,
+    12
+   ],
+   "gregorian": [
+    1949,
+    10,
+    4
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "عید سعید قربان",
+   "solar": [
+    1328,
+    7,
+    12
+   ],
+   "gregorian": [
+    1949,
+    10,
+    4
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "مهرگان",
+   "solar": [
+    1328,
+    7,
+    16
+   ],
+   "gregorian": [
+    1949,
+    10,
+    8
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "cultural",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت امام موسی کاظم علیه‌السلام 128",
+   "solar": [
+    1328,
+    7,
+    16
+   ],
+   "gregorian": [
+    1949,
+    10,
+    8
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت امام علی النقی الهادی علیه‌السلام",
+   "solar": [
+    1328,
+    7,
+    17
+   ],
+   "gregorian": [
+    1949,
+    10,
+    9
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "عید سعید غدیر خم",
+   "solar": [
+    1328,
+    7,
+    20
+   ],
+   "gregorian": [
+    1949,
+    10,
+    12
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت امام موسی کاظم علیه‌السلام",
+   "solar": [
+    1328,
+    7,
+    22
+   ],
+   "gregorian": [
+    1949,
+    10,
+    14
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز ملی پارالمپیک",
+   "solar": [
+    1328,
+    7,
+    24
+   ],
+   "gregorian": [
+    1949,
+    10,
+    16
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۴ مهر ۱۳۹۴",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   }
+  },
+  {
+   "title": "روز مباهله پیامبر اسلام صلی الله علیه و آله",
+   "solar": [
+    1328,
+    7,
+    26
+   ],
+   "gregorian": [
+    1949,
+    10,
+    18
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز خانواده و تکریم بازنشستگان",
+   "solar": [
+    1328,
+    7,
+    27
+   ],
+   "gregorian": [
+    1949,
+    10,
+    19
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "میلاد حضرت عیسی مسیح علیه‌السلام",
+   "solar": [
+    1328,
+    7,
+    27
+   ],
+   "gregorian": [
+    1949,
+    10,
+    19
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز بزرگداشت محتشم کاشانی",
+   "solar": [
+    1328,
+    8,
+    3
+   ],
+   "gregorian": [
+    1949,
+    10,
+    25
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز شعر و ادبیات آیینی",
+   "solar": [
+    1328,
+    8,
+    3
+   ],
+   "gregorian": [
+    1949,
+    10,
+    25
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "تاسوعای حسینی",
+   "solar": [
+    1328,
+    8,
+    11
+   ],
+   "gregorian": [
+    1949,
+    11,
+    2
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "عاشورای حسینی",
+   "solar": [
+    1328,
+    8,
+    12
+   ],
+   "gregorian": [
+    1949,
+    11,
+    3
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز تجلیل از اسرا و مفقودان",
+   "solar": [
+    1328,
+    8,
+    13
+   ],
+   "gregorian": [
+    1949,
+    11,
+    4
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت حضرت امام زین‌العابدین علیه‌السلام",
+   "solar": [
+    1328,
+    8,
+    14
+   ],
+   "gregorian": [
+    1949,
+    11,
+    5
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "تغییر قبله مسلمین از بیت‌المقدس به مکه معظمه",
+   "solar": [
+    1328,
+    8,
+    20
+   ],
+   "gregorian": [
+    1949,
+    11,
+    11
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت آیت‌الله امام زینالعابدین علیه‌السلام 95 به روایتی",
+   "solar": [
+    1328,
+    8,
+    27
+   ],
+   "gregorian": [
+    1949,
+    11,
+    18
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت حضرت امام زین‌العابدین علیه‌السلام",
+   "solar": [
+    1328,
+    8,
+    27
+   ],
+   "gregorian": [
+    1949,
+    11,
+    18
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "یادروز قیام مردم سیستان به خونخواهی شهدای کربلا",
+   "solar": [
+    1328,
+    8,
+    27
+   ],
+   "gregorian": [
+    1949,
+    11,
+    18
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت امام محمدباقر علیه‌السلام",
+   "solar": [
+    1328,
+    9,
+    5
+   ],
+   "gregorian": [
+    1949,
+    11,
+    26
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز بزرگداشت سلمان فارسی",
+   "solar": [
+    1328,
+    9,
+    9
+   ],
+   "gregorian": [
+    1949,
+    11,
+    30
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت حضرت امام حسن مجتبی علیه‌السلام",
+   "solar": [
+    1328,
+    9,
+    9
+   ],
+   "gregorian": [
+    1949,
+    11,
+    30
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت امام موسی کاظم علیه‌السلام",
+   "solar": [
+    1328,
+    9,
+    9
+   ],
+   "gregorian": [
+    1949,
+    11,
+    30
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت آیت‌الله سید حسن مدرس",
+   "solar": [
+    1328,
+    9,
+    10
+   ],
+   "gregorian": [
+    1949,
+    12,
+    1
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "D",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۱۰ آذر ۱۳۸۲",
+    "note": "وقوع",
+    "gregorian": "2003-12-1",
+    "source": "دادهٔ PDF"
+   }
+  },
+  {
+   "title": "شهادت میرزا کوچک خان جنگلی",
+   "solar": [
+    1328,
+    9,
+    11
+   ],
+   "gregorian": [
+    1949,
+    12,
+    2
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "D",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۱۱ آذر ۱۴۰۳",
+    "note": "وقوع",
+    "gregorian": "2024-12-1",
+    "source": "دادهٔ PDF"
+   }
+  },
+  {
+   "title": "وفات آیت‌الله سیدمحمود طالقانی اولین امام جمعه تهران",
+   "solar": [
+    1328,
+    9,
+    15
+   ],
+   "gregorian": [
+    1949,
+    12,
+    6
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "اربعین حسینی",
+   "solar": [
+    1328,
+    9,
+    22
+   ],
+   "gregorian": [
+    1949,
+    12,
+    13
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت محمدحسین فهمیده بسیجی 13 ساله",
+   "solar": [
+    1328,
+    9,
+    22
+   ],
+   "gregorian": [
+    1949,
+    12,
+    13
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "unverified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز وقف",
+   "solar": [
+    1328,
+    9,
+    29
+   ],
+   "gregorian": [
+    1949,
+    12,
+    20
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "رحلت حضرت رسول اکرم صلی الله علیه و آله",
+   "solar": [
+    1328,
+    9,
+    30
+   ],
+   "gregorian": [
+    1949,
+    12,
+    21
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شب یلدا و ترویج فرهنگ میهمانی و پیوند با خویشان",
+   "solar": [
+    1328,
+    9,
+    30
+   ],
+   "gregorian": [
+    1949,
+    12,
+    21
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "cultural",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت حضرت امام حسن مجتبی علیه‌السلام",
+   "solar": [
+    1328,
+    9,
+    30
+   ],
+   "gregorian": [
+    1949,
+    12,
+    21
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "یلدا شب چله",
+   "solar": [
+    1328,
+    9,
+    30
+   ],
+   "gregorian": [
+    1949,
+    12,
+    21
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "cultural",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت حضرت امام رضا علیه‌السلام",
+   "solar": [
+    1328,
+    10,
+    1
+   ],
+   "gregorian": [
+    1949,
+    12,
+    22
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "هجرت حضرت رسول اکرم صلی الله علیه و آله از مکه به مدینه",
+   "solar": [
+    1328,
+    10,
+    2
+   ],
+   "gregorian": [
+    1949,
+    12,
+    23
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "آغاز امامت حضرت ولی‌عصر (عج",
+   "solar": [
+    1328,
+    10,
+    9
+   ],
+   "gregorian": [
+    1949,
+    12,
+    30
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت حضرت امام حسن عسکری علیه‌السلام",
+   "solar": [
+    1328,
+    10,
+    9
+   ],
+   "gregorian": [
+    1949,
+    12,
+    30
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "آغاز هفته وحدت",
+   "solar": [
+    1328,
+    10,
+    13
+   ],
+   "gregorian": [
+    1950,
+    1,
+    3
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت رسول اکرم صلی الله علیه و آله به روایت اهل سنت (53 سال قبل از هجرت",
+   "solar": [
+    1328,
+    10,
+    13
+   ],
+   "gregorian": [
+    1950,
+    1,
+    3
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز وقف",
+   "solar": [
+    1328,
+    10,
+    17
+   ],
+   "gregorian": [
+    1950,
+    1,
+    7
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز اخلاق و مهرورزی",
+   "solar": [
+    1328,
+    10,
+    18
+   ],
+   "gregorian": [
+    1950,
+    1,
+    8
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت امام جعفر صادق علیه‌السلام مؤسس مذهب جعفری 83",
+   "solar": [
+    1328,
+    10,
+    18
+   ],
+   "gregorian": [
+    1950,
+    1,
+    8
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت رسول اکرم صلی الله علیه و آله (53 سال قبل از هجرت",
+   "solar": [
+    1328,
+    10,
+    18
+   ],
+   "gregorian": [
+    1950,
+    1,
+    8
+   ],
+   "lunar": [],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت میرزاتقی‌خان امیرکبیر",
+   "solar": [
+    1328,
+    10,
+    20
+   ],
+   "gregorian": [
+    1950,
+    1,
+    10
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "D",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۲۰ دی ۱۳۹۵",
+    "note": "وقوع",
+    "gregorian": "2017-1-9",
+    "source": "دادهٔ PDF"
+   }
+  },
+  {
+   "title": "ولادت حضرت عبدالعظیم حسنی علیه‌السلام",
+   "solar": [
+    1328,
+    11,
+    5
+   ],
+   "gregorian": [
+    1950,
+    1,
+    25
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت امام حسن عسکری علیه‌السلام",
+   "solar": [
+    1328,
+    11,
+    9
+   ],
+   "gregorian": [
+    1950,
+    1,
+    29
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "سده",
+   "solar": [
+    1328,
+    11,
+    10
+   ],
+   "gregorian": [
+    1950,
+    1,
+    30
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": false,
+   "category": "cultural",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "A",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "وفات حضرت معصومه سلام الله علیها",
+   "solar": [
+    1328,
+    11,
+    11
+   ],
+   "gregorian": [
+    1950,
+    1,
+    31
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "روز پرستار",
+   "solar": [
+    1328,
+    12,
+    5
+   ],
+   "gregorian": [
+    1950,
+    2,
+    24
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "ولادت حضرت زینب سلام الله علیها",
+   "solar": [
+    1328,
+    12,
+    5
+   ],
+   "gregorian": [
+    1950,
+    2,
+    24
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت آیت‌الله به روایتی سلام الله علیها 11",
+   "solar": [
+    1328,
+    12,
+    12
+   ],
+   "gregorian": [
+    1950,
+    3,
+    3
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  },
+  {
+   "title": "شهادت حضرت فاطمه زهرا سلام الله علیها",
+   "solar": [
+    1328,
+    12,
+    13
+   ],
+   "gregorian": [
+    1950,
+    3,
+    4
+   ],
+   "lunar": [],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "source": "rule",
+   "year": 1328,
+   "recurrenceType": "C",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   }
+  }
+ ]
+}

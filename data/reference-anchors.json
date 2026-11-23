@@ -1,0 +1,21 @@
+{
+ "version": 1,
+ "note": "لنگرهای مستندِ آغاز سالِ شمسی برای ممیزیِ موتور. هر لنگر یک تاریخِ عمومیِ ثبت‌شده در تقویم رسمی ایران است؛ دادهٔ PDF پروژه (۱۳۸۲–۱۴۰۶) همین‌ها را تأیید می‌کند.",
+ "anchors": [
+  {"jalali": [1349, 1, 1], "gregorian": "1970-03-21", "source": "تقویم رسمی ایران — مؤسسهٔ ژئوفیزیک دانشگاه تهران", "url": "https://calendar.ut.ac.ir/"},
+  {"jalali": [1358, 1, 1], "gregorian": "1979-03-21", "source": "تقویم رسمی ایران — مؤسسهٔ ژئوفیزیک دانشگاه تهران", "url": "https://calendar.ut.ac.ir/"},
+  {"jalali": [1367, 1, 1], "gregorian": "1988-03-21", "source": "تقویم رسمی ایران — مؤسسهٔ ژئوفیزیک دانشگاه تهران", "url": "https://calendar.ut.ac.ir/"},
+  {"jalali": [1375, 1, 1], "gregorian": "1996-03-20", "source": "تقویم رسمی ایران — مؤسسهٔ ژئوفیزیک دانشگاه تهران", "url": "https://calendar.ut.ac.ir/"},
+  {"jalali": [1379, 1, 1], "gregorian": "2000-03-20", "source": "تقویم رسمی ایران — مؤسسهٔ ژئوفیزیک دانشگاه تهران", "url": "https://calendar.ut.ac.ir/"},
+  {"jalali": [1382, 1, 1], "gregorian": "2003-03-21", "source": "جدول رسمی ۱۳۸۲ پروژه + تقویم مؤسسهٔ ژئوفیزیک", "url": "https://calendar.ut.ac.ir/"},
+  {"jalali": [1383, 1, 1], "gregorian": "2004-03-20", "source": "جدول رسمی ۱۳۸۳ پروژه + تقویم مؤسسهٔ ژئوفیزیک", "url": "https://calendar.ut.ac.ir/"},
+  {"jalali": [1387, 1, 1], "gregorian": "2008-03-20", "source": "جدول رسمی ۱۳۸۷ پروژه + تقویم مؤسسهٔ ژئوفیزیک", "url": "https://calendar.ut.ac.ir/"},
+  {"jalali": [1391, 1, 1], "gregorian": "2012-03-20", "source": "جدول رسمی ۱۳۹۱ پروژه + تقویم مؤسسهٔ ژئوفیزیک", "url": "https://calendar.ut.ac.ir/"},
+  {"jalali": [1395, 1, 1], "gregorian": "2016-03-20", "source": "جدول رسمی ۱۳۹۵ پروژه + تقویم مؤسسهٔ ژئوفیزیک", "url": "https://calendar.ut.ac.ir/"},
+  {"jalali": [1399, 1, 1], "gregorian": "2020-03-20", "source": "جدول رسمی ۱۳۹۹ پروژه + تقویم مؤسسهٔ ژئوفیزیک", "url": "https://calendar.ut.ac.ir/"},
+  {"jalali": [1403, 1, 1], "gregorian": "2024-03-20", "source": "جدول رسمی ۱۴۰۳ پروژه + تقویم مؤسسهٔ ژئوفیزیک", "url": "https://calendar.ut.ac.ir/"},
+  {"jalali": [1404, 1, 1], "gregorian": "2025-03-21", "source": "جدول رسمی ۱۴۰۴ پروژه + تقویم مؤسسهٔ ژئوفیزیک", "url": "https://calendar.ut.ac.ir/"},
+  {"jalali": [1405, 1, 1], "gregorian": "2026-03-21", "source": "جدول رسمی ۱۴۰۵ پروژه + تقویم مؤسسهٔ ژئوفیزیک", "url": "https://calendar.ut.ac.ir/"},
+  {"jalali": [1406, 1, 1], "gregorian": "2027-03-21", "source": "جدول رسمی ۱۴۰۶ پروژه + تقویم مؤسسهٔ ژئوفیزیک", "url": "https://calendar.ut.ac.ir/"}
+ ]
+}

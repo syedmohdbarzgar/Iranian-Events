@@ -1,0 +1,148 @@
+{
+ "generatedAt": "2026-11-23",
+ "scope": {
+  "firstYear": 1300,
+  "lastYear": 1420,
+  "daysChecked": 44195,
+  "officialYears": [
+   1382,
+   1383,
+   1384,
+   1385,
+   1386,
+   1387,
+   1388,
+   1389,
+   1390,
+   1391,
+   1392,
+   1394,
+   1395,
+   1397,
+   1398,
+   1399,
+   1400,
+   1401,
+   1403,
+   1404,
+   1405,
+   1406
+  ],
+  "missingOfficialYears": [
+   1393,
+   1396,
+   1402
+  ],
+  "reference": "Borkowski (1996) / jalaali-js"
+ },
+ "checks": [
+  {
+   "id": "CAL-001",
+   "name": "تبدیلِ شمسی↔میلادی (همهٔ روزها)",
+   "detail": "هر روز ۱۳۰۰–۱۴۲۰ با مرجعِ مستقل و رفت‌وبرگشت",
+   "status": "pass",
+   "measured": 121,
+   "failures": 0,
+   "samples": []
+  },
+  {
+   "id": "CAL-002",
+   "name": "کبیسه‌ها (۱۱۷۹–۱۵۹۹)",
+   "detail": "مقایسه با مرجعِ مستقل",
+   "status": "pass",
+   "measured": 421,
+   "failures": 0,
+   "samples": []
+  },
+  {
+   "id": "CAL-003",
+   "name": "طولِ ماه‌ها و روزهای سال",
+   "detail": "",
+   "status": "pass",
+   "measured": 121,
+   "failures": 0,
+   "samples": []
+  },
+  {
+   "id": "CAL-004",
+   "name": "روزِ هفته",
+   "detail": "شنبه=۰ … جمعه=۶",
+   "status": "pass",
+   "measured": 44195,
+   "failures": 0,
+   "samples": []
+  },
+  {
+   "id": "CAL-005",
+   "name": "مرزِ سال",
+   "detail": "",
+   "status": "pass",
+   "measured": 44195,
+   "failures": 0,
+   "samples": []
+  },
+  {
+   "id": "CAL-006",
+   "name": "ردِ تاریخِ نامعتبر",
+   "detail": "",
+   "status": "pass",
+   "measured": 9,
+   "failures": 0,
+   "samples": []
+  },
+  {
+   "id": "CAL-007",
+   "name": "اختلافِ بازه‌های چندساله",
+   "detail": "",
+   "status": "pass",
+   "measured": 347,
+   "failures": 0,
+   "samples": []
+  },
+  {
+   "id": "CAL-008",
+   "name": "جدول‌های رسمی: تبدیل و روزِ هفته",
+   "detail": "",
+   "status": "pass",
+   "measured": 3874,
+   "failures": 0,
+   "samples": []
+  },
+  {
+   "id": "CAL-009",
+   "name": "توالی و مرزِ سال در جدول‌های رسمی",
+   "detail": "",
+   "status": "pass",
+   "measured": 3874,
+   "failures": 0,
+   "samples": []
+  },
+  {
+   "id": "CAL-010",
+   "name": "لنگرهای مستندِ نوروز",
+   "detail": "",
+   "status": "pass",
+   "measured": 15,
+   "failures": 0,
+   "samples": []
+  },
+  {
+   "id": "CAL-011",
+   "name": "پوششِ سال‌های رسمی",
+   "detail": "",
+   "status": "warn",
+   "measured": 25,
+   "failures": 3,
+   "samples": [
+    "1393: جدولِ رسمی در پروژه نیست (تولید قاعده‌محور)",
+    "1396: جدولِ رسمی در پروژه نیست (تولید قاعده‌محور)",
+    "1402: جدولِ رسمی در پروژه نیست (تولید قاعده‌محور)"
+   ]
+  }
+ ],
+ "counts": {
+  "pass": 10,
+  "warn": 1
+ },
+ "pass": true
+}

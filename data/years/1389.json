@@ -1,0 +1,10260 @@
+{
+ "year": 1389,
+ "mode": "data",
+ "count": 319,
+ "droppedRows": 3,
+ "addedRows": 146,
+ "rows": [
+  {
+   "title": "عید نوروز",
+   "solar": [
+    1389,
+    1,
+    1
+   ],
+   "gregorian": [
+    2010,
+    3,
+    21
+   ],
+   "lunar": [
+    1431,
+    4,
+    5
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "cultural",
+   "recurrenceType": "A",
+   "eventId": "E0008",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "ش آغاز ه عید نوروز هجوم مأموران ستم شاهی پهلوی به مدرسه فیضیه قم 1342 عملیات فتحالمبین",
+   "solar": [
+    1389,
+    1,
+    2
+   ],
+   "gregorian": [
+    2010,
+    3,
+    22
+   ],
+   "lunar": [
+    1431,
+    4,
+    6
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "cultural",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "آغاز عملیات فتح‌المبین",
+   "solar": [
+    1389,
+    1,
+    2
+   ],
+   "gregorian": [
+    2010,
+    3,
+    22
+   ],
+   "lunar": [
+    1431,
+    4,
+    6
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0100",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲ فروردین ۱۳۶۱",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "عید نوروز",
+   "solar": [
+    1389,
+    1,
+    3
+   ],
+   "gregorian": [
+    2010,
+    3,
+    23
+   ],
+   "lunar": [
+    1431,
+    4,
+    7
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "cultural",
+   "recurrenceType": "A",
+   "eventId": "E0009",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی هواشناسی",
+   "solar": [
+    1389,
+    1,
+    3
+   ],
+   "gregorian": [
+    2010,
+    3,
+    23
+   ],
+   "lunar": [
+    1431,
+    4,
+    7
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0087",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۳ مارس ۲۰۰۳ — ۳ فروردین ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2003-03-23",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "عید نوروز ولادت حضرت امام حسن عسکری علیه‌السلام",
+   "solar": [
+    1389,
+    1,
+    4
+   ],
+   "gregorian": [
+    2010,
+    3,
+    24
+   ],
+   "lunar": [
+    1431,
+    4,
+    8
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "cultural",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "وفات حضرت معصومه سلام الله علیها",
+   "solar": [
+    1389,
+    1,
+    7
+   ],
+   "gregorian": [
+    2010,
+    3,
+    27
+   ],
+   "lunar": [
+    1431,
+    4,
+    11
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0477",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جمهوری اسلامی ایران",
+   "solar": [
+    1389,
+    1,
+    12
+   ],
+   "gregorian": [
+    2010,
+    4,
+    1
+   ],
+   "lunar": [
+    1431,
+    4,
+    16
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0220",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۲ فروردین ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز طبیعت",
+   "solar": [
+    1389,
+    1,
+    13
+   ],
+   "gregorian": [
+    2010,
+    4,
+    2
+   ],
+   "lunar": [
+    1431,
+    4,
+    17
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0268",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۳ فروردین ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "سیزده‌بدر",
+   "solar": [
+    1389,
+    1,
+    13
+   ],
+   "gregorian": [
+    2010,
+    4,
+    2
+   ],
+   "lunar": [
+    1431,
+    4,
+    17
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "cultural",
+   "recurrenceType": "A",
+   "eventId": "E0005",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز ذخایر ژنتیکی و زیستی",
+   "solar": [
+    1389,
+    1,
+    15
+   ],
+   "gregorian": [
+    2010,
+    4,
+    4
+   ],
+   "lunar": [
+    1431,
+    4,
+    19
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0246",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ فروردین ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز سلامتی روز جهانی بهداشت",
+   "solar": [
+    1389,
+    1,
+    18
+   ],
+   "gregorian": [
+    2010,
+    4,
+    7
+   ],
+   "lunar": [
+    1431,
+    4,
+    22
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0252",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۸ فروردین ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "1359 عراق بعث حکومت توسط شهادت آیت‌الله سید محمد باقر صدر و خواهر ایشان بنتالهدی",
+   "solar": [
+    1389,
+    1,
+    19
+   ],
+   "gregorian": [
+    2010,
+    4,
+    8
+   ],
+   "lunar": [
+    1431,
+    4,
+    23
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت آیت‌الله سیدمحمدباقر صدر و خواهرش بنت‌الهدی به دست حکومت بعث عراق",
+   "solar": [
+    1389,
+    1,
+    19
+   ],
+   "gregorian": [
+    2010,
+    4,
+    8
+   ],
+   "lunar": [
+    1431,
+    4,
+    23
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0359",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۹ فروردین ۱۳۷۸",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز ملی فناوری هستهای",
+   "solar": [
+    1389,
+    1,
+    20
+   ],
+   "gregorian": [
+    2010,
+    4,
+    9
+   ],
+   "lunar": [
+    1431,
+    4,
+    24
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0301",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۰ فروردین ۱۳۸۶",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز ملی فناوری هسته‌ای و شهادت سید مرتضی آوینی",
+   "solar": [
+    1389,
+    1,
+    20
+   ],
+   "gregorian": [
+    2010,
+    4,
+    9
+   ],
+   "lunar": [
+    1431,
+    4,
+    24
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0302",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۰ فروردین ۱۳۸۶",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت امیر سپهبد علی صیاد شیرازی",
+   "solar": [
+    1389,
+    1,
+    21
+   ],
+   "gregorian": [
+    2010,
+    4,
+    10
+   ],
+   "lunar": [
+    1431,
+    4,
+    25
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0036",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۲۱ فروردین ۱۳۸۵",
+    "note": "وقوع",
+    "gregorian": "2006-4-10",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت عطار نیشابوری",
+   "solar": [
+    1389,
+    1,
+    25
+   ],
+   "gregorian": [
+    2010,
+    4,
+    14
+   ],
+   "lunar": [
+    1431,
+    4,
+    29
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0183",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۵ فروردین ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز ارتش جمهوری اسلامی و نیروی زمینی",
+   "solar": [
+    1389,
+    1,
+    29
+   ],
+   "gregorian": [
+    2010,
+    4,
+    18
+   ],
+   "lunar": [
+    1431,
+    5,
+    4
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0136",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۹ فروردین ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت زینب سلام الله علیها",
+   "solar": [
+    1389,
+    1,
+    31
+   ],
+   "gregorian": [
+    2010,
+    4,
+    20
+   ],
+   "lunar": [
+    1431,
+    5,
+    6
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0496",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-split",
+   "year": 1389
+  },
+  {
+   "title": "روز پرستار",
+   "solar": [
+    1389,
+    1,
+    31
+   ],
+   "gregorian": [
+    2010,
+    4,
+    20
+   ],
+   "lunar": [
+    1431,
+    5,
+    6
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0435",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-split",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت سعدی",
+   "solar": [
+    1389,
+    2,
+    1
+   ],
+   "gregorian": [
+    2010,
+    4,
+    21
+   ],
+   "lunar": [
+    1431,
+    5,
+    7
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0167",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱ اردیبهشت ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "1359 فرهنگی انقلاب اعلام سالروز 1358 اسلامی تأسیس سپاه پاسداران انقلاب روز زمین پاک",
+   "solar": [
+    1389,
+    2,
+    2
+   ],
+   "gregorian": [
+    2010,
+    4,
+    22
+   ],
+   "lunar": [
+    1431,
+    5,
+    8
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0016",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۲ اردیبهشت ۱۳۸۲",
+    "note": "وقوع",
+    "gregorian": "2003-4-22",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت شیخ بهایی",
+   "solar": [
+    1389,
+    2,
+    3
+   ],
+   "gregorian": [
+    2010,
+    4,
+    23
+   ],
+   "lunar": [
+    1431,
+    5,
+    9
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0175",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳ اردیبهشت ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت امیر سپهبد قرنی",
+   "solar": [
+    1389,
+    2,
+    3
+   ],
+   "gregorian": [
+    2010,
+    4,
+    23
+   ],
+   "lunar": [
+    1431,
+    5,
+    9
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0364",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳ اردیبهشت ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شکست حمله نظامی آمریکا به ایران در طبس",
+   "solar": [
+    1389,
+    2,
+    5
+   ],
+   "gregorian": [
+    2010,
+    4,
+    25
+   ],
+   "lunar": [
+    1431,
+    5,
+    11
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0373",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۵ اردیبهشت ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت آیت‌الله به روایتی سلام الله علیها 11",
+   "solar": [
+    1389,
+    2,
+    7
+   ],
+   "gregorian": [
+    2010,
+    4,
+    27
+   ],
+   "lunar": [
+    1431,
+    5,
+    13
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0443",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز شوراها",
+   "solar": [
+    1389,
+    2,
+    9
+   ],
+   "gregorian": [
+    2010,
+    4,
+    29
+   ],
+   "lunar": [
+    1431,
+    5,
+    15
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0261",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۹ اردیبهشت ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز ملی خلیج فارس آغاز عملیات بیت‌المقدس",
+   "solar": [
+    1389,
+    2,
+    10
+   ],
+   "gregorian": [
+    2010,
+    4,
+    30
+   ],
+   "lunar": [
+    1431,
+    5,
+    16
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی کار و کارگر",
+   "solar": [
+    1389,
+    2,
+    11
+   ],
+   "gregorian": [
+    2010,
+    5,
+    1
+   ],
+   "lunar": [
+    1431,
+    5,
+    17
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0090",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱ مه ۲۰۰۵ — ۱۱ اردیبهشت ۱۳۸۴",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2005-05-01",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت استاد مرتضی مطهری 1358 روز معلم",
+   "solar": [
+    1389,
+    2,
+    12
+   ],
+   "gregorian": [
+    2010,
+    5,
+    2
+   ],
+   "lunar": [
+    1431,
+    5,
+    18
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0025",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۱۲ اردیبهشت ۱۳۸۳",
+    "note": "وقوع",
+    "gregorian": "2004-5-1",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "بزرگداشت شیخ صدوق روز",
+   "solar": [
+    1389,
+    2,
+    15
+   ],
+   "gregorian": [
+    2010,
+    5,
+    5
+   ],
+   "lunar": [
+    1431,
+    5,
+    21
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی ماما",
+   "solar": [
+    1389,
+    2,
+    15
+   ],
+   "gregorian": [
+    2010,
+    5,
+    5
+   ],
+   "lunar": [
+    1431,
+    5,
+    21
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0075",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۵ مه ۲۰۰۳ — ۱۵ اردیبهشت ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2003-05-05",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "اسناد ملی روز",
+   "solar": [
+    1389,
+    2,
+    17
+   ],
+   "gregorian": [
+    2010,
+    5,
+    7
+   ],
+   "lunar": [
+    1431,
+    5,
+    23
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "احمر جهانی صلیب سرخ و هلال روز",
+   "solar": [
+    1389,
+    2,
+    18
+   ],
+   "gregorian": [
+    2010,
+    5,
+    8
+   ],
+   "lunar": [
+    1431,
+    5,
+    24
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "بزرگداشت شیخ کلینی روز",
+   "solar": [
+    1389,
+    2,
+    19
+   ],
+   "gregorian": [
+    2010,
+    5,
+    9
+   ],
+   "lunar": [
+    1431,
+    5,
+    25
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز اسناد ملی و میراث مکتوب",
+   "solar": [
+    1389,
+    2,
+    19
+   ],
+   "gregorian": [
+    2010,
+    5,
+    9
+   ],
+   "lunar": [
+    1431,
+    5,
+    25
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0140",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۹ اردیبهشت ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "لغو امتیاز تنباکو به فتوای آیت‌الله میرزا حسن شیرازی",
+   "solar": [
+    1389,
+    2,
+    24
+   ],
+   "gregorian": [
+    2010,
+    5,
+    14
+   ],
+   "lunar": [
+    1431,
+    5,
+    30
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0379",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۴ اردیبهشت ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت فردوسی",
+   "solar": [
+    1389,
+    2,
+    25
+   ],
+   "gregorian": [
+    2010,
+    5,
+    15
+   ],
+   "lunar": [
+    1431,
+    6,
+    1
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0188",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۵ اردیبهشت ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی خانواده",
+   "solar": [
+    1389,
+    2,
+    25
+   ],
+   "gregorian": [
+    2010,
+    5,
+    15
+   ],
+   "lunar": [
+    1431,
+    6,
+    1
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0068",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ مه ۲۰۰۴ — ۲۶ اردیبهشت ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2004-05-15",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت حکیم ابوالقاسم فردوسی",
+   "solar": [
+    1389,
+    2,
+    25
+   ],
+   "gregorian": [
+    2010,
+    5,
+    15
+   ],
+   "lunar": [
+    1431,
+    6,
+    1
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0160",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۵ اردیبهشت ۱۳۷۹",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت رودکی",
+   "solar": [
+    1389,
+    2,
+    26
+   ],
+   "gregorian": [
+    2010,
+    5,
+    16
+   ],
+   "lunar": [
+    1431,
+    6,
+    2
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0410",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "عمومی روابط و ارتباطات شهادت حضرت فاطمه زهرا سلام الله علیها 11 روز",
+   "solar": [
+    1389,
+    2,
+    27
+   ],
+   "gregorian": [
+    2010,
+    5,
+    17
+   ],
+   "lunar": [
+    1431,
+    6,
+    3
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی ارتباطات",
+   "solar": [
+    1389,
+    2,
+    27
+   ],
+   "gregorian": [
+    2010,
+    5,
+    17
+   ],
+   "lunar": [
+    1431,
+    6,
+    3
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0062",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۷ مه ۲۰۰۴ — ۲۸ اردیبهشت ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2004-05-17",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت حضرت فاطمه زهرا سلام الله علیها",
+   "solar": [
+    1389,
+    2,
+    28
+   ],
+   "gregorian": [
+    2010,
+    5,
+    18
+   ],
+   "lunar": [
+    1431,
+    6,
+    4
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0456",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت حکیم عمر خیام روز جهانی موزه و میراث فرهنگی",
+   "solar": [
+    1389,
+    2,
+    28
+   ],
+   "gregorian": [
+    2010,
+    5,
+    18
+   ],
+   "lunar": [
+    1431,
+    6,
+    4
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0084",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۸ مه ۲۰۰۳ — ۲۸ اردیبهشت ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2003-05-18",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی توسعه فرهنگی",
+   "solar": [
+    1389,
+    2,
+    31
+   ],
+   "gregorian": [
+    2010,
+    5,
+    21
+   ],
+   "lunar": [
+    1431,
+    6,
+    7
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0066",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۱ مه ۲۰۰۳ — ۳۱ اردیبهشت ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2003-05-21",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بهرهوری و بهینه سازی مصرف روز بزرگداشت ملاصدرا صدرالمتألهین",
+   "solar": [
+    1389,
+    3,
+    1
+   ],
+   "gregorian": [
+    2010,
+    5,
+    22
+   ],
+   "lunar": [
+    1431,
+    6,
+    8
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز بهره‌وری و بهینه‌سازی مصرف",
+   "solar": [
+    1389,
+    3,
+    1
+   ],
+   "gregorian": [
+    2010,
+    5,
+    22
+   ],
+   "lunar": [
+    1431,
+    6,
+    8
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0201",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱ خرداد ۱۳۸۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "فتح خرمشهر در عملیات بیت‌المقدس 1361 و روز مقاومت، ایثار و پیروزی",
+   "solar": [
+    1389,
+    3,
+    3
+   ],
+   "gregorian": [
+    2010,
+    5,
+    24
+   ],
+   "lunar": [
+    1431,
+    6,
+    10
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز نسیم مهر (روز حمایت از خانواده زندانیان",
+   "solar": [
+    1389,
+    3,
+    5
+   ],
+   "gregorian": [
+    2010,
+    5,
+    26
+   ],
+   "lunar": [
+    1431,
+    6,
+    12
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0312",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۵ خرداد ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "خردادگان",
+   "solar": [
+    1389,
+    3,
+    6
+   ],
+   "gregorian": [
+    2010,
+    5,
+    27
+   ],
+   "lunar": [
+    1431,
+    6,
+    13
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "cultural",
+   "recurrenceType": "A",
+   "eventId": "E0003",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "افتتاح اولین دوره مجلس شورای اسلامی",
+   "solar": [
+    1389,
+    3,
+    7
+   ],
+   "gregorian": [
+    2010,
+    5,
+    28
+   ],
+   "lunar": [
+    1431,
+    6,
+    14
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0108",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ خرداد ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز تکریم مادران و همسران شهدا",
+   "solar": [
+    1389,
+    3,
+    7
+   ],
+   "gregorian": [
+    2010,
+    5,
+    28
+   ],
+   "lunar": [
+    1431,
+    6,
+    14
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0416",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "وفات حضرت ام‌البنین سلام الله علیها",
+   "solar": [
+    1389,
+    3,
+    7
+   ],
+   "gregorian": [
+    2010,
+    5,
+    28
+   ],
+   "lunar": [
+    1431,
+    6,
+    14
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0474",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی بدون دخانیات",
+   "solar": [
+    1389,
+    3,
+    10
+   ],
+   "gregorian": [
+    2010,
+    5,
+    31
+   ],
+   "lunar": [
+    1431,
+    6,
+    17
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0064",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳۱ مه ۲۰۰۳ — ۱۰ خرداد ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2003-05-31",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت فاطمه زهرا سلام الله علیها (هشتم قبل از هجرت",
+   "solar": [
+    1389,
+    3,
+    14
+   ],
+   "gregorian": [
+    2010,
+    6,
+    4
+   ],
+   "lunar": [
+    1431,
+    6,
+    21
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0500",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "رحلت حضرت امام خمینی ره رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران 1368 انتخاب حضرت آیت‌الله خامنهای به رهبری",
+   "solar": [
+    1389,
+    3,
+    14
+   ],
+   "gregorian": [
+    2010,
+    6,
+    4
+   ],
+   "lunar": [
+    1431,
+    6,
+    21
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0126",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۴ خرداد ۱۳۶۸",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "انتخاب حضرت آیت‌الله امام خامنه‌ای به رهبری",
+   "solar": [
+    1389,
+    3,
+    14
+   ],
+   "gregorian": [
+    2010,
+    6,
+    4
+   ],
+   "lunar": [
+    1431,
+    6,
+    21
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0110",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۴ خرداد ۱۳۶۸",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "تولد حضرت امام خمینی (ره)، رهبر کبیر انقلاب اسلامی",
+   "solar": [
+    1389,
+    3,
+    14
+   ],
+   "gregorian": [
+    2010,
+    6,
+    4
+   ],
+   "lunar": [
+    1431,
+    6,
+    21
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0402",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز زن",
+   "solar": [
+    1389,
+    3,
+    14
+   ],
+   "gregorian": [
+    2010,
+    6,
+    4
+   ],
+   "lunar": [
+    1431,
+    6,
+    21
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0422",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "قیام خونین 15 خرداد 1342 روز جهانی محیط زیست",
+   "solar": [
+    1389,
+    3,
+    15
+   ],
+   "gregorian": [
+    2010,
+    6,
+    5
+   ],
+   "lunar": [
+    1431,
+    6,
+    22
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "زندانی شدن حضرت امام خمینی (ره) به دست مأموران ستم‌شاهی پهلوی",
+   "solar": [
+    1389,
+    3,
+    15
+   ],
+   "gregorian": [
+    2010,
+    6,
+    5
+   ],
+   "lunar": [
+    1431,
+    6,
+    22
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0348",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ خرداد ۱۳۵۸",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت آیت‌الله سعیدی به دست مأموران ستم شاهی پهلوی 1349 روز جهانی صنایع دستی",
+   "solar": [
+    1389,
+    3,
+    20
+   ],
+   "gregorian": [
+    2010,
+    6,
+    10
+   ],
+   "lunar": [
+    1431,
+    6,
+    27
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت امام محمد باقر علیه‌السلام",
+   "solar": [
+    1389,
+    3,
+    24
+   ],
+   "gregorian": [
+    2010,
+    6,
+    14
+   ],
+   "lunar": [
+    1431,
+    7,
+    2
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0489",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز ترویج زکات",
+   "solar": [
+    1389,
+    3,
+    24
+   ],
+   "gregorian": [
+    2010,
+    6,
+    14
+   ],
+   "lunar": [
+    1431,
+    7,
+    2
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0415",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز گل و گیاه",
+   "solar": [
+    1389,
+    3,
+    25
+   ],
+   "gregorian": [
+    2010,
+    6,
+    15
+   ],
+   "lunar": [
+    1431,
+    7,
+    3
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0345",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۵ خرداد ۱۳۸۶",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت سربازان دلیر شهادت حضرت امام علیالنقی الهادی علیه‌السلام 254 اسلام: بخارایی، امانی، صفار هرندی و نیک نژاد",
+   "solar": [
+    1389,
+    3,
+    26
+   ],
+   "gregorian": [
+    2010,
+    6,
+    16
+   ],
+   "lunar": [
+    1431,
+    7,
+    4
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0041",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۲۶ خرداد ۱۳۸۲",
+    "note": "وقوع",
+    "gregorian": "2003-6-16",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت حضرت امام علی النقی الهادی علیه‌السلام",
+   "solar": [
+    1389,
+    3,
+    26
+   ],
+   "gregorian": [
+    2010,
+    6,
+    16
+   ],
+   "lunar": [
+    1431,
+    7,
+    4
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0451",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "خمینی (ره ( 1358 ه روز جهاد کشاورزی ) تشکیل جهاد سازندگی به فرمان حضرت امام ش) روز جهانی بیابانزدایی",
+   "solar": [
+    1389,
+    3,
+    27
+   ],
+   "gregorian": [
+    2010,
+    6,
+    17
+   ],
+   "lunar": [
+    1431,
+    7,
+    5
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0222",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۷ خرداد ۱۳۷۸",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی بیابان‌زدایی",
+   "solar": [
+    1389,
+    3,
+    27
+   ],
+   "gregorian": [
+    2010,
+    6,
+    17
+   ],
+   "lunar": [
+    1431,
+    7,
+    5
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0065",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۷ ژوئن ۲۰۰۴ — ۲۸ خرداد ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2004-06-17",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "درگذشت دکتر علی شریعتی",
+   "solar": [
+    1389,
+    3,
+    29
+   ],
+   "gregorian": [
+    2010,
+    6,
+    19
+   ],
+   "lunar": [
+    1431,
+    7,
+    7
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0023",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۲۹ خرداد ۱۳۸۲",
+    "note": "وقوع",
+    "gregorian": "2003-6-19",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت زائران حرم رضوی (ع) به دست ایادی آمریکا",
+   "solar": [
+    1389,
+    3,
+    30
+   ],
+   "gregorian": [
+    2010,
+    6,
+    20
+   ],
+   "lunar": [
+    1431,
+    7,
+    8
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0040",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۳۰ خرداد ۱۳۸۹",
+    "note": "وقوع",
+    "gregorian": "2010-6-20",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت زائران حرم رضوی ع به دست ایادی آمریکا عاشورای",
+   "solar": [
+    1389,
+    3,
+    30
+   ],
+   "gregorian": [
+    2010,
+    6,
+    20
+   ],
+   "lunar": [
+    1431,
+    7,
+    8
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0366",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳۰ خرداد ۱۳۸۹",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت زائران حرم رضوی علیه‌السلام به دست ایادی آمریکا عاشورای",
+   "solar": [
+    1389,
+    3,
+    30
+   ],
+   "gregorian": [
+    2010,
+    6,
+    20
+   ],
+   "lunar": [
+    1431,
+    7,
+    8
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0367",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳۰ خرداد ۱۳۸۵",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت دکتر مصطفی چمران",
+   "solar": [
+    1389,
+    3,
+    31
+   ],
+   "gregorian": [
+    2010,
+    6,
+    21
+   ],
+   "lunar": [
+    1431,
+    7,
+    9
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0039",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۳۱ خرداد ۱۳۸۲",
+    "note": "وقوع",
+    "gregorian": "2003-6-21",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز بسیج استادان",
+   "solar": [
+    1389,
+    3,
+    31
+   ],
+   "gregorian": [
+    2010,
+    6,
+    21
+   ],
+   "lunar": [
+    1431,
+    7,
+    9
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0196",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳۱ خرداد ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "سالروز صدور فرمان حضرت امام خمینی (رحمةالله علیه) مبنی بر تأسیس سازمان تبلیغات اسلامی",
+   "solar": [
+    1389,
+    4,
+    1
+   ],
+   "gregorian": [
+    2010,
+    6,
+    22
+   ],
+   "lunar": [
+    1431,
+    7,
+    10
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0356",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱ تیر ۱۳۷۹",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز اصناف",
+   "solar": [
+    1389,
+    4,
+    1
+   ],
+   "gregorian": [
+    2010,
+    6,
+    22
+   ],
+   "lunar": [
+    1431,
+    7,
+    10
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0142",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱ تیر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز تبلیغ و اطلاع‌رسانی دینی",
+   "solar": [
+    1389,
+    4,
+    1
+   ],
+   "gregorian": [
+    2010,
+    6,
+    22
+   ],
+   "lunar": [
+    1431,
+    7,
+    10
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0208",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱ تیر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت امام محمدتقی علیه‌السلام «جوادالائمه»",
+   "solar": [
+    1389,
+    4,
+    2
+   ],
+   "gregorian": [
+    2010,
+    6,
+    23
+   ],
+   "lunar": [
+    1431,
+    7,
+    11
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0491",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز پسر",
+   "solar": [
+    1389,
+    4,
+    2
+   ],
+   "gregorian": [
+    2010,
+    6,
+    23
+   ],
+   "lunar": [
+    1431,
+    7,
+    11
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0436",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "آغاز ایام البیض ولادت حضرت امام علی علیه‌السلام 23 سال قبل از هجرت اعتکاف روز جهانی مبارزه با مواد مخدر",
+   "solar": [
+    1389,
+    4,
+    5
+   ],
+   "gregorian": [
+    2010,
+    6,
+    26
+   ],
+   "lunar": [
+    1431,
+    7,
+    14
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز پدر",
+   "solar": [
+    1389,
+    4,
+    5
+   ],
+   "gregorian": [
+    2010,
+    6,
+    26
+   ],
+   "lunar": [
+    1431,
+    7,
+    14
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0434",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "وفات حضرت زینب سلام الله علیها 62 شهادت مظلومانه آیت‌الله دکتر بهشتی",
+   "solar": [
+    1389,
+    4,
+    6
+   ],
+   "gregorian": [
+    2010,
+    6,
+    27
+   ],
+   "lunar": [
+    1431,
+    7,
+    15
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "تن از یاران امام خمینی ره با انفجار بمب به دست منافقان در دفتر مرکزی حزب جمهوری اسلامی 1360 روز قوه قضاییه تغییر قبله مسلمین از بیت‌المقدس به مکه معظمه",
+   "solar": [
+    1389,
+    4,
+    7
+   ],
+   "gregorian": [
+    2010,
+    6,
+    28
+   ],
+   "lunar": [
+    1431,
+    7,
+    16
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت مظلومانه آیت‌الله دکتر بهشتی و ۷۲ تن از یاران امام خمینی (ره) با انفجار بمب به دست منافقان در دفتر مرکزی حزب جمهوری اسلامی",
+   "solar": [
+    1389,
+    4,
+    7
+   ],
+   "gregorian": [
+    2010,
+    6,
+    28
+   ],
+   "lunar": [
+    1431,
+    7,
+    16
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0043",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۷ تیر ۱۳۸۵",
+    "note": "وقوع",
+    "gregorian": "2006-6-28",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "بمباران شیمیایی شهر سردشت",
+   "solar": [
+    1389,
+    4,
+    7
+   ],
+   "gregorian": [
+    2010,
+    6,
+    28
+   ],
+   "lunar": [
+    1431,
+    7,
+    16
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0115",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ تیر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ارتحال حضرت زینب سلام الله علیها",
+   "solar": [
+    1389,
+    4,
+    7
+   ],
+   "gregorian": [
+    2010,
+    6,
+    28
+   ],
+   "lunar": [
+    1431,
+    7,
+    16
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0397",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز مبارزه با سلاح‌های شیمیایی و میکروبی",
+   "solar": [
+    1389,
+    4,
+    8
+   ],
+   "gregorian": [
+    2010,
+    6,
+    29
+   ],
+   "lunar": [
+    1431,
+    7,
+    17
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0288",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۸ تیر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز صنعت و معدن",
+   "solar": [
+    1389,
+    4,
+    10
+   ],
+   "gregorian": [
+    2010,
+    7,
+    1
+   ],
+   "lunar": [
+    1431,
+    7,
+    19
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0265",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۰ تیر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز آزادسازی شهر مهران",
+   "solar": [
+    1389,
+    4,
+    10
+   ],
+   "gregorian": [
+    2010,
+    7,
+    1
+   ],
+   "lunar": [
+    1431,
+    7,
+    19
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0129",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۰ تیر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت صائب تبریزی",
+   "solar": [
+    1389,
+    4,
+    10
+   ],
+   "gregorian": [
+    2010,
+    7,
+    1
+   ],
+   "lunar": [
+    1431,
+    7,
+    19
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0181",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۰ تیر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز دیپلماسی فرهنگی و تعامل با جهان",
+   "solar": [
+    1389,
+    4,
+    10
+   ],
+   "gregorian": [
+    2010,
+    7,
+    1
+   ],
+   "lunar": [
+    1431,
+    7,
+    19
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0245",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۰ تیر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "یادروز ورود حضرت امام رضا علیه‌السلام به نیشابور و نقل حدیث سلسله‌الذهب",
+   "solar": [
+    1389,
+    4,
+    10
+   ],
+   "gregorian": [
+    2010,
+    7,
+    1
+   ],
+   "lunar": [
+    1431,
+    7,
+    19
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0390",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۰ تیر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "به دست منافقان 1361 محراب شهادت آیت‌الله صدوقی چهارمین شهید",
+   "solar": [
+    1389,
+    4,
+    11
+   ],
+   "gregorian": [
+    2010,
+    7,
+    2
+   ],
+   "lunar": [
+    1431,
+    7,
+    20
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت آیت‌الله صدوقی چهارمین شهید محراب به دست منافقین",
+   "solar": [
+    1389,
+    4,
+    11
+   ],
+   "gregorian": [
+    2010,
+    7,
+    2
+   ],
+   "lunar": [
+    1431,
+    7,
+    20
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0033",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۱۱ تیر ۱۳۸۲",
+    "note": "وقوع",
+    "gregorian": "2003-7-2",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "جنایتکار ایران توسط ناوگان آمریکای اسلامی سرنگونی هواپیمای مسافربری جمهوری",
+   "solar": [
+    1389,
+    4,
+    12
+   ],
+   "gregorian": [
+    2010,
+    7,
+    3
+   ],
+   "lunar": [
+    1431,
+    7,
+    21
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0125",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۲ تیر ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "حمله ددمنشانه ناوگان آمریکای جنایتکار به اسلامی ایران",
+   "solar": [
+    1389,
+    4,
+    12
+   ],
+   "gregorian": [
+    2010,
+    7,
+    3
+   ],
+   "lunar": [
+    1431,
+    7,
+    21
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0022",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۱۲ تیر ۱۴۰۴",
+    "note": "وقوع",
+    "gregorian": "2025-7-3",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت علامه امینی",
+   "solar": [
+    1389,
+    4,
+    12
+   ],
+   "gregorian": [
+    2010,
+    7,
+    3
+   ],
+   "lunar": [
+    1431,
+    7,
+    21
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0185",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۲ تیر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "تیرگان",
+   "solar": [
+    1389,
+    4,
+    13
+   ],
+   "gregorian": [
+    2010,
+    7,
+    4
+   ],
+   "lunar": [
+    1431,
+    7,
+    22
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "cultural",
+   "recurrenceType": "A",
+   "eventId": "E0002",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز مبارزه با بیماری‌های قابل انتقال بین انسان و حیوان",
+   "solar": [
+    1389,
+    4,
+    13
+   ],
+   "gregorian": [
+    2010,
+    7,
+    4
+   ],
+   "lunar": [
+    1431,
+    7,
+    22
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0286",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۳ تیر ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز قلم",
+   "solar": [
+    1389,
+    4,
+    14
+   ],
+   "gregorian": [
+    2010,
+    7,
+    5
+   ],
+   "lunar": [
+    1431,
+    7,
+    23
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0279",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۴ تیر ۱۳۸۵",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز شهرداری و دهیاری",
+   "solar": [
+    1389,
+    4,
+    14
+   ],
+   "gregorian": [
+    2010,
+    7,
+    5
+   ],
+   "lunar": [
+    1431,
+    7,
+    23
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0260",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۴ تیر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز مالیات",
+   "solar": [
+    1389,
+    4,
+    16
+   ],
+   "gregorian": [
+    2010,
+    7,
+    7
+   ],
+   "lunar": [
+    1431,
+    7,
+    25
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0284",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۶ تیر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "ق 183 ه موسی کاظم علیه‌السلام شهادت حضرت امام",
+   "solar": [
+    1389,
+    4,
+    17
+   ],
+   "gregorian": [
+    2010,
+    7,
+    8
+   ],
+   "lunar": [
+    1431,
+    7,
+    26
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "کشف توطئه آمریکایی در پایگاه هوایی شهید نوژه کودتای نافرجام نقاب",
+   "solar": [
+    1389,
+    4,
+    18
+   ],
+   "gregorian": [
+    2010,
+    7,
+    9
+   ],
+   "lunar": [
+    1431,
+    7,
+    27
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0386",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۸ تیر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "هجرت از قبل 13 سال اکرم صلی الله علیه و آله مبعث حضرت رسول",
+   "solar": [
+    1389,
+    4,
+    19
+   ],
+   "gregorian": [
+    2010,
+    7,
+    10
+   ],
+   "lunar": [
+    1431,
+    7,
+    28
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0467",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز عفاف و حجاب",
+   "solar": [
+    1389,
+    4,
+    21
+   ],
+   "gregorian": [
+    2010,
+    7,
+    12
+   ],
+   "lunar": [
+    1431,
+    7,
+    30
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0270",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۱ تیر ۱۳۸۸",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "حمله به مسجد گوهرشاد و کشتار مردم به دست رضاخان",
+   "solar": [
+    1389,
+    4,
+    21
+   ],
+   "gregorian": [
+    2010,
+    7,
+    12
+   ],
+   "lunar": [
+    1431,
+    7,
+    30
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0124",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۱ تیر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت امام حسین علیه‌السلام 4 و روز پاسدار",
+   "solar": [
+    1389,
+    4,
+    25
+   ],
+   "gregorian": [
+    2010,
+    7,
+    16
+   ],
+   "lunar": [
+    1431,
+    8,
+    4
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0484",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "تأمین و بهزیستی ولادت حضرت ابوالفضل العباس علیه‌السلام 26 و روز جانباز روز اجتماعی",
+   "solar": [
+    1389,
+    4,
+    25
+   ],
+   "gregorian": [
+    2010,
+    7,
+    16
+   ],
+   "lunar": [
+    1431,
+    8,
+    4
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت امام زینالعابدین علیه‌السلام",
+   "solar": [
+    1389,
+    4,
+    27
+   ],
+   "gregorian": [
+    2010,
+    7,
+    18
+   ],
+   "lunar": [
+    1431,
+    8,
+    6
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0486",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "اعلام پذیرش قطعنامه 598 شورای امنیت از سوی ایران",
+   "solar": [
+    1389,
+    4,
+    27
+   ],
+   "gregorian": [
+    2010,
+    7,
+    18
+   ],
+   "lunar": [
+    1431,
+    8,
+    6
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0107",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۷ تیر ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز صحیفه سجادیه",
+   "solar": [
+    1389,
+    4,
+    27
+   ],
+   "gregorian": [
+    2010,
+    7,
+    18
+   ],
+   "lunar": [
+    1431,
+    8,
+    6
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0425",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت آیت‌الله سید ابوالقاسم کاشانی",
+   "solar": [
+    1389,
+    4,
+    30
+   ],
+   "gregorian": [
+    2010,
+    7,
+    21
+   ],
+   "lunar": [
+    1431,
+    8,
+    9
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0152",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳۰ تیر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت علی اکبر علیه‌السلام 33 و روز جوان",
+   "solar": [
+    1389,
+    5,
+    2
+   ],
+   "gregorian": [
+    2010,
+    7,
+    24
+   ],
+   "lunar": [
+    1431,
+    8,
+    12
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0498",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "مستضعفان جهانی روز و ولادت حضرت قائم عجلالله تعالی فرجه 255 سالروز عملیات افتخار آفرین مرصاد",
+   "solar": [
+    1389,
+    5,
+    5
+   ],
+   "gregorian": [
+    2010,
+    7,
+    27
+   ],
+   "lunar": [
+    1431,
+    8,
+    15
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "سالروز عملیات افتخارآفرین مرصاد",
+   "solar": [
+    1389,
+    5,
+    5
+   ],
+   "gregorian": [
+    2010,
+    7,
+    27
+   ],
+   "lunar": [
+    1431,
+    8,
+    15
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0028",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۵ مرداد ۱۳۸۷",
+    "note": "وقوع",
+    "gregorian": "2008-7-26",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "اقامه اولین نماز جمعه با حکم حضرت امام خمینی (ره",
+   "solar": [
+    1389,
+    5,
+    5
+   ],
+   "gregorian": [
+    2010,
+    7,
+    27
+   ],
+   "lunar": [
+    1431,
+    8,
+    15
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0109",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۵ مرداد ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز کارآفرینی و آموزشهای فنی و حرفهای",
+   "solar": [
+    1389,
+    5,
+    6
+   ],
+   "gregorian": [
+    2010,
+    7,
+    28
+   ],
+   "lunar": [
+    1431,
+    8,
+    16
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0334",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۶ مرداد ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز ترویج آموزشهای فنی و حرفهای",
+   "solar": [
+    1389,
+    5,
+    6
+   ],
+   "gregorian": [
+    2010,
+    7,
+    28
+   ],
+   "lunar": [
+    1431,
+    8,
+    16
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0211",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۶ مرداد ۱۳۸۴",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز سربازان گمنام امام زمان (عج",
+   "solar": [
+    1389,
+    5,
+    6
+   ],
+   "gregorian": [
+    2010,
+    7,
+    28
+   ],
+   "lunar": [
+    1431,
+    8,
+    16
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0423",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت قائم عجل‌الله‌تعالی‌فرجه",
+   "solar": [
+    1389,
+    5,
+    6
+   ],
+   "gregorian": [
+    2010,
+    7,
+    28
+   ],
+   "lunar": [
+    1431,
+    8,
+    16
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0501",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت شیخ شهابالدین سهروردی شیخ اشراق",
+   "solar": [
+    1389,
+    5,
+    8
+   ],
+   "gregorian": [
+    2010,
+    7,
+    30
+   ],
+   "lunar": [
+    1431,
+    8,
+    18
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0176",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۸ مرداد ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز اهدای خون",
+   "solar": [
+    1389,
+    5,
+    9
+   ],
+   "gregorian": [
+    2010,
+    7,
+    31
+   ],
+   "lunar": [
+    1431,
+    8,
+    19
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0148",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۹ مرداد ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی شیر مادر",
+   "solar": [
+    1389,
+    5,
+    10
+   ],
+   "gregorian": [
+    2010,
+    8,
+    1
+   ],
+   "lunar": [
+    1431,
+    8,
+    20
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0071",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱ اوت ۲۰۰۳ — ۱۰ مرداد ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2003-08-01",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت آیت‌الله شیخ فضل‌الله نوری",
+   "solar": [
+    1389,
+    5,
+    11
+   ],
+   "gregorian": [
+    2010,
+    8,
+    2
+   ],
+   "lunar": [
+    1431,
+    8,
+    21
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0360",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۱ مرداد ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "انسانی کرامت و اسلامی بشر حقوق روز ش صدور فرمان مشروطیت 1285 ه",
+   "solar": [
+    1389,
+    5,
+    14
+   ],
+   "gregorian": [
+    2010,
+    8,
+    5
+   ],
+   "lunar": [
+    1431,
+    8,
+    24
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "انفجار بمب اتمی آمریکا در هیروشیما (1945 م",
+   "solar": [
+    1389,
+    5,
+    15
+   ],
+   "gregorian": [
+    2010,
+    8,
+    6
+   ],
+   "lunar": [
+    1431,
+    8,
+    25
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0112",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ مرداد ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت امیر سرلشکر خلبان عباس بابایی",
+   "solar": [
+    1389,
+    5,
+    15
+   ],
+   "gregorian": [
+    2010,
+    8,
+    6
+   ],
+   "lunar": [
+    1431,
+    8,
+    25
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0363",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ مرداد ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ش تشکیل جهاد دانشگاهی 1359 ه",
+   "solar": [
+    1389,
+    5,
+    16
+   ],
+   "gregorian": [
+    2010,
+    8,
+    7
+   ],
+   "lunar": [
+    1431,
+    8,
+    26
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0018",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۱۶ مرداد ۱۳۸۲",
+    "note": "وقوع",
+    "gregorian": "2003-8-7",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز خبرنگار",
+   "solar": [
+    1389,
+    5,
+    17
+   ],
+   "gregorian": [
+    2010,
+    8,
+    8
+   ],
+   "lunar": [
+    1431,
+    8,
+    27
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0238",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۷ مرداد ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز مقاومت اسلامی",
+   "solar": [
+    1389,
+    5,
+    23
+   ],
+   "gregorian": [
+    2010,
+    8,
+    14
+   ],
+   "lunar": [
+    1431,
+    9,
+    4
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0293",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۳ مرداد ۱۳۸۸",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "آغاز بازگشت آزادگان به میهن اسلامی",
+   "solar": [
+    1389,
+    5,
+    26
+   ],
+   "gregorian": [
+    2010,
+    8,
+    17
+   ],
+   "lunar": [
+    1431,
+    9,
+    7
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0098",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۶ مرداد ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "کودتای آمریکا برای بازگرداندن شاه",
+   "solar": [
+    1389,
+    5,
+    28
+   ],
+   "gregorian": [
+    2010,
+    8,
+    19
+   ],
+   "lunar": [
+    1431,
+    9,
+    9
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0057",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۲۸ مرداد ۱۳۸۵",
+    "note": "وقوع",
+    "gregorian": "2006-8-19",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "گشایش مجلس خبرگان برای بررسی نهایی قانون اساسی جمهوری اسلامی ایران",
+   "solar": [
+    1389,
+    5,
+    28
+   ],
+   "gregorian": [
+    2010,
+    8,
+    19
+   ],
+   "lunar": [
+    1431,
+    9,
+    9
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0388",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۸ مرداد ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "مجلسی علامه بزرگداشت روز وفات حضرت خدیجه سلام الله علیها 3 سال قبل از هجرت روز جهانی مسجد",
+   "solar": [
+    1389,
+    5,
+    30
+   ],
+   "gregorian": [
+    2010,
+    8,
+    21
+   ],
+   "lunar": [
+    1431,
+    9,
+    11
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی مساجد",
+   "solar": [
+    1389,
+    5,
+    30
+   ],
+   "gregorian": [
+    2010,
+    8,
+    21
+   ],
+   "lunar": [
+    1431,
+    9,
+    11
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0079",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۱ اوت ۲۰۰۴ — ۳۱ مرداد ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2004-08-21",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز صنعت دفاعی",
+   "solar": [
+    1389,
+    5,
+    31
+   ],
+   "gregorian": [
+    2010,
+    8,
+    22
+   ],
+   "lunar": [
+    1431,
+    9,
+    12
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0264",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳۱ مرداد ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز پزشک روز بزرگداشت ابوعلی سینا",
+   "solar": [
+    1389,
+    6,
+    1
+   ],
+   "gregorian": [
+    2010,
+    8,
+    23
+   ],
+   "lunar": [
+    1431,
+    9,
+    13
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0156",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱ شهریور ۱۳۹۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز همدان",
+   "solar": [
+    1389,
+    6,
+    1
+   ],
+   "gregorian": [
+    2010,
+    8,
+    23
+   ],
+   "lunar": [
+    1431,
+    9,
+    13
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0322",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱ شهریور ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "آغاز هفته دولت شهادت سید علی اندرزگو 19 رمضان",
+   "solar": [
+    1389,
+    6,
+    2
+   ],
+   "gregorian": [
+    2010,
+    8,
+    24
+   ],
+   "lunar": [
+    1431,
+    9,
+    14
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "اشغال ایران توسط متفقین و فرار رضاخان",
+   "solar": [
+    1389,
+    6,
+    3
+   ],
+   "gregorian": [
+    2010,
+    8,
+    25
+   ],
+   "lunar": [
+    1431,
+    9,
+    15
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0105",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳ شهریور ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت امام حسن مجتبی علیه‌السلام 3 و روز اکرام روز کارمند",
+   "solar": [
+    1389,
+    6,
+    4
+   ],
+   "gregorian": [
+    2010,
+    8,
+    26
+   ],
+   "lunar": [
+    1431,
+    9,
+    16
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز اکرام و تکریم خیرین",
+   "solar": [
+    1389,
+    6,
+    4
+   ],
+   "gregorian": [
+    2010,
+    8,
+    26
+   ],
+   "lunar": [
+    1431,
+    9,
+    16
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0407",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز داروسازی روز بزرگداشت محمدبن زکریای رازی",
+   "solar": [
+    1389,
+    6,
+    5
+   ],
+   "gregorian": [
+    2010,
+    8,
+    27
+   ],
+   "lunar": [
+    1431,
+    9,
+    17
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0190",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۵ شهریور ۱۳۹۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز کُشتی",
+   "solar": [
+    1389,
+    6,
+    5
+   ],
+   "gregorian": [
+    2010,
+    8,
+    27
+   ],
+   "lunar": [
+    1431,
+    9,
+    17
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0339",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۵ شهریور ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شب قدر",
+   "solar": [
+    1389,
+    6,
+    7
+   ],
+   "gregorian": [
+    2010,
+    8,
+    29
+   ],
+   "lunar": [
+    1431,
+    9,
+    19
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0439",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "ضربت خوردن حضرت علی علیه‌السلام 40 روز مبارزه با تروریسم انفجار دفتر نخستوزیری به دست منافقان و شهادت مظلومانه شهیدان رجایی و باهنر",
+   "solar": [
+    1389,
+    6,
+    8
+   ],
+   "gregorian": [
+    2010,
+    8,
+    30
+   ],
+   "lunar": [
+    1431,
+    9,
+    20
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز نهج‌البلاغه",
+   "solar": [
+    1389,
+    6,
+    8
+   ],
+   "gregorian": [
+    2010,
+    8,
+    30
+   ],
+   "lunar": [
+    1431,
+    9,
+    20
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0429",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ضربت خوردن حضرت امام علی علیه‌السلام",
+   "solar": [
+    1389,
+    6,
+    8
+   ],
+   "gregorian": [
+    2010,
+    8,
+    30
+   ],
+   "lunar": [
+    1431,
+    9,
+    20
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0461",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت حضرت علی علیه‌السلام 40 روز بانکداری اسلامی سالروز تصویب قانون عملیات بانکی بدون ربا",
+   "solar": [
+    1389,
+    6,
+    10
+   ],
+   "gregorian": [
+    2010,
+    9,
+    1
+   ],
+   "lunar": [
+    1431,
+    9,
+    22
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0123",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۰ شهریور ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز تشکیل قرارگاه پدافند هوایی حضرت خاتم‌الانبیاء صلی الله علیه و آله",
+   "solar": [
+    1389,
+    6,
+    10
+   ],
+   "gregorian": [
+    2010,
+    9,
+    1
+   ],
+   "lunar": [
+    1431,
+    9,
+    22
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0214",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۰ شهریور ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شب قدر روز صنعت چاپ",
+   "solar": [
+    1389,
+    6,
+    11
+   ],
+   "gregorian": [
+    2010,
+    9,
+    2
+   ],
+   "lunar": [
+    1431,
+    9,
+    23
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی قدس (آخرین جمعه ماه رمضان) روز بهورز",
+   "solar": [
+    1389,
+    6,
+    12
+   ],
+   "gregorian": [
+    2010,
+    9,
+    3
+   ],
+   "lunar": [
+    1431,
+    9,
+    24
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت رئیس‌علی دلواری",
+   "solar": [
+    1389,
+    6,
+    12
+   ],
+   "gregorian": [
+    2010,
+    9,
+    3
+   ],
+   "lunar": [
+    1431,
+    9,
+    24
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0365",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۲ شهریور ۱۳۸۸",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز تعاون روز بزرگداشت ابوریحان بیرونی",
+   "solar": [
+    1389,
+    6,
+    13
+   ],
+   "gregorian": [
+    2010,
+    9,
+    4
+   ],
+   "lunar": [
+    1431,
+    9,
+    25
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0155",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۳ شهریور ۱۳۷۹",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت آیت‌الله قدوسی و سرتیپ وحید دستجردی",
+   "solar": [
+    1389,
+    6,
+    14
+   ],
+   "gregorian": [
+    2010,
+    9,
+    5
+   ],
+   "lunar": [
+    1431,
+    9,
+    26
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0035",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۱۴ شهریور ۱۳۸۲",
+    "note": "وقوع",
+    "gregorian": "2003-9-5",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "قیام 17 شهریور و کشتار جمعی از مردم به دست مأموران ستم شاهی پهلوی",
+   "solar": [
+    1389,
+    6,
+    17
+   ],
+   "gregorian": [
+    2010,
+    9,
+    8
+   ],
+   "lunar": [
+    1431,
+    9,
+    29
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0052",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۱۷ شهریور ۱۳۸۲",
+    "note": "وقوع",
+    "gregorian": "2003-9-8",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "عید سعیدفطر وفات آیت‌الله سیدمحمود طالقانی اولین امام جمعه تهران",
+   "solar": [
+    1389,
+    6,
+    19
+   ],
+   "gregorian": [
+    2010,
+    9,
+    10
+   ],
+   "lunar": [
+    1431,
+    10,
+    1
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "وفات آیت‌الله سید محمود طالقانی، اولین امام جمعه تهران",
+   "solar": [
+    1389,
+    6,
+    19
+   ],
+   "gregorian": [
+    2010,
+    9,
+    10
+   ],
+   "lunar": [
+    1431,
+    10,
+    1
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0384",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۹ شهریور ۱۳۷۸",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت دومین شهید محراب آیت‌الله مدنی به دست منافقان",
+   "solar": [
+    1389,
+    6,
+    20
+   ],
+   "gregorian": [
+    2010,
+    9,
+    11
+   ],
+   "lunar": [
+    1431,
+    10,
+    2
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0037",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۲۰ شهریور ۱۳۸۲",
+    "note": "وقوع",
+    "gregorian": "2003-9-11",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز سینما",
+   "solar": [
+    1389,
+    6,
+    21
+   ],
+   "gregorian": [
+    2010,
+    9,
+    12
+   ],
+   "lunar": [
+    1431,
+    10,
+    3
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0253",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۱ شهریور ۱۳۸۴",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "تعطیل به مناسبت عید سعید فطر",
+   "solar": [
+    1389,
+    6,
+    21
+   ],
+   "gregorian": [
+    2010,
+    9,
+    12
+   ],
+   "lunar": [
+    1431,
+    10,
+    3
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0399",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهریار روز شعر و ادب فارسی روز بزرگداشت استاد سید محمد حسین",
+   "solar": [
+    1389,
+    6,
+    27
+   ],
+   "gregorian": [
+    2010,
+    9,
+    18
+   ],
+   "lunar": [
+    1431,
+    10,
+    9
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز گفت و گوی تمدنها",
+   "solar": [
+    1389,
+    6,
+    30
+   ],
+   "gregorian": [
+    2010,
+    9,
+    21
+   ],
+   "lunar": [
+    1431,
+    10,
+    12
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0342",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳۰ شهریور ۱۳۸۶",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "آغاز جنگ تحمیلی 1359 آغاز هفته دفاع مقدس",
+   "solar": [
+    1389,
+    6,
+    31
+   ],
+   "gregorian": [
+    2010,
+    9,
+    22
+   ],
+   "lunar": [
+    1431,
+    10,
+    13
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0101",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳۱ شهریور ۱۳۷۸",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شکست حصر آبادان در عملیات ثامن الائمه علیه‌السلام 1360 روز جهانی جهانگردی",
+   "solar": [
+    1389,
+    7,
+    5
+   ],
+   "gregorian": [
+    2010,
+    9,
+    27
+   ],
+   "lunar": [
+    1431,
+    10,
+    18
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0049",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۵ مهر ۱۴۰۳",
+    "note": "وقوع",
+    "gregorian": "2024-9-26",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز گردشگری",
+   "solar": [
+    1389,
+    7,
+    5
+   ],
+   "gregorian": [
+    2010,
+    9,
+    27
+   ],
+   "lunar": [
+    1431,
+    10,
+    18
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0341",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۵ مهر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز فرهنگ پهلوانی و ورزش زورخانه‌ای",
+   "solar": [
+    1389,
+    7,
+    5
+   ],
+   "gregorian": [
+    2010,
+    9,
+    27
+   ],
+   "lunar": [
+    1431,
+    10,
+    18
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0427",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز آتشنشانی و ایمنی شهادت سرداران اسلام: فلاحی، فکوری،نامجو،کلاهدوز و جهانآرا",
+   "solar": [
+    1389,
+    7,
+    7
+   ],
+   "gregorian": [
+    2010,
+    9,
+    29
+   ],
+   "lunar": [
+    1431,
+    10,
+    20
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0042",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۷ مهر ۱۴۰۳",
+    "note": "وقوع",
+    "gregorian": "2024-9-28",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز آتش‌نشانی و ایمنی",
+   "solar": [
+    1389,
+    7,
+    7
+   ],
+   "gregorian": [
+    2010,
+    9,
+    29
+   ],
+   "lunar": [
+    1431,
+    10,
+    20
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0127",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ مهر ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت فرماندهان شهید دفاع مقدس",
+   "solar": [
+    1389,
+    7,
+    7
+   ],
+   "gregorian": [
+    2010,
+    9,
+    29
+   ],
+   "lunar": [
+    1431,
+    10,
+    20
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0189",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ مهر ۱۳۹۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت مولوی روز جهانی ناشنوایان",
+   "solar": [
+    1389,
+    7,
+    8
+   ],
+   "gregorian": [
+    2010,
+    9,
+    30
+   ],
+   "lunar": [
+    1431,
+    10,
+    21
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0086",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳۰ سپتامبر ۲۰۰۸ — ۹ مهر ۱۳۸۷",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2008-09-30",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی دریانوردی",
+   "solar": [
+    1389,
+    7,
+    8
+   ],
+   "gregorian": [
+    2010,
+    9,
+    30
+   ],
+   "lunar": [
+    1431,
+    10,
+    21
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0069",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳۰ سپتامبر ۲۰۰۳ — ۸ مهر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2003-09-30",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز همبستگی و همدردی با کودکان و نوجوانان فلسطینی روز جهانی سالمندان",
+   "solar": [
+    1389,
+    7,
+    9
+   ],
+   "gregorian": [
+    2010,
+    10,
+    1
+   ],
+   "lunar": [
+    1431,
+    10,
+    22
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "فتح اندلس به دست مسلمانان",
+   "solar": [
+    1389,
+    7,
+    9
+   ],
+   "gregorian": [
+    2010,
+    10,
+    1
+   ],
+   "lunar": [
+    1431,
+    10,
+    22
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0466",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز نخبگان",
+   "solar": [
+    1389,
+    7,
+    10
+   ],
+   "gregorian": [
+    2010,
+    10,
+    2
+   ],
+   "lunar": [
+    1431,
+    10,
+    23
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0310",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۰ مهر ۱۴۰۴",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت حضرت امام جعفر صادق علیه‌السلام",
+   "solar": [
+    1389,
+    7,
+    13
+   ],
+   "gregorian": [
+    2010,
+    10,
+    5
+   ],
+   "lunar": [
+    1431,
+    10,
+    26
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0444",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "انتظامی نیروی روز هجرت حضرت امام خمینی ره از عراق به پاریس 1357",
+   "solar": [
+    1389,
+    7,
+    13
+   ],
+   "gregorian": [
+    2010,
+    10,
+    5
+   ],
+   "lunar": [
+    1431,
+    10,
+    26
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0382",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۳ مهر ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز دامپزشکی",
+   "solar": [
+    1389,
+    7,
+    14
+   ],
+   "gregorian": [
+    2010,
+    10,
+    6
+   ],
+   "lunar": [
+    1431,
+    10,
+    27
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0240",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۴ مهر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی کودک",
+   "solar": [
+    1389,
+    7,
+    16
+   ],
+   "gregorian": [
+    2010,
+    10,
+    8
+   ],
+   "lunar": [
+    1431,
+    10,
+    29
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0091",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۸ اکتبر ۲۰۰۳ — ۱۶ مهر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2003-10-08",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "مهرگان",
+   "solar": [
+    1389,
+    7,
+    16
+   ],
+   "gregorian": [
+    2010,
+    10,
+    8
+   ],
+   "lunar": [
+    1431,
+    10,
+    29
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "cultural",
+   "recurrenceType": "A",
+   "eventId": "E0011",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت معصومه سلام الله علیها",
+   "solar": [
+    1389,
+    7,
+    18
+   ],
+   "gregorian": [
+    2010,
+    10,
+    10
+   ],
+   "lunar": [
+    1431,
+    11,
+    2
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0502",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "آغاز دهه کرامت",
+   "solar": [
+    1389,
+    7,
+    18
+   ],
+   "gregorian": [
+    2010,
+    10,
+    10
+   ],
+   "lunar": [
+    1431,
+    11,
+    2
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0394",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز دختران",
+   "solar": [
+    1389,
+    7,
+    18
+   ],
+   "gregorian": [
+    2010,
+    10,
+    10
+   ],
+   "lunar": [
+    1431,
+    11,
+    2
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0421",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت حافظ روز اسکان معلولان و سالمندان روز ملی کاهش اثرات بلایای طبیعی",
+   "solar": [
+    1389,
+    7,
+    20
+   ],
+   "gregorian": [
+    2010,
+    10,
+    12
+   ],
+   "lunar": [
+    1431,
+    11,
+    4
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز استاندارد و کیفیت روز جهانی استاندارد",
+   "solar": [
+    1389,
+    7,
+    22
+   ],
+   "gregorian": [
+    2010,
+    10,
+    14
+   ],
+   "lunar": [
+    1431,
+    11,
+    6
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0059",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۴ اکتبر ۲۰۰۳ — ۲۲ مهر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2003-10-14",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت حضرت صالح بن موسی کاظم علیه‌السلام",
+   "solar": [
+    1389,
+    7,
+    22
+   ],
+   "gregorian": [
+    2010,
+    10,
+    14
+   ],
+   "lunar": [
+    1431,
+    11,
+    6
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0409",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز تجلیل از امام زادگان و بقاع متبرکه",
+   "solar": [
+    1389,
+    7,
+    22
+   ],
+   "gregorian": [
+    2010,
+    10,
+    14
+   ],
+   "lunar": [
+    1431,
+    11,
+    6
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0414",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "استاندارد روز بزرگداشت حضرت احمد بن موسی شاهچراغ (ع) روز جهانی",
+   "solar": [
+    1389,
+    7,
+    23
+   ],
+   "gregorian": [
+    2010,
+    10,
+    15
+   ],
+   "lunar": [
+    1431,
+    11,
+    7
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0408",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز ش هادت پنجمین شهید محراب آیت‌الله اشرفی اصفهانی به دست منافقان جهانی نابینایان عصای سفید",
+   "solar": [
+    1389,
+    7,
+    23
+   ],
+   "gregorian": [
+    2010,
+    10,
+    15
+   ],
+   "lunar": [
+    1431,
+    11,
+    7
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز عرفه (روز نیایش",
+   "solar": [
+    1389,
+    7,
+    23
+   ],
+   "gregorian": [
+    2010,
+    10,
+    15
+   ],
+   "lunar": [
+    1431,
+    11,
+    7
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0096",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۳ — ۲۳ مهر ۱۳۹۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2013-10-15",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان",
+   "solar": [
+    1389,
+    7,
+    23
+   ],
+   "gregorian": [
+    2010,
+    10,
+    15
+   ],
+   "lunar": [
+    1431,
+    11,
+    7
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0047",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۲۳ مهر ۱۴۰۵",
+    "note": "وقوع",
+    "gregorian": "2026-10-15",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز پیوند اولیا و مربیان",
+   "solar": [
+    1389,
+    7,
+    24
+   ],
+   "gregorian": [
+    2010,
+    10,
+    16
+   ],
+   "lunar": [
+    1431,
+    11,
+    8
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0330",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۴ مهر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز ملی پارالمپیک",
+   "solar": [
+    1389,
+    7,
+    24
+   ],
+   "gregorian": [
+    2010,
+    10,
+    16
+   ],
+   "lunar": [
+    1431,
+    11,
+    8
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0304",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۴ مهر ۱۳۹۴",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز پیوند اولیا و مربیان و سالروز واقعه به آتش کشیدن مسجد جامع شهر کرمان به دست دژخیمان حکومت پهلوی",
+   "solar": [
+    1389,
+    7,
+    24
+   ],
+   "gregorian": [
+    2010,
+    10,
+    16
+   ],
+   "lunar": [
+    1431,
+    11,
+    8
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0331",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۴ مهر ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز تربیت بدنی و ورزش",
+   "solar": [
+    1389,
+    7,
+    26
+   ],
+   "gregorian": [
+    2010,
+    10,
+    18
+   ],
+   "lunar": [
+    1431,
+    11,
+    10
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0210",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۶ مهر ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت امام رضا علیه‌السلام",
+   "solar": [
+    1389,
+    7,
+    28
+   ],
+   "gregorian": [
+    2010,
+    10,
+    20
+   ],
+   "lunar": [
+    1431,
+    11,
+    12
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0485",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز صادرات",
+   "solar": [
+    1389,
+    7,
+    29
+   ],
+   "gregorian": [
+    2010,
+    10,
+    21
+   ],
+   "lunar": [
+    1431,
+    11,
+    13
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0262",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۹ مهر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "برنامهریزی و روز آمار",
+   "solar": [
+    1389,
+    8,
+    1
+   ],
+   "gregorian": [
+    2010,
+    10,
+    23
+   ],
+   "lunar": [
+    1431,
+    11,
+    15
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز آمار و برنامه‌ریزی",
+   "solar": [
+    1389,
+    8,
+    1
+   ],
+   "gregorian": [
+    2010,
+    10,
+    23
+   ],
+   "lunar": [
+    1431,
+    11,
+    15
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0130",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱ آبان ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت مظلومانه آیت‌الله حاج سید مصطفی خمینی",
+   "solar": [
+    1389,
+    8,
+    1
+   ],
+   "gregorian": [
+    2010,
+    10,
+    23
+   ],
+   "lunar": [
+    1431,
+    11,
+    15
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0371",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱ آبان ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "اعتراض و افشاگری حضرت امام خمینی علیه پذیرش کاپیتولاسیون",
+   "solar": [
+    1389,
+    8,
+    4
+   ],
+   "gregorian": [
+    2010,
+    10,
+    26
+   ],
+   "lunar": [
+    1431,
+    11,
+    18
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0106",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۴ آبان ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) روز نوجوان روز بسیج دانشآموزی",
+   "solar": [
+    1389,
+    8,
+    8
+   ],
+   "gregorian": [
+    2010,
+    10,
+    30
+   ],
+   "lunar": [
+    1431,
+    11,
+    22
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز نوجوان و بسیج دانش‌آموزی",
+   "solar": [
+    1389,
+    8,
+    8
+   ],
+   "gregorian": [
+    2010,
+    10,
+    30
+   ],
+   "lunar": [
+    1431,
+    11,
+    22
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0316",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۸ آبان ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت آیت‌الله قاضی طباطبایی اولین شهید محراب به دست منافقان",
+   "solar": [
+    1389,
+    8,
+    10
+   ],
+   "gregorian": [
+    2010,
+    11,
+    1
+   ],
+   "lunar": [
+    1431,
+    11,
+    24
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0034",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۱۰ آبان ۱۳۸۲",
+    "note": "وقوع",
+    "gregorian": "2003-11-1",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "تسخیر لانه جاسوسی آمریکا به دست دانشجویان پیرو خط امام 1358 روز ملی مبارزه با استکبار جهانی روز دانش آموز",
+   "solar": [
+    1389,
+    8,
+    13
+   ],
+   "gregorian": [
+    2010,
+    11,
+    4
+   ],
+   "lunar": [
+    1431,
+    11,
+    27
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "تبعید حضرت امام خمینی (ره) از ایران به ترکیه",
+   "solar": [
+    1389,
+    8,
+    13
+   ],
+   "gregorian": [
+    2010,
+    11,
+    4
+   ],
+   "lunar": [
+    1431,
+    11,
+    27
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0117",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۳ آبان ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز فرهنگ عمومی",
+   "solar": [
+    1389,
+    8,
+    14
+   ],
+   "gregorian": [
+    2010,
+    11,
+    5
+   ],
+   "lunar": [
+    1431,
+    11,
+    28
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0274",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۴ آبان ۱۳۸۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز مازندران",
+   "solar": [
+    1389,
+    8,
+    14
+   ],
+   "gregorian": [
+    2010,
+    11,
+    5
+   ],
+   "lunar": [
+    1431,
+    11,
+    28
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0283",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۴ آبان ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت حضرت امام محمد تقی علیه‌السلام «جوادالائمه»",
+   "solar": [
+    1389,
+    8,
+    16
+   ],
+   "gregorian": [
+    2010,
+    11,
+    7
+   ],
+   "lunar": [
+    1431,
+    11,
+    30
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0454",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "سالروز ازدواج حضرت علی علیهالسلام و حضرت فاطمه سلامالله علیها",
+   "solar": [
+    1389,
+    8,
+    18
+   ],
+   "gregorian": [
+    2010,
+    11,
+    9
+   ],
+   "lunar": [
+    1431,
+    12,
+    2
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0437",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز ملی کیفیت",
+   "solar": [
+    1389,
+    8,
+    19
+   ],
+   "gregorian": [
+    2010,
+    11,
+    10
+   ],
+   "lunar": [
+    1431,
+    12,
+    3
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0307",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۹ آبان ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "ش شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران آل سعود 1366 ه برابر با 6 ذیالحجه",
+   "solar": [
+    1389,
+    8,
+    22
+   ],
+   "gregorian": [
+    2010,
+    11,
+    13
+   ],
+   "lunar": [
+    1431,
+    12,
+    6
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت حضرت امام محمد باقر علیه‌السلام",
+   "solar": [
+    1389,
+    8,
+    24
+   ],
+   "gregorian": [
+    2010,
+    11,
+    15
+   ],
+   "lunar": [
+    1431,
+    12,
+    8
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0453",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روزکتاب و کتابخوانی روز بزرگداشتآیت‌الله علامه سید محمد حسین طباطبایی",
+   "solar": [
+    1389,
+    8,
+    24
+   ],
+   "gregorian": [
+    2010,
+    11,
+    15
+   ],
+   "lunar": [
+    1431,
+    12,
+    8
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت آیت‌الله علامه سیدمحمدحسین طباطبایی",
+   "solar": [
+    1389,
+    8,
+    24
+   ],
+   "gregorian": [
+    2010,
+    11,
+    15
+   ],
+   "lunar": [
+    1431,
+    12,
+    8
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0153",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۴ آبان ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز کتاب، کتابخوانی و کتابدار",
+   "solar": [
+    1389,
+    8,
+    24
+   ],
+   "gregorian": [
+    2010,
+    11,
+    15
+   ],
+   "lunar": [
+    1431,
+    12,
+    8
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0336",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۴ آبان ۱۳۹۴",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "وفات آیت‌الله سیدمحمود طالقانی ق هادت حضرت امام محمد باقر علیه‌السلام اولین امام جمعه تهران",
+   "solar": [
+    1389,
+    8,
+    24
+   ],
+   "gregorian": [
+    2010,
+    11,
+    15
+   ],
+   "lunar": [
+    1431,
+    12,
+    8
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0473",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "سالروز آزادسازی سوسنگرد",
+   "solar": [
+    1389,
+    8,
+    26
+   ],
+   "gregorian": [
+    2010,
+    11,
+    17
+   ],
+   "lunar": [
+    1431,
+    12,
+    10
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0349",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۶ آبان ۱۳۸۵",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "عید سعید قربان",
+   "solar": [
+    1389,
+    8,
+    27
+   ],
+   "gregorian": [
+    2010,
+    11,
+    18
+   ],
+   "lunar": [
+    1431,
+    12,
+    11
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0465",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "آغاز دهه امامت و ولایت",
+   "solar": [
+    1389,
+    8,
+    27
+   ],
+   "gregorian": [
+    2010,
+    11,
+    18
+   ],
+   "lunar": [
+    1431,
+    12,
+    11
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0393",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز ازدواج و خانواده",
+   "solar": [
+    1389,
+    8,
+    28
+   ],
+   "gregorian": [
+    2010,
+    11,
+    19
+   ],
+   "lunar": [
+    1431,
+    12,
+    12
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0137",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۸ آبان ۱۳۸۸",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت امام علی النقی الهادی علیه‌السلام",
+   "solar": [
+    1389,
+    9,
+    2
+   ],
+   "gregorian": [
+    2010,
+    11,
+    23
+   ],
+   "lunar": [
+    1431,
+    12,
+    16
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0487",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "تشکیل بسیج مستضعفان به فرمان حضرت امام خمینی رحمةالله علیه",
+   "solar": [
+    1389,
+    9,
+    4
+   ],
+   "gregorian": [
+    2010,
+    11,
+    25
+   ],
+   "lunar": [
+    1431,
+    12,
+    18
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0017",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۴ آذر ۱۴۰۴",
+    "note": "وقوع",
+    "gregorian": "2025-11-25",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "عید سعید غدیر خم",
+   "solar": [
+    1389,
+    9,
+    5
+   ],
+   "gregorian": [
+    2010,
+    11,
+    26
+   ],
+   "lunar": [
+    1431,
+    12,
+    19
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0463",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روزبسیجمستضعفان تشکیلبسیج مستضعفانبهفرمانحضرت امام خمینی ره",
+   "solar": [
+    1389,
+    9,
+    5
+   ],
+   "gregorian": [
+    2010,
+    11,
+    26
+   ],
+   "lunar": [
+    1431,
+    12,
+    19
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "سالروز قیام مردم گرگان",
+   "solar": [
+    1389,
+    9,
+    5
+   ],
+   "gregorian": [
+    2010,
+    11,
+    26
+   ],
+   "lunar": [
+    1431,
+    12,
+    19
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0357",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۵ آذر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز نیروی دریایی",
+   "solar": [
+    1389,
+    9,
+    7
+   ],
+   "gregorian": [
+    2010,
+    11,
+    28
+   ],
+   "lunar": [
+    1431,
+    12,
+    21
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0318",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ آذر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز نوآوری و فناوری ایران ساخت",
+   "solar": [
+    1389,
+    9,
+    7
+   ],
+   "gregorian": [
+    2010,
+    11,
+    28
+   ],
+   "lunar": [
+    1431,
+    12,
+    21
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0315",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ آذر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت شیخ مفید",
+   "solar": [
+    1389,
+    9,
+    9
+   ],
+   "gregorian": [
+    2010,
+    11,
+    30
+   ],
+   "lunar": [
+    1431,
+    12,
+    23
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0179",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۹ آذر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "مدرس شهادت آیت‌الله سید حسن 10 و آله روز مباهله پیامبر اسلام صلی الله علیه 1316 و روز مجلس",
+   "solar": [
+    1389,
+    9,
+    10
+   ],
+   "gregorian": [
+    2010,
+    12,
+    1
+   ],
+   "lunar": [
+    1431,
+    12,
+    24
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی مبارزه با ایدز",
+   "solar": [
+    1389,
+    9,
+    10
+   ],
+   "gregorian": [
+    2010,
+    12,
+    1
+   ],
+   "lunar": [
+    1431,
+    12,
+    24
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0076",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱ دسامبر ۲۰۰۳ — ۱۰ آذر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2003-12-01",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت میرزا کوچک خان جنگلی",
+   "solar": [
+    1389,
+    9,
+    11
+   ],
+   "gregorian": [
+    2010,
+    12,
+    2
+   ],
+   "lunar": [
+    1431,
+    12,
+    25
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0044",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۱۱ آذر ۱۴۰۳",
+    "note": "وقوع",
+    "gregorian": "2024-12-1",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز خانواده و تکریم بازنشستگان",
+   "solar": [
+    1389,
+    9,
+    12
+   ],
+   "gregorian": [
+    2010,
+    12,
+    3
+   ],
+   "lunar": [
+    1431,
+    12,
+    26
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0420",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "ش روز جهانی معلولان 1358 ه ایران تصویب قانون اساسی جمهوری اسلامی",
+   "solar": [
+    1389,
+    9,
+    12
+   ],
+   "gregorian": [
+    2010,
+    12,
+    3
+   ],
+   "lunar": [
+    1431,
+    12,
+    26
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز بیمه",
+   "solar": [
+    1389,
+    9,
+    13
+   ],
+   "gregorian": [
+    2010,
+    12,
+    4
+   ],
+   "lunar": [
+    1431,
+    12,
+    27
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0206",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۳ آذر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "آغاز سال 1432 هجری قمری روز دانشجو",
+   "solar": [
+    1389,
+    9,
+    16
+   ],
+   "gregorian": [
+    2010,
+    12,
+    7
+   ],
+   "lunar": [
+    1431,
+    12,
+    30
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی هواپیمایی",
+   "solar": [
+    1389,
+    9,
+    16
+   ],
+   "gregorian": [
+    2010,
+    12,
+    7
+   ],
+   "lunar": [
+    1431,
+    12,
+    30
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0088",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ دسامبر ۲۰۰۳ — ۱۶ آذر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2003-12-07",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "معرفی عراق به عنوان مسؤول و آغازگر جنگ از سوی سازمان ملل",
+   "solar": [
+    1389,
+    9,
+    18
+   ],
+   "gregorian": [
+    2010,
+    12,
+    9
+   ],
+   "lunar": [
+    1432,
+    1,
+    2
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0380",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۸ آذر ۱۳۷۸",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت محتشم کاشانی",
+   "solar": [
+    1389,
+    9,
+    18
+   ],
+   "gregorian": [
+    2010,
+    12,
+    9
+   ],
+   "lunar": [
+    1432,
+    1,
+    2
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0412",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز شعر و ادبیات آیینی",
+   "solar": [
+    1389,
+    9,
+    18
+   ],
+   "gregorian": [
+    2010,
+    12,
+    9
+   ],
+   "lunar": [
+    1432,
+    1,
+    2
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0424",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "تشکیل شورای عالی انقلاب فرهنگی به فرمان حضرت امام خمینی ره",
+   "solar": [
+    1389,
+    9,
+    19
+   ],
+   "gregorian": [
+    2010,
+    12,
+    10
+   ],
+   "lunar": [
+    1432,
+    1,
+    3
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0020",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۱۹ آذر ۱۳۸۲",
+    "note": "وقوع",
+    "gregorian": "2003-12-10",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز امر به معروف و نهی از منکر",
+   "solar": [
+    1389,
+    9,
+    19
+   ],
+   "gregorian": [
+    2010,
+    12,
+    10
+   ],
+   "lunar": [
+    1432,
+    1,
+    3
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0406",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت آیت‌الله دستغیب سومین شهید محراب به دست منافقان",
+   "solar": [
+    1389,
+    9,
+    20
+   ],
+   "gregorian": [
+    2010,
+    12,
+    11
+   ],
+   "lunar": [
+    1432,
+    1,
+    4
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0029",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۲۰ آذر ۱۴۰۳",
+    "note": "وقوع",
+    "gregorian": "2024-12-10",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "تاسوعای حسینی",
+   "solar": [
+    1389,
+    9,
+    26
+   ],
+   "gregorian": [
+    2010,
+    12,
+    17
+   ],
+   "lunar": [
+    1432,
+    1,
+    10
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0398",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز حمل و نقل و رانندگان",
+   "solar": [
+    1389,
+    9,
+    26
+   ],
+   "gregorian": [
+    2010,
+    12,
+    17
+   ],
+   "lunar": [
+    1432,
+    1,
+    10
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0235",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۶ آذر ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "عاشورای حسینی روز پژوهش",
+   "solar": [
+    1389,
+    9,
+    27
+   ],
+   "gregorian": [
+    2010,
+    12,
+    18
+   ],
+   "lunar": [
+    1432,
+    1,
+    11
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0462",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "مفتح محمد دکتر آیت‌الله شهادت شهادت حضرت امام زینالعابدین علیه‌السلام 95 1358 روز وحدت حوزه و دانشگاه",
+   "solar": [
+    1389,
+    9,
+    27
+   ],
+   "gregorian": [
+    2010,
+    12,
+    18
+   ],
+   "lunar": [
+    1432,
+    1,
+    11
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهان عاری از خشونت و افراطی‌گری",
+   "solar": [
+    1389,
+    9,
+    27
+   ],
+   "gregorian": [
+    2010,
+    12,
+    18
+   ],
+   "lunar": [
+    1432,
+    1,
+    11
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0223",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۷ آذر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز حمل و نقل روز تجلیل از اسرا و مفقودان",
+   "solar": [
+    1389,
+    9,
+    28
+   ],
+   "gregorian": [
+    2010,
+    12,
+    19
+   ],
+   "lunar": [
+    1432,
+    1,
+    12
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0413",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز تجلیل از شهید تندگویان",
+   "solar": [
+    1389,
+    9,
+    29
+   ],
+   "gregorian": [
+    2010,
+    12,
+    20
+   ],
+   "lunar": [
+    1432,
+    1,
+    13
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0209",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۹ آذر ۱۳۷۹",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شب یلدا",
+   "solar": [
+    1389,
+    9,
+    30
+   ],
+   "gregorian": [
+    2010,
+    12,
+    21
+   ],
+   "lunar": [
+    1432,
+    1,
+    14
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "cultural",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شب یلدا و ترویج فرهنگ میهمانی و پیوند با خویشان",
+   "solar": [
+    1389,
+    9,
+    30
+   ],
+   "gregorian": [
+    2010,
+    12,
+    21
+   ],
+   "lunar": [
+    1432,
+    1,
+    14
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "cultural",
+   "recurrenceType": "A",
+   "eventId": "E0006",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز ثبت احوال",
+   "solar": [
+    1389,
+    10,
+    3
+   ],
+   "gregorian": [
+    2010,
+    12,
+    24
+   ],
+   "lunar": [
+    1432,
+    1,
+    17
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0218",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳ دی ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "میلاد حضرت عیسی مسیح علیه‌السلام",
+   "solar": [
+    1389,
+    10,
+    4
+   ],
+   "gregorian": [
+    2010,
+    12,
+    25
+   ],
+   "lunar": [
+    1432,
+    1,
+    18
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0381",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۴ دی ۱۳۷۸",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت عیسی مسیح علیه‌السلام",
+   "solar": [
+    1389,
+    10,
+    4
+   ],
+   "gregorian": [
+    2010,
+    12,
+    25
+   ],
+   "lunar": [
+    1432,
+    1,
+    18
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0097",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۵ دسامبر ۲۰۰۱ — ۴ دی ۱۳۸۰",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2001-12-25",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز همبستگی و همدردی با کودکان و نوجوانان فلسطینی (سالگرد انقلاب فلسطین- انتفاضه",
+   "solar": [
+    1389,
+    10,
+    4
+   ],
+   "gregorian": [
+    2010,
+    12,
+    25
+   ],
+   "lunar": [
+    1432,
+    1,
+    18
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0321",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۴ دی ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز ملی ایمنی در برابر زلزله",
+   "solar": [
+    1389,
+    10,
+    5
+   ],
+   "gregorian": [
+    2010,
+    12,
+    26
+   ],
+   "lunar": [
+    1432,
+    1,
+    19
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0296",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۵ دی ۱۳۸۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت سالروز تشکیل نهضت سواد آموزی به فرمان حضرت امام خمینی ره 1358 آیت‌الله حسین غفاری به دست مأموران ستم شاهی پهلوی",
+   "solar": [
+    1389,
+    10,
+    7
+   ],
+   "gregorian": [
+    2010,
+    12,
+    28
+   ],
+   "lunar": [
+    1432,
+    1,
+    21
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "تشکیل نهضت سوادآموزی به فرمان حضرت امام خمینی رحمةالله علیه",
+   "solar": [
+    1389,
+    10,
+    7
+   ],
+   "gregorian": [
+    2010,
+    12,
+    28
+   ],
+   "lunar": [
+    1432,
+    1,
+    21
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0021",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۷ دی ۱۴۰۳",
+    "note": "وقوع",
+    "gregorian": "2024-12-27",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز صنعت پتروشیمی",
+   "solar": [
+    1389,
+    10,
+    8
+   ],
+   "gregorian": [
+    2010,
+    12,
+    29
+   ],
+   "lunar": [
+    1432,
+    1,
+    22
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0266",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۸ دی ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "آغاز سال 2011 میلادی",
+   "solar": [
+    1389,
+    10,
+    11
+   ],
+   "gregorian": [
+    2011,
+    1,
+    1
+   ],
+   "lunar": [
+    1432,
+    1,
+    25
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0058",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱ ژانویه ۱۹۹۹ — ۱۱ دی ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "1999-01-01",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت حضرت امام زینالعابدین علیه‌السلام",
+   "solar": [
+    1389,
+    10,
+    12
+   ],
+   "gregorian": [
+    2011,
+    1,
+    2
+   ],
+   "lunar": [
+    1432,
+    1,
+    26
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0442",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "یادروز قیام مردم سیستان به خونخواهی شهدای کربلا",
+   "solar": [
+    1389,
+    10,
+    12
+   ],
+   "gregorian": [
+    2011,
+    1,
+    2
+   ],
+   "lunar": [
+    1432,
+    1,
+    26
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0503",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "اجرای طرح استعماری حذف حجاب به دست رضاخان",
+   "solar": [
+    1389,
+    10,
+    17
+   ],
+   "gregorian": [
+    2011,
+    1,
+    7
+   ],
+   "lunar": [
+    1432,
+    2,
+    1
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0104",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۷ دی ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت خواجوی کرمانی",
+   "solar": [
+    1389,
+    10,
+    17
+   ],
+   "gregorian": [
+    2011,
+    1,
+    7
+   ],
+   "lunar": [
+    1432,
+    2,
+    1
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0164",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۷ دی ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "قیام خونین مردم قم",
+   "solar": [
+    1389,
+    10,
+    19
+   ],
+   "gregorian": [
+    2011,
+    1,
+    9
+   ],
+   "lunar": [
+    1432,
+    2,
+    3
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0054",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۱۹ دی ۱۳۸۴",
+    "note": "وقوع",
+    "gregorian": "2006-1-9",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت امام محمدباقر علیه‌السلام",
+   "solar": [
+    1389,
+    10,
+    20
+   ],
+   "gregorian": [
+    2011,
+    1,
+    10
+   ],
+   "lunar": [
+    1432,
+    2,
+    4
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0490",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت میرزا تقی خان امیرکبیر",
+   "solar": [
+    1389,
+    10,
+    20
+   ],
+   "gregorian": [
+    2011,
+    1,
+    10
+   ],
+   "lunar": [
+    1432,
+    2,
+    4
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0045",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۲۰ دی ۱۳۹۵",
+    "note": "وقوع",
+    "gregorian": "2017-1-9",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "به فرمان انقلاب شورای تشکیل ق ولادت حضرت امام موسی کاظم علیه‌السلام 128 ه حضرت امام خمینی ره",
+   "solar": [
+    1389,
+    10,
+    22
+   ],
+   "gregorian": [
+    2011,
+    1,
+    12
+   ],
+   "lunar": [
+    1432,
+    2,
+    6
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "تشکیل شورای انقلاب به فرمان حضرت امام خمینی رحمةالله علیه",
+   "solar": [
+    1389,
+    10,
+    22
+   ],
+   "gregorian": [
+    2011,
+    1,
+    12
+   ],
+   "lunar": [
+    1432,
+    2,
+    6
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0019",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۲۲ دی ۱۳۸۲",
+    "note": "وقوع",
+    "gregorian": "2004-1-12",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت سلمان فارسی",
+   "solar": [
+    1389,
+    10,
+    24
+   ],
+   "gregorian": [
+    2011,
+    1,
+    14
+   ],
+   "lunar": [
+    1432,
+    2,
+    8
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0411",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شهادت حضرت امام حسن مجتبی علیه‌السلام",
+   "solar": [
+    1389,
+    10,
+    24
+   ],
+   "gregorian": [
+    2011,
+    1,
+    14
+   ],
+   "lunar": [
+    1432,
+    2,
+    8
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0446",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "فرار شاه معدوم",
+   "solar": [
+    1389,
+    10,
+    26
+   ],
+   "gregorian": [
+    2011,
+    1,
+    16
+   ],
+   "lunar": [
+    1432,
+    2,
+    10
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0377",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۶ دی ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "ش شهادت نواب صفوی، طهماسبی، برادران واحدی و ذوالقدر از فداییان اسلام 1334 ه",
+   "solar": [
+    1389,
+    10,
+    27
+   ],
+   "gregorian": [
+    2011,
+    1,
+    17
+   ],
+   "lunar": [
+    1432,
+    2,
+    11
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0046",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۲۷ دی ۱۳۸۷",
+    "note": "وقوع",
+    "gregorian": "2009-1-16",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "سالروز حماسه مردم آمل",
+   "solar": [
+    1389,
+    11,
+    6
+   ],
+   "gregorian": [
+    2011,
+    1,
+    26
+   ],
+   "lunar": [
+    1432,
+    2,
+    20
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0354",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۶ بهمن ۱۳۸۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز جهانی گمرک",
+   "solar": [
+    1389,
+    11,
+    6
+   ],
+   "gregorian": [
+    2011,
+    1,
+    26
+   ],
+   "lunar": [
+    1432,
+    2,
+    20
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0092",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۶ ژانویه ۲۰۰۳ — ۶ بهمن ۱۳۸۱",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2003-01-26",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز آواها و نواهای ایرانی",
+   "solar": [
+    1389,
+    11,
+    6
+   ],
+   "gregorian": [
+    2011,
+    1,
+    26
+   ],
+   "lunar": [
+    1432,
+    2,
+    20
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0132",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۶ بهمن ۱۳۸۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "اربعین حسینی",
+   "solar": [
+    1389,
+    11,
+    7
+   ],
+   "gregorian": [
+    2011,
+    1,
+    27
+   ],
+   "lunar": [
+    1432,
+    2,
+    21
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0396",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "سده",
+   "solar": [
+    1389,
+    11,
+    10
+   ],
+   "gregorian": [
+    2011,
+    1,
+    30
+   ],
+   "lunar": [
+    1432,
+    2,
+    24
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "cultural",
+   "recurrenceType": "A",
+   "eventId": "E0004",
+   "verificationStatus": "traditional",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "بازگشت حضرت امام خمینی (رحمةالله علیه) به ایران",
+   "solar": [
+    1389,
+    11,
+    12
+   ],
+   "gregorian": [
+    2011,
+    2,
+    1
+   ],
+   "lunar": [
+    1432,
+    2,
+    26
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0015",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۱۲ بهمن ۱۳۸۸",
+    "note": "وقوع",
+    "gregorian": "2010-2-1",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "آغاز دهه مبارک فجر انقلاب اسلامی",
+   "solar": [
+    1389,
+    11,
+    12
+   ],
+   "gregorian": [
+    2011,
+    2,
+    1
+   ],
+   "lunar": [
+    1432,
+    2,
+    26
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0099",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۲ بهمن ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز فناوری فضایی",
+   "solar": [
+    1389,
+    11,
+    14
+   ],
+   "gregorian": [
+    2011,
+    2,
+    3
+   ],
+   "lunar": [
+    1432,
+    2,
+    28
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0276",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۴ بهمن ۱۳۸۹",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "رحلت حضرت رسول اکرم صلی الله علیه و آله",
+   "solar": [
+    1389,
+    11,
+    15
+   ],
+   "gregorian": [
+    2011,
+    2,
+    4
+   ],
+   "lunar": [
+    1432,
+    2,
+    29
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0403",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت حضرت امام رضا علیه‌السلام",
+   "solar": [
+    1389,
+    11,
+    16
+   ],
+   "gregorian": [
+    2011,
+    2,
+    5
+   ],
+   "lunar": [
+    1432,
+    3,
+    1
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0448",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "هجرت حضرت رسول اکرم صلی الله علیه و آله از مکه به مدینه",
+   "solar": [
+    1389,
+    11,
+    17
+   ],
+   "gregorian": [
+    2011,
+    2,
+    6
+   ],
+   "lunar": [
+    1432,
+    3,
+    2
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0469",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز نیروی هوایی",
+   "solar": [
+    1389,
+    11,
+    19
+   ],
+   "gregorian": [
+    2011,
+    2,
+    8
+   ],
+   "lunar": [
+    1432,
+    3,
+    4
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0319",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۹ بهمن ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز چهارمحال و بختیاری",
+   "solar": [
+    1389,
+    11,
+    20
+   ],
+   "gregorian": [
+    2011,
+    2,
+    9
+   ],
+   "lunar": [
+    1432,
+    3,
+    5
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0332",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۰ بهمن ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "شکسته شدن حکومت نظامی به فرمان حضرت امام خمینی (ره",
+   "solar": [
+    1389,
+    11,
+    21
+   ],
+   "gregorian": [
+    2011,
+    2,
+    10
+   ],
+   "lunar": [
+    1432,
+    3,
+    6
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0374",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۱ بهمن ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "پیروزی انقلاب اسلامی ایران و سقوط نظام شاهنشاهی",
+   "solar": [
+    1389,
+    11,
+    22
+   ],
+   "gregorian": [
+    2011,
+    2,
+    11
+   ],
+   "lunar": [
+    1432,
+    3,
+    7
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0056",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "established",
+    "label": "۲۲ بهمن ۱۳۵۷",
+    "note": "وقوع",
+    "gregorian": "1979-2-11",
+    "source": "https://en.wikipedia.org/wiki/Anniversary_of_the_Iranian_Revolution"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "شهادت حضرت امام حسن عسکری علیه‌السلام",
+   "solar": [
+    1389,
+    11,
+    24
+   ],
+   "gregorian": [
+    2011,
+    2,
+    13
+   ],
+   "lunar": [
+    1432,
+    3,
+    9
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0445",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "آغاز امامت حضرت ولی‌عصر (عج",
+   "solar": [
+    1389,
+    11,
+    24
+   ],
+   "gregorian": [
+    2011,
+    2,
+    13
+   ],
+   "lunar": [
+    1432,
+    3,
+    9
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0391",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "صدور حکم تاریخی حضرت امام خمینی (ره) مبنی بر ارتداد سلمان رشدی، نویسنده خائن کتاب آیات شیطانی",
+   "solar": [
+    1389,
+    11,
+    25
+   ],
+   "gregorian": [
+    2011,
+    2,
+    14
+   ],
+   "lunar": [
+    1432,
+    3,
+    10
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0375",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۵ بهمن ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت رسول اکرم صلی الله علیه و آله به روایت اهل سنت (53 سال قبل از هجرت",
+   "solar": [
+    1389,
+    11,
+    28
+   ],
+   "gregorian": [
+    2011,
+    2,
+    17
+   ],
+   "lunar": [
+    1432,
+    3,
+    13
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0495",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "آغاز هفته وحدت",
+   "solar": [
+    1389,
+    11,
+    28
+   ],
+   "gregorian": [
+    2011,
+    2,
+    17
+   ],
+   "lunar": [
+    1432,
+    3,
+    13
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0395",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "قیام مردم تبریز به مناسبت چهلمین روز شهادت شهدای قم",
+   "solar": [
+    1389,
+    11,
+    29
+   ],
+   "gregorian": [
+    2011,
+    2,
+    18
+   ],
+   "lunar": [
+    1432,
+    3,
+    14
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0378",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۹ بهمن ۱۳۸۶",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز اقتصاد مقاومتی و کارآفرینی",
+   "solar": [
+    1389,
+    11,
+    29
+   ],
+   "gregorian": [
+    2011,
+    2,
+    18
+   ],
+   "lunar": [
+    1432,
+    3,
+    14
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0146",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۹ بهمن ۱۳۸۶",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز وقف",
+   "solar": [
+    1389,
+    12,
+    2
+   ],
+   "gregorian": [
+    2011,
+    2,
+    21
+   ],
+   "lunar": [
+    1432,
+    3,
+    17
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0431",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت رسول اکرم صلی الله علیه و آله (53 سال قبل از هجرت",
+   "solar": [
+    1389,
+    12,
+    3
+   ],
+   "gregorian": [
+    2011,
+    2,
+    22
+   ],
+   "lunar": [
+    1432,
+    3,
+    18
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0494",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "کودتای انگلیسی رضاخان",
+   "solar": [
+    1389,
+    12,
+    3
+   ],
+   "gregorian": [
+    2011,
+    2,
+    22
+   ],
+   "lunar": [
+    1432,
+    3,
+    18
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0387",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۳ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز اخلاق و مهرورزی",
+   "solar": [
+    1389,
+    12,
+    3
+   ],
+   "gregorian": [
+    2011,
+    2,
+    22
+   ],
+   "lunar": [
+    1432,
+    3,
+    18
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0404",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت امام جعفر صادق علیه‌السلام مؤسس مذهب جعفری 83",
+   "solar": [
+    1389,
+    12,
+    3
+   ],
+   "gregorian": [
+    2011,
+    2,
+    22
+   ],
+   "lunar": [
+    1432,
+    3,
+    18
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0480",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت خواجه نصیرالدین طوسی روز مهندسی",
+   "solar": [
+    1389,
+    12,
+    5
+   ],
+   "gregorian": [
+    2011,
+    2,
+    24
+   ],
+   "lunar": [
+    1432,
+    3,
+    20
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0163",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۵ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز امور تربیتی و تربیت اسلامی",
+   "solar": [
+    1389,
+    12,
+    8
+   ],
+   "gregorian": [
+    2011,
+    2,
+    27
+   ],
+   "lunar": [
+    1432,
+    3,
+    23
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0147",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۸ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت حکیم حاج ملاهادی سبزواری",
+   "solar": [
+    1389,
+    12,
+    8
+   ],
+   "gregorian": [
+    2011,
+    2,
+    27
+   ],
+   "lunar": [
+    1432,
+    3,
+    23
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0161",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۸ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز ملی حمایت از حقوق مصرف کنندگان",
+   "solar": [
+    1389,
+    12,
+    9
+   ],
+   "gregorian": [
+    2011,
+    2,
+    28
+   ],
+   "lunar": [
+    1432,
+    3,
+    24
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0298",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۹ اسفند ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "احسان و نیکوکاری روز",
+   "solar": [
+    1389,
+    12,
+    14
+   ],
+   "gregorian": [
+    2011,
+    3,
+    5
+   ],
+   "lunar": [
+    1432,
+    3,
+    29
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0133",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۴ اسفند ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "درختکاری روز",
+   "solar": [
+    1389,
+    12,
+    15
+   ],
+   "gregorian": [
+    2011,
+    3,
+    6
+   ],
+   "lunar": [
+    1432,
+    3,
+    30
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0243",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز آموزش همگانی حفظ محیط زیست",
+   "solar": [
+    1389,
+    12,
+    15
+   ],
+   "gregorian": [
+    2011,
+    3,
+    6
+   ],
+   "lunar": [
+    1432,
+    3,
+    30
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0131",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "اسدآبادی بزرگداشت سید جمالالدین روز",
+   "solar": [
+    1389,
+    12,
+    18
+   ],
+   "gregorian": [
+    2011,
+    3,
+    9
+   ],
+   "lunar": [
+    1432,
+    4,
+    3
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز بزرگداشت سید جمال‌الدین اسدآبادی",
+   "solar": [
+    1389,
+    12,
+    18
+   ],
+   "gregorian": [
+    2011,
+    3,
+    9
+   ],
+   "lunar": [
+    1432,
+    4,
+    3
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0169",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۸ اسفند ۱۳۸۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "روز بوشهر",
+   "solar": [
+    1389,
+    12,
+    18
+   ],
+   "gregorian": [
+    2011,
+    3,
+    9
+   ],
+   "lunar": [
+    1432,
+    4,
+    3
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0204",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۸ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت عبدالعظیم حسنی علیه‌السلام",
+   "solar": [
+    1389,
+    12,
+    20
+   ],
+   "gregorian": [
+    2011,
+    3,
+    11
+   ],
+   "lunar": [
+    1432,
+    4,
+    5
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0497",
+   "verificationStatus": "partially_verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
+   "year": 1389
+  },
+  {
+   "title": "ولادت حضرت امام حسن عسکری علیه‌السلام 232 روز بزرگداشت شهدا سالروز صدور فرمان حضرت امام خمینی ره مبنی بر تأسیس بنیاد شهید انقلاب اسلامی",
+   "solar": [
+    1389,
+    12,
+    22
+   ],
+   "gregorian": [
+    2011,
+    3,
+    13
+   ],
+   "lunar": [
+    1432,
+    4,
+    7
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0376",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۲ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "بمباران شیمیایی حلبچه توسط ارتش بعث عراق 1366 روز بزرگداشت پروین اعتصامی",
+   "solar": [
+    1389,
+    12,
+    25
+   ],
+   "gregorian": [
+    2011,
+    3,
+    16
+   ],
+   "lunar": [
+    1432,
+    4,
+    10
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0114",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۵ اسفند ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  },
+  {
+   "title": "روز ملی شدن صنعت نفت ایران",
+   "solar": [
+    1389,
+    12,
+    29
+   ],
+   "gregorian": [
+    2011,
+    3,
+    20
+   ],
+   "lunar": [
+    1432,
+    4,
+    14
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0026",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "established",
+    "label": "۲۹ اسفند ۱۳۲۹",
+    "note": "تصویب قانون",
+    "gregorian": "1951-3-20",
+    "source": "https://www.mohammadmossadegh.com/news/iran-oil-nationalization-law-1951/"
+   },
+   "source": "official-pdf",
+   "year": 1389
+  }
+ ]
+}

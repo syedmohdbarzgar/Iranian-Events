@@ -1,0 +1,4322 @@
+{
+ "آغاز نوروز": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 49,
+  "solar_variants": 3,
+  "lunar_variants": 49,
+  "greg_variants": 5
+ },
+ "تیرگان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "خردادگان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "سده": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "سیزده‌بدر": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "شب یلدا و ترویج فرهنگ میهمانی و پیوند با خویشان": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 1,
+  "lunar_variants": 4,
+  "greg_variants": 2
+ },
+ "عید نوروز": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 49,
+  "solar_variants": 3,
+  "lunar_variants": 49,
+  "greg_variants": 5
+ },
+ "مهرگان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "یلدا شب چله": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "آغاز جنگ تحمیلی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "آغاز عملیات بیت‌المقدس": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 20,
+  "solar_variants": 8,
+  "lunar_variants": 19,
+  "greg_variants": 10
+ },
+ "بازگشت حضرت امام خمینی (رحمةالله علیه) به ایران": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "تأسیس سپاه پاسداران انقلاب اسلامی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 58,
+  "solar_variants": 9,
+  "lunar_variants": 53,
+  "greg_variants": 13
+ },
+ "تشکیل بسیج مستضعفان به فرمان حضرت امام خمینی رحمةالله علیه": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 2,
+  "lunar_variants": 4,
+  "greg_variants": 1
+ },
+ "تشکیل جهاد دانشگاهی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 18,
+  "solar_variants": 1,
+  "lunar_variants": 18,
+  "greg_variants": 2
+ },
+ "تشکیل شورای انقلاب به فرمان حضرت امام خمینی رحمةالله علیه": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 15,
+  "solar_variants": 1,
+  "lunar_variants": 15,
+  "greg_variants": 2
+ },
+ "تشکیل شورای عالی انقلاب فرهنگی به فرمان حضرت امام خمینی (ره": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 17,
+  "solar_variants": 2,
+  "lunar_variants": 17,
+  "greg_variants": 2
+ },
+ "تشکیل نهضت سوادآموزی به فرمان حضرت امام خمینی رحمةالله علیه": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 1,
+  "lunar_variants": 4,
+  "greg_variants": 2
+ },
+ "حمله ددمنشانه ناوگان آمریکای جنایتکار به اسلامی ایران": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 6,
+  "solar_variants": 1,
+  "lunar_variants": 6,
+  "greg_variants": 2
+ },
+ "درگذشت دکتر علی شریعتی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 21,
+  "solar_variants": 1,
+  "lunar_variants": 21,
+  "greg_variants": 2
+ },
+ "روز ایمنی در برابر زلزله و کاهش اثرات بلایای طبیعی": {
+  "calendar": "solar",
+  "basis": "نشانهٔ ه.ش در عنوان",
+  "confidence": "بالا",
+  "observations": 6,
+  "solar_variants": 1,
+  "lunar_variants": 6,
+  "greg_variants": 1
+ },
+ "روز معلم ش (و مرتضی مطهری) هادت استاد": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز ملی شدن صنعت نفت ایران": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 21,
+  "solar_variants": 1,
+  "lunar_variants": 21,
+  "greg_variants": 2
+ },
+ "روز پژوهش": {
+  "calendar": "solar",
+  "basis": "نشانهٔ ه.ش در عنوان",
+  "confidence": "بالا",
+  "observations": 19,
+  "solar_variants": 1,
+  "lunar_variants": 19,
+  "greg_variants": 2
+ },
+ "سالروز عملیات افتخارآفرین مرصاد": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "شهادت آیتالله صدوقی چهارمین شهید محراب به دست منافقین": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 7,
+  "lunar_variants": 14,
+  "greg_variants": 7
+ },
+ "شهادت آیتالله قاضی طباطبایی اولین شهید محراب به دست منافقین": {
+  "calendar": "lunar",
+  "basis": "نشانهٔ ه.ق در عنوان",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 7,
+  "lunar_variants": 14,
+  "greg_variants": 7
+ },
+ "شهادت آیت‌الله دستغیب سومین شهید محراب به دست منافقان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 11,
+  "solar_variants": 8,
+  "lunar_variants": 11,
+  "greg_variants": 8
+ },
+ "شهادت آیت‌الله دکتر محمد مفتح": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 11,
+  "solar_variants": 8,
+  "lunar_variants": 11,
+  "greg_variants": 8
+ },
+ "شهادت آیت‌الله سعیدی به دست مأموران ستم‌شاهی پهلوی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 11,
+  "solar_variants": 8,
+  "lunar_variants": 11,
+  "greg_variants": 8
+ },
+ "شهادت آیت‌الله سید حسن مدرس": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 11,
+  "solar_variants": 8,
+  "lunar_variants": 11,
+  "greg_variants": 8
+ },
+ "شهادت آیت‌الله قدوسی و سرتیپ وحید دستجردی": {
+  "calendar": "lunar",
+  "basis": "نشانهٔ ه.ق در عنوان",
+  "confidence": "بالا",
+  "observations": 11,
+  "solar_variants": 8,
+  "lunar_variants": 11,
+  "greg_variants": 8
+ },
+ "شهادت امیر سپهبد علی صیاد شیرازی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 16,
+  "solar_variants": 2,
+  "lunar_variants": 16,
+  "greg_variants": 4
+ },
+ "شهادت دومین شهید محراب آیتالله مدنی به دست منافقان": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 19,
+  "solar_variants": 1,
+  "lunar_variants": 19,
+  "greg_variants": 2
+ },
+ "شهادت دومین شهید محراب، آیت‌الله مدنی به دست منافقان": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 19,
+  "solar_variants": 1,
+  "lunar_variants": 19,
+  "greg_variants": 2
+ },
+ "شهادت دکتر مصطفی چمران": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 22,
+  "solar_variants": 2,
+  "lunar_variants": 22,
+  "greg_variants": 2
+ },
+ "شهادت زائران حرم رضوی (ع) به دست ایادی آمریکا": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "شهادت سربازان دلیر اسلام: بخارایی، امانی، صفار هرندی و نیک‌نژاد": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 18,
+  "solar_variants": 1,
+  "lunar_variants": 18,
+  "greg_variants": 2
+ },
+ "شهادت سرداران اسلام: فلاحی، فکوری، نامجو، کلاهدوز و جهان‌آرا": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 18,
+  "solar_variants": 3,
+  "lunar_variants": 18,
+  "greg_variants": 4
+ },
+ "شهادت مظلومانه آیت‌الله دکتر بهشتی و ۷۲ تن از یاران امام خمینی (ره) با انفجار بمب به دست منافقان در دفتر مرکزی حزب جمهوری اسلامی": {
+  "calendar": "solar",
+  "basis": "نشانهٔ ه.ش در عنوان",
+  "confidence": "بالا",
+  "observations": 51,
+  "solar_variants": 25,
+  "lunar_variants": 32,
+  "greg_variants": 27
+ },
+ "شهادت میرزا کوچک خان جنگلی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 13,
+  "solar_variants": 2,
+  "lunar_variants": 13,
+  "greg_variants": 4
+ },
+ "شهادت میرزاتقی‌خان امیرکبیر": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "شهادت نواب صفوی، طهماسبی، برادران واحدی و ذوالقدر از فداییان اسلام": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 21,
+  "solar_variants": 1,
+  "lunar_variants": 21,
+  "greg_variants": 2
+ },
+ "شهادت پنجمین شهید محراب، آیتالله اشرفی اصفهانی به دست منافقوان": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 20,
+  "solar_variants": 1,
+  "lunar_variants": 20,
+  "greg_variants": 2
+ },
+ "شهادت چهارمین شهید محراب، آیتالله صدوقی به دست منافقان": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 3,
+  "solar_variants": 1,
+  "lunar_variants": 3,
+  "greg_variants": 1
+ },
+ "شکست حصر آبادان در عملیات ثامن‌الائمه علیه‌السلام": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 1,
+  "lunar_variants": 14,
+  "greg_variants": 2
+ },
+ "صدور فرمان مشروطیت": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 8,
+  "solar_variants": 2,
+  "lunar_variants": 8,
+  "greg_variants": 3
+ },
+ "فتح خرمشهر در عملیات بیت‌المقدس": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 20,
+  "solar_variants": 8,
+  "lunar_variants": 19,
+  "greg_variants": 10
+ },
+ "قیام 17 شهریور و کشتار جمعی از مردم به دست مأموران ستم‌شاهی پهلوی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 10,
+  "solar_variants": 1,
+  "lunar_variants": 10,
+  "greg_variants": 2
+ },
+ "قیام خونین 15 خرداد": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 16,
+  "solar_variants": 1,
+  "lunar_variants": 16,
+  "greg_variants": 2
+ },
+ "قیام خونین مردم قم": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 16,
+  "solar_variants": 1,
+  "lunar_variants": 16,
+  "greg_variants": 2
+ },
+ "وفات آیتالله سیدمحمود طالقانی اولین امام جمعه تهران": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 3,
+  "solar_variants": 1,
+  "lunar_variants": 3,
+  "greg_variants": 2
+ },
+ "وفات آیت‌الله سید محمود طالقانی، اولین امام جمعه تهران": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "پیروزی انقلاب اسلامی ایران و سقوط نظام شاهنشاهی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 20,
+  "solar_variants": 1,
+  "lunar_variants": 20,
+  "greg_variants": 2
+ },
+ "کودتای آمریکا برای بازگرداندن شاه": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 1,
+  "lunar_variants": 14,
+  "greg_variants": 2
+ },
+ "آغاز سال میلادی": {
+  "calendar": "gregorian",
+  "basis": "نشانهٔ میلادی در عنوان",
+  "confidence": "بالا",
+  "observations": 17,
+  "solar_variants": 2,
+  "lunar_variants": 17,
+  "greg_variants": 1
+ },
+ "روز استاندارد و کیفیت روز جهانی استاندارد": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز بهرهوری-روز بزرگداشت ملاصدرا صدرالمتألهین": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 3,
+  "solar_variants": 1,
+  "lunar_variants": 3,
+  "greg_variants": 2
+ },
+ "روز جهانی آب": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جهانی ارتباطات": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "متوسط",
+  "observations": 2,
+  "solar_variants": 1,
+  "lunar_variants": 2,
+  "greg_variants": 1
+ },
+ "روز جهانی استاندارد": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 8,
+  "solar_variants": 1,
+  "lunar_variants": 8,
+  "greg_variants": 1
+ },
+ "روز جهانی بدون دخانیات": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جهانی بیابان‌زدایی": {
+  "calendar": "gregorian",
+  "basis": "تاریخ میلادی در بیشترِ سال‌ها ثابت",
+  "confidence": "بالا",
+  "observations": 5,
+  "solar_variants": 2,
+  "lunar_variants": 5,
+  "greg_variants": 1
+ },
+ "روز جهانی توسعه فرهنگی": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "متوسط",
+  "observations": 2,
+  "solar_variants": 1,
+  "lunar_variants": 2,
+  "greg_variants": 1
+ },
+ "روز جهانی جهانگردی": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "متوسط",
+  "observations": 2,
+  "solar_variants": 2,
+  "lunar_variants": 2,
+  "greg_variants": 1
+ },
+ "روز جهانی خانواده": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز جهانی دریانوردی": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جهانی سالمندان": {
+  "calendar": "gregorian",
+  "basis": "تاریخ میلادی در بیشترِ سال‌ها ثابت",
+  "confidence": "بالا",
+  "observations": 5,
+  "solar_variants": 2,
+  "lunar_variants": 5,
+  "greg_variants": 1
+ },
+ "روز جهانی شیر مادر": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جهانی صلیب سرخ و هلال احمر": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 2,
+  "lunar_variants": 4,
+  "greg_variants": 1
+ },
+ "روز جهانی علم در خدمت صلح و توسعه": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 9,
+  "solar_variants": 2,
+  "lunar_variants": 9,
+  "greg_variants": 1
+ },
+ "روز جهانی غذا": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جهانی ماما": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جهانی مبارزه با ایدز": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جهانی مبارزه با مواد مخدر": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 7,
+  "solar_variants": 2,
+  "lunar_variants": 7,
+  "greg_variants": 1
+ },
+ "روز جهانی محیط زیست": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 6,
+  "solar_variants": 1,
+  "lunar_variants": 6,
+  "greg_variants": 1
+ },
+ "روز جهانی مساجد": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز جهانی مسجد": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 1,
+  "lunar_variants": 4,
+  "greg_variants": 1
+ },
+ "روز جهانی معلولان": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 3,
+  "solar_variants": 1,
+  "lunar_variants": 3,
+  "greg_variants": 1
+ },
+ "روز جهانی مقاومت": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جهانی موزه و میراث فرهنگی": {
+  "calendar": "gregorian",
+  "basis": "تاریخ میلادی در بیشترِ سال‌ها ثابت",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 2,
+  "lunar_variants": 4,
+  "greg_variants": 1
+ },
+ "روز جهانی موزه و میراث فرهنگی بزرگداشت حکیم عمر خیام": {
+  "calendar": "gregorian",
+  "basis": "تاریخ میلادی در بیشترِ سال‌ها ثابت",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 2,
+  "lunar_variants": 4,
+  "greg_variants": 1
+ },
+ "روز جهانی نابینایان (عصای سفید": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز جهانی ناشنوایان": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جهانی هواشناسی": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جهانی هواپیمایی": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جهانی پست": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جهانی کار و کارگر": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 9,
+  "solar_variants": 1,
+  "lunar_variants": 9,
+  "greg_variants": 1
+ },
+ "روز جهانی کودک": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 9,
+  "solar_variants": 2,
+  "lunar_variants": 9,
+  "greg_variants": 1
+ },
+ "روز جهانی گمرک": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز روستا": {
+  "calendar": "gregorian",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز سلامتی روز جهانی بهداشت": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 11,
+  "solar_variants": 1,
+  "lunar_variants": 11,
+  "greg_variants": 2
+ },
+ "روز ضربت خوردن حضرت علی علیهالسلام 40": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 14,
+  "lunar_variants": 1,
+  "greg_variants": 14
+ },
+ "روز عرفه (روز نیایش": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 11,
+  "solar_variants": 11,
+  "lunar_variants": 1,
+  "greg_variants": 11
+ },
+ "ولادت حضرت عیسی مسیح علیه‌السلام": {
+  "calendar": "gregorian",
+  "basis": "تاریخ میلادی در بیشترِ سال‌ها ثابت",
+  "confidence": "بالا",
+  "observations": 13,
+  "solar_variants": 2,
+  "lunar_variants": 13,
+  "greg_variants": 1
+ },
+ "آغاز بازگشت آزادگان به میهن اسلامی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 20,
+  "solar_variants": 1,
+  "lunar_variants": 20,
+  "greg_variants": 2
+ },
+ "آغاز دهه مبارک فجر انقلاب اسلامی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 58,
+  "solar_variants": 9,
+  "lunar_variants": 53,
+  "greg_variants": 13
+ },
+ "آغاز عملیات فتح‌المبین": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "آغاز هفته دفاع مقدس": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 20,
+  "solar_variants": 8,
+  "lunar_variants": 19,
+  "greg_variants": 10
+ },
+ "آغاز هفته دولت": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 7,
+  "solar_variants": 1,
+  "lunar_variants": 7,
+  "greg_variants": 2
+ },
+ "ابلاغ پیام تاریخی حضرت امام خمینی (ره) به گورباچف رهبر شوروی سابق": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "اجرای طرح استعماری حذف حجاب به دست رضاخان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "اشغال ایران توسط متفقین و فرار رضاخان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "اعتراض و افشاگری حضرت امام خمینی علیه پذیرش کاپیتولاسیون": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 3,
+  "solar_variants": 1,
+  "lunar_variants": 3,
+  "greg_variants": 1
+ },
+ "اعلام پذیرش قطعنامه 598 شورای امنیت از سوی ایران": {
+  "calendar": "solar",
+  "basis": "نشانهٔ ه.ش در عنوان",
+  "confidence": "بالا",
+  "observations": 6,
+  "solar_variants": 1,
+  "lunar_variants": 6,
+  "greg_variants": 2
+ },
+ "افتتاح اولین دوره مجلس شورای اسلامی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "اقامه اولین نماز جمعه با حکم حضرت امام خمینی (ره": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "انتخاب حضرت آیت‌الله امام خامنه‌ای به رهبری": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "انتخاب حضرت آیت‌الله سیدمجتبی حسینی خامنه‌ای (مدظله‌العالی) به رهبری انقلاب اسلامی توسط مجلس خبرگان رهبری": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 58,
+  "solar_variants": 9,
+  "lunar_variants": 53,
+  "greg_variants": 13
+ },
+ "انفجار بمب اتمی آمریکا در هیروشیما (1945 م": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "انفجار دفتر نخست‌وزیری به دست منافقان و شهادت مظلومانه شهیدان رجایی و باهنر": {
+  "calendar": "solar",
+  "basis": "نشانهٔ ه.ش در عنوان",
+  "confidence": "بالا",
+  "observations": 51,
+  "solar_variants": 25,
+  "lunar_variants": 32,
+  "greg_variants": 27
+ },
+ "بمباران شیمیایی حلبچه به دست ارتش بعث عراق": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 6,
+  "solar_variants": 1,
+  "lunar_variants": 6,
+  "greg_variants": 2
+ },
+ "بمباران شیمیایی شهر سردشت": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "تأسیس بنیاد مسکن انقلاب اسلامی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 58,
+  "solar_variants": 9,
+  "lunar_variants": 53,
+  "greg_variants": 13
+ },
+ "تبعید حضرت امام خمینی (ره) از ایران به ترکیه": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "تسخیر لانه جاسوسی آمریکا به دست دانشجویان پیرو خط امام": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 10,
+  "solar_variants": 2,
+  "lunar_variants": 10,
+  "greg_variants": 2
+ },
+ "تشکیل بسیج مستضعفان به فرمان حضرت امام خمینی (ره": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 2,
+  "lunar_variants": 4,
+  "greg_variants": 1
+ },
+ "تشکیل شورای انقلاب به فرمان حضرت امام خمینی (ره": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 15,
+  "solar_variants": 1,
+  "lunar_variants": 15,
+  "greg_variants": 2
+ },
+ "تشکیل نهضت سوادآموزی به فرمان حضرت امام خمینی (ره": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 1,
+  "lunar_variants": 4,
+  "greg_variants": 2
+ },
+ "تصویب قانون اساسی جمهوری اسلامی ایران": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 9,
+  "solar_variants": 1,
+  "lunar_variants": 9,
+  "greg_variants": 2
+ },
+ "تصویب قانون عملیات بانکی بدون ربا و روز بانکداری اسلامی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "حمله به مسجد گوهرشاد و کشتار مردم به دست رضاخان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "حمله ددمنشانه ناوگان آمریکای جنایتکار به هواپیمای مسافربری جمهوری اسلامی ایران": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 6,
+  "solar_variants": 1,
+  "lunar_variants": 6,
+  "greg_variants": 2
+ },
+ "رحلت حضرت امام خمینی (ره)، رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 17,
+  "solar_variants": 2,
+  "lunar_variants": 17,
+  "greg_variants": 3
+ },
+ "روز آتش‌نشانی و ایمنی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "متوسط",
+  "observations": 2,
+  "solar_variants": 1,
+  "lunar_variants": 2,
+  "greg_variants": 2
+ },
+ "روز آذربایجان غربی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز آزادسازی شهر مهران": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز آمار و برنامه‌ریزی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 1,
+  "lunar_variants": 4,
+  "greg_variants": 2
+ },
+ "روز آموزش همگانی حفظ محیط زیست": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز آواها و نواهای ایرانی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز احسان و نیکوکاری": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 15,
+  "solar_variants": 1,
+  "lunar_variants": 15,
+  "greg_variants": 2
+ },
+ "روز ادبیات کودکان و نوجوانان": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 7,
+  "solar_variants": 1,
+  "lunar_variants": 7,
+  "greg_variants": 2
+ },
+ "روز ارتباطات و روابط عمومی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 1,
+  "lunar_variants": 4,
+  "greg_variants": 2
+ },
+ "روز ارتش جمهوری اسلامی و نیروی زمینی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 17,
+  "solar_variants": 1,
+  "lunar_variants": 17,
+  "greg_variants": 2
+ },
+ "روز ازدواج و خانواده": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز استاندارد و کیفیت (روز جهانی استاندارد": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز اسناد ملی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 8,
+  "solar_variants": 1,
+  "lunar_variants": 8,
+  "greg_variants": 2
+ },
+ "روز اسناد ملی و میراث مکتوب": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز اصفهان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز اصناف": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز اطلاعات و عملیات دفاع مقدس": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 20,
+  "solar_variants": 8,
+  "lunar_variants": 19,
+  "greg_variants": 10
+ },
+ "روز افشای حقوق بشر آمریکایی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز اقتدار دریایی ایران": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز اقتصاد مقاومتی و کارآفرینی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز امور تربیتی و تربیت اسلامی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 7,
+  "solar_variants": 1,
+  "lunar_variants": 7,
+  "greg_variants": 2
+ },
+ "روز اهدای خون": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 16,
+  "solar_variants": 1,
+  "lunar_variants": 16,
+  "greg_variants": 2
+ },
+ "روز اهدای عضو، اهدای زندگی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 8,
+  "solar_variants": 1,
+  "lunar_variants": 8,
+  "greg_variants": 2
+ },
+ "روز ایمنی حمل و نقل": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 8,
+  "solar_variants": 1,
+  "lunar_variants": 8,
+  "greg_variants": 2
+ },
+ "روز ایمنی در برابر زلزله و بلایای طبیعی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 6,
+  "solar_variants": 1,
+  "lunar_variants": 6,
+  "greg_variants": 1
+ },
+ "روز بزرگداشت آیت‌الله سید ابوالقاسم کاشانی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت آیت‌الله علامه سیدمحمدحسین طباطبایی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت ابوالفضل بیهقی": {
+  "calendar": "lunar",
+  "basis": "نشانهٔ ه.ق در عنوان",
+  "confidence": "بالا",
+  "observations": 5,
+  "solar_variants": 1,
+  "lunar_variants": 5,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت ابوریحان بیرونی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت ابوعلی سینا": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 11,
+  "solar_variants": 1,
+  "lunar_variants": 11,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت ابونصر فارابی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت استاد سید محمد حسین شهریار": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت حافظ": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 9,
+  "solar_variants": 1,
+  "lunar_variants": 9,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت حکیم ابوالقاسم فردوسی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز بزرگداشت حکیم حاج ملاهادی سبزواری": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت حکیم عمر خیام": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 16,
+  "solar_variants": 1,
+  "lunar_variants": 16,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت خواجه نصیرالدین طوسی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 17,
+  "solar_variants": 1,
+  "lunar_variants": 17,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت خواجوی کرمانی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت خوارزمی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت رودکی": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز بزرگداشت سعدی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 12,
+  "solar_variants": 1,
+  "lunar_variants": 12,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت سید جمال‌الدین اسدآبادی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت شمس": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت شهدا": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت شهدای دفاع مقدس سوم": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز بزرگداشت شهدای مدافع حرم": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 1,
+  "lunar_variants": 4,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت شهدای منا": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 1,
+  "lunar_variants": 4,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت شیخ بهایی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 1,
+  "lunar_variants": 14,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت شیخ شهاب‌الدین سهروردی (شیخ اشراق": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت شیخ صدوق": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 19,
+  "solar_variants": 1,
+  "lunar_variants": 19,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت شیخ صفی‌الدین اردبیلی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت شیخ مفید": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 19,
+  "solar_variants": 1,
+  "lunar_variants": 19,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت شیخ کلینی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 15,
+  "solar_variants": 1,
+  "lunar_variants": 15,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت صائب تبریزی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت صفی‌الدین ارموی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت عطار نیشابوری": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 19,
+  "solar_variants": 1,
+  "lunar_variants": 19,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت علامه اقبال لاهوری": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز بزرگداشت علامه امینی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت علامه مجلسی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 1,
+  "lunar_variants": 14,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت علامه مصباح یزدی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز بزرگداشت فردوسی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 10,
+  "solar_variants": 1,
+  "lunar_variants": 10,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت فرماندهان شهید دفاع مقدس": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 20,
+  "solar_variants": 8,
+  "lunar_variants": 19,
+  "greg_variants": 10
+ },
+ "روز بزرگداشت محمدبن زکریای رازی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 5,
+  "solar_variants": 1,
+  "lunar_variants": 5,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت مختومقلی فراغی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز بزرگداشت ملاصدرا (صدرالمتألهین": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت مولوی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 1,
+  "lunar_variants": 14,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت نظامی گنجوی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 6,
+  "solar_variants": 1,
+  "lunar_variants": 6,
+  "greg_variants": 2
+ },
+ "روز بزرگداشت پروین اعتصامی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 1,
+  "lunar_variants": 14,
+  "greg_variants": 2
+ },
+ "روز بسیج استادان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بسیج مستضعفان": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 3,
+  "solar_variants": 1,
+  "lunar_variants": 3,
+  "greg_variants": 1
+ },
+ "روز بصیرت و میثاق امت با ولایت": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 12,
+  "solar_variants": 1,
+  "lunar_variants": 12,
+  "greg_variants": 2
+ },
+ "روز بعثت مردم ایران": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز بهره‌وری و بهینه‌سازی مصرف": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بهزیستی و تأمین اجتماعی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 16,
+  "solar_variants": 1,
+  "lunar_variants": 16,
+  "greg_variants": 2
+ },
+ "روز بهورز": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز بوشهر": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بیماری‌های خاص و صعب‌العلاج": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بیمه": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 6,
+  "solar_variants": 1,
+  "lunar_variants": 6,
+  "greg_variants": 1
+ },
+ "روز تاریخ‌نگاری انقلاب اسلامی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 58,
+  "solar_variants": 9,
+  "lunar_variants": 53,
+  "greg_variants": 13
+ },
+ "روز تبلیغ و اطلاع‌رسانی دینی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 5,
+  "solar_variants": 1,
+  "lunar_variants": 5,
+  "greg_variants": 2
+ },
+ "روز تجلیل از شهید تندگویان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز تربیت بدنی و ورزش": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 19,
+  "solar_variants": 1,
+  "lunar_variants": 19,
+  "greg_variants": 2
+ },
+ "روز ترویج آموزشهای فنی و حرفهای": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 3,
+  "solar_variants": 1,
+  "lunar_variants": 3,
+  "greg_variants": 2
+ },
+ "روز ترویج فرهنگ قرض‌الحسنه": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز تشکل‌ها و مشارکت‌های اجتماعی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز تشکیل قرارگاه پدافند هوایی حضرت خاتم‌الانبیاء صلی‌الله‌علیه‌وآله": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز تعاون": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز تکریم": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز تکریم بازنشستگان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز ثبت احوال": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جزایر سه‌گانه خلیج فارس (بوموسی، تنب بزرگ و تنب کوچک": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جمهوری اسلامی ایران": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 19,
+  "solar_variants": 2,
+  "lunar_variants": 19,
+  "greg_variants": 3
+ },
+ "روز جهاد کشاورزی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "متوسط",
+  "observations": 2,
+  "solar_variants": 1,
+  "lunar_variants": 2,
+  "greg_variants": 2
+ },
+ "روز جهاد کشاورزی تشکیل جهاد سازندگی به فرمان حضرت امام خمینی ره": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 8,
+  "solar_variants": 1,
+  "lunar_variants": 8,
+  "greg_variants": 2
+ },
+ "روز جهان عاری از خشونت و افراطی‌گری": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "متوسط",
+  "observations": 2,
+  "solar_variants": 1,
+  "lunar_variants": 2,
+  "greg_variants": 1
+ },
+ "روز جهانی حماسه فلسطین و طوفان الاقصی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 3,
+  "solar_variants": 1,
+  "lunar_variants": 3,
+  "greg_variants": 1
+ },
+ "روز جهانی صنایع دستی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "متوسط",
+  "observations": 2,
+  "solar_variants": 1,
+  "lunar_variants": 2,
+  "greg_variants": 1
+ },
+ "روز جهانی قدس": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 20,
+  "solar_variants": 8,
+  "lunar_variants": 19,
+  "greg_variants": 10
+ },
+ "روز جهانی مقاومت و شهادت الگوی اخلاص و عمل سردار سپهبد قاسم سلیمانی به دست استکبار جهانی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 1,
+  "lunar_variants": 4,
+  "greg_variants": 2
+ },
+ "روز جوان": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "متوسط",
+  "observations": 2,
+  "solar_variants": 1,
+  "lunar_variants": 2,
+  "greg_variants": 2
+ },
+ "روز حقوق بشر اسلامی و کرامت انسانی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز حماسه دفاع از ایران": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز حمایت از بیماران نادر": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 3,
+  "solar_variants": 1,
+  "lunar_variants": 3,
+  "greg_variants": 2
+ },
+ "روز حمایت از حقوق مصرف‌کنندگان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز حمایت از صنایع کوچک": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 7,
+  "solar_variants": 1,
+  "lunar_variants": 7,
+  "greg_variants": 2
+ },
+ "روز حمل و نقل و رانندگان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز حوزه و دانشگاه": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز حکمت و فلسفه": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز خبرنگار": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 13,
+  "solar_variants": 1,
+  "lunar_variants": 13,
+  "greg_variants": 2
+ },
+ "روز داروسازی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز دامپزشکی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 19,
+  "solar_variants": 1,
+  "lunar_variants": 19,
+  "greg_variants": 2
+ },
+ "روز دانشجو": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 18,
+  "solar_variants": 1,
+  "lunar_variants": 18,
+  "greg_variants": 2
+ },
+ "روز دانش‌آموز": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز درختکاری": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 16,
+  "solar_variants": 1,
+  "lunar_variants": 16,
+  "greg_variants": 2
+ },
+ "روز دزفول": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز دیپلماسی فرهنگی و تعامل با جهان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز ذخایر ژنتیکی و زیستی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز راهیان نور": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 8,
+  "solar_variants": 1,
+  "lunar_variants": 8,
+  "greg_variants": 2
+ },
+ "روز روستا و عشایر": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 6,
+  "solar_variants": 1,
+  "lunar_variants": 6,
+  "greg_variants": 2
+ },
+ "روز زمین پاک": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز سرباز": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 5,
+  "solar_variants": 1,
+  "lunar_variants": 5,
+  "greg_variants": 2
+ },
+ "روز سلامتی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 10,
+  "solar_variants": 1,
+  "lunar_variants": 10,
+  "greg_variants": 2
+ },
+ "روز سینما": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 1,
+  "lunar_variants": 14,
+  "greg_variants": 2
+ },
+ "روز شعر و ادب فارسی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 9,
+  "solar_variants": 1,
+  "lunar_variants": 9,
+  "greg_variants": 2
+ },
+ "روز شهدای اقتدار و اتحاد ملی ایران": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "متوسط",
+  "observations": 2,
+  "solar_variants": 1,
+  "lunar_variants": 2,
+  "greg_variants": 1
+ },
+ "روز شهدای خدمت": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز شهدای دانشجو": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز شهدای ناوشکن دنا": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز شهدای ورزشکار": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز شهرداری و دهیاری": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز شوراها": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 17,
+  "solar_variants": 1,
+  "lunar_variants": 17,
+  "greg_variants": 2
+ },
+ "روز صادرات": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 20,
+  "solar_variants": 1,
+  "lunar_variants": 20,
+  "greg_variants": 2
+ },
+ "روز صنایع دستی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 5,
+  "solar_variants": 1,
+  "lunar_variants": 5,
+  "greg_variants": 2
+ },
+ "روز صنعت دفاعی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز صنعت و معدن": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 16,
+  "solar_variants": 1,
+  "lunar_variants": 16,
+  "greg_variants": 2
+ },
+ "روز صنعت پتروشیمی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز صنعت چاپ": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 5,
+  "solar_variants": 1,
+  "lunar_variants": 5,
+  "greg_variants": 2
+ },
+ "روز طبیعت": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 20,
+  "solar_variants": 1,
+  "lunar_variants": 20,
+  "greg_variants": 2
+ },
+ "روز عشایر": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز عفاف و حجاب": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 13,
+  "solar_variants": 1,
+  "lunar_variants": 13,
+  "greg_variants": 2
+ },
+ "روز علوم انسانی اسلامی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز علوم پایه": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز غزه": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 9,
+  "solar_variants": 1,
+  "lunar_variants": 9,
+  "greg_variants": 2
+ },
+ "روز فرهنگ عمومی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 15,
+  "solar_variants": 1,
+  "lunar_variants": 15,
+  "greg_variants": 2
+ },
+ "روز فناوری اطلاعات": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز فناوری فضایی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 13,
+  "solar_variants": 1,
+  "lunar_variants": 13,
+  "greg_variants": 2
+ },
+ "روز قانون اساسی جمهوری اسلامی ایران": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز قرآن": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز قلم": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 1,
+  "lunar_variants": 14,
+  "greg_variants": 2
+ },
+ "روز قهرمان ملی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز قوه قضاییه": {
+  "calendar": "lunar",
+  "basis": "نشانهٔ ه.ق در عنوان",
+  "confidence": "بالا",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز لباس اقوام ایران": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز مازندران": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز مالیات": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 7,
+  "solar_variants": 1,
+  "lunar_variants": 7,
+  "greg_variants": 2
+ },
+ "روز مبارزه با استعمار انگلیس": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز مبارزه با بیماری‌های قابل انتقال بین انسان و حیوان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز مبارزه با تروریسم": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز مبارزه با سلاح‌های شیمیایی و میکروبی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز مجلس": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز مدیریت بحران و بلایای طبیعی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز معلم": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز معماری": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز مقاومت اسلامی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 1,
+  "lunar_variants": 14,
+  "greg_variants": 2
+ },
+ "روز مقاومت و پایداری": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز مقاومت، ایثار و پیروزی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز ملی ایمنی در برابر زلزله": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "متوسط",
+  "observations": 2,
+  "solar_variants": 1,
+  "lunar_variants": 2,
+  "greg_variants": 2
+ },
+ "روز ملی جمعیت": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 7,
+  "solar_variants": 1,
+  "lunar_variants": 7,
+  "greg_variants": 2
+ },
+ "روز ملی حمایت از حقوق مصرف کنندگان": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 5,
+  "solar_variants": 1,
+  "lunar_variants": 5,
+  "greg_variants": 2
+ },
+ "روز ملی خلیج فارس": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 7,
+  "solar_variants": 1,
+  "lunar_variants": 7,
+  "greg_variants": 2
+ },
+ "روز ملی فرش": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز ملی فناوری هستهای": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 5,
+  "solar_variants": 1,
+  "lunar_variants": 5,
+  "greg_variants": 2
+ },
+ "روز ملی فناوری هسته‌ای و شهادت سید مرتضی آوینی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 21,
+  "solar_variants": 2,
+  "lunar_variants": 21,
+  "greg_variants": 4
+ },
+ "روز ملی مبارزه با استکبار جهانی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز ملی پارالمپیک": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 7,
+  "solar_variants": 1,
+  "lunar_variants": 7,
+  "greg_variants": 1
+ },
+ "روز ملی کارآفرینی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز ملی کاهش اثرات بلایای طبیعی": {
+  "calendar": "solar",
+  "basis": "نشانهٔ ه.ش در عنوان",
+  "confidence": "بالا",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز ملی کیفیت": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 7,
+  "solar_variants": 2,
+  "lunar_variants": 7,
+  "greg_variants": 2
+ },
+ "روز مهندسی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز نثر فارسی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز نخبگان": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 3,
+  "solar_variants": 1,
+  "lunar_variants": 3,
+  "greg_variants": 1
+ },
+ "روز نسل‌کشی کودکان و زنان فلسطینی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 10,
+  "solar_variants": 2,
+  "lunar_variants": 10,
+  "greg_variants": 3
+ },
+ "روز نسیم مهر (روز حمایت از خانواده زندانیان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز نهاوند": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز نهضت نرم‌افزاری، کرسی‌های نظریه‌پردازی و آزاداندیشی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز نوآوری و فناوری ایران ساخت": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز نوجوان و بسیج دانش‌آموزی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز نیروی انتظامی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز نیروی دریایی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 1,
+  "lunar_variants": 14,
+  "greg_variants": 2
+ },
+ "روز نیروی هوایی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 18,
+  "solar_variants": 1,
+  "lunar_variants": 18,
+  "greg_variants": 2
+ },
+ "روز همبستگی و همدردی با کودکان و نوجوانان فلسطینی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 10,
+  "solar_variants": 2,
+  "lunar_variants": 10,
+  "greg_variants": 3
+ },
+ "روز همبستگی و همدردی با کودکان و نوجوانان فلسطینی (سالگرد انقلاب فلسطین- انتفاضه": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز همدان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز هنر انقلاب اسلامی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 58,
+  "solar_variants": 9,
+  "lunar_variants": 53,
+  "greg_variants": 13
+ },
+ "روز هنرهای نمایشی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 8,
+  "solar_variants": 1,
+  "lunar_variants": 8,
+  "greg_variants": 2
+ },
+ "روز هوافضا": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "متوسط",
+  "observations": 2,
+  "solar_variants": 1,
+  "lunar_variants": 2,
+  "greg_variants": 1
+ },
+ "روز وحدت حوزه و دانشگاه": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز پاسداشت زبان فارسی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 6,
+  "solar_variants": 1,
+  "lunar_variants": 6,
+  "greg_variants": 1
+ },
+ "روز پدافند غیرعامل": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز پزشک": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز پیوند اولیا و مربیان": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 7,
+  "solar_variants": 1,
+  "lunar_variants": 7,
+  "greg_variants": 2
+ },
+ "روز پیوند اولیا و مربیان و سالروز واقعه به آتش کشیدن مسجد جامع شهر کرمان به دست دژخیمان حکومت پهلوی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 7,
+  "solar_variants": 1,
+  "lunar_variants": 7,
+  "greg_variants": 2
+ },
+ "روز چهارمحال و بختیاری": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز چوگان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز کارآفرینی و آموزش‌های فنی و حرفه‌ای": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز کارمند": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 17,
+  "solar_variants": 1,
+  "lunar_variants": 17,
+  "greg_variants": 2
+ },
+ "روز کتاب، کتابخوانی و کتابدار": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز کردستان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز کشتی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز کُشتی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز کیفیت": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز گردشگری": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز گفت و گوی تمدنها": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 1,
+  "lunar_variants": 4,
+  "greg_variants": 1
+ },
+ "روز گفتوگو و تعامل سازنده با جهان": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 1,
+  "lunar_variants": 4,
+  "greg_variants": 2
+ },
+ "روز گفت‌وگوی بین ادیان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز گل و گیاه": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 1,
+  "lunar_variants": 4,
+  "greg_variants": 2
+ },
+ "روزکتاب و کتابخوانی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "زادروز زرتشت پیامبر": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 1,
+  "lunar_variants": 4,
+  "greg_variants": 2
+ },
+ "زندانی شدن حضرت امام خمینی (ره) به دست مأموران ستم‌شاهی پهلوی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "سالروز آزادسازی سوسنگرد": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "سالروز اعلام انقلاب فرهنگی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 17,
+  "solar_variants": 2,
+  "lunar_variants": 17,
+  "greg_variants": 2
+ },
+ "سالروز افتتاح حساب شماره 100 به فرمان حضرت امام خمینی (ره": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "سالروز تأسیس نهاد شورای نگهبان": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 8,
+  "solar_variants": 1,
+  "lunar_variants": 8,
+  "greg_variants": 2
+ },
+ "سالروز تأسیس کانون‌های فرهنگی و هنری مساجد کشور": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "سالروز حماسه مردم آمل": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 1,
+  "lunar_variants": 14,
+  "greg_variants": 2
+ },
+ "سالروز شهادت محمود صارمی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 3,
+  "solar_variants": 1,
+  "lunar_variants": 3,
+  "greg_variants": 1
+ },
+ "سالروز صدور فرمان حضرت امام خمینی (رحمةالله علیه) مبنی بر تأسیس سازمان تبلیغات اسلامی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 5,
+  "solar_variants": 1,
+  "lunar_variants": 5,
+  "greg_variants": 2
+ },
+ "سالروز قیام مردم گرگان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "شهادت آیت‌الله حسین غفاری به دست مأموران ستم‌شاهی پهلوی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 11,
+  "solar_variants": 8,
+  "lunar_variants": 11,
+  "greg_variants": 8
+ },
+ "شهادت آیت‌الله سیدمحمدباقر صدر و خواهرش بنت‌الهدی به دست حکومت بعث عراق": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 11,
+  "solar_variants": 8,
+  "lunar_variants": 11,
+  "greg_variants": 8
+ },
+ "شهادت آیت‌الله شیخ فضل‌الله نوری": {
+  "calendar": "solar",
+  "basis": "نشانهٔ ه.ش در عنوان",
+  "confidence": "بالا",
+  "observations": 11,
+  "solar_variants": 8,
+  "lunar_variants": 11,
+  "greg_variants": 8
+ },
+ "شهادت استاد مرتضی مطهری": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 18,
+  "solar_variants": 1,
+  "lunar_variants": 18,
+  "greg_variants": 2
+ },
+ "شهادت امام مجاهد حضرت آیت‌الله العظمی سیدعلی حسینی خامنه‌ای (قدس‌الله نفسه الزکیه) به همراه خانواده، جمعی از فرماندهان ارشد نظامی و مسؤوالن کشور، شهدای مدارس میناب و سالن ورزشی المرد در تجاوز آمریکایی- صهیونی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "شهادت امیر سرلشکر خلبان عباس بابایی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 16,
+  "solar_variants": 2,
+  "lunar_variants": 16,
+  "greg_variants": 4
+ },
+ "شهادت امیر سپهبد قرنی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 16,
+  "solar_variants": 2,
+  "lunar_variants": 16,
+  "greg_variants": 4
+ },
+ "شهادت رئیس‌علی دلواری": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "شهادت زائران حرم رضوی ع به دست ایادی آمریکا عاشورای": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "متوسط",
+  "observations": 2,
+  "solar_variants": 1,
+  "lunar_variants": 2,
+  "greg_variants": 1
+ },
+ "شهادت زائران حرم رضوی علیه‌السلام به دست ایادی آمریکا عاشورای": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "متوسط",
+  "observations": 2,
+  "solar_variants": 1,
+  "lunar_variants": 2,
+  "greg_variants": 1
+ },
+ "شهادت سید علی اندرزگو": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 21,
+  "solar_variants": 2,
+  "lunar_variants": 21,
+  "greg_variants": 4
+ },
+ "شهادت سیدحسین علم‌الهدی و همرزمان وی در هویزه": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 3,
+  "solar_variants": 1,
+  "lunar_variants": 3,
+  "greg_variants": 2
+ },
+ "شهادت محمدحسین فهمیده (بسیجی 13 ساله": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 18,
+  "solar_variants": 1,
+  "lunar_variants": 18,
+  "greg_variants": 2
+ },
+ "شهادت مظلومانه آیت‌الله حاج سید مصطفی خمینی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 51,
+  "solar_variants": 25,
+  "lunar_variants": 32,
+  "greg_variants": 27
+ },
+ "شهادت مظلومانه شهیدان رجایی و باهنر": {
+  "calendar": "solar",
+  "basis": "نشانهٔ ه.ش در عنوان",
+  "confidence": "بالا",
+  "observations": 51,
+  "solar_variants": 25,
+  "lunar_variants": 32,
+  "greg_variants": 27
+ },
+ "شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 20,
+  "solar_variants": 1,
+  "lunar_variants": 20,
+  "greg_variants": 2
+ },
+ "شکست حمله نظامی آمریکا به ایران در طبس": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 21,
+  "solar_variants": 1,
+  "lunar_variants": 21,
+  "greg_variants": 2
+ },
+ "شکسته شدن حکومت نظامی به فرمان حضرت امام خمینی (ره": {
+  "calendar": "solar",
+  "basis": "نشانهٔ ه.ش در عنوان",
+  "confidence": "بالا",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "صدور حکم تاریخی حضرت امام خمینی (ره) مبنی بر ارتداد سلمان رشدی، نویسنده خائن کتاب آیات شیطانی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "صدور فرمان حضرت امام خمینی (ره) مبنی بر تأسیس بنیاد شهید انقلاب اسلامی": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 58,
+  "solar_variants": 9,
+  "lunar_variants": 53,
+  "greg_variants": 13
+ },
+ "فرار شاه معدوم": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 18,
+  "solar_variants": 1,
+  "lunar_variants": 18,
+  "greg_variants": 2
+ },
+ "قیام مردم تبریز به مناسبت چهلمین روز شهادت شهدای قم": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 17,
+  "solar_variants": 1,
+  "lunar_variants": 17,
+  "greg_variants": 2
+ },
+ "لغو امتیاز تنباکو به فتوای آیت‌الله میرزا حسن شیرازی": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 15,
+  "solar_variants": 1,
+  "lunar_variants": 15,
+  "greg_variants": 2
+ },
+ "معرفی عراق به عنوان مسئول و آغازگر جنگ از سوی سازمان ملل": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 8,
+  "solar_variants": 1,
+  "lunar_variants": 8,
+  "greg_variants": 2
+ },
+ "میلاد حضرت عیسی مسیح علیه‌السلام": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 7,
+  "solar_variants": 1,
+  "lunar_variants": 7,
+  "greg_variants": 2
+ },
+ "هجرت حضرت امام خمینی (ره) از عراق به پاریس": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 4,
+  "solar_variants": 1,
+  "lunar_variants": 4,
+  "greg_variants": 2
+ },
+ "هجوم مأموران ستم‌شاهی پهلوی به مدرسه فیضیه قم": {
+  "calendar": "lunar",
+  "basis": "نشانهٔ ه.ق در عنوان",
+  "confidence": "بالا",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "ولادت حضرت قائم (عج": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 22,
+  "solar_variants": 22,
+  "lunar_variants": 2,
+  "greg_variants": 22
+ },
+ "کشف توطئه آمریکایی در پایگاه هوایی شهید نوژه کودتای نافرجام نقاب": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "کودتای انگلیسی رضاخان": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "گشایش مجلس خبرگان برای بررسی نهایی قانون اساسی جمهوری اسلامی ایران": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "گشایش نخستین مجلس خبرگان رهبری": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "یادروز ورود حضرت امام رضا علیه‌السلام به نیشابور و نقل حدیث سلسله‌الذهب": {
+  "calendar": "solar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "آغاز امام ت حضرت ولی‌عصر (عج": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "آغاز ایام البیض (اعتکاف": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 11,
+  "solar_variants": 11,
+  "lunar_variants": 1,
+  "greg_variants": 11
+ },
+ "آغاز دهه امام ت و ولایت": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "آغاز دهه کرامت": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "آغاز هفته وحدت": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "اربعین حسینی": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 23,
+  "solar_variants": 23,
+  "lunar_variants": 1,
+  "greg_variants": 23
+ },
+ "ارتحال حضرت زینب سلام‌الله‌علیها": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "تاسوعای حسینی": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 22,
+  "solar_variants": 22,
+  "lunar_variants": 1,
+  "greg_variants": 22
+ },
+ "تعطیل به مناسبت عید سعید فطر": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 23,
+  "solar_variants": 23,
+  "lunar_variants": 2,
+  "greg_variants": 23
+ },
+ "تغییر قبله مسلمین از بیت‌المقدس به مکه معظمه": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 15,
+  "solar_variants": 12,
+  "lunar_variants": 2,
+  "greg_variants": 12
+ },
+ "تولد حضرت امام خمینی (ره)، رهبر کبیر انقلاب اسلامی": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 58,
+  "solar_variants": 9,
+  "lunar_variants": 53,
+  "greg_variants": 13
+ },
+ "رحلت حضرت رسول اکرم صلی‌الله‌علیه‌وآله": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز اخلاق و مهرورزی": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز ازدواج": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز امر به معروف و نهی از منکر": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 3,
+  "solar_variants": 3,
+  "lunar_variants": 1,
+  "greg_variants": 3
+ },
+ "روز اکرام و تکریم خیرین": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت حضرت احمد بن موسی شاهچراغ علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 9,
+  "solar_variants": 9,
+  "lunar_variants": 2,
+  "greg_variants": 9
+ },
+ "روز بزرگداشت حضرت صالح بن موسی کاظم علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت سلمان فارسی": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز بزرگداشت محتشم کاشانی": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز تجلیل از اسرا و مفقودان": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 22,
+  "solar_variants": 22,
+  "lunar_variants": 1,
+  "greg_variants": 22
+ },
+ "روز تجلیل از امام زادگان و بقاع متبرکه": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز ترویج زکات": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز تکریم مادران و همسران شهدا": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جانباز": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز جهانی مستضعفان": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز خانواده و تکریم بازنشستگان": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 12,
+  "solar_variants": 12,
+  "lunar_variants": 1,
+  "greg_variants": 12
+ },
+ "روز دختران": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز زن": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 1,
+  "solar_variants": 1,
+  "lunar_variants": 1,
+  "greg_variants": 1
+ },
+ "روز سربازان گمنام امام زمان (عج": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز شعر و ادبیات آیینی": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز صحیفه سجادیه": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز فرهنگ پهلوانی و ورزش زورخانه‌ای": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 10,
+  "solar_variants": 10,
+  "lunar_variants": 1,
+  "greg_variants": 10
+ },
+ "روز مباهله پیامبر اسلام صلی‌الله‌علیه‌وآله": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 16,
+  "solar_variants": 16,
+  "lunar_variants": 1,
+  "greg_variants": 16
+ },
+ "روز نهج‌البلاغه": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز وقف": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 8,
+  "solar_variants": 8,
+  "lunar_variants": 1,
+  "greg_variants": 8
+ },
+ "روز پاسدار": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز پدر": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز پرستار": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "روز پسر": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "سالروز ازدواج حضرت علی علیهالسلام و حضرت فاطمه سلامالله علیها": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 10,
+  "solar_variants": 10,
+  "lunar_variants": 1,
+  "greg_variants": 10
+ },
+ "سالروز صدور فرمان حضرت امام خمینی (رحمةالله علیه) مبنی بر": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 5,
+  "solar_variants": 1,
+  "lunar_variants": 5,
+  "greg_variants": 2
+ },
+ "شب قدر": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 38,
+  "solar_variants": 38,
+  "lunar_variants": 3,
+  "greg_variants": 38
+ },
+ "شهادت آیتالله امام زینالعابدین علیهالسلام 95 به روایتی": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 7,
+  "lunar_variants": 14,
+  "greg_variants": 7
+ },
+ "شهادت حضرت امام جعفر صادق علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 21,
+  "solar_variants": 21,
+  "lunar_variants": 1,
+  "greg_variants": 21
+ },
+ "شهادت حضرت امام حسن عسکری علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 46,
+  "solar_variants": 45,
+  "lunar_variants": 7,
+  "greg_variants": 45
+ },
+ "شهادت حضرت امام حسن مجتبی علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 46,
+  "solar_variants": 45,
+  "lunar_variants": 7,
+  "greg_variants": 45
+ },
+ "شهادت حضرت امام رضا علیهالسلام": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 22,
+  "solar_variants": 22,
+  "lunar_variants": 2,
+  "greg_variants": 22
+ },
+ "شهادت حضرت امام زین‌العابدین علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 5,
+  "solar_variants": 5,
+  "lunar_variants": 2,
+  "greg_variants": 5
+ },
+ "شهادت حضرت امام علی النقی الهادی علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 21,
+  "solar_variants": 21,
+  "lunar_variants": 2,
+  "greg_variants": 21
+ },
+ "شهادت حضرت امام علی علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 21,
+  "solar_variants": 21,
+  "lunar_variants": 2,
+  "greg_variants": 21
+ },
+ "شهادت حضرت امام محمد باقر علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 43,
+  "solar_variants": 43,
+  "lunar_variants": 5,
+  "greg_variants": 43
+ },
+ "شهادت حضرت امام محمد تقی علیه‌السلام «جوادالائمه": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 43,
+  "solar_variants": 43,
+  "lunar_variants": 5,
+  "greg_variants": 43
+ },
+ "شهادت حضرت امام موسی کاظم علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 19,
+  "solar_variants": 19,
+  "lunar_variants": 1,
+  "greg_variants": 19
+ },
+ "شهادت حضرت فاطمه زهرا سلام‌الله‌علیها": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 45,
+  "solar_variants": 45,
+  "lunar_variants": 4,
+  "greg_variants": 45
+ },
+ "شهادت سربازان دلیر": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 18,
+  "solar_variants": 1,
+  "lunar_variants": 18,
+  "greg_variants": 2
+ },
+ "شهادت محمدحسین فهمیده بسیجی 13 ساله": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 18,
+  "solar_variants": 1,
+  "lunar_variants": 18,
+  "greg_variants": 2
+ },
+ "شهادت مظلومانه زائران خانه خدا به دست مأموران آل سعود": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 51,
+  "solar_variants": 25,
+  "lunar_variants": 32,
+  "greg_variants": 27
+ },
+ "ضربت خوردن حضرت امام علی علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 14,
+  "solar_variants": 14,
+  "lunar_variants": 1,
+  "greg_variants": 14
+ },
+ "عاشورای حسینی": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 22,
+  "solar_variants": 22,
+  "lunar_variants": 1,
+  "greg_variants": 22
+ },
+ "عید سعید غدیر خم": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 16,
+  "solar_variants": 16,
+  "lunar_variants": 2,
+  "greg_variants": 16
+ },
+ "عید سعید فطر": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 23,
+  "solar_variants": 23,
+  "lunar_variants": 2,
+  "greg_variants": 23
+ },
+ "عید سعید قربان": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 13,
+  "solar_variants": 13,
+  "lunar_variants": 1,
+  "greg_variants": 13
+ },
+ "فتح اندلس به دست مسلمانان": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "مبعث حضرت رسول اکرم صلی‌الله‌علیه‌وآله (13 سال قبل از هجرت": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 23,
+  "solar_variants": 23,
+  "lunar_variants": 2,
+  "greg_variants": 23
+ },
+ "میلاد حضرت عیسی مسیح علیهالسلام": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 7,
+  "solar_variants": 1,
+  "lunar_variants": 7,
+  "greg_variants": 2
+ },
+ "هجرت حضرت رسول اکرم صلی‌الله‌علیه‌وآله از مکه به مدینه": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 17,
+  "solar_variants": 17,
+  "lunar_variants": 2,
+  "greg_variants": 17
+ },
+ "وفات آیتالله سید محمود طالقانی اولین امام جمعه تهران": {
+  "calendar": "solar",
+  "basis": "تاریخ شمسی در بیشترِ سال‌ها ثابت، قمری متغیر",
+  "confidence": "بالا",
+  "observations": 3,
+  "solar_variants": 1,
+  "lunar_variants": 3,
+  "greg_variants": 2
+ },
+ "وفات حضرت ام‌البنین سلام‌الله‌علیها": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "وفات حضرت خدیجه سلام‌الله‌علیها (3 سال قبل از هجرت": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 19,
+  "solar_variants": 19,
+  "lunar_variants": 2,
+  "greg_variants": 19
+ },
+ "وفات حضرت زینب سلامالله علیها 62": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 12,
+  "solar_variants": 12,
+  "lunar_variants": 1,
+  "greg_variants": 12
+ },
+ "وفات حضرت معصومه سلام‌الله‌علیها": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 18,
+  "solar_variants": 18,
+  "lunar_variants": 3,
+  "greg_variants": 18
+ },
+ "ولادت امام موسی کاظم علیهالسلام 128": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 21,
+  "solar_variants": 21,
+  "lunar_variants": 4,
+  "greg_variants": 21
+ },
+ "ولادت حضرت ابوالفضل العباس علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 20,
+  "solar_variants": 20,
+  "lunar_variants": 1,
+  "greg_variants": 20
+ },
+ "ولادت حضرت امام جعفر صادق علیهالسلاممؤسس مذهب جعفری 83": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 9,
+  "solar_variants": 9,
+  "lunar_variants": 2,
+  "greg_variants": 9
+ },
+ "ولادت حضرت امام جعفر صادق علیه‌السلام، مؤسس مذهب جعفری": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 9,
+  "solar_variants": 9,
+  "lunar_variants": 2,
+  "greg_variants": 9
+ },
+ "ولادت حضرت امام حسن عسکری علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 41,
+  "solar_variants": 41,
+  "lunar_variants": 5,
+  "greg_variants": 41
+ },
+ "ولادت حضرت امام حسن مجتبی علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 41,
+  "solar_variants": 41,
+  "lunar_variants": 5,
+  "greg_variants": 41
+ },
+ "ولادت حضرت امام حسین علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 21,
+  "solar_variants": 21,
+  "lunar_variants": 2,
+  "greg_variants": 21
+ },
+ "ولادت حضرت امام رضا علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 19,
+  "solar_variants": 19,
+  "lunar_variants": 2,
+  "greg_variants": 19
+ },
+ "ولادت حضرت امام زین‌العابدین علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "متوسط",
+  "observations": 2,
+  "solar_variants": 2,
+  "lunar_variants": 1,
+  "greg_variants": 2
+ },
+ "ولادت حضرت امام علی النقی الهادی علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 43,
+  "solar_variants": 43,
+  "lunar_variants": 3,
+  "greg_variants": 43
+ },
+ "ولادت حضرت امام علی علیه‌السلام (23 سال قبل از هجرت": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 43,
+  "solar_variants": 43,
+  "lunar_variants": 3,
+  "greg_variants": 43
+ },
+ "ولادت حضرت امام محمد باقر علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 44,
+  "solar_variants": 44,
+  "lunar_variants": 5,
+  "greg_variants": 44
+ },
+ "ولادت حضرت امام محمدباقر علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "متوسط",
+  "observations": 2,
+  "solar_variants": 2,
+  "lunar_variants": 2,
+  "greg_variants": 2
+ },
+ "ولادت حضرت امام محمدتقی علیه‌السلام «جوادالائمه": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 8,
+  "solar_variants": 8,
+  "lunar_variants": 2,
+  "greg_variants": 8
+ },
+ "ولادت حضرت امام موسی کاظم علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 21,
+  "solar_variants": 21,
+  "lunar_variants": 4,
+  "greg_variants": 21
+ },
+ "ولادت حضرت رسول اکرم صلی‌الله‌علیه‌وآله (53 سال قبل از هجرت": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 25,
+  "solar_variants": 25,
+  "lunar_variants": 6,
+  "greg_variants": 25
+ },
+ "ولادت حضرت رسول اکرم صلی‌الله‌علیه‌وآله به روایت اهل سنت (53 سال قبل از هجرت": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 25,
+  "solar_variants": 25,
+  "lunar_variants": 6,
+  "greg_variants": 25
+ },
+ "ولادت حضرت زینب سلام‌الله‌علیها": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 23,
+  "solar_variants": 23,
+  "lunar_variants": 1,
+  "greg_variants": 23
+ },
+ "ولادت حضرت عبدالعظیم حسنی علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ },
+ "ولادت حضرت علی اکبر علیه‌السلام": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "بالا",
+  "observations": 43,
+  "solar_variants": 43,
+  "lunar_variants": 3,
+  "greg_variants": 43
+ },
+ "ولادت حضرت فاطمه زهرا سلام‌الله‌علیها (هشتم قبل از هجرت": {
+  "calendar": "solar",
+  "basis": "نشانهٔ ه.ش در عنوان",
+  "confidence": "بالا",
+  "observations": 22,
+  "solar_variants": 22,
+  "lunar_variants": 3,
+  "greg_variants": 22
+ },
+ "ولادت حضرت قائم عجل‌الله‌تعالی‌فرجه": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 22,
+  "solar_variants": 22,
+  "lunar_variants": 2,
+  "greg_variants": 22
+ },
+ "ولادت حضرت معصومه سلام‌الله‌علیها": {
+  "calendar": "lunar",
+  "basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
+  "confidence": "بالا",
+  "observations": 22,
+  "solar_variants": 22,
+  "lunar_variants": 3,
+  "greg_variants": 22
+ },
+ "یادروز قیام مردم سیستان به خونخواهی شهدای کربلا": {
+  "calendar": "lunar",
+  "basis": "پیش‌فرضِ تقویمِ کاتالوگ (دادهٔ کافی برای مقایسهٔ قاطع نبود)",
+  "confidence": "پایین",
+  "observations": 0,
+  "solar_variants": 0,
+  "lunar_variants": 0,
+  "greg_variants": 0
+ }
+}
