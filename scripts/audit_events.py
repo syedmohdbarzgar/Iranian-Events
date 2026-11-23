@@ -460,7 +460,7 @@ def write_reports(a: Audit) -> int:
                       "این ردیف‌ها با تاریخِ جدولِ PDF نمایش داده می‌شوند و دسته/تقویمشان",
                       "از خودِ عنوان استنباط شده است؛ برای تأییدِ نهایی نیاز به منبعِ دستی دارند.", "",
                       "| تاریخ | عنوان |", "|---|---|"]
-            for r in unmatched[:60]:
+            for r in unmatched:
                 m, d = r["solar"][1], r["solar"][2]
                 lines.append(f"| {y}/{m:02d}/{d:02d} | {r['title'][:110]} |")
         (OUT / "years" / f"{y}.md").write_text("\n".join(lines) + "\n", encoding="utf-8")

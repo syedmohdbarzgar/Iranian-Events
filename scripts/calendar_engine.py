@@ -668,6 +668,37 @@ def match_catalog(title: str, catalog: list[dict]) -> dict | None:
     return scored[0][2]
 
 
+def events_in_title(title: str, catalog: list[dict]) -> list[dict]:
+    """رویدادهایی که عنوانِ کاملشان داخلِ عنوانِ ردیف آمده است.
+
+    ردیف‌های چسبیدهٔ PDF اغلب بدونِ «و» دو عنوان را کنارِ هم گذاشته‌اند
+    («روز بهره‌وری ... روز بزرگداشت ملاصدرا»). اگر مجموعِ عنوان‌های یافته
+    دست‌کم ۵۵٪ عنوانِ ردیف را بپوشاند، همان‌ها رویدادهای واقعیِ ردیف‌اند.
+    """
+    row = _canon(title)
+    if len(row) < 10:
+        return []
+    cands: list[tuple[int, dict, str]] = []
+    for e in catalog:
+        c = _canon(e["title"])
+        if len(c) >= 8 and c in row:
+            cands.append((len(c), e, c))
+    cands.sort(key=lambda x: -x[0])
+    chosen: list[tuple[int, dict, str]] = []
+    ids: set[str] = set()
+    for length, e, c in cands:
+        if e["id"] in ids:
+            continue
+        if any(c in cc or cc in c for _, _, cc in chosen):
+            continue
+        chosen.append((length, e, c))
+        ids.add(e["id"])
+    if len(chosen) < 2:
+        return []
+    cover = sum(x[0] for x in chosen) / len(row)
+    return [e for _, e, _ in chosen] if cover >= 0.55 else []
+
+
 def event_dates(entry: dict, year: int) -> list[tuple[int, int, int, bool]]:
     """(ماه، روز، شمسی/میلادی/قمری؟، تقریبی؟) برای یک سال."""
     out: list[tuple[int, int, int, bool]] = []
@@ -759,6 +790,21 @@ def generate(year: int, catalog: dict) -> dict:
                             dates, key=lambda x: abs((x[0] * 31 + x[1]) - (pm * 31 + pd)))
                     add_row(display, m, d, ev, r["holiday"], approx)
                     continue
+                # ردیفِ چندرویدادیِ چسبیده بدونِ «و»: عنوان‌های کاملِ کاتالوگ را
+                # داخلِ ردیف پیدا کن (پوششِ ≥۵۵٪) و همان‌ها را جدا کن.
+                embedded = events_in_title(title, catalog["catalog"])
+                if len(embedded) >= 2:
+                    first = True
+                    for cev in embedded:
+                        cm, cd, approx = pm, pd, False
+                        dates = event_dates(cev, year)
+                        if dates:
+                            cm, cd, _kind, approx = min(
+                                dates, key=lambda x: abs((x[0] * 31 + x[1]) - (pm * 31 + pd)))
+                        add_row(cev["title"], cm, cd, cev,
+                                r["holiday"] if first else False, approx, "official-split")
+                        first = False
+                    continue
                 # ردیفِ چندرویدادیِ چسبیده: در مرزِ «و» به بندها می‌شکند و هر
                 # بند جداگانه تطبیق می‌گیرد (دسته/تقویم/تاریخِ درست).
                 clauses = [c.strip() for c in re.split(r"\s+و\s+", title)
@@ -845,6 +891,7 @@ def generate(year: int, catalog: dict) -> dict:
                          "gregorian": list(jalali_to_gregorian(year, m, d)),
                          "lunar": [], "holiday": holiday, "approx": approx,
                          "category": e["category"], "source": "rule", "year": year,
+                         "eventId": e["id"],
                          "recurrenceType": e.get("recurrenceType"),
                          "verificationStatus": ("temporary" if year > last else e.get("verificationStatus")),
                          "origin": e.get("origin")})

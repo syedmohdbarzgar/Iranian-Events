@@ -37,8 +37,11 @@ def load_corrections() -> dict:
 
 def alias_title(title: str) -> str:
     """عنوان‌های چسبیده/به‌هم‌ریخته را به عنوانِ کانونیِ همان رویداد برمی‌گرداند."""
+    ct = canon_key(title)
     for a in load_corrections().get("aliases", []):
-        if a["match"] in title:
+        # مقایسهٔ خام کافی نیست: PDF پرانتز/نیم‌فاصله را جابه‌جا می‌کند
+        # («روز جهانی قدس)آخرین جمعه...»). با کلیدِ کانونی هم بسنج.
+        if a["match"] in title or canon_key(a["match"]) in ct:
             return a["title"]
     return title
 
