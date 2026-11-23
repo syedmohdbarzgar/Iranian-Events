@@ -748,6 +748,7 @@ def generate(year: int, catalog: dict) -> dict:
         if path.exists():
             data = json.loads(path.read_text(encoding="utf-8"))
             seen = set()
+            seen_events: set[tuple[int, int, str]] = set()
             dropped = 0
 
             def add_row(display: str, m: int, d: int, ev: dict | None,
@@ -758,6 +759,14 @@ def generate(year: int, catalog: dict) -> dict:
                 if key in seen:
                     dropped += 1  # همان رویداد در همان روز، از پیش آمده
                     return
+                # دو عنوانِ مختلف از یک eventId در یک روز (مثل دو روایتِ شهادت)
+                # نباید دو ردیف بسازند؛ هویتِ رویداد مهم‌تر از املای عنوان است.
+                if ev is not None:
+                    ek = (m, d, ev["id"])
+                    if ek in seen_events:
+                        dropped += 1
+                        return
+                    seen_events.add(ek)
                 seen.add(key)
                 rows.append({"title": display, "solar": [year, m, d],
                              "gregorian": list(jalali_to_gregorian(year, m, d)),

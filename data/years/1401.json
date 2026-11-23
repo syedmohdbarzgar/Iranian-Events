@@ -1,9 +1,9 @@
 {
  "year": 1401,
  "mode": "data",
- "count": 377,
- "droppedRows": 4,
- "addedRows": 154,
+ "count": 378,
+ "droppedRows": 6,
+ "addedRows": 157,
  "rows": [
   {
    "title": "عید نوروز",
@@ -5616,6 +5616,39 @@
    "year": 1401
   },
   {
+   "title": "روز بزرگداشت ابوعلی سینا",
+   "solar": [
+    1401,
+    6,
+    1
+   ],
+   "gregorian": [
+    2022,
+    8,
+    23
+   ],
+   "lunar": [
+    1444,
+    1,
+    25
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0156",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱ شهریور ۱۳۹۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1401
+  },
+  {
    "title": "روز همدان",
    "solar": [
     1401,
@@ -5649,40 +5682,40 @@
    "year": 1401
   },
   {
-   "title": "شهادت حضرت امام زینالعابدین علیه‌السلام",
+   "title": "روز پزشک",
    "solar": [
     1401,
     6,
-    2
+    1
    ],
    "gregorian": [
     2022,
     8,
-    24
+    23
    ],
    "lunar": [
     1444,
     1,
-    26
+    25
    ],
    "holiday": false,
-   "approx": true,
-   "category": "religious",
-   "recurrenceType": "C",
-   "eventId": "E0442",
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0329",
    "verificationStatus": "verified",
    "origin": {
-    "kind": "tradition",
-    "label": "سنت قمری",
-    "note": "مناسبتِ مذهبی",
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱ شهریور ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
-    "source": ""
+    "source": "data/official-calendar-*.json"
    },
-   "source": "official-pdf",
+   "source": "catalog",
    "year": 1401
   },
   {
-   "title": "بزرگداشت شهادت حضرت امام زینالعابدین علیه‌السلام 95 به روایتی روز ابوعلی سینا روز پزشک",
+   "title": "شهادت حضرت امام زینالعابدین علیه‌السلام",
    "solar": [
     1401,
     6,
@@ -5778,39 +5811,6 @@
     "source": "data/official-calendar-*.json"
    },
    "source": "official-split",
-   "year": 1401
-  },
-  {
-   "title": "ولادت حضرت امام زینالعابدین علیه‌السلام 38 روز صحیفه سجادیه",
-   "solar": [
-    1401,
-    6,
-    2
-   ],
-   "gregorian": [
-    2022,
-    8,
-    24
-   ],
-   "lunar": [
-    1444,
-    1,
-    26
-   ],
-   "holiday": false,
-   "approx": true,
-   "category": "religious",
-   "recurrenceType": "C",
-   "eventId": "E0442",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "tradition",
-    "label": "سنت قمری",
-    "note": "مناسبتِ مذهبی",
-    "gregorian": "",
-    "source": ""
-   },
-   "source": "official-pdf",
    "year": 1401
   },
   {
@@ -11650,6 +11650,39 @@
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1401
+  },
+  {
+   "title": "روز صحیفه سجادیه",
+   "solar": [
+    1401,
+    12,
+    8
+   ],
+   "gregorian": [
+    2023,
+    2,
+    27
+   ],
+   "lunar": [
+    1444,
+    8,
+    6
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0425",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
    },
    "source": "catalog",
    "year": 1401

@@ -14,6 +14,12 @@ STEPS = [
     ("موتور تقویم", "audit_calendar.py"),
     ("سال‌ها", "build_years.py"),
     ("رویدادها و پک‌ها", "audit_events.py"),
+    ("جدول‌های درهم‌ادغام", "audit_merged_tables.py"),
+    ("manifest داده", "build_data_manifest.py"),
+    ("ردیف‌های بدونِ تطبیق", "audit_unmatched.py"),
+    ("صفِ بازبینی", "build_review_queue.py"),
+    ("تکرارهای کاتالوگ", "audit_catalog_duplicates.py"),
+    ("استخراجِ سال‌های مسدود", "audit_extraction_issues.py"),
 ]
 
 

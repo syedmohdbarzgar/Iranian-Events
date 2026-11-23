@@ -1,8 +1,8 @@
 {
  "year": 1399,
  "mode": "data",
- "count": 363,
- "droppedRows": 7,
+ "count": 362,
+ "droppedRows": 8,
  "addedRows": 161,
  "rows": [
   {
@@ -292,39 +292,6 @@
   },
   {
    "title": "جانباز ( و روز ) 26 ولادت حضرت ابوالفضل العباس علیه‌السلام",
-   "solar": [
-    1399,
-    1,
-    11
-   ],
-   "gregorian": [
-    2020,
-    3,
-    30
-   ],
-   "lunar": [
-    1441,
-    8,
-    5
-   ],
-   "holiday": false,
-   "approx": true,
-   "category": "religious",
-   "recurrenceType": "C",
-   "eventId": "E0479",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "tradition",
-    "label": "سنت قمری",
-    "note": "مناسبتِ مذهبی",
-    "gregorian": "",
-    "source": ""
-   },
-   "source": "official-pdf",
-   "year": 1399
-  },
-  {
-   "title": "و روز جانباز 26 ولادت حضرت ابوالفضل العباس علیه‌السلام",
    "solar": [
     1399,
     1,

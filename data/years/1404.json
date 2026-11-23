@@ -1,9 +1,9 @@
 {
  "year": 1404,
  "mode": "data",
- "count": 396,
- "droppedRows": 6,
- "addedRows": 165,
+ "count": 395,
+ "droppedRows": 8,
+ "addedRows": 166,
  "rows": [
   {
    "title": "عید نوروز",
@@ -4999,72 +4999,6 @@
   },
   {
    "title": "ق (هو) 95 السلام علیه شهادت حضرت امام زینالعابدین",
-   "solar": [
-    1404,
-    4,
-    31
-   ],
-   "gregorian": [
-    2025,
-    7,
-    22
-   ],
-   "lunar": [
-    1447,
-    1,
-    26
-   ],
-   "holiday": false,
-   "approx": true,
-   "category": "religious",
-   "recurrenceType": "C",
-   "eventId": "E0442",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "tradition",
-    "label": "سنت قمری",
-    "note": "مناسبتِ مذهبی",
-    "gregorian": "",
-    "source": ""
-   },
-   "source": "official-pdf",
-   "year": 1404
-  },
-  {
-   "title": "شهادت حضرت امام زینالعابدین علیه‌السلام به روایتی",
-   "solar": [
-    1404,
-    4,
-    31
-   ],
-   "gregorian": [
-    2025,
-    7,
-    22
-   ],
-   "lunar": [
-    1447,
-    1,
-    26
-   ],
-   "holiday": false,
-   "approx": true,
-   "category": "religious",
-   "recurrenceType": "C",
-   "eventId": "E0442",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "tradition",
-    "label": "سنت قمری",
-    "note": "مناسبتِ مذهبی",
-    "gregorian": "",
-    "source": ""
-   },
-   "source": "official-pdf",
-   "year": 1404
-  },
-  {
-   "title": "ولادت حضرت امام زینالعابدین علیه‌السلام و روز صحیفه سجادیه",
    "solar": [
     1404,
     4,
@@ -11406,6 +11340,39 @@
     "source": ""
    },
    "source": "official-pdf",
+   "year": 1404
+  },
+  {
+   "title": "روز صحیفه سجادیه",
+   "solar": [
+    1404,
+    11,
+    5
+   ],
+   "gregorian": [
+    2026,
+    1,
+    25
+   ],
+   "lunar": [
+    1447,
+    8,
+    6
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0425",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
    "year": 1404
   },
   {

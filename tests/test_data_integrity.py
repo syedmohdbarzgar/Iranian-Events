@@ -1,0 +1,111 @@
+"""گاردهای یکپارچگیِ داده و گزارش‌های ممیزی.
+
+هدف: جلوگیری از انتشارِ داده‌ای که با manifest/گزارش‌ها یکی نیست، تاریخِ
+نامعتبر دارد، رویدادِ بی‌شناسه دارد یا ردیفِ بدونِ تطبیق را پنهان کرده است.
+"""
+from __future__ import annotations
+
+import json
+import hashlib
+import sys
+import unittest
+from datetime import date
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+sys.path.insert(0, str(ROOT / "scripts"))
+import calendar_engine as engine  # noqa: E402
+import jalali_reference as jr  # noqa: E402
+
+
+def load(path: Path):
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+class DataIntegrityTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.master = load(DATA / "events-master.json")
+        cls.events = cls.master["events"]
+        cls.official = {}
+        for p in DATA.glob("official-calendar-*.json"):
+            doc = load(p)
+            cls.official[int(doc["year"])] = doc
+        cls.years = {}
+        for p in (DATA / "years").glob("*.json"):
+            if not p.stem.isdigit():
+                continue
+            doc = load(p)
+            if doc.get("mode") == "data":
+                cls.years[int(p.stem)] = doc
+        cls.manifest = load(ROOT / "reports" / "audit" / "data-manifest.json")
+
+    def test_manifest_counts_match_current_data(self):
+        annual_rows = sum(len(d["rows"]) for d in self.years.values())
+        unmatched = sum(1 for d in self.years.values() for r in d["rows"] if not r.get("eventId"))
+        self.assertEqual(self.manifest["counts"]["uniqueEvents"], len(self.events))
+        self.assertEqual(self.manifest["counts"]["annualRows"], annual_rows)
+        self.assertEqual(self.manifest["counts"]["annualUnmatchedRows"], unmatched)
+        self.assertEqual(self.manifest["counts"]["officialYears"], len(self.official))
+
+    def test_manifest_hashes_are_current(self):
+        for rel, expected in self.manifest["dataHashes"].items():
+            path = ROOT / rel
+            self.assertTrue(path.exists(), rel)
+            self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), expected, rel)
+
+    def test_master_ids_unique_and_status_valid(self):
+        ids = [e["id"] for e in self.events]
+        self.assertEqual(len(ids), len(set(ids)))
+        allowed = {"verified", "partially_verified", "traditional", "unverified", "temporary"}
+        self.assertTrue({e.get("verificationStatus") for e in self.events} <= allowed)
+
+    def test_official_rows_are_structurally_valid(self):
+        for year, doc in self.official.items():
+            dates = [tuple(r["solar"]) for r in doc["rows"]]
+            self.assertEqual(len(dates), len(set(dates)), f"{year}: تاریخ تکراری")
+            for row in doc["rows"]:
+                jy, jm, jd = row["solar"]
+                self.assertEqual(jy, year)
+                self.assertIn(jm, range(1, 13))
+                self.assertIn(jd, range(1, jr.month_length(jy, jm) + 1))
+                greg = jr.to_gregorian(jy, jm, jd)
+                self.assertEqual(tuple(row["gregorian"]), greg)
+                self.assertEqual(row["weekday"], date(*greg).weekday())
+                self.assertIsInstance(row["holiday"], bool)
+                self.assertTrue((row.get("title") or "").strip())
+                self.assertIsInstance(row.get("page"), int)
+
+    def test_year_rows_have_known_event_ids_and_no_duplicate_pair(self):
+        known = {e["id"] for e in self.events}
+        for year, doc in self.years.items():
+            self.assertEqual(doc.get("count"), len(doc["rows"]), str(year))
+            pairs = set()
+            for row in doc["rows"]:
+                eid = row.get("eventId")
+                if eid:
+                    self.assertIn(eid, known, f"{year} {row['solar']} {eid}")
+                    pair = (tuple(row["solar"]), eid)
+                    self.assertNotIn(pair, pairs, f"{year}: تکرار {pair}")
+                    pairs.add(pair)
+
+    def test_unmatched_report_is_complete(self):
+        report = load(ROOT / "reports" / "audit" / "unmatched.json")
+        current = sum(1 for d in self.years.values() for r in d["rows"] if not r.get("eventId"))
+        self.assertEqual(report["total"], current)
+        self.assertEqual(len(report["rows"]), current)
+        self.assertTrue(all(r["disposition"] == "needs_manual_review" for r in report["rows"]))
+
+    def test_review_queue_covers_every_non_verified_event(self):
+        queue = load(DATA / "review" / "verification-queue.json")["queue"]
+        expected = {e["id"] for e in self.events if e.get("verificationStatus") != "verified"}
+        self.assertEqual({r["id"] for r in queue}, expected)
+
+    def test_extraction_years_are_not_published(self):
+        for y in (1393, 1396, 1402):
+            self.assertNotIn(y, self.official)
+
+
+if __name__ == "__main__":
+    unittest.main()

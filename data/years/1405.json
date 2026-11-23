@@ -2,8 +2,8 @@
  "year": 1405,
  "mode": "data",
  "count": 401,
- "droppedRows": 7,
- "addedRows": 161,
+ "droppedRows": 8,
+ "addedRows": 162,
  "rows": [
   {
    "title": "عید نوروز",
@@ -4756,39 +4756,6 @@
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   },
-   "source": "official-pdf",
-   "year": 1405
-  },
-  {
-   "title": "ولادت حضرت امام زینالعابدین علیه‌السلام و روز صحیفه سجادیه",
-   "solar": [
-    1405,
-    4,
-    21
-   ],
-   "gregorian": [
-    2026,
-    7,
-    12
-   ],
-   "lunar": [
-    1448,
-    1,
-    26
-   ],
-   "holiday": false,
-   "approx": true,
-   "category": "religious",
-   "recurrenceType": "C",
-   "eventId": "E0442",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "tradition",
-    "label": "سنت قمری",
-    "note": "مناسبتِ مذهبی",
-    "gregorian": "",
-    "source": ""
    },
    "source": "official-pdf",
    "year": 1405
@@ -11439,6 +11406,39 @@
     "source": "data/official-calendar-*.json"
    },
    "source": "official-pdf",
+   "year": 1405
+  },
+  {
+   "title": "روز صحیفه سجادیه",
+   "solar": [
+    1405,
+    10,
+    25
+   ],
+   "gregorian": [
+    2027,
+    1,
+    15
+   ],
+   "lunar": [
+    1448,
+    8,
+    6
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0425",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
    "year": 1405
   },
   {

@@ -1,8 +1,8 @@
 {
  "year": 1387,
  "mode": "data",
- "count": 342,
- "droppedRows": 5,
+ "count": 341,
+ "droppedRows": 6,
  "addedRows": 155,
  "rows": [
   {
@@ -9937,39 +9937,6 @@
   },
   {
    "title": "خبرنگار روز ولادت حضرت امام زینالعابدین علیه‌السلام 38",
-   "solar": [
-    1387,
-    11,
-    4
-   ],
-   "gregorian": [
-    2009,
-    1,
-    23
-   ],
-   "lunar": [
-    1430,
-    1,
-    26
-   ],
-   "holiday": false,
-   "approx": true,
-   "category": "religious",
-   "recurrenceType": "C",
-   "eventId": "E0442",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "tradition",
-    "label": "سنت قمری",
-    "note": "مناسبتِ مذهبی",
-    "gregorian": "",
-    "source": ""
-   },
-   "source": "official-pdf",
-   "year": 1387
-  },
-  {
-   "title": "روایتی علیه‌السلام 95 به زینالعابدین شهادت حضرت امام",
    "solar": [
     1387,
     11,

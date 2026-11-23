@@ -1,8 +1,8 @@
 {
  "year": 1382,
  "mode": "data",
- "count": 312,
- "droppedRows": 12,
+ "count": 311,
+ "droppedRows": 13,
  "addedRows": 143,
  "rows": [
   {
@@ -292,39 +292,6 @@
   },
   {
    "title": "شهادت حضرت امام زینالعابدین علیه‌السلام 95 - روز احسان و نیکوکاری",
-   "solar": [
-    1382,
-    1,
-    10
-   ],
-   "gregorian": [
-    2003,
-    3,
-    30
-   ],
-   "lunar": [
-    1424,
-    1,
-    26
-   ],
-   "holiday": false,
-   "approx": true,
-   "category": "religious",
-   "recurrenceType": "C",
-   "eventId": "E0442",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "tradition",
-    "label": "سنت قمری",
-    "note": "مناسبتِ مذهبی",
-    "gregorian": "",
-    "source": ""
-   },
-   "source": "official-pdf",
-   "year": 1382
-  },
-  {
-   "title": "شهادت حضرت امام زینالعابدین علیه‌السلام",
    "solar": [
     1382,
     1,

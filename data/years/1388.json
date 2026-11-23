@@ -1,8 +1,8 @@
 {
  "year": 1388,
  "mode": "data",
- "count": 347,
- "droppedRows": 2,
+ "count": 346,
+ "droppedRows": 3,
  "addedRows": 154,
  "rows": [
   {
@@ -9739,39 +9739,6 @@
   },
   {
    "title": "شهادت حضرت امام زینالعابدین علیه‌السلام",
-   "solar": [
-    1388,
-    10,
-    22
-   ],
-   "gregorian": [
-    2010,
-    1,
-    12
-   ],
-   "lunar": [
-    1431,
-    1,
-    26
-   ],
-   "holiday": false,
-   "approx": true,
-   "category": "religious",
-   "recurrenceType": "C",
-   "eventId": "E0442",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "tradition",
-    "label": "سنت قمری",
-    "note": "مناسبتِ مذهبی",
-    "gregorian": "",
-    "source": ""
-   },
-   "source": "official-pdf",
-   "year": 1388
-  },
-  {
-   "title": "به روایتی شهادت حضرت امام زینالعابدین علیه‌السلام",
    "solar": [
     1388,
     10,

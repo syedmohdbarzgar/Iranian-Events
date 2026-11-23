@@ -1,9 +1,9 @@
 {
  "year": 1403,
  "mode": "data",
- "count": 387,
- "droppedRows": 8,
- "addedRows": 159,
+ "count": 386,
+ "droppedRows": 10,
+ "addedRows": 160,
  "rows": [
   {
    "title": "عید نوروز",
@@ -5311,72 +5311,6 @@
   },
   {
    "title": "شهادت حضرت امام زینالعابدین علیه‌السلام",
-   "solar": [
-    1403,
-    5,
-    12
-   ],
-   "gregorian": [
-    2024,
-    8,
-    2
-   ],
-   "lunar": [
-    1446,
-    1,
-    26
-   ],
-   "holiday": false,
-   "approx": true,
-   "category": "religious",
-   "recurrenceType": "C",
-   "eventId": "E0442",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "tradition",
-    "label": "سنت قمری",
-    "note": "مناسبتِ مذهبی",
-    "gregorian": "",
-    "source": ""
-   },
-   "source": "official-pdf",
-   "year": 1403
-  },
-  {
-   "title": "روایتی شهادت حضرت امام زینالعابدین علیه‌السلام به",
-   "solar": [
-    1403,
-    5,
-    12
-   ],
-   "gregorian": [
-    2024,
-    8,
-    2
-   ],
-   "lunar": [
-    1446,
-    1,
-    26
-   ],
-   "holiday": false,
-   "approx": true,
-   "category": "religious",
-   "recurrenceType": "C",
-   "eventId": "E0442",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "tradition",
-    "label": "سنت قمری",
-    "note": "مناسبتِ مذهبی",
-    "gregorian": "",
-    "source": ""
-   },
-   "source": "official-pdf",
-   "year": 1403
-  },
-  {
-   "title": "ولادت حضرت امام زینالعابدین علیه‌السلام و روز صحیفه سجادیه",
    "solar": [
     1403,
     5,
@@ -11673,6 +11607,39 @@
     "source": ""
    },
    "source": "official-pdf",
+   "year": 1403
+  },
+  {
+   "title": "روز صحیفه سجادیه",
+   "solar": [
+    1403,
+    11,
+    17
+   ],
+   "gregorian": [
+    2025,
+    2,
+    5
+   ],
+   "lunar": [
+    1446,
+    8,
+    6
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0425",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "catalog",
    "year": 1403
   },
   {
