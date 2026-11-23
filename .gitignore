@@ -56,7 +56,6 @@ desktop.ini
 *.code-workspace
 
 # ─── منبعِ حجیم/بازتولیدی (محلی می‌ماند؛ GitHub با این حجم پاسخ نمی‌دهد) ───
-PDF/
 extracted/
 web/index.html
 web/server.log
