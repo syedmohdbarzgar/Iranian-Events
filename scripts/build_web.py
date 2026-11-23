@@ -49,6 +49,18 @@ def main() -> int:
         for r in years[y]["official"]:
             r["title"] = engine.clean_title(r["title"])
 
+    # خروجیِ وب باید همان ردیف‌های JSONِ سال باشد، نه جدولِ خامِ PDF؛ وگرنه
+    # تعداد، عنوان، سطح اعتبار و ارجاعِ صفحه بین دو خروجی یکی نیست.
+    for p in (DATA / "years").glob("*.json"):
+        if not p.stem.isdigit():
+            continue
+        doc = json.loads(p.read_text(encoding="utf-8"))
+        y = int(p.stem)
+        if doc.get("mode") == "data" and y in years:
+            years[y]["official"] = doc["rows"]
+            years[y]["source"] = f"data/years/{p.name}"
+            years[y]["count"] = doc.get("count", len(doc["rows"]))
+
     catalog = engine.build_catalog()
     origins = {engine.signature(e["title"]): e["origin"] for e in catalog["catalog"] if e.get("origin")}
     exact = {engine._norm(e["title"]): e["origin"]["label"] for e in catalog["catalog"] if e.get("origin")}
@@ -62,6 +74,12 @@ def main() -> int:
         if "روز جهانی قدس" in n or "روز قدس" in n:
             return "lunar"
         return cal_exact.get(n) or cal_sig.get(engine.signature(title)) or "solar"
+
+    def origin_text(r, year):
+        origin = r.get("origin")
+        if isinstance(origin, dict):
+            return origin.get("label") or "نامشخص"
+        return origin or origin_label(r["title"], year)
 
     def origin_label(title, year):
         n = engine._norm(title)
@@ -78,6 +96,9 @@ def main() -> int:
                  "title": r["title"], "holiday": r["holiday"], "approx": r.get("approx", False),
                  "category": r.get("category", "unknown"),
                  "origin": (r.get("origin") or {}).get("label", ""),
+                 "verificationStatus": r.get("verificationStatus") or "unverified",
+                 "dateCertainty": r.get("dateCertainty") or "unconfirmed",
+                 "page": r.get("page"), "sourceRef": r.get("sourceRef"),
                  "cal": cal_for(r["title"])} for r in res["rows"]]
         years[y] = {"official": rows, "source": "قاعدهٔ تکرار (بدون PDF این سال)",
                     "generated": True, "mode": res["mode"]}
@@ -167,8 +188,12 @@ def main() -> int:
         "firstOfficial": order[0] if order else LAST,
         "lastOfficial": order[-1] if order else LAST,
         "years": {str(y): {**years[y], "official": [
-            {**r, "origin": r.get("origin") or origin_label(r["title"], y),
-             "cal": r.get("cal") or cal_for(r["title"])}
+            {**r, "origin": origin_text(r, y),
+             "cal": r.get("cal") or cal_for(r["title"]),
+             "verificationStatus": r.get("verificationStatus") or "unverified",
+             "dateCertainty": r.get("dateCertainty") or "unconfirmed",
+             "page": r.get("page"),
+             "sourceRef": r.get("sourceRef") or r.get("source")}
             for r in years[y]["official"]]} for y in sorted(years)},
         "recurring": recurring[:400],
         "compare": {str(k): v for k, v in compare.items()},
@@ -263,6 +288,7 @@ aside{position:sticky;top:76px;align-self:start;max-height:calc(100vh - 100px);o
 .badge.solar{color:var(--solar);border-color:#4a3c17} .badge.lunar{color:var(--lunar);border-color:#1d4a42}
 .badge.greg{color:var(--greg);border-color:#243c63} .origin{font-size:11px;color:#6b7280;font-weight:500;white-space:nowrap}
 .badge.hol{color:var(--holiday);border-color:#5a2626}
+.badge.warn{color:#f5b83d;border-color:#5a4718;background:#241f10}
 .empty-state{color:var(--muted);padding:18px;text-align:center;font-size:13px}
 .tabs{display:flex;gap:6px;padding:8px 10px;border-bottom:1px solid var(--line);flex-wrap:wrap}
 .tabs button{padding:4px 10px;font-size:12px;border-radius:999px;background:transparent}
@@ -376,12 +402,12 @@ function recurringFor(y){
     if(y < r.from) continue;
     if(r.cal==='solar'){
       if(r.m>12 || r.d>monthLen(y,r.m)) continue;
-      out.push({m:r.m,d:r.d,title:r.title,cal:'solar',holiday:r.holiday,src:'recurring',origin:r.origin});
+      out.push({m:r.m,d:r.d,title:r.title,cal:'solar',holiday:r.holiday,src:'recurring',origin:r.origin,verificationStatus:'rule'});
     } else if(r.cal==='gregorian'){
       const gs = j2g(y,1,1)[0];
       for(const gy of [gs, gs+1]){
         const [jy,jm,jd] = g2j(gy, r.gm, r.gd);
-        if(jy===y) out.push({m:jm,d:jd,title:r.title,cal:'gregorian',holiday:r.holiday,src:'recurring',origin:r.origin});
+        if(jy===y) out.push({m:jm,d:jd,title:r.title,cal:'gregorian',holiday:r.holiday,src:'recurring',origin:r.origin,verificationStatus:'rule'});
       }
     }
   }
@@ -391,7 +417,8 @@ function officialFor(y){
   const pack=DATA.years[y]; if(!pack) return [];
   return pack.official.map(r=>({m:r.solar[1],d:r.solar[2],title:r.title,cal:r.cal||'solar',
     holiday:r.holiday, src:'official', lunar:r.lunar, greg:r.gregorian, approx:!!r.approx,
-    origin:r.origin}));
+    origin:r.origin, verificationStatus:r.verificationStatus||'unverified',
+    dateCertainty:r.dateCertainty||'unconfirmed', page:r.page, sourceRef:r.sourceRef}));
 }
 function normT(t){return (t||'').replace(/^(آغاز|عید|شب|سالروز)\s+/,'').replace(/\s+/g,' ').trim().slice(0,18);}
 function allFor(y){
@@ -410,6 +437,7 @@ function render(){
     <div class="stat"><b>${y}</b><span>سال</span></div>
     <div class="stat"><b>${evs.length}</b><span>رویداد</span></div>
     <div class="stat"><b>${evs.filter(e=>e.holiday).length}</b><span>تعطیل</span></div>
+    <div class="stat"><b>${evs.filter(e=>e.verificationStatus&&e.verificationStatus!=='verified').length}</b><span>غیرِ قطعی</span></div>
     <div class="stat"><b>${DATA.years[y] && !DATA.years[y].generated ? 'رسمی' : 'قاعده‌محور'}</b><span>${DATA.years[y]?DATA.years[y].source:''}</span></div>`;
   const byDay=new Map();
   for(const e of evs){ const k=e.m+'-'+e.d; if(!byDay.has(k)) byDay.set(k,[]); byDay.get(k).push(e); }
@@ -455,6 +483,8 @@ function renderSide(y){
       <div class="meta"><span>${PERSIAN[e.m-1]} ${e.d}</span>
       <span class="badge ${e.cal==='gregorian'?'greg':e.cal==='lunar'?'lunar':'solar'}">${e.cal==='gregorian'?'میلادی':e.cal==='lunar'?'قمری':'شمسی'}</span>
       ${e.holiday?'<span class="badge hol">تعطیل</span>':''}
+      ${e.verificationStatus&&e.verificationStatus!=='verified'?`<span class="badge warn">${({partially_verified:'تأیید جزئی',traditional:'سنتی',unverified:'تأییدنشده',temporary:'موقت',rule:'قاعدهٔ نمایش'})[e.verificationStatus]||e.verificationStatus}</span>`:''}
+      ${e.page?`<span title="${e.sourceRef||''}">صفحهٔ ${e.page} PDF</span>`:''}
       ${e.src==='recurring'?'<span class="badge">تکرارشونده</span>':''}
       ${e.lunar&&e.lunar[1]?`<span>${e.lunar[0]}/${e.lunar[1]}/${e.lunar[2]} قمری</span>`:''}
       ${e.approx?'<span class="badge">قمری تقریبی ±۱ روز</span>':''}

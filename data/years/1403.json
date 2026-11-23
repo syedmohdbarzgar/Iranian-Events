@@ -27,7 +27,8 @@
    "category": "cultural",
    "recurrenceType": "A",
    "eventId": "E0008",
-   "verificationStatus": "verified",
+   "verificationStatus": "traditional",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
@@ -35,6 +36,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-pdf",
    "year": 1403
   },
@@ -61,6 +64,7 @@
    "recurrenceType": "A",
    "eventId": "E0001",
    "verificationStatus": "traditional",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
@@ -68,6 +72,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0001",
    "source": "catalog",
    "year": 1403
   },
@@ -94,6 +100,7 @@
    "recurrenceType": "A",
    "eventId": "E0383",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲ فروردین ۱۳۷۷",
@@ -101,6 +108,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-pdf",
    "year": 1403
   },
@@ -127,6 +136,7 @@
    "recurrenceType": "A",
    "eventId": "E0100",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲ فروردین ۱۳۶۱",
@@ -134,6 +144,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0100",
    "source": "catalog",
    "year": 1403
   },
@@ -160,6 +172,7 @@
    "recurrenceType": "C",
    "eventId": "E0475",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -167,6 +180,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0475",
    "source": "catalog",
    "year": 1403
   },
@@ -192,7 +207,8 @@
    "category": "cultural",
    "recurrenceType": "A",
    "eventId": "E0009",
-   "verificationStatus": "verified",
+   "verificationStatus": "traditional",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
@@ -200,6 +216,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-pdf",
    "year": 1403
   },
@@ -225,7 +243,8 @@
    "category": "cultural",
    "recurrenceType": "A",
    "eventId": "E0010",
-   "verificationStatus": "verified",
+   "verificationStatus": "traditional",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
@@ -233,6 +252,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-pdf",
    "year": 1403
   },
@@ -259,6 +280,7 @@
    "recurrenceType": "B",
    "eventId": "E0087",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۳ مارس ۲۰۰۳ — ۳ فروردین ۱۳۸۲",
@@ -266,6 +288,8 @@
     "gregorian": "2003-03-23",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0087",
    "source": "catalog",
    "year": 1403
   },
@@ -292,6 +316,7 @@
    "recurrenceType": "A",
    "eventId": "E0347",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۶ فروردین ۱۴۰۰",
@@ -299,6 +324,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-pdf",
    "year": 1403
   },
@@ -325,6 +352,7 @@
    "recurrenceType": "C",
    "eventId": "E0483",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -332,6 +360,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-split",
    "year": 1403
   },
@@ -358,6 +388,7 @@
    "recurrenceType": "C",
    "eventId": "E0407",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -365,6 +396,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-split",
    "year": 1403
   },
@@ -391,6 +424,7 @@
    "recurrenceType": "A",
    "eventId": "E0324",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ فروردین ۱۳۹۷",
@@ -398,6 +432,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-split",
    "year": 1403
   },
@@ -424,6 +460,7 @@
    "recurrenceType": "C",
    "eventId": "E0439",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -431,6 +468,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-pdf",
    "year": 1403
   },
@@ -457,6 +496,7 @@
    "recurrenceType": "C",
    "eventId": "E0461",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -464,6 +504,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-split",
    "year": 1403
   },
@@ -490,6 +532,7 @@
    "recurrenceType": "C",
    "eventId": "E0429",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -497,6 +540,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-split",
    "year": 1403
   },
@@ -522,8 +567,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-pdf",
    "year": 1403
   },
@@ -550,6 +598,7 @@
    "recurrenceType": "C",
    "eventId": "E0452",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -557,6 +606,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-split",
    "year": 1403
   },
@@ -583,6 +634,7 @@
    "recurrenceType": "A",
    "eventId": "E0268",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ فروردین ۱۳۸۲",
@@ -590,6 +642,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-split",
    "year": 1403
   },
@@ -616,6 +670,7 @@
    "recurrenceType": "A",
    "eventId": "E0005",
    "verificationStatus": "traditional",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
@@ -623,6 +678,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0005",
    "source": "catalog",
    "year": 1403
   },
@@ -649,6 +706,7 @@
    "recurrenceType": "A",
    "eventId": "E0246",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۵ فروردین ۱۳۸۲",
@@ -656,6 +714,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0246",
    "source": "catalog",
    "year": 1403
   },
@@ -682,6 +742,7 @@
    "recurrenceType": "E",
    "eventId": "E0227",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "established",
     "label": "۱۶ مرداد ۱۳۵۸",
@@ -689,6 +750,8 @@
     "gregorian": "1979-8-7",
     "source": "https://en.wikipedia.org/wiki/Quds_Day"
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-pdf",
    "year": 1403
   },
@@ -715,6 +778,7 @@
    "recurrenceType": "A",
    "eventId": "E0251",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ فروردین ۱۳۸۲",
@@ -722,6 +786,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-pdf",
    "year": 1403
   },
@@ -748,6 +814,7 @@
    "recurrenceType": "B",
    "eventId": "E0094",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ آوریل ۲۰۰۵ — ۱۸ فروردین ۱۳۸۴",
@@ -755,6 +822,8 @@
     "gregorian": "2005-04-07",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0094",
    "source": "catalog",
    "year": 1403
   },
@@ -781,6 +850,7 @@
    "recurrenceType": "A",
    "eventId": "E0359",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۹ فروردین ۱۳۷۸",
@@ -788,6 +858,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0359",
    "source": "catalog",
    "year": 1403
   },
@@ -814,6 +886,7 @@
    "recurrenceType": "A",
    "eventId": "E0302",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۰ فروردین ۱۳۸۶",
@@ -821,6 +894,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-split",
    "year": 1403
   },
@@ -847,6 +922,7 @@
    "recurrenceType": "A",
    "eventId": "E0323",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۰ فروردین ۱۳۹۰",
@@ -854,6 +930,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-split",
    "year": 1403
   },
@@ -880,6 +958,7 @@
    "recurrenceType": "A",
    "eventId": "E0301",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۰ فروردین ۱۳۸۶",
@@ -887,6 +966,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0301",
    "source": "catalog",
    "year": 1403
   },
@@ -913,6 +994,7 @@
    "recurrenceType": "D",
    "eventId": "E0036",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۲۱ فروردین ۱۳۸۵",
@@ -920,6 +1002,8 @@
     "gregorian": "2006-4-10",
     "source": "دادهٔ PDF"
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-split",
    "year": 1403
   },
@@ -945,8 +1029,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-pdf",
    "year": 1403
   },
@@ -973,6 +1060,7 @@
    "recurrenceType": "A",
    "eventId": "E0351",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ فروردین ۱۳۹۴",
@@ -980,6 +1068,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0351",
    "source": "catalog",
    "year": 1403
   },
@@ -1006,6 +1096,7 @@
    "recurrenceType": "C",
    "eventId": "E0464",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -1013,6 +1104,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-pdf",
    "year": 1403
   },
@@ -1039,6 +1132,7 @@
    "recurrenceType": "C",
    "eventId": "E0399",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -1046,6 +1140,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-pdf",
    "year": 1403
   },
@@ -1072,6 +1168,7 @@
    "recurrenceType": "A",
    "eventId": "E0183",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ فروردین ۱۳۸۲",
@@ -1079,6 +1176,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-pdf",
    "year": 1403
   },
@@ -1105,6 +1204,7 @@
    "recurrenceType": "A",
    "eventId": "E0136",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۹ فروردین ۱۳۸۲",
@@ -1112,6 +1212,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 4,
+   "sourceRef": "official-calendar-1403.json#page=4",
    "source": "official-pdf",
    "year": 1403
   },
@@ -1138,6 +1240,7 @@
    "recurrenceType": "A",
    "eventId": "E0167",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ اردیبهشت ۱۳۸۲",
@@ -1145,6 +1248,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-split",
    "year": 1403
   },
@@ -1171,6 +1276,7 @@
    "recurrenceType": "A",
    "eventId": "E0259",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ اردیبهشت ۱۴۰۲",
@@ -1178,6 +1284,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-split",
    "year": 1403
   },
@@ -1204,6 +1312,7 @@
    "recurrenceType": "A",
    "eventId": "E0309",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ اردیبهشت ۱۴۰۲",
@@ -1211,6 +1320,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-split",
    "year": 1403
   },
@@ -1237,6 +1348,7 @@
    "recurrenceType": "D",
    "eventId": "E0016",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۲ اردیبهشت ۱۳۸۲",
@@ -1244,6 +1356,8 @@
     "gregorian": "2003-4-22",
     "source": "دادهٔ PDF"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-pdf",
    "year": 1403
   },
@@ -1270,6 +1384,7 @@
    "recurrenceType": "A",
    "eventId": "E0249",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲ اردیبهشت ۱۳۸۲",
@@ -1277,6 +1392,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0249",
    "source": "catalog",
    "year": 1403
   },
@@ -1302,8 +1419,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-pdf",
    "year": 1403
   },
@@ -1330,6 +1450,7 @@
    "recurrenceType": "A",
    "eventId": "E0373",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۵ اردیبهشت ۱۳۷۷",
@@ -1337,6 +1458,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-pdf",
    "year": 1403
   },
@@ -1363,6 +1486,7 @@
    "recurrenceType": "A",
    "eventId": "E0150",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ اردیبهشت ۱۳۹۷",
@@ -1370,6 +1494,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-split",
    "year": 1403
   },
@@ -1396,6 +1522,7 @@
    "recurrenceType": "C",
    "eventId": "E0427",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -1403,6 +1530,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-split",
    "year": 1403
   },
@@ -1429,6 +1558,7 @@
    "recurrenceType": "A",
    "eventId": "E0261",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۹ اردیبهشت ۱۳۸۲",
@@ -1436,6 +1566,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-pdf",
    "year": 1403
   },
@@ -1462,6 +1594,7 @@
    "recurrenceType": "A",
    "eventId": "E0299",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۰ اردیبهشت ۱۳۸۹",
@@ -1469,6 +1602,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-pdf",
    "year": 1403
   },
@@ -1495,6 +1630,7 @@
    "recurrenceType": "D",
    "eventId": "E0014",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۰ اردیبهشت ۱۳۸۳",
@@ -1502,6 +1638,8 @@
     "gregorian": "2004-4-29",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0014",
    "source": "catalog",
    "year": 1403
   },
@@ -1528,6 +1666,7 @@
    "recurrenceType": "D",
    "eventId": "E0025",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۲ اردیبهشت ۱۳۸۳",
@@ -1535,6 +1674,8 @@
     "gregorian": "2004-5-1",
     "source": "دادهٔ PDF"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-pdf",
    "year": 1403
   },
@@ -1561,6 +1702,7 @@
    "recurrenceType": "C",
    "eventId": "E0466",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -1568,6 +1710,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0466",
    "source": "catalog",
    "year": 1403
   },
@@ -1594,6 +1738,7 @@
    "recurrenceType": "A",
    "eventId": "E0177",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۵ اردیبهشت ۱۳۸۲",
@@ -1601,6 +1746,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-pdf",
    "year": 1403
   },
@@ -1627,6 +1774,7 @@
    "recurrenceType": "B",
    "eventId": "E0075",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۵ مه ۲۰۰۳ — ۱۵ اردیبهشت ۱۳۸۲",
@@ -1634,6 +1782,8 @@
     "gregorian": "2003-05-05",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0075",
    "source": "catalog",
    "year": 1403
   },
@@ -1660,6 +1810,7 @@
    "recurrenceType": "C",
    "eventId": "E0444",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -1667,6 +1818,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0444",
    "source": "catalog",
    "year": 1403
   },
@@ -1693,6 +1846,7 @@
    "recurrenceType": "A",
    "eventId": "E0139",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۷ اردیبهشت ۱۳۸۲",
@@ -1700,6 +1854,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0139",
    "source": "catalog",
    "year": 1403
   },
@@ -1726,6 +1882,7 @@
    "recurrenceType": "A",
    "eventId": "E0205",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ اردیبهشت ۱۳۹۴",
@@ -1733,6 +1890,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-pdf",
    "year": 1403
   },
@@ -1759,6 +1918,7 @@
    "recurrenceType": "A",
    "eventId": "E0180",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۹ اردیبهشت ۱۳۸۸",
@@ -1766,6 +1926,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-pdf",
    "year": 1403
   },
@@ -1792,6 +1954,7 @@
    "recurrenceType": "B",
    "eventId": "E0072",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ مه ۲۰۰۳ — ۱۸ اردیبهشت ۱۳۸۲",
@@ -1799,6 +1962,8 @@
     "gregorian": "2003-05-08",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0072",
    "source": "catalog",
    "year": 1403
   },
@@ -1825,6 +1990,7 @@
    "recurrenceType": "A",
    "eventId": "E0140",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۹ اردیبهشت ۱۳۸۲",
@@ -1832,6 +1998,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0140",
    "source": "catalog",
    "year": 1403
   },
@@ -1858,6 +2026,7 @@
    "recurrenceType": "C",
    "eventId": "E0502",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -1865,6 +2034,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-pdf",
    "year": 1403
   },
@@ -1891,6 +2062,7 @@
    "recurrenceType": "C",
    "eventId": "E0394",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -1898,6 +2070,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0394",
    "source": "catalog",
    "year": 1403
   },
@@ -1924,6 +2098,7 @@
    "recurrenceType": "C",
    "eventId": "E0421",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -1931,6 +2106,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0421",
    "source": "catalog",
    "year": 1403
   },
@@ -1957,6 +2134,7 @@
    "recurrenceType": "A",
    "eventId": "E0379",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۴ اردیبهشت ۱۳۷۷",
@@ -1964,6 +2142,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-pdf",
    "year": 1403
   },
@@ -1990,6 +2170,7 @@
    "recurrenceType": "C",
    "eventId": "E0414",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -1997,6 +2178,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-split",
    "year": 1403
   },
@@ -2023,6 +2206,7 @@
    "recurrenceType": "A",
    "eventId": "E0327",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ اردیبهشت ۱۳۹۷",
@@ -2030,6 +2214,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-split",
    "year": 1403
   },
@@ -2056,6 +2242,7 @@
    "recurrenceType": "A",
    "eventId": "E0160",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ اردیبهشت ۱۳۷۹",
@@ -2063,6 +2250,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0160",
    "source": "catalog",
    "year": 1403
   },
@@ -2089,6 +2278,7 @@
    "recurrenceType": "C",
    "eventId": "E0409",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -2096,6 +2286,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0409",
    "source": "catalog",
    "year": 1403
   },
@@ -2122,6 +2314,7 @@
    "recurrenceType": "C",
    "eventId": "E0408",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -2129,6 +2322,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-pdf",
    "year": 1403
   },
@@ -2155,6 +2350,7 @@
    "recurrenceType": "B",
    "eventId": "E0068",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۵ مه ۲۰۰۴ — ۲۶ اردیبهشت ۱۳۸۳",
@@ -2162,6 +2358,8 @@
     "gregorian": "2004-05-15",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0068",
    "source": "catalog",
    "year": 1403
   },
@@ -2188,6 +2386,7 @@
    "recurrenceType": "A",
    "eventId": "E0135",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۷ اردیبهشت ۱۳۸۶",
@@ -2195,6 +2394,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0135",
    "source": "catalog",
    "year": 1403
   },
@@ -2221,6 +2422,7 @@
    "recurrenceType": "A",
    "eventId": "E0162",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۸ اردیبهشت ۱۳۸۷",
@@ -2228,6 +2430,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-pdf",
    "year": 1403
   },
@@ -2254,6 +2458,7 @@
    "recurrenceType": "B",
    "eventId": "E0062",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۷ مه ۲۰۰۴ — ۲۸ اردیبهشت ۱۳۸۳",
@@ -2261,6 +2466,8 @@
     "gregorian": "2004-05-17",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0062",
    "source": "catalog",
    "year": 1403
   },
@@ -2287,6 +2494,7 @@
    "recurrenceType": "B",
    "eventId": "E0083",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ مه ۲۰۰۴ — ۲۹ اردیبهشت ۱۳۸۳",
@@ -2294,6 +2502,8 @@
     "gregorian": "2004-05-18",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0083",
    "source": "catalog",
    "year": 1403
   },
@@ -2320,6 +2530,7 @@
    "recurrenceType": "B",
    "eventId": "E0084",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ مه ۲۰۰۳ — ۲۸ اردیبهشت ۱۳۸۲",
@@ -2327,6 +2538,8 @@
     "gregorian": "2003-05-18",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0084",
    "source": "catalog",
    "year": 1403
   },
@@ -2353,6 +2566,7 @@
    "recurrenceType": "A",
    "eventId": "E0297",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۰ اردیبهشت ۱۳۹۵",
@@ -2360,6 +2574,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-pdf",
    "year": 1403
   },
@@ -2385,8 +2601,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 5,
+   "sourceRef": "official-calendar-1403.json#page=5",
    "source": "official-pdf",
    "year": 1403
   },
@@ -2413,6 +2632,7 @@
    "recurrenceType": "A",
    "eventId": "E0192",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ خرداد ۱۳۸۰",
@@ -2420,6 +2640,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-split",
    "year": 1403
   },
@@ -2446,6 +2668,7 @@
    "recurrenceType": "A",
    "eventId": "E0201",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ خرداد ۱۳۸۷",
@@ -2453,6 +2676,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-split",
    "year": 1403
   },
@@ -2479,6 +2704,7 @@
    "recurrenceType": "B",
    "eventId": "E0060",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ مه ۲۰۰۴ — ۱ خرداد ۱۳۸۳",
@@ -2486,6 +2712,8 @@
     "gregorian": "2004-05-21",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0060",
    "source": "catalog",
    "year": 1403
   },
@@ -2512,6 +2740,7 @@
    "recurrenceType": "B",
    "eventId": "E0066",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ مه ۲۰۰۳ — ۳۱ اردیبهشت ۱۳۸۲",
@@ -2519,6 +2748,8 @@
     "gregorian": "2003-05-21",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0066",
    "source": "catalog",
    "year": 1403
   },
@@ -2545,6 +2776,7 @@
    "recurrenceType": "D",
    "eventId": "E0051",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۳ خرداد ۱۳۸۲",
@@ -2552,6 +2784,8 @@
     "gregorian": "2003-5-24",
     "source": "دادهٔ PDF"
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-split",
    "year": 1403
   },
@@ -2578,6 +2812,7 @@
    "recurrenceType": "A",
    "eventId": "E0295",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳ خرداد ۱۳۷۹",
@@ -2585,6 +2820,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-split",
    "year": 1403
   },
@@ -2611,6 +2848,7 @@
    "recurrenceType": "A",
    "eventId": "E0294",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۴ خرداد ۱۳۹۱",
@@ -2618,6 +2856,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-pdf",
    "year": 1403
   },
@@ -2644,6 +2884,7 @@
    "recurrenceType": "A",
    "eventId": "E0312",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۵ خرداد ۱۳۸۲",
@@ -2651,6 +2892,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0312",
    "source": "catalog",
    "year": 1403
   },
@@ -2677,6 +2920,7 @@
    "recurrenceType": "A",
    "eventId": "E0003",
    "verificationStatus": "traditional",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
@@ -2684,6 +2928,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0003",
    "source": "catalog",
    "year": 1403
   },
@@ -2710,6 +2956,7 @@
    "recurrenceType": "A",
    "eventId": "E0108",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ خرداد ۱۳۸۲",
@@ -2717,6 +2964,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0108",
    "source": "catalog",
    "year": 1403
   },
@@ -2743,6 +2992,7 @@
    "recurrenceType": "B",
    "eventId": "E0064",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۱ مه ۲۰۰۳ — ۱۰ خرداد ۱۳۸۲",
@@ -2750,6 +3000,8 @@
     "gregorian": "2003-05-31",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0064",
    "source": "catalog",
    "year": 1403
   },
@@ -2776,6 +3028,7 @@
    "recurrenceType": "A",
    "eventId": "E0126",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ خرداد ۱۳۶۸",
@@ -2783,6 +3036,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-pdf",
    "year": 1403
   },
@@ -2808,8 +3063,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-pdf",
    "year": 1403
   },
@@ -2836,6 +3094,7 @@
    "recurrenceType": "A",
    "eventId": "E0110",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ خرداد ۱۳۶۸",
@@ -2843,6 +3102,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0110",
    "source": "catalog",
    "year": 1403
   },
@@ -2869,6 +3130,7 @@
    "recurrenceType": "D",
    "eventId": "E0053",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۵ خرداد ۱۳۸۲",
@@ -2876,6 +3138,8 @@
     "gregorian": "2003-6-5",
     "source": "دادهٔ PDF"
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-pdf",
    "year": 1403
   },
@@ -2902,6 +3166,7 @@
    "recurrenceType": "A",
    "eventId": "E0348",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۵ خرداد ۱۳۵۸",
@@ -2909,6 +3174,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0348",
    "source": "catalog",
    "year": 1403
   },
@@ -2935,6 +3202,7 @@
    "recurrenceType": "B",
    "eventId": "E0078",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۵ ژوئن ۲۰۰۴ — ۱۶ خرداد ۱۳۸۳",
@@ -2942,6 +3210,8 @@
     "gregorian": "2004-06-05",
     "source": "دادهٔ PDF"
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-pdf",
    "year": 1403
   },
@@ -2968,6 +3238,7 @@
    "recurrenceType": "C",
    "eventId": "E0454",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -2975,6 +3246,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-pdf",
    "year": 1403
   },
@@ -3001,6 +3274,7 @@
    "recurrenceType": "C",
    "eventId": "E0437",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -3008,6 +3282,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-pdf",
    "year": 1403
   },
@@ -3034,6 +3310,7 @@
    "recurrenceType": "A",
    "eventId": "E0263",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۰ خرداد ۱۳۹۴",
@@ -3041,6 +3318,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-split",
    "year": 1403
   },
@@ -3067,6 +3346,7 @@
    "recurrenceType": "A",
    "eventId": "E0300",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۰ خرداد ۱۴۰۱",
@@ -3074,6 +3354,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-split",
    "year": 1403
   },
@@ -3100,6 +3382,7 @@
    "recurrenceType": "D",
    "eventId": "E0031",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۲۰ خرداد ۱۳۸۳",
@@ -3107,6 +3390,8 @@
     "gregorian": "2004-6-9",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0031",
    "source": "catalog",
    "year": 1403
   },
@@ -3133,6 +3418,7 @@
    "recurrenceType": "A",
    "eventId": "E0226",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ خرداد ۱۳۸۳",
@@ -3140,6 +3426,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0226",
    "source": "catalog",
    "year": 1403
   },
@@ -3166,6 +3454,7 @@
    "recurrenceType": "C",
    "eventId": "E0460",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -3173,6 +3462,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-pdf",
    "year": 1403
   },
@@ -3199,6 +3490,7 @@
    "recurrenceType": "A",
    "eventId": "E0345",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ خرداد ۱۳۸۶",
@@ -3206,6 +3498,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0345",
    "source": "catalog",
    "year": 1403
   },
@@ -3232,6 +3526,7 @@
    "recurrenceType": "C",
    "eventId": "E0453",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -3239,6 +3534,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-pdf",
    "year": 1403
   },
@@ -3265,6 +3562,7 @@
    "recurrenceType": "D",
    "eventId": "E0041",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۲۶ خرداد ۱۳۸۲",
@@ -3272,6 +3570,8 @@
     "gregorian": "2003-6-16",
     "source": "دادهٔ PDF"
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-pdf",
    "year": 1403
   },
@@ -3298,6 +3598,7 @@
    "recurrenceType": "C",
    "eventId": "E0473",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -3305,6 +3606,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0473",
    "source": "catalog",
    "year": 1403
   },
@@ -3330,8 +3633,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-pdf",
    "year": 1403
   },
@@ -3358,6 +3664,7 @@
    "recurrenceType": "A",
    "eventId": "E0222",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۷ خرداد ۱۳۷۸",
@@ -3365,6 +3672,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0222",
    "source": "catalog",
    "year": 1403
   },
@@ -3391,6 +3700,7 @@
    "recurrenceType": "B",
    "eventId": "E0065",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۷ ژوئن ۲۰۰۴ — ۲۸ خرداد ۱۳۸۳",
@@ -3398,6 +3708,44 @@
     "gregorian": "2004-06-17",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0065",
+   "source": "catalog",
+   "year": 1403
+  },
+  {
+   "title": "روز عرفه (روز نیایش",
+   "solar": [
+    1403,
+    3,
+    28
+   ],
+   "gregorian": [
+    2024,
+    6,
+    17
+   ],
+   "lunar": [
+    1445,
+    12,
+    10
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0426",
+   "verificationStatus": "verified",
+   "dateCertainty": "approximate",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0426",
    "source": "catalog",
    "year": 1403
   },
@@ -3424,6 +3772,7 @@
    "recurrenceType": "C",
    "eventId": "E0393",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -3431,6 +3780,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-split",
    "year": 1403
   },
@@ -3457,6 +3808,7 @@
    "recurrenceType": "C",
    "eventId": "E0465",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -3464,6 +3816,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-split",
    "year": 1403
   },
@@ -3490,6 +3844,7 @@
    "recurrenceType": "D",
    "eventId": "E0023",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۲۹ خرداد ۱۳۸۲",
@@ -3497,6 +3852,8 @@
     "gregorian": "2003-6-19",
     "source": "دادهٔ PDF"
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-pdf",
    "year": 1403
   },
@@ -3523,6 +3880,7 @@
    "recurrenceType": "D",
    "eventId": "E0040",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۳۰ خرداد ۱۳۸۹",
@@ -3530,6 +3888,8 @@
     "gregorian": "2010-6-20",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0040",
    "source": "catalog",
    "year": 1403
   },
@@ -3556,6 +3916,7 @@
    "recurrenceType": "A",
    "eventId": "E0366",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۰ خرداد ۱۳۸۹",
@@ -3563,6 +3924,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0366",
    "source": "catalog",
    "year": 1403
   },
@@ -3589,6 +3952,7 @@
    "recurrenceType": "A",
    "eventId": "E0367",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۰ خرداد ۱۳۸۵",
@@ -3596,6 +3960,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0367",
    "source": "catalog",
    "year": 1403
   },
@@ -3622,6 +3988,7 @@
    "recurrenceType": "D",
    "eventId": "E0039",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۳۱ خرداد ۱۳۸۲",
@@ -3629,6 +3996,8 @@
     "gregorian": "2003-6-21",
     "source": "دادهٔ PDF"
    },
+   "page": 6,
+   "sourceRef": "official-calendar-1403.json#page=6",
    "source": "official-pdf",
    "year": 1403
   },
@@ -3655,6 +4024,7 @@
    "recurrenceType": "A",
    "eventId": "E0356",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ تیر ۱۳۷۹",
@@ -3662,6 +4032,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -3688,6 +4060,7 @@
    "recurrenceType": "A",
    "eventId": "E0142",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ تیر ۱۳۸۲",
@@ -3695,6 +4068,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0142",
    "source": "catalog",
    "year": 1403
   },
@@ -3721,6 +4096,7 @@
    "recurrenceType": "A",
    "eventId": "E0208",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ تیر ۱۳۸۲",
@@ -3728,6 +4104,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0208",
    "source": "catalog",
    "year": 1403
   },
@@ -3754,6 +4132,7 @@
    "recurrenceType": "C",
    "eventId": "E0487",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -3761,6 +4140,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -3787,6 +4168,7 @@
    "recurrenceType": "C",
    "eventId": "E0463",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -3794,6 +4176,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -3819,8 +4203,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -3847,6 +4234,7 @@
    "recurrenceType": "B",
    "eventId": "E0077",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۶ ژوئن ۲۰۰۳ — ۵ تیر ۱۳۸۲",
@@ -3854,6 +4242,8 @@
     "gregorian": "2003-06-26",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0077",
    "source": "catalog",
    "year": 1403
   },
@@ -3880,6 +4270,7 @@
    "recurrenceType": "D",
    "eventId": "E0043",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۷ تیر ۱۳۸۵",
@@ -3887,6 +4278,8 @@
     "gregorian": "2006-6-28",
     "source": "دادهٔ PDF"
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -3913,6 +4306,7 @@
    "recurrenceType": "A",
    "eventId": "E0115",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ تیر ۱۳۸۲",
@@ -3920,6 +4314,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0115",
    "source": "catalog",
    "year": 1403
   },
@@ -3946,6 +4342,7 @@
    "recurrenceType": "A",
    "eventId": "E0281",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ تیر ۱۳۷۸",
@@ -3953,6 +4350,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0281",
    "source": "catalog",
    "year": 1403
   },
@@ -3979,6 +4378,7 @@
    "recurrenceType": "A",
    "eventId": "E0288",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ تیر ۱۳۸۲",
@@ -3986,6 +4386,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0288",
    "source": "catalog",
    "year": 1403
   },
@@ -4012,6 +4414,7 @@
    "recurrenceType": "A",
    "eventId": "E0245",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۰ تیر ۱۳۸۲",
@@ -4019,6 +4422,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -4045,6 +4450,7 @@
    "recurrenceType": "A",
    "eventId": "E0129",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۰ تیر ۱۳۸۲",
@@ -4052,6 +4458,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0129",
    "source": "catalog",
    "year": 1403
   },
@@ -4078,6 +4486,7 @@
    "recurrenceType": "A",
    "eventId": "E0181",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۰ تیر ۱۳۸۲",
@@ -4085,6 +4494,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0181",
    "source": "catalog",
    "year": 1403
   },
@@ -4111,6 +4522,7 @@
    "recurrenceType": "A",
    "eventId": "E0390",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۰ تیر ۱۳۸۲",
@@ -4118,6 +4530,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0390",
    "source": "catalog",
    "year": 1403
   },
@@ -4144,6 +4558,7 @@
    "recurrenceType": "D",
    "eventId": "E0033",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۱ تیر ۱۳۸۲",
@@ -4151,6 +4566,8 @@
     "gregorian": "2003-7-2",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0033",
    "source": "catalog",
    "year": 1403
   },
@@ -4177,6 +4594,7 @@
    "recurrenceType": "D",
    "eventId": "E0048",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۱ تیر ۱۴۰۴",
@@ -4184,6 +4602,8 @@
     "gregorian": "2025-7-2",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0048",
    "source": "catalog",
    "year": 1403
   },
@@ -4210,6 +4630,7 @@
    "recurrenceType": "A",
    "eventId": "E0125",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۲ تیر ۱۳۷۷",
@@ -4217,6 +4638,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -4243,6 +4666,7 @@
    "recurrenceType": "D",
    "eventId": "E0022",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۲ تیر ۱۴۰۴",
@@ -4250,6 +4674,8 @@
     "gregorian": "2025-7-3",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0022",
    "source": "catalog",
    "year": 1403
   },
@@ -4276,6 +4702,7 @@
    "recurrenceType": "A",
    "eventId": "E0185",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۲ تیر ۱۳۸۲",
@@ -4283,6 +4710,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0185",
    "source": "catalog",
    "year": 1403
   },
@@ -4309,6 +4738,7 @@
    "recurrenceType": "C",
    "eventId": "E0428",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -4316,6 +4746,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0428",
    "source": "catalog",
    "year": 1403
   },
@@ -4342,6 +4774,7 @@
    "recurrenceType": "C",
    "eventId": "E0420",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -4349,6 +4782,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -4375,6 +4810,7 @@
    "recurrenceType": "A",
    "eventId": "E0002",
    "verificationStatus": "traditional",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
@@ -4382,6 +4818,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0002",
    "source": "catalog",
    "year": 1403
   },
@@ -4408,6 +4846,7 @@
    "recurrenceType": "A",
    "eventId": "E0286",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ تیر ۱۳۸۳",
@@ -4415,6 +4854,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0286",
    "source": "catalog",
    "year": 1403
   },
@@ -4441,6 +4882,7 @@
    "recurrenceType": "A",
    "eventId": "E0279",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ تیر ۱۳۸۵",
@@ -4448,6 +4890,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -4474,6 +4918,7 @@
    "recurrenceType": "A",
    "eventId": "E0260",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ تیر ۱۳۸۲",
@@ -4481,6 +4926,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0260",
    "source": "catalog",
    "year": 1403
   },
@@ -4507,6 +4954,7 @@
    "recurrenceType": "A",
    "eventId": "E0284",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۶ تیر ۱۳۸۲",
@@ -4514,6 +4962,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0284",
    "source": "catalog",
    "year": 1403
   },
@@ -4540,6 +4990,7 @@
    "recurrenceType": "A",
    "eventId": "E0134",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ تیر ۱۳۹۵",
@@ -4547,6 +4998,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-split",
    "year": 1403
   },
@@ -4573,6 +5026,7 @@
    "recurrenceType": "A",
    "eventId": "E0386",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ تیر ۱۳۸۲",
@@ -4580,6 +5034,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0386",
    "source": "catalog",
    "year": 1403
   },
@@ -4606,6 +5062,7 @@
    "recurrenceType": "C",
    "eventId": "E0412",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -4613,6 +5070,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-split",
    "year": 1403
   },
@@ -4639,6 +5098,7 @@
    "recurrenceType": "C",
    "eventId": "E0424",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -4646,6 +5106,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-split",
    "year": 1403
   },
@@ -4672,6 +5134,7 @@
    "recurrenceType": "C",
    "eventId": "E0406",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -4679,6 +5142,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-split",
    "year": 1403
   },
@@ -4705,6 +5170,7 @@
    "recurrenceType": "A",
    "eventId": "E0270",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ تیر ۱۳۸۸",
@@ -4712,6 +5178,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -4738,6 +5206,7 @@
    "recurrenceType": "A",
    "eventId": "E0124",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ تیر ۱۳۸۲",
@@ -4745,6 +5214,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0124",
    "source": "catalog",
    "year": 1403
   },
@@ -4771,6 +5242,7 @@
    "recurrenceType": "A",
    "eventId": "E0275",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۲ تیر ۱۴۰۱",
@@ -4778,6 +5250,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -4804,6 +5278,7 @@
    "recurrenceType": "A",
    "eventId": "E0343",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۳ تیر ۱۳۹۷",
@@ -4811,6 +5286,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0343",
    "source": "catalog",
    "year": 1403
   },
@@ -4837,6 +5314,7 @@
    "recurrenceType": "A",
    "eventId": "E0389",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۳ تیر ۱۳۹۶",
@@ -4844,6 +5322,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0389",
    "source": "catalog",
    "year": 1403
   },
@@ -4870,6 +5350,7 @@
    "recurrenceType": "A",
    "eventId": "E0202",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ تیر ۱۳۸۲",
@@ -4877,6 +5358,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -4903,6 +5386,7 @@
    "recurrenceType": "A",
    "eventId": "E0352",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۶ تیر ۱۳۹۴",
@@ -4910,6 +5394,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -4936,6 +5422,7 @@
    "recurrenceType": "A",
    "eventId": "E0107",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۷ تیر ۱۳۷۷",
@@ -4943,6 +5430,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0107",
    "source": "catalog",
    "year": 1403
   },
@@ -4969,6 +5458,7 @@
    "recurrenceType": "C",
    "eventId": "E0413",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -4976,6 +5466,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5002,6 +5494,7 @@
    "recurrenceType": "A",
    "eventId": "E0152",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۰ تیر ۱۳۸۲",
@@ -5009,6 +5502,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0152",
    "source": "catalog",
    "year": 1403
   },
@@ -5035,6 +5530,7 @@
    "recurrenceType": "A",
    "eventId": "E0178",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۴ مرداد ۱۴۰۱",
@@ -5042,6 +5538,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5068,6 +5566,7 @@
    "recurrenceType": "D",
    "eventId": "E0028",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۵ مرداد ۱۳۸۷",
@@ -5075,6 +5574,8 @@
     "gregorian": "2008-7-26",
     "source": "دادهٔ PDF"
    },
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5101,6 +5602,7 @@
    "recurrenceType": "A",
    "eventId": "E0109",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۵ مرداد ۱۳۸۲",
@@ -5108,6 +5610,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0109",
    "source": "catalog",
    "year": 1403
   },
@@ -5134,6 +5638,7 @@
    "recurrenceType": "A",
    "eventId": "E0211",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۶ مرداد ۱۳۸۴",
@@ -5141,6 +5646,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0211",
    "source": "catalog",
    "year": 1403
   },
@@ -5167,6 +5674,7 @@
    "recurrenceType": "A",
    "eventId": "E0334",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۶ مرداد ۱۳۸۳",
@@ -5174,6 +5682,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0334",
    "source": "catalog",
    "year": 1403
   },
@@ -5200,6 +5710,7 @@
    "recurrenceType": "A",
    "eventId": "E0176",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ مرداد ۱۳۸۲",
@@ -5207,6 +5718,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5233,6 +5746,7 @@
    "recurrenceType": "A",
    "eventId": "E0148",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۹ مرداد ۱۳۸۲",
@@ -5240,6 +5754,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5266,6 +5782,7 @@
    "recurrenceType": "B",
    "eventId": "E0071",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ اوت ۲۰۰۳ — ۱۰ مرداد ۱۳۸۲",
@@ -5273,6 +5790,8 @@
     "gregorian": "2003-08-01",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0071",
    "source": "catalog",
    "year": 1403
   },
@@ -5299,6 +5818,7 @@
    "recurrenceType": "A",
    "eventId": "E0360",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۱ مرداد ۱۳۷۷",
@@ -5306,6 +5826,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0360",
    "source": "catalog",
    "year": 1403
   },
@@ -5332,6 +5854,7 @@
    "recurrenceType": "C",
    "eventId": "E0442",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -5339,6 +5862,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5365,6 +5890,7 @@
    "recurrenceType": "C",
    "eventId": "E0503",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -5372,6 +5898,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0503",
    "source": "catalog",
    "year": 1403
   },
@@ -5398,6 +5926,7 @@
    "recurrenceType": "A",
    "eventId": "E0230",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ مرداد ۱۳۸۲",
@@ -5405,6 +5934,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-split",
    "year": 1403
   },
@@ -5431,6 +5962,7 @@
    "recurrenceType": "D",
    "eventId": "E0050",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۴ مرداد ۱۳۸۲",
@@ -5438,6 +5970,8 @@
     "gregorian": "2003-8-5",
     "source": "دادهٔ PDF"
    },
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-split",
    "year": 1403
   },
@@ -5464,6 +5998,7 @@
    "recurrenceType": "A",
    "eventId": "E0112",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۵ مرداد ۱۳۸۲",
@@ -5471,6 +6006,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0112",
    "source": "catalog",
    "year": 1403
   },
@@ -5497,6 +6034,7 @@
    "recurrenceType": "A",
    "eventId": "E0363",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۵ مرداد ۱۳۸۲",
@@ -5504,6 +6042,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0363",
    "source": "catalog",
    "year": 1403
   },
@@ -5530,6 +6070,7 @@
    "recurrenceType": "D",
    "eventId": "E0018",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۶ مرداد ۱۳۸۲",
@@ -5537,6 +6078,8 @@
     "gregorian": "2003-8-7",
     "source": "دادهٔ PDF"
    },
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5563,6 +6106,7 @@
    "recurrenceType": "A",
    "eventId": "E0238",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۷ مرداد ۱۳۸۲",
@@ -5570,6 +6114,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5596,6 +6142,7 @@
    "recurrenceType": "A",
    "eventId": "E0173",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ مرداد ۱۴۰۰",
@@ -5603,6 +6150,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5629,6 +6178,7 @@
    "recurrenceType": "C",
    "eventId": "E0490",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -5636,6 +6186,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0490",
    "source": "catalog",
    "year": 1403
   },
@@ -5662,6 +6214,7 @@
    "recurrenceType": "A",
    "eventId": "E0234",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ مرداد ۱۳۹۴",
@@ -5669,6 +6222,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5694,8 +6249,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5722,6 +6280,7 @@
    "recurrenceType": "A",
    "eventId": "E0213",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۲ مرداد ۱۳۹۹",
@@ -5729,6 +6288,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0213",
    "source": "catalog",
    "year": 1403
   },
@@ -5755,6 +6316,7 @@
    "recurrenceType": "A",
    "eventId": "E0293",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۳ مرداد ۱۳۸۸",
@@ -5762,6 +6324,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5788,6 +6352,7 @@
    "recurrenceType": "C",
    "eventId": "E0446",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -5795,6 +6360,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0446",
    "source": "catalog",
    "year": 1403
   },
@@ -5821,6 +6388,7 @@
    "recurrenceType": "A",
    "eventId": "E0098",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۶ مرداد ۱۳۷۷",
@@ -5828,6 +6396,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5854,6 +6424,7 @@
    "recurrenceType": "D",
    "eventId": "E0057",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۲۸ مرداد ۱۳۸۵",
@@ -5861,6 +6432,8 @@
     "gregorian": "2006-8-19",
     "source": "دادهٔ PDF"
    },
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5887,6 +6460,7 @@
    "recurrenceType": "A",
    "eventId": "E0388",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۸ مرداد ۱۳۸۲",
@@ -5894,6 +6468,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0388",
    "source": "catalog",
    "year": 1403
   },
@@ -5920,6 +6496,7 @@
    "recurrenceType": "A",
    "eventId": "E0186",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۰ مرداد ۱۳۸۲",
@@ -5927,6 +6504,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5953,6 +6532,7 @@
    "recurrenceType": "B",
    "eventId": "E0080",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ اوت ۲۰۰۸ — ۳۱ مرداد ۱۳۸۷",
@@ -5960,6 +6540,8 @@
     "gregorian": "2008-08-21",
     "source": "دادهٔ PDF"
    },
+   "page": 8,
+   "sourceRef": "official-calendar-1403.json#page=8",
    "source": "official-pdf",
    "year": 1403
   },
@@ -5986,6 +6568,7 @@
    "recurrenceType": "B",
    "eventId": "E0079",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ اوت ۲۰۰۴ — ۳۱ مرداد ۱۳۸۳",
@@ -5993,6 +6576,8 @@
     "gregorian": "2004-08-21",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0079",
    "source": "catalog",
    "year": 1403
   },
@@ -6019,6 +6604,7 @@
    "recurrenceType": "A",
    "eventId": "E0264",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۱ مرداد ۱۳۸۲",
@@ -6026,6 +6612,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0264",
    "source": "catalog",
    "year": 1403
   },
@@ -6052,6 +6640,7 @@
    "recurrenceType": "A",
    "eventId": "E0156",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ شهریور ۱۳۹۲",
@@ -6059,6 +6648,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-pdf",
    "year": 1403
   },
@@ -6085,6 +6676,7 @@
    "recurrenceType": "A",
    "eventId": "E0322",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ شهریور ۱۳۸۲",
@@ -6092,6 +6684,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0322",
    "source": "catalog",
    "year": 1403
   },
@@ -6118,6 +6712,7 @@
    "recurrenceType": "A",
    "eventId": "E0368",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲ شهریور ۱۳۸۹",
@@ -6125,6 +6720,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-split",
    "year": 1403
   },
@@ -6151,6 +6748,7 @@
    "recurrenceType": "A",
    "eventId": "E0102",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲ شهریور ۱۳۷۷",
@@ -6158,6 +6756,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-split",
    "year": 1403
   },
@@ -6184,6 +6784,7 @@
    "recurrenceType": "A",
    "eventId": "E0105",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳ شهریور ۱۳۸۲",
@@ -6191,6 +6792,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0105",
    "source": "catalog",
    "year": 1403
   },
@@ -6217,6 +6820,7 @@
    "recurrenceType": "A",
    "eventId": "E0190",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۵ شهریور ۱۳۹۲",
@@ -6224,6 +6828,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-pdf",
    "year": 1403
   },
@@ -6250,6 +6856,7 @@
    "recurrenceType": "C",
    "eventId": "E0396",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -6257,6 +6864,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-pdf",
    "year": 1403
   },
@@ -6283,6 +6892,7 @@
    "recurrenceType": "A",
    "eventId": "E0113",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ شهریور ۱۴۰۳",
@@ -6290,6 +6900,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-pdf",
    "year": 1403
   },
@@ -6316,6 +6928,7 @@
    "recurrenceType": "A",
    "eventId": "E0123",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۰ شهریور ۱۳۸۲",
@@ -6323,6 +6936,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0123",
    "source": "catalog",
    "year": 1403
   },
@@ -6349,6 +6964,7 @@
    "recurrenceType": "A",
    "eventId": "E0214",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۰ شهریور ۱۳۸۳",
@@ -6356,6 +6972,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0214",
    "source": "catalog",
    "year": 1403
   },
@@ -6381,8 +6999,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-pdf",
    "year": 1403
   },
@@ -6409,6 +7030,7 @@
    "recurrenceType": "A",
    "eventId": "E0203",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۲ شهریور ۱۳۸۸",
@@ -6416,6 +7038,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0203",
    "source": "catalog",
    "year": 1403
   },
@@ -6442,6 +7066,7 @@
    "recurrenceType": "A",
    "eventId": "E0365",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۲ شهریور ۱۳۸۸",
@@ -6449,6 +7074,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0365",
    "source": "catalog",
    "year": 1403
   },
@@ -6475,6 +7102,7 @@
    "recurrenceType": "A",
    "eventId": "E0155",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ شهریور ۱۳۷۹",
@@ -6482,6 +7110,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-split",
    "year": 1403
   },
@@ -6508,6 +7138,7 @@
    "recurrenceType": "A",
    "eventId": "E0272",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ شهریور ۱۴۰۲",
@@ -6515,6 +7146,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-split",
    "year": 1403
   },
@@ -6541,6 +7174,7 @@
    "recurrenceType": "A",
    "eventId": "E0215",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ شهریور ۱۳۸۲",
@@ -6548,6 +7182,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-split",
    "year": 1403
   },
@@ -6574,6 +7210,7 @@
    "recurrenceType": "C",
    "eventId": "E0403",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -6581,6 +7218,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-pdf",
    "year": 1403
   },
@@ -6607,6 +7246,7 @@
    "recurrenceType": "D",
    "eventId": "E0035",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۴ شهریور ۱۳۸۲",
@@ -6614,6 +7254,8 @@
     "gregorian": "2003-9-5",
     "source": "دادهٔ PDF"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-pdf",
    "year": 1403
   },
@@ -6640,6 +7282,7 @@
    "recurrenceType": "C",
    "eventId": "E0469",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -6647,6 +7290,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-pdf",
    "year": 1403
   },
@@ -6673,6 +7318,7 @@
    "recurrenceType": "D",
    "eventId": "E0052",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۷ شهریور ۱۳۸۲",
@@ -6680,6 +7326,8 @@
     "gregorian": "2003-9-8",
     "source": "دادهٔ PDF"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-pdf",
    "year": 1403
   },
@@ -6706,6 +7354,7 @@
    "recurrenceType": "D",
    "eventId": "E0055",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۹ شهریور ۱۳۸۳",
@@ -6713,6 +7362,8 @@
     "gregorian": "2004-9-9",
     "source": "دادهٔ PDF"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-pdf",
    "year": 1403
   },
@@ -6739,6 +7390,7 @@
    "recurrenceType": "A",
    "eventId": "E0384",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۹ شهریور ۱۳۷۸",
@@ -6746,6 +7398,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0384",
    "source": "catalog",
    "year": 1403
   },
@@ -6772,6 +7426,7 @@
    "recurrenceType": "D",
    "eventId": "E0037",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۲۰ شهریور ۱۳۸۲",
@@ -6779,6 +7434,8 @@
     "gregorian": "2003-9-11",
     "source": "دادهٔ PDF"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-pdf",
    "year": 1403
   },
@@ -6805,6 +7462,7 @@
    "recurrenceType": "A",
    "eventId": "E0253",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ شهریور ۱۳۸۴",
@@ -6812,6 +7470,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-pdf",
    "year": 1403
   },
@@ -6837,8 +7497,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-pdf",
    "year": 1403
   },
@@ -6865,6 +7528,7 @@
    "recurrenceType": "C",
    "eventId": "E0495",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -6872,6 +7536,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-pdf",
    "year": 1403
   },
@@ -6898,6 +7564,7 @@
    "recurrenceType": "A",
    "eventId": "E0158",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۷ شهریور ۱۳۸۲",
@@ -6905,6 +7572,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-split",
    "year": 1403
   },
@@ -6931,6 +7600,7 @@
    "recurrenceType": "A",
    "eventId": "E0254",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۷ شهریور ۱۳۸۳",
@@ -6938,6 +7608,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-split",
    "year": 1403
   },
@@ -6964,6 +7636,7 @@
    "recurrenceType": "C",
    "eventId": "E0395",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -6971,6 +7644,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0395",
    "source": "catalog",
    "year": 1403
   },
@@ -6997,6 +7672,7 @@
    "recurrenceType": "A",
    "eventId": "E0342",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۰ شهریور ۱۳۸۶",
@@ -7004,6 +7680,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0342",
    "source": "catalog",
    "year": 1403
   },
@@ -7030,6 +7708,7 @@
    "recurrenceType": "A",
    "eventId": "E0101",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۱ شهریور ۱۳۷۸",
@@ -7037,6 +7716,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-split",
    "year": 1403
   },
@@ -7063,6 +7744,7 @@
    "recurrenceType": "D",
    "eventId": "E0013",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۳۱ شهریور ۱۳۸۸",
@@ -7070,6 +7752,8 @@
     "gregorian": "2009-9-22",
     "source": "دادهٔ PDF"
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-split",
    "year": 1403
   },
@@ -7096,6 +7780,7 @@
    "recurrenceType": "C",
    "eventId": "E0431",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -7103,6 +7788,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0431",
    "source": "catalog",
    "year": 1403
   },
@@ -7129,6 +7816,7 @@
    "recurrenceType": "C",
    "eventId": "E0494",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -7136,6 +7824,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-pdf",
    "year": 1403
   },
@@ -7162,6 +7852,7 @@
    "recurrenceType": "C",
    "eventId": "E0480",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -7169,6 +7860,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 9,
+   "sourceRef": "official-calendar-1403.json#page=9",
    "source": "official-split",
    "year": 1403
   },
@@ -7195,6 +7888,7 @@
    "recurrenceType": "C",
    "eventId": "E0404",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -7202,6 +7896,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0404",
    "source": "catalog",
    "year": 1403
   },
@@ -7228,6 +7924,7 @@
    "recurrenceType": "A",
    "eventId": "E0174",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲ مهر ۱۴۰۳",
@@ -7235,6 +7932,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -7261,6 +7960,7 @@
    "recurrenceType": "A",
    "eventId": "E0250",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۴ مهر ۱۴۰۱",
@@ -7268,6 +7968,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -7294,6 +7996,7 @@
    "recurrenceType": "D",
    "eventId": "E0049",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۵ مهر ۱۴۰۳",
@@ -7301,6 +8004,8 @@
     "gregorian": "2024-9-26",
     "source": "دادهٔ PDF"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -7327,6 +8032,7 @@
    "recurrenceType": "A",
    "eventId": "E0341",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۵ مهر ۱۳۸۲",
@@ -7334,6 +8040,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0341",
    "source": "catalog",
    "year": 1403
   },
@@ -7360,6 +8068,7 @@
    "recurrenceType": "B",
    "eventId": "E0067",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۷ سپتامبر ۲۰۰۵ — ۵ مهر ۱۳۸۴",
@@ -7367,6 +8076,8 @@
     "gregorian": "2005-09-27",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0067",
    "source": "catalog",
    "year": 1403
   },
@@ -7393,6 +8104,7 @@
    "recurrenceType": "D",
    "eventId": "E0042",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۷ مهر ۱۴۰۳",
@@ -7400,6 +8112,8 @@
     "gregorian": "2024-9-28",
     "source": "دادهٔ PDF"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -7426,6 +8140,7 @@
    "recurrenceType": "A",
    "eventId": "E0189",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ مهر ۱۳۹۷",
@@ -7433,6 +8148,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -7459,6 +8176,7 @@
    "recurrenceType": "A",
    "eventId": "E0127",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ مهر ۱۳۸۳",
@@ -7466,6 +8184,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0127",
    "source": "catalog",
    "year": 1403
   },
@@ -7492,6 +8212,7 @@
    "recurrenceType": "A",
    "eventId": "E0193",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ مهر ۱۳۸۵",
@@ -7499,6 +8220,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -7525,6 +8248,7 @@
    "recurrenceType": "A",
    "eventId": "E0320",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۹ مهر ۱۳۸۳",
@@ -7532,6 +8256,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -7558,6 +8284,7 @@
    "recurrenceType": "B",
    "eventId": "E0069",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۰ سپتامبر ۲۰۰۳ — ۸ مهر ۱۳۸۲",
@@ -7565,6 +8292,8 @@
     "gregorian": "2003-09-30",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0069",
    "source": "catalog",
    "year": 1403
   },
@@ -7591,6 +8320,7 @@
    "recurrenceType": "B",
    "eventId": "E0086",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۰ سپتامبر ۲۰۰۸ — ۹ مهر ۱۳۸۷",
@@ -7598,6 +8328,8 @@
     "gregorian": "2008-09-30",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0086",
    "source": "catalog",
    "year": 1403
   },
@@ -7624,6 +8356,7 @@
    "recurrenceType": "B",
    "eventId": "E0070",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ اکتبر ۲۰۰۶ — ۹ مهر ۱۳۸۵",
@@ -7631,6 +8364,8 @@
     "gregorian": "2006-10-01",
     "source": "دادهٔ PDF"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -7657,6 +8392,7 @@
    "recurrenceType": "A",
    "eventId": "E0382",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ مهر ۱۳۷۷",
@@ -7664,6 +8400,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -7690,6 +8428,7 @@
    "recurrenceType": "A",
    "eventId": "E0317",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ مهر ۱۳۸۲",
@@ -7697,6 +8436,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -7723,6 +8464,7 @@
    "recurrenceType": "A",
    "eventId": "E0240",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ مهر ۱۳۸۲",
@@ -7730,6 +8472,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -7756,6 +8500,7 @@
    "recurrenceType": "A",
    "eventId": "E0248",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۵ مهر ۱۳۹۵",
@@ -7763,6 +8508,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -7789,6 +8536,7 @@
    "recurrenceType": "A",
    "eventId": "E0011",
    "verificationStatus": "traditional",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
@@ -7796,6 +8544,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0011",
    "source": "catalog",
    "year": 1403
   },
@@ -7822,6 +8572,7 @@
    "recurrenceType": "B",
    "eventId": "E0091",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ اکتبر ۲۰۰۳ — ۱۶ مهر ۱۳۸۲",
@@ -7829,6 +8580,8 @@
     "gregorian": "2003-10-08",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0091",
    "source": "catalog",
    "year": 1403
   },
@@ -7855,6 +8608,7 @@
    "recurrenceType": "C",
    "eventId": "E0497",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -7862,6 +8616,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0497",
    "source": "catalog",
    "year": 1403
   },
@@ -7888,6 +8644,7 @@
    "recurrenceType": "A",
    "eventId": "E0159",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۰ مهر ۱۳۸۳",
@@ -7895,6 +8652,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -7921,6 +8680,7 @@
    "recurrenceType": "C",
    "eventId": "E0482",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -7928,6 +8688,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -7954,6 +8716,7 @@
    "recurrenceType": "D",
    "eventId": "E0047",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۲۳ مهر ۱۴۰۵",
@@ -7961,6 +8724,8 @@
     "gregorian": "2026-10-15",
     "source": "دادهٔ PDF"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-split",
    "year": 1403
   },
@@ -7987,6 +8752,7 @@
    "recurrenceType": "B",
    "eventId": "E0063",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ اکتبر ۲۰۰۵ — ۲۲ مهر ۱۳۸۴",
@@ -7994,6 +8760,8 @@
     "gregorian": "2005-10-14",
     "source": "دادهٔ PDF"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-split",
    "year": 1403
   },
@@ -8020,6 +8788,7 @@
    "recurrenceType": "B",
    "eventId": "E0059",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ اکتبر ۲۰۰۳ — ۲۲ مهر ۱۳۸۲",
@@ -8027,6 +8796,8 @@
     "gregorian": "2003-10-14",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0059",
    "source": "catalog",
    "year": 1403
   },
@@ -8053,6 +8824,7 @@
    "recurrenceType": "C",
    "eventId": "E0477",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -8060,6 +8832,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-split",
    "year": 1403
   },
@@ -8086,6 +8860,7 @@
    "recurrenceType": "B",
    "eventId": "E0085",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۲ — ۲۴ مهر ۱۳۹۱",
@@ -8093,40 +8868,9 @@
     "gregorian": "2012-10-15",
     "source": "دادهٔ PDF"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
-   "year": 1403
-  },
-  {
-   "title": "روز عرفه (روز نیایش",
-   "solar": [
-    1403,
-    7,
-    24
-   ],
-   "gregorian": [
-    2024,
-    10,
-    15
-   ],
-   "lunar": [
-    1446,
-    4,
-    11
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "international",
-   "recurrenceType": "B",
-   "eventId": "E0096",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۳ — ۲۳ مهر ۱۳۹۲",
-    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
-    "gregorian": "2013-10-15",
-    "source": "دادهٔ PDF"
-   },
-   "source": "catalog",
    "year": 1403
   },
   {
@@ -8152,6 +8896,7 @@
    "recurrenceType": "A",
    "eventId": "E0330",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۴ مهر ۱۳۸۲",
@@ -8159,6 +8904,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0330",
    "source": "catalog",
    "year": 1403
   },
@@ -8185,6 +8932,7 @@
    "recurrenceType": "A",
    "eventId": "E0331",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۴ مهر ۱۳۷۷",
@@ -8192,6 +8940,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0331",
    "source": "catalog",
    "year": 1403
   },
@@ -8218,6 +8968,7 @@
    "recurrenceType": "A",
    "eventId": "E0210",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۶ مهر ۱۳۸۳",
@@ -8225,6 +8976,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -8251,6 +9004,7 @@
    "recurrenceType": "A",
    "eventId": "E0262",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۹ مهر ۱۳۸۲",
@@ -8258,6 +9012,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 10,
+   "sourceRef": "official-calendar-1403.json#page=10",
    "source": "official-pdf",
    "year": 1403
   },
@@ -8284,6 +9040,7 @@
    "recurrenceType": "A",
    "eventId": "E0154",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ آبان ۱۴۰۱",
@@ -8291,6 +9048,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-pdf",
    "year": 1403
   },
@@ -8317,6 +9076,7 @@
    "recurrenceType": "A",
    "eventId": "E0130",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ آبان ۱۳۸۳",
@@ -8324,6 +9084,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0130",
    "source": "catalog",
    "year": 1403
   },
@@ -8350,6 +9112,7 @@
    "recurrenceType": "A",
    "eventId": "E0371",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ آبان ۱۳۸۲",
@@ -8357,6 +9120,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0371",
    "source": "catalog",
    "year": 1403
   },
@@ -8383,6 +9148,7 @@
    "recurrenceType": "A",
    "eventId": "E0106",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۴ آبان ۱۳۷۷",
@@ -8390,6 +9156,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-pdf",
    "year": 1403
   },
@@ -8415,8 +9183,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-pdf",
    "year": 1403
   },
@@ -8443,6 +9214,7 @@
    "recurrenceType": "A",
    "eventId": "E0316",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ آبان ۱۳۷۷",
@@ -8450,6 +9222,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0316",
    "source": "catalog",
    "year": 1403
   },
@@ -8476,6 +9250,7 @@
    "recurrenceType": "A",
    "eventId": "E0328",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ آبان ۱۳۹۱",
@@ -8483,6 +9258,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0328",
    "source": "catalog",
    "year": 1403
   },
@@ -8509,6 +9286,7 @@
    "recurrenceType": "D",
    "eventId": "E0034",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۰ آبان ۱۳۸۲",
@@ -8516,6 +9294,8 @@
     "gregorian": "2003-11-1",
     "source": "دادهٔ PDF"
    },
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-pdf",
    "year": 1403
   },
@@ -8542,6 +9322,7 @@
    "recurrenceType": "A",
    "eventId": "E0118",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ آبان ۱۳۷۸",
@@ -8549,6 +9330,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-split",
    "year": 1403
   },
@@ -8575,6 +9358,7 @@
    "recurrenceType": "A",
    "eventId": "E0303",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ آبان ۱۳۷۷",
@@ -8582,6 +9366,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-split",
    "year": 1403
   },
@@ -8608,6 +9394,7 @@
    "recurrenceType": "A",
    "eventId": "E0242",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ آبان ۱۳۷۷",
@@ -8615,6 +9402,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-split",
    "year": 1403
   },
@@ -8641,6 +9430,7 @@
    "recurrenceType": "A",
    "eventId": "E0117",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ آبان ۱۳۸۲",
@@ -8648,6 +9438,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0117",
    "source": "catalog",
    "year": 1403
   },
@@ -8674,6 +9466,7 @@
    "recurrenceType": "A",
    "eventId": "E0274",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ آبان ۱۳۸۷",
@@ -8681,6 +9474,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-pdf",
    "year": 1403
   },
@@ -8707,6 +9502,7 @@
    "recurrenceType": "A",
    "eventId": "E0283",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ آبان ۱۳۸۲",
@@ -8714,6 +9510,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0283",
    "source": "catalog",
    "year": 1403
   },
@@ -8740,6 +9538,7 @@
    "recurrenceType": "C",
    "eventId": "E0496",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -8747,6 +9546,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-split",
    "year": 1403
   },
@@ -8773,6 +9574,7 @@
    "recurrenceType": "C",
    "eventId": "E0435",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -8780,6 +9582,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-split",
    "year": 1403
   },
@@ -8806,6 +9610,7 @@
    "recurrenceType": "B",
    "eventId": "E0073",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۰ نوامبر ۲۰۱۵ — ۱۹ آبان ۱۳۹۴",
@@ -8813,6 +9618,8 @@
     "gregorian": "2015-11-10",
     "source": "دادهٔ PDF"
    },
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-pdf",
    "year": 1403
   },
@@ -8839,6 +9646,7 @@
    "recurrenceType": "A",
    "eventId": "E0346",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۴ آبان ۱۳۸۷",
@@ -8846,6 +9654,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-split",
    "year": 1403
   },
@@ -8872,6 +9682,7 @@
    "recurrenceType": "A",
    "eventId": "E0153",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۴ آبان ۱۳۸۲",
@@ -8879,6 +9690,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-split",
    "year": 1403
   },
@@ -8905,6 +9718,7 @@
    "recurrenceType": "A",
    "eventId": "E0336",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۴ آبان ۱۳۹۴",
@@ -8912,6 +9726,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0336",
    "source": "catalog",
    "year": 1403
   },
@@ -8937,8 +9753,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-pdf",
    "year": 1403
   },
@@ -8965,6 +9784,7 @@
    "recurrenceType": "A",
    "eventId": "E0141",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ آبان ۱۳۹۷",
@@ -8972,6 +9792,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0141",
    "source": "catalog",
    "year": 1403
   },
@@ -8998,6 +9820,7 @@
    "recurrenceType": "A",
    "eventId": "E0349",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۶ آبان ۱۳۸۵",
@@ -9005,6 +9828,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0349",
    "source": "catalog",
    "year": 1403
   },
@@ -9031,6 +9856,7 @@
    "recurrenceType": "A",
    "eventId": "E0137",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۸ آبان ۱۳۸۸",
@@ -9038,6 +9864,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0137",
    "source": "catalog",
    "year": 1403
   },
@@ -9064,6 +9892,7 @@
    "recurrenceType": "A",
    "eventId": "E0157",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۰ آبان ۱۴۰۱",
@@ -9071,6 +9900,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-split",
    "year": 1403
   },
@@ -9097,6 +9928,7 @@
    "recurrenceType": "A",
    "eventId": "E0237",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۰ آبان ۱۴۰۱",
@@ -9104,6 +9936,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-split",
    "year": 1403
   },
@@ -9130,6 +9964,7 @@
    "recurrenceType": "A",
    "eventId": "E0280",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۰ آبان ۱۴۰۴",
@@ -9137,6 +9972,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 11,
+   "sourceRef": "official-calendar-1403.json#page=11",
    "source": "official-split",
    "year": 1403
   },
@@ -9163,6 +10000,7 @@
    "recurrenceType": "D",
    "eventId": "E0017",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۴ آذر ۱۴۰۴",
@@ -9170,6 +10008,8 @@
     "gregorian": "2025-11-25",
     "source": "دادهٔ PDF"
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-pdf",
    "year": 1403
   },
@@ -9196,6 +10036,7 @@
    "recurrenceType": "A",
    "eventId": "E0357",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۵ آذر ۱۳۸۲",
@@ -9203,6 +10044,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0357",
    "source": "catalog",
    "year": 1403
   },
@@ -9229,6 +10072,7 @@
    "recurrenceType": "A",
    "eventId": "E0315",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ آذر ۱۳۸۲",
@@ -9236,6 +10080,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-pdf",
    "year": 1403
   },
@@ -9262,6 +10108,7 @@
    "recurrenceType": "A",
    "eventId": "E0179",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۹ آذر ۱۳۸۲",
@@ -9269,6 +10116,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-pdf",
    "year": 1403
   },
@@ -9295,6 +10144,7 @@
    "recurrenceType": "D",
    "eventId": "E0032",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۰ آذر ۱۳۸۲",
@@ -9302,6 +10152,8 @@
     "gregorian": "2003-12-1",
     "source": "دادهٔ PDF"
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-split",
    "year": 1403
   },
@@ -9328,6 +10180,7 @@
    "recurrenceType": "A",
    "eventId": "E0289",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۰ آذر ۱۳۷۹",
@@ -9335,6 +10188,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-split",
    "year": 1403
   },
@@ -9361,6 +10216,7 @@
    "recurrenceType": "D",
    "eventId": "E0044",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۱ آذر ۱۴۰۳",
@@ -9368,6 +10224,8 @@
     "gregorian": "2024-12-1",
     "source": "دادهٔ PDF"
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-pdf",
    "year": 1403
   },
@@ -9394,6 +10252,7 @@
    "recurrenceType": "B",
    "eventId": "E0076",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ دسامبر ۲۰۰۳ — ۱۰ آذر ۱۳۸۲",
@@ -9401,6 +10260,8 @@
     "gregorian": "2003-12-01",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0076",
    "source": "catalog",
    "year": 1403
   },
@@ -9427,6 +10288,7 @@
    "recurrenceType": "A",
    "eventId": "E0122",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۲ آذر ۱۳۸۲",
@@ -9434,6 +10296,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-pdf",
    "year": 1403
   },
@@ -9460,6 +10324,7 @@
    "recurrenceType": "B",
    "eventId": "E0081",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳ دسامبر ۲۰۱۶ — ۱۳ آذر ۱۳۹۵",
@@ -9467,6 +10332,8 @@
     "gregorian": "2016-12-03",
     "source": "دادهٔ PDF"
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-pdf",
    "year": 1403
   },
@@ -9493,6 +10360,7 @@
    "recurrenceType": "A",
    "eventId": "E0206",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ آذر ۱۳۸۲",
@@ -9500,6 +10368,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0206",
    "source": "catalog",
    "year": 1403
   },
@@ -9526,6 +10396,7 @@
    "recurrenceType": "C",
    "eventId": "E0456",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -9533,6 +10404,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 7,
+   "sourceRef": "official-calendar-1403.json#page=7",
    "source": "official-pdf",
    "year": 1403
   },
@@ -9559,6 +10432,7 @@
    "recurrenceType": "A",
    "eventId": "E0241",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۶ آذر ۱۳۸۲",
@@ -9566,6 +10440,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-pdf",
    "year": 1403
   },
@@ -9592,6 +10468,7 @@
    "recurrenceType": "B",
    "eventId": "E0088",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ دسامبر ۲۰۰۳ — ۱۶ آذر ۱۳۸۲",
@@ -9599,6 +10476,8 @@
     "gregorian": "2003-12-07",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0088",
    "source": "catalog",
    "year": 1403
   },
@@ -9625,6 +10504,7 @@
    "recurrenceType": "A",
    "eventId": "E0380",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ آذر ۱۳۷۸",
@@ -9632,6 +10512,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0380",
    "source": "catalog",
    "year": 1403
   },
@@ -9658,6 +10540,7 @@
    "recurrenceType": "D",
    "eventId": "E0020",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۹ آذر ۱۳۸۲",
@@ -9665,6 +10548,8 @@
     "gregorian": "2003-12-10",
     "source": "دادهٔ PDF"
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-pdf",
    "year": 1403
   },
@@ -9691,6 +10576,7 @@
    "recurrenceType": "D",
    "eventId": "E0029",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۲۰ آذر ۱۴۰۳",
@@ -9698,6 +10584,8 @@
     "gregorian": "2024-12-10",
     "source": "دادهٔ PDF"
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-pdf",
    "year": 1403
   },
@@ -9724,6 +10612,7 @@
    "recurrenceType": "D",
    "eventId": "E0027",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۲۵ آذر ۱۳۸۲",
@@ -9731,6 +10620,8 @@
     "gregorian": "2003-12-16",
     "source": "دادهٔ PDF"
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-split",
    "year": 1403
   },
@@ -9757,6 +10648,7 @@
    "recurrenceType": "C",
    "eventId": "E0416",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -9764,6 +10656,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-split",
    "year": 1403
   },
@@ -9790,6 +10684,7 @@
    "recurrenceType": "C",
    "eventId": "E0474",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -9797,6 +10692,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-split",
    "year": 1403
   },
@@ -9823,6 +10720,7 @@
    "recurrenceType": "A",
    "eventId": "E0235",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۶ آذر ۱۳۷۷",
@@ -9830,6 +10728,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0235",
    "source": "catalog",
    "year": 1403
   },
@@ -9856,6 +10756,7 @@
    "recurrenceType": "A",
    "eventId": "E0223",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۷ آذر ۱۳۸۲",
@@ -9863,6 +10764,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-split",
    "year": 1403
   },
@@ -9889,6 +10792,7 @@
    "recurrenceType": "D",
    "eventId": "E0030",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۲۷ آذر ۱۳۸۲",
@@ -9896,6 +10800,8 @@
     "gregorian": "2003-12-18",
     "source": "دادهٔ PDF"
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-split",
    "year": 1403
   },
@@ -9922,6 +10828,7 @@
    "recurrenceType": "A",
    "eventId": "E0326",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۷ آذر ۱۴۰۰",
@@ -9929,6 +10836,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-split",
    "year": 1403
   },
@@ -9955,6 +10864,7 @@
    "recurrenceType": "A",
    "eventId": "E0209",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۹ آذر ۱۳۷۹",
@@ -9962,6 +10872,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0209",
    "source": "catalog",
    "year": 1403
   },
@@ -9987,7 +10899,8 @@
    "category": "cultural",
    "recurrenceType": "A",
    "eventId": "E0006",
-   "verificationStatus": "verified",
+   "verificationStatus": "traditional",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
@@ -9995,6 +10908,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 12,
+   "sourceRef": "official-calendar-1403.json#page=12",
    "source": "official-pdf",
    "year": 1403
   },
@@ -10021,6 +10936,7 @@
    "recurrenceType": "C",
    "eventId": "E0500",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -10028,6 +10944,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-pdf",
    "year": 1403
   },
@@ -10054,6 +10972,7 @@
    "recurrenceType": "A",
    "eventId": "E0218",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳ دی ۱۳۸۲",
@@ -10061,6 +10980,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0218",
    "source": "catalog",
    "year": 1403
   },
@@ -10087,6 +11008,7 @@
    "recurrenceType": "C",
    "eventId": "E0402",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -10094,6 +11016,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0402",
    "source": "catalog",
    "year": 1403
   },
@@ -10120,6 +11044,7 @@
    "recurrenceType": "C",
    "eventId": "E0422",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -10127,6 +11052,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0422",
    "source": "catalog",
    "year": 1403
   },
@@ -10153,6 +11080,7 @@
    "recurrenceType": "A",
    "eventId": "E0166",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۴ دی ۱۴۰۱",
@@ -10160,6 +11088,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-pdf",
    "year": 1403
   },
@@ -10186,6 +11116,7 @@
    "recurrenceType": "A",
    "eventId": "E0321",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۴ دی ۱۳۸۲",
@@ -10193,6 +11124,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0321",
    "source": "catalog",
    "year": 1403
   },
@@ -10219,6 +11152,7 @@
    "recurrenceType": "A",
    "eventId": "E0381",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۴ دی ۱۳۷۸",
@@ -10226,6 +11160,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0381",
    "source": "catalog",
    "year": 1403
   },
@@ -10252,6 +11188,7 @@
    "recurrenceType": "D",
    "eventId": "E0024",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۵ دی ۱۳۹۴",
@@ -10259,6 +11196,8 @@
     "gregorian": "2015-12-26",
     "source": "دادهٔ PDF"
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-pdf",
    "year": 1403
   },
@@ -10285,6 +11224,7 @@
    "recurrenceType": "D",
    "eventId": "E0021",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۷ دی ۱۴۰۳",
@@ -10292,6 +11232,8 @@
     "gregorian": "2024-12-27",
     "source": "دادهٔ PDF"
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-pdf",
    "year": 1403
   },
@@ -10318,6 +11260,7 @@
    "recurrenceType": "A",
    "eventId": "E0358",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ دی ۱۳۷۷",
@@ -10325,6 +11268,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0358",
    "source": "catalog",
    "year": 1403
   },
@@ -10351,6 +11296,7 @@
    "recurrenceType": "A",
    "eventId": "E0266",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ دی ۱۳۸۲",
@@ -10358,6 +11304,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0266",
    "source": "catalog",
    "year": 1403
   },
@@ -10384,6 +11332,7 @@
    "recurrenceType": "A",
    "eventId": "E0198",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۹ دی ۱۳۹۰",
@@ -10391,6 +11340,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-pdf",
    "year": 1403
   },
@@ -10416,8 +11367,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-pdf",
    "year": 1403
   },
@@ -10444,6 +11398,7 @@
    "recurrenceType": "A",
    "eventId": "E0228",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ دی ۱۴۰۰",
@@ -10451,6 +11406,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-pdf",
    "year": 1403
   },
@@ -10477,6 +11434,7 @@
    "recurrenceType": "A",
    "eventId": "E0103",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ دی ۱۴۰۰",
@@ -10484,6 +11442,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0103",
    "source": "catalog",
    "year": 1403
   },
@@ -10510,6 +11470,7 @@
    "recurrenceType": "C",
    "eventId": "E0415",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -10517,6 +11478,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0415",
    "source": "catalog",
    "year": 1403
   },
@@ -10543,6 +11506,7 @@
    "recurrenceType": "A",
    "eventId": "E0221",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ دی ۱۳۸۳",
@@ -10550,6 +11514,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0221",
    "source": "catalog",
    "year": 1403
   },
@@ -10576,6 +11542,7 @@
    "recurrenceType": "C",
    "eventId": "E0451",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -10583,6 +11550,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-pdf",
    "year": 1403
   },
@@ -10609,6 +11578,7 @@
    "recurrenceType": "A",
    "eventId": "E0369",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۶ دی ۱۴۰۱",
@@ -10616,6 +11586,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-split",
    "year": 1403
   },
@@ -10642,6 +11614,7 @@
    "recurrenceType": "A",
    "eventId": "E0257",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۶ دی ۱۴۰۱",
@@ -10649,6 +11622,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-split",
    "year": 1403
   },
@@ -10675,6 +11650,7 @@
    "recurrenceType": "A",
    "eventId": "E0104",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۷ دی ۱۳۸۲",
@@ -10682,6 +11658,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0104",
    "source": "catalog",
    "year": 1403
   },
@@ -10708,6 +11686,7 @@
    "recurrenceType": "A",
    "eventId": "E0164",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۷ دی ۱۳۸۲",
@@ -10715,6 +11694,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0164",
    "source": "catalog",
    "year": 1403
   },
@@ -10741,6 +11722,7 @@
    "recurrenceType": "D",
    "eventId": "E0054",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۹ دی ۱۳۸۴",
@@ -10748,6 +11730,8 @@
     "gregorian": "2006-1-9",
     "source": "دادهٔ PDF"
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-pdf",
    "year": 1403
   },
@@ -10774,6 +11758,7 @@
    "recurrenceType": "D",
    "eventId": "E0045",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۲۰ دی ۱۳۹۵",
@@ -10781,6 +11766,8 @@
     "gregorian": "2017-1-9",
     "source": "دادهٔ PDF"
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-pdf",
    "year": 1403
   },
@@ -10807,6 +11794,7 @@
    "recurrenceType": "C",
    "eventId": "E0491",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -10814,6 +11802,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-pdf",
    "year": 1403
   },
@@ -10840,6 +11830,7 @@
    "recurrenceType": "D",
    "eventId": "E0019",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۲۲ دی ۱۳۸۲",
@@ -10847,6 +11838,8 @@
     "gregorian": "2004-1-12",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0019",
    "source": "catalog",
    "year": 1403
   },
@@ -10873,6 +11866,7 @@
    "recurrenceType": "C",
    "eventId": "E0436",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -10880,6 +11874,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0436",
    "source": "catalog",
    "year": 1403
   },
@@ -10906,6 +11902,7 @@
    "recurrenceType": "C",
    "eventId": "E0392",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -10913,6 +11910,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0392",
    "source": "catalog",
    "year": 1403
   },
@@ -10939,6 +11938,7 @@
    "recurrenceType": "C",
    "eventId": "E0434",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -10946,6 +11946,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0434",
    "source": "catalog",
    "year": 1403
   },
@@ -10972,6 +11974,7 @@
    "recurrenceType": "C",
    "eventId": "E0488",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -10979,6 +11982,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0488",
    "source": "catalog",
    "year": 1403
   },
@@ -11005,6 +12010,7 @@
    "recurrenceType": "A",
    "eventId": "E0377",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۶ دی ۱۳۷۷",
@@ -11012,6 +12018,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-split",
    "year": 1403
   },
@@ -11038,6 +12046,7 @@
    "recurrenceType": "C",
    "eventId": "E0397",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -11045,6 +12054,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-split",
    "year": 1403
   },
@@ -11071,6 +12082,7 @@
    "recurrenceType": "D",
    "eventId": "E0046",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۲۷ دی ۱۳۸۷",
@@ -11078,6 +12090,8 @@
     "gregorian": "2009-1-16",
     "source": "دادهٔ PDF"
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-pdf",
    "year": 1403
   },
@@ -11104,6 +12118,7 @@
    "recurrenceType": "C",
    "eventId": "E0400",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -11111,6 +12126,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0400",
    "source": "catalog",
    "year": 1403
   },
@@ -11137,6 +12154,7 @@
    "recurrenceType": "C",
    "eventId": "E0476",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -11144,6 +12162,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0476",
    "source": "catalog",
    "year": 1403
   },
@@ -11170,6 +12190,7 @@
    "recurrenceType": "A",
    "eventId": "E0273",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۹ دی ۱۳۹۰",
@@ -11177,6 +12198,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 13,
+   "sourceRef": "official-calendar-1403.json#page=13",
    "source": "official-pdf",
    "year": 1403
   },
@@ -11203,6 +12226,7 @@
    "recurrenceType": "A",
    "eventId": "E0132",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۶ بهمن ۱۳۸۷",
@@ -11210,6 +12234,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 14,
+   "sourceRef": "official-calendar-1403.json#page=14",
    "source": "official-split",
    "year": 1403
   },
@@ -11236,6 +12262,7 @@
    "recurrenceType": "A",
    "eventId": "E0354",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۶ بهمن ۱۳۸۷",
@@ -11243,6 +12270,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 14,
+   "sourceRef": "official-calendar-1403.json#page=14",
    "source": "official-split",
    "year": 1403
   },
@@ -11269,6 +12298,7 @@
    "recurrenceType": "A",
    "eventId": "E0182",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۶ بهمن ۱۴۰۲",
@@ -11276,6 +12306,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0182",
    "source": "catalog",
    "year": 1403
   },
@@ -11302,6 +12334,7 @@
    "recurrenceType": "C",
    "eventId": "E0455",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -11309,6 +12342,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 14,
+   "sourceRef": "official-calendar-1403.json#page=14",
    "source": "official-pdf",
    "year": 1403
   },
@@ -11335,6 +12370,7 @@
    "recurrenceType": "B",
    "eventId": "E0092",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۶ ژانویه ۲۰۰۳ — ۶ بهمن ۱۳۸۱",
@@ -11342,6 +12378,8 @@
     "gregorian": "2003-01-26",
     "source": "دادهٔ PDF"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0092",
    "source": "catalog",
    "year": 1403
   },
@@ -11368,6 +12406,7 @@
    "recurrenceType": "C",
    "eventId": "E0467",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -11375,6 +12414,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0467",
    "source": "catalog",
    "year": 1403
   },
@@ -11401,6 +12442,7 @@
    "recurrenceType": "A",
    "eventId": "E0004",
    "verificationStatus": "traditional",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
@@ -11408,6 +12450,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0004",
    "source": "catalog",
    "year": 1403
   },
@@ -11434,6 +12478,7 @@
    "recurrenceType": "D",
    "eventId": "E0015",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "event",
     "label": "۱۲ بهمن ۱۳۸۸",
@@ -11441,6 +12486,8 @@
     "gregorian": "2010-2-1",
     "source": "دادهٔ PDF"
    },
+   "page": 14,
+   "sourceRef": "official-calendar-1403.json#page=14",
    "source": "official-pdf",
    "year": 1403
   },
@@ -11467,6 +12514,7 @@
    "recurrenceType": "A",
    "eventId": "E0099",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۲ بهمن ۱۳۷۷",
@@ -11474,6 +12522,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0099",
    "source": "catalog",
    "year": 1403
   },
@@ -11500,6 +12550,7 @@
    "recurrenceType": "A",
    "eventId": "E0276",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ بهمن ۱۳۸۹",
@@ -11507,6 +12558,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 14,
+   "sourceRef": "official-calendar-1403.json#page=14",
    "source": "official-split",
    "year": 1403
   },
@@ -11533,6 +12586,7 @@
    "recurrenceType": "C",
    "eventId": "E0484",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -11540,6 +12594,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 14,
+   "sourceRef": "official-calendar-1403.json#page=14",
    "source": "official-split",
    "year": 1403
   },
@@ -11566,6 +12622,7 @@
    "recurrenceType": "C",
    "eventId": "E0433",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -11573,6 +12630,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 14,
+   "sourceRef": "official-calendar-1403.json#page=14",
    "source": "official-split",
    "year": 1403
   },
@@ -11599,6 +12658,7 @@
    "recurrenceType": "C",
    "eventId": "E0479",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -11606,6 +12666,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 14,
+   "sourceRef": "official-calendar-1403.json#page=14",
    "source": "official-pdf",
    "year": 1403
   },
@@ -11632,6 +12694,7 @@
    "recurrenceType": "C",
    "eventId": "E0425",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -11639,6 +12702,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0425",
    "source": "catalog",
    "year": 1403
   },
@@ -11665,6 +12730,7 @@
    "recurrenceType": "C",
    "eventId": "E0486",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -11672,6 +12738,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0486",
    "source": "catalog",
    "year": 1403
   },
@@ -11698,6 +12766,7 @@
    "recurrenceType": "A",
    "eventId": "E0319",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۹ بهمن ۱۳۸۲",
@@ -11705,6 +12774,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 14,
+   "sourceRef": "official-calendar-1403.json#page=14",
    "source": "official-pdf",
    "year": 1403
   },
@@ -11731,6 +12802,7 @@
    "recurrenceType": "A",
    "eventId": "E0332",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۰ بهمن ۱۳۸۲",
@@ -11738,6 +12810,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0332",
    "source": "catalog",
    "year": 1403
   },
@@ -11764,6 +12838,7 @@
    "recurrenceType": "A",
    "eventId": "E0374",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ بهمن ۱۳۸۲",
@@ -11771,6 +12846,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0374",
    "source": "catalog",
    "year": 1403
   },
@@ -11797,6 +12874,7 @@
    "recurrenceType": "D",
    "eventId": "E0056",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "established",
     "label": "۲۲ بهمن ۱۳۵۷",
@@ -11804,6 +12882,8 @@
     "gregorian": "1979-2-11",
     "source": "https://en.wikipedia.org/wiki/Anniversary_of_the_Iranian_Revolution"
    },
+   "page": 14,
+   "sourceRef": "official-calendar-1403.json#page=14",
    "source": "official-pdf",
    "year": 1403
   },
@@ -11830,6 +12910,7 @@
    "recurrenceType": "A",
    "eventId": "E0375",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ بهمن ۱۳۸۲",
@@ -11837,6 +12918,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0375",
    "source": "catalog",
    "year": 1403
   },
@@ -11863,6 +12946,7 @@
    "recurrenceType": "C",
    "eventId": "E0501",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -11870,6 +12954,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 14,
+   "sourceRef": "official-calendar-1403.json#page=14",
    "source": "official-split",
    "year": 1403
   },
@@ -11896,6 +12982,7 @@
    "recurrenceType": "C",
    "eventId": "E0418",
    "verificationStatus": "verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -11903,6 +12990,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": 14,
+   "sourceRef": "official-calendar-1403.json#page=14",
    "source": "official-split",
    "year": 1403
   },
@@ -11929,6 +13018,7 @@
    "recurrenceType": "C",
    "eventId": "E0423",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
@@ -11936,6 +13026,8 @@
     "gregorian": "",
     "source": ""
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0423",
    "source": "catalog",
    "year": 1403
   },
@@ -11962,6 +13054,7 @@
    "recurrenceType": "A",
    "eventId": "E0378",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۹ بهمن ۱۳۸۶",
@@ -11969,6 +13062,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 14,
+   "sourceRef": "official-calendar-1403.json#page=14",
    "source": "official-pdf",
    "year": 1403
   },
@@ -11995,6 +13090,7 @@
    "recurrenceType": "A",
    "eventId": "E0387",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳ اسفند ۱۳۸۲",
@@ -12002,6 +13098,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0387",
    "source": "catalog",
    "year": 1403
   },
@@ -12028,6 +13126,7 @@
    "recurrenceType": "A",
    "eventId": "E0163",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۵ اسفند ۱۳۸۲",
@@ -12035,6 +13134,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 15,
+   "sourceRef": "official-calendar-1403.json#page=15",
    "source": "official-pdf",
    "year": 1403
   },
@@ -12061,6 +13162,7 @@
    "recurrenceType": "A",
    "eventId": "E0232",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ اسفند ۱۴۰۱",
@@ -12068,6 +13170,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 15,
+   "sourceRef": "official-calendar-1403.json#page=15",
    "source": "official-pdf",
    "year": 1403
   },
@@ -12094,6 +13198,7 @@
    "recurrenceType": "A",
    "eventId": "E0147",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ اسفند ۱۳۸۲",
@@ -12101,6 +13206,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0147",
    "source": "catalog",
    "year": 1403
   },
@@ -12127,6 +13234,7 @@
    "recurrenceType": "A",
    "eventId": "E0161",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ اسفند ۱۳۸۲",
@@ -12134,6 +13242,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0161",
    "source": "catalog",
    "year": 1403
   },
@@ -12160,6 +13270,7 @@
    "recurrenceType": "A",
    "eventId": "E0233",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۹ اسفند ۱۳۸۳",
@@ -12167,6 +13278,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0233",
    "source": "catalog",
    "year": 1403
   },
@@ -12193,6 +13306,7 @@
    "recurrenceType": "A",
    "eventId": "E0212",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ اسفند ۱۴۰۰",
@@ -12200,6 +13314,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 15,
+   "sourceRef": "official-calendar-1403.json#page=15",
    "source": "official-split",
    "year": 1403
   },
@@ -12226,6 +13342,7 @@
    "recurrenceType": "A",
    "eventId": "E0133",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ اسفند ۱۳۸۳",
@@ -12233,6 +13350,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 15,
+   "sourceRef": "official-calendar-1403.json#page=15",
    "source": "official-split",
    "year": 1403
   },
@@ -12259,6 +13378,7 @@
    "recurrenceType": "A",
    "eventId": "E0131",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۵ اسفند ۱۳۸۲",
@@ -12266,6 +13386,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 15,
+   "sourceRef": "official-calendar-1403.json#page=15",
    "source": "official-pdf",
    "year": 1403
   },
@@ -12292,6 +13414,7 @@
    "recurrenceType": "A",
    "eventId": "E0353",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ اسفند ۱۳۹۵",
@@ -12299,6 +13422,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 15,
+   "sourceRef": "official-calendar-1403.json#page=15",
    "source": "official-pdf",
    "year": 1403
   },
@@ -12325,6 +13450,7 @@
    "recurrenceType": "A",
    "eventId": "E0169",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ اسفند ۱۳۸۷",
@@ -12332,6 +13458,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0169",
    "source": "catalog",
    "year": 1403
   },
@@ -12358,6 +13486,7 @@
    "recurrenceType": "A",
    "eventId": "E0204",
    "verificationStatus": "partially_verified",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ اسفند ۱۳۸۲",
@@ -12365,6 +13494,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0204",
    "source": "catalog",
    "year": 1403
   },
@@ -12391,6 +13522,7 @@
    "recurrenceType": "A",
    "eventId": "E0247",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۰ اسفند ۱۳۹۴",
@@ -12398,6 +13530,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 15,
+   "sourceRef": "official-calendar-1403.json#page=15",
    "source": "official-pdf",
    "year": 1403
   },
@@ -12424,6 +13558,7 @@
    "recurrenceType": "A",
    "eventId": "E0194",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ اسفند ۱۳۹۷",
@@ -12431,6 +13566,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0194",
    "source": "catalog",
    "year": 1403
   },
@@ -12457,6 +13594,7 @@
    "recurrenceType": "A",
    "eventId": "E0376",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۲ اسفند ۱۳۸۲",
@@ -12464,6 +13602,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 15,
+   "sourceRef": "official-calendar-1403.json#page=15",
    "source": "official-split",
    "year": 1403
   },
@@ -12490,6 +13630,7 @@
    "recurrenceType": "A",
    "eventId": "E0171",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۲ اسفند ۱۳۸۲",
@@ -12497,6 +13638,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 15,
+   "sourceRef": "official-calendar-1403.json#page=15",
    "source": "official-split",
    "year": 1403
   },
@@ -12523,6 +13666,7 @@
    "recurrenceType": "A",
    "eventId": "E0195",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ اسفند ۱۳۹۱",
@@ -12530,6 +13674,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": 15,
+   "sourceRef": "official-calendar-1403.json#page=15",
    "source": "official-pdf",
    "year": 1403
   },
@@ -12556,6 +13702,7 @@
    "recurrenceType": "A",
    "eventId": "E0114",
    "verificationStatus": "verified",
+   "dateCertainty": "confirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ اسفند ۱۳۷۷",
@@ -12563,6 +13710,8 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
+   "page": null,
+   "sourceRef": "events-master.json#E0114",
    "source": "catalog",
    "year": 1403
   },
@@ -12588,8 +13737,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 15,
+   "sourceRef": "official-calendar-1403.json#page=15",
    "source": "official-pdf",
    "year": 1403
   },
@@ -12615,8 +13767,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 15,
+   "sourceRef": "official-calendar-1403.json#page=15",
    "source": "official-pdf",
    "year": 1403
   },
@@ -12642,8 +13797,11 @@
    "category": "official",
    "recurrenceType": null,
    "eventId": null,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
+   "dateCertainty": "unconfirmed",
    "origin": null,
+   "page": 15,
+   "sourceRef": "official-calendar-1403.json#page=15",
    "source": "official-pdf",
    "year": 1403
   }

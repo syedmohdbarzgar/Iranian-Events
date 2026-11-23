@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import hashlib
+import re
 import sys
 import unittest
 from datetime import date
@@ -89,6 +90,50 @@ class DataIntegrityTest(unittest.TestCase):
                     pair = (tuple(row["solar"]), eid)
                     self.assertNotIn(pair, pairs, f"{year}: تکرار {pair}")
                     pairs.add(pair)
+
+    def test_year_rows_carry_status_and_date_certainty(self):
+        allowed = {"verified", "partially_verified", "traditional", "unverified", "temporary"}
+        for year, doc in self.years.items():
+            for row in doc["rows"]:
+                self.assertIn(row.get("verificationStatus"), allowed, f"{year} {row}")
+                self.assertTrue(row.get("source"), f"{year} {row}")
+                self.assertTrue(row.get("sourceRef"), f"{year} {row}")
+                if row.get("approx"):
+                    self.assertEqual(row.get("dateCertainty"), "approximate", f"{year} {row}")
+                if row.get("verificationStatus") != "verified":
+                    self.assertNotEqual(row.get("dateCertainty"), "confirmed", f"{year} {row}")
+                if not row.get("eventId"):
+                    self.assertEqual(row["verificationStatus"], "unverified",
+                                     f"{year} ردیفِ بی‌تطبیق نباید verified باشد: {row}")
+
+    def test_web_payload_matches_year_rows(self):
+        html = (ROOT / "web" / "index.html").read_text(encoding="utf-8")
+        marker = "const DATA = "
+        self.assertIn(marker, html, "DATA در وب پیدا نشد")
+        start = html.index(marker) + len(marker)
+        payload, _ = json.JSONDecoder().raw_decode(html[start:])
+
+        def key(row):
+            return (tuple(row["solar"]), row["title"], row.get("verificationStatus"),
+                    row.get("dateCertainty"), row.get("page"))
+
+        for year, doc in self.years.items():
+            web_rows = payload["years"][str(year)]["official"]
+            self.assertEqual(len(web_rows), len(doc["rows"]), str(year))
+            self.assertEqual(sorted(map(key, web_rows)), sorted(map(key, doc["rows"])), str(year))
+
+    def test_identity_corrections_preserve_history_and_stay_out_of_calendar(self):
+        by_id = {e["id"]: e for e in self.events}
+        for eid, canonical in (("E0096", "E0426"), ("E0459", "E0370")):
+            event = by_id[eid]
+            self.assertEqual(event.get("supersededBy"), canonical)
+            self.assertTrue(event.get("excludeFromCalendar"))
+            self.assertEqual(event.get("verificationStatus"), "unverified")
+            self.assertTrue(event["correctionHistory"]["preserved"])
+            self.assertTrue(event["correctionHistory"]["source"])
+        for doc in self.years.values():
+            for row in doc["rows"]:
+                self.assertNotIn(row.get("eventId"), {"E0096", "E0459"})
 
     def test_unmatched_report_is_complete(self):
         report = load(ROOT / "reports" / "audit" / "unmatched.json")

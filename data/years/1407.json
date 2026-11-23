@@ -1,7 +1,7 @@
 {
  "year": 1407,
  "mode": "rule",
- "count": 264,
+ "count": 262,
  "droppedRows": 0,
  "addedRows": 0,
  "rows": [
@@ -26,13 +26,16 @@
    "eventId": "E0001",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
     "note": "آیینِ سالانه، بدون تاریخِ ثبت",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0001"
   },
   {
    "title": "عید نوروز",
@@ -55,13 +58,16 @@
    "eventId": "E0007",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
     "note": "آیینِ سالانه، بدون تاریخِ ثبت",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0007"
   },
   {
    "title": "روز جهانی آب",
@@ -84,13 +90,16 @@
    "eventId": "E0061",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "established",
     "label": "۲۲ مارس ۱۹۹۳",
     "note": "نخستین بزرگداشت (تصویب ۱۹۹۲)",
     "gregorian": "1993-03-22",
     "source": "https://www.un.org/en/observances/water-day/background"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0061"
   },
   {
    "title": "عید نوروز",
@@ -113,13 +122,16 @@
    "eventId": "E0009",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
     "note": "آیینِ سالانه، بدون تاریخِ ثبت",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0009"
   },
   {
    "title": "روز جهانی هواشناسی",
@@ -142,13 +154,16 @@
    "eventId": "E0087",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۳ مارس ۲۰۰۳ — ۳ فروردین ۱۳۸۲",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2003-03-23",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0087"
   },
   {
    "title": "شهادت حضرت امام جعفر صادق علیه‌السلام",
@@ -171,13 +186,16 @@
    "eventId": "E0444",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0444"
   },
   {
    "title": "عید نوروز",
@@ -200,13 +218,16 @@
    "eventId": "E0010",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
     "note": "آیینِ سالانه، بدون تاریخِ ثبت",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0010"
   },
   {
    "title": "روز هنرهای نمایشی",
@@ -229,13 +250,16 @@
    "eventId": "E0324",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ فروردین ۱۳۹۷",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0324"
   },
   {
    "title": "آغاز دهه کرامت",
@@ -258,13 +282,16 @@
    "eventId": "E0394",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0394"
   },
   {
    "title": "روز دختران",
@@ -287,13 +314,16 @@
    "eventId": "E0421",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0421"
   },
   {
    "title": "ولادت حضرت معصومه سلام الله علیها",
@@ -316,13 +346,16 @@
    "eventId": "E0502",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0502"
   },
   {
    "title": "روز جمهوری اسلامی ایران",
@@ -345,13 +378,16 @@
    "eventId": "E0220",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۲ فروردین ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0220"
   },
   {
    "title": "روز بزرگداشت حضرت صالح بن موسی کاظم علیه‌السلام",
@@ -374,13 +410,16 @@
    "eventId": "E0409",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0409"
   },
   {
    "title": "روز تجلیل از امام زادگان و بقاع متبرکه",
@@ -403,13 +442,16 @@
    "eventId": "E0414",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0414"
   },
   {
    "title": "روز طبیعت",
@@ -432,13 +474,16 @@
    "eventId": "E0268",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ فروردین ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0268"
   },
   {
    "title": "سیزده‌بدر",
@@ -461,13 +506,16 @@
    "eventId": "E0005",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
     "note": "آیینِ سالانه، بدون تاریخِ ثبت",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0005"
   },
   {
    "title": "روز بزرگداشت حضرت احمد بن موسی شاهچراغ علیه‌السلام",
@@ -490,13 +538,16 @@
    "eventId": "E0408",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0408"
   },
   {
    "title": "روز سلامتی روز جهانی بهداشت",
@@ -519,13 +570,16 @@
    "eventId": "E0252",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ فروردین ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0252"
   },
   {
    "title": "روز سلامتی روز جهانی بهداشت",
@@ -548,13 +602,16 @@
    "eventId": "E0094",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ آوریل ۲۰۰۵ — ۱۸ فروردین ۱۳۸۴",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2005-04-07",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0094"
   },
   {
    "title": "سالروز صدور فرمان حضرت امام خمینی (رحمةالله علیه) مبنی بر",
@@ -577,13 +634,16 @@
    "eventId": "E0438",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0438"
   },
   {
    "title": "ولادت حضرت امام رضا علیه‌السلام",
@@ -606,13 +666,16 @@
    "eventId": "E0485",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0485"
   },
   {
    "title": "روز ملی فناوری هستهای",
@@ -635,13 +698,16 @@
    "eventId": "E0301",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۰ فروردین ۱۳۸۶",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0301"
   },
   {
    "title": "شهادت امیر سپهبد علی صیاد شیرازی",
@@ -664,13 +730,16 @@
    "eventId": "E0036",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۲۱ فروردین ۱۳۸۵",
     "note": "وقوع",
     "gregorian": "2006-4-10",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0036"
   },
   {
    "title": "روز بزرگداشت عطار نیشابوری",
@@ -693,13 +762,16 @@
    "eventId": "E0183",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ فروردین ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0183"
   },
   {
    "title": "روز بزرگداشت سعدی",
@@ -722,13 +794,16 @@
    "eventId": "E0167",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ اردیبهشت ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0167"
   },
   {
    "title": "تأسیس سپاه پاسداران انقلاب اسلامی",
@@ -751,13 +826,16 @@
    "eventId": "E0016",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۲ اردیبهشت ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-4-22",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0016"
   },
   {
    "title": "شهادت حضرت امام محمد تقی علیه‌السلام «جوادالائمه»",
@@ -780,13 +858,16 @@
    "eventId": "E0454",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0454"
   },
   {
    "title": "روز ایمنی حمل و نقل",
@@ -809,13 +890,16 @@
    "eventId": "E0150",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ اردیبهشت ۱۳۹۷",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0150"
   },
   {
    "title": "روز ازدواج",
@@ -838,13 +922,16 @@
    "eventId": "E0405",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0405"
   },
   {
    "title": "سالروز ازدواج حضرت علی علیه‌السلام و حضرت فاطمه سلام الله علیها",
@@ -867,13 +954,16 @@
    "eventId": "E0437",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0437"
   },
   {
    "title": "روز شوراها",
@@ -896,13 +986,16 @@
    "eventId": "E0261",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۹ اردیبهشت ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0261"
   },
   {
    "title": "آغاز عملیات بیت‌المقدس",
@@ -925,13 +1018,16 @@
    "eventId": "E0014",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۰ اردیبهشت ۱۳۸۳",
     "note": "وقوع",
     "gregorian": "2004-4-29",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0014"
   },
   {
    "title": "روز جهانی کار و کارگر",
@@ -954,13 +1050,16 @@
    "eventId": "E0090",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ مه ۲۰۰۵ — ۱۱ اردیبهشت ۱۳۸۴",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2005-05-01",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0090"
   },
   {
    "title": "روز معلم ش (و مرتضی مطهری) هادت استاد",
@@ -983,13 +1082,16 @@
    "eventId": "E0025",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۲ اردیبهشت ۱۳۸۳",
     "note": "وقوع",
     "gregorian": "2004-5-1",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0025"
   },
   {
    "title": "شهادت مظلومانه زائران خانه خدا به دست مأموران آل سعود",
@@ -1012,13 +1114,16 @@
    "eventId": "E0460",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0460"
   },
   {
    "title": "شهادت حضرت امام محمد باقر علیه‌السلام",
@@ -1041,13 +1146,16 @@
    "eventId": "E0453",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0453"
   },
   {
    "title": "وفات آیت‌الله سیدمحمود طالقانی ق هادت حضرت امام محمد باقر علیه‌السلام اولین امام جمعه تهران",
@@ -1070,13 +1178,16 @@
    "eventId": "E0473",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0473"
   },
   {
    "title": "روز بزرگداشت شیخ صدوق",
@@ -1099,13 +1210,16 @@
    "eventId": "E0177",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۵ اردیبهشت ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0177"
   },
   {
    "title": "روز جهانی ماما",
@@ -1128,13 +1242,16 @@
    "eventId": "E0075",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۵ مه ۲۰۰۳ — ۱۵ اردیبهشت ۱۳۸۲",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2003-05-05",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0075"
   },
   {
    "title": "روز عرفه (روز نیایش",
@@ -1157,13 +1274,16 @@
    "eventId": "E0426",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0426"
   },
   {
    "title": "آغاز دهه امامت و ولایت",
@@ -1186,13 +1306,16 @@
    "eventId": "E0393",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0393"
   },
   {
    "title": "عید سعید قربان",
@@ -1215,13 +1338,16 @@
    "eventId": "E0465",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0465"
   },
   {
    "title": "روز بزرگداشت شیخ کلینی",
@@ -1244,13 +1370,16 @@
    "eventId": "E0180",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۹ اردیبهشت ۱۳۸۸",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0180"
   },
   {
    "title": "روز جهانی صلیب سرخ و هلال احمر",
@@ -1273,13 +1402,16 @@
    "eventId": "E0072",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ مه ۲۰۰۳ — ۱۸ اردیبهشت ۱۳۸۲",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2003-05-08",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0072"
   },
   {
    "title": "ولادت امام موسی کاظم علیه‌السلام 128",
@@ -1302,13 +1434,16 @@
    "eventId": "E0478",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0478"
   },
   {
    "title": "ولادت حضرت امام علی النقی الهادی علیه‌السلام",
@@ -1331,13 +1466,16 @@
    "eventId": "E0487",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0487"
   },
   {
    "title": "روز پاسداشت زبان فارسی",
@@ -1360,13 +1498,16 @@
    "eventId": "E0327",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ اردیبهشت ۱۳۹۷",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0327"
   },
   {
    "title": "عید سعید غدیر خم",
@@ -1389,13 +1530,16 @@
    "eventId": "E0463",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0463"
   },
   {
    "title": "روز جهانی خانواده",
@@ -1418,13 +1562,16 @@
    "eventId": "E0068",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۵ مه ۲۰۰۴ — ۲۶ اردیبهشت ۱۳۸۳",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2004-05-15",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0068"
   },
   {
    "title": "ولادت حضرت امام موسی کاظم علیه‌السلام",
@@ -1447,13 +1594,16 @@
    "eventId": "E0492",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0492"
   },
   {
    "title": "روز بزرگداشت حکیم عمر خیام",
@@ -1476,13 +1626,16 @@
    "eventId": "E0162",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۸ اردیبهشت ۱۳۸۷",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0162"
   },
   {
    "title": "روز جهانی ارتباطات",
@@ -1505,13 +1658,16 @@
    "eventId": "E0062",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۷ مه ۲۰۰۴ — ۲۸ اردیبهشت ۱۳۸۳",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2004-05-17",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0062"
   },
   {
    "title": "روز جهانی موزه و میراث فرهنگی",
@@ -1534,13 +1690,16 @@
    "eventId": "E0083",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ مه ۲۰۰۴ — ۲۹ اردیبهشت ۱۳۸۳",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2004-05-18",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0083"
   },
   {
    "title": "روز ملی جمعیت",
@@ -1563,13 +1722,16 @@
    "eventId": "E0297",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۰ اردیبهشت ۱۳۹۵",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0297"
   },
   {
    "title": "روز اهدای عضو، اهدای زندگی",
@@ -1592,13 +1754,16 @@
    "eventId": "E0149",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۱ اردیبهشت ۱۳۹۸",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0149"
   },
   {
    "title": "روز مباهله پیامبر اسلام صلی الله علیه و آله",
@@ -1621,13 +1786,16 @@
    "eventId": "E0428",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0428"
   },
   {
    "title": "روز بهرهوری-روز بزرگداشت ملاصدرا صدرالمتألهین",
@@ -1650,13 +1818,16 @@
    "eventId": "E0060",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ مه ۲۰۰۴ — ۱ خرداد ۱۳۸۳",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2004-05-21",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0060"
   },
   {
    "title": "روز جهانی توسعه فرهنگی",
@@ -1679,13 +1850,16 @@
    "eventId": "E0066",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ مه ۲۰۰۳ — ۳۱ اردیبهشت ۱۳۸۲",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2003-05-21",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0066"
   },
   {
    "title": "روز خانواده و تکریم بازنشستگان",
@@ -1708,13 +1882,16 @@
    "eventId": "E0420",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0420"
   },
   {
    "title": "میلاد حضرت عیسی مسیح علیه‌السلام",
@@ -1737,13 +1914,16 @@
    "eventId": "E0468",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0468"
   },
   {
    "title": "فتح خرمشهر در عملیات بیت‌المقدس",
@@ -1766,13 +1946,16 @@
    "eventId": "E0051",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۳ خرداد ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-5-24",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0051"
   },
   {
    "title": "خردادگان",
@@ -1795,13 +1978,16 @@
    "eventId": "E0003",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
     "note": "آیینِ سالانه، بدون تاریخِ ثبت",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0003"
   },
   {
    "title": "روز بزرگداشت محتشم کاشانی",
@@ -1824,13 +2010,16 @@
    "eventId": "E0412",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0412"
   },
   {
    "title": "روز شعر و ادبیات آیینی",
@@ -1853,13 +2042,16 @@
    "eventId": "E0424",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0424"
   },
   {
    "title": "روز امر به معروف و نهی از منکر",
@@ -1882,13 +2074,16 @@
    "eventId": "E0406",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0406"
   },
   {
    "title": "روز جهانی بدون دخانیات",
@@ -1911,13 +2106,16 @@
    "eventId": "E0064",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۱ مه ۲۰۰۳ — ۱۰ خرداد ۱۳۸۲",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2003-05-31",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0064"
   },
   {
    "title": "تاسوعای حسینی",
@@ -1940,13 +2138,16 @@
    "eventId": "E0398",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0398"
   },
   {
    "title": "عاشورای حسینی",
@@ -1969,13 +2170,16 @@
    "eventId": "E0462",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0462"
   },
   {
    "title": "قیام خونین 15 خرداد",
@@ -1998,13 +2202,16 @@
    "eventId": "E0053",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۵ خرداد ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-6-5",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0053"
   },
   {
    "title": "روز تجلیل از اسرا و مفقودان",
@@ -2027,13 +2234,16 @@
    "eventId": "E0413",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0413"
   },
   {
    "title": "روز جهانی محیط زیست",
@@ -2056,13 +2266,16 @@
    "eventId": "E0078",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۵ ژوئن ۲۰۰۴ — ۱۶ خرداد ۱۳۸۳",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2004-06-05",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0078"
   },
   {
    "title": "شهادت حضرت امام زین‌العابدین علیه‌السلام",
@@ -2085,13 +2298,16 @@
    "eventId": "E0449",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0449"
   },
   {
    "title": "روز صنایع دستی",
@@ -2114,13 +2330,16 @@
    "eventId": "E0263",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۰ خرداد ۱۳۹۴",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0263"
   },
   {
    "title": "شهادت آیت‌الله سعیدی به دست مأموران ستم‌شاهی پهلوی",
@@ -2143,13 +2362,16 @@
    "eventId": "E0031",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۲۰ خرداد ۱۳۸۳",
     "note": "وقوع",
     "gregorian": "2004-6-9",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0031"
   },
   {
    "title": "تغییر قبله مسلمین از بیت‌المقدس به مکه معظمه",
@@ -2172,13 +2394,16 @@
    "eventId": "E0401",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0401"
   },
   {
    "title": "روز شهدای اقتدار و اتحاد ملی ایران",
@@ -2201,13 +2426,16 @@
    "eventId": "E0255",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۳ خرداد ۱۴۰۵",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0255"
   },
   {
    "title": "شهادت سربازان دلیر اسلام: بخارایی، امانی، صفار هرندی و نیک‌نژاد",
@@ -2230,13 +2458,16 @@
    "eventId": "E0041",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۲۶ خرداد ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-6-16",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0041"
   },
   {
    "title": "روز جهانی بیابان‌زدایی",
@@ -2259,13 +2490,16 @@
    "eventId": "E0065",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۷ ژوئن ۲۰۰۴ — ۲۸ خرداد ۱۳۸۳",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2004-06-17",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0065"
   },
   {
    "title": "درگذشت دکتر علی شریعتی",
@@ -2288,13 +2522,16 @@
    "eventId": "E0023",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۲۹ خرداد ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-6-19",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0023"
   },
   {
    "title": "شهادت آیت‌الله امام زینالعابدین علیه‌السلام 95 به روایتی",
@@ -2317,13 +2554,16 @@
    "eventId": "E0442",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0442"
   },
   {
    "title": "شهادت حضرت امام زین‌العابدین علیه‌السلام",
@@ -2346,13 +2586,16 @@
    "eventId": "E0450",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0450"
   },
   {
    "title": "شهادت زائران حرم رضوی (ع) به دست ایادی آمریکا",
@@ -2375,13 +2618,16 @@
    "eventId": "E0040",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۳۰ خرداد ۱۳۸۹",
     "note": "وقوع",
     "gregorian": "2010-6-20",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0040"
   },
   {
    "title": "یادروز قیام مردم سیستان به خونخواهی شهدای کربلا",
@@ -2404,13 +2650,16 @@
    "eventId": "E0503",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0503"
   },
   {
    "title": "شهادت دکتر مصطفی چمران",
@@ -2433,13 +2682,16 @@
    "eventId": "E0039",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۳۱ خرداد ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-6-21",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0039"
   },
   {
    "title": "روز جهانی مبارزه با مواد مخدر",
@@ -2462,13 +2714,16 @@
    "eventId": "E0077",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۶ ژوئن ۲۰۰۳ — ۵ تیر ۱۳۸۲",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2003-06-26",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0077"
   },
   {
    "title": "شهادت مظلومانه آیت‌الله دکتر بهشتی و ۷۲ تن از یاران امام خمینی (ره) با انفجار بمب به دست منافقان در دفتر مرکزی حزب جمهوری اسلامی",
@@ -2491,13 +2746,16 @@
    "eventId": "E0043",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۷ تیر ۱۳۸۵",
     "note": "وقوع",
     "gregorian": "2006-6-28",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0043"
   },
   {
    "title": "ولادت حضرت امام محمدباقر علیه‌السلام",
@@ -2520,13 +2778,16 @@
    "eventId": "E0490",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0490"
   },
   {
    "title": "روز صنعت و معدن",
@@ -2549,13 +2810,16 @@
    "eventId": "E0265",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۰ تیر ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0265"
   },
   {
    "title": "روز بزرگداشت سلمان فارسی",
@@ -2578,13 +2842,16 @@
    "eventId": "E0411",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0411"
   },
   {
    "title": "شهادت آیت‌الله صدوقی چهارمین شهید محراب به دست منافقین",
@@ -2607,13 +2874,16 @@
    "eventId": "E0033",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۱ تیر ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-7-2",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0033"
   },
   {
    "title": "شهادت حضرت امام حسن مجتبی علیه‌السلام",
@@ -2636,13 +2906,16 @@
    "eventId": "E0446",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0446"
   },
   {
    "title": "شهادت چهارمین شهید محراب، آیت‌الله صدوقی به دست منافقان",
@@ -2665,13 +2938,16 @@
    "eventId": "E0048",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۱ تیر ۱۴۰۴",
     "note": "وقوع",
     "gregorian": "2025-7-2",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0048"
   },
   {
    "title": "ولادت حضرت امام موسی کاظم علیه‌السلام",
@@ -2694,13 +2970,16 @@
    "eventId": "E0493",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0493"
   },
   {
    "title": "حمله ددمنشانه ناوگان آمریکای جنایتکار به اسلامی ایران",
@@ -2723,13 +3002,16 @@
    "eventId": "E0022",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۲ تیر ۱۴۰۴",
     "note": "وقوع",
     "gregorian": "2025-7-3",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0022"
   },
   {
    "title": "تیرگان",
@@ -2752,13 +3034,16 @@
    "eventId": "E0002",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
     "note": "آیینِ سالانه، بدون تاریخِ ثبت",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0002"
   },
   {
    "title": "وفات آیت‌الله سیدمحمود طالقانی اولین امام جمعه تهران",
@@ -2781,13 +3066,16 @@
    "eventId": "E0472",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0472"
   },
   {
    "title": "روز ادبیات کودکان و نوجوانان",
@@ -2810,13 +3098,16 @@
    "eventId": "E0134",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ تیر ۱۳۹۵",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0134"
   },
   {
    "title": "روز بزرگداشت خوارزمی",
@@ -2839,13 +3130,16 @@
    "eventId": "E0165",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۲ تیر ۱۴۰۳",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0165"
   },
   {
    "title": "اربعین حسینی",
@@ -2868,42 +3162,16 @@
    "eventId": "E0396",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
-  },
-  {
-   "title": "شهادت محمدحسین فهمیده بسیجی 13 ساله",
-   "solar": [
-    1407,
-    4,
-    24
-   ],
-   "gregorian": [
-    2028,
-    7,
-    14
-   ],
-   "lunar": [],
-   "holiday": true,
-   "approx": true,
-   "category": "religious",
-   "source": "rule",
-   "year": 1407,
-   "eventId": "E0459",
-   "recurrenceType": "C",
-   "verificationStatus": "temporary",
-   "origin": {
-    "kind": "tradition",
-    "label": "سنت قمری",
-    "note": "مناسبتِ مذهبی",
-    "gregorian": "",
-    "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0396"
   },
   {
    "title": "روز بهزیستی و تأمین اجتماعی",
@@ -2926,13 +3194,16 @@
    "eventId": "E0202",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ تیر ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0202"
   },
   {
    "title": "روز وقف",
@@ -2955,13 +3226,16 @@
    "eventId": "E0432",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0432"
   },
   {
    "title": "رحلت حضرت رسول اکرم صلی الله علیه و آله",
@@ -2984,13 +3258,16 @@
    "eventId": "E0403",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0403"
   },
   {
    "title": "شهادت حضرت امام حسن مجتبی علیه‌السلام",
@@ -3013,13 +3290,16 @@
    "eventId": "E0447",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0447"
   },
   {
    "title": "شهادت حضرت امام رضا علیه‌السلام",
@@ -3042,13 +3322,16 @@
    "eventId": "E0448",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0448"
   },
   {
    "title": "هجرت حضرت رسول اکرم صلی الله علیه و آله از مکه به مدینه",
@@ -3071,13 +3354,16 @@
    "eventId": "E0469",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0469"
   },
   {
    "title": "روز بزرگداشت شیخ صفی‌الدین اردبیلی",
@@ -3100,13 +3386,16 @@
    "eventId": "E0178",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۴ مرداد ۱۴۰۱",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0178"
   },
   {
    "title": "سالروز عملیات افتخارآفرین مرصاد",
@@ -3129,13 +3418,16 @@
    "eventId": "E0028",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۵ مرداد ۱۳۸۷",
     "note": "وقوع",
     "gregorian": "2008-7-26",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0028"
   },
   {
    "title": "روز بزرگداشت شیخ شهاب‌الدین سهروردی (شیخ اشراق",
@@ -3158,13 +3450,16 @@
    "eventId": "E0176",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ مرداد ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0176"
   },
   {
    "title": "روز اهدای خون",
@@ -3187,13 +3482,16 @@
    "eventId": "E0148",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۹ مرداد ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0148"
   },
   {
    "title": "آغاز امامت حضرت ولی‌عصر (عج",
@@ -3216,13 +3514,16 @@
    "eventId": "E0391",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0391"
   },
   {
    "title": "شهادت حضرت امام حسن عسکری علیه‌السلام",
@@ -3245,13 +3546,16 @@
    "eventId": "E0445",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0445"
   },
   {
    "title": "روز جهانی شیر مادر",
@@ -3274,13 +3578,16 @@
    "eventId": "E0071",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ اوت ۲۰۰۳ — ۱۰ مرداد ۱۳۸۲",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2003-08-01",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0071"
   },
   {
    "title": "آغاز هفته وحدت",
@@ -3303,13 +3610,16 @@
    "eventId": "E0395",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0395"
   },
   {
    "title": "صدور فرمان مشروطیت",
@@ -3332,13 +3642,16 @@
    "eventId": "E0050",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۴ مرداد ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-8-5",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0050"
   },
   {
    "title": "ولادت حضرت رسول اکرم صلی الله علیه و آله به روایت اهل سنت (53 سال قبل از هجرت",
@@ -3361,13 +3674,16 @@
    "eventId": "E0495",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0495"
   },
   {
    "title": "تشکیل جهاد دانشگاهی",
@@ -3390,13 +3706,16 @@
    "eventId": "E0018",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۶ مرداد ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-8-7",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0018"
   },
   {
    "title": "روز بزرگداشت شهدای مدافع حرم",
@@ -3419,13 +3738,16 @@
    "eventId": "E0173",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ مرداد ۱۴۰۰",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0173"
   },
   {
    "title": "روز وقف",
@@ -3448,13 +3770,16 @@
    "eventId": "E0431",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0431"
   },
   {
    "title": "روز اخلاق و مهرورزی",
@@ -3477,13 +3802,16 @@
    "eventId": "E0404",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0404"
   },
   {
    "title": "ولادت حضرت امام جعفر صادق علیه‌السلام مؤسس مذهب جعفری 83",
@@ -3506,13 +3834,16 @@
    "eventId": "E0480",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0480"
   },
   {
    "title": "ولادت حضرت رسول اکرم صلی الله علیه و آله (53 سال قبل از هجرت",
@@ -3535,13 +3866,16 @@
    "eventId": "E0494",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0494"
   },
   {
    "title": "روز حمایت از صنایع کوچک",
@@ -3564,13 +3898,16 @@
    "eventId": "E0234",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ مرداد ۱۳۹۴",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0234"
   },
   {
    "title": "روز تشکل‌ها و مشارکت‌های اجتماعی",
@@ -3593,13 +3930,16 @@
    "eventId": "E0213",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۲ مرداد ۱۳۹۹",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0213"
   },
   {
    "title": "روز مقاومت اسلامی",
@@ -3622,13 +3962,16 @@
    "eventId": "E0293",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۳ مرداد ۱۳۸۸",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0293"
   },
   {
    "title": "کودتای آمریکا برای بازگرداندن شاه",
@@ -3651,13 +3994,16 @@
    "eventId": "E0057",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۲۸ مرداد ۱۳۸۵",
     "note": "وقوع",
     "gregorian": "2006-8-19",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0057"
   },
   {
    "title": "روز بزرگداشت علامه مجلسی",
@@ -3680,13 +4026,16 @@
    "eventId": "E0186",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۰ مرداد ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0186"
   },
   {
    "title": "روز جهانی مساجد",
@@ -3709,13 +4058,16 @@
    "eventId": "E0079",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ اوت ۲۰۰۴ — ۳۱ مرداد ۱۳۸۳",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2004-08-21",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0079"
   },
   {
    "title": "روز جهانی مسجد",
@@ -3738,13 +4090,16 @@
    "eventId": "E0080",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ اوت ۲۰۰۸ — ۳۱ مرداد ۱۳۸۷",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2008-08-21",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0080"
   },
   {
    "title": "روز بزرگداشت ابوعلی سینا",
@@ -3767,13 +4122,16 @@
    "eventId": "E0156",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ شهریور ۱۳۹۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0156"
   },
   {
    "title": "روز کارمند",
@@ -3796,13 +4154,16 @@
    "eventId": "E0335",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۴ شهریور ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0335"
   },
   {
    "title": "روز کشتی",
@@ -3825,13 +4186,16 @@
    "eventId": "E0338",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۵ شهریور ۱۳۹۹",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0338"
   },
   {
    "title": "ولادت حضرت عبدالعظیم حسنی علیه‌السلام",
@@ -3854,13 +4218,16 @@
    "eventId": "E0497",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0497"
   },
   {
    "title": "ولادت حضرت امام حسن عسکری علیه‌السلام",
@@ -3883,13 +4250,16 @@
    "eventId": "E0482",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0482"
   },
   {
    "title": "وفات حضرت معصومه سلام الله علیها",
@@ -3912,13 +4282,16 @@
    "eventId": "E0477",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0477"
   },
   {
    "title": "روز تعاون",
@@ -3941,13 +4314,16 @@
    "eventId": "E0215",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۳ شهریور ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0215"
   },
   {
    "title": "شهادت آیت‌الله قدوسی و سرتیپ وحید دستجردی",
@@ -3970,13 +4346,16 @@
    "eventId": "E0035",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۴ شهریور ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-9-5",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0035"
   },
   {
    "title": "قیام 17 شهریور و کشتار جمعی از مردم به دست مأموران ستم‌شاهی پهلوی",
@@ -3999,13 +4378,16 @@
    "eventId": "E0052",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۷ شهریور ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-9-8",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0052"
   },
   {
    "title": "وفات آیت‌الله سیدمحمود طالقانی اولین امام جمعه تهران",
@@ -4028,13 +4410,16 @@
    "eventId": "E0055",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۹ شهریور ۱۳۸۳",
     "note": "وقوع",
     "gregorian": "2004-9-9",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0055"
   },
   {
    "title": "شهادت دومین شهید محراب آیت‌الله مدنی به دست منافقان",
@@ -4057,13 +4442,16 @@
    "eventId": "E0037",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۲۰ شهریور ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-9-11",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0037"
   },
   {
    "title": "روز سینما",
@@ -4086,13 +4474,16 @@
    "eventId": "E0253",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ شهریور ۱۳۸۴",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0253"
   },
   {
    "title": "آغاز جنگ تحمیلی",
@@ -4115,13 +4506,16 @@
    "eventId": "E0013",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۳۱ شهریور ۱۳۸۸",
     "note": "وقوع",
     "gregorian": "2009-9-22",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0013"
   },
   {
    "title": "روز بزرگداشت شهدای منا",
@@ -4144,13 +4538,16 @@
    "eventId": "E0174",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲ مهر ۱۴۰۳",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0174"
   },
   {
    "title": "روز سرباز",
@@ -4173,13 +4570,16 @@
    "eventId": "E0250",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۴ مهر ۱۴۰۱",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0250"
   },
   {
    "title": "روز پرستار",
@@ -4202,13 +4602,16 @@
    "eventId": "E0435",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0435"
   },
   {
    "title": "ولادت حضرت زینب سلام الله علیها",
@@ -4231,13 +4634,16 @@
    "eventId": "E0496",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0496"
   },
   {
    "title": "شکست حصر آبادان در عملیات ثامن‌الائمه علیه‌السلام",
@@ -4260,13 +4666,16 @@
    "eventId": "E0049",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۵ مهر ۱۴۰۳",
     "note": "وقوع",
     "gregorian": "2024-9-26",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0049"
   },
   {
    "title": "روز جهانی جهانگردی",
@@ -4289,13 +4698,16 @@
    "eventId": "E0067",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۷ سپتامبر ۲۰۰۵ — ۵ مهر ۱۳۸۴",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2005-09-27",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0067"
   },
   {
    "title": "شهادت سرداران اسلام: فلاحی، فکوری، نامجو، کلاهدوز و جهان‌آرا",
@@ -4318,13 +4730,16 @@
    "eventId": "E0042",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۷ مهر ۱۴۰۳",
     "note": "وقوع",
     "gregorian": "2024-9-28",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0042"
   },
   {
    "title": "روز بزرگداشت مولوی",
@@ -4347,13 +4762,16 @@
    "eventId": "E0193",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ مهر ۱۳۸۵",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0193"
   },
   {
    "title": "روز جهانی دریانوردی",
@@ -4376,13 +4794,16 @@
    "eventId": "E0069",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۰ سپتامبر ۲۰۰۳ — ۸ مهر ۱۳۸۲",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2003-09-30",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0069"
   },
   {
    "title": "روز جهانی ناشنوایان",
@@ -4405,13 +4826,16 @@
    "eventId": "E0086",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳۰ سپتامبر ۲۰۰۸ — ۹ مهر ۱۳۸۷",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2008-09-30",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0086"
   },
   {
    "title": "روز جهانی سالمندان",
@@ -4434,13 +4858,16 @@
    "eventId": "E0070",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ اکتبر ۲۰۰۶ — ۹ مهر ۱۳۸۵",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2006-10-01",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0070"
   },
   {
    "title": "روز ضربت خوردن حضرت علی علیه‌السلام 40",
@@ -4463,13 +4890,16 @@
    "eventId": "E0095",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ اکتبر ۲۰۰۷ — ۹ مهر ۱۳۸۶",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2007-10-01",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0095"
   },
   {
    "title": "روز نخبگان",
@@ -4492,13 +4922,16 @@
    "eventId": "E0310",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۰ مهر ۱۴۰۴",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0310"
   },
   {
    "title": "شهادت آیت‌الله به روایتی سلام الله علیها 11",
@@ -4521,13 +4954,16 @@
    "eventId": "E0443",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0443"
   },
   {
    "title": "شهادت حضرت فاطمه زهرا سلام الله علیها",
@@ -4550,13 +4986,16 @@
    "eventId": "E0457",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0457"
   },
   {
    "title": "روز روستا",
@@ -4579,13 +5018,16 @@
    "eventId": "E0093",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ اکتبر ۲۰۲۷ — ۱۵ مهر ۱۴۰۶",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2027-10-07",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0093"
   },
   {
    "title": "مهرگان",
@@ -4608,13 +5050,16 @@
    "eventId": "E0011",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
     "note": "آیینِ سالانه، بدون تاریخِ ثبت",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0011"
   },
   {
    "title": "روز جهانی کودک",
@@ -4637,13 +5082,16 @@
    "eventId": "E0091",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۸ اکتبر ۲۰۰۳ — ۱۶ مهر ۱۳۸۲",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2003-10-08",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0091"
   },
   {
    "title": "روز جهانی پست",
@@ -4666,13 +5114,16 @@
    "eventId": "E0089",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۹ اکتبر ۲۰۰۳ — ۱۷ مهر ۱۳۸۲",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2003-10-09",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0089"
   },
   {
    "title": "روز استاندارد و کیفیت روز جهانی استاندارد",
@@ -4695,13 +5146,16 @@
    "eventId": "E0059",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ اکتبر ۲۰۰۳ — ۲۲ مهر ۱۳۸۲",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2003-10-14",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0059"
   },
   {
    "title": "روز جهانی استاندارد",
@@ -4724,13 +5178,16 @@
    "eventId": "E0063",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ اکتبر ۲۰۰۵ — ۲۲ مهر ۱۳۸۴",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2005-10-14",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0063"
   },
   {
    "title": "شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان",
@@ -4753,13 +5210,16 @@
    "eventId": "E0047",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۲۳ مهر ۱۴۰۵",
     "note": "وقوع",
     "gregorian": "2026-10-15",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0047"
   },
   {
    "title": "روز جهانی نابینایان (عصای سفید",
@@ -4782,42 +5242,16 @@
    "eventId": "E0085",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۲ — ۲۴ مهر ۱۳۹۱",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2012-10-15",
     "source": "دادهٔ PDF"
-   }
-  },
-  {
-   "title": "روز عرفه (روز نیایش",
-   "solar": [
-    1407,
-    7,
-    24
-   ],
-   "gregorian": [
-    2028,
-    10,
-    15
-   ],
-   "lunar": [],
-   "holiday": false,
-   "approx": false,
-   "category": "international",
-   "source": "rule",
-   "year": 1407,
-   "eventId": "E0096",
-   "recurrenceType": "B",
-   "verificationStatus": "temporary",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۳ — ۲۳ مهر ۱۳۹۲",
-    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
-    "gregorian": "2013-10-15",
-    "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0085"
   },
   {
    "title": "روز ملی پارالمپیک",
@@ -4840,13 +5274,16 @@
    "eventId": "E0304",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۴ مهر ۱۳۹۴",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0304"
   },
   {
    "title": "روز جهانی غذا",
@@ -4869,13 +5306,16 @@
    "eventId": "E0074",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۶ اکتبر ۲۰۰۳ — ۲۴ مهر ۱۳۸۲",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2003-10-16",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0074"
   },
   {
    "title": "روز نسل‌کشی کودکان و زنان فلسطینی",
@@ -4898,13 +5338,16 @@
    "eventId": "E0311",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ مهر ۱۴۰۴",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0311"
   },
   {
    "title": "روز تربیت بدنی و ورزش",
@@ -4927,13 +5370,16 @@
    "eventId": "E0210",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۶ مهر ۱۳۸۳",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0210"
   },
   {
    "title": "روز صادرات",
@@ -4956,13 +5402,16 @@
    "eventId": "E0262",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۹ مهر ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0262"
   },
   {
    "title": "روز بزرگداشت رودکی",
@@ -4985,13 +5434,16 @@
    "eventId": "E0410",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0410"
   },
   {
    "title": "ولادت حضرت عیسی مسیح علیه‌السلام",
@@ -5014,13 +5466,16 @@
    "eventId": "E0499",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0499"
   },
   {
    "title": "روز بزرگداشت ابوالفضل بیهقی",
@@ -5043,13 +5498,16 @@
    "eventId": "E0154",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ آبان ۱۴۰۱",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0154"
   },
   {
    "title": "شهادت حضرت فاطمه زهرا سلام الله علیها",
@@ -5072,13 +5530,16 @@
    "eventId": "E0456",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0456"
   },
   {
    "title": "شهادت آیت‌الله قاضی طباطبایی اولین شهید محراب به دست منافقین",
@@ -5101,13 +5562,16 @@
    "eventId": "E0034",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۰ آبان ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-11-1",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0034"
   },
   {
    "title": "روز تکریم مادران و همسران شهدا",
@@ -5130,13 +5594,16 @@
    "eventId": "E0416",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0416"
   },
   {
    "title": "وفات حضرت ام‌البنین سلام الله علیها",
@@ -5159,13 +5626,16 @@
    "eventId": "E0474",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0474"
   },
   {
    "title": "روز فرهنگ عمومی",
@@ -5188,13 +5658,16 @@
    "eventId": "E0274",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ آبان ۱۳۸۷",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0274"
   },
   {
    "title": "تولد حضرت امام خمینی (ره)، رهبر کبیر انقلاب اسلامی",
@@ -5217,13 +5690,16 @@
    "eventId": "E0402",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0402"
   },
   {
    "title": "روز زن",
@@ -5246,13 +5722,16 @@
    "eventId": "E0422",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0422"
   },
   {
    "title": "ولادت حضرت فاطمه زهرا سلام الله علیها (هشتم قبل از هجرت",
@@ -5275,13 +5754,16 @@
    "eventId": "E0500",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0500"
   },
   {
    "title": "روز جهانی علم در خدمت صلح و توسعه",
@@ -5304,13 +5786,16 @@
    "eventId": "E0073",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۰ نوامبر ۲۰۱۵ — ۱۹ آبان ۱۳۹۴",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2015-11-10",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0073"
   },
   {
    "title": "روز ترویج زکات",
@@ -5333,13 +5818,16 @@
    "eventId": "E0415",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0415"
   },
   {
    "title": "روز نهج‌البلاغه",
@@ -5362,13 +5850,16 @@
    "eventId": "E0430",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0430"
   },
   {
    "title": "ولادت حضرت امام محمد باقر علیه‌السلام",
@@ -5391,13 +5882,16 @@
    "eventId": "E0489",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0489"
   },
   {
    "title": "شهادت حضرت امام علی النقی الهادی علیه‌السلام",
@@ -5420,13 +5914,16 @@
    "eventId": "E0451",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0451"
   },
   {
    "title": "شهادت سربازان دلیر",
@@ -5449,13 +5946,16 @@
    "eventId": "E0458",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0458"
   },
   {
    "title": "تشکیل بسیج مستضعفان به فرمان حضرت امام خمینی رحمةالله علیه",
@@ -5478,13 +5978,16 @@
    "eventId": "E0017",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۴ آذر ۱۴۰۴",
     "note": "وقوع",
     "gregorian": "2025-11-25",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0017"
   },
   {
    "title": "روز نیروی دریایی",
@@ -5507,13 +6010,16 @@
    "eventId": "E0318",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ آذر ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0318"
   },
   {
    "title": "روز پسر",
@@ -5536,13 +6042,16 @@
    "eventId": "E0436",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0436"
   },
   {
    "title": "ولادت حضرت امام محمدتقی علیه‌السلام «جوادالائمه»",
@@ -5565,13 +6074,16 @@
    "eventId": "E0491",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0491"
   },
   {
    "title": "شهادت آیت‌الله سید حسن مدرس",
@@ -5594,13 +6106,16 @@
    "eventId": "E0032",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۰ آذر ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-12-1",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0032"
   },
   {
    "title": "آغاز ایام البیض (اعتکاف",
@@ -5623,13 +6138,16 @@
    "eventId": "E0392",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0392"
   },
   {
    "title": "روز جهانی مبارزه با ایدز",
@@ -5652,13 +6170,16 @@
    "eventId": "E0076",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ دسامبر ۲۰۰۳ — ۱۰ آذر ۱۳۸۲",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2003-12-01",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0076"
   },
   {
    "title": "روز پدر",
@@ -5681,13 +6202,16 @@
    "eventId": "E0434",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0434"
   },
   {
    "title": "شهادت میرزا کوچک خان جنگلی",
@@ -5710,13 +6234,16 @@
    "eventId": "E0044",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۱ آذر ۱۴۰۳",
     "note": "وقوع",
     "gregorian": "2024-12-1",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0044"
   },
   {
    "title": "ولادت حضرت امام علی علیه‌السلام (23 سال قبل از هجرت",
@@ -5739,13 +6266,16 @@
    "eventId": "E0488",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0488"
   },
   {
    "title": "ارتحال حضرت زینب سلام الله علیها",
@@ -5768,13 +6298,16 @@
    "eventId": "E0397",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0397"
   },
   {
    "title": "تغییر قبله مسلمین از بیت‌المقدس به مکه معظمه",
@@ -5797,13 +6330,16 @@
    "eventId": "E0400",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0400"
   },
   {
    "title": "روز جهانی معلولان",
@@ -5826,13 +6362,16 @@
    "eventId": "E0081",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳ دسامبر ۲۰۱۶ — ۱۳ آذر ۱۳۹۵",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2016-12-03",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0081"
   },
   {
    "title": "وفات حضرت زینب سلام الله علیها 62",
@@ -5855,13 +6394,16 @@
    "eventId": "E0476",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0476"
   },
   {
    "title": "روز دانشجو",
@@ -5884,13 +6426,16 @@
    "eventId": "E0241",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۶ آذر ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0241"
   },
   {
    "title": "روز جهانی هواپیمایی",
@@ -5913,13 +6458,16 @@
    "eventId": "E0088",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۷ دسامبر ۲۰۰۳ — ۱۶ آذر ۱۳۸۲",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2003-12-07",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0088"
   },
   {
    "title": "تشکیل شورای عالی انقلاب فرهنگی به فرمان حضرت امام خمینی (ره",
@@ -5942,13 +6490,16 @@
    "eventId": "E0020",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۹ آذر ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-12-10",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0020"
   },
   {
    "title": "شهادت آیت‌الله دستغیب سومین شهید محراب به دست منافقان",
@@ -5971,13 +6522,16 @@
    "eventId": "E0029",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۲۰ آذر ۱۴۰۳",
     "note": "وقوع",
     "gregorian": "2024-12-10",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0029"
   },
   {
    "title": "شهادت حضرت امام موسی کاظم علیه‌السلام",
@@ -6000,13 +6554,16 @@
    "eventId": "E0455",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0455"
   },
   {
    "title": "روز پژوهش",
@@ -6029,13 +6586,16 @@
    "eventId": "E0027",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۲۵ آذر ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-12-16",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0027"
   },
   {
    "title": "مبعث حضرت رسول اکرم صلی الله علیه و آله (13 سال قبل از هجرت",
@@ -6058,13 +6618,16 @@
    "eventId": "E0467",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0467"
   },
   {
    "title": "شهادت آیت‌الله دکتر محمد مفتح",
@@ -6087,13 +6650,16 @@
    "eventId": "E0030",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۲۷ آذر ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2003-12-18",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0030"
   },
   {
    "title": "شب یلدا و ترویج فرهنگ میهمانی و پیوند با خویشان",
@@ -6116,13 +6682,16 @@
    "eventId": "E0006",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
     "note": "آیینِ سالانه، بدون تاریخِ ثبت",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0006"
   },
   {
    "title": "یلدا شب چله",
@@ -6145,13 +6714,16 @@
    "eventId": "E0012",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
     "note": "آیینِ سالانه، بدون تاریخِ ثبت",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0012"
   },
   {
    "title": "روز پاسدار",
@@ -6174,13 +6746,16 @@
    "eventId": "E0433",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0433"
   },
   {
    "title": "ولادت حضرت امام حسین علیه‌السلام",
@@ -6203,13 +6778,16 @@
    "eventId": "E0484",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0484"
   },
   {
    "title": "روز جانباز",
@@ -6232,13 +6810,16 @@
    "eventId": "E0417",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0417"
   },
   {
    "title": "ولادت حضرت ابوالفضل العباس علیه‌السلام",
@@ -6261,13 +6842,16 @@
    "eventId": "E0479",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0479"
   },
   {
    "title": "روز صحیفه سجادیه",
@@ -6290,13 +6874,16 @@
    "eventId": "E0425",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0425"
   },
   {
    "title": "ولادت حضرت امام زین‌العابدین علیه‌السلام",
@@ -6319,13 +6906,16 @@
    "eventId": "E0486",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0486"
   },
   {
    "title": "روز ایمنی در برابر زلزله و کاهش اثرات بلایای طبیعی",
@@ -6348,13 +6938,16 @@
    "eventId": "E0024",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۵ دی ۱۳۹۴",
     "note": "وقوع",
     "gregorian": "2015-12-26",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0024"
   },
   {
    "title": "ولادت حضرت عیسی مسیح علیه‌السلام",
@@ -6377,13 +6970,16 @@
    "eventId": "E0097",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ دسامبر ۲۰۰۱ — ۴ دی ۱۳۸۰",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2001-12-25",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0097"
   },
   {
    "title": "تشکیل نهضت سوادآموزی به فرمان حضرت امام خمینی رحمةالله علیه",
@@ -6406,13 +7002,16 @@
    "eventId": "E0021",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۷ دی ۱۴۰۳",
     "note": "وقوع",
     "gregorian": "2024-12-27",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0021"
   },
   {
    "title": "روز بصیرت و میثاق امت با ولایت",
@@ -6435,13 +7034,16 @@
    "eventId": "E0198",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۹ دی ۱۳۹۰",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0198"
   },
   {
    "title": "روز جوان",
@@ -6464,13 +7066,16 @@
    "eventId": "E0419",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0419"
   },
   {
    "title": "ولادت حضرت علی اکبر علیه‌السلام",
@@ -6493,13 +7098,16 @@
    "eventId": "E0498",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0498"
   },
   {
    "title": "آغاز سال میلادی",
@@ -6522,13 +7130,16 @@
    "eventId": "E0058",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱ ژانویه ۱۹۹۹ — ۱۱ دی ۱۳۷۷",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "1999-01-01",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0058"
   },
   {
    "title": "روز جهانی مستضعفان",
@@ -6551,13 +7162,16 @@
    "eventId": "E0418",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0418"
   },
   {
    "title": "روز سربازان گمنام امام زمان (عج",
@@ -6580,13 +7194,16 @@
    "eventId": "E0423",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0423"
   },
   {
    "title": "ولادت حضرت قائم عجل‌الله‌تعالی‌فرجه",
@@ -6609,13 +7226,16 @@
    "eventId": "E0501",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0501"
   },
   {
    "title": "روز جهانی مقاومت",
@@ -6638,13 +7258,16 @@
    "eventId": "E0082",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۳ ژانویه ۲۰۲۱ — ۱۴ دی ۱۳۹۹",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2021-01-03",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0082"
   },
   {
    "title": "وفات آیت‌الله سید محمود طالقانی اولین امام جمعه تهران",
@@ -6667,13 +7290,16 @@
    "eventId": "E0471",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0471"
   },
   {
    "title": "قیام خونین مردم قم",
@@ -6696,13 +7322,16 @@
    "eventId": "E0054",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۹ دی ۱۳۸۴",
     "note": "وقوع",
     "gregorian": "2006-1-9",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0054"
   },
   {
    "title": "شهادت میرزاتقی‌خان امیرکبیر",
@@ -6725,13 +7354,16 @@
    "eventId": "E0045",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۲۰ دی ۱۳۹۵",
     "note": "وقوع",
     "gregorian": "2017-1-9",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0045"
   },
   {
    "title": "تشکیل شورای انقلاب به فرمان حضرت امام خمینی رحمةالله علیه",
@@ -6754,13 +7386,16 @@
    "eventId": "E0019",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۲۲ دی ۱۳۸۲",
     "note": "وقوع",
     "gregorian": "2004-1-12",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0019"
   },
   {
    "title": "روز تاریخ‌نگاری انقلاب اسلامی",
@@ -6783,13 +7418,16 @@
    "eventId": "E0207",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ دی ۱۴۰۵",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0207"
   },
   {
    "title": "وفات آیت‌الله سید محمود طالقانی اولین امام جمعه تهران",
@@ -6812,13 +7450,16 @@
    "eventId": "E0470",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0470"
   },
   {
    "title": "شهادت نواب صفوی، طهماسبی، برادران واحدی و ذوالقدر از فداییان اسلام",
@@ -6841,13 +7482,16 @@
    "eventId": "E0046",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۲۷ دی ۱۳۸۷",
     "note": "وقوع",
     "gregorian": "2009-1-16",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0046"
   },
   {
    "title": "روز جهانی گمرک",
@@ -6870,13 +7514,16 @@
    "eventId": "E0092",
    "recurrenceType": "B",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۶ ژانویه ۲۰۰۳ — ۶ بهمن ۱۳۸۱",
     "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
     "gregorian": "2003-01-26",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0092"
   },
   {
    "title": "وفات حضرت خدیجه سلام الله علیها (3 سال قبل از هجرت",
@@ -6899,13 +7546,16 @@
    "eventId": "E0475",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0475"
   },
   {
    "title": "سده",
@@ -6928,13 +7578,16 @@
    "eventId": "E0004",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "tradition",
     "label": "سنتی",
     "note": "آیینِ سالانه، بدون تاریخِ ثبت",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0004"
   },
   {
    "title": "بازگشت حضرت امام خمینی (رحمةالله علیه) به ایران",
@@ -6957,13 +7610,16 @@
    "eventId": "E0015",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
     "label": "۱۲ بهمن ۱۳۸۸",
     "note": "وقوع",
     "gregorian": "2010-2-1",
     "source": "دادهٔ PDF"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0015"
   },
   {
    "title": "روز اکرام و تکریم خیرین",
@@ -6986,13 +7642,16 @@
    "eventId": "E0407",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0407"
   },
   {
    "title": "ولادت حضرت امام حسن مجتبی علیه‌السلام",
@@ -7015,13 +7674,16 @@
    "eventId": "E0483",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0483"
   },
   {
    "title": "روز فناوری فضایی",
@@ -7044,13 +7706,16 @@
    "eventId": "E0276",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ بهمن ۱۳۸۹",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0276"
   },
   {
    "title": "شب قدر",
@@ -7073,13 +7738,16 @@
    "eventId": "E0439",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0439"
   },
   {
    "title": "روز نهج‌البلاغه",
@@ -7102,13 +7770,16 @@
    "eventId": "E0429",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0429"
   },
   {
    "title": "ضربت خوردن حضرت امام علی علیه‌السلام",
@@ -7131,13 +7802,16 @@
    "eventId": "E0461",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0461"
   },
   {
    "title": "شب قدر",
@@ -7160,13 +7834,16 @@
    "eventId": "E0440",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0440"
   },
   {
    "title": "شهادت حضرت امام علی علیه‌السلام",
@@ -7189,13 +7866,16 @@
    "eventId": "E0452",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0452"
   },
   {
    "title": "روز نیروی هوایی",
@@ -7218,13 +7898,16 @@
    "eventId": "E0319",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۹ بهمن ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0319"
   },
   {
    "title": "شب قدر",
@@ -7247,13 +7930,16 @@
    "eventId": "E0441",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0441"
   },
   {
    "title": "روز جهانی قدس",
@@ -7276,13 +7962,16 @@
    "eventId": "E0227",
    "recurrenceType": "E",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "established",
     "label": "۱۶ مرداد ۱۳۵۸",
     "note": "اعلام",
     "gregorian": "1979-8-7",
     "source": "https://en.wikipedia.org/wiki/Quds_Day"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0227"
   },
   {
    "title": "پیروزی انقلاب اسلامی ایران و سقوط نظام شاهنشاهی",
@@ -7305,13 +7994,16 @@
    "eventId": "E0056",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "established",
     "label": "۲۲ بهمن ۱۳۵۷",
     "note": "وقوع",
     "gregorian": "1979-2-11",
     "source": "https://en.wikipedia.org/wiki/Anniversary_of_the_Iranian_Revolution"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0056"
   },
   {
    "title": "عید سعید فطر",
@@ -7334,13 +8026,16 @@
    "eventId": "E0464",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0464"
   },
   {
    "title": "تعطیل به مناسبت عید سعید فطر",
@@ -7363,13 +8058,16 @@
    "eventId": "E0399",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0399"
   },
   {
    "title": "روز بزرگداشت خواجه نصیرالدین طوسی",
@@ -7392,13 +8090,16 @@
    "eventId": "E0163",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۵ اسفند ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0163"
   },
   {
    "title": "روز احسان و نیکوکاری",
@@ -7421,13 +8122,16 @@
    "eventId": "E0133",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۴ اسفند ۱۳۸۳",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0133"
   },
   {
    "title": "روز فرهنگ پهلوانی و ورزش زورخانه‌ای",
@@ -7450,13 +8154,16 @@
    "eventId": "E0427",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0427"
   },
   {
    "title": "روز درختکاری",
@@ -7479,13 +8186,16 @@
    "eventId": "E0243",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۵ اسفند ۱۳۸۲",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0243"
   },
   {
    "title": "روز بزرگداشت سید جمال‌الدین اسدآبادی",
@@ -7508,13 +8218,16 @@
    "eventId": "E0169",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۱۸ اسفند ۱۳۸۷",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0169"
   },
   {
    "title": "فتح اندلس به دست مسلمانان",
@@ -7537,13 +8250,16 @@
    "eventId": "E0466",
    "recurrenceType": "C",
    "verificationStatus": "temporary",
+   "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
     "label": "سنت قمری",
     "note": "مناسبتِ مذهبی",
     "gregorian": "",
     "source": ""
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0466"
   },
   {
    "title": "روز راهیان نور",
@@ -7566,13 +8282,16 @@
    "eventId": "E0247",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۰ اسفند ۱۳۹۴",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0247"
   },
   {
    "title": "روز بزرگداشت نظامی گنجوی",
@@ -7595,13 +8314,16 @@
    "eventId": "E0194",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۱ اسفند ۱۳۹۷",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0194"
   },
   {
    "title": "روز بزرگداشت پروین اعتصامی",
@@ -7624,13 +8346,16 @@
    "eventId": "E0195",
    "recurrenceType": "A",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
     "label": "نخستین ثبت: ۲۵ اسفند ۱۳۹۱",
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0195"
   },
   {
    "title": "روز ملی شدن صنعت نفت ایران",
@@ -7653,13 +8378,16 @@
    "eventId": "E0026",
    "recurrenceType": "D",
    "verificationStatus": "temporary",
+   "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "established",
     "label": "۲۹ اسفند ۱۳۲۹",
     "note": "تصویب قانون",
     "gregorian": "1951-3-20",
     "source": "https://www.mohammadmossadegh.com/news/iran-oil-nationalization-law-1951/"
-   }
+   },
+   "page": null,
+   "sourceRef": "events-master.json#E0026"
   }
  ]
 }

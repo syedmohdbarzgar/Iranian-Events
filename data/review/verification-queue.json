@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-23T21:01:53+00:00",
+ "generatedAt": "2026-11-23T21:30:17+00:00",
  "counts": {
   "traditional": 12,
   "partially_verified": 49,
-  "unverified": 1
+  "unverified": 2
  },
  "queue": [
   {
@@ -400,6 +400,28 @@
    "action": "needs_independent_source",
    "reason": "فقط با پک/جدول هم‌تراز شده؛ سندِ مستقلِ خط‌به‌خط ثبت نشده است.",
    "requiredEvidence": "نشانیِ صفحهٔ منبعِ اولیه و تاریخِ دسترسی، مستقل از پک",
+   "lastVerifiedAt": "2026-11-22"
+  },
+  {
+   "id": "E0096",
+   "title": "روز عرفه (روز نیایش",
+   "status": "unverified",
+   "category": "international",
+   "calendar": "lunar",
+   "month": 12,
+   "day": 9,
+   "source": "pdf-derived",
+   "sourceUrl": "https://www.un.org/en/observances",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۳ — ۲۳ مهر ۱۳۹۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2013-10-15",
+    "source": "دادهٔ PDF"
+   },
+   "action": "needs_manual_review",
+   "reason": "هیچ سندِ مستقلِ تأییدکننده در کاتالوگ ثبت نشده است.",
+   "requiredEvidence": "صفحهٔ PDF همان سال + منبعِ مستقلِ تاریخ (یا حذفِ ادعای رسمی)",
    "lastVerifiedAt": "2026-11-22"
   },
   {

@@ -71,6 +71,8 @@ def main() -> int:
 
     core_files = [
         DATA / "events-master.json",
+        DATA / "event-corrections.json",
+        DATA / "event-identity-corrections.json",
         DATA / "official-corrections-1404-1405.json",
     ]
     data_files = sorted(official_files + list((DATA / "years").glob("*.json")) + core_files)

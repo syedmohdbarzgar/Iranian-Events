@@ -1,0 +1,54 @@
+{
+ "version": 1,
+ "note": "اصلاحیه‌های هویتیِ مستند، فقط برای رویدادهایی که یک ردیفِ درهم‌ادغامِ PDF دو هویتِ ناسازگار ساخته است. رکورد حذف نمی‌شود؛ مقدار قبلی در correctionHistory می‌ماند و رویداد از خروجیِ تقویم کنار گذاشته می‌شود تا نسخهٔ کانونی نمایش داده شود.",
+ "corrections": [
+  {
+   "id": "E0096",
+   "supersededBy": "E0426",
+   "reason": "ردیفِ صفحهٔ ۱۰ جدول ۱۳۹۲ «روز عرفه» را در ۲۳ مهر/۱۵ اکتبر ۲۰۱۳ ثبت کرده است؛ این روز در تقویمِ قمری ۱۰ ذی‌الحجه (عید قربان) است، نه ۹ ذی‌الحجه (عرفه). عنوان در ردیفِ چندرویدادی با «روز نیایش» و شهادت اشرفی اصفهانی ادغام شده و تاریخِ میلادیِ ردیف به‌اشتباه تقویمِ مبنا شده است.",
+   "source": "data/official-calendar-1392.json صفحهٔ ۱۰؛ رویدادِ کانونی E0426 با lunar_dates=[[12,9]] و همان عنوان",
+   "set": {
+    "verificationStatus": "unverified",
+    "dateCertainty": "disputed",
+    "calendar": "lunar",
+    "calendarType": "lunar",
+    "calendar_display": "lunar",
+    "month": 12,
+    "day": 9,
+    "dateRule": "fixed_lunar",
+    "recurrenceType": "C",
+    "solar_dates": [],
+    "lunar_dates": [[12, 9]],
+    "gregorian_dates": [],
+    "excludeFromCalendar": true
+   },
+   "preserved": {
+    "calendar": "gregorian",
+    "month": 10,
+    "day": 15,
+    "dateRule": "fixed_gregorian",
+    "recurrenceType": "B",
+    "verificationStatus": "verified"
+   }
+  },
+  {
+   "id": "E0459",
+   "supersededBy": "E0370",
+   "reason": "دو هویت برای «شهادت محمدحسین فهمیده» ساخته شده بود: E0459 با تقویمِ قمری ۲/۲۰ و E0370 با تقویمِ شمسی ۸/۸. شهادت فهمیده در ۸ آبان ۱۳۵۹ رخ داده و ردیف‌های ۱۳۹۲/۱۳۹۷ نیز ۸ آبان را ثبت کرده‌اند؛ نسخهٔ قمری هیچ شاهدی در جدول‌های سالانه ندارد.",
+   "source": "data/official-calendar-1392.json صفحهٔ ۱۱ و data/official-calendar-1397.json صفحهٔ ۱۱ (۸ آبان)؛ E0370 با solar_dates=[[8,8]]",
+   "set": {
+    "verificationStatus": "unverified",
+    "dateCertainty": "disputed",
+    "excludeFromCalendar": true
+   },
+   "preserved": {
+    "calendar": "lunar",
+    "month": 2,
+    "day": 20,
+    "dateRule": "fixed_lunar",
+    "recurrenceType": "C",
+    "verificationStatus": "unverified"
+   }
+  }
+ ]
+}

@@ -11,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 STEPS = [
+    ("اصلاحیه‌های هویتی", "apply_identity_corrections.py"),
     ("موتور تقویم", "audit_calendar.py"),
     ("سال‌ها", "build_years.py"),
     ("رویدادها و پک‌ها", "audit_events.py"),
@@ -20,6 +21,7 @@ STEPS = [
     ("صفِ بازبینی", "build_review_queue.py"),
     ("تکرارهای کاتالوگ", "audit_catalog_duplicates.py"),
     ("استخراجِ سال‌های مسدود", "audit_extraction_issues.py"),
+    ("خروجیِ وب", "build_web.py"),
 ]
 
 

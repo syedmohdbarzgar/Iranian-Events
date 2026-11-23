@@ -29,9 +29,9 @@
  },
  "verification_counts": {
   "traditional": 12,
-  "verified": 441,
+  "verified": 440,
   "partially_verified": 49,
-  "unverified": 1
+  "unverified": 2
  },
  "duplicate_signatures": [],
  "errors": [],
@@ -8060,16 +8060,16 @@
    "signature": "عرفهنیایش",
    "category": "international",
    "eventCategory": "international",
-   "calendar": "gregorian",
-   "calendarType": "gregorian",
+   "calendar": "lunar",
+   "calendarType": "lunar",
    "calendar_display": "lunar",
    "calendar_basis": "تاریخ قمری در بیشترِ سال‌ها ثابت، شمسی متغیر",
    "calendar_confidence": "بالا",
    "calendar_observations": 11,
-   "recurrenceType": "B",
-   "dateRule": "fixed_gregorian",
-   "month": 10,
-   "day": 15,
+   "recurrenceType": "C",
+   "dateRule": "fixed_lunar",
+   "month": 12,
+   "day": 9,
    "default_month": null,
    "default_day": null,
    "occurrenceYear": null,
@@ -8085,13 +8085,13 @@
     1392
    ],
    "solar_dates": [],
-   "lunar_dates": [],
-   "gregorian_dates": [
+   "lunar_dates": [
     [
-     10,
-     15
+     12,
+     9
     ]
    ],
+   "gregorian_dates": [],
    "isOfficialHoliday": false,
    "holiday": false,
    "holidayYears": [],
@@ -8102,7 +8102,7 @@
    "sourceUrl": "https://www.un.org/en/observances",
    "sourcePublicationDate": null,
    "sourceTier": 2,
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "verifiedYears": [
     1392
    ],
@@ -8112,7 +8112,23 @@
    "appPack": "lunar-12-09",
    "mergedTitles": [
     "روز عرفه (روز نیایش"
-   ]
+   ],
+   "correctionHistory": {
+    "preserved": {
+     "calendar": "gregorian",
+     "month": 10,
+     "day": 15,
+     "dateRule": "fixed_gregorian",
+     "recurrenceType": "B",
+     "verificationStatus": "verified"
+    },
+    "reason": "ردیفِ صفحهٔ ۱۰ جدول ۱۳۹۲ «روز عرفه» را در ۲۳ مهر/۱۵ اکتبر ۲۰۱۳ ثبت کرده است؛ این روز در تقویمِ قمری ۱۰ ذی‌الحجه (عید قربان) است، نه ۹ ذی‌الحجه (عرفه). عنوان در ردیفِ چندرویدادی با «روز نیایش» و شهادت اشرفی اصفهانی ادغام شده و تاریخِ میلادیِ ردیف به‌اشتباه تقویمِ مبنا شده است.",
+    "source": "data/official-calendar-1392.json صفحهٔ ۱۰؛ رویدادِ کانونی E0426 با lunar_dates=[[12,9]] و همان عنوان",
+    "supersededBy": "E0426"
+   },
+   "dateCertainty": "disputed",
+   "excludeFromCalendar": true,
+   "supersededBy": "E0426"
   },
   {
    "id": "E0097",
@@ -39149,7 +39165,23 @@
    "appPack": "solar-08-08",
    "mergedTitles": [
     "شهادت محمدحسین فهمیده بسیجی 13 ساله"
-   ]
+   ],
+   "correctionHistory": {
+    "preserved": {
+     "calendar": "lunar",
+     "month": 2,
+     "day": 20,
+     "dateRule": "fixed_lunar",
+     "recurrenceType": "C",
+     "verificationStatus": "unverified"
+    },
+    "reason": "دو هویت برای «شهادت محمدحسین فهمیده» ساخته شده بود: E0459 با تقویمِ قمری ۲/۲۰ و E0370 با تقویمِ شمسی ۸/۸. شهادت فهمیده در ۸ آبان ۱۳۵۹ رخ داده و ردیف‌های ۱۳۹۲/۱۳۹۷ نیز ۸ آبان را ثبت کرده‌اند؛ نسخهٔ قمری هیچ شاهدی در جدول‌های سالانه ندارد.",
+    "source": "data/official-calendar-1392.json صفحهٔ ۱۱ و data/official-calendar-1397.json صفحهٔ ۱۱ (۸ آبان)؛ E0370 با solar_dates=[[8,8]]",
+    "supersededBy": "E0370"
+   },
+   "dateCertainty": "disputed",
+   "excludeFromCalendar": true,
+   "supersededBy": "E0370"
   },
   {
    "id": "E0460",
@@ -43066,5 +43098,13 @@
     "یادروز قیام مردم سیستان به خونخواهی شهدای کربلا"
    ]
   }
- ]
+ ],
+ "identityCorrections": {
+  "file": "data/event-identity-corrections.json",
+  "applied": [
+   "E0096",
+   "E0459"
+  ],
+  "errors": []
+ }
 }

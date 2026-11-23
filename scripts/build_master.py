@@ -422,6 +422,7 @@ def main() -> int:
             "sourcePublicationDate": None,
             "sourceTier": tier,
             "verificationStatus": status,
+            "dateCertainty": "confirmed" if status == "verified" else "unconfirmed",
             "verifiedYears": sorted(set(verified)),
             "lastVerifiedAt": VERIFIED_AT,
             "confidence": confidence,
@@ -440,8 +441,31 @@ def main() -> int:
     for i, e in enumerate(enriched, 1):
         e["id"] = f"E{i:04d}"
 
-    # ---------- ۶) اعتبارسنجی ----------
+    # ---------- ۵.۵) اصلاحیه‌های هویتیِ مستند ----------
+    # رکورد حذف نمی‌شود؛ فقط از خروجیِ تقویم کنار گذاشته می‌شود و مقدار قبلی
+    # در correctionHistory باقی می‌ماند.
     errors, warnings = [], []
+    identity_path = DATA / "event-identity-corrections.json"
+    if identity_path.exists():
+        identity = json.loads(identity_path.read_text(encoding="utf-8"))
+        by_id = {e["id"]: e for e in enriched}
+        for corr in identity.get("corrections", []):
+            target = by_id.get(corr.get("id"))
+            if target is None:
+                errors.append(f"اصلاحیه برای شناسهٔ ناموجود: {corr.get('id')}")
+                continue
+            target["correctionHistory"] = {
+                "preserved": corr.get("preserved", {}),
+                "reason": corr.get("reason", ""),
+                "source": corr.get("source", ""),
+                "supersededBy": corr.get("supersededBy"),
+            }
+            target.update(corr.get("set", {}))
+            target["supersededBy"] = corr.get("supersededBy")
+            if corr.get("supersededBy") not in by_id:
+                errors.append(f"جایگزینِ ناموجود برای {corr.get('id')}: {corr.get('supersededBy')}")
+
+    # ---------- ۶) اعتبارسنجی ----------
     ids = [e["id"] for e in enriched]
     if len(ids) != len(set(ids)):
         errors.append("شناسهٔ تکراری")
@@ -467,6 +491,8 @@ def main() -> int:
             errors.append(f"{e['id']} میلادی بدونِ تاریخِ میلادی")
         if e["recurrenceType"] == "E" and e["month"] is not None:
             errors.append(f"{e['id']} متغیر با ماهِ ثابت")
+        if e.get("excludeFromCalendar") and e["verificationStatus"] == "verified":
+            errors.append(f"{e['id']} کنارگذاشته اما verified")
         if e["category"] in ("official", "historical") and e["verificationStatus"] == "unverified":
             warnings.append(f"{e['id']} بدونِ تطبیقِ رسمی: {e['title'][:50]}")
         if e["calendar"] == "solar" and e["solar_dates"]:

@@ -753,7 +753,7 @@ def generate(year: int, catalog: dict) -> dict:
 
             def add_row(display: str, m: int, d: int, ev: dict | None,
                         holiday: bool, approx: bool = False,
-                        source: str = "official-pdf") -> None:
+                        source: str = "official-pdf", page: int | None = None) -> None:
                 nonlocal dropped
                 key = ((m, d), _canon(display))
                 if key in seen:
@@ -768,6 +768,9 @@ def generate(year: int, catalog: dict) -> dict:
                         return
                     seen_events.add(ek)
                 seen.add(key)
+                status = (ev.get("verificationStatus") or "unverified") if ev else "unverified"
+                certainty = ("approximate" if approx else
+                             "confirmed" if status == "verified" else "unconfirmed")
                 rows.append({"title": display, "solar": [year, m, d],
                              "gregorian": list(jalali_to_gregorian(year, m, d)),
                              "lunar": list(islamic_from_jdn(jdn_jalali(year, m, d))),
@@ -776,8 +779,15 @@ def generate(year: int, catalog: dict) -> dict:
                                           categorize({"title": display, "calendar": "unresolved"})),
                              "recurrenceType": ev.get("recurrenceType") if ev else None,
                              "eventId": ev.get("id") if ev else None,
-                             "verificationStatus": "verified",
+                             # حضورِ ردیف در PDF فقط «رخداد در آن جدول» را نشان می‌دهد؛
+                             # سطحِ اعتبارِ تاریخی از کاتالوگ می‌آید و ردیفِ بی‌تطبیق
+                             # هرگز به‌طور خودکار verified نمی‌شود.
+                             "verificationStatus": status,
+                             "dateCertainty": certainty,
                              "origin": ev.get("origin") if ev else None,
+                             "page": page,
+                             "sourceRef": (f"official-calendar-{year}.json#page={page}"
+                                           if page else f"official-calendar-{year}.json"),
                              "source": source, "year": year})
 
             for r in data["rows"]:
@@ -790,6 +800,10 @@ def generate(year: int, catalog: dict) -> dict:
                 aliased = clean_title(alias_title(title))
                 display = aliased if aliased != title else title
                 ev = match_catalog(aliased, catalog["catalog"])
+                if ev is not None and ev.get("excludeFromCalendar"):
+                    # نسخهٔ کنارگذاشتهٔ یک هویتِ تکراری؛ رکورد در کاتالوگ می‌ماند
+                    # ولی ردیفِ تقویم از آن ساخته نمی‌شود.
+                    continue
                 if ev is None:
                     # نامِ کانونیِ تکراری (مثل چهار روزِ نوروز): با تاریخِ همان ردیف جدا کن.
                     cands = [e for e in catalog["catalog"] if _canon(e["title"]) == _canon(aliased)]
@@ -806,11 +820,12 @@ def generate(year: int, catalog: dict) -> dict:
                     if dates and not r.get("corrections"):
                         m, d, _kind, approx = min(
                             dates, key=lambda x: abs((x[0] * 31 + x[1]) - (pm * 31 + pd)))
-                    add_row(display, m, d, ev, r["holiday"], approx)
+                    add_row(display, m, d, ev, r["holiday"], approx, page=r.get("page"))
                     continue
                 # ردیفِ چندرویدادیِ چسبیده بدونِ «و»: عنوان‌های کاملِ کاتالوگ را
                 # داخلِ ردیف پیدا کن (پوششِ ≥۵۵٪) و همان‌ها را جدا کن.
                 embedded = events_in_title(title, catalog["catalog"])
+                embedded = [cev for cev in embedded if not cev.get("excludeFromCalendar")]
                 if len(embedded) >= 2:
                     first = True
                     for cev in embedded:
@@ -820,7 +835,7 @@ def generate(year: int, catalog: dict) -> dict:
                             cm, cd, _kind, approx = min(
                                 dates, key=lambda x: abs((x[0] * 31 + x[1]) - (pm * 31 + pd)))
                         add_row(cev["title"], cm, cd, cev,
-                                r["holiday"], approx, "official-split")
+                                r["holiday"], approx, "official-split", page=r.get("page"))
                         first = False
                     continue
                 # ردیفِ چندرویدادیِ چسبیده: در مرزِ «و» به بندها می‌شکند و هر
@@ -830,7 +845,7 @@ def generate(year: int, catalog: dict) -> dict:
                 pairs: list[tuple[str, dict]] = []
                 for c in clauses:
                     cev = match_catalog(clean_title(alias_title(c)), catalog["catalog"])
-                    if cev:
+                    if cev and not cev.get("excludeFromCalendar"):
                         pairs.append((c, cev))
                 # فقط وقتی می‌شکافیم که **همهٔ** بندها رویدادِ کاتالوگ باشند؛ وگرنه
                 # تکه‌های نیمه‌کاره («ورزش زورخانه‌ای»، «پیروزی») ساخته می‌شود.
@@ -843,10 +858,10 @@ def generate(year: int, catalog: dict) -> dict:
                             cm, cd, _kind, approx = min(
                                 dates, key=lambda x: abs((x[0] * 31 + x[1]) - (pm * 31 + pd)))
                         add_row(cev["title"], cm, cd, cev,
-                                r["holiday"], approx, "official-split")
+                                r["holiday"], approx, "official-split", page=r.get("page"))
                         first = False
                     continue
-                add_row(display, pm, pd, None, r["holiday"], False)
+                add_row(display, pm, pd, None, r["holiday"], False, page=r.get("page"))
             # مناسبت‌هایی که در جدولِ PDFِ این سال نیامده‌اند (یا ردیفشان در
             # استخراج گم شده) از کاتالوگ تکمیل می‌شوند؛ وگرنه «روز اصناف» و
             # «روز کردستان» در کاتالوگ هستند ولی در هیچ سالی دیده نمی‌شوند.
@@ -854,6 +869,8 @@ def generate(year: int, catalog: dict) -> dict:
             keys = {(r["solar"][1], r["solar"][2], _canon(r["title"])) for r in rows}
             have = {r.get("eventId") for r in rows if r.get("eventId")}
             for e in catalog["catalog"]:
+                if e.get("excludeFromCalendar"):
+                    continue
                 if e["id"] in have or e.get("first_year", 9999) > year:
                     continue
                 if e.get("calendar") == "unresolved":
@@ -869,6 +886,7 @@ def generate(year: int, catalog: dict) -> dict:
                     keys.add(ck)
                     holiday = bool(e.get("isOfficialHoliday")) and (
                         not e.get("holidayYears") or year in e["holidayYears"])
+                    cstatus = e.get("verificationStatus") or "unverified"
                     rows.append({"title": e["title"], "solar": [year, m, d],
                                  "gregorian": list(jalali_to_gregorian(year, m, d)),
                                  "lunar": list(islamic_from_jdn(jdn_jalali(year, m, d))),
@@ -876,10 +894,14 @@ def generate(year: int, catalog: dict) -> dict:
                                  "category": e["category"],
                                  "recurrenceType": e.get("recurrenceType"),
                                  "eventId": e["id"],
-                                 "verificationStatus": e.get("verificationStatus") or "unverified",
+                                 "verificationStatus": cstatus,
+                                 "dateCertainty": ("approximate" if approx else
+                                                   "confirmed" if cstatus == "verified" else "unconfirmed"),
                                  "origin": e.get("origin") or {
                                      "kind": "catalog", "label": "کاتالوگ", "note": "",
                                      "gregorian": "", "source": "events-master.json"},
+                                 "page": None,
+                                 "sourceRef": f"events-master.json#{e['id']}",
                                  "source": "catalog", "year": year})
             rows.sort(key=lambda r: (r["solar"][1], r["solar"][2]))
             return {"year": year, "mode": "data", "rows": rows, "droppedRows": dropped,
@@ -887,6 +909,8 @@ def generate(year: int, catalog: dict) -> dict:
 
     last = catalog["last_data_year"]
     for e in catalog["catalog"]:
+        if e.get("excludeFromCalendar"):
+            continue
         if e["calendar"] == "unresolved":
             continue
         if year < e["first_year"]:
@@ -912,7 +936,10 @@ def generate(year: int, catalog: dict) -> dict:
                          "eventId": e["id"],
                          "recurrenceType": e.get("recurrenceType"),
                          "verificationStatus": ("temporary" if year > last else e.get("verificationStatus")),
-                         "origin": e.get("origin")})
+                         "dateCertainty": ("approximate" if approx else "unconfirmed"),
+                         "origin": e.get("origin"),
+                         "page": None,
+                         "sourceRef": f"events-master.json#{e['id']}"})
     # حذفِ تکرارها
     seen, uniq = set(), []
     for r in sorted(rows, key=lambda r: (r["solar"][1], r["solar"][2], r["title"])):
