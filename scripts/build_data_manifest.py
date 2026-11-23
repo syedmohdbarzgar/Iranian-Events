@@ -81,7 +81,11 @@ def main() -> int:
     commit = git("rev-parse", "HEAD")
     # گزارش‌ها عمداً از سنجشِ کثیفی بیرون‌اند؛ وگرنه تولیدِ خودِ گزارش‌ها
     # همیشه درخت را «کثیف» نشان می‌دهد و provenance بی‌معنا می‌شود.
-    dirty = bool(git("status", "--porcelain", "--", "data", "scripts", "tests", "docs"))
+    dirty = bool(git(
+        "status", "--porcelain", "--",
+        "data/events-master.json", "data/official-calendar-*.json",
+        "data/years", "data/*.json", "scripts", "tests", "docs",
+    ))
     manifest = {
         "schema": 1,
         "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
