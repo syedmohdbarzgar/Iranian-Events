@@ -964,15 +964,15 @@
    },
    "1382": {
     "mode": "data",
-    "count": 312,
+    "count": 311,
     "categories": {
      "cultural": 10,
      "historical": 46,
      "official": 149,
      "international": 21,
-     "religious": 86
+     "religious": 85
     },
-    "matched": 294
+    "matched": 293
    },
    "1383": {
     "mode": "data",
@@ -1024,27 +1024,27 @@
    },
    "1387": {
     "mode": "data",
-    "count": 342,
+    "count": 341,
     "categories": {
      "cultural": 11,
      "official": 173,
-     "religious": 85,
+     "religious": 84,
      "international": 28,
      "historical": 45
     },
-    "matched": 323
+    "matched": 322
    },
    "1388": {
     "mode": "data",
-    "count": 347,
+    "count": 346,
     "categories": {
      "cultural": 10,
      "official": 183,
      "international": 26,
-     "religious": 82,
+     "religious": 81,
      "historical": 46
     },
-    "matched": 326
+    "matched": 325
    },
    "1389": {
     "mode": "data",
@@ -1168,15 +1168,15 @@
    },
    "1399": {
     "mode": "data",
-    "count": 363,
+    "count": 362,
     "categories": {
      "cultural": 10,
-     "religious": 82,
+     "religious": 81,
      "official": 199,
      "international": 30,
      "historical": 42
     },
-    "matched": 344
+    "matched": 343
    },
    "1400": {
     "mode": "data",
@@ -1192,15 +1192,15 @@
    },
    "1401": {
     "mode": "data",
-    "count": 377,
+    "count": 378,
     "categories": {
      "cultural": 10,
-     "official": 217,
+     "official": 219,
      "international": 34,
      "historical": 43,
-     "religious": 73
+     "religious": 72
     },
-    "matched": 354
+    "matched": 355
    },
    "1402": {
     "mode": "rule",
@@ -1216,27 +1216,27 @@
    },
    "1403": {
     "mode": "data",
-    "count": 387,
+    "count": 386,
     "categories": {
      "cultural": 10,
      "official": 225,
-     "religious": 78,
+     "religious": 77,
      "international": 31,
      "historical": 43
     },
-    "matched": 371
+    "matched": 370
    },
    "1404": {
     "mode": "data",
-    "count": 396,
+    "count": 395,
     "categories": {
      "cultural": 11,
      "official": 230,
-     "religious": 78,
+     "religious": 77,
      "international": 34,
      "historical": 43
     },
-    "matched": 375
+    "matched": 374
    },
    "1405": {
     "mode": "data",
@@ -1514,13 +1514,13 @@
    "1379": 219,
    "1380": 221,
    "1381": 221,
-   "1382": 312,
+   "1382": 311,
    "1383": 329,
    "1384": 325,
    "1385": 329,
    "1386": 332,
-   "1387": 342,
-   "1388": 347,
+   "1387": 341,
+   "1388": 346,
    "1389": 345,
    "1390": 344,
    "1391": 347,
@@ -1531,12 +1531,12 @@
    "1396": 371,
    "1397": 368,
    "1398": 370,
-   "1399": 363,
+   "1399": 362,
    "1400": 369,
-   "1401": 377,
+   "1401": 378,
    "1402": 401,
-   "1403": 387,
-   "1404": 396,
+   "1403": 386,
+   "1404": 395,
    "1405": 401,
    "1406": 423,
    "1407": 264,

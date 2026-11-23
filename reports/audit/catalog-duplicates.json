@@ -1,0 +1,700 @@
+{
+ "generatedAt": "2026-11-23T21:01:53+00:00",
+ "groups": 22,
+ "events": 49,
+ "byKind": {
+  "intentional_multi_day_or_narration": 4,
+  "same_event_multiple_calendars": 10,
+  "same_calendar_multiple_dates_needs_review": 8
+ },
+ "items": [
+  {
+   "canonical": "عیدنوروز",
+   "kind": "intentional_multi_day_or_narration",
+   "ids": [
+    "E0007",
+    "E0008",
+    "E0009",
+    "E0010"
+   ],
+   "events": [
+    {
+     "id": "E0007",
+     "title": "عید نوروز",
+     "calendar": "solar",
+     "month": 1,
+     "day": 2,
+     "status": "traditional",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0008",
+     "title": "عید نوروز",
+     "calendar": "solar",
+     "month": 1,
+     "day": 1,
+     "status": "traditional",
+     "source": "app-pack"
+    },
+    {
+     "id": "E0009",
+     "title": "عید نوروز",
+     "calendar": "solar",
+     "month": 1,
+     "day": 3,
+     "status": "traditional",
+     "source": "app-pack"
+    },
+    {
+     "id": "E0010",
+     "title": "عید نوروز",
+     "calendar": "solar",
+     "month": 1,
+     "day": 4,
+     "status": "traditional",
+     "source": "app-pack"
+    }
+   ],
+   "action": "keep"
+  },
+  {
+   "canonical": "وفاتآیتاللهسیدمحمودطالقانیاولینامامجمعهتهران",
+   "kind": "same_event_multiple_calendars",
+   "ids": [
+    "E0055",
+    "E0470",
+    "E0471",
+    "E0472"
+   ],
+   "events": [
+    {
+     "id": "E0055",
+     "title": "وفات آیت‌الله سیدمحمود طالقانی اولین امام جمعه تهران",
+     "calendar": "solar",
+     "month": 6,
+     "day": 19,
+     "status": "verified",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0470",
+     "title": "وفات آیت‌الله سید محمود طالقانی اولین امام جمعه تهران",
+     "calendar": "lunar",
+     "month": 8,
+     "day": 27,
+     "status": "verified",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0471",
+     "title": "وفات آیت‌الله سید محمود طالقانی اولین امام جمعه تهران",
+     "calendar": "lunar",
+     "month": 8,
+     "day": 16,
+     "status": "verified",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0472",
+     "title": "وفات آیت‌الله سیدمحمود طالقانی اولین امام جمعه تهران",
+     "calendar": "lunar",
+     "month": 2,
+     "day": 13,
+     "status": "verified",
+     "source": "pdf-derived"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "شبقدر",
+   "kind": "intentional_multi_day_or_narration",
+   "ids": [
+    "E0439",
+    "E0440",
+    "E0441"
+   ],
+   "events": [
+    {
+     "id": "E0439",
+     "title": "شب قدر",
+     "calendar": "lunar",
+     "month": 9,
+     "day": 18,
+     "status": "verified",
+     "source": "app-pack"
+    },
+    {
+     "id": "E0440",
+     "title": "شب قدر",
+     "calendar": "lunar",
+     "month": 9,
+     "day": 20,
+     "status": "verified",
+     "source": "app-pack"
+    },
+    {
+     "id": "E0441",
+     "title": "شب قدر",
+     "calendar": "lunar",
+     "month": 9,
+     "day": 22,
+     "status": "verified",
+     "source": "app-pack"
+    }
+   ],
+   "action": "keep"
+  },
+  {
+   "canonical": "تغییرقبلهمسلمینازبیتالمقدسبهمکهمعظمه",
+   "kind": "same_calendar_multiple_dates_needs_review",
+   "ids": [
+    "E0400",
+    "E0401"
+   ],
+   "events": [
+    {
+     "id": "E0400",
+     "title": "تغییر قبله مسلمین از بیت‌المقدس به مکه معظمه",
+     "calendar": "lunar",
+     "month": 7,
+     "day": 15,
+     "status": "verified",
+     "source": "app-pack"
+    },
+    {
+     "id": "E0401",
+     "title": "تغییر قبله مسلمین از بیت‌المقدس به مکه معظمه",
+     "calendar": "lunar",
+     "month": 1,
+     "day": 18,
+     "status": "verified",
+     "source": "app-pack"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "روزاستانداردوکیفیتروزجهانیاستاندارد",
+   "kind": "same_event_multiple_calendars",
+   "ids": [
+    "E0059",
+    "E0138"
+   ],
+   "events": [
+    {
+     "id": "E0059",
+     "title": "روز استاندارد و کیفیت روز جهانی استاندارد",
+     "calendar": "gregorian",
+     "month": 10,
+     "day": 14,
+     "status": "verified",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0138",
+     "title": "روز استاندارد و کیفیت (روز جهانی استاندارد",
+     "calendar": "solar",
+     "month": 7,
+     "day": 22,
+     "status": "verified",
+     "source": "app-pack"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "روزبزرگداشترودکی",
+   "kind": "same_event_multiple_calendars",
+   "ids": [
+    "E0166",
+    "E0410"
+   ],
+   "events": [
+    {
+     "id": "E0166",
+     "title": "روز بزرگداشت رودکی",
+     "calendar": "solar",
+     "month": 10,
+     "day": 4,
+     "status": "verified",
+     "source": "app-pack"
+    },
+    {
+     "id": "E0410",
+     "title": "روز بزرگداشت رودکی",
+     "calendar": "lunar",
+     "month": 6,
+     "day": 1,
+     "status": "verified",
+     "source": "pdf-derived"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "روزبزرگداشتسعدی",
+   "kind": "same_calendar_multiple_dates_needs_review",
+   "ids": [
+    "E0167",
+    "E0168"
+   ],
+   "events": [
+    {
+     "id": "E0167",
+     "title": "روز بزرگداشت سعدی",
+     "calendar": "solar",
+     "month": 2,
+     "day": 1,
+     "status": "verified",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0168",
+     "title": "روز بزرگداشت سعدی",
+     "calendar": "solar",
+     "month": 2,
+     "day": 13,
+     "status": "verified",
+     "source": "app-pack"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "روزبهرهوریروزبزرگداشتملاصدراصدرالمتألهین",
+   "kind": "same_event_multiple_calendars",
+   "ids": [
+    "E0060",
+    "E0200"
+   ],
+   "events": [
+    {
+     "id": "E0060",
+     "title": "روز بهرهوری-روز بزرگداشت ملاصدرا صدرالمتألهین",
+     "calendar": "gregorian",
+     "month": 5,
+     "day": 21,
+     "status": "verified",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0200",
+     "title": "روز بهرهوری-روز بزرگداشت ملاصدرا صدرالمتألهین",
+     "calendar": "solar",
+     "month": 3,
+     "day": 1,
+     "status": "verified",
+     "source": "pdf-derived"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "روزجهانیصلیبسرخوهلالاحمر",
+   "kind": "same_event_multiple_calendars",
+   "ids": [
+    "E0072",
+    "E0225"
+   ],
+   "events": [
+    {
+     "id": "E0072",
+     "title": "روز جهانی صلیب سرخ و هلال احمر",
+     "calendar": "gregorian",
+     "month": 5,
+     "day": 8,
+     "status": "verified",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0225",
+     "title": "روز جهانی صلیب سرخ و هلال احمر",
+     "calendar": "solar",
+     "month": 2,
+     "day": 18,
+     "status": "verified",
+     "source": "app-pack"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "روزجوان",
+   "kind": "same_event_multiple_calendars",
+   "ids": [
+    "E0229",
+    "E0419"
+   ],
+   "events": [
+    {
+     "id": "E0229",
+     "title": "روز جوان",
+     "calendar": "solar",
+     "month": 2,
+     "day": 8,
+     "status": "verified",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0419",
+     "title": "روز جوان",
+     "calendar": "lunar",
+     "month": 8,
+     "day": 11,
+     "status": "verified",
+     "source": "app-pack"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "روزسلامتیروزجهانیبهداشت",
+   "kind": "same_event_multiple_calendars",
+   "ids": [
+    "E0094",
+    "E0252"
+   ],
+   "events": [
+    {
+     "id": "E0094",
+     "title": "روز سلامتی روز جهانی بهداشت",
+     "calendar": "gregorian",
+     "month": 4,
+     "day": 7,
+     "status": "verified",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0252",
+     "title": "روز سلامتی روز جهانی بهداشت",
+     "calendar": "solar",
+     "month": 1,
+     "day": 18,
+     "status": "verified",
+     "source": "pdf-derived"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "روزعرفهروزنیایش",
+   "kind": "intentional_multi_day_or_narration",
+   "ids": [
+    "E0096",
+    "E0426"
+   ],
+   "events": [
+    {
+     "id": "E0096",
+     "title": "روز عرفه (روز نیایش",
+     "calendar": "gregorian",
+     "month": 10,
+     "day": 15,
+     "status": "verified",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0426",
+     "title": "روز عرفه (روز نیایش",
+     "calendar": "lunar",
+     "month": 12,
+     "day": 9,
+     "status": "verified",
+     "source": "pdf-derived"
+    }
+   ],
+   "action": "keep"
+  },
+  {
+   "canonical": "روزنهجالبلاغه",
+   "kind": "same_calendar_multiple_dates_needs_review",
+   "ids": [
+    "E0429",
+    "E0430"
+   ],
+   "events": [
+    {
+     "id": "E0429",
+     "title": "روز نهج‌البلاغه",
+     "calendar": "lunar",
+     "month": 9,
+     "day": 19,
+     "status": "verified",
+     "source": "app-pack"
+    },
+    {
+     "id": "E0430",
+     "title": "روز نهج‌البلاغه",
+     "calendar": "lunar",
+     "month": 7,
+     "day": 1,
+     "status": "partially_verified",
+     "source": "app-pack"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "روزوقف",
+   "kind": "same_calendar_multiple_dates_needs_review",
+   "ids": [
+    "E0431",
+    "E0432"
+   ],
+   "events": [
+    {
+     "id": "E0431",
+     "title": "روز وقف",
+     "calendar": "lunar",
+     "month": 3,
+     "day": 16,
+     "status": "verified",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0432",
+     "title": "روز وقف",
+     "calendar": "lunar",
+     "month": 2,
+     "day": 27,
+     "status": "verified",
+     "source": "app-pack"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "شهادتحضرتامامحسنمجتبی",
+   "kind": "same_calendar_multiple_dates_needs_review",
+   "ids": [
+    "E0446",
+    "E0447"
+   ],
+   "events": [
+    {
+     "id": "E0446",
+     "title": "شهادت حضرت امام حسن مجتبی علیه‌السلام",
+     "calendar": "lunar",
+     "month": 2,
+     "day": 7,
+     "status": "verified",
+     "source": "app-pack"
+    },
+    {
+     "id": "E0447",
+     "title": "شهادت حضرت امام حسن مجتبی علیه‌السلام",
+     "calendar": "lunar",
+     "month": 2,
+     "day": 28,
+     "status": "verified",
+     "source": "app-pack"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "شهادتحضرتامامزینالعابدین",
+   "kind": "same_calendar_multiple_dates_needs_review",
+   "ids": [
+    "E0449",
+    "E0450"
+   ],
+   "events": [
+    {
+     "id": "E0449",
+     "title": "شهادت حضرت امام زین‌العابدین علیه‌السلام",
+     "calendar": "lunar",
+     "month": 1,
+     "day": 12,
+     "status": "verified",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0450",
+     "title": "شهادت حضرت امام زین‌العابدین علیه‌السلام",
+     "calendar": "lunar",
+     "month": 1,
+     "day": 25,
+     "status": "verified",
+     "source": "app-pack"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "شهادتحضرتفاطمهزهرا",
+   "kind": "intentional_multi_day_or_narration",
+   "ids": [
+    "E0456",
+    "E0457"
+   ],
+   "events": [
+    {
+     "id": "E0456",
+     "title": "شهادت حضرت فاطمه زهرا سلام الله علیها",
+     "calendar": "lunar",
+     "month": 6,
+     "day": 3,
+     "status": "verified",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0457",
+     "title": "شهادت حضرت فاطمه زهرا سلام الله علیها",
+     "calendar": "lunar",
+     "month": 5,
+     "day": 13,
+     "status": "verified",
+     "source": "app-pack"
+    }
+   ],
+   "action": "keep"
+  },
+  {
+   "canonical": "شهادتمحمدحسینفهمیدهبسیجیساله",
+   "kind": "same_event_multiple_calendars",
+   "ids": [
+    "E0370",
+    "E0459"
+   ],
+   "events": [
+    {
+     "id": "E0370",
+     "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله",
+     "calendar": "solar",
+     "month": 8,
+     "day": 8,
+     "status": "verified",
+     "source": "app-pack"
+    },
+    {
+     "id": "E0459",
+     "title": "شهادت محمدحسین فهمیده بسیجی 13 ساله",
+     "calendar": "lunar",
+     "month": 2,
+     "day": 20,
+     "status": "unverified",
+     "source": "pdf-derived"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "میلادحضرتعیسیمسیح",
+   "kind": "same_event_multiple_calendars",
+   "ids": [
+    "E0381",
+    "E0468"
+   ],
+   "events": [
+    {
+     "id": "E0381",
+     "title": "میلاد حضرت عیسی مسیح علیه‌السلام",
+     "calendar": "solar",
+     "month": 10,
+     "day": 4,
+     "status": "verified",
+     "source": "app-pack"
+    },
+    {
+     "id": "E0468",
+     "title": "میلاد حضرت عیسی مسیح علیه‌السلام",
+     "calendar": "lunar",
+     "month": 12,
+     "day": 25,
+     "status": "verified",
+     "source": "pdf-derived"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "ولادتحضرتاماممحمدباقر",
+   "kind": "same_calendar_multiple_dates_needs_review",
+   "ids": [
+    "E0489",
+    "E0490"
+   ],
+   "events": [
+    {
+     "id": "E0489",
+     "title": "ولادت حضرت امام محمد باقر علیه‌السلام",
+     "calendar": "lunar",
+     "month": 7,
+     "day": 1,
+     "status": "verified",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0490",
+     "title": "ولادت حضرت امام محمدباقر علیه‌السلام",
+     "calendar": "lunar",
+     "month": 2,
+     "day": 3,
+     "status": "verified",
+     "source": "app-pack"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "ولادتحضرتامامموسیکاظم",
+   "kind": "same_calendar_multiple_dates_needs_review",
+   "ids": [
+    "E0492",
+    "E0493"
+   ],
+   "events": [
+    {
+     "id": "E0492",
+     "title": "ولادت حضرت امام موسی کاظم علیه‌السلام",
+     "calendar": "lunar",
+     "month": 12,
+     "day": 20,
+     "status": "verified",
+     "source": "pdf-derived"
+    },
+    {
+     "id": "E0493",
+     "title": "ولادت حضرت امام موسی کاظم علیه‌السلام",
+     "calendar": "lunar",
+     "month": 2,
+     "day": 7,
+     "status": "verified",
+     "source": "app-pack"
+    }
+   ],
+   "action": "needs_manual_review"
+  },
+  {
+   "canonical": "ولادتحضرتعیسیمسیح",
+   "kind": "same_event_multiple_calendars",
+   "ids": [
+    "E0097",
+    "E0499"
+   ],
+   "events": [
+    {
+     "id": "E0097",
+     "title": "ولادت حضرت عیسی مسیح علیه‌السلام",
+     "calendar": "gregorian",
+     "month": 12,
+     "day": 25,
+     "status": "verified",
+     "source": "app-pack"
+    },
+    {
+     "id": "E0499",
+     "title": "ولادت حضرت عیسی مسیح علیه‌السلام",
+     "calendar": "lunar",
+     "month": 6,
+     "day": 1,
+     "status": "verified",
+     "source": "pdf-derived"
+    }
+   ],
+   "action": "needs_manual_review"
+  }
+ ]
+}

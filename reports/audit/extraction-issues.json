@@ -1,0 +1,119 @@
+{
+ "generatedAt": "2026-11-23T21:01:55+00:00",
+ "years": [
+  {
+   "year": 1393,
+   "pdf": "PDF/Calendar-1393.pdf",
+   "rows": 365,
+   "nonemptyTitles": 0,
+   "weekdayProblems": 0,
+   "gregorianAnomalies": 0,
+   "sample": [
+    {
+     "solar": [
+      1393,
+      1,
+      1
+     ],
+     "title": ""
+    },
+    {
+     "solar": [
+      1393,
+      1,
+      2
+     ],
+     "title": ""
+    },
+    {
+     "solar": [
+      1393,
+      1,
+      3
+     ],
+     "title": ""
+    }
+   ],
+   "verdict": "blocked_glyph_mapping_ocr_required",
+   "why": "لایهٔ متنی با نگاشتِ ناقصِ فونت؛ عنوان‌ها خوانا نیستند.",
+   "publishable": false,
+   "rawFile": "data/review/official-1393.extracted.json"
+  },
+  {
+   "year": 1396,
+   "pdf": "PDF/Calendar-1396.pdf",
+   "rows": 365,
+   "nonemptyTitles": 0,
+   "weekdayProblems": 0,
+   "gregorianAnomalies": 0,
+   "sample": [
+    {
+     "solar": [
+      1396,
+      1,
+      1
+     ],
+     "title": ""
+    },
+    {
+     "solar": [
+      1396,
+      1,
+      2
+     ],
+     "title": ""
+    },
+    {
+     "solar": [
+      1396,
+      1,
+      3
+     ],
+     "title": ""
+    }
+   ],
+   "verdict": "blocked_empty_titles_manual_extraction_required",
+   "why": "ردیف‌های تاریخ ساخته شدند ولی ستونِ مناسبت‌ها خالی است.",
+   "publishable": false,
+   "rawFile": "data/review/official-1396.extracted.json"
+  },
+  {
+   "year": 1402,
+   "pdf": "PDF/Calendar-1402.pdf",
+   "rows": 365,
+   "nonemptyTitles": 73,
+   "weekdayProblems": 132,
+   "gregorianAnomalies": 156,
+   "sample": [
+    {
+     "solar": [
+      1402,
+      1,
+      1
+     ],
+     "title": "ولادت حضرت امام حسن مجتبی علیهالسلام ) 2 هو ق( و روز اکرام و تکریم خیرین"
+    },
+    {
+     "solar": [
+      1402,
+      1,
+      2
+     ],
+     "title": "روز طبیعت )تعطیل("
+    },
+    {
+     "solar": [
+      1402,
+      1,
+      8
+     ],
+     "title": "روز سلامتی"
+    }
+   ],
+   "verdict": "blocked_date_columns_manual_review_required",
+   "why": "عنوان‌ها می‌آیند ولی سالِ میلادی/روزِ هفته جابه‌جاست؛ ردیف برای انتشار قابل‌استناد نیست.",
+   "publishable": false,
+   "rawFile": "data/review/official-1402.extracted.json"
+  }
+ ]
+}

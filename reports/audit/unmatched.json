@@ -1,0 +1,6042 @@
+{
+ "generatedAt": "2026-11-23T21:01:53+00:00",
+ "total": 423,
+ "uniqueTitles": 342,
+ "byCategory": {
+  "no_safe_catalog_match": 221,
+  "multi_event_or_concatenated": 171,
+  "fragment_or_truncated_title": 26,
+  "extraction_artifact": 2,
+  "unbalanced_parentheses": 3
+ },
+ "byYear": {
+  "1382": 18,
+  "1383": 13,
+  "1384": 17,
+  "1385": 22,
+  "1386": 16,
+  "1387": 19,
+  "1388": 21,
+  "1389": 21,
+  "1390": 19,
+  "1391": 18,
+  "1392": 20,
+  "1394": 26,
+  "1395": 11,
+  "1397": 21,
+  "1398": 18,
+  "1399": 19,
+  "1400": 21,
+  "1401": 23,
+  "1403": 16,
+  "1404": 21,
+  "1405": 22,
+  "1406": 21
+ },
+ "topRepeated": [
+  {
+   "title": "روز عرفه",
+   "rows": 15
+  },
+  {
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) روز نوجوان و بسیج دانشآموزی",
+   "rows": 4
+  },
+  {
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) و روز نوجوان و بسیج دانشآموزی",
+   "rows": 4
+  },
+  {
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله)- روز نوجوان- روز بسیج دانشآموزی",
+   "rows": 3
+  },
+  {
+   "title": "شهادت آیت‌الله سید حسن مدرس 1316 - روز مجلس",
+   "rows": 3
+  },
+  {
+   "title": "عاشورای حسینی - انفجار در حرم حضرت امام رضا علیه‌السلام به دست ایادی آمریکا 1415 برابر با 30 خرداد",
+   "rows": 3
+  },
+  {
+   "title": "روز بسیج مستضعفین تشکیل بسیج مستضعفین به فرمان حضرت امام خمینی ره",
+   "rows": 3
+  },
+  {
+   "title": "هجرت حضرت رسول اکرم صلی الله علیه و آله از مکه به مدینه اول محرم سال هجرت، مبدأ گاه شماری هجری قمری",
+   "rows": 3
+  },
+  {
+   "title": "شهریار ادب فارسی روز بزرگداشت استاد سید محمد حسین روز شعر",
+   "rows": 3
+  },
+  {
+   "title": "شهریار روز شعر و ادب فارسی روز بزرگداشت استاد سید محمد حسین",
+   "rows": 3
+  },
+  {
+   "title": "شماره 100 به فرمان حضرت امام (رحمةالله علیه) و تأسیس بنیاد مسکن انقلاب اسلامی",
+   "rows": 3
+  },
+  {
+   "title": "ملی جمعیت روز",
+   "rows": 3
+  },
+  {
+   "title": "شهادت حضرت فاطمه زهرا سلام الله علیها (به روایتی",
+   "rows": 3
+  },
+  {
+   "title": "شمارۀ 100 به فرمان حضرت امام خمینی رحمةالله علیه و تأسیس بنیاد مسکن انقلاب اسلامی",
+   "rows": 3
+  },
+  {
+   "title": "طباطبایی",
+   "rows": 3
+  },
+  {
+   "title": "شهادت آیت‌الله سید محمد باقر صدر و خواهرایشان بنتالهدی به توسط رژیم بعث عراق",
+   "rows": 2
+  },
+  {
+   "title": "فتح خرمشهر در عملیات بیت‌المقدس 1361 و روز مقاومت و پیروزی",
+   "rows": 2
+  },
+  {
+   "title": "ولادت حضرت امام حسن عسگری علیه الاسلام",
+   "rows": 2
+  },
+  {
+   "title": "روز پزشک- روز بزرگداشت ابو علی سینا",
+   "rows": 2
+  },
+  {
+   "title": "شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران آل سعود 6 ذیالحجه - برابر با 11 مرداد",
+   "rows": 2
+  }
+ ],
+ "rows": [
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    1,
+    2
+   ],
+   "title": "پهلوی به مدرسه فیضیه قم 1342 - تغییر قبله مسلمین از بیت‌المقدس به مکه",
+   "source": "official-pdf",
+   "page": 2,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    1,
+    9
+   ],
+   "title": "شهادت حضرت امام زین العابدین علیه‌السلام 95 به روایتی",
+   "source": "official-pdf",
+   "page": 2,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    1,
+    19
+   ],
+   "title": "شهادت آیت‌الله سید محمد باقر صدر و خواهرایشان بنتالهدی به توسط رژیم بعث عراق",
+   "source": "official-pdf",
+   "page": 2,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    2,
+    13
+   ],
+   "title": "هجرت حضرت رسول اکرم صلی الله علیه و آله از مکه به مدینه مبدأ تاریخ هجری",
+   "source": "official-pdf",
+   "page": 3,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    3,
+    3
+   ],
+   "title": "فتح خرمشهر در عملیات بیت‌المقدس 1361 و روز مقاومت و پیروزی",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    3,
+    19
+   ],
+   "title": "ولادت حضرت امام حسن عسگری علیه الاسلام",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    4,
+    7
+   ],
+   "title": "بمب به دست منافقین دردفتر مرکزی حزب جمهوری اسلامی 1360 - روز قوه قضاییه",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    5,
+    28
+   ],
+   "title": "حضرت امام خمینی ره رهبر کبیر انقلاب اسلامی 1320 - کودتای آمریکا برای بازگرداندن شاه",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    6,
+    1
+   ],
+   "title": "روز پزشک- روز بزرگداشت ابو علی سینا",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    6,
+    19
+   ],
+   "title": "ایامالبیض (اعتکاف)- وفات آیت‌الله سید محمود طالقانی اولین امام جمعه تهران",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    6,
+    27
+   ],
+   "title": "محمد حسین شهریار فارسی- روز بزرگداشت استاد سید روز شعر و ادب",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    6,
+    31
+   ],
+   "title": "آغاز جنگ امام موسی کاظم علیه‌السلام 183 شهادت حضرت - آغاز هفته دفاع مقدس تحمیلی 1359",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    8,
+    1
+   ],
+   "title": "روز برنامهریزی و آمار",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    8,
+    8
+   ],
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله)- روز نوجوان- روز بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    9,
+    5
+   ],
+   "title": "عید سعید فطر - روز بسیج مستضعفین تشکیل بسیج مستضعفین به فرمان حضرت امام خمینی ره",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    9,
+    10
+   ],
+   "title": "شهادت آیت‌الله سید حسن مدرس 1316 - روز مجلس",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    11,
+    9
+   ],
+   "title": "شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران آل سعود 6 ذیالحجه - برابر با 11 مرداد",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1382,
+   "solar": [
+    1382,
+    12,
+    12
+   ],
+   "title": "عاشورای حسینی - انفجار در حرم حضرت امام رضا علیه‌السلام به دست ایادی آمریکا 1415 برابر با 30 خرداد",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1383,
+   "solar": [
+    1383,
+    1,
+    19
+   ],
+   "title": "شهادت آیت‌الله سید محمد باقر صدر و خواهرایشان بنتالهدی به توسط رژیم بعث عراق",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1383,
+   "solar": [
+    1383,
+    3,
+    1
+   ],
+   "title": "روز بهرهوری-روز بزرگداشت ملاصدرا (صدرالمتألهین)- روز جهانی توسعه فرهنگی",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1383,
+   "solar": [
+    1383,
+    3,
+    3
+   ],
+   "title": "فتح خرمشهر در عملیات بیت‌المقدس 1361 و روز مقاومت و پیروزی",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1383,
+   "solar": [
+    1383,
+    3,
+    8
+   ],
+   "title": "ولادت حضرت امام حسن عسگری علیه الاسلام",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1383,
+   "solar": [
+    1383,
+    4,
+    12
+   ],
+   "title": "شهادت حضرت فاطمه زهرا سلام الله علیها 11 به روایتی - سقوط هواپیمای مسافربری جمهوری اسلامی ایران به توسط ناوگان آمریکای جنایتکار",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1383,
+   "solar": [
+    1383,
+    5,
+    27
+   ],
+   "title": "ولادت حضرت امام محمد باقر علیه‌السلام 57 - کودتای آمریکا برای",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1383,
+   "solar": [
+    1383,
+    6,
+    1
+   ],
+   "title": "روز پزشک- روز بزرگداشت ابو علی سینا",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1383,
+   "solar": [
+    1383,
+    8,
+    8
+   ],
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله)- روز نوجوان- روز بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1383,
+   "solar": [
+    1383,
+    9,
+    5
+   ],
+   "title": "روز بسیج مستضعفین تشکیل بسیج مستضعفین به فرمان حضرت امام خمینی ره",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1383,
+   "solar": [
+    1383,
+    9,
+    10
+   ],
+   "title": "شهادت آیت‌الله سید حسن مدرس 1316 - روز مجلس",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1383,
+   "solar": [
+    1383,
+    10,
+    28
+   ],
+   "title": "شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران آل سعود 6 ذیالحجه - برابر با 11 مرداد",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1383,
+   "solar": [
+    1383,
+    11,
+    1
+   ],
+   "title": "روز عرفه",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1383,
+   "solar": [
+    1383,
+    12,
+    2
+   ],
+   "title": "عاشورای حسینی - انفجار در حرم حضرت امام رضا علیه‌السلام به دست ایادی آمریکا 1415 برابر با 30 خرداد",
+   "source": "official-pdf",
+   "page": 16,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    1,
+    2
+   ],
+   "title": "1342 قم فیضیه مدرسه به نوروز - هجوم مأموران ستمشاهی پهلوی عید عملیات فتحالمبین 1361 آغاز",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    1,
+    18
+   ],
+   "title": "روز سلامتی (روز جهانی بهداشت)- روز وقف",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    3,
+    3
+   ],
+   "title": "پیروزی و مقاومت فتح خرمشهر در عملیات بیت‌المقدس 1361 و روز",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    5,
+    16
+   ],
+   "title": "دانشگاهی جهاد ولادت حضرت امام محمد باقر علیه‌السلام 57 - تشکیل",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    6,
+    1
+   ],
+   "title": "علی سینا روز پزشک- روز بزرگداشت ابو",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    6,
+    29
+   ],
+   "title": "جهانی روز - 255 عجلالله تعالی فرجه ولادت حضرت قائم مستضعفان",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    6,
+    30
+   ],
+   "title": "روز گفتگوی تمدنها",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    8,
+    1
+   ],
+   "title": "شب قدر- روز آمار و برنامهریزی",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    8,
+    8
+   ],
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله)- روز نوجوان- روز بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    9,
+    5
+   ],
+   "title": "روز بسیج مستضعفین تشکیل بسیج مستضعفین به فرمان حضرت امام خمینی ره",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    9,
+    10
+   ],
+   "title": "شهادت آیت‌الله سید حسن مدرس 1316 - روز مجلس",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    9,
+    27
+   ],
+   "title": "دانشگاه و حوزه وحدت روز - شهادت آیت‌الله دکتر محمد مفتح 1358",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    10,
+    6
+   ],
+   "title": "سالروز تشکیل نهضت سوادآموزی به فرمان حضرت امام خمینی ره 1358",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    10,
+    11
+   ],
+   "title": "جوادالائمه« علیه‌السلام تقی محمد امام حضرت شهادت آغاز سال 2006 میلادی»",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    10,
+    17
+   ],
+   "title": "6 سعود آل شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران ذیالحجه - برابر با 11 مرداد",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    11,
+    20
+   ],
+   "title": "عاشورای حسینی - انفجار در حرم حضرت امام رضا علیه‌السلام به دست ایادی آمریکا 1415 برابر با 30 خرداد",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1384,
+   "solar": [
+    1384,
+    12,
+    5
+   ],
+   "title": "خواجه بزرگداشت روز روایتی- به 95 شهادت حضرت امام زینالعابدین علیه‌السلام نصیرالدین طوسی- روز مهندسی",
+   "source": "official-pdf",
+   "page": 16,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    1,
+    1
+   ],
+   "title": "نوروز اربعین حسینی آغاز",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    1,
+    2
+   ],
+   "title": "1342 قم فیضیه مدرسه به نوروز هجوم مأموران ستم شاهی پهلوی عید عملیات فتح المبین آغاز",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    1,
+    11
+   ],
+   "title": "هجرت حضرت رسول اکرم صلی الله علیه و آله از مکه به مدینه اول محرم سال هجرت، مبدأ گاه شماری هجری قمری",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    1,
+    19
+   ],
+   "title": "شهادت آیت‌الله سید محمد باقر صدر و خواهر ایشان بنت الهدی به توسط رژیم بعث عراق",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    2,
+    10
+   ],
+   "title": "فارس خلیج ملی روز آغاز عملیات بیت‌المقدس",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    2,
+    18
+   ],
+   "title": "و سر خ صلیب وفات حضرت معصومه سلام الله علیها 201 روز جهانی هلالاحمر",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    2,
+    25
+   ],
+   "title": "بزرگداشت فردوسی روز",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    3,
+    25
+   ],
+   "title": "روز گل",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    3,
+    30
+   ],
+   "title": "انفجار در حرم حضرت امام رضا علیه‌السلام به دست منافقین کوردل",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    5,
+    5
+   ],
+   "title": "عملیات ( سالروز ولادت حضرت امام محمد باقر علیه‌السلام ) 57 غرورآفرین مرصاد",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    5,
+    11
+   ],
+   "title": "شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران آل سعود 1366 برابر با 6 ذی-الحجه",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    5,
+    29
+   ],
+   "title": "ق ( شهادت حضرت امام موسی کاظم علیه‌السلام ) 183 ه",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    6,
+    27
+   ],
+   "title": "شهریار ادب فارسی روز بزرگداشت استاد سید محمد حسین روز شعر",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    6,
+    30
+   ],
+   "title": "گوی تمدنها روز گفت",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    7,
+    22
+   ],
+   "title": "شب قدر روز جهانی استاندارد",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    7,
+    24
+   ],
+   "title": "شب قدر روز پیوند اولیا و مربیان",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    8,
+    8
+   ],
+   "title": "شهادت محمد حسین فهمیده (بسیجی 13 ساله) روز نوجوان روز بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    8,
+    26
+   ],
+   "title": "روز خودکفایی گندم",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    8,
+    27
+   ],
+   "title": "تعطیل ( ق شهادت حضرت امام جعفر صادق علیه‌السلام ) 148 ه",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    9,
+    5
+   ],
+   "title": "روز بسیج مستضعفین تشکیل بسیج مستضعفین به فرمان حضرت امام خمینی ره",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    9,
+    27
+   ],
+   "title": "دانشگاه شهادت آیت‌الله دکتر محمد مفتح روز وحدت حوزه",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1385,
+   "solar": [
+    1385,
+    10,
+    9
+   ],
+   "title": "روز عرفه",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    1,
+    2
+   ],
+   "title": "فیضیه قم مدرسه عید نوروز – هجوم مأموران ستم شاهی پهلوی به 1342 – آغاز عملیات فتح المبین",
+   "source": "official-pdf",
+   "page": 3,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    1,
+    19
+   ],
+   "title": "شهادت آیت‌الله سید محمدباقر صدر و خواهر ایشان بنت الهدی به توسط حکومت بعث عراق",
+   "source": "official-pdf",
+   "page": 3,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    2,
+    18
+   ],
+   "title": "احمر جهانی صلیب سرخ و هلال روز",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    3,
+    30
+   ],
+   "title": "انفجار در حرم حضرت امام رضا علیه‌السلام به دست ایادی آمریکا",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    5,
+    18
+   ],
+   "title": "ق هادت حضرت امام موسی کاظم علیه‌السلام",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    6,
+    27
+   ],
+   "title": "محمدحسین شهریار استاد سید روز شعر و ادب فارسی – روز بزرگداشت",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    6,
+    31
+   ],
+   "title": "تحمیلی هجرت – آغاز جنگ سال قبل از وفات حضرت خدیجه سلام الله علیها 3 1359 – آغاز هفته دفاع مقدس",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    7,
+    9
+   ],
+   "title": "روز ضربت خوردن حضرت علی علیه‌السلام 40 - روز جهانی سالمندان – همبستگی و همدردی با کودکان و نوجوانان فلسطینی",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    8,
+    8
+   ],
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) – روز نوجوان – روز بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    9,
+    5
+   ],
+   "title": "خمینی امام حضرت فرمان به مستضعفین بسیج تشکیل بسیج مستضعفین روز - ره",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    9,
+    29
+   ],
+   "title": "روز عرفه",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    10,
+    20
+   ],
+   "title": "ش 1230 ه میرزا تقیخان امیرکبیر شهادت آغاز سال 1429 هجری قمری –",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    10,
+    22
+   ],
+   "title": "امام خمینی ره 1357 حضرت تشکیل شورای انقلاب به فرمان",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    11,
+    26
+   ],
+   "title": "السلام 128 موسی کاظم علیه ولادت حضرت امام",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    12,
+    9
+   ],
+   "title": "کنندگان از حقوق مصرف اربعین حسینی – روز ملی حمایت",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1386,
+   "solar": [
+    1386,
+    12,
+    19
+   ],
+   "title": "هجرت حضرت رسول اکرم صلی الله علیه و آله از مکه به مدینه اول محرم سال هجرت، مبدأ گاه شماری هجری قمری",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    1,
+    19
+   ],
+   "title": "عراق بعث حکومت توسط به خواهر ایشان بنتالهدی شهادت آیت‌الله سید محمد باقر صدر",
+   "source": "official-pdf",
+   "page": 3,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    2,
+    3
+   ],
+   "title": "کارآفرینی روز بزرگداشت شیخ بهایی – روز ملی",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    2,
+    10
+   ],
+   "title": "ش فارس آغاز عملیات بیت‌المقدس 1361 ه روز ملی خلیج",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    2,
+    19
+   ],
+   "title": "کلینی شیخ بزرگداشت روز احمر جهانی صلیب سرخ و هلال روز",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    2,
+    30
+   ],
+   "title": "روایتی به 11 علیها شهادت حضرت فاطمه زهرا سلامالله",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    3,
+    18
+   ],
+   "title": "الله علیها 11 شهادت حضرت فاطمه زهرا سلام",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    3,
+    30
+   ],
+   "title": "انفجار در حرم حضرت امام رضا علیه‌السلام به دست ایادی آمریکا",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    4,
+    14
+   ],
+   "title": "ولادت حضرت امام محمد باقر علیه‌السلام 57 روز قلم",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    5,
+    9
+   ],
+   "title": "اهدای روز هجرت از مبعث حضرت رسول اکرم صلی الله علیه و آله 13 سال قبل خون",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    5,
+    23
+   ],
+   "title": "روز مقاومت اسلامی پیروزی ولادت حضرت علی اکبر علیه‌السلام 33 و روز جوان- مقاومت اسلامی مردم لبنان بر رژیم صهیونیستی",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    8,
+    8
+   ],
+   "title": "ساله ( روز نوجوان روز بسیج دانشآموزی شهادت محمدحسین فهمیده ) بسیجی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    9,
+    15
+   ],
+   "title": "1366 سعود شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران آل برابر با 6 ذیالحجه",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    9,
+    18
+   ],
+   "title": "روز عرفه",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    9,
+    24
+   ],
+   "title": "ق السلام 212 ه ولادت حضرت امام علی النقی الهادی علیه",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    10,
+    7
+   ],
+   "title": "شهادت سالروز تشکیل نهضت سواد آموزی به فرمان حضرت امام خمینی ره 1358 آیت‌الله حسین غفاری به دست مأموران ستم شاهی پهلوی",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    10,
+    20
+   ],
+   "title": "امیرکبیر خان تقی میرزا شهادت حضرت امام زینالعابدین علیه‌السلام 95 شهادت",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    10,
+    22
+   ],
+   "title": "ش تشکیل شورای انقلاب به فرمان حضرت امام خمینی ره 1357 ه",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    11,
+    11
+   ],
+   "title": "ق ولادت حضرت امام محمد باقر علیه‌السلام 57 ه",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1387,
+   "solar": [
+    1387,
+    12,
+    25
+   ],
+   "title": "میلاد حضرت امام جعفر صادق علیه‌السلام مؤسس مذهب جعفری 83 بمباران شیمیایی حلبچه به توسط ارتش بعث عراق 1366 – روز بزرگداشت پروین اعتصامی",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    1,
+    2
+   ],
+   "title": "ش آغاز ه 1342 قم فیضیه مدرسه به شاهی پهلوی ستم عید نوروز هجوم مأموران عملیات فتحالمبین",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    1,
+    19
+   ],
+   "title": "1359 عراق بعث حکومت توسط شهادت آیت‌الله سید محمد باقر صدر و خواهر ایشان بنتالهدی",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    2,
+    18
+   ],
+   "title": "سرخ و صلیب روز جهانی به روایتی 11 علیها سلامالله شهادت حضرت فاطمه زهرا هلال احمر",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    3,
+    30
+   ],
+   "title": "ش انفجار در حرم حضرت امام رضا علیه‌السلام به دست ایادی آمریکا 1373 ه",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    4,
+    5
+   ],
+   "title": "جهانی مبارزه با مواد مخدر شهادت حضرت امام علیالنقی الهادی علیه‌السلام 254 روز",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    4,
+    15
+   ],
+   "title": "البیض ایام آغاز هجرت از قبل علیه‌السلام 23 سال علی ولادت حضرت امام اعتکاف",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    4,
+    17
+   ],
+   "title": "الله علیها 62 سلام وفات حضرت زینب",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    4,
+    27
+   ],
+   "title": "598 اعلام پذیرش قطعنامه ق هادت حضرت امام موسی کاظم علیه‌السلام شورای امنیت از سوی ایران",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    6,
+    19
+   ],
+   "title": "شب قدر وفات آیت‌الله سید محمود طالقانی اولین امام جمعه تهران",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    6,
+    21
+   ],
+   "title": "شب قدر روز سینما",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    7,
+    23
+   ],
+   "title": "روز شهادت پنجمین شهید محراب آیت‌الله اشرفی اصفهانی به دست منافقان 1361 جهانی نابینایان عصای سفید",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    8,
+    1
+   ],
+   "title": "برنامهریزی و روز آمار",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    8,
+    8
+   ],
+   "title": "ق شهادت محمدحسین فهمیده بسیجی ولادت حضرت امام رضا علیه‌السلام 148 ه ساله روز نوجوان روز بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    9,
+    3
+   ],
+   "title": "ش شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران آل سعود 1366 ه برابر با 6 ذیالحجه",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    9,
+    6
+   ],
+   "title": "روز عرفه",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    9,
+    27
+   ],
+   "title": "وحدت روز 1358 مفتح محمد دکتر آیت‌الله شهادت قمری هجری آغاز سال 1431 حوزه و دانشگاه",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    10,
+    7
+   ],
+   "title": "آیت‌الله حسین غفاری به دست مأموران ستم شاهی پهلوی 1353 روز تجلیل از اسرا و مفقودان",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    10,
+    22
+   ],
+   "title": "ش 1357 ه تشکیل شورای انقلاب به فرمان حضرت امام خمینی ره",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    10,
+    29
+   ],
+   "title": "ق ولادت حضرت امام محمد باقر علیه‌السلام 57 ه",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    11,
+    3
+   ],
+   "title": "128 علیه‌السلام کاظم امام موسی ولادت حضرت",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1388,
+   "solar": [
+    1388,
+    11,
+    27
+   ],
+   "title": "هجرت حضرت رسول اکرم صلی الله علیه و آله از مکه به مدینه اول محرم سال هجرت، مبدأ گاه شماری هجری قمری",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    1,
+    19
+   ],
+   "title": "1359 عراق بعث حکومت توسط شهادت آیت‌الله سید محمد باقر صدر و خواهر ایشان بنتالهدی",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    2,
+    18
+   ],
+   "title": "احمر جهانی صلیب سرخ و هلال روز",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    2,
+    19
+   ],
+   "title": "بزرگداشت شیخ کلینی روز",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    2,
+    27
+   ],
+   "title": "عمومی روابط و ارتباطات شهادت حضرت فاطمه زهرا سلام الله علیها 11 روز",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    4,
+    7
+   ],
+   "title": "تن از یاران امام خمینی ره با انفجار بمب به دست منافقان در دفتر مرکزی حزب جمهوری اسلامی 1360 روز قوه قضاییه تغییر قبله مسلمین از بیت‌المقدس به مکه معظمه",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    4,
+    11
+   ],
+   "title": "به دست منافقان 1361 محراب شهادت آیت‌الله صدوقی چهارمین شهید",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    4,
+    17
+   ],
+   "title": "ق 183 ه موسی کاظم علیه‌السلام شهادت حضرت امام",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    5,
+    14
+   ],
+   "title": "انسانی کرامت و اسلامی بشر حقوق روز ش صدور فرمان مشروطیت 1285 ه",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    6,
+    11
+   ],
+   "title": "شب قدر روز صنعت چاپ",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    6,
+    27
+   ],
+   "title": "شهریار روز شعر و ادب فارسی روز بزرگداشت استاد سید محمد حسین",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    7,
+    23
+   ],
+   "title": "روز ش هادت پنجمین شهید محراب آیت‌الله اشرفی اصفهانی به دست منافقان جهانی نابینایان عصای سفید",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    8,
+    1
+   ],
+   "title": "برنامهریزی و روز آمار",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    8,
+    8
+   ],
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) روز نوجوان روز بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    8,
+    22
+   ],
+   "title": "ش شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران آل سعود 1366 ه برابر با 6 ذیالحجه",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    8,
+    25
+   ],
+   "title": "روز عرفه",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    9,
+    10
+   ],
+   "title": "مدرس شهادت آیت‌الله سید حسن 10 و آله روز مباهله پیامبر اسلام صلی الله علیه 1316 و روز مجلس",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    9,
+    12
+   ],
+   "title": "ش روز جهانی معلولان 1358 ه ایران تصویب قانون اساسی جمهوری اسلامی",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    9,
+    16
+   ],
+   "title": "آغاز سال 1432 هجری قمری روز دانشجو",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    10,
+    7
+   ],
+   "title": "شهادت سالروز تشکیل نهضت سواد آموزی به فرمان حضرت امام خمینی ره 1358 آیت‌الله حسین غفاری به دست مأموران ستم شاهی پهلوی",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    10,
+    22
+   ],
+   "title": "به فرمان انقلاب شورای تشکیل ق ولادت حضرت امام موسی کاظم علیه‌السلام 128 ه حضرت امام خمینی ره",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1389,
+   "solar": [
+    1389,
+    12,
+    18
+   ],
+   "title": "اسدآبادی بزرگداشت سید جمالالدین روز",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    1,
+    2
+   ],
+   "title": "1342 قم فیضیه مدرسه شاهی پهلوی به نوروز هجوم مأموران ستم عید عملیات فتحالمبین 1361 آغاز",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    1,
+    19
+   ],
+   "title": "ش شهادت آیت‌اللهسیدمحمدباقر صدر و خواهر ایشان بنتالهدیتوسط حکومتبعث عراق 1359 ه",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    1,
+    28
+   ],
+   "title": "روایتی به 11 علیها شهادت حضرت فاطمه زهرا سلامالله",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    2,
+    10
+   ],
+   "title": "ش فارس آغاز عملیات بیت‌المقدس 1361 ه روز ملی خلیج",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    2,
+    17
+   ],
+   "title": "11 علیها شهادت حضرت فاطمه زهرا سلام الله",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    3,
+    14
+   ],
+   "title": "ولادت حضرت امام محمد باقر علیه‌السلام 57 رحلت حضرت امام خمینی ره رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران 1368 انتخاب حضرت آیت‌الله خامنهای به رهبری",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    5,
+    14
+   ],
+   "title": "انسانی کرامت و بشر اسلامی حقوق صدور فرمان مشروطیت 1285 روز",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    5,
+    19
+   ],
+   "title": "هجرت قبل از وفات حضرت خدیجه سلام الله علیها 3 سال",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    5,
+    30
+   ],
+   "title": "روز مجلسی علامه بزرگداشت روز 40 علیه‌السلام علی شهادت حضرت جهانی مسجد",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    6,
+    27
+   ],
+   "title": "شهریار ادب فارسی روز بزرگداشت استاد سید محمد حسین روز شعر",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    7,
+    20
+   ],
+   "title": "روز بزرگداشت حافظ روز کاهش اثرات بلایای طبیعی",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    7,
+    23
+   ],
+   "title": "روز 1361 منافقان دست به شهادت پنجمین شهید محراب آیت‌الله اشرفی اصفهانی جهانی نابینایان عصای سفید",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    8,
+    8
+   ],
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) روز نوجوان روز بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    8,
+    12
+   ],
+   "title": "شهادت مظلومانه زائران خانه خدا توسط مأموران آلسعود 1366 برابر با 6 ذیالحجه",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    8,
+    15
+   ],
+   "title": "روز عرفه",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    9,
+    5
+   ],
+   "title": "ش ( ه روز بسیج مستضعفان ( تشکیل بسیج مستضعفان به فرمان حضرت امام خمینی ) ره) 1358",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    10,
+    6
+   ],
+   "title": "ادت سالروز تشکیل نهضت سواد آموزی به فرمان حضرت امام خمینی ره",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    10,
+    11
+   ],
+   "title": "ولادت حضرت امام موسی کاظم علیه‌السلام 128 آغاز سال 2012 میلادی",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1390,
+   "solar": [
+    1390,
+    12,
+    25
+   ],
+   "title": "بمباران شیمیاییحلبچه توسط ارتش بعث عراق 1366 روز بزرگداشت پروین اعتصامی",
+   "source": "official-pdf",
+   "page": 17,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    1,
+    2
+   ],
+   "title": "ش قم 1342 ه فیضیه مدرسه به عید نوروز هجوممأمورانستمشاهیپهلوی آغاز عملیات فتحالمبین",
+   "source": "official-pdf",
+   "page": 3,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    1,
+    9
+   ],
+   "title": "پرستار روز ق و ه. ولادت حضرت زینب سلام الله علیها 5",
+   "source": "official-pdf",
+   "page": 3,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    1,
+    17
+   ],
+   "title": "روایتی به شهادت حضرت فاطمه زهرا سلام الله علیها 11",
+   "source": "official-pdf",
+   "page": 3,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    1,
+    21
+   ],
+   "title": "اسلامی انقلاب روز هنر – شهادت امیر سپهبد علی صیاد شیرازی 1378 ش سالروز شهادت سید مرتضی آوینی 1372 ه",
+   "source": "official-pdf",
+   "page": 3,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    5,
+    17
+   ],
+   "title": "شب قدر روز خبرنگار",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    5,
+    30
+   ],
+   "title": "مجلسی تعطیل به مناسبت عید سعید فطر روز بزرگداشت علامه",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    6,
+    2
+   ],
+   "title": "1357 شهادت سید علی اندرزگو 19 رمضان هفته دولت آغاز",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    6,
+    19
+   ],
+   "title": "ش وفات آیت‌الله سیدمحمود طالقانی اولین امام جمعه تهران 1358 ه",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "extraction_artifact",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    6,
+    27
+   ],
+   "title": "شهریار محمد حسین روز شعر و ادب فارسی روز بزرگداشت استاد سید",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    7,
+    20
+   ],
+   "title": "روز بزرگداشت حافظ روز کاهش اثرات بلایای طبیعی",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    8,
+    1
+   ],
+   "title": "با 6 برابر شهادت مظلومانه زائران خانه خدا توسط مأموران آلسعود 1366 ذیالحجه",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    8,
+    8
+   ],
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) روز نوجوان و بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    8,
+    24
+   ],
+   "title": "حسین محمد سید علامه آیت‌الله بزرگداشت روز روزکتاب، کتابخوانی و کتابدار طباطبایی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    9,
+    19
+   ],
+   "title": "رحمةالله علیه عالی انقلاب فرهنگی به فرمان حضرت امام خمینی تشکیل شورای",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    9,
+    27
+   ],
+   "title": "دانشگاه و حوزه وحدت روز 1358 مفتح محمد دکتر شهادت آیت‌الله",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    10,
+    7
+   ],
+   "title": "علیه رحمةالله خمینی امام حضرت فرمان آموزی به سالروز تشکیل نهضت سواد",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    12,
+    18
+   ],
+   "title": "اسدآبادی بزرگداشت سید جمالالدین روز",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1391,
+   "solar": [
+    1391,
+    12,
+    22
+   ],
+   "title": "بر مبنی علیه رحمةالله روز بزرگداشت شهدا سالروز صدور فرمان حضرت امام خمینی تأسیس بنیاد شهید انقلاب اسلامی",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    2,
+    11
+   ],
+   "title": "جهانی کار و ق روز علیه رهبر کبیر انقلاب اسلامی 1320 ه امام خمینی رحمةالله کارگر",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    3,
+    2
+   ],
+   "title": "البیض آغاز ایام از هجرت ولادت حضرت امام علی علیه‌السلام 23 سال قبل",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    3,
+    3
+   ],
+   "title": "ایثار و مقاومت، ش و روز 1361 ه اعتکاف فتح خرمشهر در عملیات بیت‌المقدس پیروزی",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    3,
+    14
+   ],
+   "title": "ایران 1368 انتخاب حضرت آیت‌الله امام خامنهای به رهبری",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    4,
+    7
+   ],
+   "title": "جمهوری اسلامی 1360 روز حزب انفجار بمب به دست منافقان در دفتر مرکزی قوه قضاییه",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    4,
+    28
+   ],
+   "title": "هجرت از قبل سال 3 سلام الله علیها خدیجه وفات حضرت",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    5,
+    5
+   ],
+   "title": "شب قدر سالروز عملیات افتخار آفرین مرصاد 1367",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    5,
+    9
+   ],
+   "title": "شب قدر روز اهدای خون",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    5,
+    14
+   ],
+   "title": "انسانی کرامت و اسلامی بشر حقوق روز ش صدور فرمان مشروطیت 1285 ه",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    6,
+    19
+   ],
+   "title": "امام جمعه تهران 1358 وفات آیت‌الله سیدمحمود طالقانی اولین",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    6,
+    20
+   ],
+   "title": "از تجلیل روز ش مدنی به دست منافقان هادت دومین شهید محراب آیت‌الله امام زادگان و بقاع متبرکه",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    7,
+    9
+   ],
+   "title": "با کودکان و نوجوانان فلسطینی روز همبستگی و همدردی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    8,
+    14
+   ],
+   "title": "آغاز سال 1435 هجری قمری روز فرهنگ عمومی",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    8,
+    24
+   ],
+   "title": "علامه آیت‌الله بزرگداشت روز روز تجلیل از اسرا و مفقودان روزکتاب، کتابخوانی و کتابدار سیدمحمدحسین طباطبایی",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    9,
+    19
+   ],
+   "title": "فرهنگی انقلاب عالی تشکیل شورای ولادت حضرت امام موسی کاظم علیه‌السلام 128 ش به فرمان حضرت امام خمینی رحمةالله علیه 1363 ه",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    9,
+    27
+   ],
+   "title": "دانشگاه و حوزه وحدت روز 1358 مفتح محمد دکتر شهادت آیت‌الله",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    10,
+    7
+   ],
+   "title": "سالروز تشکیل نهضت سواد آموزی به فرمان حضرت امام خمینی رحمةالله علیه",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    10,
+    20
+   ],
+   "title": "امیرکبیر خان شهادت میرزا تقی شهادت حضرت امام حسن عسکری علیه‌السلام 260",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    10,
+    24
+   ],
+   "title": "هجرت 53 سال قبل از روایت اهل سنت به ولادت حضرت رسول اکرم صلی الله علیه و آله آغاز هفته وحدت",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1392,
+   "solar": [
+    1392,
+    12,
+    16
+   ],
+   "title": "پرستار روز و ق ولادت حضرت زینب سلام الله علیها 5 ه",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    1,
+    2
+   ],
+   "title": "فیضیه قم 1342 نوروز هجوم مأموران ستم شاهی پهلوی به مدرسه عید عملیات فتحالمبین 1361 آغاز",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    1,
+    4
+   ],
+   "title": "نوروز شهادت حضرت فاطمه زهرا سلام الله علیها 11 عید",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    2,
+    14
+   ],
+   "title": "مکه وفات حضرت زینب سلام الله علیها 62 تغییر قبله مسلمین از بیت‌المقدس به معظمه",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    2,
+    24
+   ],
+   "title": "امام حضرت شهادت 1270 شیرازی حسن لغو امتیاز تنباکو به فتوای آیت‌الله میرزا موسی کاظم علیه‌السلام",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    3,
+    1
+   ],
+   "title": "حضرت ولادت صدرالمتألهین روز بهرهوری و بهینه سازی مصرف روز بزرگداشت ملاصدرا امام حسین علیه‌السلام 4 و روز پاسدار",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    3,
+    14
+   ],
+   "title": "ایران رحلت حضرت امام خمینی رحمةالله علیه رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی 1368 انتخاب حضرت آیت‌الله امام خامنهای به رهبری",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    4,
+    7
+   ],
+   "title": "انفجار بمب به دست منافقان در دفتر مرکزی حزب جمهوری اسلامی 1360 روز قوه قضاییه",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    4,
+    11
+   ],
+   "title": "ش ولادت هادت آیت‌الله صدوقی چهارمین شهید محراب حضرت امام حسن مجتبی علیه‌السلام 3 و روز اکرام",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    4,
+    12
+   ],
+   "title": "اسلامی ایران جمهوری حمله ددمنشانه ناوگان آمریکای جنایتکار",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    4,
+    14
+   ],
+   "title": "شب قدر روز قلم",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    4,
+    26
+   ],
+   "title": "نگهبان شورای نهاد تأسیس سالروز رمضان ( روز جهانی قدس ) آخرین جمعه ماه",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    5,
+    14
+   ],
+   "title": "انسانی کرامت و اسلامی بشر حقوق روز صدور فرمان مشروطیت",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    6,
+    27
+   ],
+   "title": "شهریار روز شعر و ادب فارسی روز بزرگداشت استاد سید محمد حسین",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    7,
+    1
+   ],
+   "title": "روز عرفه",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    7,
+    13
+   ],
+   "title": "نیروی روز 1357 پاریس به هجرت حضرت امام خمینی رÊrالله علیه از عراق انتظامی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    7,
+    23
+   ],
+   "title": "به اصفهانی اشرفی آغاز سال 1437 هجری قمری شهادت پنجمین شهید محراب آیت‌الله دست منافقان 1361 روز جهانی نابینایان عصای سفید",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    8,
+    8
+   ],
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) روز نوجوان و بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    8,
+    13
+   ],
+   "title": "ملی روز 1358 امام خط پیرو به دست دانشجویان تسخیر لانه جاسوسی آمریکا دانش آموز مبارزه با استکبار جهانی روز",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    9,
+    5
+   ],
+   "title": "علیه رÊrالله خمینی امام حضرت فرمان به مستضعفان بسیج تشکیل روز بسیج مستضعفان",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    9,
+    10
+   ],
+   "title": "و روز مجلس شهادت آیت‌الله سید حسن مدرس",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    9,
+    27
+   ],
+   "title": "ملی روز – دانشگاه و حوزه شهادت آیت‌الله دکتر محمد مفتح 1358 روز وحدت مبارزه با خشونت و افراطی گری",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    10,
+    3
+   ],
+   "title": "هجرت از قبل سال 53 سنت اهل ولادت حضرت رسول اکرم صلی الله علیه و آله به روایت آغاز هفته وحدت",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    10,
+    7
+   ],
+   "title": "سالروز تشکیل نهضت سواد آموزی به فرمان حضرت امام خمینی رحمةالله علیه",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    10,
+    29
+   ],
+   "title": "ولادت حضرت امام حسن عسکری علیه‌السلام 232 روز غزه",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    11,
+    1
+   ],
+   "title": "201 علیها وفات حضرت معصومه سلامالله",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1394,
+   "solar": [
+    1394,
+    12,
+    22
+   ],
+   "title": "بر مبنی علیه رحمةالله خمینی روز بزرگداشت شهدا سالروز صدور فرمان حضرت امام تأسیس بنیاد شهید انقلاب اسلامی",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1395,
+   "solar": [
+    1395,
+    3,
+    14
+   ],
+   "title": "ایران جمهوری اسلامی انقلاب و بنیانگذار الله علیه رهبر کبیر رحلت حضرت امام خمینی رحمة به رهبری 1368 آیت‌الله امام خامنهای 1368 انتخاب حضرت",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1395,
+   "solar": [
+    1395,
+    4,
+    6
+   ],
+   "title": "شب قدر شهادت حضرت علی علیه‌السلام 40 شهادت مظلومانه آیت‌الله دکتر",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1395,
+   "solar": [
+    1395,
+    6,
+    21
+   ],
+   "title": "روز عرفه",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1395,
+   "solar": [
+    1395,
+    6,
+    27
+   ],
+   "title": "روز فارسی ادب و شعر روز ق ولادت حضرت امام علی النقی الهادی علیه‌السلام 212 ه بزرگداشت استاد سید محمد حسین شهریار",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1395,
+   "solar": [
+    1395,
+    7,
+    13
+   ],
+   "title": "نیروی روز 1357 پاریس به عراق از علیه الله هجرت حضرت امام خمینی رحمة انتظامی",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1395,
+   "solar": [
+    1395,
+    7,
+    23
+   ],
+   "title": "محراب پنجمین شهید شهادت حضرت امام زینالعابدین علیه‌السلام 95 شهادت استاندارد آیت‌الله اشرفی اصفهانی به دست منافقان 1361 روزجهانی",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1395,
+   "solar": [
+    1395,
+    8,
+    8
+   ],
+   "title": "محمدحسینفهمیده (بسیجی 13 ساله) روز نوجوان و بسیج دانشآموزی شهادت",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1395,
+   "solar": [
+    1395,
+    8,
+    13
+   ],
+   "title": "ملی روز 1358 امام خط پیرو به دست دانشجویان تسخیر لانه جاسوسی آمریکا دانش آموز مبارزه با استکبار جهانی روز",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1395,
+   "solar": [
+    1395,
+    11,
+    23
+   ],
+   "title": "11 به روایتی زهرا سلام الله علیها شهادت حضرت فاطمه",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1395,
+   "solar": [
+    1395,
+    12,
+    12
+   ],
+   "title": "11 علیها الله سلام شهادت حضرت فاطمه زهرا",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1395,
+   "solar": [
+    1395,
+    12,
+    29
+   ],
+   "title": "خمینی رحمةالله علیه رهبر کبیر انقلاب اسلامی 1320 روز ملی شدن صنعت نفت ایران",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    1,
+    21
+   ],
+   "title": "شماره 100 به فرمان حضرت امام (رحمةالله علیه) و تأسیس بنیاد مسکن انقلاب اسلامی",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    2,
+    12
+   ],
+   "title": "قائم حضرت شهادت استاد مرتضی مطهری 1358 روز معلم ولادت عجلالله تعالی فرجه 255 و روز جهانی مستضعفان",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    2,
+    28
+   ],
+   "title": "بزرگداشت حکیم عمر خیام روز",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    2,
+    30
+   ],
+   "title": "ملی جمعیت روز",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    4,
+    7
+   ],
+   "title": "علیه با انفجار بمب به دست منافقان در دفتر مرکزی حزب جمهوری اسلامی 1360 روز قوه قضاییه",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    5,
+    14
+   ],
+   "title": "انسانی کرامت و اسلامی بشر حقوق روز صدور فرمان مشروطیت 1285",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    5,
+    21
+   ],
+   "title": "علیه‌السلام تقی روز حمایت از صنایع کوچک شهادت حضرت امام محمد »جوادالائمه«",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    5,
+    28
+   ],
+   "title": "محمد باقر امام حضرت کودتای آمریکا برای بازگرداندن شاه 1332 شهادت علیه‌السلام",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    6,
+    7
+   ],
+   "title": "و شهادت منافقان دست روز مبارزه با تروریسم انفجار دفتر نخستوزیری به",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    6,
+    8
+   ],
+   "title": "10 غدیر خم سعید مظلومانه شهیدان رجایی و باهنر عید",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    6,
+    14
+   ],
+   "title": "مباهله روز 1360 شهادت آیت‌الله قدوسی و سرتیپ وحید دستجردی پیامبر اسلام صلی الله علیه و آله",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    6,
+    19
+   ],
+   "title": "امام جمعه تهران 1358 وفات آیت‌الله سیدمحمود طالقانی اولین",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    6,
+    31
+   ],
+   "title": "امام آغاز جنگ تحمیلی 1359 آغاز هفته دفاع مقدس شهادت حضرت زینالعابدین علیه‌السلام",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    7,
+    23
+   ],
+   "title": "1361 منافقان شهادت پنجمین شهید محراب آیت‌الله اشرفی اصفهانی به دست روز جهانی نابینایان عصای سفید",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    7,
+    25
+   ],
+   "title": "روز روایتی شهادت حضرت امام حسن مجتبی علیه‌السلام 50 به بزرگداشت سلمان فارسی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    8,
+    13
+   ],
+   "title": "1358 امام خط پیرو دانشجویان دست تسخیر لانه جاسوسی آمریکا به دانش آموز روز روز ملی مبارزه با استکبار جهانی",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    9,
+    4
+   ],
+   "title": "و مهرورزی ولادت حضرت امام جعفر صادق علیه‌السلام مؤسس مذهب جعفری",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    9,
+    19
+   ],
+   "title": "علیه ( الله حضرت امام خمینی ) رحمة فرمان عالی انقلاب فرهنگی به تشکیل شورای",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    10,
+    7
+   ],
+   "title": "علیه ( الله خمینی) رحمة امام حضرت سالروز تشکیل نهضت سوادآموزی به فرمان",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    10,
+    30
+   ],
+   "title": "روایتی به علیها 11 شهادت حضرت فاطمه زهرا سلامالله",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1397,
+   "solar": [
+    1397,
+    11,
+    20
+   ],
+   "title": "علیها 11 زهرا سلام الله شهادت حضرت فاطمه",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    2,
+    30
+   ],
+   "title": "روز و ق ( ه ) 3 علیه‌السلام مجتبی حسن امام روز ملی جمعیت ولادت حضرت اکرام",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    3,
+    31
+   ],
+   "title": "ش روز بسیج استادان روز فرهنگ شهادت دکتر مصطفی چمران 1360 ه پهلوانی و ورزش زورخانهای",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    4,
+    7
+   ],
+   "title": "علیه با انفجار بمب به دست منافقان در دفتر مرکزی حزب جمهوری اسلامی 1360 روز قوه قضاییه",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    5,
+    17
+   ],
+   "title": "1366 سعود آل مأموران روز خبرنگار شهادت مظلومانه زائران خانه خدا به دست برابر با 6 ذیالحجه",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    5,
+    20
+   ],
+   "title": "عرفه (روز نیایش) روز",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    5,
+    22
+   ],
+   "title": "اجتماعی تشکلها و مشارکتهای روز",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    5,
+    26
+   ],
+   "title": "علی امام حضرت ولادت ش آغاز بازگشت آزادگان به میهن اسلامی 1369 ه النقی الهادی علیه‌السلام",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    5,
+    31
+   ],
+   "title": "ق ولادت حضرت امام موسی کاظم علیه‌السلام 128 ه",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    6,
+    5
+   ],
+   "title": "و خانواده روز روز بزرگداشت محمدبن زکریای رازی روز داروسازی روز کشتی تکریم بازنشستگان",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    6,
+    27
+   ],
+   "title": "شهریار ادب فارسی روز بزرگداشت استاد سید محمد حسین روز شعر",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    7,
+    23
+   ],
+   "title": "1361 منافقان دست به اصفهانی شهادت پنجمین شهید محراب آیت‌الله اشرفی روز جهانی نابینایان عصای سفید",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    8,
+    8
+   ],
+   "title": "بسیج دانشآموزی شهادت محمدحسین فهمیده (بسیجی 13 ساله) روز نوجوان و هجرت حضرت رسول اکرم صلی الله علیه و آله از مکه به مدینه",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    10,
+    7
+   ],
+   "title": "علیه ( الله خمینی) رحمة سالروز تشکیل نهضت سوادآموزی به فرمان حضرت امام",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    10,
+    11
+   ],
+   "title": "و روز ق علیها 5 ه. آغاز سال 2020 میلادی ولادت حضرت زینب سلام الله پرستار",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    10,
+    20
+   ],
+   "title": "امیرکبیر 1230 شهادت میرزاتقیخان",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    11,
+    9
+   ],
+   "title": "علیها 11 شهادت حضرت فاطمه زهرا سلام الله",
+   "source": "official-pdf",
+   "page": 16,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    12,
+    17
+   ],
+   "title": "روز بزرگداشت سید جمالالدین اسدآبادی سالروز تأسیس کانونهای فرهنگی",
+   "source": "official-pdf",
+   "page": 17,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1398,
+   "solar": [
+    1398,
+    12,
+    20
+   ],
+   "title": "ق تغییر قبله روز راهیان نور ارتحال حضرت زینب سلام الله علیها 62 ه مسلمین از بیت‌المقدس به مکه معظمه",
+   "source": "official-pdf",
+   "page": 17,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    1,
+    2
+   ],
+   "title": "مدرسۀ فیضیۀ قم هجوم مأموران ستم شاهی پهلوی به عید نوروز عملیات فتحالمبین 1361 1342 آغاز",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    1,
+    3
+   ],
+   "title": "از هجرت اکرم صلی الله علیه و آله 13 سال قبل مبعث حضرت رسول عید نوروز",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    1,
+    21
+   ],
+   "title": "مستضعفان شهادت امیر سپهبد علی صیاد شیرازی 1378 سالروز افتتاح حساب شماره 100 به فرمان حضرت امام رحمةالله علیه و تأسیس بنیاد مسکن انقلاب اسلامی",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    2,
+    24
+   ],
+   "title": "به ضربت خوردن حضرت امام علی علیه‌السلام 40 لغو امتیاز تنباکو فتوای آیت‌الله میرزا حسن شیرازی",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    4,
+    7
+   ],
+   "title": "تن از یاران امام خمینی رحمةالله علیه با انفجار بمب به دست منافقان در دفتر مرکزی حزب جمهوری اسلامی 1360 روز قوه قضاییه",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    5,
+    7
+   ],
+   "title": "ق شهادت حضرت امام محمد باقر علیه‌السلام 114 ه",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    5,
+    9
+   ],
+   "title": "روز عرفه",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    5,
+    14
+   ],
+   "title": "انسانی کرامت و صدور فرمان مشروطیت 1285 روز حقوق بشر اسلامی",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    5,
+    31
+   ],
+   "title": "آغاز سال 1442 هجری قمری روز جهانی مسجد",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    7,
+    4
+   ],
+   "title": "روز شهادت حضرت امام حسن مجتبی علیه‌السلام 50 به روایتی بزرگداشت سلمان فارسی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    7,
+    13
+   ],
+   "title": "1357 پاریس به عراق از علیه الله ه رحم خمینی هجرت حضرت امام روز نیروی انتظامی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    8,
+    3
+   ],
+   "title": "شهادت حضرت امام حسن عسکری علیه‌السلام 260 و آغاز امامت حضرت",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    8,
+    24
+   ],
+   "title": "سیدمحمدحسین علامه آیت‌الله روز بزرگداشت روزکتاب، کتابخوانی و کتابدار طباطبایی",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    9,
+    10
+   ],
+   "title": "و روز مجلس مدرس 1316 شهادت آیت‌الله سید حسن",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    9,
+    19
+   ],
+   "title": "علیه ( الله حضرت امام خمینی ) رحمة فرمان عالی انقلاب فرهنگی به تشکیل شورای",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    9,
+    27
+   ],
+   "title": "روز حوزه و دانشگاه روز وحدت شهادت آیت‌الله دکتر محمد مفتح 1358 جهانعاری از خشونت و افراطیگری",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    10,
+    7
+   ],
+   "title": "علیه ( الله سالروز تشکیل نهضت سوادآموزی به فرمان حضرت امام خمینی) رحمة",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    10,
+    22
+   ],
+   "title": "علیه 1357 الله تشکیل شورای انقلاب به فرمان حضرت امام خمینی رحمة",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1399,
+   "solar": [
+    1399,
+    12,
+    29
+   ],
+   "title": "نفت صنعت روز ملی شدن 38 ولادت حضرت امام زینالعابدین علیه‌السلام ایران",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    1,
+    2
+   ],
+   "title": "قم فیضیۀ مدرسۀ به عید نوروز هجوم مأموران ستم شاهی پهلوی 1342 آغاز عملیات فتحالمبین",
+   "source": "official-pdf",
+   "page": 3,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    1,
+    21
+   ],
+   "title": "شماره 100 به فرمان حضرت امام (رحمةالله علیه) و تأسیس بنیاد مسکن انقلاب اسلامی",
+   "source": "official-pdf",
+   "page": 3,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    2,
+    8
+   ],
+   "title": "تکریم و اکرام روز و ق ( ه ) 3 علیه‌السلام مجتبی ولادت حضرت امام حسن خیرین",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    2,
+    11
+   ],
+   "title": "شب قدر روز جهانی کار و کارگر",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    2,
+    24
+   ],
+   "title": "میرزا آیت‌الله تعطیل به مناسبت عید سعید فطر لغو امتیاز تنباکو به فتوای حسن شیرازی",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    2,
+    28
+   ],
+   "title": "بزرگداشت حکیم عمر خیام روز",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    2,
+    30
+   ],
+   "title": "ملی جمعیت روز",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    4,
+    7
+   ],
+   "title": "علیه با انفجار بمب به دست منافقان در دفتر مرکزی حزب جمهوری اسلامی 1360 روز قوه قضاییه بمباران شیمیایی شهر سردشت",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    4,
+    29
+   ],
+   "title": "روز عرفه",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    5,
+    4
+   ],
+   "title": "بزرگداشت روز 212 ولادت حضرت امام علی النقی الهادی علیه‌السلام شیخ صفیالدین اردبیلی",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    6,
+    12
+   ],
+   "title": "با مبارزه روز روایتی به شهادت حضرت امام زینالعابدین علیه‌السلام 95 استعمار انگلیس سالروز شهادت رییسعلی دلواری",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    7,
+    27
+   ],
+   "title": "قبل سال 53 سنت اهل روایت به آله و علیه ولادت حضرت رسول اکرم صلیالله از هجرت آغاز هفته وحدت",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    8,
+    2
+   ],
+   "title": "و مهرورزی ولادت حضرت امام جعفر صادق علیه‌السلام مؤسس مذهب جعفری",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    8,
+    8
+   ],
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) روز نوجوان و بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    8,
+    24
+   ],
+   "title": "سیدمحمدحسین علامه آیت‌الله روزکتاب، کتابخوانی و کتابدار روز بزرگداشت طباطبایی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    9,
+    10
+   ],
+   "title": "و روز مجلس شهادت آیت‌الله سید حسن مدرس",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    9,
+    19
+   ],
+   "title": "عالی ولادت حضرت زینب سلام الله علیها 5 و روز پرستار تشکیل شورای انقلاب فرهنگی به فرمان حضرت امام خمینی رحمةالله علیه",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    10,
+    7
+   ],
+   "title": "علیه ( الله خمینی) رحمة امام حضرت فرمان به سالروز تشکیل نهضت سوادآموزی",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    11,
+    3
+   ],
+   "title": "تولد از هجرت و روز زن سلام الله علیها هشتم قبل ولادت حضرت فاطمۀ زهرا اسلامی 1320 الله علیه رهبر کبیر انقلاب حضرت امام خمینی رحمة",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    11,
+    28
+   ],
+   "title": "از قبلۀ مسلمین ارتحال حضرت زینب سلام الله علیها 62 تغییر بیت‌المقدس به مکه معظمه",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1400,
+   "solar": [
+    1400,
+    12,
+    27
+   ],
+   "title": "جهانی روز و ولادت حضرت قائم عجلالله تعالی فرجه 255 مستضعفان",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    1,
+    2
+   ],
+   "title": "قم فیضیه مدرسه به عید نوروز هجوم مأموران ستم شاهی پهلوی 1342 آغاز عملیات فتحالمبین",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    1,
+    21
+   ],
+   "title": "شماره 100 به فرمان حضرت امام (رحمةالله علیه) و تأسیس بنیاد مسکن انقلاب اسلامی",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    1,
+    28
+   ],
+   "title": "خیرین تکریم و اکرام روز و ق ( ه ) 3 حسن مجتبی علیه‌السلام ولادت حضرت امام",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    2,
+    9
+   ],
+   "title": "شوراها رمضان ( روز روز جهانی قدس ) آخرین جمعه ماه",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "extraction_artifact",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    2,
+    28
+   ],
+   "title": "خیام عمر حکیم بزرگداشت روز فرهنگ پهلوانی و ورزش زورخانهای روز",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    2,
+    30
+   ],
+   "title": "ملی جمعیت روز",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    4,
+    7
+   ],
+   "title": "علیه با انفجار بمب به دست منافقان در دفتر مرکزی حزب جمهوری اسلامی 1360 روز قوه قضاییه بمباران شیمیایی شهر سردشت",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    4,
+    18
+   ],
+   "title": "روز عرفه",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    4,
+    24
+   ],
+   "title": "212 السلام ولادت حضرت امام علی النقی الهادی علیه",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    5,
+    8
+   ],
+   "title": "محتشم روز بزرگداشت آغاز سال 1444 هجری قمری روز شعر و ادبیات آیینی- اشراق ( کاشانی روز بزرگداشت شیخ شهابالدین سهروردی ) شیخ",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    5,
+    14
+   ],
+   "title": "انسانی صدور فرمان مشروطیت 1285 روز حقوق بشر اسلامی و کرامت",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    6,
+    27
+   ],
+   "title": "شهریار روز شعر و ادب فارسی روز بزرگداشت استاد سید محمد حسین",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    7,
+    2
+   ],
+   "title": "روز وقف-روز بزرگداشت شهدای منا",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    7,
+    12
+   ],
+   "title": "حضرت و آغاز امامت شهادت حضرت امام حسن عسکری علیه‌السلام 260",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    7,
+    13
+   ],
+   "title": "عراق به الله علیه از رحمة ولیعصر عج هجرت حضرت امام خمینی پاریس 1357 روز نیروی انتظامی",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    8,
+    8
+   ],
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) روز نوجوان و بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    8,
+    24
+   ],
+   "title": "سیدمحمدحسین علامه آیت‌الله روزکتاب، کتابخوانی و کتابدار روز بزرگداشت طباطبایی",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    9,
+    27
+   ],
+   "title": "دانشگاه و حوزه وحدت روز مفتح 1358 شهادت آیت‌الله دکتر محمد افراطیگری روز جهانعاری از خشونت",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    10,
+    7
+   ],
+   "title": "علیه ( الله سالروز تشکیل نهضت سوادآموزی به فرمان حضرت امام خمینی) رحمة",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    10,
+    16
+   ],
+   "title": "شهدا- روز شهدای دانشجو شهادت سیدحسن علمالهدی و همرزمان وی در هویزه",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    11,
+    15
+   ],
+   "title": "هجرت آغاز از قبل ولادت حضرت امام علی علیه‌السلام 23 سال ایام البیض اعتکاف روز پدر",
+   "source": "official-pdf",
+   "page": 16,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    11,
+    17
+   ],
+   "title": "تغییر قبله مسلمین از ق ارتحال حضرت زینب سلام الله علیها 62 ه بیت‌المقدس به مکه معظمه",
+   "source": "official-pdf",
+   "page": 16,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1401,
+   "solar": [
+    1401,
+    12,
+    17
+   ],
+   "title": "255 و روز جهانی عجلالله تعالی فرجه ولادت حضرت قائم مستضعفان",
+   "source": "official-pdf",
+   "page": 17,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    1,
+    12
+   ],
+   "title": "شب قدر و روز جمهوری اسلامی ایران",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    1,
+    21
+   ],
+   "title": "شمارۀ 100 به فرمان حضرت امام خمینی رحمة الل علیه و تأسیس بنیاد مسکن انقلاب اسلامی",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    2,
+    3
+   ],
+   "title": "بهایی و روز شهادت امیر سپهبد قرنی و روز بزرگداشت شیخ معماری",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    2,
+    31
+   ],
+   "title": "زندگی اهدای عضو، اهدای روز و ق (هو) 148 ولادت حضرت امام رضا علیه‌السلام",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    3,
+    14
+   ],
+   "title": "رهبری ایران و انتخاب حضرت آیت‌الله امام خامنهای به",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    3,
+    27
+   ],
+   "title": "روز عرفه",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    4,
+    6
+   ],
+   "title": "ولادت حضرت امام موسی کاظم علیه‌السلام و شهادت مظلومانه آیت",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    5,
+    22
+   ],
+   "title": "بزرگداشت روز و روایتی به ق (حسن مجتبی علیه‌السلام) هادت حضرت امام تشکلها و مشارکتهای اجتماعی سلمان فارسی و روز",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    6,
+    12
+   ],
+   "title": "حسن مجتبی علیه‌السلام و شهادت رییسعلی دلواری و روز مبارزه با استعمار انگلیس",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    6,
+    22
+   ],
+   "title": "حضرت شهادت حضرت امام حسن عسکری علیه‌السلام و آغاز امامت ولیعصر عجل الله تعالی فرجه",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    8,
+    8
+   ],
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) و روز نوجوان و بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    8,
+    25
+   ],
+   "title": "شهادت حضرت فاطمه زهرا سلام الله علیها (به روایتی",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "unbalanced_parentheses",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    10,
+    12
+   ],
+   "title": "آغاز سال 2025 میلادی جهانی مقاومت و ق (و روز علیه‌السلام) 57 هو ولادت حضرت امام محمد باقر",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    12,
+    26
+   ],
+   "title": "خیرین ولادت حضرت امام حسن مجتبی علیه‌السلام و روز اکرام و تکریم",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    12,
+    28
+   ],
+   "title": "روز تکریم همسایگان",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1403,
+   "solar": [
+    1403,
+    12,
+    29
+   ],
+   "title": "شب قدر و روز ملی شدن صنعت نفت ایران",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    1,
+    3
+   ],
+   "title": "شب قدر و عید نوروز",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    1,
+    21
+   ],
+   "title": "شمارۀ 100 به فرمان حضرت امام خمینی رحمةالله علیه و تأسیس بنیاد مسکن انقلاب اسلامی",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    2,
+    3
+   ],
+   "title": "و روز بهایی شهادت امیر سپهبد قرنی و روز بزرگداشت شیخ معماری",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    4,
+    7
+   ],
+   "title": "تن از یاران امام خمینی (رحمةالله علیه) با انفجار بمب به دست منافقان حزب جمهوری اسلامی و روز قوۀ قضاییه و بمباران شیمیایی شهر",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    5,
+    10
+   ],
+   "title": "بزرگداشت روز و روایتی به شهادت حضرت امام حسن مجتبی علیه‌السلام سلمان فارسی",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    5,
+    14
+   ],
+   "title": "انسانی کرامت و اسلامی بشر حقوق صدور فرمان مشروطیت و روز",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    6,
+    27
+   ],
+   "title": "شهریار ادب فارسی و روز بزرگداشت استاد سید محمد حسین روز شعر",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    7,
+    9
+   ],
+   "title": "ق (وو روز جهوانی ولادت حضرت امام حسن عسوکری علیوهالسولام) 232 هوو سالمندان",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    7,
+    13
+   ],
+   "title": "روز ش (وو هوو ( 1357 خمینی ) رحمة اللهعلیوه) از عراق به پواریس هجرت حضرت امام نیروی انتظامی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    8,
+    8
+   ],
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) و روز نوجوان و بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    8,
+    12
+   ],
+   "title": "شهادت حضرت فاطمه زهرا سلام الله علیها (به روایتی",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "unbalanced_parentheses",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    8,
+    24
+   ],
+   "title": "طباطبایی",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    9,
+    12
+   ],
+   "title": "جمهوری اسلامی ایران و روز جهانی معلولان",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    9,
+    20
+   ],
+   "title": "حضرت امام خمینی رحمةالله علیه رهبر کبیر انقلاب اسلامی و شهادت سومین شهید محراب، آیت‌الله دستغیب به دست منافقان",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    9,
+    26
+   ],
+   "title": "روز و دانشگاه و حوزه وحدت ش (و روز هادت آیت‌الله دکتر محمد مفتح) 1358",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    10,
+    15
+   ],
+   "title": "از ارتحال حضرت زینب سلام الله علیها و تغییر قبله مسلمین بیت‌المقدس به مکه معظمه",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    10,
+    22
+   ],
+   "title": "ش(هو ( 1357 علیه) الله تشکیل شورای انقلاب به فرمان حضرت امام خمینی)رحمة",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    10,
+    25
+   ],
+   "title": "و روز تاریخنگاری علیه‌السلام شهادت حضرت امام موسی کاظم انقلاب اسلامی",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    10,
+    26
+   ],
+   "title": "فرار شاه معدوم هجرت (و علیه و آله) 13 سال قبل از مبعث حضرت رسول اکرم صلی الله",
+   "source": "official-pdf",
+   "page": 13,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    11,
+    15
+   ],
+   "title": "جهانی روز و ق 255 هو فرجه تعالی عجلالله ولادت حضرت قائم مستضعفان",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1404,
+   "solar": [
+    1404,
+    12,
+    26
+   ],
+   "title": "روز تکریم همسایگان",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    1,
+    21
+   ],
+   "title": "شمارۀ 100 به فرمان حضرت امام خمینی رحمةالله علیه و تأسیس بنیاد مسکن انقلاب اسلامی",
+   "source": "official-pdf",
+   "page": 3,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    2,
+    9
+   ],
+   "title": "و روز شوراها (امام رضا علیه‌السلام) 148 ولادت حضرت",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    3,
+    5
+   ],
+   "title": "روز عرفه",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    3,
+    20
+   ],
+   "title": "و روز دسوتی صونای روز و ق (هو) 10 آله و روز مباهله پیامبر اسلام صلی الله علیه ملی فرش",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    3,
+    25
+   ],
+   "title": "آغاز سال 1448 هجری قمری و روز بزرگداشت محتشم کاشانی و روز شعر و ادبیات",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    4,
+    30
+   ],
+   "title": "شهادت حضرت امام حسن مجتبی علیه‌السلام به روایتی و روز",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    5,
+    14
+   ],
+   "title": "انسانی کرامت و اسلامی بشر حقوق صدور فرمان مشروطیت و روز",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    5,
+    29
+   ],
+   "title": "شهادت حضرت امام حسن عسکری علیه‌السلام و آغاز امامت حضرت",
+   "source": "official-pdf",
+   "page": 7,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    6,
+    3
+   ],
+   "title": "از قبل سال اهل سنت ( 53 ولادت حضرت رسول اکرم صلی الله علیه و آله به روایت هجرت) و آغاز هفته وحدت",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    6,
+    31
+   ],
+   "title": "ش (هو وفات حضرت معصومه سلام الله علیها و آغاز جنگ تحمیلی) 1359 و آغاز هفته دفاع مقدس",
+   "source": "official-pdf",
+   "page": 8,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    7,
+    1
+   ],
+   "title": "روز پرچم سپتامبر",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    7,
+    13
+   ],
+   "title": "روز ش (وو هوو ( 1357 خمینی ) رحمة اللهعلیوه) از عراق به پواریس هجرت حضرت امام نیروی انتظامی",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    8,
+    2
+   ],
+   "title": "شهادت حضرت فاطمه زهرا سلام الله علیها (به روایتی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "unbalanced_parentheses",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    8,
+    8
+   ],
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) و روز نوجوان و بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    8,
+    23
+   ],
+   "title": "سیدمحمدحسین روزکتاب، کتابخوانی و کتابدارو روز بزرگداشت آیت‌الله علامه",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    8,
+    24
+   ],
+   "title": "طباطبایی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    9,
+    20
+   ],
+   "title": "ولادت حضرت امام محمد باقر علیه‌السلام و شهادت سومین شهید محراب، آیت‌الله دستغیب به دست منافقان",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    9,
+    26
+   ],
+   "title": "و دانشگاه و شهادت آیت‌الله دکتر محمد مفتح و روز وحدت حوزه",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    10,
+    3
+   ],
+   "title": "ارتحال حضرت زینب سلام الله علیها و تغییر قبله مسلمین از بیت‌المقدس به",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    12,
+    3
+   ],
+   "title": "خیرین اکرام و تکریم روز ولادت حضرت امام حسن مجتبی علیه‌السلام",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    12,
+    7
+   ],
+   "title": "نهجالبلاغه روز ضربت خوردن حضرت امام علی علیه‌السلام",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1405,
+   "solar": [
+    1405,
+    12,
+    22
+   ],
+   "title": "انقلاب شهید بنیاد تأسیس بر مبنی صدور فرمان حضرت امام خمینی (رحمةالله علیه) اسلامی و روز بزرگداشت شهدا",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    1,
+    21
+   ],
+   "title": "شمارۀ 100 به فرمان حضرت امام خمینی رحمةالله علیه و تأسیس بنیاد مسکن انقلاب اسلامی",
+   "source": "official-pdf",
+   "page": 4,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    2,
+    3
+   ],
+   "title": "و روز بهایی شهادت امیر سپهبد قرنی و روز بزرگداشت شیخ معماری",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    2,
+    26
+   ],
+   "title": "روز عرفه",
+   "source": "official-pdf",
+   "page": 5,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    3,
+    14
+   ],
+   "title": "ایران و انتخاب حضرت آیت‌الله امام خامنهای به رهبری",
+   "source": "official-pdf",
+   "page": 6,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    6,
+    20
+   ],
+   "title": "محراب، وفات حضرت معصومه سلام الله علیها و شهادت دومین شهید آیت‌الله مدنی به دست منافقان",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    6,
+    27
+   ],
+   "title": "شهریار ادب فارسی و روز بزرگداشت استاد سید محمد حسین روز شعر",
+   "source": "official-pdf",
+   "page": 9,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    7,
+    1
+   ],
+   "title": "روز پرچم",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    7,
+    13
+   ],
+   "title": "روز و هجرت حضرت امام خمینی (رحمةالله علیه) از عراق به پاریس نیروی انتظامی",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    7,
+    22
+   ],
+   "title": "جهانی روایتی و روز به (شهادت حضرت فاطمه زهرا سلام الله علیها) 11 استاندارد",
+   "source": "official-pdf",
+   "page": 10,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    8,
+    8
+   ],
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) و روز نوجوان و بسیج دانشآموزی",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    8,
+    20
+   ],
+   "title": "روز و شهدا همسران و مادران تکریم روز وفات حضرت امالبنین سلام الله علیها",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    8,
+    24
+   ],
+   "title": "طباطبایی",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    8,
+    28
+   ],
+   "title": "حضرت امام خمینی رحمةالله علیه رهبر کبیر انقلاب اسلامی",
+   "source": "official-pdf",
+   "page": 11,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    9,
+    5
+   ],
+   "title": "بسیج مستضعفان",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    9,
+    9
+   ],
+   "title": "شیخ مفید و روز جزایر سهگانه خلیج فارس (بوموسی، تنب بزرگ و تنب کوچک) و روز ترویج زکات",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    9,
+    22
+   ],
+   "title": "ارتحال حضرت زینب سلام الله علیها و تغییر قبله مسلمین از بیت‌المقدس به",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "no_safe_catalog_match",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    9,
+    23
+   ],
+   "title": "مکه معظمه",
+   "source": "official-pdf",
+   "page": 12,
+   "category": "fragment_or_truncated_title",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    11,
+    6
+   ],
+   "title": "نواهای و آواها روز و اُرمَوی صفیالدین سالروز حماسه مردم آمل و روز بزرگداشت ایرانی",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    11,
+    21
+   ],
+   "title": "ولادت حضرت امام حسن مجتبی علیه‌السلام و روز اکرام و تکریم",
+   "source": "official-pdf",
+   "page": 14,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    12,
+    8
+   ],
+   "title": "عید سعید فطر و روز حمایت از بیماران نادر تعطیل به مناسبت عید سعید فطر و شهادت امام مجاهد حضرت آیت‌الله العظمی",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  },
+  {
+   "year": 1406,
+   "solar": [
+    1406,
+    12,
+    22
+   ],
+   "title": "انقلاب شهید بنیاد تأسیس بر مبنی صدور فرمان حضرت امام خمینی (رحمةالله علیه) اسلامی و روز بزرگداشت شهدا",
+   "source": "official-pdf",
+   "page": 15,
+   "category": "multi_event_or_concatenated",
+   "disposition": "needs_manual_review",
+   "action": "افزودنِ رویدادِ کاتالوگ با منبع مستقل یا ثبت به‌عنوان ردیفِ چندرویدادی/آسیبِ استخراج"
+  }
+ ]
+}
