@@ -1,9 +1,9 @@
 {
  "year": 1403,
  "mode": "data",
- "count": 386,
+ "count": 387,
  "droppedRows": 8,
- "addedRows": 158,
+ "addedRows": 159,
  "rows": [
   {
    "title": "عید نوروز",
@@ -577,7 +577,7 @@
     9,
     22
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -3451,7 +3451,7 @@
     12,
     11
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -7090,7 +7090,7 @@
     3,
     17
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -7123,7 +7123,7 @@
     3,
     17
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "historical",
    "recurrenceType": "D",
@@ -8460,7 +8460,7 @@
    "year": 1403
   },
   {
-   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله",
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) و روز نوجوان و بسیج دانشآموزی",
    "solar": [
     1403,
     8,
@@ -8479,17 +8479,11 @@
    "holiday": false,
    "approx": false,
    "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0370",
+   "recurrenceType": null,
+   "eventId": null,
    "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۸ آبان ۱۳۷۷",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "official-split",
+   "origin": null,
+   "source": "official-pdf",
    "year": 1403
   },
   {
@@ -8522,7 +8516,7 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
-   "source": "official-split",
+   "source": "catalog",
    "year": 1403
   },
   {
@@ -11929,7 +11923,7 @@
     8,
     16
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -12474,7 +12468,7 @@
    "year": 1403
   },
   {
-   "title": "صدور فرمان حضرت امام خمینی (رحمةالله علیه) مبنی بر تأسیس بنیاد شهید انقلاب اسلامی و روز بزرگداشت شهدا",
+   "title": "صدور فرمان حضرت امام خمینی (ره) مبنی بر تأسیس بنیاد شهید انقلاب اسلامی",
    "solar": [
     1403,
     12,
@@ -12493,11 +12487,50 @@
    "holiday": false,
    "approx": false,
    "category": "official",
-   "recurrenceType": null,
-   "eventId": null,
+   "recurrenceType": "A",
+   "eventId": "E0376",
    "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۲ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
+   "year": 1403
+  },
+  {
+   "title": "روز بزرگداشت شهدا",
+   "solar": [
+    1403,
+    12,
+    22
+   ],
+   "gregorian": [
+    2025,
+    3,
+    12
+   ],
+   "lunar": [
+    1446,
+    9,
+    12
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0171",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۲ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
    "year": 1403
   },
   {

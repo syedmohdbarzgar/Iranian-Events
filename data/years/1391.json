@@ -1,9 +1,9 @@
 {
  "year": 1391,
  "mode": "data",
- "count": 348,
+ "count": 347,
  "droppedRows": 6,
- "addedRows": 183,
+ "addedRows": 182,
  "rows": [
   {
    "title": "عید نوروز",
@@ -2325,7 +2325,7 @@
    "year": 1391
   },
   {
-   "title": "رحلت حضرت امام خمینی رحمةالله علیه رهبرکبیرانقلابوبنیانگذارجمهوریاسلامیایران 1368 انتخاب حضرت آیت‌الله امام خامنهای به رهبری",
+   "title": "رحلت حضرت امام خمینی (ره)، رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران",
    "solar": [
     1391,
     3,
@@ -2343,12 +2343,18 @@
    ],
    "holiday": true,
    "approx": false,
-   "category": "historical",
-   "recurrenceType": null,
-   "eventId": null,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0126",
    "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۴ خرداد ۱۳۶۸",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
    "year": 1391
   },
   {
@@ -2381,40 +2387,7 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
-   "source": "catalog",
-   "year": 1391
-  },
-  {
-   "title": "رحلت حضرت امام خمینی (ره)، رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران",
-   "solar": [
-    1391,
-    3,
-    14
-   ],
-   "gregorian": [
-    2012,
-    6,
-    3
-   ],
-   "lunar": [
-    1433,
-    7,
-    13
-   ],
-   "holiday": true,
-   "approx": false,
-   "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0126",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۱۴ خرداد ۱۳۶۸",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "catalog",
+   "source": "official-split",
    "year": 1391
   },
   {
@@ -4084,7 +4057,7 @@
     8,
     16
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -7656,7 +7629,7 @@
    "year": 1391
   },
   {
-   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله",
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) روز نوجوان و بسیج دانشآموزی",
    "solar": [
     1391,
     8,
@@ -7675,17 +7648,11 @@
    "holiday": false,
    "approx": false,
    "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0370",
+   "recurrenceType": null,
+   "eventId": null,
    "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۸ آبان ۱۳۷۷",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "official-split",
+   "origin": null,
+   "source": "official-pdf",
    "year": 1391
   },
   {
@@ -7718,7 +7685,7 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
-   "source": "official-split",
+   "source": "catalog",
    "year": 1391
   },
   {
@@ -7870,7 +7837,7 @@
     12,
     18
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -7903,7 +7870,7 @@
     12,
     18
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -7969,7 +7936,7 @@
     12,
     19
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",

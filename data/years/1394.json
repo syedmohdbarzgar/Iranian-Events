@@ -3,7 +3,7 @@
  "mode": "data",
  "count": 358,
  "droppedRows": 3,
- "addedRows": 174,
+ "addedRows": 175,
  "rows": [
   {
    "title": "نوروز آغاز",
@@ -2698,7 +2698,7 @@
     8,
     16
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -2857,7 +2857,7 @@
     8,
     17
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "historical",
    "recurrenceType": "D",
@@ -8160,7 +8160,7 @@
    "year": 1394
   },
   {
-   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله",
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) روز نوجوان و بسیج دانشآموزی",
    "solar": [
     1394,
     8,
@@ -8179,17 +8179,11 @@
    "holiday": false,
    "approx": false,
    "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0370",
+   "recurrenceType": null,
+   "eventId": null,
    "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۸ آبان ۱۳۷۷",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "official-split",
+   "origin": null,
+   "source": "official-pdf",
    "year": 1394
   },
   {
@@ -8222,7 +8216,7 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
-   "source": "official-split",
+   "source": "catalog",
    "year": 1394
   },
   {

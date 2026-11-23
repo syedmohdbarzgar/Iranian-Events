@@ -3,7 +3,7 @@
  "mode": "data",
  "count": 423,
  "droppedRows": 8,
- "addedRows": 158,
+ "addedRows": 160,
  "rows": [
   {
    "title": "عید نوروز",
@@ -121,7 +121,7 @@
     10,
     13
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -2314,7 +2314,7 @@
     12,
     11
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -2347,7 +2347,7 @@
     12,
     11
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -2875,7 +2875,7 @@
     12,
     18
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -2908,7 +2908,7 @@
     12,
     19
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -3298,7 +3298,7 @@
     12,
     29
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "historical",
    "recurrenceType": "D",
@@ -5971,7 +5971,7 @@
     3,
     9
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -6367,7 +6367,7 @@
     3,
     18
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -8697,7 +8697,7 @@
    "year": 1406
   },
   {
-   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله",
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) و روز نوجوان و بسیج دانشآموزی",
    "solar": [
     1406,
     8,
@@ -8716,17 +8716,11 @@
    "holiday": false,
    "approx": false,
    "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0370",
+   "recurrenceType": null,
+   "eventId": null,
    "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۸ آبان ۱۳۷۷",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "official-split",
+   "origin": null,
+   "source": "official-pdf",
    "year": 1406
   },
   {
@@ -8759,7 +8753,7 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
-   "source": "official-split",
+   "source": "catalog",
    "year": 1406
   },
   {
@@ -9828,7 +9822,7 @@
    "year": 1406
   },
   {
-   "title": "روز جزایر سه‌گانه خلیج فارس (بوموسی، تنب بزرگ و تنب کوچک",
+   "title": "شیخ مفید و روز جزایر سهگانه خلیج فارس (بوموسی، تنب بزرگ و تنب کوچک) و روز ترویج زکات",
    "solar": [
     1406,
     9,
@@ -9847,17 +9841,11 @@
    "holiday": false,
    "approx": false,
    "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0219",
+   "recurrenceType": null,
+   "eventId": null,
    "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۹ آذر ۱۴۰۵",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "official-split",
+   "origin": null,
+   "source": "official-pdf",
    "year": 1406
   },
   {
@@ -9894,6 +9882,39 @@
    "year": 1406
   },
   {
+   "title": "روز جزایر سه‌گانه خلیج فارس (بوموسی، تنب بزرگ و تنب کوچک",
+   "solar": [
+    1406,
+    9,
+    9
+   ],
+   "gregorian": [
+    2027,
+    11,
+    30
+   ],
+   "lunar": [
+    1449,
+    7,
+    1
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0219",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۹ آذر ۱۴۰۵",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1406
+  },
+  {
    "title": "ولادت حضرت امام محمد باقر علیه‌السلام",
    "solar": [
     1406,
@@ -9915,39 +9936,6 @@
    "category": "religious",
    "recurrenceType": "C",
    "eventId": "E0489",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "tradition",
-    "label": "سنت قمری",
-    "note": "مناسبتِ مذهبی",
-    "gregorian": "",
-    "source": ""
-   },
-   "source": "official-split",
-   "year": 1406
-  },
-  {
-   "title": "روز ترویج زکات",
-   "solar": [
-    1406,
-    9,
-    10
-   ],
-   "gregorian": [
-    2027,
-    12,
-    1
-   ],
-   "lunar": [
-    1449,
-    7,
-    2
-   ],
-   "holiday": false,
-   "approx": true,
-   "category": "religious",
-   "recurrenceType": "C",
-   "eventId": "E0415",
    "verificationStatus": "verified",
    "origin": {
     "kind": "tradition",

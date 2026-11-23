@@ -121,7 +121,7 @@
     7,
     5
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -154,7 +154,7 @@
     7,
     5
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "cultural",
    "recurrenceType": "A",
@@ -550,7 +550,7 @@
     7,
     16
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -583,7 +583,7 @@
     7,
     16
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -2935,7 +2935,7 @@
     9,
     20
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -3034,7 +3034,7 @@
     9,
     21
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "historical",
    "recurrenceType": "D",
@@ -4414,7 +4414,7 @@
     10,
     26
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -7155,7 +7155,7 @@
    "year": 1397
   },
   {
-   "title": "فکوری، نامجو، کلاهدوز و جهانآرا 1360 روز آتشنشانی و ایمنی روز بزرگداشت شمس",
+   "title": "روز آتش‌نشانی و ایمنی",
    "solar": [
     1397,
     7,
@@ -7173,12 +7173,51 @@
    ],
    "holiday": false,
    "approx": false,
-   "category": "historical",
-   "recurrenceType": null,
-   "eventId": null,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0127",
    "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ مهر ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
+   "year": 1397
+  },
+  {
+   "title": "روز بزرگداشت شمس",
+   "solar": [
+    1397,
+    7,
+    7
+   ],
+   "gregorian": [
+    2018,
+    9,
+    29
+   ],
+   "lunar": [
+    1440,
+    1,
+    18
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0170",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ مهر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
    "year": 1397
   },
   {
@@ -7210,39 +7249,6 @@
     "note": "وقوع",
     "gregorian": "2024-9-28",
     "source": "دادهٔ PDF"
-   },
-   "source": "catalog",
-   "year": 1397
-  },
-  {
-   "title": "روز آتش‌نشانی و ایمنی",
-   "solar": [
-    1397,
-    7,
-    7
-   ],
-   "gregorian": [
-    2018,
-    9,
-    29
-   ],
-   "lunar": [
-    1440,
-    1,
-    18
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0127",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۷ مهر ۱۳۸۳",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
    },
    "source": "catalog",
    "year": 1397
@@ -8127,39 +8133,6 @@
    "year": 1397
   },
   {
-   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله",
-   "solar": [
-    1397,
-    8,
-    8
-   ],
-   "gregorian": [
-    2018,
-    10,
-    30
-   ],
-   "lunar": [
-    1440,
-    2,
-    19
-   ],
-   "holiday": true,
-   "approx": false,
-   "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0370",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۸ آبان ۱۳۷۷",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "official-split",
-   "year": 1397
-  },
-  {
    "title": "روز نوجوان و بسیج دانش‌آموزی",
    "solar": [
     1397,
@@ -8176,7 +8149,7 @@
     2,
     19
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -8226,6 +8199,39 @@
    "year": 1397
   },
   {
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله",
+   "solar": [
+    1397,
+    8,
+    8
+   ],
+   "gregorian": [
+    2018,
+    10,
+    30
+   ],
+   "lunar": [
+    1440,
+    2,
+    19
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0370",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۸ آبان ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
+   "year": 1397
+  },
+  {
    "title": "اربعین حسینی",
    "solar": [
     1397,
@@ -8242,7 +8248,7 @@
     2,
     21
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -8764,7 +8770,7 @@
     3,
     9
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",

@@ -3,7 +3,7 @@
  "mode": "data",
  "count": 348,
  "droppedRows": 5,
- "addedRows": 174,
+ "addedRows": 171,
  "rows": [
   {
    "title": "عید نوروز",
@@ -121,7 +121,7 @@
     5,
     10
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -154,7 +154,7 @@
     5,
     10
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "cultural",
    "recurrenceType": "A",
@@ -2605,7 +2605,7 @@
     7,
     26
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "international",
    "recurrenceType": "B",
@@ -2638,7 +2638,7 @@
     7,
     26
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "historical",
    "recurrenceType": "D",
@@ -3430,7 +3430,7 @@
     8,
     16
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -6864,7 +6864,7 @@
    "year": 1392
   },
   {
-   "title": "هجرت حضرت امام خمینی رحمةالله علیه از عراق به پاریس 1357 روز نیروی انتظامی",
+   "title": "هجرت حضرت امام خمینی (ره) از عراق به پاریس",
    "solar": [
     1392,
     7,
@@ -6882,12 +6882,51 @@
    ],
    "holiday": false,
    "approx": false,
-   "category": "historical",
-   "recurrenceType": null,
-   "eventId": null,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0382",
    "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۳ مهر ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
+   "year": 1392
+  },
+  {
+   "title": "روز نیروی انتظامی",
+   "solar": [
+    1392,
+    7,
+    13
+   ],
+   "gregorian": [
+    2013,
+    10,
+    5
+   ],
+   "lunar": [
+    1434,
+    11,
+    30
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0317",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۳ مهر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
    "year": 1392
   },
   {
@@ -7287,33 +7326,6 @@
    "year": 1392
   },
   {
-   "title": "روز عرفه",
-   "solar": [
-    1392,
-    7,
-    23
-   ],
-   "gregorian": [
-    2013,
-    10,
-    15
-   ],
-   "lunar": [
-    1434,
-    12,
-    10
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "official",
-   "recurrenceType": null,
-   "eventId": null,
-   "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
-   "year": 1392
-  },
-  {
    "title": "شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان",
    "solar": [
     1392,
@@ -7343,7 +7355,7 @@
     "gregorian": "2026-10-15",
     "source": "دادهٔ PDF"
    },
-   "source": "catalog",
+   "source": "official-split",
    "year": 1392
   },
   {
@@ -7376,7 +7388,7 @@
     "gregorian": "2012-10-15",
     "source": "دادهٔ PDF"
    },
-   "source": "catalog",
+   "source": "official-split",
    "year": 1392
   },
   {
@@ -7409,7 +7421,7 @@
     "gregorian": "2013-10-15",
     "source": "دادهٔ PDF"
    },
-   "source": "catalog",
+   "source": "official-split",
    "year": 1392
   },
   {

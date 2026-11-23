@@ -3,7 +3,7 @@
  "mode": "data",
  "count": 370,
  "droppedRows": 5,
- "addedRows": 175,
+ "addedRows": 173,
  "rows": [
   {
    "title": "عید نوروز",
@@ -385,7 +385,7 @@
     7,
     25
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -1177,7 +1177,7 @@
     8,
     15
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -1243,7 +1243,7 @@
     8,
     16
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -2986,7 +2986,7 @@
     10,
     1
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "historical",
    "recurrenceType": "D",
@@ -3052,7 +3052,7 @@
     10,
     2
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -6975,7 +6975,7 @@
    "year": 1398
   },
   {
-   "title": "فکوری، نامجو، کلاهدوز و جهانآرا 1360 روز آتشنشانی و ایمنی روز بزرگداشت شمس",
+   "title": "روز آتش‌نشانی و ایمنی",
    "solar": [
     1398,
     7,
@@ -6993,12 +6993,51 @@
    ],
    "holiday": false,
    "approx": false,
-   "category": "historical",
-   "recurrenceType": null,
-   "eventId": null,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0127",
    "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ مهر ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
+   "year": 1398
+  },
+  {
+   "title": "روز بزرگداشت شمس",
+   "solar": [
+    1398,
+    7,
+    7
+   ],
+   "gregorian": [
+    2019,
+    9,
+    29
+   ],
+   "lunar": [
+    1441,
+    1,
+    29
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0170",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ مهر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
    "year": 1398
   },
   {
@@ -7030,39 +7069,6 @@
     "note": "وقوع",
     "gregorian": "2024-9-28",
     "source": "دادهٔ PDF"
-   },
-   "source": "catalog",
-   "year": 1398
-  },
-  {
-   "title": "روز آتش‌نشانی و ایمنی",
-   "solar": [
-    1398,
-    7,
-    7
-   ],
-   "gregorian": [
-    2019,
-    9,
-    29
-   ],
-   "lunar": [
-    1441,
-    1,
-    29
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0127",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۷ مهر ۱۳۸۳",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
    },
    "source": "catalog",
    "year": 1398
@@ -7266,7 +7272,7 @@
    "year": 1398
   },
   {
-   "title": "هجرت حضرت امام خمینی رحمةالله علیه از عراق به پاریس 1357 روز نیروی انتظامی",
+   "title": "هجرت حضرت امام خمینی (ره) از عراق به پاریس",
    "solar": [
     1398,
     7,
@@ -7284,12 +7290,51 @@
    ],
    "holiday": false,
    "approx": false,
-   "category": "historical",
-   "recurrenceType": null,
-   "eventId": null,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0382",
    "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۳ مهر ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
+   "year": 1398
+  },
+  {
+   "title": "روز نیروی انتظامی",
+   "solar": [
+    1398,
+    7,
+    13
+   ],
+   "gregorian": [
+    2019,
+    10,
+    5
+   ],
+   "lunar": [
+    1441,
+    2,
+    5
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0317",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۳ مهر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
    "year": 1398
   },
   {
@@ -7980,7 +8025,7 @@
    "year": 1398
   },
   {
-   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله",
+   "title": "بسیج دانشآموزی شهادت محمدحسین فهمیده (بسیجی 13 ساله) روز نوجوان و هجرت حضرت رسول اکرم صلی الله علیه و آله از مکه به مدینه",
    "solar": [
     1398,
     8,
@@ -7999,17 +8044,11 @@
    "holiday": false,
    "approx": false,
    "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0370",
+   "recurrenceType": null,
+   "eventId": null,
    "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۸ آبان ۱۳۷۷",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "official-split",
+   "origin": null,
+   "source": "official-pdf",
    "year": 1398
   },
   {
@@ -8076,39 +8115,6 @@
     "source": "data/official-calendar-*.json"
    },
    "source": "catalog",
-   "year": 1398
-  },
-  {
-   "title": "هجرت حضرت رسول اکرم صلی الله علیه و آله از مکه به مدینه",
-   "solar": [
-    1398,
-    8,
-    9
-   ],
-   "gregorian": [
-    2019,
-    10,
-    31
-   ],
-   "lunar": [
-    1441,
-    3,
-    2
-   ],
-   "holiday": false,
-   "approx": true,
-   "category": "religious",
-   "recurrenceType": "C",
-   "eventId": "E0469",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "tradition",
-    "label": "سنت قمری",
-    "note": "مناسبتِ مذهبی",
-    "gregorian": "",
-    "source": ""
-   },
-   "source": "official-split",
    "year": 1398
   },
   {
@@ -8392,7 +8398,7 @@
     3,
     9
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -11937,6 +11943,39 @@
    "year": 1398
   },
   {
+   "title": "صدور فرمان حضرت امام خمینی (ره) مبنی بر تأسیس بنیاد شهید انقلاب اسلامی",
+   "solar": [
+    1398,
+    12,
+    22
+   ],
+   "gregorian": [
+    2020,
+    3,
+    12
+   ],
+   "lunar": [
+    1441,
+    7,
+    17
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0376",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۲ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
+   "year": 1398
+  },
+  {
    "title": "روز بزرگداشت شهدا",
    "solar": [
     1398,
@@ -11967,39 +12006,6 @@
     "source": "data/official-calendar-*.json"
    },
    "source": "official-split",
-   "year": 1398
-  },
-  {
-   "title": "صدور فرمان حضرت امام خمینی (ره) مبنی بر تأسیس بنیاد شهید انقلاب اسلامی",
-   "solar": [
-    1398,
-    12,
-    22
-   ],
-   "gregorian": [
-    2020,
-    3,
-    12
-   ],
-   "lunar": [
-    1441,
-    7,
-    17
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0376",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۲۲ اسفند ۱۳۸۲",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "catalog",
    "year": 1398
   },
   {

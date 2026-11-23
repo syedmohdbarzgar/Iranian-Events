@@ -1,9 +1,9 @@
 {
  "year": 1401,
  "mode": "data",
- "count": 375,
+ "count": 377,
  "droppedRows": 4,
- "addedRows": 152,
+ "addedRows": 154,
  "rows": [
   {
    "title": "عید نوروز",
@@ -1060,7 +1060,7 @@
     9,
     21
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -1093,7 +1093,7 @@
     9,
     21
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -1126,7 +1126,7 @@
     9,
     22
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -2626,7 +2626,7 @@
     11,
     5
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "international",
    "recurrenceType": "B",
@@ -2659,7 +2659,7 @@
     11,
     5
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "historical",
    "recurrenceType": "D",
@@ -4089,6 +4089,33 @@
    "year": 1401
   },
   {
+   "title": "روز عرفه",
+   "solar": [
+    1401,
+    4,
+    18
+   ],
+   "gregorian": [
+    2022,
+    7,
+    9
+   ],
+   "lunar": [
+    1443,
+    12,
+    9
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1401
+  },
+  {
    "title": "روز ادبیات کودکان و نوجوانان",
    "solar": [
     1401,
@@ -4118,7 +4145,7 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
-   "source": "official-split",
+   "source": "catalog",
    "year": 1401
   },
   {
@@ -4204,7 +4231,7 @@
     12,
     11
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -6798,7 +6825,7 @@
    "year": 1401
   },
   {
-   "title": "فکوری، نامجو، کلاهدوز و جهانآرا 1360 روز آتشنشانی و ایمنی روز بزرگداشت شمس",
+   "title": "روز آتش‌نشانی و ایمنی",
    "solar": [
     1401,
     7,
@@ -6816,12 +6843,51 @@
    ],
    "holiday": false,
    "approx": false,
-   "category": "historical",
-   "recurrenceType": null,
-   "eventId": null,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0127",
    "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ مهر ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
+   "year": 1401
+  },
+  {
+   "title": "روز بزرگداشت شمس",
+   "solar": [
+    1401,
+    7,
+    7
+   ],
+   "gregorian": [
+    2022,
+    9,
+    29
+   ],
+   "lunar": [
+    1444,
+    3,
+    3
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0170",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ مهر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
    "year": 1401
   },
   {
@@ -6853,39 +6919,6 @@
     "note": "وقوع",
     "gregorian": "2024-9-28",
     "source": "دادهٔ PDF"
-   },
-   "source": "catalog",
-   "year": 1401
-  },
-  {
-   "title": "روز آتش‌نشانی و ایمنی",
-   "solar": [
-    1401,
-    7,
-    7
-   ],
-   "gregorian": [
-    2022,
-    9,
-    29
-   ],
-   "lunar": [
-    1444,
-    3,
-    3
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0127",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۷ مهر ۱۳۸۳",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
    },
    "source": "catalog",
    "year": 1401
@@ -7489,7 +7522,7 @@
     3,
     18
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "international",
    "recurrenceType": "B",
@@ -7572,6 +7605,72 @@
    "year": 1401
   },
   {
+   "title": "شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان",
+   "solar": [
+    1401,
+    7,
+    23
+   ],
+   "gregorian": [
+    2022,
+    10,
+    15
+   ],
+   "lunar": [
+    1444,
+    3,
+    19
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "historical",
+   "recurrenceType": "D",
+   "eventId": "E0047",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "event",
+    "label": "۲۳ مهر ۱۴۰۵",
+    "note": "وقوع",
+    "gregorian": "2026-10-15",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-split",
+   "year": 1401
+  },
+  {
+   "title": "روز جهانی نابینایان (عصای سفید",
+   "solar": [
+    1401,
+    7,
+    23
+   ],
+   "gregorian": [
+    2022,
+    10,
+    15
+   ],
+   "lunar": [
+    1444,
+    3,
+    19
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0085",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۲ — ۲۴ مهر ۱۳۹۱",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2012-10-15",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-split",
+   "year": 1401
+  },
+  {
    "title": "روز عرفه (روز نیایش",
    "solar": [
     1401,
@@ -7601,34 +7700,7 @@
     "gregorian": "2013-10-15",
     "source": "دادهٔ PDF"
    },
-   "source": "official-split",
-   "year": 1401
-  },
-  {
-   "title": "شهادت پنجمین شهید محراب آیت‌الله اشرفی اصفهانی به دست منافقان 1361 روز جهانی نابینایان عصای سفید",
-   "solar": [
-    1401,
-    7,
-    23
-   ],
-   "gregorian": [
-    2022,
-    10,
-    15
-   ],
-   "lunar": [
-    1444,
-    3,
-    19
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "historical",
-   "recurrenceType": null,
-   "eventId": null,
-   "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "source": "catalog",
    "year": 1401
   },
   {
@@ -7929,7 +8001,7 @@
    "year": 1401
   },
   {
-   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله",
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) روز نوجوان و بسیج دانشآموزی",
    "solar": [
     1401,
     8,
@@ -7948,17 +8020,11 @@
    "holiday": false,
    "approx": false,
    "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0370",
+   "recurrenceType": null,
+   "eventId": null,
    "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۸ آبان ۱۳۷۷",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "official-split",
+   "origin": null,
+   "source": "official-pdf",
    "year": 1401
   },
   {
@@ -7991,7 +8057,7 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
-   "source": "official-split",
+   "source": "catalog",
    "year": 1401
   },
   {

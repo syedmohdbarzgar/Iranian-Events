@@ -1,8 +1,8 @@
 {
  "year": 1404,
  "mode": "data",
- "count": 394,
- "droppedRows": 5,
+ "count": 396,
+ "droppedRows": 6,
  "addedRows": 165,
  "rows": [
   {
@@ -72,7 +72,7 @@
    "year": 1404
   },
   {
-   "title": "عملیات و آغاز 1342 قم فیضیه مأموران ستم شاهی پهلوی به مدرسه فتحالمبین",
+   "title": "هجوم مأموران ستم‌شاهی پهلوی به مدرسه فیضیه قم",
    "solar": [
     1404,
     1,
@@ -88,7 +88,7 @@
     9,
     22
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -100,39 +100,6 @@
     "note": "اولین سالِ مشاهده در جدول",
     "gregorian": "",
     "source": "data/official-calendar-*.json"
-   },
-   "source": "official-pdf",
-   "year": 1404
-  },
-  {
-   "title": "شهادت حضرت امام علی علیه‌السلام",
-   "solar": [
-    1404,
-    1,
-    2
-   ],
-   "gregorian": [
-    2025,
-    3,
-    22
-   ],
-   "lunar": [
-    1446,
-    9,
-    22
-   ],
-   "holiday": false,
-   "approx": true,
-   "category": "religious",
-   "recurrenceType": "C",
-   "eventId": "E0452",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "tradition",
-    "label": "سنت قمری",
-    "note": "مناسبتِ مذهبی",
-    "gregorian": "",
-    "source": ""
    },
    "source": "official-split",
    "year": 1404
@@ -154,7 +121,7 @@
     9,
     22
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -167,7 +134,73 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
-   "source": "catalog",
+   "source": "official-split",
+   "year": 1404
+  },
+  {
+   "title": "شهادت حضرت امام علی علیه‌السلام",
+   "solar": [
+    1404,
+    1,
+    2
+   ],
+   "gregorian": [
+    2025,
+    3,
+    22
+   ],
+   "lunar": [
+    1446,
+    9,
+    22
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0452",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-split",
+   "year": 1404
+  },
+  {
+   "title": "عید نوروز",
+   "solar": [
+    1404,
+    1,
+    2
+   ],
+   "gregorian": [
+    2025,
+    3,
+    22
+   ],
+   "lunar": [
+    1446,
+    9,
+    22
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "cultural",
+   "recurrenceType": "A",
+   "eventId": "E0007",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنتی",
+    "note": "آیینِ سالانه، بدون تاریخِ ثبت",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-split",
    "year": 1404
   },
   {
@@ -412,7 +445,7 @@
     10,
     2
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -2694,6 +2727,39 @@
    "year": 1404
   },
   {
+   "title": "شهادت حضرت امام محمد باقر علیه‌السلام",
+   "solar": [
+    1404,
+    3,
+    13
+   ],
+   "gregorian": [
+    2025,
+    6,
+    3
+   ],
+   "lunar": [
+    1446,
+    12,
+    6
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0453",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-pdf",
+   "year": 1404
+  },
+  {
    "title": "ش و برابر با شهادت مظلومانه زائران خانه خدا به دست مأموران آل سعود 1366 هو 6 ذیالحجه",
    "solar": [
     1404,
@@ -2727,40 +2793,7 @@
    "year": 1404
   },
   {
-   "title": "شهادت حضرت امام محمد باقر علیه‌السلام رحلت حضرت امام خمینی (رحمةالله علیه) رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی",
-   "solar": [
-    1404,
-    3,
-    14
-   ],
-   "gregorian": [
-    2025,
-    6,
-    4
-   ],
-   "lunar": [
-    1446,
-    12,
-    7
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0126",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۱۴ خرداد ۱۳۶۸",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "official-pdf",
-   "year": 1404
-  },
-  {
-   "title": "ایران و انتخاب حضرت آیت‌الله امام خامنهای به رهبری",
+   "title": "رحلت حضرت امام خمینی (ره)، رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران",
    "solar": [
     1404,
     3,
@@ -2779,11 +2812,17 @@
    "holiday": true,
    "approx": false,
    "category": "official",
-   "recurrenceType": null,
-   "eventId": null,
+   "recurrenceType": "A",
+   "eventId": "E0126",
    "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۴ خرداد ۱۳۶۸",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
    "year": 1404
   },
   {
@@ -2816,7 +2855,7 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
-   "source": "catalog",
+   "source": "official-split",
    "year": 1404
   },
   {
@@ -2869,7 +2908,7 @@
     12,
     8
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "historical",
    "recurrenceType": "D",
@@ -3001,7 +3040,7 @@
     12,
     11
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -5722,7 +5761,7 @@
     2,
     21
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -6151,7 +6190,7 @@
     3,
     1
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -6448,7 +6487,7 @@
     3,
     9
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -6943,7 +6982,7 @@
     3,
     18
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -8031,39 +8070,6 @@
    "year": 1404
   },
   {
-   "title": "روز عرفه (روز نیایش",
-   "solar": [
-    1404,
-    7,
-    23
-   ],
-   "gregorian": [
-    2025,
-    10,
-    15
-   ],
-   "lunar": [
-    1447,
-    4,
-    22
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "international",
-   "recurrenceType": "B",
-   "eventId": "E0096",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۳ — ۲۳ مهر ۱۳۹۲",
-    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
-    "gregorian": "2013-10-15",
-    "source": "دادهٔ PDF"
-   },
-   "source": "official-split",
-   "year": 1404
-  },
-  {
    "title": "شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان",
    "solar": [
     1404,
@@ -8127,6 +8133,39 @@
     "source": "دادهٔ PDF"
    },
    "source": "official-split",
+   "year": 1404
+  },
+  {
+   "title": "روز عرفه (روز نیایش",
+   "solar": [
+    1404,
+    7,
+    23
+   ],
+   "gregorian": [
+    2025,
+    10,
+    15
+   ],
+   "lunar": [
+    1447,
+    4,
+    22
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0096",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۳ — ۲۳ مهر ۱۳۹۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2013-10-15",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
    "year": 1404
   },
   {
@@ -8526,7 +8565,7 @@
    "year": 1404
   },
   {
-   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله",
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) و روز نوجوان و بسیج دانشآموزی",
    "solar": [
     1404,
     8,
@@ -8545,17 +8584,11 @@
    "holiday": false,
    "approx": false,
    "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0370",
+   "recurrenceType": null,
+   "eventId": null,
    "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۸ آبان ۱۳۷۷",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "official-split",
+   "origin": null,
+   "source": "official-pdf",
    "year": 1404
   },
   {
@@ -8588,7 +8621,7 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
-   "source": "official-split",
+   "source": "catalog",
    "year": 1404
   },
   {
@@ -12723,7 +12756,7 @@
    "year": 1404
   },
   {
-   "title": "صدور فرمان حضرت امام خمینی (رحمةالله علیه) مبنی بر تأسیس بنیاد شهید انقلاب اسلامی و روز بزرگداشت شهدا",
+   "title": "صدور فرمان حضرت امام خمینی (ره) مبنی بر تأسیس بنیاد شهید انقلاب اسلامی",
    "solar": [
     1404,
     12,
@@ -12742,11 +12775,50 @@
    "holiday": false,
    "approx": false,
    "category": "official",
-   "recurrenceType": null,
-   "eventId": null,
+   "recurrenceType": "A",
+   "eventId": "E0376",
    "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۲ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
+   "year": 1404
+  },
+  {
+   "title": "روز بزرگداشت شهدا",
+   "solar": [
+    1404,
+    12,
+    22
+   ],
+   "gregorian": [
+    2026,
+    3,
+    13
+   ],
+   "lunar": [
+    1447,
+    9,
+    24
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0171",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۲ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
    "year": 1404
   },
   {

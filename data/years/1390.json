@@ -1,7 +1,7 @@
 {
  "year": 1390,
  "mode": "data",
- "count": 345,
+ "count": 344,
  "droppedRows": 8,
  "addedRows": 156,
  "rows": [
@@ -2197,7 +2197,7 @@
     7,
     3
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "historical",
    "recurrenceType": "D",
@@ -4012,7 +4012,7 @@
     8,
     16
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -8001,7 +8001,7 @@
    "year": 1390
   },
   {
-   "title": "تشکیل بسیج مستضعفان به فرمان حضرت امام خمینی (ره",
+   "title": "ش ( ه روز بسیج مستضعفان ( تشکیل بسیج مستضعفان به فرمان حضرت امام خمینی ) ره) 1358",
    "solar": [
     1390,
     9,
@@ -8019,51 +8019,12 @@
    ],
    "holiday": false,
    "approx": false,
-   "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0119",
+   "category": "historical",
+   "recurrenceType": null,
+   "eventId": null,
    "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۵ آذر ۱۳۷۸",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "official-split",
-   "year": 1390
-  },
-  {
-   "title": "روز بسیج مستضعفان",
-   "solar": [
-    1390,
-    9,
-    5
-   ],
-   "gregorian": [
-    2011,
-    11,
-    26
-   ],
-   "lunar": [
-    1432,
-    12,
-    29
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0197",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۵ آذر ۱۴۰۴",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "official-split",
+   "origin": null,
+   "source": "official-pdf",
    "year": 1390
   },
   {

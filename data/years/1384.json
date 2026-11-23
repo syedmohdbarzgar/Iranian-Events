@@ -2149,7 +2149,7 @@
     4,
     27
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "historical",
    "recurrenceType": "D",
@@ -6514,7 +6514,7 @@
     9,
     12
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "international",
    "recurrenceType": "B",
@@ -7195,7 +7195,7 @@
     10,
     2
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -7228,7 +7228,7 @@
     10,
     2
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -7261,7 +7261,7 @@
     10,
     2
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -7717,7 +7717,7 @@
     10,
     26
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -9238,7 +9238,7 @@
     12,
     11
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -9865,7 +9865,7 @@
     1,
     10
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",

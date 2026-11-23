@@ -3,7 +3,7 @@
  "mode": "data",
  "count": 329,
  "droppedRows": 8,
- "addedRows": 149,
+ "addedRows": 147,
  "rows": [
   {
    "title": "نوروز اربعین حسینی آغاز",
@@ -2191,7 +2191,7 @@
     5,
     8
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "historical",
    "recurrenceType": "D",
@@ -6648,7 +6648,7 @@
    "year": 1385
   },
   {
-   "title": "شهادت حضرت علی علیه‌السلام شهادت پنجمین شهید محراب آیت‌الله اشرفی اصفهانی به دست منافقین 1361 روز جهانی نابینایان عصای سفید",
+   "title": "شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان",
    "solar": [
     1385,
     7,
@@ -6667,15 +6667,21 @@
    "holiday": true,
    "approx": false,
    "category": "historical",
-   "recurrenceType": null,
-   "eventId": null,
+   "recurrenceType": "D",
+   "eventId": "E0047",
    "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "origin": {
+    "kind": "event",
+    "label": "۲۳ مهر ۱۴۰۵",
+    "note": "وقوع",
+    "gregorian": "2026-10-15",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-split",
    "year": 1385
   },
   {
-   "title": "شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان",
+   "title": "روز جهانی نابینایان (عصای سفید",
    "solar": [
     1385,
     7,
@@ -6691,20 +6697,53 @@
     9,
     22
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
-   "category": "historical",
-   "recurrenceType": "D",
-   "eventId": "E0047",
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0085",
    "verificationStatus": "verified",
    "origin": {
-    "kind": "event",
-    "label": "۲۳ مهر ۱۴۰۵",
-    "note": "وقوع",
-    "gregorian": "2026-10-15",
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۲ — ۲۴ مهر ۱۳۹۱",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2012-10-15",
     "source": "دادهٔ PDF"
    },
-   "source": "catalog",
+   "source": "official-split",
+   "year": 1385
+  },
+  {
+   "title": "شهادت حضرت امام علی علیه‌السلام",
+   "solar": [
+    1385,
+    7,
+    23
+   ],
+   "gregorian": [
+    2006,
+    10,
+    15
+   ],
+   "lunar": [
+    1427,
+    9,
+    22
+   ],
+   "holiday": true,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0452",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-split",
    "year": 1385
   },
   {
@@ -8883,39 +8922,6 @@
    "year": 1385
   },
   {
-   "title": "تشکیل نهضت سوادآموزی به فرمان حضرت امام خمینی (ره",
-   "solar": [
-    1385,
-    10,
-    7
-   ],
-   "gregorian": [
-    2006,
-    12,
-    28
-   ],
-   "lunar": [
-    1427,
-    12,
-    7
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0121",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۷ دی ۱۳۸۲",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "official-split",
-   "year": 1385
-  },
-  {
    "title": "تشکیل نهضت سوادآموزی به فرمان حضرت امام خمینی رحمةالله علیه",
    "solar": [
     1385,
@@ -8945,7 +8951,7 @@
     "gregorian": "2024-12-27",
     "source": "دادهٔ PDF"
    },
-   "source": "catalog",
+   "source": "official-split",
    "year": 1385
   },
   {

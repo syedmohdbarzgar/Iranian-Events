@@ -3,7 +3,7 @@
  "mode": "data",
  "count": 312,
  "droppedRows": 12,
- "addedRows": 144,
+ "addedRows": 143,
  "rows": [
   {
    "title": "عید نوروز",
@@ -928,7 +928,7 @@
     2,
     21
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -2203,7 +2203,7 @@
     4,
     4
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "historical",
    "recurrenceType": "D",
@@ -6270,33 +6270,6 @@
    "year": 1382
   },
   {
-   "title": "شهادت پنجمین شهید محراب آیت‌الله اشرفی اصفهانی به دست منافقین 1361 - روز جهانی نابینایان عصای سفید",
-   "solar": [
-    1382,
-    7,
-    23
-   ],
-   "gregorian": [
-    2003,
-    10,
-    15
-   ],
-   "lunar": [
-    1424,
-    8,
-    18
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "historical",
-   "recurrenceType": null,
-   "eventId": null,
-   "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
-   "year": 1382
-  },
-  {
    "title": "شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان",
    "solar": [
     1382,
@@ -6326,7 +6299,40 @@
     "gregorian": "2026-10-15",
     "source": "دادهٔ PDF"
    },
-   "source": "catalog",
+   "source": "official-split",
+   "year": 1382
+  },
+  {
+   "title": "روز جهانی نابینایان (عصای سفید",
+   "solar": [
+    1382,
+    7,
+    23
+   ],
+   "gregorian": [
+    2003,
+    10,
+    15
+   ],
+   "lunar": [
+    1424,
+    8,
+    18
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0085",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۲ — ۲۴ مهر ۱۳۹۱",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2012-10-15",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-split",
    "year": 1382
   },
   {

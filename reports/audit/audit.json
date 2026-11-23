@@ -967,24 +967,24 @@
     "count": 312,
     "categories": {
      "cultural": 10,
-     "historical": 47,
+     "historical": 46,
      "official": 149,
-     "international": 20,
+     "international": 21,
      "religious": 86
     },
-    "matched": 293
+    "matched": 294
    },
    "1383": {
     "mode": "data",
-    "count": 330,
+    "count": 329,
     "categories": {
      "cultural": 11,
-     "official": 160,
-     "international": 27,
+     "official": 161,
+     "international": 26,
      "religious": 87,
-     "historical": 45
+     "historical": 44
     },
-    "matched": 317
+    "matched": 316
    },
    "1384": {
     "mode": "data",
@@ -1003,24 +1003,24 @@
     "count": 329,
     "categories": {
      "cultural": 10,
-     "religious": 82,
-     "international": 27,
-     "official": 167,
-     "historical": 43
+     "religious": 83,
+     "international": 28,
+     "official": 166,
+     "historical": 42
     },
-    "matched": 306
+    "matched": 307
    },
    "1386": {
     "mode": "data",
-    "count": 331,
+    "count": 332,
     "categories": {
      "cultural": 10,
-     "international": 26,
+     "international": 27,
      "religious": 83,
      "official": 166,
      "historical": 46
     },
-    "matched": 314
+    "matched": 316
    },
    "1387": {
     "mode": "data",
@@ -1060,39 +1060,39 @@
    },
    "1390": {
     "mode": "data",
-    "count": 345,
+    "count": 344,
     "categories": {
      "cultural": 10,
-     "official": 179,
+     "official": 177,
      "international": 25,
-     "historical": 45,
+     "historical": 46,
      "religious": 86
     },
-    "matched": 327
+    "matched": 325
    },
    "1391": {
     "mode": "data",
-    "count": 348,
+    "count": 347,
     "categories": {
      "cultural": 10,
      "official": 180,
      "international": 29,
      "religious": 86,
-     "historical": 43
+     "historical": 42
     },
-    "matched": 330
+    "matched": 329
    },
    "1392": {
     "mode": "data",
     "count": 348,
     "categories": {
      "cultural": 11,
-     "official": 185,
+     "official": 186,
      "international": 30,
      "religious": 77,
-     "historical": 45
+     "historical": 44
     },
-    "matched": 326
+    "matched": 328
    },
    "1393": {
     "mode": "rule",
@@ -1116,19 +1116,19 @@
      "religious": 80,
      "historical": 45
     },
-    "matched": 333
+    "matched": 332
    },
    "1395": {
     "mode": "data",
-    "count": 363,
+    "count": 366,
     "categories": {
      "cultural": 10,
-     "official": 189,
+     "official": 191,
      "international": 32,
-     "religious": 86,
+     "religious": 87,
      "historical": 46
     },
-    "matched": 352
+    "matched": 355
    },
    "1396": {
     "mode": "rule",
@@ -1147,24 +1147,24 @@
     "count": 368,
     "categories": {
      "cultural": 11,
-     "official": 200,
+     "official": 201,
      "international": 33,
      "religious": 79,
-     "historical": 45
+     "historical": 44
     },
-    "matched": 346
+    "matched": 347
    },
    "1398": {
     "mode": "data",
     "count": 370,
     "categories": {
      "cultural": 10,
-     "official": 199,
-     "religious": 82,
+     "official": 202,
+     "religious": 81,
      "international": 32,
-     "historical": 47
+     "historical": 45
     },
-    "matched": 351
+    "matched": 352
    },
    "1399": {
     "mode": "data",
@@ -1172,35 +1172,35 @@
     "categories": {
      "cultural": 10,
      "religious": 82,
-     "official": 198,
+     "official": 199,
      "international": 30,
-     "historical": 43
+     "historical": 42
     },
     "matched": 344
    },
    "1400": {
     "mode": "data",
-    "count": 367,
+    "count": 369,
     "categories": {
      "cultural": 10,
-     "official": 209,
-     "international": 32,
+     "official": 212,
+     "international": 33,
      "religious": 73,
-     "historical": 43
+     "historical": 41
     },
-    "matched": 344
+    "matched": 348
    },
    "1401": {
     "mode": "data",
-    "count": 375,
+    "count": 377,
     "categories": {
      "cultural": 10,
-     "official": 215,
-     "international": 33,
-     "historical": 44,
+     "official": 217,
+     "international": 34,
+     "historical": 43,
      "religious": 73
     },
-    "matched": 352
+    "matched": 354
    },
    "1402": {
     "mode": "rule",
@@ -1216,51 +1216,51 @@
    },
    "1403": {
     "mode": "data",
-    "count": 386,
+    "count": 387,
     "categories": {
      "cultural": 10,
-     "official": 224,
+     "official": 225,
      "religious": 78,
      "international": 31,
      "historical": 43
     },
-    "matched": 370
+    "matched": 371
    },
    "1404": {
     "mode": "data",
-    "count": 394,
+    "count": 396,
     "categories": {
-     "cultural": 10,
+     "cultural": 11,
      "official": 230,
-     "religious": 77,
+     "religious": 78,
      "international": 34,
      "historical": 43
     },
-    "matched": 372
+    "matched": 375
    },
    "1405": {
     "mode": "data",
-    "count": 403,
+    "count": 401,
     "categories": {
-     "cultural": 10,
-     "official": 245,
+     "cultural": 11,
+     "official": 242,
      "religious": 72,
      "international": 34,
      "historical": 42
     },
-    "matched": 381
+    "matched": 379
    },
    "1406": {
     "mode": "data",
     "count": 423,
     "categories": {
      "cultural": 10,
-     "official": 259,
+     "official": 260,
      "international": 33,
-     "religious": 79,
+     "religious": 78,
      "historical": 42
     },
-    "matched": 404
+    "matched": 402
    },
    "1407": {
     "mode": "rule",
@@ -1515,29 +1515,29 @@
    "1380": 221,
    "1381": 221,
    "1382": 312,
-   "1383": 330,
+   "1383": 329,
    "1384": 325,
    "1385": 329,
-   "1386": 331,
+   "1386": 332,
    "1387": 342,
    "1388": 347,
    "1389": 345,
-   "1390": 345,
-   "1391": 348,
+   "1390": 344,
+   "1391": 347,
    "1392": 348,
    "1393": 373,
    "1394": 358,
-   "1395": 363,
+   "1395": 366,
    "1396": 371,
    "1397": 368,
    "1398": 370,
    "1399": 363,
-   "1400": 367,
-   "1401": 375,
+   "1400": 369,
+   "1401": 377,
    "1402": 401,
-   "1403": 386,
-   "1404": 394,
-   "1405": 403,
+   "1403": 387,
+   "1404": 396,
+   "1405": 401,
    "1406": 423,
    "1407": 264,
    "1408": 263,
@@ -1560,15 +1560,15 @@
    "solar": {
     "entries": 323,
     "checkedYearOccurrences": 4876,
-    "matched": 3634,
-    "mismatch": 469,
+    "matched": 3635,
+    "mismatch": 468,
     "notPrinted": 773
    },
    "lunar": {
     "entries": 97,
     "checkedYearOccurrences": 1877,
-    "matched": 1192,
-    "mismatch": 482,
+    "matched": 1194,
+    "mismatch": 480,
     "notPrinted": 203
    },
    "gregorian": {
@@ -1616,7 +1616,7 @@
   {
    "severity": "minor",
    "check": "Y-006",
-   "message": "19 ردیف به رویدادِ کاتالوگ وصل نشد",
+   "message": "18 ردیف به رویدادِ کاتالوگ وصل نشد",
    "eventId": null,
    "title": null,
    "year": 1382
@@ -1640,7 +1640,7 @@
   {
    "severity": "minor",
    "check": "Y-006",
-   "message": "23 ردیف به رویدادِ کاتالوگ وصل نشد",
+   "message": "22 ردیف به رویدادِ کاتالوگ وصل نشد",
    "eventId": null,
    "title": null,
    "year": 1385
@@ -1648,7 +1648,7 @@
   {
    "severity": "minor",
    "check": "Y-006",
-   "message": "17 ردیف به رویدادِ کاتالوگ وصل نشد",
+   "message": "16 ردیف به رویدادِ کاتالوگ وصل نشد",
    "eventId": null,
    "title": null,
    "year": 1386
@@ -1680,7 +1680,7 @@
   {
    "severity": "minor",
    "check": "Y-006",
-   "message": "18 ردیف به رویدادِ کاتالوگ وصل نشد",
+   "message": "19 ردیف به رویدادِ کاتالوگ وصل نشد",
    "eventId": null,
    "title": null,
    "year": 1390
@@ -1696,7 +1696,7 @@
   {
    "severity": "minor",
    "check": "Y-006",
-   "message": "22 ردیف به رویدادِ کاتالوگ وصل نشد",
+   "message": "20 ردیف به رویدادِ کاتالوگ وصل نشد",
    "eventId": null,
    "title": null,
    "year": 1392
@@ -1704,7 +1704,7 @@
   {
    "severity": "minor",
    "check": "Y-006",
-   "message": "25 ردیف به رویدادِ کاتالوگ وصل نشد",
+   "message": "26 ردیف به رویدادِ کاتالوگ وصل نشد",
    "eventId": null,
    "title": null,
    "year": 1394
@@ -1720,7 +1720,7 @@
   {
    "severity": "minor",
    "check": "Y-006",
-   "message": "22 ردیف به رویدادِ کاتالوگ وصل نشد",
+   "message": "21 ردیف به رویدادِ کاتالوگ وصل نشد",
    "eventId": null,
    "title": null,
    "year": 1397
@@ -1728,7 +1728,7 @@
   {
    "severity": "minor",
    "check": "Y-006",
-   "message": "19 ردیف به رویدادِ کاتالوگ وصل نشد",
+   "message": "18 ردیف به رویدادِ کاتالوگ وصل نشد",
    "eventId": null,
    "title": null,
    "year": 1398
@@ -1744,7 +1744,7 @@
   {
    "severity": "minor",
    "check": "Y-006",
-   "message": "23 ردیف به رویدادِ کاتالوگ وصل نشد",
+   "message": "21 ردیف به رویدادِ کاتالوگ وصل نشد",
    "eventId": null,
    "title": null,
    "year": 1400
@@ -1768,7 +1768,7 @@
   {
    "severity": "minor",
    "check": "Y-006",
-   "message": "22 ردیف به رویدادِ کاتالوگ وصل نشد",
+   "message": "21 ردیف به رویدادِ کاتالوگ وصل نشد",
    "eventId": null,
    "title": null,
    "year": 1404
@@ -1784,7 +1784,7 @@
   {
    "severity": "minor",
    "check": "Y-006",
-   "message": "19 ردیف به رویدادِ کاتالوگ وصل نشد",
+   "message": "21 ردیف به رویدادِ کاتالوگ وصل نشد",
    "eventId": null,
    "title": null,
    "year": 1406
@@ -1944,7 +1944,7 @@
   {
    "severity": "major",
    "check": "Y-008",
-   "message": "جدول رسمی سال 1404 درهم‌ادغام است: 68 مناسبتِ ثابت در تاریخِ خودشان نیامدند؛ ردیف‌های آن سال برای تأییدِ روزانه قابل استناد نیستند.",
+   "message": "جدول رسمی سال 1404 درهم‌ادغام است: 66 مناسبتِ ثابت در تاریخِ خودشان نیامدند؛ ردیف‌های آن سال برای تأییدِ روزانه قابل استناد نیستند.",
    "eventId": null,
    "title": null,
    "year": 1404
@@ -1952,7 +1952,7 @@
   {
    "severity": "major",
    "check": "Y-008",
-   "message": "جدول رسمی سال 1405 درهم‌ادغام است: 72 مناسبتِ ثابت در تاریخِ خودشان نیامدند؛ ردیف‌های آن سال برای تأییدِ روزانه قابل استناد نیستند.",
+   "message": "جدول رسمی سال 1405 درهم‌ادغام است: 71 مناسبتِ ثابت در تاریخِ خودشان نیامدند؛ ردیف‌های آن سال برای تأییدِ روزانه قابل استناد نیستند.",
    "eventId": null,
    "title": null,
    "year": 1405

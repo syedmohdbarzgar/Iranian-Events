@@ -1,7 +1,7 @@
 {
  "year": 1400,
  "mode": "data",
- "count": 367,
+ "count": 369,
  "droppedRows": 6,
  "addedRows": 164,
  "rows": [
@@ -346,7 +346,7 @@
     8,
     16
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -2719,7 +2719,7 @@
     10,
     24
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "historical",
    "recurrenceType": "D",
@@ -6837,7 +6837,7 @@
    "year": 1400
   },
   {
-   "title": "فکوری، نامجو، کلاهدوز و جهانآرا 1360 روز آتشنشانی و ایمنی روز بزرگداشت شمس",
+   "title": "روز آتش‌نشانی و ایمنی",
    "solar": [
     1400,
     7,
@@ -6855,12 +6855,51 @@
    ],
    "holiday": false,
    "approx": false,
-   "category": "historical",
-   "recurrenceType": null,
-   "eventId": null,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0127",
    "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ مهر ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
+   "year": 1400
+  },
+  {
+   "title": "روز بزرگداشت شمس",
+   "solar": [
+    1400,
+    7,
+    7
+   ],
+   "gregorian": [
+    2021,
+    9,
+    29
+   ],
+   "lunar": [
+    1443,
+    2,
+    21
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0170",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ مهر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
    "year": 1400
   },
   {
@@ -6892,39 +6931,6 @@
     "note": "وقوع",
     "gregorian": "2024-9-28",
     "source": "دادهٔ PDF"
-   },
-   "source": "catalog",
-   "year": 1400
-  },
-  {
-   "title": "روز آتش‌نشانی و ایمنی",
-   "solar": [
-    1400,
-    7,
-    7
-   ],
-   "gregorian": [
-    2021,
-    9,
-    29
-   ],
-   "lunar": [
-    1443,
-    2,
-    21
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0127",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۷ مهر ۱۳۸۳",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
    },
    "source": "catalog",
    "year": 1400
@@ -7128,7 +7134,7 @@
    "year": 1400
   },
   {
-   "title": "حسن مجتبی علیه‌السلام 50 هجرت حضرت امام خمینی رحمةالله علیه از عراق به پاریس 1357 روز نیروی انتظامی",
+   "title": "هجرت حضرت امام خمینی (ره) از عراق به پاریس",
    "solar": [
     1400,
     7,
@@ -7146,12 +7152,51 @@
    ],
    "holiday": true,
    "approx": false,
-   "category": "historical",
-   "recurrenceType": null,
-   "eventId": null,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0382",
    "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۳ مهر ۱۳۷۷",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
+   "year": 1400
+  },
+  {
+   "title": "روز نیروی انتظامی",
+   "solar": [
+    1400,
+    7,
+    13
+   ],
+   "gregorian": [
+    2021,
+    10,
+    5
+   ],
+   "lunar": [
+    1443,
+    2,
+    27
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0317",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۳ مهر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
    "year": 1400
   },
   {
@@ -7237,7 +7282,7 @@
     2,
     29
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -7485,7 +7530,7 @@
    "year": 1400
   },
   {
-   "title": "ولیعصر عج شهادت پنجمین شهید محراب آیت‌الله اشرفی اصفهانی به دست منافقان 1361 روز جهانی نابینایان عصای سفید",
+   "title": "شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان",
    "solar": [
     1400,
     7,
@@ -7504,11 +7549,50 @@
    "holiday": true,
    "approx": false,
    "category": "historical",
-   "recurrenceType": null,
-   "eventId": null,
+   "recurrenceType": "D",
+   "eventId": "E0047",
    "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "origin": {
+    "kind": "event",
+    "label": "۲۳ مهر ۱۴۰۵",
+    "note": "وقوع",
+    "gregorian": "2026-10-15",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-split",
+   "year": 1400
+  },
+  {
+   "title": "روز جهانی نابینایان (عصای سفید",
+   "solar": [
+    1400,
+    7,
+    23
+   ],
+   "gregorian": [
+    2021,
+    10,
+    15
+   ],
+   "lunar": [
+    1443,
+    3,
+    8
+   ],
+   "holiday": true,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0085",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۲ — ۲۴ مهر ۱۳۹۱",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2012-10-15",
+    "source": "دادهٔ PDF"
+   },
+   "source": "official-split",
    "year": 1400
   },
   {
@@ -8061,7 +8145,7 @@
    "year": 1400
   },
   {
-   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله",
+   "title": "شهادت محمدحسین فهمیده (بسیجی 13 ساله) روز نوجوان و بسیج دانشآموزی",
    "solar": [
     1400,
     8,
@@ -8080,17 +8164,11 @@
    "holiday": false,
    "approx": false,
    "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0370",
+   "recurrenceType": null,
+   "eventId": null,
    "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۸ آبان ۱۳۷۷",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "official-split",
+   "origin": null,
+   "source": "official-pdf",
    "year": 1400
   },
   {
@@ -8123,7 +8201,7 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
-   "source": "official-split",
+   "source": "catalog",
    "year": 1400
   },
   {

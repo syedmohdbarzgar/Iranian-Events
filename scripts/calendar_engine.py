@@ -675,12 +675,19 @@ def events_in_title(title: str, catalog: list[dict]) -> list[dict]:
     («روز بهره‌وری ... روز بزرگداشت ملاصدرا»). اگر مجموعِ عنوان‌های یافته
     دست‌کم ۵۵٪ عنوانِ ردیف را بپوشاند، همان‌ها رویدادهای واقعیِ ردیف‌اند.
     """
-    row = _canon(title)
+    # سال/توضیحِ داخلِ پرانتز بخشی از نامِ رویداد نیست و مانعِ تطبیقِ عنوانِ
+    # کاملِ کاتالوگ با ردیفِ PDF می‌شود؛ برای سنجشِ زیررشته حذفش می‌کنیم.
+    def bare(s: str) -> str:
+        s = s.replace("هٔ", "ه").replace("ة", "ه")
+        s = re.sub(r"[،,؛;.]", " ", s)
+        return _canon(re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", s))
+
+    row = bare(title)
     if len(row) < 10:
         return []
     cands: list[tuple[int, dict, str]] = []
     for e in catalog:
-        c = _canon(e["title"])
+        c = bare(e["title"])
         if len(c) >= 8 and c in row:
             cands.append((len(c), e, c))
     cands.sort(key=lambda x: -x[0])
@@ -785,7 +792,9 @@ def generate(year: int, catalog: dict) -> dict:
                     # درهم‌ادغام است و تاریخش یک روز جابه‌جا می‌شود.
                     m, d, approx = pm, pd, False
                     dates = event_dates(ev, year)
-                    if dates:
+                    # ردیفِ اصلاح‌شده با تاریخِ قطعیِ PDF نبايد به روزِ کانونیِ
+                    # تقریبی جابه‌جا شود؛ قانون: هیچ رویدادی بین دو روز جابه‌جا نشود.
+                    if dates and not r.get("corrections"):
                         m, d, _kind, approx = min(
                             dates, key=lambda x: abs((x[0] * 31 + x[1]) - (pm * 31 + pd)))
                     add_row(display, m, d, ev, r["holiday"], approx)
@@ -798,11 +807,11 @@ def generate(year: int, catalog: dict) -> dict:
                     for cev in embedded:
                         cm, cd, approx = pm, pd, False
                         dates = event_dates(cev, year)
-                        if dates:
+                        if dates and not r.get("corrections"):
                             cm, cd, _kind, approx = min(
                                 dates, key=lambda x: abs((x[0] * 31 + x[1]) - (pm * 31 + pd)))
                         add_row(cev["title"], cm, cd, cev,
-                                r["holiday"] if first else False, approx, "official-split")
+                                r["holiday"], approx, "official-split")
                         first = False
                     continue
                 # ردیفِ چندرویدادیِ چسبیده: در مرزِ «و» به بندها می‌شکند و هر
@@ -821,11 +830,11 @@ def generate(year: int, catalog: dict) -> dict:
                     for _c, cev in pairs:
                         cm, cd, approx = pm, pd, False
                         dates = event_dates(cev, year)
-                        if dates:
+                        if dates and not r.get("corrections"):
                             cm, cd, _kind, approx = min(
                                 dates, key=lambda x: abs((x[0] * 31 + x[1]) - (pm * 31 + pd)))
                         add_row(cev["title"], cm, cd, cev,
-                                r["holiday"] if first else False, approx, "official-split")
+                                r["holiday"], approx, "official-split")
                         first = False
                     continue
                 add_row(display, pm, pd, None, r["holiday"], False)

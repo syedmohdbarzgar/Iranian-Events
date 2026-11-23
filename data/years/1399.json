@@ -3,7 +3,7 @@
  "mode": "data",
  "count": 363,
  "droppedRows": 7,
- "addedRows": 162,
+ "addedRows": 161,
  "rows": [
   {
    "title": "عید نوروز",
@@ -703,7 +703,7 @@
     8,
     14
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -736,7 +736,7 @@
     8,
     14
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -2440,7 +2440,7 @@
     10,
     1
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -2473,7 +2473,7 @@
     10,
     2
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -4920,7 +4920,7 @@
    "year": 1399
   },
   {
-   "title": "روز اهدای خون",
+   "title": "روز عرفه",
    "solar": [
     1399,
     5,
@@ -4939,17 +4939,11 @@
    "holiday": false,
    "approx": false,
    "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0148",
+   "recurrenceType": null,
+   "eventId": null,
    "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۹ مرداد ۱۳۸۲",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "official-split",
+   "origin": null,
+   "source": "official-pdf",
    "year": 1399
   },
   {
@@ -6112,7 +6106,7 @@
     1,
     10
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -6145,7 +6139,7 @@
     1,
     10
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -6981,7 +6975,7 @@
    "year": 1399
   },
   {
-   "title": "فکوری، نامجو، کلاهدوز و جهانآرا 1360 روز آتشنشانی و ایمنی روز بزرگداشت شمس",
+   "title": "روز آتش‌نشانی و ایمنی",
    "solar": [
     1399,
     7,
@@ -6999,12 +6993,51 @@
    ],
    "holiday": false,
    "approx": false,
-   "category": "historical",
-   "recurrenceType": null,
-   "eventId": null,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0127",
    "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ مهر ۱۳۸۳",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
+   "year": 1399
+  },
+  {
+   "title": "روز بزرگداشت شمس",
+   "solar": [
+    1399,
+    7,
+    7
+   ],
+   "gregorian": [
+    2020,
+    9,
+    28
+   ],
+   "lunar": [
+    1442,
+    2,
+    10
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0170",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۷ مهر ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
    "year": 1399
   },
   {
@@ -7036,39 +7069,6 @@
     "note": "وقوع",
     "gregorian": "2024-9-28",
     "source": "دادهٔ PDF"
-   },
-   "source": "catalog",
-   "year": 1399
-  },
-  {
-   "title": "روز آتش‌نشانی و ایمنی",
-   "solar": [
-    1399,
-    7,
-    7
-   ],
-   "gregorian": [
-    2020,
-    9,
-    28
-   ],
-   "lunar": [
-    1442,
-    2,
-    10
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0127",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۷ مهر ۱۳۸۳",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
    },
    "source": "catalog",
    "year": 1399
@@ -7563,39 +7563,6 @@
    "year": 1399
   },
   {
-   "title": "روز عرفه (روز نیایش",
-   "solar": [
-    1399,
-    7,
-    24
-   ],
-   "gregorian": [
-    2020,
-    10,
-    15
-   ],
-   "lunar": [
-    1442,
-    2,
-    27
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "international",
-   "recurrenceType": "B",
-   "eventId": "E0096",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۳ — ۲۳ مهر ۱۳۹۲",
-    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
-    "gregorian": "2013-10-15",
-    "source": "دادهٔ PDF"
-   },
-   "source": "official-split",
-   "year": 1399
-  },
-  {
    "title": "روز وقف روز ملی پارالمپیک روز جهانی نابینایان عصای سفید",
    "solar": [
     1399,
@@ -7626,6 +7593,39 @@
     "source": "دادهٔ PDF"
    },
    "source": "official-pdf",
+   "year": 1399
+  },
+  {
+   "title": "روز عرفه (روز نیایش",
+   "solar": [
+    1399,
+    7,
+    24
+   ],
+   "gregorian": [
+    2020,
+    10,
+    15
+   ],
+   "lunar": [
+    1442,
+    2,
+    27
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0096",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۳ — ۲۳ مهر ۱۳۹۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2013-10-15",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
    "year": 1399
   },
   {
@@ -7777,7 +7777,7 @@
     3,
     1
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -8233,7 +8233,7 @@
     3,
     17
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -8266,7 +8266,7 @@
     3,
     17
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -8398,7 +8398,7 @@
     3,
     18
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -11712,6 +11712,39 @@
    "year": 1399
   },
   {
+   "title": "صدور فرمان حضرت امام خمینی (ره) مبنی بر تأسیس بنیاد شهید انقلاب اسلامی",
+   "solar": [
+    1399,
+    12,
+    22
+   ],
+   "gregorian": [
+    2021,
+    3,
+    12
+   ],
+   "lunar": [
+    1442,
+    7,
+    28
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0376",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۲ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
+   "year": 1399
+  },
+  {
    "title": "روز بزرگداشت شهدا",
    "solar": [
     1399,
@@ -11742,39 +11775,6 @@
     "source": "data/official-calendar-*.json"
    },
    "source": "official-split",
-   "year": 1399
-  },
-  {
-   "title": "صدور فرمان حضرت امام خمینی (ره) مبنی بر تأسیس بنیاد شهید انقلاب اسلامی",
-   "solar": [
-    1399,
-    12,
-    22
-   ],
-   "gregorian": [
-    2021,
-    3,
-    12
-   ],
-   "lunar": [
-    1442,
-    7,
-    28
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "official",
-   "recurrenceType": "A",
-   "eventId": "E0376",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۲۲ اسفند ۱۳۸۲",
-    "note": "اولین سالِ مشاهده در جدول",
-    "gregorian": "",
-    "source": "data/official-calendar-*.json"
-   },
-   "source": "catalog",
    "year": 1399
   },
   {

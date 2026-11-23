@@ -1,9 +1,9 @@
 {
  "year": 1395,
  "mode": "data",
- "count": 363,
+ "count": 366,
  "droppedRows": 7,
- "addedRows": 175,
+ "addedRows": 178,
  "rows": [
   {
    "title": "عید نوروز",
@@ -121,7 +121,7 @@
     6,
     11
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -154,7 +154,7 @@
     6,
     11
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "cultural",
    "recurrenceType": "A",
@@ -286,7 +286,7 @@
     6,
     14
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -5059,7 +5059,7 @@
     10,
     24
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -5700,6 +5700,39 @@
     "source": "data/official-calendar-*.json"
    },
    "source": "official-pdf",
+   "year": 1395
+  },
+  {
+   "title": "سالروز صدور فرمان حضرت امام خمینی (رحمةالله علیه) مبنی بر",
+   "solar": [
+    1395,
+    5,
+    26
+   ],
+   "gregorian": [
+    2016,
+    8,
+    16
+   ],
+   "lunar": [
+    1437,
+    11,
+    12
+   ],
+   "holiday": false,
+   "approx": true,
+   "category": "religious",
+   "recurrenceType": "C",
+   "eventId": "E0438",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "tradition",
+    "label": "سنت قمری",
+    "note": "مناسبتِ مذهبی",
+    "gregorian": "",
+    "source": ""
+   },
+   "source": "official-split",
    "year": 1395
   },
   {
@@ -6726,6 +6759,33 @@
    "year": 1395
   },
   {
+   "title": "روز عرفه",
+   "solar": [
+    1395,
+    6,
+    21
+   ],
+   "gregorian": [
+    2016,
+    9,
+    11
+   ],
+   "lunar": [
+    1437,
+    12,
+    8
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": null,
+   "eventId": null,
+   "verificationStatus": "verified",
+   "origin": null,
+   "source": "official-pdf",
+   "year": 1395
+  },
+  {
    "title": "روز سینما",
    "solar": [
     1395,
@@ -6755,7 +6815,7 @@
     "gregorian": "",
     "source": "data/official-calendar-*.json"
    },
-   "source": "official-split",
+   "source": "catalog",
    "year": 1395
   },
   {
@@ -7962,39 +8022,6 @@
    "year": 1395
   },
   {
-   "title": "روز عرفه (روز نیایش",
-   "solar": [
-    1395,
-    7,
-    24
-   ],
-   "gregorian": [
-    2016,
-    10,
-    15
-   ],
-   "lunar": [
-    1438,
-    1,
-    13
-   ],
-   "holiday": false,
-   "approx": false,
-   "category": "international",
-   "recurrenceType": "B",
-   "eventId": "E0096",
-   "verificationStatus": "verified",
-   "origin": {
-    "kind": "first-seen",
-    "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۳ — ۲۳ مهر ۱۳۹۲",
-    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
-    "gregorian": "2013-10-15",
-    "source": "دادهٔ PDF"
-   },
-   "source": "official-split",
-   "year": 1395
-  },
-  {
    "title": "روز ملی پارالمپیک روز جهانی نابینایان عصای سفید",
    "solar": [
     1395,
@@ -8025,6 +8052,39 @@
     "source": "دادهٔ PDF"
    },
    "source": "official-pdf",
+   "year": 1395
+  },
+  {
+   "title": "روز عرفه (روز نیایش",
+   "solar": [
+    1395,
+    7,
+    24
+   ],
+   "gregorian": [
+    2016,
+    10,
+    15
+   ],
+   "lunar": [
+    1438,
+    1,
+    13
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "international",
+   "recurrenceType": "B",
+   "eventId": "E0096",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۱۵ اکتبر ۲۰۱۳ — ۲۳ مهر ۱۳۹۲",
+    "note": "اولین سالِ مشاهده در داده (میلادی و معادل شمسی)",
+    "gregorian": "2013-10-15",
+    "source": "دادهٔ PDF"
+   },
+   "source": "catalog",
    "year": 1395
   },
   {
@@ -9187,7 +9247,7 @@
     3,
     1
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": true,
    "category": "religious",
    "recurrenceType": "C",
@@ -9781,7 +9841,7 @@
     3,
     17
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -9814,7 +9874,7 @@
     3,
     17
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "historical",
    "recurrenceType": "D",
@@ -9847,7 +9907,7 @@
     3,
     17
    ],
-   "holiday": false,
+   "holiday": true,
    "approx": false,
    "category": "official",
    "recurrenceType": "A",
@@ -11799,7 +11859,7 @@
    "year": 1395
   },
   {
-   "title": "بزرگداشت شهدا سالروز صدور فرمان حضرت امام خمینی رحمةالله علیه مبنی بر تأسیس بنیاد شهید انقلاب اسلامی",
+   "title": "صدور فرمان حضرت امام خمینی (ره) مبنی بر تأسیس بنیاد شهید انقلاب اسلامی",
    "solar": [
     1395,
     12,
@@ -11818,11 +11878,50 @@
    "holiday": false,
    "approx": false,
    "category": "official",
-   "recurrenceType": null,
-   "eventId": null,
+   "recurrenceType": "A",
+   "eventId": "E0376",
    "verificationStatus": "verified",
-   "origin": null,
-   "source": "official-pdf",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۲ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "official-split",
+   "year": 1395
+  },
+  {
+   "title": "روز بزرگداشت شهدا",
+   "solar": [
+    1395,
+    12,
+    22
+   ],
+   "gregorian": [
+    2017,
+    3,
+    12
+   ],
+   "lunar": [
+    1438,
+    6,
+    13
+   ],
+   "holiday": false,
+   "approx": false,
+   "category": "official",
+   "recurrenceType": "A",
+   "eventId": "E0171",
+   "verificationStatus": "verified",
+   "origin": {
+    "kind": "first-seen",
+    "label": "نخستین ثبت: ۲۲ اسفند ۱۳۸۲",
+    "note": "اولین سالِ مشاهده در جدول",
+    "gregorian": "",
+    "source": "data/official-calendar-*.json"
+   },
+   "source": "catalog",
    "year": 1395
   },
   {
