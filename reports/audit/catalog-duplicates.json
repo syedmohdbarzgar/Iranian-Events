@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T21:01:53+00:00",
+ "generatedAt": "2026-11-23T21:34:06+00:00",
  "groups": 22,
  "events": 49,
  "byKind": {
@@ -388,10 +388,10 @@
     {
      "id": "E0096",
      "title": "روز عرفه (روز نیایش",
-     "calendar": "gregorian",
-     "month": 10,
-     "day": 15,
-     "status": "verified",
+     "calendar": "lunar",
+     "month": 12,
+     "day": 9,
+     "status": "unverified",
      "source": "pdf-derived"
     },
     {

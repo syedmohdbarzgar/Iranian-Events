@@ -1,11 +1,11 @@
 # اعتبارسنجی فایل یگانهٔ رویدادها (نسخهٔ ۲)
 
-- رویدادها: **503** (پیش از ادغام: 579)
-- هم‌ترازی با پک برنامه: **269** · تاریخِ اصلاح‌شده: **54**
-- دسته‌ها: cultural: 12 · historical: 45 · international: 40 · official: 293 · religious: 113
-- تقویم: gregorian: 40 · lunar: 114 · solar: 349
-- نوع تکرار: A: 304 · B: 40 · C: 113 · D: 45 · E: 1
-- وضعیت اعتبار: partially_verified: 49 · traditional: 12 · unverified: 1 · verified: 441
+- رویدادها: **504** (پیش از ادغام: 582)
+- هم‌ترازی با پک برنامه: **268** · تاریخِ اصلاح‌شده: **56**
+- دسته‌ها: cultural: 12 · historical: 46 · international: 41 · official: 293 · religious: 112
+- تقویم: gregorian: 40 · lunar: 114 · solar: 350
+- نوع تکرار: A: 304 · B: 40 · C: 113 · D: 46 · E: 1
+- وضعیت اعتبار: partially_verified: 49 · traditional: 12 · unverified: 3 · verified: 440
 - تکرارِ کانونیِ باقی‌مانده: **0**
 - خطا: **0** · هشدار: **0**
 
