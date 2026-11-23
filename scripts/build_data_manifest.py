@@ -69,7 +69,11 @@ def main() -> int:
     unique_titles = len({engine._canon(e["title"]) for e in events})
     year_rows = sum(d.get("count", len(d.get("rows", []))) for d in years.values())
 
-    data_files = sorted(official_files + list((DATA / "years").glob("*.json")))
+    core_files = [
+        DATA / "events-master.json",
+        DATA / "official-corrections-1404-1405.json",
+    ]
+    data_files = sorted(official_files + list((DATA / "years").glob("*.json")) + core_files)
     hashes = {str(p.relative_to(ROOT)).replace("\\", "/"): sha(p) for p in data_files}
     pdfs = sorted((ROOT / "PDF").glob("*.pdf"))
     pdf_hashes = {p.name: sha(p) for p in pdfs}
