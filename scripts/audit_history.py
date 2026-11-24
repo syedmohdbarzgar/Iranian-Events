@@ -171,7 +171,7 @@ def main() -> int:
         "",
         f"**{len(reviews)} تصمیمِ ثبت‌شده** · منبع: `data/history/identity-reviews.json`",
         "",
-        "| هویت | تصمیم | مقصد | شاهدِ صفحه | اجزای کاتالوگی | علت | بازبین |",
+        "| هویت | تصمیم | مقصد | شاهدِ صفحه | اجزای کاتالوگی | علت | تأیید/بازبین |",
         "|---|---|---|---|---|---|---|",
     ]
     for entry in reviews:
@@ -184,6 +184,7 @@ def main() -> int:
             f"| `{entry.get('eventId')}` | {entry.get('decision')} | "
             f"{entry.get('target') or '—'} | {_cell(evidence) or '—'} | "
             f"{_cell(parts)} | {_cell(entry.get('reason', ''))} | "
+            f"{_cell((entry.get('approval') or {}).get('kind', ''))}: "
             f"{_cell(entry.get('reviewedBy', ''))} |")
     IDENTITY_REPORT.write_text("\n".join(review_lines) + "\n", encoding="utf-8")
 

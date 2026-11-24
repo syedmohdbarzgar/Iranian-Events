@@ -323,6 +323,9 @@ function render(){
       const r=el('div','aliases');
       r.append(el('b',null,e.review.decision==='keep-merged-row'?'بازبینیِ ثبت‌شده — ردیفِ چنده‌رویدادی: ':'بازبینیِ ثبت‌شده — عنوانِ مخدوش: '));
       r.append(el('span',null,e.review.reason||''));
+      if(e.review.approval&&e.review.approval.kind==='human'){
+        r.append(document.createElement('br'),el('b',null,'تأییدِ صریحِ انسانی: '),el('span',null,(e.review.approval.by||'')+(e.review.approval.note?' — '+e.review.approval.note:'')));
+      }
       if(e.review.constituents&&e.review.constituents.length){
         r.append(document.createElement('br'),el('b',null,'رویدادهای داخلِ ردیف: '));
         for(const c of e.review.constituents) r.append(el('span',null,`${c.id} ${c.title}`));

@@ -139,6 +139,7 @@ py -3 scripts/build_history_view.py           # → web/history.html + reports/h
 - `docs/review-workflow.md`: تصمیمِ انسانی، تأییدِ گروهی، ChangeLog، بازگردانی و بارگذاریِ PDF.
 - `docs/evidence-contract.md`: قالبِ شاهد و سطوحِ اعتبار.
 - `reports/history-identity-review.md`: شاهد/علتِ هر تصمیمِ هویتِ ردیفی.
+- `reports/ocr-status.md`: نتیجهٔ واقعیِ تلاشِ OCR صفحهٔ ۱۸ و دلیلِ مسدودبودن.
 
 آمارِ فعلی: **۶۵۲ هویت** (۵۴۶ با وقوع، ۱۰۶ بدونِ سند)، **۴٬۵۴۳ وقوع**، **۲۲ نسخه**؛
 هر ۲۲ نسخه `approval.kind = baseline` دارند (تأییدِ انسانی نیست) و هر ۲۲ هویتِ

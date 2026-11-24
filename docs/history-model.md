@@ -100,7 +100,9 @@
 - `keep-garbled-row`: یک رویداد با عنوانِ مخدوش که نگاشتِ مطمئن ندارد.
 
 هر ورودی `reason`، `evidence[{revisionId,page,year,observedTitle}]`،
-`reviewedBy`، `reviewedAt` و `active` دارد. گیت: `REVIEW_DECISION_UNKNOWN`،
+`reviewedBy`، `reviewedAt`، `approval` (نوعِ `human`، کانال و یادداشتِ تأیید) و
+`active` دارد. تصمیمِ بدونِ `approval.kind=human` با `REVIEW_APPROVAL_MISSING`
+رد می‌شود. گیت: `REVIEW_DECISION_UNKNOWN`،
 `REVIEW_TARGET_MISSING`، `REVIEW_EVIDENCE_MISSING`، `REVIEW_EVIDENCE_PAGE`،
 `REVIEW_INCOMPLETE`، `REVIEW_DUPLICATE` و هشدارِ `REVIEW_OPEN`.
 

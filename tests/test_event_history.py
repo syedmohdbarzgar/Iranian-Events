@@ -597,6 +597,18 @@ class IdentityReviewTest(unittest.TestCase):
             self.assertFalse([e for e in events_ if e["id"] == eid])
             self.assertEqual({o["eventId"] for o in occ}, {"E0001"})
 
+    def test_review_requires_explicit_human_approval(self):
+        with TempStore():
+            eid = store.synthetic_event_id(store.identity_key(self.TITLE))
+            entry = {"eventId": eid, "decision": "keep-merged-row",
+                     "reason": "آزمون", "evidence": [{"revisionId": "R-1405-bbbb", "page": 2}],
+                     "reviewedBy": "مدیر", "reviewedAt": "2026-01-01T00:00:00Z"}
+            codes = {i["code"] for i in store.validate(
+                {"events": [{"id": eid}], "occurrences": [],
+                 "revisions": [revision("R-1405-bbbb", 1405, "b" * 64)], "changelog": []},
+                identity_reviews=[entry])}
+            self.assertIn("REVIEW_APPROVAL_MISSING", codes)
+
     def test_unknown_target_is_reported(self):
         with TempStore():
             eid = store.synthetic_event_id(store.identity_key(self.TITLE))

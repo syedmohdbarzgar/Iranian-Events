@@ -550,6 +550,7 @@ def derive(events_catalog: list[dict], revisions: list[dict],
                 "constituents": review.get("constituents", []),
                 "reviewedBy": review.get("reviewedBy"),
                 "reviewedAt": review.get("reviewedAt"),
+                "approval": review.get("approval"),
             }
             info["needsReview"] = False
 
@@ -689,6 +690,10 @@ def validate(history: dict, *, expected: tuple[list[dict], list[dict]] | None = 
         if not entry.get("reason") or not entry.get("reviewedBy") or not entry.get("reviewedAt"):
             issues.append(_issue("REVIEW_INCOMPLETE", "error",
                                  "تصمیم بدونِ علت/بازبین/زمان", eid))
+        approval = entry.get("approval") or {}
+        if approval.get("kind") != "human" or not approval.get("by") or not approval.get("at"):
+            issues.append(_issue("REVIEW_APPROVAL_MISSING", "error",
+                                 "تصمیمِ هویت تأییدِ صریحِ انسانی ندارد", eid))
         if entry["decision"] == "map":
             if entry.get("target") not in event_ids:
                 issues.append(_issue("REVIEW_TARGET_MISSING", "error",

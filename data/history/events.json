@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T16:07:22.130864Z",
+ "generatedAt": "2026-11-24T16:23:14.945682Z",
  "counts": {
   "events": 652,
   "occurrences": 4543,
@@ -25440,8 +25440,15 @@
       "title": "روز تجلیل از امام زادگان و بقاع متبرکه"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -25884,8 +25891,15 @@
       "title": "انتخاب حضرت آیت‌الله امام خامنه‌ای به رهبری"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -25950,8 +25964,15 @@
       "title": "روز زن"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -26062,8 +26083,15 @@
       "title": "روز اکرام و تکریم خیرین"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -26213,8 +26241,15 @@
       "title": "انتخاب حضرت آیت‌الله امام خامنه‌ای به رهبری"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -26968,8 +27003,15 @@
       "title": "روز دانش‌آموز"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -27538,8 +27580,15 @@
       "title": "روز جهانی نابینایان (عصای سفید"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -27861,8 +27910,15 @@
       "title": "ولادت حضرت امام حسن مجتبی علیه‌السلام"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -29149,8 +29205,15 @@
       "title": "شهادت آیت‌الله دستغیب سومین شهید محراب به دست منافقان"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -29342,8 +29405,15 @@
       "title": "روز جهانی نابینایان (عصای سفید"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -29450,8 +29520,15 @@
       "title": "روز جهانی نابینایان (عصای سفید"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -29774,8 +29851,15 @@
       "title": "آغاز عملیات فتح‌المبین"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -30117,8 +30201,15 @@
       "title": "آغاز عملیات فتح‌المبین"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -30776,8 +30867,15 @@
       "title": "شهادت حضرت امام موسی کاظم علیه‌السلام"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -31266,8 +31364,15 @@
       "title": "آغاز عملیات فتح‌المبین"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -31509,8 +31614,15 @@
       "title": "انتخاب حضرت آیت‌الله امام خامنه‌ای به رهبری"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {
@@ -31621,8 +31733,15 @@
       "title": "روز جهان عاری از خشونت و افراطی‌گری"
      }
     ],
-    "reviewedBy": "agent:checklist-2026-11-24 (user instruction)",
-    "reviewedAt": "2026-11-24T00:00:00Z"
+    "reviewedBy": "user:explicit-chat-approval-2026-11-24",
+    "reviewedAt": "2026-11-24T00:00:00Z",
+    "approval": {
+     "kind": "human",
+     "channel": "chat",
+     "by": "user:explicit-chat-approval-2026-11-24",
+     "at": "2026-11-24T00:00:00Z",
+     "note": "تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده."
+    }
    }
   },
   {

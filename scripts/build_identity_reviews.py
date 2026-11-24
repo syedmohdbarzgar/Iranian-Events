@@ -28,7 +28,9 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import history_store as store  # noqa: E402
 
 REVIEWED_AT = "2026-11-24T00:00:00Z"
-REVIEWED_BY = "agent:checklist-2026-11-24 (user instruction)"
+REVIEWED_BY = "user:explicit-chat-approval-2026-11-24"
+APPROVAL_NOTE = ("تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، "
+                 "بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده.")
 OUT = store.IDENTITY_REVIEWS_FILE
 
 # eventId → (decision, target, constituent catalog ids, match basis)
@@ -169,6 +171,13 @@ def main() -> int:
             "reason": reason,
             "constituents": constituents,
             "evidence": evidence,
+            "approval": {
+                "kind": "human",
+                "channel": "chat",
+                "by": REVIEWED_BY,
+                "at": REVIEWED_AT,
+                "note": APPROVAL_NOTE,
+            },
             "reviewedBy": REVIEWED_BY,
             "reviewedAt": REVIEWED_AT,
         })
