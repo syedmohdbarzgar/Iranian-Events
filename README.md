@@ -13,7 +13,7 @@ py -3 scripts/build_dataset.py           # دادهٔ تمیز، رویداده�
 py -3 scripts/extract_reference_docs.py  # ۳۶ سندِ مرجع → extracted/ref/<slug>.json
 ```
 
-هیچ اسکریپتی دادهٔ برنامهٔ اندروید را نمی‌خواند؛ ورودی فقط `PDF/` است.
+لولهٔ تولید فقط `PDF/` را می‌خواند؛ بازرسیِ جداگانهٔ `audit_events.py` پک‌های همراهِ برنامه را فقط برای مقایسه می‌خواند و چیزی از آن‌ها به داده اضافه نمی‌کند.
 
 ## خروجی‌ها
 
@@ -23,10 +23,19 @@ py -3 scripts/extract_reference_docs.py  # ۳۶ سندِ مرجع → extracted/
 | `extracted/json/<سال>.json` | جدولِ روزبه‌روزِ تقویم‌های رسمی: شمسی، میلادی، قمری، روزِ هفته، عنوان، تعطیل، QC |
 | `extracted/ref/` | استخراجِ ساختاریافتهٔ ۳۶ سندِ غیرسالانه (ویکی‌شیعه، مصوبه‌ها، فهرست‌ها) |
 | `data/official-calendar-<سال>.json` | دادهٔ تمیزِ هر سال (بدونِ روزهای خالی) |
-| `data/events.json` | ۱۷۹۸ رویدادِ یکتا با تاریخ‌های سه‌تقویمی و برچسبِ وابستگی |
+| `data/events.json` | ۱۷۸۹ رویدادِ یکتای خام با تاریخ‌های سه‌تقویمی (لایهٔ استخراج) |
+| `data/events-master.json` | ۵۰۳ رویدادِ کاتالوگِ کانونی با شناسه، منبع و سطحِ اعتبار |
 | `reports/dataset-report.md` | صحت‌سنجی، غلط‌های اصلاح‌شده، فایل‌های کنارگذاشته |
 | `reports/holidays.md` | روزهای تعطیلِ هر سال با هر سه تاریخ |
 | `reports/calendar-dependency.md` | شمسی/قمری/میلادی و روشِ تشخیص |
+
+## سطحِ اعتبار (از `data-manifest.json` همان اجرا)
+
+- **۰ رویداد `verified`**: در این دور هیچ رویدادی شاهدِ مستقلِ تأییدشده نداشت.
+- **۳۸۸ `partially_verified`**: فقط یک ردیفِ جدولِ رسمیِ PDF دارند؛ PDF به‌تنهایی تأییدِ تاریخی نیست.
+- **۱۲ `traditional`**: آیین/سنتی، بدونِ ادعای سندِ رسمی.
+- **۱۰۳ `unverified`**: شاهدِ اولیه/صفحهٔ سند ندارند و در وب با نشانِ هشدار دیده می‌شوند.
+- شاهدِ هر رویداد (`sourceRef`، `page`، `witnessText`، `reviewedAt`) داخل `data/events-master.json` است؛ جزئیات در `docs/audit.md` §۳.۳.
 
 ## صحت‌سنجی
 
@@ -61,11 +70,12 @@ py -3 scripts/extract_reference_docs.py  # ۳۶ سندِ مرجع → extracted/
 py -3 scripts/build_web.py     # → web/index.html (تک‌فایل: HTML+CSS+JS+داده)
 ```
 
-`web/index.html` تقویم ۱۳۴۹–۱۴۰۶ را نشان می‌دهد:
+`web/index.html` تقویم ۱۳۰۰–۱۴۲۰ را نشان می‌دهد:
 
 - **شبکهٔ ۱۲ماهه** برای هر سال (طولِ ماه اسفند از تبدیلِ جلالی محاسبه می‌شود؛ ۶ سال کبیسه در بازه).
 - **رویدادهای رسمی** فقط در سالِ خودشان (از جدولِ همان PDF).
-- **رویدادهای تکرارشونده** (شمی/میلادی) در همهٔ سال‌ها؛ قمری فقط برای سال‌هایی که PDF دارند، چون تاریخ قمری از جدولِ همان سال می‌آید.
+- **رویدادهای تکرارشونده** (شمسی/میلادی) در همهٔ سال‌ها؛ قمری فقط برای سال‌هایی که PDF دارند، چون تاریخ قمری از جدولِ همان سال می‌آید.
+- **سطحِ اعتبار** هر ردیف (`verified`/`partially_verified`/`traditional`/`unverified`) و صفحهٔ PDF در وب و JSON نمایش داده می‌شود.
 - **تبِ «تغییرات سال»**: افزوده/حذف‌شده/ویرایش‌شده نسبت به سال قبل (برای ۱۳۸۲–۱۴۰۶).
 - **تبِ «منابع سال»** برای ۱۳۴۹–۱۳۷۳ از ویکی‌شیعه؛ ۱۳۷۴–۱۳۸۱ سند مرجعی ندارند.
 
@@ -76,7 +86,7 @@ py -3 scripts/build_web.py     # → web/index.html (تک‌فایل: HTML+CSS+J
 `scripts/calendar_engine.py` تقویم را برای هر سال می‌سازد و `web/index.html` بازهٔ ۱۳۰۰–۱۴۲۰ را نشان می‌دهد:
 
 - **۱۳۸۲–۱۴۰۶:** جدولِ رسمیِ همان PDF (بالاترین اعتبار).
-- **بیرون از آن:** کاتالوگ `data/event-catalog.json` + قاعده‌ها — فرهنگی/مذهبی تکرار هر سال، تاریخی از سالِ رویداد، رسمیِ متغیر فقط از سالِ ورودش، و آیندهٔ ۱۴۰۷+ فقط با شاهدِ تداوم.
+- **بیرون از آن:** کاتالوگ `data/events-master.json` + قاعده‌ها — فرهنگی/مذهبی تکرار هر سال، تاریخی از سالِ رویداد، رسمیِ متغیر فقط از سالِ ورودش، و آیندهٔ ۱۴۰۷+ فقط با شاهدِ تداوم.
 - **قمریِ بیرون از داده** با تقویمِ تربیعی و برچسبِ «تقریبی ±۱ روز».
 
 ```bash
@@ -89,6 +99,7 @@ py -3 scripts/calendar_engine.py --year 1410 --out out.json
 ## یکپارچگی و صحت‌سنجی
 
 - `scripts/check_consistency.py` → `reports/consistency.md`: تکرارها، عنوان‌های چسبیده و پوشش هر سال.
+- `reports/audit/data-manifest.json` تنها منبعِ نسخه‌دارِ شمارش است؛ `release-summary.md`، `master-validation.md` و `consistency.md` از همین اجرا/کاتالوگ ساخته می‌شوند.
 - `docs/verification.md`: جدول لنگرهای تأییدشده با منبع بیرونی (عاشورا ۱۳۴۹، فطر ۱۳۴۹، نفت ۱۳۲۹، ۲۲ بهمن ۱۳۵۷).
 - `docs/calendar-rules.md`: قواعد R1–R8 و مدل داده.
 
@@ -103,12 +114,12 @@ py -3 scripts/classify_calendars.py
 ## فایل یگانه و ساخت سال‌ها
 
 ```bash
-py -3 scripts/classify_calendars.py   # تقویم نمایشی هر رویداد
-py -3 scripts/build_master.py         # data/events-master.json
-py -3 scripts/build_years.py          # data/years/1300..1420.json
-py -3 scripts/build_web.py            # web/index.html
+py -3 scripts/verify_all.py            # گیتِ رسمی: شاهد، وضعیت، سال‌ها، وب و تست‌ها
 ```
 
+`build_master.py` فقط ابزارِ بازسازیِ کاملِ اولیه است و **در گیت نیست**؛ اجرای دوبارهٔ آن
+ممکن است کاتالوگ را تغییر دهد. منبعِ رسمی، `data/events-master.json` موجود است و شاهد/وضعیت
+را `build_event_evidence.py` + `apply_evidence_status.py` (داخلِ `verify_all.py`) می‌سازند.
 گزارش‌ها: `reports/master-validation.md` و `reports/year-build-validation.md`.
 
 ## پاک‌سازیِ املا

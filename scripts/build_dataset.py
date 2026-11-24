@@ -223,14 +223,25 @@ def main() -> int:
 
     # --- گزارش ---
     total_rows = sum(len(p["rows"]) for p in per_year.values())
+    official_rows = sum(len(json.loads(p.read_text(encoding="utf-8"))["rows"])
+                        for p in DATA.glob("official-calendar-*.json"))
+    master_path = DATA / "events-master.json"
+    canonical_events = len(json.loads(master_path.read_text(encoding="utf-8"))["events"]) if master_path.exists() else 0
     counts = defaultdict(int)
     for e in out_events:
         counts[e["calendar"]] += 1
+    manifest_path = ROOT / "reports" / "audit" / "data-manifest.json"
+    version = (json.loads(manifest_path.read_text(encoding="utf-8"))["dataVersion"]
+               if manifest_path.exists() else "نامشخص")
     lines = ["# گزارش استخراج و صحت‌سنجی PDFها", "",
+             f"- داده: **{version}** · لایهٔ استخراجِ خام (مرجعِ نهایی: manifest)",
              f"- PDFهای تقویمِ سالانه: ۲۵ فایل؛ قابلِ استخراجِ ساختاری: {len(per_year)} سال",
              f"- سال‌های کنارگذاشته: {len(excluded)}",
-             f"- ردیف‌های رویدادِ استخراج‌شده: {total_rows}",
-             f"- رویدادهای یکتا: {len(out_events)}",
+             f"- ردیف‌های رویدادِ خام (پس از فیلترِ dataset، پیش از اصلاحیه): {total_rows}",
+             f"- همهٔ ردیف‌های خامِ استخراج (شامل روزهای خالی): {sum(len(json.loads(p.read_text(encoding='utf-8')).get('rows', [])) for p in (ROOT / 'extracted' / 'json').glob('*.json'))}",
+             f"- ردیف‌های رسمیِ منتشرشده (پس از اصلاحیه): {official_rows}",
+             f"- رویدادهای یکتای خام: {len(out_events)}",
+             f"- رویدادهای کاتالوگِ کانونی: {canonical_events} (مرجع: `data-manifest.json`)",
              f"- وابستگیِ تقویمی: شمسی {counts['solar']} · قمری {counts['lunar']} · میلادی {counts['gregorian']} · نامشخص {counts['unresolved']}",
              "", "## سال‌ها", "", "| سال | فایل | ردیف | مناسبت | تعطیل | اصلاح میلادی | روزِ پرشده |", "|---|---|---|---|---|---|---|"]
     for y in sorted(per_year):

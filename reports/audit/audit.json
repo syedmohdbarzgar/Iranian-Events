@@ -1,5 +1,6 @@
 {
- "generatedAt": "2026-11-23",
+ "dataVersion": "v2+da12b32",
+ "generatedAt": "2026-11-24",
  "scope": {
   "firstYear": 1300,
   "lastYear": 1420
@@ -21,10 +22,9 @@
    "C": 113
   },
   "masterVerification": {
+   "partially_verified": 388,
    "traditional": 12,
-   "verified": 440,
-   "partially_verified": 49,
-   "unverified": 2
+   "unverified": 103
   },
   "officialYears": [
    1382,
@@ -1601,10 +1601,114 @@
   }
  },
  "counts": {
-  "major": 24,
+  "major": 125,
   "minor": 22
  },
  "issues": [
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0059",
+   "title": "روز استاندارد و کیفیت روز جهانی استاندارد",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0060",
+   "title": "روز بهرهوری-روز بزرگداشت ملاصدرا صدرالمتألهین",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0061",
+   "title": "روز جهانی آب",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0064",
+   "title": "روز جهانی بدون دخانیات",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0069",
+   "title": "روز جهانی دریانوردی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0071",
+   "title": "روز جهانی شیر مادر",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0074",
+   "title": "روز جهانی غذا",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0075",
+   "title": "روز جهانی ماما",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0076",
+   "title": "روز جهانی مبارزه با ایدز",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0087",
+   "title": "روز جهانی هواشناسی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0088",
+   "title": "روز جهانی هواپیمایی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0089",
+   "title": "روز جهانی پست",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0092",
+   "title": "روز جهانی گمرک",
+   "year": null
+  },
   {
    "severity": "major",
    "check": "M-007",
@@ -1617,8 +1721,712 @@
    "severity": "major",
    "check": "M-007",
    "message": "رویدادِ تأییدنشده",
+   "eventId": "E0103",
+   "title": "ابلاغ پیام تاریخی حضرت امام خمینی (ره) به گورباچف رهبر شوروی سابق",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0104",
+   "title": "اجرای طرح استعماری حذف حجاب به دست رضاخان",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0105",
+   "title": "اشغال ایران توسط متفقین و فرار رضاخان",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0108",
+   "title": "افتتاح اولین دوره مجلس شورای اسلامی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0109",
+   "title": "اقامه اولین نماز جمعه با حکم حضرت امام خمینی (ره",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0112",
+   "title": "انفجار بمب اتمی آمریکا در هیروشیما (1945 م",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0117",
+   "title": "تبعید حضرت امام خمینی (ره) از ایران به ترکیه",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0124",
+   "title": "حمله به مسجد گوهرشاد و کشتار مردم به دست رضاخان",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0128",
+   "title": "روز آذربایجان غربی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0129",
+   "title": "روز آزادسازی شهر مهران",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0137",
+   "title": "روز ازدواج و خانواده",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0140",
+   "title": "روز اسناد ملی و میراث مکتوب",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0141",
+   "title": "روز اصفهان",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0146",
+   "title": "روز اقتصاد مقاومتی و کارآفرینی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0151",
+   "title": "روز ایمنی در برابر زلزله و بلایای طبیعی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0152",
+   "title": "روز بزرگداشت آیت‌الله سید ابوالقاسم کاشانی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0161",
+   "title": "روز بزرگداشت حکیم حاج ملاهادی سبزواری",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0164",
+   "title": "روز بزرگداشت خواجوی کرمانی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0168",
+   "title": "روز بزرگداشت سعدی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0181",
+   "title": "روز بزرگداشت صائب تبریزی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0182",
+   "title": "روز بزرگداشت صفی‌الدین ارموی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0185",
+   "title": "روز بزرگداشت علامه امینی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0204",
+   "title": "روز بوشهر",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0208",
+   "title": "روز تبلیغ و اطلاع‌رسانی دینی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0209",
+   "title": "روز تجلیل از شهید تندگویان",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0214",
+   "title": "روز تشکیل قرارگاه پدافند هوایی حضرت خاتم‌الانبیاء صلی الله علیه و آله",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0217",
+   "title": "روز تکریم بازنشستگان",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0218",
+   "title": "روز ثبت احوال",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0231",
+   "title": "روز حماسه دفاع از ایران",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0235",
+   "title": "روز حمل و نقل و رانندگان",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0246",
+   "title": "روز ذخایر ژنتیکی و زیستی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0260",
+   "title": "روز شهرداری و دهیاری",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0264",
+   "title": "روز صنعت دفاعی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0266",
+   "title": "روز صنعت پتروشیمی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0283",
+   "title": "روز مازندران",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0288",
+   "title": "روز مبارزه با سلاح‌های شیمیایی و میکروبی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0305",
+   "title": "روز ملی کارآفرینی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0312",
+   "title": "روز نسیم مهر (روز حمایت از خانواده زندانیان",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0313",
+   "title": "روز نهاوند",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0322",
+   "title": "روز همدان",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0328",
+   "title": "روز پدافند غیرعامل",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0331",
+   "title": "روز پیوند اولیا و مربیان و سالروز واقعه به آتش کشیدن مسجد جامع شهر کرمان به دست دژخیمان حکومت پهلوی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0332",
+   "title": "روز چهارمحال و بختیاری",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0337",
+   "title": "روز کردستان",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0341",
+   "title": "روز گردشگری",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0348",
+   "title": "زندانی شدن حضرت امام خمینی (ره) به دست مأموران ستم‌شاهی پهلوی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0349",
+   "title": "سالروز آزادسازی سوسنگرد",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0357",
+   "title": "سالروز قیام مردم گرگان",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0359",
+   "title": "شهادت آیت‌الله سیدمحمدباقر صدر و خواهرش بنت‌الهدی به دست حکومت بعث عراق",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0360",
+   "title": "شهادت آیت‌الله شیخ فضل‌الله نوری",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0363",
+   "title": "شهادت امیر سرلشکر خلبان عباس بابایی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0365",
+   "title": "شهادت رئیس‌علی دلواری",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0366",
+   "title": "شهادت زائران حرم رضوی ع به دست ایادی آمریکا عاشورای",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0367",
+   "title": "شهادت زائران حرم رضوی علیه‌السلام به دست ایادی آمریکا عاشورای",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0371",
+   "title": "شهادت مظلومانه آیت‌الله حاج سید مصطفی خمینی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0374",
+   "title": "شکسته شدن حکومت نظامی به فرمان حضرت امام خمینی (ره",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0375",
+   "title": "صدور حکم تاریخی حضرت امام خمینی (ره) مبنی بر ارتداد سلمان رشدی، نویسنده خائن کتاب آیات شیطانی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0385",
+   "title": "ولادت حضرت قائم (عج",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0386",
+   "title": "کشف توطئه آمریکایی در پایگاه هوایی شهید نوژه کودتای نافرجام نقاب",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0387",
+   "title": "کودتای انگلیسی رضاخان",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0388",
+   "title": "گشایش مجلس خبرگان برای بررسی نهایی قانون اساسی جمهوری اسلامی ایران",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0389",
+   "title": "گشایش نخستین مجلس خبرگان رهبری",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0390",
+   "title": "یادروز ورود حضرت امام رضا علیه‌السلام به نیشابور و نقل حدیث سلسله‌الذهب",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0394",
+   "title": "آغاز دهه کرامت",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0401",
+   "title": "تغییر قبله مسلمین از بیت‌المقدس به مکه معظمه",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0402",
+   "title": "تولد حضرت امام خمینی (ره)، رهبر کبیر انقلاب اسلامی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0409",
+   "title": "روز بزرگداشت حضرت صالح بن موسی کاظم علیه‌السلام",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0410",
+   "title": "روز بزرگداشت رودکی",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0415",
+   "title": "روز ترویج زکات",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0422",
+   "title": "روز زن",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0423",
+   "title": "روز سربازان گمنام امام زمان (عج",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0430",
+   "title": "روز نهج‌البلاغه",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0434",
+   "title": "روز پدر",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0436",
+   "title": "روز پسر",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0447",
+   "title": "شهادت حضرت امام حسن مجتبی علیه‌السلام",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0450",
+   "title": "شهادت حضرت امام زین‌العابدین علیه‌السلام",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0457",
+   "title": "شهادت حضرت فاطمه زهرا سلام الله علیها",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
    "eventId": "E0459",
    "title": "شهادت محمدحسین فهمیده بسیجی 13 ساله",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0466",
+   "title": "فتح اندلس به دست مسلمانان",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0468",
+   "title": "میلاد حضرت عیسی مسیح علیه‌السلام",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0470",
+   "title": "وفات آیت‌الله سید محمود طالقانی اولین امام جمعه تهران",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0471",
+   "title": "وفات آیت‌الله سید محمود طالقانی اولین امام جمعه تهران",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0472",
+   "title": "وفات آیت‌الله سیدمحمود طالقانی اولین امام جمعه تهران",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0481",
+   "title": "ولادت حضرت امام جعفر صادق علیه‌السلام، مؤسس مذهب جعفری",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0488",
+   "title": "ولادت حضرت امام علی علیه‌السلام (23 سال قبل از هجرت",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0493",
+   "title": "ولادت حضرت امام موسی کاظم علیه‌السلام",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0497",
+   "title": "ولادت حضرت عبدالعظیم حسنی علیه‌السلام",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0499",
+   "title": "ولادت حضرت عیسی مسیح علیه‌السلام",
+   "year": null
+  },
+  {
+   "severity": "major",
+   "check": "M-007",
+   "message": "رویدادِ تأییدنشده",
+   "eventId": "E0503",
+   "title": "یادروز قیام مردم سیستان به خونخواهی شهدای کربلا",
    "year": null
   },
   {

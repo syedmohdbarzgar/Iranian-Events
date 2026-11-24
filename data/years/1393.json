@@ -57,7 +57,7 @@
    "year": 1393,
    "eventId": "E0100",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -89,7 +89,7 @@
    "year": 1393,
    "eventId": "E0061",
    "recurrenceType": "B",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "established",
@@ -153,7 +153,7 @@
    "year": 1393,
    "eventId": "E0383",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -185,7 +185,7 @@
    "year": 1393,
    "eventId": "E0087",
    "recurrenceType": "B",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -281,7 +281,7 @@
    "year": 1393,
    "eventId": "E0220",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -313,7 +313,7 @@
    "year": 1393,
    "eventId": "E0268",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -377,7 +377,7 @@
    "year": 1393,
    "eventId": "E0410",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -409,7 +409,7 @@
    "year": 1393,
    "eventId": "E0499",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -441,7 +441,7 @@
    "year": 1393,
    "eventId": "E0246",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -473,7 +473,7 @@
    "year": 1393,
    "eventId": "E0456",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -505,7 +505,7 @@
    "year": 1393,
    "eventId": "E0251",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -537,7 +537,7 @@
    "year": 1393,
    "eventId": "E0094",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -569,7 +569,7 @@
    "year": 1393,
    "eventId": "E0359",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -601,7 +601,7 @@
    "year": 1393,
    "eventId": "E0301",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -633,7 +633,7 @@
    "year": 1393,
    "eventId": "E0302",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -665,7 +665,7 @@
    "year": 1393,
    "eventId": "E0323",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -697,7 +697,7 @@
    "year": 1393,
    "eventId": "E0036",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -729,7 +729,7 @@
    "year": 1393,
    "eventId": "E0183",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -761,7 +761,7 @@
    "year": 1393,
    "eventId": "E0416",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -793,7 +793,7 @@
    "year": 1393,
    "eventId": "E0474",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -825,7 +825,7 @@
    "year": 1393,
    "eventId": "E0136",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -857,7 +857,7 @@
    "year": 1393,
    "eventId": "E0167",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -889,7 +889,7 @@
    "year": 1393,
    "eventId": "E0016",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -921,7 +921,7 @@
    "year": 1393,
    "eventId": "E0249",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -953,7 +953,7 @@
    "year": 1393,
    "eventId": "E0422",
    "recurrenceType": "C",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -985,7 +985,7 @@
    "year": 1393,
    "eventId": "E0350",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1017,7 +1017,7 @@
    "year": 1393,
    "eventId": "E0500",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -1049,7 +1049,7 @@
    "year": 1393,
    "eventId": "E0175",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1081,7 +1081,7 @@
    "year": 1393,
    "eventId": "E0373",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1113,7 +1113,7 @@
    "year": 1393,
    "eventId": "E0261",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1145,7 +1145,7 @@
    "year": 1393,
    "eventId": "E0014",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -1177,7 +1177,7 @@
    "year": 1393,
    "eventId": "E0299",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1209,7 +1209,7 @@
    "year": 1393,
    "eventId": "E0090",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1241,7 +1241,7 @@
    "year": 1393,
    "eventId": "E0415",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -1273,7 +1273,7 @@
    "year": 1393,
    "eventId": "E0291",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1305,7 +1305,7 @@
    "year": 1393,
    "eventId": "E0025",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -1337,7 +1337,7 @@
    "year": 1393,
    "eventId": "E0430",
    "recurrenceType": "C",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -1369,7 +1369,7 @@
    "year": 1393,
    "eventId": "E0361",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1401,7 +1401,7 @@
    "year": 1393,
    "eventId": "E0489",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -1433,7 +1433,7 @@
    "year": 1393,
    "eventId": "E0451",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -1465,7 +1465,7 @@
    "year": 1393,
    "eventId": "E0458",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -1497,7 +1497,7 @@
    "year": 1393,
    "eventId": "E0177",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1529,7 +1529,7 @@
    "year": 1393,
    "eventId": "E0075",
    "recurrenceType": "B",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1561,7 +1561,7 @@
    "year": 1393,
    "eventId": "E0072",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1593,7 +1593,7 @@
    "year": 1393,
    "eventId": "E0140",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1625,7 +1625,7 @@
    "year": 1393,
    "eventId": "E0180",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1657,7 +1657,7 @@
    "year": 1393,
    "eventId": "E0436",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -1689,7 +1689,7 @@
    "year": 1393,
    "eventId": "E0491",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -1721,7 +1721,7 @@
    "year": 1393,
    "eventId": "E0392",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -1753,7 +1753,7 @@
    "year": 1393,
    "eventId": "E0434",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -1785,7 +1785,7 @@
    "year": 1393,
    "eventId": "E0379",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1817,7 +1817,7 @@
    "year": 1393,
    "eventId": "E0488",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -1849,7 +1849,7 @@
    "year": 1393,
    "eventId": "E0160",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1881,7 +1881,7 @@
    "year": 1393,
    "eventId": "E0188",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1913,7 +1913,7 @@
    "year": 1393,
    "eventId": "E0068",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -1945,7 +1945,7 @@
    "year": 1393,
    "eventId": "E0397",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -1977,7 +1977,7 @@
    "year": 1393,
    "eventId": "E0400",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -2009,7 +2009,7 @@
    "year": 1393,
    "eventId": "E0476",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -2041,7 +2041,7 @@
    "year": 1393,
    "eventId": "E0135",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2073,7 +2073,7 @@
    "year": 1393,
    "eventId": "E0062",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2105,7 +2105,7 @@
    "year": 1393,
    "eventId": "E0162",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2137,7 +2137,7 @@
    "year": 1393,
    "eventId": "E0083",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2169,7 +2169,7 @@
    "year": 1393,
    "eventId": "E0060",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2201,7 +2201,7 @@
    "year": 1393,
    "eventId": "E0066",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2233,7 +2233,7 @@
    "year": 1393,
    "eventId": "E0192",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2265,7 +2265,7 @@
    "year": 1393,
    "eventId": "E0201",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2297,7 +2297,7 @@
    "year": 1393,
    "eventId": "E0295",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2329,7 +2329,7 @@
    "year": 1393,
    "eventId": "E0051",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -2361,7 +2361,7 @@
    "year": 1393,
    "eventId": "E0294",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2393,7 +2393,7 @@
    "year": 1393,
    "eventId": "E0312",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2425,7 +2425,7 @@
    "year": 1393,
    "eventId": "E0455",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -2489,7 +2489,7 @@
    "year": 1393,
    "eventId": "E0108",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2521,7 +2521,7 @@
    "year": 1393,
    "eventId": "E0467",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -2553,7 +2553,7 @@
    "year": 1393,
    "eventId": "E0064",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2585,7 +2585,7 @@
    "year": 1393,
    "eventId": "E0433",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -2617,7 +2617,7 @@
    "year": 1393,
    "eventId": "E0484",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -2649,7 +2649,7 @@
    "year": 1393,
    "eventId": "E0110",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2681,7 +2681,7 @@
    "year": 1393,
    "eventId": "E0126",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2713,7 +2713,7 @@
    "year": 1393,
    "eventId": "E0417",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -2745,7 +2745,7 @@
    "year": 1393,
    "eventId": "E0479",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -2777,7 +2777,7 @@
    "year": 1393,
    "eventId": "E0078",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2809,7 +2809,7 @@
    "year": 1393,
    "eventId": "E0425",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -2841,7 +2841,7 @@
    "year": 1393,
    "eventId": "E0348",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -2873,7 +2873,7 @@
    "year": 1393,
    "eventId": "E0053",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -2905,7 +2905,7 @@
    "year": 1393,
    "eventId": "E0486",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -2937,7 +2937,7 @@
    "year": 1393,
    "eventId": "E0031",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -2969,7 +2969,7 @@
    "year": 1393,
    "eventId": "E0419",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -3001,7 +3001,7 @@
    "year": 1393,
    "eventId": "E0498",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -3033,7 +3033,7 @@
    "year": 1393,
    "eventId": "E0418",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -3065,7 +3065,7 @@
    "year": 1393,
    "eventId": "E0423",
    "recurrenceType": "C",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -3097,7 +3097,7 @@
    "year": 1393,
    "eventId": "E0501",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -3129,7 +3129,7 @@
    "year": 1393,
    "eventId": "E0041",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -3161,7 +3161,7 @@
    "year": 1393,
    "eventId": "E0471",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -3193,7 +3193,7 @@
    "year": 1393,
    "eventId": "E0222",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3225,7 +3225,7 @@
    "year": 1393,
    "eventId": "E0065",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3257,7 +3257,7 @@
    "year": 1393,
    "eventId": "E0023",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -3289,7 +3289,7 @@
    "year": 1393,
    "eventId": "E0040",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -3321,7 +3321,7 @@
    "year": 1393,
    "eventId": "E0366",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3353,7 +3353,7 @@
    "year": 1393,
    "eventId": "E0196",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3385,7 +3385,7 @@
    "year": 1393,
    "eventId": "E0039",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -3417,7 +3417,7 @@
    "year": 1393,
    "eventId": "E0142",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3449,7 +3449,7 @@
    "year": 1393,
    "eventId": "E0208",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3481,7 +3481,7 @@
    "year": 1393,
    "eventId": "E0356",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3513,7 +3513,7 @@
    "year": 1393,
    "eventId": "E0077",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3545,7 +3545,7 @@
    "year": 1393,
    "eventId": "E0470",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -3577,7 +3577,7 @@
    "year": 1393,
    "eventId": "E0115",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3609,7 +3609,7 @@
    "year": 1393,
    "eventId": "E0281",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3641,7 +3641,7 @@
    "year": 1393,
    "eventId": "E0043",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -3673,7 +3673,7 @@
    "year": 1393,
    "eventId": "E0288",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3705,7 +3705,7 @@
    "year": 1393,
    "eventId": "E0129",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3737,7 +3737,7 @@
    "year": 1393,
    "eventId": "E0181",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3769,7 +3769,7 @@
    "year": 1393,
    "eventId": "E0245",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3801,7 +3801,7 @@
    "year": 1393,
    "eventId": "E0265",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3833,7 +3833,7 @@
    "year": 1393,
    "eventId": "E0390",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -3865,7 +3865,7 @@
    "year": 1393,
    "eventId": "E0033",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -3897,7 +3897,7 @@
    "year": 1393,
    "eventId": "E0048",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -3929,7 +3929,7 @@
    "year": 1393,
    "eventId": "E0022",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -3961,7 +3961,7 @@
    "year": 1393,
    "eventId": "E0185",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4025,7 +4025,7 @@
    "year": 1393,
    "eventId": "E0260",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4057,7 +4057,7 @@
    "year": 1393,
    "eventId": "E0279",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4089,7 +4089,7 @@
    "year": 1393,
    "eventId": "E0475",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -4121,7 +4121,7 @@
    "year": 1393,
    "eventId": "E0386",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4153,7 +4153,7 @@
    "year": 1393,
    "eventId": "E0124",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4185,7 +4185,7 @@
    "year": 1393,
    "eventId": "E0270",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4217,7 +4217,7 @@
    "year": 1393,
    "eventId": "E0407",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -4249,7 +4249,7 @@
    "year": 1393,
    "eventId": "E0483",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -4281,7 +4281,7 @@
    "year": 1393,
    "eventId": "E0202",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4313,7 +4313,7 @@
    "year": 1393,
    "eventId": "E0439",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -4345,7 +4345,7 @@
    "year": 1393,
    "eventId": "E0107",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4377,7 +4377,7 @@
    "year": 1393,
    "eventId": "E0429",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -4409,7 +4409,7 @@
    "year": 1393,
    "eventId": "E0461",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -4441,7 +4441,7 @@
    "year": 1393,
    "eventId": "E0440",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -4473,7 +4473,7 @@
    "year": 1393,
    "eventId": "E0452",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -4505,7 +4505,7 @@
    "year": 1393,
    "eventId": "E0152",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4537,7 +4537,7 @@
    "year": 1393,
    "eventId": "E0441",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -4569,7 +4569,7 @@
    "year": 1393,
    "eventId": "E0227",
    "recurrenceType": "E",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "established",
@@ -4601,7 +4601,7 @@
    "year": 1393,
    "eventId": "E0028",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -4633,7 +4633,7 @@
    "year": 1393,
    "eventId": "E0334",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4665,7 +4665,7 @@
    "year": 1393,
    "eventId": "E0176",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4697,7 +4697,7 @@
    "year": 1393,
    "eventId": "E0464",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -4729,7 +4729,7 @@
    "year": 1393,
    "eventId": "E0399",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -4761,7 +4761,7 @@
    "year": 1393,
    "eventId": "E0148",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4793,7 +4793,7 @@
    "year": 1393,
    "eventId": "E0071",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4825,7 +4825,7 @@
    "year": 1393,
    "eventId": "E0360",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4857,7 +4857,7 @@
    "year": 1393,
    "eventId": "E0230",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4889,7 +4889,7 @@
    "year": 1393,
    "eventId": "E0050",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -4921,7 +4921,7 @@
    "year": 1393,
    "eventId": "E0112",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4953,7 +4953,7 @@
    "year": 1393,
    "eventId": "E0363",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -4985,7 +4985,7 @@
    "year": 1393,
    "eventId": "E0018",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -5017,7 +5017,7 @@
    "year": 1393,
    "eventId": "E0238",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5049,7 +5049,7 @@
    "year": 1393,
    "eventId": "E0293",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5081,7 +5081,7 @@
    "year": 1393,
    "eventId": "E0427",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -5113,7 +5113,7 @@
    "year": 1393,
    "eventId": "E0098",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5145,7 +5145,7 @@
    "year": 1393,
    "eventId": "E0466",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -5177,7 +5177,7 @@
    "year": 1393,
    "eventId": "E0057",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -5209,7 +5209,7 @@
    "year": 1393,
    "eventId": "E0388",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5241,7 +5241,7 @@
    "year": 1393,
    "eventId": "E0186",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5273,7 +5273,7 @@
    "year": 1393,
    "eventId": "E0079",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5305,7 +5305,7 @@
    "year": 1393,
    "eventId": "E0080",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5337,7 +5337,7 @@
    "year": 1393,
    "eventId": "E0264",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5369,7 +5369,7 @@
    "year": 1393,
    "eventId": "E0156",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5401,7 +5401,7 @@
    "year": 1393,
    "eventId": "E0322",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5433,7 +5433,7 @@
    "year": 1393,
    "eventId": "E0329",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5465,7 +5465,7 @@
    "year": 1393,
    "eventId": "E0444",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -5497,7 +5497,7 @@
    "year": 1393,
    "eventId": "E0102",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5529,7 +5529,7 @@
    "year": 1393,
    "eventId": "E0368",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5561,7 +5561,7 @@
    "year": 1393,
    "eventId": "E0105",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5593,7 +5593,7 @@
    "year": 1393,
    "eventId": "E0335",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5625,7 +5625,7 @@
    "year": 1393,
    "eventId": "E0190",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5657,7 +5657,7 @@
    "year": 1393,
    "eventId": "E0239",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5689,7 +5689,7 @@
    "year": 1393,
    "eventId": "E0339",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5721,7 +5721,7 @@
    "year": 1393,
    "eventId": "E0394",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -5753,7 +5753,7 @@
    "year": 1393,
    "eventId": "E0421",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -5785,7 +5785,7 @@
    "year": 1393,
    "eventId": "E0502",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -5817,7 +5817,7 @@
    "year": 1393,
    "eventId": "E0287",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5849,7 +5849,7 @@
    "year": 1393,
    "eventId": "E0372",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5881,7 +5881,7 @@
    "year": 1393,
    "eventId": "E0123",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -5913,7 +5913,7 @@
    "year": 1393,
    "eventId": "E0409",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -5945,7 +5945,7 @@
    "year": 1393,
    "eventId": "E0414",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -5977,7 +5977,7 @@
    "year": 1393,
    "eventId": "E0408",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -6009,7 +6009,7 @@
    "year": 1393,
    "eventId": "E0267",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6041,7 +6041,7 @@
    "year": 1393,
    "eventId": "E0203",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6073,7 +6073,7 @@
    "year": 1393,
    "eventId": "E0285",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6105,7 +6105,7 @@
    "year": 1393,
    "eventId": "E0365",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6137,7 +6137,7 @@
    "year": 1393,
    "eventId": "E0155",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6169,7 +6169,7 @@
    "year": 1393,
    "eventId": "E0215",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6201,7 +6201,7 @@
    "year": 1393,
    "eventId": "E0035",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -6233,7 +6233,7 @@
    "year": 1393,
    "eventId": "E0438",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -6265,7 +6265,7 @@
    "year": 1393,
    "eventId": "E0485",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -6297,7 +6297,7 @@
    "year": 1393,
    "eventId": "E0052",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -6329,7 +6329,7 @@
    "year": 1393,
    "eventId": "E0384",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6361,7 +6361,7 @@
    "year": 1393,
    "eventId": "E0037",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -6393,7 +6393,7 @@
    "year": 1393,
    "eventId": "E0253",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6425,7 +6425,7 @@
    "year": 1393,
    "eventId": "E0158",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6457,7 +6457,7 @@
    "year": 1393,
    "eventId": "E0254",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6489,7 +6489,7 @@
    "year": 1393,
    "eventId": "E0013",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -6521,7 +6521,7 @@
    "year": 1393,
    "eventId": "E0101",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6553,7 +6553,7 @@
    "year": 1393,
    "eventId": "E0454",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -6585,7 +6585,7 @@
    "year": 1393,
    "eventId": "E0405",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -6617,7 +6617,7 @@
    "year": 1393,
    "eventId": "E0067",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6649,7 +6649,7 @@
    "year": 1393,
    "eventId": "E0341",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6681,7 +6681,7 @@
    "year": 1393,
    "eventId": "E0437",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -6713,7 +6713,7 @@
    "year": 1393,
    "eventId": "E0049",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -6745,7 +6745,7 @@
    "year": 1393,
    "eventId": "E0170",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6777,7 +6777,7 @@
    "year": 1393,
    "eventId": "E0189",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6809,7 +6809,7 @@
    "year": 1393,
    "eventId": "E0042",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -6841,7 +6841,7 @@
    "year": 1393,
    "eventId": "E0193",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6873,7 +6873,7 @@
    "year": 1393,
    "eventId": "E0069",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6905,7 +6905,7 @@
    "year": 1393,
    "eventId": "E0086",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6937,7 +6937,7 @@
    "year": 1393,
    "eventId": "E0070",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -6969,7 +6969,7 @@
    "year": 1393,
    "eventId": "E0095",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7001,7 +7001,7 @@
    "year": 1393,
    "eventId": "E0320",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7033,7 +7033,7 @@
    "year": 1393,
    "eventId": "E0460",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -7065,7 +7065,7 @@
    "year": 1393,
    "eventId": "E0453",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -7097,7 +7097,7 @@
    "year": 1393,
    "eventId": "E0473",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -7129,7 +7129,7 @@
    "year": 1393,
    "eventId": "E0426",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -7161,7 +7161,7 @@
    "year": 1393,
    "eventId": "E0317",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7193,7 +7193,7 @@
    "year": 1393,
    "eventId": "E0382",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7225,7 +7225,7 @@
    "year": 1393,
    "eventId": "E0393",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -7257,7 +7257,7 @@
    "year": 1393,
    "eventId": "E0240",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7289,7 +7289,7 @@
    "year": 1393,
    "eventId": "E0465",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -7321,7 +7321,7 @@
    "year": 1393,
    "eventId": "E0091",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7385,7 +7385,7 @@
    "year": 1393,
    "eventId": "E0089",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7417,7 +7417,7 @@
    "year": 1393,
    "eventId": "E0478",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -7449,7 +7449,7 @@
    "year": 1393,
    "eventId": "E0487",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -7481,7 +7481,7 @@
    "year": 1393,
    "eventId": "E0151",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7513,7 +7513,7 @@
    "year": 1393,
    "eventId": "E0159",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7545,7 +7545,7 @@
    "year": 1393,
    "eventId": "E0306",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7577,7 +7577,7 @@
    "year": 1393,
    "eventId": "E0059",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7609,7 +7609,7 @@
    "year": 1393,
    "eventId": "E0063",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7641,7 +7641,7 @@
    "year": 1393,
    "eventId": "E0463",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -7673,7 +7673,7 @@
    "year": 1393,
    "eventId": "E0085",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7705,7 +7705,7 @@
    "year": 1393,
    "eventId": "E0047",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -7737,7 +7737,7 @@
    "year": 1393,
    "eventId": "E0074",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7769,7 +7769,7 @@
    "year": 1393,
    "eventId": "E0304",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7801,7 +7801,7 @@
    "year": 1393,
    "eventId": "E0330",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7833,7 +7833,7 @@
    "year": 1393,
    "eventId": "E0492",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -7865,7 +7865,7 @@
    "year": 1393,
    "eventId": "E0210",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7897,7 +7897,7 @@
    "year": 1393,
    "eventId": "E0428",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -7929,7 +7929,7 @@
    "year": 1393,
    "eventId": "E0420",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -7961,7 +7961,7 @@
    "year": 1393,
    "eventId": "E0262",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -7993,7 +7993,7 @@
    "year": 1393,
    "eventId": "E0468",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -8025,7 +8025,7 @@
    "year": 1393,
    "eventId": "E0130",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8057,7 +8057,7 @@
    "year": 1393,
    "eventId": "E0106",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8089,7 +8089,7 @@
    "year": 1393,
    "eventId": "E0412",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -8121,7 +8121,7 @@
    "year": 1393,
    "eventId": "E0424",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -8153,7 +8153,7 @@
    "year": 1393,
    "eventId": "E0406",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -8185,7 +8185,7 @@
    "year": 1393,
    "eventId": "E0316",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8217,7 +8217,7 @@
    "year": 1393,
    "eventId": "E0328",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8249,7 +8249,7 @@
    "year": 1393,
    "eventId": "E0370",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8281,7 +8281,7 @@
    "year": 1393,
    "eventId": "E0034",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -8313,7 +8313,7 @@
    "year": 1393,
    "eventId": "E0398",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -8345,7 +8345,7 @@
    "year": 1393,
    "eventId": "E0117",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8377,7 +8377,7 @@
    "year": 1393,
    "eventId": "E0118",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8409,7 +8409,7 @@
    "year": 1393,
    "eventId": "E0242",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8441,7 +8441,7 @@
    "year": 1393,
    "eventId": "E0303",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8473,7 +8473,7 @@
    "year": 1393,
    "eventId": "E0462",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -8505,7 +8505,7 @@
    "year": 1393,
    "eventId": "E0413",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -8537,7 +8537,7 @@
    "year": 1393,
    "eventId": "E0274",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8569,7 +8569,7 @@
    "year": 1393,
    "eventId": "E0283",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8601,7 +8601,7 @@
    "year": 1393,
    "eventId": "E0449",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -8633,7 +8633,7 @@
    "year": 1393,
    "eventId": "E0401",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -8665,7 +8665,7 @@
    "year": 1393,
    "eventId": "E0153",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8697,7 +8697,7 @@
    "year": 1393,
    "eventId": "E0336",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8729,7 +8729,7 @@
    "year": 1393,
    "eventId": "E0442",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -8761,7 +8761,7 @@
    "year": 1393,
    "eventId": "E0450",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -8793,7 +8793,7 @@
    "year": 1393,
    "eventId": "E0503",
    "recurrenceType": "C",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -8825,7 +8825,7 @@
    "year": 1393,
    "eventId": "E0017",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -8857,7 +8857,7 @@
    "year": 1393,
    "eventId": "E0119",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8889,7 +8889,7 @@
    "year": 1393,
    "eventId": "E0357",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8921,7 +8921,7 @@
    "year": 1393,
    "eventId": "E0490",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -8953,7 +8953,7 @@
    "year": 1393,
    "eventId": "E0315",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -8985,7 +8985,7 @@
    "year": 1393,
    "eventId": "E0318",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -9017,7 +9017,7 @@
    "year": 1393,
    "eventId": "E0179",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -9049,7 +9049,7 @@
    "year": 1393,
    "eventId": "E0411",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -9081,7 +9081,7 @@
    "year": 1393,
    "eventId": "E0076",
    "recurrenceType": "B",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -9113,7 +9113,7 @@
    "year": 1393,
    "eventId": "E0289",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -9145,7 +9145,7 @@
    "year": 1393,
    "eventId": "E0032",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -9177,7 +9177,7 @@
    "year": 1393,
    "eventId": "E0446",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -9209,7 +9209,7 @@
    "year": 1393,
    "eventId": "E0493",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -9241,7 +9241,7 @@
    "year": 1393,
    "eventId": "E0044",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -9273,7 +9273,7 @@
    "year": 1393,
    "eventId": "E0122",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -9305,7 +9305,7 @@
    "year": 1393,
    "eventId": "E0081",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -9337,7 +9337,7 @@
    "year": 1393,
    "eventId": "E0206",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -9369,7 +9369,7 @@
    "year": 1393,
    "eventId": "E0088",
    "recurrenceType": "B",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -9401,7 +9401,7 @@
    "year": 1393,
    "eventId": "E0241",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -9433,7 +9433,7 @@
    "year": 1393,
    "eventId": "E0472",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -9465,7 +9465,7 @@
    "year": 1393,
    "eventId": "E0380",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -9497,7 +9497,7 @@
    "year": 1393,
    "eventId": "E0020",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -9529,7 +9529,7 @@
    "year": 1393,
    "eventId": "E0029",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -9561,7 +9561,7 @@
    "year": 1393,
    "eventId": "E0396",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -9593,7 +9593,7 @@
    "year": 1393,
    "eventId": "E0027",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -9625,7 +9625,7 @@
    "year": 1393,
    "eventId": "E0235",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -9657,7 +9657,7 @@
    "year": 1393,
    "eventId": "E0223",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -9689,7 +9689,7 @@
    "year": 1393,
    "eventId": "E0030",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -9721,7 +9721,7 @@
    "year": 1393,
    "eventId": "E0209",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -9753,7 +9753,7 @@
    "year": 1393,
    "eventId": "E0432",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -9849,7 +9849,7 @@
    "year": 1393,
    "eventId": "E0403",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -9881,7 +9881,7 @@
    "year": 1393,
    "eventId": "E0447",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -9913,7 +9913,7 @@
    "year": 1393,
    "eventId": "E0448",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -9945,7 +9945,7 @@
    "year": 1393,
    "eventId": "E0218",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -9977,7 +9977,7 @@
    "year": 1393,
    "eventId": "E0469",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -10009,7 +10009,7 @@
    "year": 1393,
    "eventId": "E0097",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -10041,7 +10041,7 @@
    "year": 1393,
    "eventId": "E0121",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -10073,7 +10073,7 @@
    "year": 1393,
    "eventId": "E0358",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -10105,7 +10105,7 @@
    "year": 1393,
    "eventId": "E0266",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -10137,7 +10137,7 @@
    "year": 1393,
    "eventId": "E0198",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -10169,7 +10169,7 @@
    "year": 1393,
    "eventId": "E0391",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -10201,7 +10201,7 @@
    "year": 1393,
    "eventId": "E0445",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -10233,7 +10233,7 @@
    "year": 1393,
    "eventId": "E0058",
    "recurrenceType": "B",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -10265,7 +10265,7 @@
    "year": 1393,
    "eventId": "E0395",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -10297,7 +10297,7 @@
    "year": 1393,
    "eventId": "E0495",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -10329,7 +10329,7 @@
    "year": 1393,
    "eventId": "E0104",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -10361,7 +10361,7 @@
    "year": 1393,
    "eventId": "E0164",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -10393,7 +10393,7 @@
    "year": 1393,
    "eventId": "E0431",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -10425,7 +10425,7 @@
    "year": 1393,
    "eventId": "E0404",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -10457,7 +10457,7 @@
    "year": 1393,
    "eventId": "E0054",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -10489,7 +10489,7 @@
    "year": 1393,
    "eventId": "E0480",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -10521,7 +10521,7 @@
    "year": 1393,
    "eventId": "E0494",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -10553,7 +10553,7 @@
    "year": 1393,
    "eventId": "E0045",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -10585,7 +10585,7 @@
    "year": 1393,
    "eventId": "E0120",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -10617,7 +10617,7 @@
    "year": 1393,
    "eventId": "E0377",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -10649,7 +10649,7 @@
    "year": 1393,
    "eventId": "E0046",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -10681,7 +10681,7 @@
    "year": 1393,
    "eventId": "E0273",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -10713,7 +10713,7 @@
    "year": 1393,
    "eventId": "E0132",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -10745,7 +10745,7 @@
    "year": 1393,
    "eventId": "E0092",
    "recurrenceType": "B",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -10777,7 +10777,7 @@
    "year": 1393,
    "eventId": "E0354",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -10809,7 +10809,7 @@
    "year": 1393,
    "eventId": "E0497",
    "recurrenceType": "C",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -10873,7 +10873,7 @@
    "year": 1393,
    "eventId": "E0482",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -10905,7 +10905,7 @@
    "year": 1393,
    "eventId": "E0099",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -10937,7 +10937,7 @@
    "year": 1393,
    "eventId": "E0015",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "event",
@@ -10969,7 +10969,7 @@
    "year": 1393,
    "eventId": "E0477",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -11001,7 +11001,7 @@
    "year": 1393,
    "eventId": "E0276",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11033,7 +11033,7 @@
    "year": 1393,
    "eventId": "E0319",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11065,7 +11065,7 @@
    "year": 1393,
    "eventId": "E0332",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11097,7 +11097,7 @@
    "year": 1393,
    "eventId": "E0374",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11129,7 +11129,7 @@
    "year": 1393,
    "eventId": "E0056",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "established",
@@ -11161,7 +11161,7 @@
    "year": 1393,
    "eventId": "E0375",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11193,7 +11193,7 @@
    "year": 1393,
    "eventId": "E0146",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11225,7 +11225,7 @@
    "year": 1393,
    "eventId": "E0378",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11257,7 +11257,7 @@
    "year": 1393,
    "eventId": "E0387",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11289,7 +11289,7 @@
    "year": 1393,
    "eventId": "E0163",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11321,7 +11321,7 @@
    "year": 1393,
    "eventId": "E0308",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11353,7 +11353,7 @@
    "year": 1393,
    "eventId": "E0435",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -11385,7 +11385,7 @@
    "year": 1393,
    "eventId": "E0496",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -11417,7 +11417,7 @@
    "year": 1393,
    "eventId": "E0147",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11449,7 +11449,7 @@
    "year": 1393,
    "eventId": "E0161",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11481,7 +11481,7 @@
    "year": 1393,
    "eventId": "E0233",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11513,7 +11513,7 @@
    "year": 1393,
    "eventId": "E0443",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -11545,7 +11545,7 @@
    "year": 1393,
    "eventId": "E0133",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11577,7 +11577,7 @@
    "year": 1393,
    "eventId": "E0457",
    "recurrenceType": "C",
-   "verificationStatus": "verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "approximate",
    "origin": {
     "kind": "tradition",
@@ -11609,7 +11609,7 @@
    "year": 1393,
    "eventId": "E0131",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11641,7 +11641,7 @@
    "year": 1393,
    "eventId": "E0243",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11673,7 +11673,7 @@
    "year": 1393,
    "eventId": "E0169",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11705,7 +11705,7 @@
    "year": 1393,
    "eventId": "E0204",
    "recurrenceType": "A",
-   "verificationStatus": "partially_verified",
+   "verificationStatus": "unverified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11737,7 +11737,7 @@
    "year": 1393,
    "eventId": "E0171",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11769,7 +11769,7 @@
    "year": 1393,
    "eventId": "E0376",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11801,7 +11801,7 @@
    "year": 1393,
    "eventId": "E0114",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11833,7 +11833,7 @@
    "year": 1393,
    "eventId": "E0195",
    "recurrenceType": "A",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "first-seen",
@@ -11865,7 +11865,7 @@
    "year": 1393,
    "eventId": "E0026",
    "recurrenceType": "D",
-   "verificationStatus": "verified",
+   "verificationStatus": "partially_verified",
    "dateCertainty": "unconfirmed",
    "origin": {
     "kind": "established",

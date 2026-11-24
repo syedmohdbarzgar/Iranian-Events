@@ -106,6 +106,57 @@ class DataIntegrityTest(unittest.TestCase):
                     self.assertEqual(row["verificationStatus"], "unverified",
                                      f"{year} ردیفِ بی‌تطبیق نباید verified باشد: {row}")
 
+    def test_generated_reports_match_the_manifest(self):
+        c = self.manifest["counts"]
+        release = (ROOT / "reports" / "audit" / "release-summary.md").read_text(encoding="utf-8")
+        master = (ROOT / "reports" / "master-validation.md").read_text(encoding="utf-8")
+        consistency = (ROOT / "reports" / "consistency.md").read_text(encoding="utf-8")
+        dataset = (ROOT / "reports" / "dataset-report.md").read_text(encoding="utf-8")
+        self.assertIn(f"رویدادِ یکتا: **{c['uniqueEvents']}**", release)
+        self.assertIn(f"ردیفِ همهٔ ۱۲۱ سال: **{c['allYearRows']}**", release)
+        self.assertIn(f"رویدادها: **{c['uniqueEvents']}**", master)
+        self.assertIn(f"رویدادهای کاتالوگ: {c['uniqueEvents']}", consistency)
+        self.assertIn(f"رسمیِ منتشرشده (پس از اصلاحیه): {c['officialRows']}", dataset)
+        for status, count in self.manifest["verificationStatus"].items():
+            self.assertIn(f"`{status}` | {count}", release)
+
+    def test_pdf_row_alone_is_not_verified(self):
+        for event in self.events:
+            evidence = event.get("evidence") or {}
+            if evidence.get("kind") == "official-pdf-row":
+                self.assertNotEqual(event.get("verificationStatus"), "verified", event["id"])
+
+    def test_changed_statuses_keep_history(self):
+        for event in self.events:
+            if event.get("previousVerificationStatus") != event.get("verificationStatus"):
+                self.assertTrue(event.get("verificationHistory"), event["id"])
+
+    def test_every_event_has_traceable_evidence(self):
+        for event in self.events:
+            evidence = event.get("evidence") or {}
+            self.assertTrue(evidence.get("sourceRef"), event["id"])
+            self.assertTrue(evidence.get("witnessText"), event["id"])
+            self.assertRegex(str(evidence.get("reviewedAt")), r"^\d{4}-\d{2}-\d{2}$", event["id"])
+            self.assertEqual(evidence.get("reviewKind"), "automated-source-capture", event["id"])
+            if evidence.get("kind") == "official-pdf-row":
+                self.assertIsInstance(evidence.get("page"), int, event["id"])
+                self.assertIn("#page=", evidence["sourceRef"], event["id"])
+
+    def test_reports_declare_the_manifest_version(self):
+        version = self.manifest["dataVersion"]
+        for rel in ("reports/audit/release-summary.md", "reports/audit/summary.md",
+                    "reports/master-validation.md", "reports/consistency.md",
+                    "reports/dataset-report.md"):
+            text = (ROOT / rel).read_text(encoding="utf-8")
+            self.assertIn(version, text, rel)
+
+    def test_manifest_year_total_matches_all_year_files(self):
+        total = 0
+        for p in (DATA / "years").glob("*.json"):
+            if p.stem.isdigit():
+                total += load(p).get("count", 0)
+        self.assertEqual(self.manifest["counts"]["allYearRows"], total)
+
     def test_web_payload_matches_year_rows(self):
         html = (ROOT / "web" / "index.html").read_text(encoding="utf-8")
         marker = "const DATA = "

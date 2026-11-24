@@ -37,9 +37,13 @@ def main() -> int:
                 bad_dates.append((e["title"], m, d))
     inferred = sum(1 for y in YEARS if y not in {int(p.stem.split("-")[-1]) for p in (ROOT / "data").glob("official-calendar-*.json")})
 
+    manifest_path = ROOT / "reports" / "audit" / "data-manifest.json"
+    version = (json.loads(manifest_path.read_text(encoding="utf-8"))["dataVersion"]
+               if manifest_path.exists() else "نامشخص")
     lines = [
         "# گزارشِ یکپارچگیِ دادهٔ تقویم",
         "",
+        f"- داده: **{version}** (همان manifest انتشار)",
         f"- سال‌های بررسی‌شده: {min(YEARS)}–{max(YEARS)} ({len(list(YEARS))} سال)",
         f"- سال‌های دارای جدولِ رسمی: {min(int(p.stem.split('-')[-1]) for p in (ROOT / 'data').glob('official-calendar-*.json'))}–"
         f"{max(int(p.stem.split('-')[-1]) for p in (ROOT / 'data').glob('official-calendar-*.json'))}",

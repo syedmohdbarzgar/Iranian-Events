@@ -466,8 +466,11 @@ def write_reports(a: Audit) -> int:
         (OUT / "years" / f"{y}.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     # خلاصه
+    manifest_path = OUT / "data-manifest.json"
+    version = (json.loads(manifest_path.read_text(encoding="utf-8"))["dataVersion"]
+               if manifest_path.exists() else "نامشخص")
     lines = ["# گزارشِ ممیزیِ تقویم صبا", "",
-             f"- تاریخ: **{date.today().isoformat()}** · دامنه: **{FIRST}–{LAST}**",
+             f"- داده: **{version}** · تاریخ: **{date.today().isoformat()}** · دامنه: **{FIRST}–{LAST}**",
              f"- رویدادهای کاتالوگ: **{a.metrics.get('masterEvents', 0)}**",
              f"- سال‌های بررسی‌شده: **{len(a.years)}**",
              f"- سال‌های دارای جدول رسمی: **{len(a.metrics.get('officialYears', []))}** · "
@@ -507,6 +510,7 @@ def write_reports(a: Audit) -> int:
     (OUT / "summary.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     (OUT / "audit.json").write_text(json.dumps({
+        "dataVersion": version,
         "generatedAt": date.today().isoformat(),
         "scope": {"firstYear": FIRST, "lastYear": LAST},
         "metrics": a.metrics,

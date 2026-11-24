@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T21:34:06+00:00",
+ "generatedAt": "2026-11-24T14:15:08+00:00",
  "groups": 22,
  "events": 49,
  "byKind": {
@@ -73,7 +73,7 @@
      "calendar": "solar",
      "month": 6,
      "day": 19,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "pdf-derived"
     },
     {
@@ -82,7 +82,7 @@
      "calendar": "lunar",
      "month": 8,
      "day": 27,
-     "status": "verified",
+     "status": "unverified",
      "source": "pdf-derived"
     },
     {
@@ -91,7 +91,7 @@
      "calendar": "lunar",
      "month": 8,
      "day": 16,
-     "status": "verified",
+     "status": "unverified",
      "source": "pdf-derived"
     },
     {
@@ -100,7 +100,7 @@
      "calendar": "lunar",
      "month": 2,
      "day": 13,
-     "status": "verified",
+     "status": "unverified",
      "source": "pdf-derived"
     }
    ],
@@ -121,7 +121,7 @@
      "calendar": "lunar",
      "month": 9,
      "day": 18,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "app-pack"
     },
     {
@@ -130,7 +130,7 @@
      "calendar": "lunar",
      "month": 9,
      "day": 20,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "app-pack"
     },
     {
@@ -139,7 +139,7 @@
      "calendar": "lunar",
      "month": 9,
      "day": 22,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "app-pack"
     }
    ],
@@ -159,7 +159,7 @@
      "calendar": "lunar",
      "month": 7,
      "day": 15,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "app-pack"
     },
     {
@@ -168,7 +168,7 @@
      "calendar": "lunar",
      "month": 1,
      "day": 18,
-     "status": "verified",
+     "status": "unverified",
      "source": "app-pack"
     }
    ],
@@ -188,7 +188,7 @@
      "calendar": "gregorian",
      "month": 10,
      "day": 14,
-     "status": "verified",
+     "status": "unverified",
      "source": "pdf-derived"
     },
     {
@@ -197,7 +197,7 @@
      "calendar": "solar",
      "month": 7,
      "day": 22,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "app-pack"
     }
    ],
@@ -217,7 +217,7 @@
      "calendar": "solar",
      "month": 10,
      "day": 4,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "app-pack"
     },
     {
@@ -226,7 +226,7 @@
      "calendar": "lunar",
      "month": 6,
      "day": 1,
-     "status": "verified",
+     "status": "unverified",
      "source": "pdf-derived"
     }
    ],
@@ -246,7 +246,7 @@
      "calendar": "solar",
      "month": 2,
      "day": 1,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "pdf-derived"
     },
     {
@@ -255,7 +255,7 @@
      "calendar": "solar",
      "month": 2,
      "day": 13,
-     "status": "verified",
+     "status": "unverified",
      "source": "app-pack"
     }
    ],
@@ -275,7 +275,7 @@
      "calendar": "gregorian",
      "month": 5,
      "day": 21,
-     "status": "verified",
+     "status": "unverified",
      "source": "pdf-derived"
     },
     {
@@ -284,7 +284,7 @@
      "calendar": "solar",
      "month": 3,
      "day": 1,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "pdf-derived"
     }
    ],
@@ -304,7 +304,7 @@
      "calendar": "gregorian",
      "month": 5,
      "day": 8,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "pdf-derived"
     },
     {
@@ -313,7 +313,7 @@
      "calendar": "solar",
      "month": 2,
      "day": 18,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "app-pack"
     }
    ],
@@ -333,7 +333,7 @@
      "calendar": "solar",
      "month": 2,
      "day": 8,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "pdf-derived"
     },
     {
@@ -342,7 +342,7 @@
      "calendar": "lunar",
      "month": 8,
      "day": 11,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "app-pack"
     }
    ],
@@ -362,7 +362,7 @@
      "calendar": "gregorian",
      "month": 4,
      "day": 7,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "pdf-derived"
     },
     {
@@ -371,7 +371,7 @@
      "calendar": "solar",
      "month": 1,
      "day": 18,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "pdf-derived"
     }
    ],
@@ -400,7 +400,7 @@
      "calendar": "lunar",
      "month": 12,
      "day": 9,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "pdf-derived"
     }
    ],
@@ -420,7 +420,7 @@
      "calendar": "lunar",
      "month": 9,
      "day": 19,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "app-pack"
     },
     {
@@ -429,7 +429,7 @@
      "calendar": "lunar",
      "month": 7,
      "day": 1,
-     "status": "partially_verified",
+     "status": "unverified",
      "source": "app-pack"
     }
    ],
@@ -449,7 +449,7 @@
      "calendar": "lunar",
      "month": 3,
      "day": 16,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "pdf-derived"
     },
     {
@@ -458,7 +458,7 @@
      "calendar": "lunar",
      "month": 2,
      "day": 27,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "app-pack"
     }
    ],
@@ -478,7 +478,7 @@
      "calendar": "lunar",
      "month": 2,
      "day": 7,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "app-pack"
     },
     {
@@ -487,7 +487,7 @@
      "calendar": "lunar",
      "month": 2,
      "day": 28,
-     "status": "verified",
+     "status": "unverified",
      "source": "app-pack"
     }
    ],
@@ -507,7 +507,7 @@
      "calendar": "lunar",
      "month": 1,
      "day": 12,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "pdf-derived"
     },
     {
@@ -516,7 +516,7 @@
      "calendar": "lunar",
      "month": 1,
      "day": 25,
-     "status": "verified",
+     "status": "unverified",
      "source": "app-pack"
     }
    ],
@@ -536,7 +536,7 @@
      "calendar": "lunar",
      "month": 6,
      "day": 3,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "pdf-derived"
     },
     {
@@ -545,7 +545,7 @@
      "calendar": "lunar",
      "month": 5,
      "day": 13,
-     "status": "verified",
+     "status": "unverified",
      "source": "app-pack"
     }
    ],
@@ -565,7 +565,7 @@
      "calendar": "solar",
      "month": 8,
      "day": 8,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "app-pack"
     },
     {
@@ -594,7 +594,7 @@
      "calendar": "solar",
      "month": 10,
      "day": 4,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "app-pack"
     },
     {
@@ -603,7 +603,7 @@
      "calendar": "lunar",
      "month": 12,
      "day": 25,
-     "status": "verified",
+     "status": "unverified",
      "source": "pdf-derived"
     }
    ],
@@ -623,7 +623,7 @@
      "calendar": "lunar",
      "month": 7,
      "day": 1,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "pdf-derived"
     },
     {
@@ -632,7 +632,7 @@
      "calendar": "lunar",
      "month": 2,
      "day": 3,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "app-pack"
     }
    ],
@@ -652,7 +652,7 @@
      "calendar": "lunar",
      "month": 12,
      "day": 20,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "pdf-derived"
     },
     {
@@ -661,7 +661,7 @@
      "calendar": "lunar",
      "month": 2,
      "day": 7,
-     "status": "verified",
+     "status": "unverified",
      "source": "app-pack"
     }
    ],
@@ -681,7 +681,7 @@
      "calendar": "gregorian",
      "month": 12,
      "day": 25,
-     "status": "verified",
+     "status": "partially_verified",
      "source": "app-pack"
     },
     {
@@ -690,7 +690,7 @@
      "calendar": "lunar",
      "month": 6,
      "day": 1,
-     "status": "verified",
+     "status": "unverified",
      "source": "pdf-derived"
     }
    ],

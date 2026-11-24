@@ -65,9 +65,22 @@ def main() -> int:
                 })
 
     statuses = Counter(e.get("verificationStatus") for e in events)
+    evidence_kinds = Counter((e.get("evidence") or {}).get("kind") for e in events)
+    evidence_with_page = sum(1 for e in events if (e.get("evidence") or {}).get("page"))
     categories = Counter(e.get("category") for e in events)
     unique_titles = len({engine._canon(e["title"]) for e in events})
     year_rows = sum(d.get("count", len(d.get("rows", []))) for d in years.values())
+    all_year_rows = 0
+    for path in (DATA / "years").glob("*.json"):
+        if path.stem.isdigit():
+            all_year_rows += json.loads(path.read_text(encoding="utf-8")).get("count", 0)
+    raw_events = json.loads((DATA / "events.json").read_text(encoding="utf-8"))
+    raw_rows = 0
+    for path in (ROOT / "extracted" / "json").glob("*.json"):
+        try:
+            raw_rows += len(json.loads(path.read_text(encoding="utf-8")).get("rows", []))
+        except (ValueError, OSError):
+            pass
 
     core_files = [
         DATA / "events-master.json",
@@ -81,6 +94,12 @@ def main() -> int:
     pdf_hashes = {p.name: sha(p) for p in pdfs}
 
     commit = git("rev-parse", "HEAD")
+    content_hash = hashlib.sha256(
+        "\n".join(f"{k}:{v}" for k, v in sorted(hashes.items())).encode("utf-8")
+    ).hexdigest()
+    # نسخه از محتوای داده ساخته می‌شود، نه فقط از commit؛ وگرنه تغییرِ
+    # uncommitted همان نسخهٔ قدیمی را جا می‌زند.
+    data_version = f"v{master.get('version', '?')}+{content_hash[:7]}"
     # گزارش‌ها عمداً از سنجشِ کثیفی بیرون‌اند؛ وگرنه تولیدِ خودِ گزارش‌ها
     # همیشه درخت را «کثیف» نشان می‌دهد و provenance بی‌معنا می‌شود.
     dirty = bool(git(
@@ -91,7 +110,8 @@ def main() -> int:
     manifest = {
         "schema": 1,
         "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "dataVersion": f"v{master.get('version', '?')}+{commit[:7] if commit else 'unknown'}",
+        "dataVersion": data_version,
+        "contentHash": content_hash,
         "commit": commit,
         "workingTreeDirty": dirty,
         "generatedBy": "scripts/build_data_manifest.py",
@@ -103,9 +123,14 @@ def main() -> int:
             "annualRows": year_rows,
             "annualMatchedRows": year_rows - len(unmatched),
             "annualUnmatchedRows": len(unmatched),
+            "allYearRows": all_year_rows,
+            "rawEvents": len(raw_events),
+            "extractedRawRows": raw_rows,
             "pdfCalendarFiles": len(pdfs),
         },
         "verificationStatus": dict(sorted(statuses.items())),
+        "evidenceKinds": dict(sorted(evidence_kinds.items())),
+        "evidenceWithPage": evidence_with_page,
         "categories": dict(sorted(categories.items())),
         "officialYears": sorted(int(y) for y in official),
         "missingOfficialYears": [1393, 1396, 1402],
@@ -124,8 +149,14 @@ def main() -> int:
         f"- زمانِ تولید (UTC): `{manifest['generatedAt']}`",
         f"- رویدادِ یکتا: **{c['uniqueEvents']}** · عنوانِ کانونیِ یکتا: **{c['uniqueCanonicalTitles']}**",
         f"- سالِ دارای جدولِ رسمی: **{c['officialYears']}** · ردیفِ رسمی: **{c['officialRows']}**",
-        f"- ردیفِ سالانه: **{c['annualRows']}** · متصل: **{c['annualMatchedRows']}** · بدونِ تطبیق: **{c['annualUnmatchedRows']}**",
+        f"- ردیفِ سالانهٔ ۲۲ سالِ داده: **{c['annualRows']}** · متصل: **{c['annualMatchedRows']}** · بدونِ تطبیق: **{c['annualUnmatchedRows']}**",
+        f"- ردیفِ همهٔ ۱۲۱ سال: **{c['allYearRows']}** · رویدادِ خامِ `events.json`: **{c['rawEvents']}** · همهٔ ردیف‌های خامِ استخراج: **{c['extractedRawRows']}**",
         f"- فایلِ PDF: **{c['pdfCalendarFiles']}** (هش در manifest)",
+        "",
+        "## شاهدِ ثبت‌شده",
+        "",
+        f"- رویدادِ دارای شاهد: **{len(events)}** · با شمارهٔ صفحه: **{evidence_with_page}**",
+        "- " + " · ".join(f"`{k}`: {v}" for k, v in sorted(evidence_kinds.items())),
         "",
         "## وضعیتِ تأیید (بدونِ ارتقای دسته‌جمعی)",
         "",
@@ -139,6 +170,8 @@ def main() -> int:
         "## مرزِ صداقت",
         "",
         "- `officialRows` ردیف‌های جدولِ PDF است، نه تعداد رویدادِ یکتا؛ یک رویداد می‌تواند در چند سال تکرار شود.",
+        "- `uniqueEvents` کاتالوگِ کانونی است؛ `rawEvents` فهرستِ خامِ استخراج است و این دو را نباید یکی خواند.",
+        "- `allYearRows` جمعِ ۱۲۱ فایلِ سالانه است؛ `annualRows` فقط ۲۲ سالِ دارای جدولِ داده را می‌شمارد.",
         "- `annualUnmatchedRows` ردیف‌های سالانه‌ای است که `eventId` ندارند؛ در `unmatched.json` تک‌به‌تک مستند شده‌اند.",
         "- هشِ همهٔ فایل‌های داده و PDF در `data-manifest.json` است؛ تغییرِ هر فایل بدونِ تولیدِ دوبارهٔ گزارش = ناسازگاری در تست.",
         "",
