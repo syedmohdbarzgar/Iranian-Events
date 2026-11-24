@@ -64,6 +64,8 @@ def baseline_revision(year: int, official: dict, pdf: Path) -> tuple[dict, list[
         "year": year,
         "document": {
             "file": pdf.name,
+            "originalName": pdf.name,
+            "storedPath": f"PDF/{pdf.name}",
             "sha256": sha,
             "bytes": pdf.stat().st_size,
             "pages": pdf_pages(pdf),
@@ -80,6 +82,13 @@ def baseline_revision(year: int, official: dict, pdf: Path) -> tuple[dict, list[
         "state": "approved",
         "approvedBy": store.BASELINE_ACTOR,
         "approvedAt": store.BASELINE_AT,
+        "approval": {
+            "kind": "baseline",
+            "method": "baseline-import",
+            "by": store.BASELINE_ACTOR,
+            "at": store.BASELINE_AT,
+            "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست.",
+        },
         "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
         "supersedes": None,
         "supersededBy": None,
@@ -95,7 +104,9 @@ def main() -> int:
     args = ap.parse_args()
 
     existing = store.load_history()
-    human = [r for r in existing["revisions"] if r.get("approvedBy") != store.BASELINE_ACTOR]
+    human = [r for r in existing["revisions"]
+             if (r.get("approval") or {}).get("kind") == "human"
+             or r.get("approvedBy") != store.BASELINE_ACTOR]
     if args.force and not args.force_all and (human or existing["changelog"]):
         print("این تاریخ تأییدِ انسانی/ChangeLog دارد؛ بازسازیِ مبنا آن را بی‌اعتبار می‌کند. "
               "اگر واقعاً می‌خواهید، --force-all بدهید.", file=sys.stderr)

@@ -5,6 +5,8 @@
    "year": 1382,
    "document": {
     "file": "Calendar-1382.pdf",
+    "originalName": "Calendar-1382.pdf",
+    "storedPath": "PDF/Calendar-1382.pdf",
     "sha256": "c294d47c37ba4df94456610e5f8cda51f0ae7fa46342e2e702773e7d7549c341",
     "bytes": 345758,
     "pages": 15
@@ -21,6 +23,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -30,6 +39,8 @@
    "year": 1383,
    "document": {
     "file": "Calendar-1383.pdf",
+    "originalName": "Calendar-1383.pdf",
+    "storedPath": "PDF/Calendar-1383.pdf",
     "sha256": "e445faf3479c4099b3aaa4c4a2b55f9d9e80566a48fea8914e8abd86d3e548d8",
     "bytes": 718674,
     "pages": 19
@@ -46,6 +57,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -55,6 +73,8 @@
    "year": 1384,
    "document": {
     "file": "Calendar-1384.pdf",
+    "originalName": "Calendar-1384.pdf",
+    "storedPath": "PDF/Calendar-1384.pdf",
     "sha256": "94bd5039e7ba7b51d43f02b6ad8412baee5ab37666f399f24b670c7bcee253dc",
     "bytes": 877144,
     "pages": 19
@@ -71,6 +91,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -80,6 +107,8 @@
    "year": 1385,
    "document": {
     "file": "Calendar-1385.pdf",
+    "originalName": "Calendar-1385.pdf",
+    "storedPath": "PDF/Calendar-1385.pdf",
     "sha256": "0b1d430578c4cf849f0c6cf56af4eaadc1914653da3a9691f270177d6212d4ae",
     "bytes": 880131,
     "pages": 19
@@ -96,6 +125,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -105,6 +141,8 @@
    "year": 1386,
    "document": {
     "file": "Calendar-1386.pdf",
+    "originalName": "Calendar-1386.pdf",
+    "storedPath": "PDF/Calendar-1386.pdf",
     "sha256": "07dfaefd5ad657b6695d124aa6cbdeb854893f94b717e6a899e9d273ea8131e8",
     "bytes": 710016,
     "pages": 16
@@ -121,6 +159,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -130,6 +175,8 @@
    "year": 1387,
    "document": {
     "file": "Calendar-1387.pdf",
+    "originalName": "Calendar-1387.pdf",
+    "storedPath": "PDF/Calendar-1387.pdf",
     "sha256": "eaaccc4328a251f6dd9f0fa189189036bb267be853bce66e092ce062d52f3ba4",
     "bytes": 264873,
     "pages": 16
@@ -146,6 +193,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -155,6 +209,8 @@
    "year": 1388,
    "document": {
     "file": "Calendar-1388.pdf",
+    "originalName": "Calendar-1388.pdf",
+    "storedPath": "PDF/Calendar-1388.pdf",
     "sha256": "17dacabc93d9bfdeddf47270c001176da76a66a0f555df4b822c789fc61724f2",
     "bytes": 1019662,
     "pages": 16
@@ -171,6 +227,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -180,6 +243,8 @@
    "year": 1389,
    "document": {
     "file": "Calendar-1389.pdf",
+    "originalName": "Calendar-1389.pdf",
+    "storedPath": "PDF/Calendar-1389.pdf",
     "sha256": "3bd9a663fccbf1a68b17f6d25b82be43e1db43c1c440e3175a4ab3258ce15fc2",
     "bytes": 367149,
     "pages": 16
@@ -196,6 +261,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -205,6 +277,8 @@
    "year": 1390,
    "document": {
     "file": "Calendar-1390.pdf",
+    "originalName": "Calendar-1390.pdf",
+    "storedPath": "PDF/Calendar-1390.pdf",
     "sha256": "23618f9dc30835d98e6332ff17d16c41218f4ac38942bda8403693263ae6014d",
     "bytes": 1477195,
     "pages": 18
@@ -221,6 +295,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -230,6 +311,8 @@
    "year": 1391,
    "document": {
     "file": "Calendar-1391.pdf",
+    "originalName": "Calendar-1391.pdf",
+    "storedPath": "PDF/Calendar-1391.pdf",
     "sha256": "9517fa51f9470238d9e0b5c4d404410481658f423058d7dd1d0571c4772fe761",
     "bytes": 551527,
     "pages": 20
@@ -246,6 +329,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -255,6 +345,8 @@
    "year": 1392,
    "document": {
     "file": "Calendar-1392.pdf",
+    "originalName": "Calendar-1392.pdf",
+    "storedPath": "PDF/Calendar-1392.pdf",
     "sha256": "636d8e39e8bd3c7e17d6d731682d108d70a5aca1c258660ecb2bd36399c8d627",
     "bytes": 343247,
     "pages": 17
@@ -271,6 +363,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -280,6 +379,8 @@
    "year": 1394,
    "document": {
     "file": "Calendar-1394.pdf",
+    "originalName": "Calendar-1394.pdf",
+    "storedPath": "PDF/Calendar-1394.pdf",
     "sha256": "e204a669fe20816cbdfd15f60d3d868f1942bbfb2784d694e0395bcb0580bbc6",
     "bytes": 356764,
     "pages": 17
@@ -296,6 +397,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -305,6 +413,8 @@
    "year": 1395,
    "document": {
     "file": "Calendar-1395.pdf",
+    "originalName": "Calendar-1395.pdf",
+    "storedPath": "PDF/Calendar-1395.pdf",
     "sha256": "7ba691665b38b933e43a808d6c9049cd4f779ee1052352d96d6006439ff9224b",
     "bytes": 430348,
     "pages": 16
@@ -321,6 +431,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -330,6 +447,8 @@
    "year": 1397,
    "document": {
     "file": "Calendar-1397.pdf",
+    "originalName": "Calendar-1397.pdf",
+    "storedPath": "PDF/Calendar-1397.pdf",
     "sha256": "f1379f07dc55b742ae19788c53b0903f8980741f67f75bc549f8a67ac7b39a94",
     "bytes": 299142,
     "pages": 17
@@ -346,6 +465,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -355,6 +481,8 @@
    "year": 1398,
    "document": {
     "file": "Calendar-1398.pdf",
+    "originalName": "Calendar-1398.pdf",
+    "storedPath": "PDF/Calendar-1398.pdf",
     "sha256": "040320c36f3cd8d84a3ce07d416635f59add61e9268c3fc793a7485af47c7e95",
     "bytes": 719320,
     "pages": 19
@@ -371,6 +499,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -380,6 +515,8 @@
    "year": 1399,
    "document": {
     "file": "Calendar-1399.pdf",
+    "originalName": "Calendar-1399.pdf",
+    "storedPath": "PDF/Calendar-1399.pdf",
     "sha256": "5af5cf7e5c7752da13530e5067d95ac5d82023e791ca5d4a5ca7b467be089213",
     "bytes": 367097,
     "pages": 17
@@ -396,6 +533,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -405,6 +549,8 @@
    "year": 1400,
    "document": {
     "file": "Calendar-1400.pdf",
+    "originalName": "Calendar-1400.pdf",
+    "storedPath": "PDF/Calendar-1400.pdf",
     "sha256": "f3798991d0ad2fcef06733f26b2283d2e9d92371bbb729d3cbaca32978330eb6",
     "bytes": 334374,
     "pages": 16
@@ -421,6 +567,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -430,6 +583,8 @@
    "year": 1401,
    "document": {
     "file": "Calendar-1401.pdf",
+    "originalName": "Calendar-1401.pdf",
+    "storedPath": "PDF/Calendar-1401.pdf",
     "sha256": "1c1e4462a31a4c7b548145fac5ee1dcb3dc7fbb0f0891020a2e02ae7c733af71",
     "bytes": 785743,
     "pages": 19
@@ -446,6 +601,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -455,6 +617,8 @@
    "year": 1403,
    "document": {
     "file": "Calendar-1403.pdf",
+    "originalName": "Calendar-1403.pdf",
+    "storedPath": "PDF/Calendar-1403.pdf",
     "sha256": "6cfaa18dae05c748eeab995430810fc15780880ccdff1bbc7cae487e4d2f2e60",
     "bytes": 419060,
     "pages": 17
@@ -471,6 +635,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -480,6 +651,8 @@
    "year": 1404,
    "document": {
     "file": "Calendar-1404.pdf",
+    "originalName": "Calendar-1404.pdf",
+    "storedPath": "PDF/Calendar-1404.pdf",
     "sha256": "057a40b265125cf8a1ec9b8133ef797f1635c3ad09ba941cc40614be41558945",
     "bytes": 735565,
     "pages": 18
@@ -496,6 +669,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -505,6 +685,8 @@
    "year": 1405,
    "document": {
     "file": "Calendar-1405.pdf",
+    "originalName": "Calendar-1405.pdf",
+    "storedPath": "PDF/Calendar-1405.pdf",
     "sha256": "8e32b520d5da058414b9378d62a01117273336a4c074591f4e84d59ab32a963c",
     "bytes": 1126414,
     "pages": 17
@@ -521,6 +703,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null
@@ -530,6 +719,8 @@
    "year": 1406,
    "document": {
     "file": "Calendar-1406.pdf",
+    "originalName": "Calendar-1406.pdf",
+    "storedPath": "PDF/Calendar-1406.pdf",
     "sha256": "f30ddf36f8b413a7b58ea94f9fff07b882d4029d48acff67a85ebca0a50d7c1d",
     "bytes": 1301160,
     "pages": 18
@@ -546,6 +737,13 @@
    "state": "approved",
    "approvedBy": "baseline:parse_official",
    "approvedAt": "2026-11-24T00:00:00Z",
+   "approval": {
+    "kind": "baseline",
+    "method": "baseline-import",
+    "by": "baseline:parse_official",
+    "at": "2026-11-24T00:00:00Z",
+    "note": "واردکردنِ خودکارِ مبنای parse_official؛ تأییدِ انسانی نیست."
+   },
    "note": "مبنای بازسازی‌شده از data/official-calendar-*.json (خروجیِ parse_official).",
    "supersedes": null,
    "supersededBy": null

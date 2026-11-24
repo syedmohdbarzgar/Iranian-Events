@@ -115,6 +115,7 @@ py -3 scripts/calendar_engine.py --year 1410 --out out.json
 | `data/history/occurrences.json` | وقوعِ هر سال با تاریخِ سه‌تقویمی و شاهدِ صفحه/هش |
 | `data/history/revisions/index.json` | فهرستِ نسخه‌های هر سال و وضعیتِ تأیید |
 | `data/history/revisions/<id>.json` | ردیف‌های همان نسخه |
+| `data/history/identity-reviews.json` | تصمیمِ مستند برای هویت‌های ردیفیِ مشکوک (نگاشت/حفظ بدونِ ادغام) |
 | `data/history/changelog.json` | تاریخچهٔ فقط-افزودنیِ تأیید/رد/اصلاح/بازگردانی |
 
 **قاعده:** وقوع فقط از ردیفِ یک نسخهٔ **تأییدشده** ساخته می‌شود؛ هیچ رویدادی به
@@ -122,21 +123,30 @@ py -3 scripts/calendar_engine.py --year 1410 --out out.json
 
 ```bash
 py -3 scripts/build_history.py --force       # بازسازیِ مبنا از PDFهای رسمی
+py -3 scripts/build_identity_reviews.py      # ثبت/بازتولیدِ تصمیم‌های ۲۲ هویتِ ردیفی
 py -3 scripts/ingest_pdf.py --pdf PDF/Calendar-1407.pdf   # پیش‌نویسِ امن (بدونِ تغییرِ داده)
+py -3 scripts/ingest_pdf.py --pdf new.pdf --year 1407 --ocr
+py -3 scripts/ingest_pdf.py --pdf scanned.pdf --year 1407 --ocr-text-dir ocr-pages/
 py -3 scripts/review_changes.py list          # بازبینیِ پیش‌نویس‌ها
-py -3 scripts/review_server.py --port 8765    # صفحهٔ بازبینی، فقط 127.0.0.1
-py -3 scripts/audit_history.py                # گیت: شاهد، بازتولید، هشِ PDF، ChangeLog
+py -3 scripts/review_server.py --port 8765    # صفحهٔ بازبینی + بارگذاریِ PDF، فقط 127.0.0.1
+py -3 scripts/audit_history.py                # گیت: شاهد، بازتولید، هشِ PDF، منشأِ تأیید
 py -3 scripts/build_history_view.py           # → web/history.html + reports/history.md
 ```
 
 - `docs/history-model.md`: سه موجودیت و تفکیکِ تاریخِ وقوع/ثبت/اصل.
 - `docs/pdf-ingestion.md`: تشخیصِ سال، مکان‌یابِ صفحه/خط، محدودیتِ OCR و `-bbox`.
 - `docs/revision-comparison.md`: دسته‌های ADDED/REMOVED/RENAMED/DATE_CHANGED/MODIFIED.
-- `docs/review-workflow.md`: تصمیمِ انسانی، تأییدِ گروهی، ChangeLog و بازگردانی.
+- `docs/review-workflow.md`: تصمیمِ انسانی، تأییدِ گروهی، ChangeLog، بازگردانی و بارگذاریِ PDF.
 - `docs/evidence-contract.md`: قالبِ شاهد و سطوحِ اعتبار.
+- `reports/history-identity-review.md`: شاهد/علتِ هر تصمیمِ هویتِ ردیفی.
+
+آمارِ فعلی: **۶۵۲ هویت** (۵۴۶ با وقوع، ۱۰۶ بدونِ سند)، **۴٬۵۴۳ وقوع**، **۲۲ نسخه**؛
+هر ۲۲ نسخه `approval.kind = baseline` دارند (تأییدِ انسانی نیست) و هر ۲۲ هویتِ
+ردیفیِ مشکوک تصمیمِ مستند دارند (۵ نگاشت + ۱۷ حفظِ ردیفِ چنده‌رویدادی).
 
 سال‌های ۱۳۹۳، ۱۳۹۶ و ۱۴۰۲ تا نصبِ OCR هیچ وقوعی ندارند و در گزارش‌ها «سندِ
-بررسی‌نشده» شمرده می‌شوند؛ این محدودیت پنهان نمی‌شود.
+بررسی‌نشده» شمرده می‌شوند؛ این محدودیت پنهان نمی‌شود. مسیرِ اتصالِ OCR ساخته و
+آزمون شده است، اما OCR واقعیِ آن صفحات در این محیط اجرا نشد.
 
 ## تعیین تقویم رویدادها
 

@@ -16,6 +16,7 @@ import calendar_engine as engine  # noqa: E402
 import history_store as store  # noqa: E402
 import ingest_pdf  # noqa: E402
 import review_changes as review  # noqa: E402
+import review_server  # noqa: E402
 import revision_diff  # noqa: E402
 
 CATALOG = [
@@ -46,6 +47,8 @@ def revision(rid: str, year: int, sha: str, *, state: str = "approved",
         "extraction": {"method": "text-layer", "tool": "test", "extractedAt": at,
                        "rowCount": 0, "qcProblems": 0},
         "state": state, "approvedBy": "tester", "approvedAt": at, "note": "",
+        "approval": {"kind": "human", "method": "test", "by": "tester", "at": at,
+                     "note": ""},
         "supersedes": None, "supersededBy": None,
     }
 
@@ -54,7 +57,8 @@ class TempStore:
     """مسیرهای store را موقت می‌کند تا آزمون به دادهٔ مخزن دست نزند."""
 
     NAMES = ("HISTORY_DIR", "REVISION_DIR", "EVENTS_FILE", "OCCURRENCES_FILE",
-             "REVISIONS_FILE", "CHANGELOG_FILE", "CHANGES_DIR", "INGEST_DIR")
+             "REVISIONS_FILE", "CHANGELOG_FILE", "IDENTITY_REVIEWS_FILE",
+             "CHANGES_DIR", "INGEST_DIR")
 
     def __enter__(self):
         self.tmp = tempfile.TemporaryDirectory()
@@ -69,6 +73,7 @@ class TempStore:
         store.OCCURRENCES_FILE = history / "occurrences.json"
         store.REVISIONS_FILE = history / "revisions" / "index.json"
         store.CHANGELOG_FILE = history / "changelog.json"
+        store.IDENTITY_REVIEWS_FILE = history / "identity-reviews.json"
         store.CHANGES_DIR = root / "review" / "changes"
         store.INGEST_DIR = root / "review" / "ingest"
         review.CHANGES_DIR = store.CHANGES_DIR
@@ -454,6 +459,185 @@ class IngestTest(unittest.TestCase):
         self.assertGreater(with_locator / len(rows), 0.5)
         self.assertEqual(revision_data["state"], "draft")
         self.assertTrue(revision_data["document"]["sha256"])
+
+
+class OcrLinkTest(unittest.TestCase):
+    """OCR باید واقعاً به ردیف/تاریخ تبدیل شود، نه فقط ذخیره شود."""
+
+    TEXT = ("۲ فروردین ۱۴۰۵ عید نوروز تعطیل\n"
+            "۵ فروردین ۱۴۰۵ زادروز زرتشت\n"
+            "جشن بهاری بدون تاریخ\n"
+            "۱۴۰۵/۰۱/۱۳ سیزده‌بدر تعطیل")
+
+    def test_explicit_ocr_dates_become_rows(self):
+        rows = ingest_pdf.parse_ocr_page(self.TEXT, 1405, 18)
+        self.assertEqual([r["solar"] for r in rows],
+                         [[1405, 1, 2], [1405, 1, 5], [1405, 1, 13]])
+        first = rows[0]
+        self.assertEqual(first["title"], "عید نوروز")
+        self.assertTrue(first["holiday"])
+        self.assertTrue(first["needsReview"])
+        self.assertIn("ocr-row", first["flags"])
+        self.assertLess(first["confidence"], 0.8)
+        self.assertEqual(first["page"], 18)
+        self.assertEqual(first["gregorian"], list(engine.jalali_to_gregorian(1405, 1, 2)))
+
+    def test_ocr_without_explicit_date_never_invents_a_row(self):
+        self.assertEqual(ingest_pdf.parse_ocr_page("عید نوروز تعطیل", 1405, 18), [])
+
+    def test_ocr_merge_does_not_overwrite_text_layer(self):
+        base = [row(1405, 1, 2, "عید نوروز", 18)]
+        base[0]["source"] = "text-layer"
+        ocr = ingest_pdf.parse_ocr_page(self.TEXT, 1405, 18)
+        merged = ingest_pdf.merge_ocr_rows(base, ocr)
+        self.assertEqual(len(merged), 3)
+        self.assertEqual(merged[0]["title"], "عید نوروز")
+        self.assertEqual(merged[0]["source"], "text-layer")
+
+    def test_real_pdf_uses_injected_ocr_text(self):
+        pdf = ROOT / "PDF" / "Calendar-1405.pdf"
+        if not pdf.exists():
+            self.skipTest("PDF نمونه موجود نیست")
+        revision_data, rows, _ = ingest_pdf.build_revision(
+            pdf, 1405, ocr_texts={18: self.TEXT})
+        extraction = revision_data["extraction"]
+        self.assertEqual(extraction["method"], "mixed")
+        self.assertEqual(extraction["ocrRows"], 3)
+        self.assertEqual(extraction["ocrPagesParsed"], [18])
+        ocr_rows = [r for r in rows if str(r.get("source", "")).startswith("ocr")]
+        self.assertEqual(len(ocr_rows), 3)
+        self.assertTrue(all(r["needsReview"] for r in ocr_rows))
+        self.assertTrue(all(r["solar"][0] == 1405 for r in ocr_rows))
+
+
+class ApprovalProvenanceTest(unittest.TestCase):
+
+    def test_missing_approval_is_an_error(self):
+        rev = revision("R-1405-aaaa", 1405, "a" * 64)
+        rev.pop("approval")
+        codes = {i["code"] for i in store.validate(
+            {"events": [], "occurrences": [], "revisions": [rev], "changelog": []})}
+        self.assertIn("REV_APPROVAL_MISSING", codes)
+
+    def test_baseline_cannot_pose_as_human_approval(self):
+        rev = revision("R-1405-aaaa", 1405, "a" * 64)
+        rev["approvedBy"] = store.BASELINE_ACTOR
+        rev["approval"] = {"kind": "human", "method": "review", "by": "x", "at": "now"}
+        codes = {i["code"] for i in store.validate(
+            {"events": [], "occurrences": [], "revisions": [rev], "changelog": []})}
+        self.assertIn("REV_HUMAN_ACTOR", codes)
+
+    def test_finalize_records_human_origin(self):
+        with TempStore():
+            install({"R-1405-bbbb": (revision("R-1405-bbbb", 1405, "b" * 64), [
+                row(1405, 1, 10, "آزمون سراسری", 2)])})
+            rows = [row(1405, 1, 10, "آزمون سراسری", 2),
+                    row(1405, 2, 1, "رویداد دوم", 3)]
+            rev = revision("R-1405-cccc", 1405, "c" * 64, state="draft")
+            diff = revision_diff.diff_rows([row(1405, 1, 10, "آزمون سراسری", 2)], rows,
+                                           year=1405, new_year=1405)
+            store.write_json(review.bundle_path("R-1405-cccc"), {
+                "revision": rev, "rawRows": rows, "oldRevisionId": "R-1405-bbbb",
+                "diff": diff, "decisions": {}, "state": "pending",
+                "createdAt": store.now_iso()})
+            added = next(c for c in diff["changes"] if c["kind"] == "ADDED")
+            review.decide("R-1405-cccc", added["id"], "approve", by="مدیر")
+            result = review.finalize("R-1405-cccc", by="مدیر")
+            approval = result["revision"]["approval"]
+            self.assertEqual(approval["kind"], "human")
+            self.assertEqual(approval["method"], "review")
+            self.assertEqual(approval["by"], "مدیر")
+
+
+class IdentityReviewTest(unittest.TestCase):
+
+    TITLE = ("عنوانِ ساختگیِ بسیار بلند برای آزمونِ ردیفِ چسبیده که هیچ تطبیقِ کاتالوگی "
+             "ندارد و باید به‌عنوانِ هویتِ ردیفی بماند")
+
+    def _derive(self, review_entry: dict):
+        rev = revision("R-1405-bbbb", 1405, "b" * 64)
+        rows = [row(1405, 1, 10, self.TITLE, 2)]
+        store.save_revision_rows(rev["id"], 1405, rows)
+        reviews = {review_entry["eventId"]: review_entry}
+        return store.derive(CATALOG, [rev], {rev["id"]: rows}, identity_reviews=reviews)
+
+    def test_keep_documents_without_merging(self):
+        with TempStore():
+            eid = store.synthetic_event_id(store.identity_key(self.TITLE))
+            events, occ = self._derive({
+                "eventId": eid, "decision": "keep-merged-row",
+                "reason": "چند رویداد در یک سطر", "evidence": [],
+                "constituents": [{"id": "E0001", "title": "آزمون سراسری"}],
+                "reviewedBy": "مدیر", "reviewedAt": "2026-01-01T00:00:00Z"})
+            ev = next(e for e in events if e["id"] == eid)
+            self.assertFalse(ev["needsReview"])
+            self.assertEqual(ev["review"]["decision"], "keep-merged-row")
+            self.assertEqual({o["eventId"] for o in occ}, {eid})
+
+    def test_disabled_review_is_reversible(self):
+        with TempStore():
+            eid = store.synthetic_event_id(store.identity_key(self.TITLE))
+            events, _ = self._derive({
+                "eventId": eid, "active": False, "decision": "keep-merged-row",
+                "reason": "آزمونِ خاموشی", "evidence": [],
+                "constituents": [], "reviewedBy": "مدیر",
+                "reviewedAt": "2026-01-01T00:00:00Z"})
+            ev = next(e for e in events if e["id"] == eid)
+            self.assertTrue(ev["needsReview"])
+            self.assertNotIn("review", ev)
+
+    def test_map_uses_explicit_target(self):
+        with TempStore():
+            eid = store.synthetic_event_id(store.identity_key(self.TITLE))
+            events_, occ = self._derive({
+                "eventId": eid, "decision": "map", "target": "E0001",
+                "reason": "همان رویداد با شاهد", "evidence": [],
+                "constituents": [{"id": "E0001", "title": "آزمون سراسری"}],
+                "reviewedBy": "مدیر", "reviewedAt": "2026-01-01T00:00:00Z"})
+            self.assertFalse([e for e in events_ if e["id"] == eid])
+            self.assertEqual({o["eventId"] for o in occ}, {"E0001"})
+
+    def test_unknown_target_is_reported(self):
+        with TempStore():
+            eid = store.synthetic_event_id(store.identity_key(self.TITLE))
+            entry = {"eventId": eid, "decision": "map", "target": "E9999",
+                     "reason": "آزمون", "evidence": [{"revisionId": "R-1405-bbbb", "page": 2}],
+                     "reviewedBy": "مدیر", "reviewedAt": "2026-01-01T00:00:00Z"}
+            codes = {i["code"] for i in store.validate(
+                {"events": [{"id": "E0001"}], "occurrences": [],
+                 "revisions": [revision("R-1405-bbbb", 1405, "b" * 64)], "changelog": []},
+                identity_reviews=[entry])}
+            self.assertIn("REVIEW_TARGET_MISSING", codes)
+
+
+class UploadSecurityTest(unittest.TestCase):
+
+    def test_rejects_non_pdf_and_bad_magic(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaises(ValueError):
+                review_server.save_upload("x.txt", b"%PDF-1.7 data", Path(tmp))
+            with self.assertRaises(ValueError):
+                review_server.save_upload("x.pdf", b"not a pdf", Path(tmp))
+
+    def test_sanitizes_name_and_never_touches_pdf_dir(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            payload = b"%PDF-1.7\n% test payload for upload\n"
+            target = review_server.save_upload("../../evil name.pdf", payload, Path(tmp))
+            self.assertEqual(target.parent, Path(tmp))
+            self.assertNotIn("..", target.name)
+            self.assertTrue(target.name.endswith("evil_name.pdf"))
+            self.assertEqual(target.read_bytes(), payload)
+            again = review_server.save_upload("evil name.pdf", payload, Path(tmp))
+            self.assertEqual(again, target)
+
+    def test_multipart_parser(self):
+        body = (b'--X\r\nContent-Disposition: form-data; name="year"\r\n\r\n1405\r\n'
+                b'--X\r\nContent-Disposition: form-data; name="file"; filename="a.pdf"\r\n'
+                b'Content-Type: application/pdf\r\n\r\n%PDF-1.7 x\r\n--X--\r\n')
+        fields = review_server.parse_multipart(body, "multipart/form-data; boundary=X")
+        self.assertEqual(fields["year"], (None, b"1405"))
+        self.assertEqual(fields["file"][0], "a.pdf")
+        self.assertEqual(fields["file"][1], b"%PDF-1.7 x")
 
 
 if __name__ == "__main__":

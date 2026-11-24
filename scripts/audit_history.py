@@ -26,6 +26,11 @@ import calendar_engine as engine  # noqa: E402
 PDF_DIR = ROOT / "PDF"
 REPORT_MD = ROOT / "reports" / "history-audit.md"
 REPORT_JSON = ROOT / "reports" / "history-audit.json"
+IDENTITY_REPORT = ROOT / "reports" / "history-identity-review.md"
+
+
+def _cell(text: str) -> str:
+    return (text or "").replace("|", "\\|").replace("\n", " ")
 
 
 def date_issues(occurrences: list[dict]) -> list[dict]:
@@ -67,8 +72,13 @@ def coverage(history: dict) -> dict:
         "occurrences": len(history["occurrences"]),
         "byYear": by_year,
         "needsReview": sum(1 for e in events if e.get("needsReview")),
+        "reviewedIdentities": sum(1 for e in events if e.get("review")),
         "revisions": len(history["revisions"]),
         "activeRevisions": len(active),
+        "baselineRevisions": sum(1 for r in active.values()
+                                 if (r.get("approval") or {}).get("kind") == "baseline"),
+        "humanRevisions": sum(1 for r in active.values()
+                              if (r.get("approval") or {}).get("kind") == "human"),
         "changelog": len(history["changelog"]),
     }
 
@@ -85,7 +95,8 @@ def main() -> int:
     expected = store.rebuild_from_revisions()
     issues = store.validate(
         history, expected=expected, pdf_dir=PDF_DIR,
-        check_pdf_hashes=not args.no_pdf_hash)
+        check_pdf_hashes=not args.no_pdf_hash,
+        identity_reviews=store.load_identity_review_entries())
     issues += date_issues(history["occurrences"])
 
     active = store.active_revisions(history["revisions"])
@@ -134,8 +145,9 @@ def main() -> int:
         f"({cov['documentYears'][0]}–{cov['documentYears'][-1]})" if cov["documentYears"] else "- سالی ندارد",
         f"- هویت‌ها: **{cov['events']}** · با وقوع: {cov['witnessedEvents']} · بدونِ وقوع: {cov['unwitnessedEvents']}",
         f"- وقوع‌ها: **{cov['occurrences']}**",
-        f"- هویت‌های نیازمندِ بازبینی: {cov['needsReview']}",
-        f"- نسخه‌ها: {cov['revisions']} ({cov['activeRevisions']} فعال) · ChangeLog: {cov['changelog']}",
+        f"- هویت‌های نیازمندِ بازبینی: {cov['needsReview']} · بازبینیِ مستندشده: {cov['reviewedIdentities']}",
+        f"- نسخه‌ها: {cov['revisions']} ({cov['activeRevisions']} فعال؛ "
+        f"مبنای خودکار: {cov['baselineRevisions']}، تأییدِ انسانی: {cov['humanRevisions']}) · ChangeLog: {cov['changelog']}",
         f"- خطا: **{len(errors)}** · هشدار: {len(warnings)}",
         "",
         "## پوششِ سالانه",
@@ -152,6 +164,28 @@ def main() -> int:
             lines.append(f"- `{issue['code']}` ({issue['severity']}): {issue['message']}"
                          + (f" — `{issue['ref']}`" if issue.get("ref") else ""))
     REPORT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    reviews = store.load_identity_review_entries()
+    review_lines = [
+        "# بازبینیِ هویت‌های ردیفی — شاهد و علت",
+        "",
+        f"**{len(reviews)} تصمیمِ ثبت‌شده** · منبع: `data/history/identity-reviews.json`",
+        "",
+        "| هویت | تصمیم | مقصد | شاهدِ صفحه | اجزای کاتالوگی | علت | بازبین |",
+        "|---|---|---|---|---|---|---|",
+    ]
+    for entry in reviews:
+        evidence = ", ".join(
+            f"{ev.get('revisionId')}#p{ev.get('page')} ({ev.get('year')})"
+            for ev in entry.get("evidence", []))
+        parts = ", ".join(f"{c.get('id')} {c.get('title', '')[:60]}"
+                         for c in entry.get("constituents", [])) or "—"
+        review_lines.append(
+            f"| `{entry.get('eventId')}` | {entry.get('decision')} | "
+            f"{entry.get('target') or '—'} | {_cell(evidence) or '—'} | "
+            f"{_cell(parts)} | {_cell(entry.get('reason', ''))} | "
+            f"{_cell(entry.get('reviewedBy', ''))} |")
+    IDENTITY_REPORT.write_text("\n".join(review_lines) + "\n", encoding="utf-8")
 
     print(f"gate={'PASS' if not errors else 'FAIL'} errors={len(errors)} warnings={len(warnings)} "
           f"events={cov['events']} occurrences={cov['occurrences']} years={len(cov['documentYears'])}")

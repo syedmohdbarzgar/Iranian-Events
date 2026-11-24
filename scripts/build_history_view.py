@@ -125,6 +125,7 @@ def build_payload() -> dict:
             "aliases": ev["aliases"],
             "yearChanges": year_changes,
             "needsReview": ev.get("needsReview", False),
+            "review": ev.get("review"),
             "occurrences": [{
                 "year": o["year"],
                 "solar": o["date"]["solar"],
@@ -137,6 +138,8 @@ def build_payload() -> dict:
                 "document": o["evidence"]["documentId"],
                 "sha": o["evidence"]["documentSha256"],
                 "revisionId": o["evidence"]["revisionId"],
+                "approval": (active.get(o["year"], {}).get("approval") or {}).get("kind"),
+                "approvedBy": active.get(o["year"], {}).get("approvedBy"),
                 "match": o["match"]["kind"],
                 "sharedRow": o["match"]["sharedRow"],
                 "status": o["verification"]["status"],
@@ -168,6 +171,9 @@ def build_payload() -> dict:
             "file": documents[y].get("file"),
             "sha": documents[y].get("sha256"),
             "pages": documents[y].get("pages"),
+            "approval": (active[y].get("approval") or {}).get("kind"),
+            "approvedBy": active[y].get("approvedBy"),
+            "approvalAt": active[y].get("approvedAt"),
         } for y in doc_years],
         "events": payload_events,
         "changelog": changes,
@@ -271,6 +277,8 @@ function row(occ){
     const td=el('td',null,v); if(i===5)td.className='doc'; tr.append(td);});
   const td=el('td'); td.append(badge(occ.status));
   if(occ.sharedRow){const s=el('span','badge','ردیفِ مشترک'); td.append(' ',s);}
+  if(occ.approval==='baseline'){td.append(' ',el('span','badge','مبنای خودکار — تأییدِ انسانی نشده'));}
+  else if(occ.approval==='human'){td.append(' ',el('span','badge','تأییدِ انسانی'));}
   tr.append(td); return tr;
 }
 function render(){
@@ -310,6 +318,16 @@ function render(){
       body.append(t);
     } else {
       body.append(el('div','empty','این رویداد در هیچ‌یک از '+fa(DATA.counts.documents)+' سندِ بررسی‌شده دیده نشده است؛ بنابراین هیچ تاریخی برایش ساخته نشده.'));
+    }
+    if(e.review){
+      const r=el('div','aliases');
+      r.append(el('b',null,e.review.decision==='keep-merged-row'?'بازبینیِ ثبت‌شده — ردیفِ چنده‌رویدادی: ':'بازبینیِ ثبت‌شده — عنوانِ مخدوش: '));
+      r.append(el('span',null,e.review.reason||''));
+      if(e.review.constituents&&e.review.constituents.length){
+        r.append(document.createElement('br'),el('b',null,'رویدادهای داخلِ ردیف: '));
+        for(const c of e.review.constituents) r.append(el('span',null,`${c.id} ${c.title}`));
+      }
+      body.append(r);
     }
     if(e.aliases.length>1){
       const a=el('div','aliases'); a.append(el('b',null,'عنوان‌های ثبت‌شده: '));
@@ -371,11 +389,14 @@ def main() -> int:
         "",
         "## سندهای پوشش‌داده‌شده",
         "",
-        "| سال | فایل | صفحه | هش |",
-        "|---|---|---|---|",
+        "| سال | فایل | صفحه | هش | منشأ تأیید |",
+        "|---|---|---|---|---|",
     ]
     for doc in payload["documents"]:
-        lines.append(f"| {doc['year']} | {doc['file']} | {doc['pages']} | `{doc['sha'][:12]}` |")
+        origin = ("مبنای خودکار (بدونِ تأییدِ انسانی)" if doc.get("approval") == "baseline"
+                  else f"تأییدِ انسانی: {doc.get('approvedBy')}" if doc.get("approval") == "human"
+                  else "نامشخص")
+        lines.append(f"| {doc['year']} | {doc['file']} | {doc['pages']} | `{doc['sha'][:12]}` | {origin} |")
     annual = []
     for e in payload["events"]:
         for c in e["yearChanges"]:

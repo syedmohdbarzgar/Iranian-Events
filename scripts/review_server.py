@@ -12,7 +12,9 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
+import re
 import secrets
 import sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -23,10 +25,69 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import history_store as store  # noqa: E402
+import ingest_pdf  # noqa: E402
 import review_changes as review  # noqa: E402
 
 TOKEN = secrets.token_urlsafe(18)
-MAX_BODY = 1 << 20
+MAX_BODY = 32 << 20
+MAX_UPLOAD = 30 << 20
+UPLOAD_DIR = store.REVIEW_DIR / "uploads"
+
+
+def save_upload(filename: str, data: bytes, directory: Path | None = None) -> Path:
+    """فایلِ بارگذاری‌شده را فقط در پوشهٔ پیش‌نویس‌ها ذخیره می‌کند.
+
+    نامِ اصلی حفظ می‌شود تا تشخیصِ سال از نام کار کند، اما نامِ ذخیره با هش و
+    نویسه‌های امن ساخته می‌شود؛ PDF/ هرگز لمس نمی‌شود. فایلِ هم‌هش دوباره
+    نوشته نمی‌شود.
+    """
+    original = Path(filename or "").name
+    if not original.lower().endswith(".pdf"):
+        raise ValueError("فقط فایلِ PDF پذیرفته می‌شود")
+    if not data.startswith(b"%PDF-"):
+        raise ValueError("امضای فایل PDF نیست")
+    if len(data) < 32:
+        raise ValueError("فایلِ PDF خالی/ناقص است")
+    if len(data) > MAX_UPLOAD:
+        raise ValueError(f"حجمِ فایل بیش از {MAX_UPLOAD // (1 << 20)} مگابایت است")
+    target_dir = directory or UPLOAD_DIR
+    target_dir.mkdir(parents=True, exist_ok=True)
+    digest = hashlib.sha256(data).hexdigest()
+    safe = re.sub(r"[^A-Za-z0-9._-]+", "_", original)[:80] or "calendar.pdf"
+    if not safe.lower().endswith(".pdf"):
+        safe += ".pdf"
+    target = target_dir / f"{digest[:16]}-{safe}"
+    if target.exists():
+        return target
+    tmp = target.with_suffix(target.suffix + ".part")
+    tmp.write_bytes(data)
+    tmp.replace(target)
+    return target
+
+
+def parse_multipart(body: bytes, content_type: str) -> dict[str, tuple[str | None, bytes]]:
+    """تجزیهٔ حداقلیِ multipart/form-data بدونِ کتابخانهٔ منسوخِ cgi."""
+    m = re.search(r'boundary="?([^";]+)"?', content_type or "")
+    if not m:
+        raise ValueError("boundary ندارد")
+    boundary = b"--" + m.group(1).encode("latin-1")
+    out: dict[str, tuple[str | None, bytes]] = {}
+    for part in body.split(boundary)[1:]:
+        if part.startswith(b"--"):
+            break
+        part = part.lstrip(b"\r\n")
+        head, sep, data = part.partition(b"\r\n\r\n")
+        if not sep:
+            continue
+        headers = head.decode("utf-8", "replace")
+        nm = re.search(r'name="([^"]*)"', headers)
+        if not nm:
+            continue
+        fm = re.search(r'filename="([^"]*)"', headers)
+        if data.endswith(b"\r\n"):
+            data = data[:-2]
+        out[nm.group(1)] = (fm.group(1) if fm else None, data)
+    return out
 
 
 PAGE = """<!doctype html>
@@ -66,6 +127,15 @@ button.ok{border-color:#245c42;color:var(--ok)}button.no{border-color:#5a2a30;co
 <div class="sub">هیچ تغییری بدون تصمیمِ ثبت‌شده اعمال نمی‌شود. این سرور فقط روی همین رایانه گوش می‌دهد.</div></div></header>
 <main class="wrap">
 <div id="msg"></div>
+<div class="bundle"><div class="bhead"><b>بارگذاریِ PDF تازه</b>
+<span class="meta">فقط پیش‌نویس می‌سازد؛ فایلِ اصلی و دادهٔ تأییدشده دست نمی‌خورند.</span></div>
+<div style="padding:14px 16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center">
+<input type="file" id="pdf" accept="application/pdf,.pdf">
+<input id="year" placeholder="سال (اختیاری)" dir="ltr" style="flex:0 1 130px">
+<label class="meta"><input type="checkbox" id="ocr"> OCR صفحه‌های اسکن‌شده</label>
+<button class="main" onclick="uploadPdf()">ساختِ پیش‌نویس</button>
+<span id="upmsg" class="meta"></span>
+</div></div>
 <div class="bar">
 <input name="by" placeholder="نامِ بررسی‌کننده (الزامی)">
 <input name="note" placeholder="یادداشتِ تصمیم (اختیاری)">
@@ -106,6 +176,22 @@ function decision(rev,change,action){
     body.edit=edit;
   }
   post('/api/decide',body);
+}
+async function uploadPdf(){
+  const by=(document.querySelector('input[name=by]').value||'').trim();
+  if(!by){msg('نامِ بررسی‌کننده را وارد کنید.');return;}
+  const f=document.getElementById('pdf').files[0];
+  if(!f){msg('یک فایل PDF انتخاب کنید.');return;}
+  const fd=new FormData(); fd.append('file',f,f.name);
+  const y=(document.getElementById('year').value||'').trim(); if(y)fd.append('year',y);
+  if(document.getElementById('ocr').checked)fd.append('ocr','1');
+  fd.append('by',by);
+  document.getElementById('upmsg').textContent='در حال ساختِ پیش‌نویس…';
+  const r=await fetch('/api/upload',{method:'POST',headers:{'X-Review-Token':TOKEN},body:fd});
+  let j={}; try{j=await r.json();}catch(e){}
+  if(!r.ok){document.getElementById('upmsg').textContent='';msg(j.error||('خطای سرور: '+r.status));return;}
+  document.getElementById('upmsg').textContent=`${j.revisionId} · ${j.rows} ردیف · ${j.method}`;
+  msg('پیش‌نویس ساخته شد؛ هیچ داده‌ای اعمال نشد.',true); setTimeout(reload,700);
 }
 function approveAll(rev){post('/api/approve-all',{revision:rev});}
 function finalize(rev){post('/api/finalize',{revision:rev});}
@@ -224,12 +310,37 @@ class Handler(BaseHTTPRequestHandler):
         if length <= 0 or length > MAX_BODY:
             self._json(400, {"error": "بدنهٔ نامعتبر"})
             return
+        path = urlparse(self.path).path
+        raw = self.rfile.read(length)
+        if path == "/api/upload":
+            try:
+                fields = parse_multipart(raw, self.headers.get("Content-Type", ""))
+                if "file" not in fields or not fields["file"][0]:
+                    raise ValueError("فیلدِ file لازم است")
+                filename, data = fields["file"]
+                year_raw = (fields.get("year", (None, b""))[1] or b"").decode("utf-8", "replace").strip()
+                year = int(year_raw) if year_raw else None
+                if year is not None and not 1300 <= year <= 1420:
+                    raise ValueError("سال باید بین ۱۳۰۰ و ۱۴۲۰ باشد")
+                ocr = (fields.get("ocr", (None, b""))[1] or b"").decode() in {"1", "true", "on"}
+                stored = save_upload(filename, data)
+                bundle = ingest_pdf.write_bundle(stored, year, do_ocr=ocr,
+                                                  original_name=filename)
+                rev = bundle["revision"]
+                self._json(200, {"ok": True, "revisionId": rev["id"], "year": rev["year"],
+                                 "rows": len(bundle["rawRows"]),
+                                 "method": rev["extraction"]["method"],
+                                 "diff": bundle["diff"]["counts"]})
+            except (ValueError, FileNotFoundError, KeyError) as exc:
+                self._json(400, {"error": str(exc)})
+            except Exception as exc:  # noqa: BLE001
+                self._json(500, {"error": f"خطای داخلی: {exc}"})
+            return
         try:
-            body = json.loads(self.rfile.read(length).decode("utf-8"))
+            body = json.loads(raw.decode("utf-8"))
         except Exception:  # noqa: BLE001
             self._json(400, {"error": "JSON نامعتبر"})
             return
-        path = urlparse(self.path).path
         try:
             if path == "/api/decide":
                 review.decide(body["revision"], body["change"], body["action"],

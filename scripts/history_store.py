@@ -47,11 +47,13 @@ EVENTS_FILE = HISTORY_DIR / "events.json"
 OCCURRENCES_FILE = HISTORY_DIR / "occurrences.json"
 REVISIONS_FILE = REVISION_DIR / "index.json"
 CHANGELOG_FILE = HISTORY_DIR / "changelog.json"
+IDENTITY_REVIEWS_FILE = HISTORY_DIR / "identity-reviews.json"
 REVIEW_DIR = DATA / "review"
 CHANGES_DIR = REVIEW_DIR / "changes"
 INGEST_DIR = REVIEW_DIR / "ingest"
 
 APPROVED_STATES = {"approved"}
+REVIEW_DECISIONS = {"keep-merged-row", "keep-garbled-row", "map"}
 EVIDENCE_KIND = "official-pdf-row"
 BASELINE_ACTOR = "baseline:parse_official"
 BASELINE_AT = "2026-11-24T00:00:00Z"
@@ -98,6 +100,17 @@ def load_history() -> dict:
         "revisions": load_json(REVISIONS_FILE, {"revisions": []}).get("revisions", []),
         "changelog": load_json(CHANGELOG_FILE, {"entries": []}).get("entries", []),
     }
+
+
+def load_identity_review_entries() -> list[dict]:
+    """تصمیم‌های ثبت‌شدهٔ بازبینیِ هویت (فایلِ قابلِ ردیابی، مستقل از دادهٔ مشتق‌شده)."""
+    data = load_json(IDENTITY_REVIEWS_FILE, {"reviews": []})
+    return list(data.get("reviews", [])) if isinstance(data, dict) else []
+
+
+def load_identity_reviews() -> dict[str, dict]:
+    return {r["eventId"]: r for r in load_identity_review_entries()
+            if r.get("eventId")}
 
 
 def save_history(events: list[dict], occurrences: list[dict]) -> None:
@@ -385,10 +398,20 @@ def _origin(ev: dict) -> dict:
 
 
 def derive(events_catalog: list[dict], revisions: list[dict],
-           rows_by_revision: dict[str, list[dict]]) -> tuple[list[dict], list[dict]]:
-    """وقوع‌ها و هویت‌ها را فقط از نسخه‌های فعال (تأییدشده) بازمی‌سازد."""
+           rows_by_revision: dict[str, list[dict]],
+           identity_reviews: dict[str, dict] | None = None
+           ) -> tuple[list[dict], list[dict]]:
+    """وقوع‌ها و هویت‌ها را فقط از نسخه‌های فعال (تأییدشده) بازمی‌سازد.
+
+    ``identity_reviews`` تصمیمِ انسانیِ ثبت‌شده برای هویت‌های ردیفی است:
+    ``map`` فقط وقتی اعمال می‌شود که شاهد و علت در همان فایل باشد؛ ``keep``
+    هویت را حفظ می‌کند و فقط وضعیتِ بازبینی را از «باز» به «مستند» می‌برد.
+    هیچ ادغامِ خودکاری انجام نمی‌شود.
+    """
     matcher = CatalogMatcher(events_catalog)
     by_id = {e["id"]: e for e in events_catalog}
+    reviews = load_identity_reviews() if identity_reviews is None else identity_reviews
+    reviews = {k: v for k, v in reviews.items() if v.get("active", True)}
     active = active_revisions(revisions)
     occurrences: list[dict] = []
     observed: dict[str, set[str]] = {}
@@ -410,6 +433,15 @@ def derive(events_catalog: list[dict], revisions: list[dict],
             shared = len(matches) > 1
             for ev, kind, confidence in matches:
                 eid = ev["id"]
+                review = reviews.get(eid)
+                if review and review.get("decision") == "map":
+                    target = review.get("target")
+                    if not target or target not in by_id:
+                        # تصمیمِ ناقص هرگز به ادغامِ خودکار تبدیل نمی‌شود.
+                        review = None
+                    else:
+                        eid = target
+                        ev = by_id[target]
                 if eid in by_id and by_id[eid].get("excludeFromCalendar"):
                     continue
                 date = _date_of(row)
@@ -509,6 +541,17 @@ def derive(events_catalog: list[dict], revisions: list[dict],
             info["identityKind"] == "row"
             and (len(info["canonicalTitle"]) > 90 or any(o["match"]["sharedRow"] for o in mine))
         )
+        review = reviews.get(eid)
+        if review and review.get("decision") in {"keep-merged-row", "keep-garbled-row"}:
+            info["review"] = {
+                "decision": review["decision"],
+                "reason": review.get("reason", ""),
+                "evidence": review.get("evidence", []),
+                "constituents": review.get("constituents", []),
+                "reviewedBy": review.get("reviewedBy"),
+                "reviewedAt": review.get("reviewedAt"),
+            }
+            info["needsReview"] = False
 
     events = sorted(all_events.values(), key=lambda e: (
         0 if e["id"].startswith("E") else 1, e["id"]))
@@ -531,7 +574,8 @@ def _issue(code: str, severity: str, message: str, ref: str = "") -> dict:
 
 
 def validate(history: dict, *, expected: tuple[list[dict], list[dict]] | None = None,
-             pdf_dir: Path | None = None, check_pdf_hashes: bool = False) -> list[dict]:
+             pdf_dir: Path | None = None, check_pdf_hashes: bool = False,
+             identity_reviews: list[dict] | None = None) -> list[dict]:
     """بررسیِ ساختاری و شاهد‌محور؛ خروجی فهرستِ اشکال با کدِ پایدار."""
     issues: list[dict] = []
     events, occurrences = history["events"], history["occurrences"]
@@ -540,6 +584,37 @@ def validate(history: dict, *, expected: tuple[list[dict], list[dict]] | None = 
     event_ids = {e["id"] for e in events}
     if len(event_ids) != len(events):
         issues.append(_issue("EVENT_DUPLICATE_ID", "error", "شناسهٔ تکراری در هویت‌ها"))
+
+    # منشأ تأیید باید صادقانه باشد: مبنا هرگز خود را «تأیید انسانی» جا نمی‌زند.
+    for rev in revisions:
+        if rev.get("state") not in APPROVED_STATES:
+            continue
+        approval = rev.get("approval")
+        if not isinstance(approval, dict):
+            issues.append(_issue("REV_APPROVAL_MISSING", "error",
+                                 "نسخهٔ تأییدشده منشأِ تأیید ندارد", rev["id"]))
+            continue
+        kind = approval.get("kind")
+        if kind not in {"baseline", "human"}:
+            issues.append(_issue("REV_APPROVAL_UNKNOWN", "error",
+                                 f"منشأِ تأییدِ ناشناخته: {kind!r}", rev["id"]))
+        if kind == "baseline":
+            if rev.get("approvedBy") != BASELINE_ACTOR:
+                issues.append(_issue("REV_BASELINE_ACTOR", "error",
+                                     "نسخهٔ مبنا نامِ سازندهٔ مبنا را ندارد", rev["id"]))
+            if (rev.get("extraction") or {}).get("sourceKind") != "baseline-official-json":
+                issues.append(_issue("REV_BASELINE_SOURCE", "error",
+                                     "نسخهٔ مبنا از منبعِ مبنا ساخته نشده", rev["id"]))
+        elif kind == "human":
+            if rev.get("approvedBy") in {None, "", BASELINE_ACTOR}:
+                issues.append(_issue("REV_HUMAN_ACTOR", "error",
+                                     "تأییدِ انسانی نامِ تأییدکننده ندارد", rev["id"]))
+            if not approval.get("method"):
+                issues.append(_issue("REV_HUMAN_METHOD", "error",
+                                     "روشِ تأییدِ انسانی ثبت نشده", rev["id"]))
+            if approval.get("method") == "review" and not rev.get("review"):
+                issues.append(_issue("REV_HUMAN_NO_REVIEW", "error",
+                                     "تأییدِ انسانی بدونِ رکوردِ تصمیم‌هاست", rev["id"]))
 
     for e in events:
         if not e.get("id") or not e.get("canonicalTitle"):
@@ -586,14 +661,61 @@ def validate(history: dict, *, expected: tuple[list[dict], list[dict]] | None = 
 
     if check_pdf_hashes and pdf_dir is not None:
         for rev in revisions:
-            path = pdf_dir / (rev["document"].get("file") or "")
+            document = rev["document"]
+            stored = document.get("storedPath")
+            path = (Path(stored) if Path(stored).is_absolute() else ROOT / stored) if stored \
+                else pdf_dir / (document.get("file") or "")
             if not path.exists():
                 issues.append(_issue("REV_PDF_MISSING", "warning", f"PDF نیست: {path.name}", rev["id"]))
                 continue
             actual = sha256_file(path)
-            if actual != rev["document"].get("sha256"):
+            if actual != document.get("sha256"):
                 issues.append(_issue("REV_SHA_MISMATCH", "error",
                                      f"{rev['id']}: هشِ فایل با نسخه نمی‌خواند", rev["id"]))
+
+    # تصمیم‌های بازبینیِ هویت: هر ورودی باید شاهد، علت و مقصدِ معتبر داشته باشد.
+    entries = load_identity_review_entries() if identity_reviews is None else identity_reviews
+    seen_reviews: set[str] = set()
+    for entry in entries:
+        eid = entry.get("eventId", "")
+        if eid in seen_reviews:
+            issues.append(_issue("REVIEW_DUPLICATE", "error",
+                                 f"تصمیمِ تکراری برای {eid}", eid))
+        seen_reviews.add(eid)
+        if not eid or entry.get("decision") not in REVIEW_DECISIONS:
+            issues.append(_issue("REVIEW_DECISION_UNKNOWN", "error",
+                                 "تصمیمِ بازبینیِ ناشناخته/ناقص", eid))
+            continue
+        if not entry.get("reason") or not entry.get("reviewedBy") or not entry.get("reviewedAt"):
+            issues.append(_issue("REVIEW_INCOMPLETE", "error",
+                                 "تصمیم بدونِ علت/بازبین/زمان", eid))
+        if entry["decision"] == "map":
+            if entry.get("target") not in event_ids:
+                issues.append(_issue("REVIEW_TARGET_MISSING", "error",
+                                     f"مقصدِ ادغام وجود ندارد: {entry.get('target')}", eid))
+            if not eid.startswith("S"):
+                issues.append(_issue("REVIEW_MAP_SOURCE", "error",
+                                     "فقط هویتِ ردیفی (S…) به کاتالوگ نگاشت می‌شود", eid))
+        elif entry["decision"] in {"keep-merged-row", "keep-garbled-row"}:
+            if eid not in event_ids:
+                issues.append(_issue("REVIEW_EVENT_MISSING", "error",
+                                     "هویتِ بازبینی‌شده در داده نیست", eid))
+        ev = entry.get("evidence") or []
+        if not ev:
+            issues.append(_issue("REVIEW_EVIDENCE_MISSING", "error",
+                                 "تصمیم بدونِ شاهدِ صفحه/نسخه", eid))
+        for item in ev:
+            rev = rev_by_id.get(item.get("revisionId"))
+            if rev is None or not item.get("page"):
+                issues.append(_issue("REVIEW_EVIDENCE_MISSING", "error",
+                                     "شاهدِ بازبینی به نسخه/صفحهٔ معتبر اشاره نمی‌کند", eid))
+            elif not 1 <= int(item["page"]) <= int(rev["document"].get("pages") or 0):
+                issues.append(_issue("REVIEW_EVIDENCE_PAGE", "error",
+                                     f"صفحهٔ {item['page']} بیرون از سند {rev['id']}", eid))
+    open_reviews = [e["id"] for e in events if e.get("needsReview")]
+    for eid in open_reviews:
+        issues.append(_issue("REVIEW_OPEN", "warning",
+                             "هویتِ ردیفی هنوز تصمیمِ مستند ندارد", eid))
 
     # تغییراتِ تأییدشده باید در تاریخچه باشند و برعکس.
     log_ids = {c.get("id") for c in changelog}

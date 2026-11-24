@@ -23,7 +23,8 @@
 | `observedYears` | سال‌هایی که برای هرکدام شاهدِ مستقل وجود دارد |
 | `occurrenceCount` | شمارِ وقوع‌های witnessed |
 | `verificationStatus` | `verified` · `partially_verified` · `traditional` · `unverified` |
-| `needsReview` | هویتِ ردیفیِ بلند/مشترک که باید به هویتِ کاتالوگی تبدیل شود |
+| `needsReview` | هویتِ ردیفیِ بلند/مشترک که **هنوز** تصمیمِ مستند ندارد |
+| `review` | تصمیمِ ثبت‌شده برای هویتِ ردیفی: `keep-merged-row`/`keep-garbled-row` + علت + شاهد + اجزا |
 
 `established.kind` یکی از `tradition`، `established`، `event`، `first-seen`،
 `unrecorded` است. برای هویتِ ردیفی همیشه `unrecorded` است؛ یعنی «سندِ اصل در
@@ -53,7 +54,8 @@
 | `document` | فایل، SHA-256، حجم، شمارِ صفحه |
 | `extraction` | روش (`text-layer`/`ocr`/`mixed`/`manual-revert`)، ابزار، زمان، شمارِ ردیف، صفحه‌های OCR، مکان‌یاب |
 | `state` | `draft` · `approved` · `superseded` · `rejected` |
-| `approvedBy` / `approvedAt` | تصمیمِ انسانی |
+| `approval` | منشأِ تأیید: `{kind: baseline|human, method, by, at, note}` — مبنا هرگز «تأییدِ انسانی» نیست |
+| `approvedBy` / `approvedAt` | نام و زمانِ ثبت؛ برای مبنا `baseline:parse_official` |
 | `supersedes` / `supersededBy` | زنجیرهٔ نسخه‌ها |
 | `review` | شمارشِ تصمیم‌های تأیید/رد/اصلاح |
 
@@ -71,6 +73,47 @@
 `firstObservedYear` از وقوع‌ها محاسبه می‌شود، نه از `first_year` کاتالوگ و نه از
 `origin`. اگر سالِ قدیمی‌تری تأیید شود، خودکار پایین می‌آید؛ اگر سندی نباشد،
 `null` می‌ماند.
+
+## ۲٫۱. منشأِ تأیید: مبنا در برابر انسان
+
+هر نسخهٔ `approved` باید `approval.kind` داشته باشد:
+
+- `baseline`: ساخته‌شده از `data/official-calendar-*.json`؛ یعنی **واردکردنِ
+  خودکار**، نه تأییدِ انسانی. `approvedBy` همان `baseline:parse_official` است.
+- `human`: تأییدِ `review_changes.py finalize` یا بازگردانیِ انسانی؛ `by` نامِ
+  واقعی و `method` یکی از `review`/`revert` است.
+
+گیت با `REV_APPROVAL_MISSING`، `REV_BASELINE_ACTOR`، `REV_BASELINE_SOURCE`،
+`REV_HUMAN_ACTOR` و `REV_HUMAN_METHOD` نمی‌گذارد مبنا خود را انسانی جا بزند.
+صفحهٔ تاریخ و گزارشِ گیت همین تفاوت را نشان می‌دهند؛ آمارِ امروز: ۲۲ نسخهٔ مبنا
+و ۰ نسخهٔ تأییدِ انسانی.
+
+## ۲٫۲. هویت‌های ردیفیِ بازبینی‌شده
+
+`data/history/identity-reviews.json` تصمیم‌های ثبت‌شده برای هویت‌های `S…` است:
+
+- `map`: فقط وقتی یک ردیف با یک رویدادِ کاتالوگی عنوان/تاریخِ یکسان دارد؛
+  مقصد صریح است و ردیفِ اصلی به‌عنوان شاهد/alias حفظ می‌شود.
+- `keep-merged-row`: ردیفِ PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده؛ هیچ
+  ادغامی انجام نمی‌شود، اجزای کاتالوگی و صفحه/نسخه ثبت می‌شوند و
+  `needsReview` فقط پس از همین تصمیم `false` می‌شود.
+- `keep-garbled-row`: یک رویداد با عنوانِ مخدوش که نگاشتِ مطمئن ندارد.
+
+هر ورودی `reason`، `evidence[{revisionId,page,year,observedTitle}]`،
+`reviewedBy`، `reviewedAt` و `active` دارد. گیت: `REVIEW_DECISION_UNKNOWN`،
+`REVIEW_TARGET_MISSING`، `REVIEW_EVIDENCE_MISSING`، `REVIEW_EVIDENCE_PAGE`،
+`REVIEW_INCOMPLETE`، `REVIEW_DUPLICATE` و هشدارِ `REVIEW_OPEN`.
+
+بازگردانیِ یک تصمیم بدونِ ویرایشِ دستیِ داده:
+
+```bash
+py -3 scripts/build_identity_reviews.py --disable S1273FA50   # تصمیم خاموش + بازتولید
+py -3 scripts/build_identity_reviews.py --enable  S1273FA50   # روشن‌کردنِ دوباره
+```
+
+خاموش‌کردن، هویت/وقوع را از نو می‌سازد و هویتِ ردیفی را دوباره `needsReview`
+می‌کند؛ خودِ تصمیم و شاهدش در فایل می‌ماند. `--disable`/`--enable` هر دو
+`identity-reviews.json` را تغییر می‌دهند، پس با گیت قابلِ ردیابی‌اند.
 
 ## ۳. قاعدهٔ ساخت: فقط شاهد
 
@@ -112,6 +155,8 @@
 | چند عنوان برای یک هویت | `aliases` + `match` | `test_alias_change_does_not_rewrite_other_year` |
 | تفکیکِ تاریخِ وقوع/ثبت/اصل | `date` / `firstRecordedDate` / `established` | بازرسیِ داده |
 | جلوگیری از ورودِ دادهٔ تأییدنشده | `audit_history.py` | `test_validation_catches_orphan_and_tampering` |
+| تفکیکِ مبنای خودکار از تأییدِ انسانی | `approval` + گیت | `test_baseline_cannot_pose_as_human_approval` |
+| بازبینیِ هویتِ ردیفی بدونِ ادغامِ خودکار | `identity-reviews.json` + `derive` | `test_keep_documents_without_merging` / `test_map_uses_explicit_target` |
 
 ## ۶. نمونهٔ ساختاری (غیرواقعی)
 

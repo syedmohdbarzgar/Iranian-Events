@@ -30,6 +30,7 @@
 | `bbox` | اختیاری | کادرِ نقطه‌ای اگر ابزار پشتیبانی کند |
 | `locator` | اختیاری (در ردیف) | `page-line` با شمارهٔ خط و بازهٔ نویسه |
 | `method` | الزامی | `text-layer` · `ocr` · `mixed` · `manual-revert` |
+| `source` (در ردیف) | برای OCR الزامی | `text-layer` · `ocr-table` · `ocr-line` |
 
 **قاعده:** نبودِ یک فیلد اختیاری هرگز با مقدارِ ساختگی پر نمی‌شود. مثلاً در
 نبودِ `pdftotext -bbox`، `bbox` می‌ماند `null` و ردیف پرچمِ `no-bbox` می‌گیرد.
@@ -71,3 +72,16 @@
 هر تأیید در `data/history/changelog.json` این‌ها را نگه می‌دارد: نامِ
 بررسی‌کننده، زمان، نسخه، شناسهٔ تغییرها، تصمیمِ هر تغییر، یادداشت و عکسِ کاملِ
 ردیف‌های پیش/پسِ همان سال. بازگردانی از همین عکس‌ها انجام می‌شود.
+
+هر نسخهٔ `approved` علاوه بر `approvedBy` یک `approval` دارد:
+
+```json
+{"kind": "baseline|human", "method": "baseline-import|review|revert",
+ "by": "…", "at": "…", "note": "…"}
+```
+
+`baseline` یعنی داده از `official-calendar-*.json` وارد شده و **تأییدِ انسانی
+نیست**؛ فقط `human` تأییدِ مدیر است. صفحهٔ تاریخ همین را با برچسبِ جدا نشان
+می‌دهد و گیت `REV_BASELINE_*`/`REV_HUMAN_*` را می‌سنجد. تصمیم‌های هویتِ ردیفی
+در `data/history/identity-reviews.json` با شاهدِ صفحه/نسخه و علت ثبت می‌شوند؛
+`reports/history-identity-review.md` همین جدول را منتشر می‌کند.

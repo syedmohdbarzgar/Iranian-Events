@@ -31,6 +31,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
+import calendar_engine as engine  # noqa: E402
 import history_store as store  # noqa: E402
 import parse_official  # noqa: E402
 import revision_diff  # noqa: E402
@@ -207,9 +208,194 @@ def confidence(row: dict, flags: list[str]) -> float:
         score -= 0.2
     for flag in flags:
         score -= {"no-locator": 0.08, "no-bbox": 0.03, "missing-lunar": 0.05,
-                  "ocr-page": 0.25, "duplicate": 0.2, "short-title": 0.1,
+                  "ocr-page": 0.25, "ocr-row": 0.30, "ocr-multiple-dates": 0.2,
+                  "duplicate": 0.2, "short-title": 0.1,
                   "fragment": 0.35}.get(flag, 0.05)
     return round(max(0.05, min(1.0, score)), 2)
+
+
+def _ocr_flags(row: dict, *, multiple_dates: bool) -> list[str]:
+    flags = ["ocr-page", "ocr-row"]
+    if multiple_dates:
+        flags.append("ocr-multiple-dates")
+    if not row.get("lunar") or None in (row.get("lunar") or [None, None, None]):
+        flags.append("missing-lunar")
+    if len(row.get("title", "")) < 8:
+        flags.append("short-title")
+    if is_fragment(row.get("title", "")):
+        flags.append("fragment")
+    return sorted(set(flags))
+
+
+def _ocr_title(line: str, spans: list[tuple[int, int]]) -> str:
+    """عنوانِ سطرِ OCR بدونِ بازه‌های تاریخ/روزِ هفته/«تعطیل»؛ هیچ متنی ساخته نمی‌شود."""
+    chars = list(line)
+    for start, end in spans:
+        for i in range(max(0, start), min(len(chars), end)):
+            chars[i] = " "
+    title = "".join(chars)
+    title = re.sub(r"(?:شنبه|یکشنبه|يكشنبه|دوشنبه|سهشنبه|سه\s*شنبه|چهارشنبه|پنجشنبه|پنج\s*شنبه|جمعه|آدینه)", " ", title)
+    title = title.replace("تعطیل", " ")
+    title = re.sub(r"[()\[\]{}«»\"'،,؛;:.!?؟]+", " ", title)
+    title = re.sub(r"\s+", " ", title).strip(" -–—")
+    return title
+
+
+def _explicit_dates(line: str, year: int) -> tuple[list[dict], list[tuple[int, int]]]:
+    """تاریخ‌هایی که در متنِ OCR **صریح** آمده‌اند؛ بدونِ تاریخ = بدونِ ردیف."""
+    t = _norm(line)
+    found: list[dict] = []
+    spans: list[tuple[int, int]] = []
+
+    def with_year(span: tuple[int, int]) -> tuple[int, int]:
+        """سالِ چسبیده به تاریخ هم بخشی از همان تاریخ است و از عنوان حذف می‌شود."""
+        start, end = span
+        before = re.search(r"(?<!\d)(1[34]\d{2})\s*$", t[:start])
+        if before:
+            start = before.start(1)
+        after = re.match(r"\s*(1[34]\d{2})(?!\d)", t[end:])
+        if after:
+            end += after.end(1)
+        return start, end
+
+    def add(y: int, m: int, d: int, span: tuple[int, int]) -> None:
+        if y != year or not (1 <= m <= 12 and 1 <= d <= engine.month_len(year, m)):
+            return
+        if any(x["solar"][1:] == [m, d] for x in found):
+            return
+        span = with_year(span)
+        found.append({"solar": [year, m, d], "span": span})
+        spans.append(span)
+
+    for m in re.finditer(r"(?<!\d)(1[34]\d{2})\s*[/\-]\s*(\d{1,2})\s*[/\-]\s*(\d{1,2})(?!\d)", t):
+        add(int(m.group(1)), int(m.group(2)), int(m.group(3)), (m.start(), m.end()))
+
+    months = "|".join(parse_official.SOLAR_MONTHS)
+    for m in re.finditer(rf"(?<!\d)(\d{{1,2}})\s*(?:م\s*)?({months})(?![آ-ی])", t):
+        add(year, parse_official.SOLAR_MONTHS.index(m.group(2)) + 1, int(m.group(1)),
+            (m.start(), m.end()))
+    for m in re.finditer(rf"({months})\s*(\d{{1,2}})(?!\d)", t):
+        add(year, parse_official.SOLAR_MONTHS.index(m.group(1)) + 1, int(m.group(2)),
+            (m.start(), m.end()))
+    return found, spans
+
+
+def _explicit_lunar(line: str) -> list[int] | None:
+    t = _norm(line)
+    months = "|".join(parse_official.LUNAR_MONTHS)
+    m = re.search(rf"(?<!\d)(\d{{1,2}})\s*(?:م\s*)?({months})(?![آ-ی])", t)
+    if not m:
+        return None
+    month = parse_official.LUNAR_MONTHS.index(m.group(2)) + 1
+    ym = re.search(r"(?<!\d)(1[34]\d{2})(?!\d)", t[max(0, m.start() - 8):m.end() + 12])
+    return [int(ym.group(1)) if ym else None, month, int(m.group(1))]
+
+
+def parse_ocr_page(text: str, year: int, page: int) -> list[dict]:
+    """متنِ OCR یک صفحه را به ردیف‌های تاریخ‌دار تبدیل می‌کند.
+
+    ابتدا همان تجزیه‌گرِ جدولِ رسمی امتحان می‌شود (اگر OCR ستون‌ها را حفظ کرده باشد)؛
+    در غیر این صورت فقط سطرهایی پذیرفته می‌شوند که یک تاریخِ شمسیِ **صریح**
+    (روز + نامِ ماه یا YYYY/MM/DD) دارند. سطرِ بی‌تاریخ هرگز حدس زده نمی‌شود.
+    خروجی همیشه ``needsReview`` است، چون متنِ OCR خودش شاهدِ خطاپذیر است.
+    """
+    rows: list[dict] = []
+    seen: set[tuple[int, int, str]] = set()
+    lines = text.splitlines()
+    offset = 0
+    line_starts = []
+    for line in lines:
+        line_starts.append(offset)
+        offset += len(line) + 1
+
+    # مسیرِ اول: جدولِ ۸نشانه‌ای (اگر OCR ساختار را نگه داشته باشد).
+    records = parse_official.parse_page(text, page)
+    if records:
+        parsed = []
+        for rec in records:
+            parsed.append({
+                "solar": parse_official.read_cell(
+                    rec["solar"], {m: i for i, m in enumerate(parse_official.SOLAR_MONTHS)}, True),
+                "lunar": parse_official.read_cell(
+                    rec["lunar"], {**{m: i for i, m in enumerate(parse_official.LUNAR_MONTHS)},
+                                  **parse_official.LUNAR_ALIASES}, False),
+                "greg": parse_official.read_cell(rec["greg"], parse_official.GREG_MONTHS, False),
+                "wd": rec["wd"], "title": rec["title"], "page": page,
+            })
+        for r in parse_official.resolve(parsed, year):
+            solar = r.get("solar") or [None, None, None]
+            title = (r.get("title") or "").strip()
+            if solar[0] != year or None in solar[1:] or not store.row_is_event(title):
+                continue
+            key = (solar[1], solar[2], store.identity_key(title))
+            if key in seen:
+                continue
+            seen.add(key)
+            holiday = bool(re.search("تعطیل", title))
+            row = {
+                "solar": solar, "gregorian": r.get("gregorian"), "lunar": r.get("lunar"),
+                "weekday": r.get("weekday"), "title": title, "holiday": holiday,
+                "page": page, "derived": r.get("derived", []), "locator": None,
+                "bbox": None, "source": "ocr-table", "function": None,
+            }
+            flags = _ocr_flags(row, multiple_dates=False)
+            row["confidence"] = confidence(row, flags)
+            row["flags"] = flags
+            row["needsReview"] = True
+            rows.append(row)
+
+    # مسیرِ دوم: سطرهای تاریخ‌دارِ آزاد (OCR جدول را به‌هم ریخته).
+    for lineno, line in enumerate(lines, 1):
+        norm_line = _norm(line)
+        dates, spans = _explicit_dates(norm_line, year)
+        if not dates:
+            continue
+        for date in dates:
+            title = _ocr_title(norm_line, spans)
+            if not store.row_is_event(title) or len(re.findall(r"[آ-یءأإؤئ]", title)) < 2:
+                continue
+            key = (date["solar"][1], date["solar"][2], store.identity_key(title))
+            if key in seen:
+                continue
+            seen.add(key)
+            y, m, d = date["solar"]
+            g = parse_official.jalali_to_gregorian(y, m, d)
+            holiday = bool(re.search("تعطیل", line))
+            start, end = date["span"]
+            row = {
+                "solar": [y, m, d], "gregorian": list(g), "lunar": _explicit_lunar(line),
+                "weekday": None, "title": title, "holiday": holiday,
+                "page": page, "derived": ["gregorian"],
+                "locator": {"kind": "ocr-line", "page": page, "line": lineno,
+                            "charStart": line_starts[lineno - 1] + start,
+                            "charEnd": line_starts[lineno - 1] + end,
+                            "lineText": norm_line[:200]},
+                "bbox": None, "source": "ocr-line", "function": None,
+            }
+            flags = _ocr_flags(row, multiple_dates=len(dates) > 1)
+            row["confidence"] = confidence(row, flags)
+            row["flags"] = flags
+            row["needsReview"] = True
+            rows.append(row)
+    rows.sort(key=lambda r: (r["solar"][1], r["solar"][2], r["title"]))
+    return rows
+
+
+def merge_ocr_rows(rows: list[dict], ocr_rows: list[dict]) -> list[dict]:
+    """ردیف‌های OCR را کنارِ ردیف‌های لایهٔ متنی می‌گذارد، بدونِ حذف یا بازنویسی."""
+    out = list(rows)
+    seen = {tuple((r.get("solar") or [None, None, None])[1:])
+            + (store.identity_key(r.get("title", "")),) for r in out}
+    for row in ocr_rows:
+        key = tuple((row.get("solar") or [None, None, None])[1:]) \
+            + (store.identity_key(row.get("title", "")),)
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(row)
+    out.sort(key=lambda r: ((r.get("solar") or [0, 0, 0])[1],
+                            (r.get("solar") or [0, 0, 0])[2], r.get("title", "")))
+    return out
 
 
 def is_fragment(title: str) -> bool:
@@ -227,10 +413,13 @@ def is_fragment(title: str) -> bool:
     return False
 
 
-def build_revision(pdf: Path, year: int | None, *, do_ocr: bool = False) -> dict:
+def build_revision(pdf: Path, year: int | None, *, do_ocr: bool = False,
+                   ocr_texts: dict[int, str] | None = None,
+                   original_name: str | None = None) -> dict:
     pages = page_texts(pdf)
     blob = "\n".join(pages)
-    detection = detect_year(blob[:20000], pdf.name)
+    source_name = original_name or pdf.name
+    detection = detect_year(blob[:20000], source_name)
     if year is None:
         year = detection["filename"] or detection["text"]
     if year is None:
@@ -249,17 +438,27 @@ def build_revision(pdf: Path, year: int | None, *, do_ocr: bool = False) -> dict
     scanned_pages = scan_pages(pages)
     ocr_results: dict[int, dict] = {}
     ocr_pages: list[int] = []
-    if do_ocr:
-        for page in scanned_pages:
+    ocr_rows: list[dict] = []
+    unparsed_ocr: list[int] = []
+    provided = ocr_texts or {}
+    for page in scanned_pages:
+        text = provided.get(page)
+        if text is None and do_ocr:
             result = ocr_page(pdf, page, store.INGEST_DIR / rid / "ocr")
             ocr_results[str(page)] = {k: v for k, v in result.items() if k != "text"}
             if result.get("status") == "ok":
-                ocr_pages.append(page)
-    method = "text-layer"
-    if ocr_pages and len(ocr_pages) >= len(scanned_pages):
-        method = "ocr"
-    elif ocr_pages:
-        method = "mixed"
+                text = result.get("text", "")
+        elif text is not None:
+            ocr_results[str(page)] = {"status": "ok", "chars": len(text.strip()),
+                                      "source": "provided-ocr-text"}
+        if text is None:
+            continue
+        parsed_ocr = parse_ocr_page(text, year, page)
+        ocr_pages.append(page)
+        if parsed_ocr:
+            ocr_rows.extend(parsed_ocr)
+        else:
+            unparsed_ocr.append(page)
 
     rows: list[dict] = []
     flags_by_row: list[list[str]] = []
@@ -311,6 +510,16 @@ def build_revision(pdf: Path, year: int | None, *, do_ocr: bool = False) -> dict
     for row, flags in zip(rows, flags_by_row):
         row["confidence"] = confidence(row, flags)
         row["needsReview"] = row["confidence"] < 0.8 or bool(flags)
+        row["source"] = "text-layer"
+
+    text_row_count = len(rows)
+    rows = merge_ocr_rows(rows, ocr_rows)
+    if ocr_rows and text_row_count:
+        method = "mixed"
+    elif ocr_rows:
+        method = "ocr"
+    else:
+        method = "text-layer"
 
     suspicious = [r for r in rows if r.get("needsReview")]
     images: dict[str, dict] = {}
@@ -320,8 +529,10 @@ def build_revision(pdf: Path, year: int | None, *, do_ocr: bool = False) -> dict
     revision = {
         "id": rid,
         "year": year,
-        "document": {"file": pdf.name, "sha256": sha, "bytes": pdf.stat().st_size,
-                     "pages": len(pages)},
+        "document": {"file": source_name, "originalName": source_name,
+                     "sha256": sha, "bytes": pdf.stat().st_size,
+                     "pages": len(pages), "storedPath": str(pdf.relative_to(ROOT))
+                     if pdf.is_relative_to(ROOT) else str(pdf)},
         "extraction": {
             "method": method,
             "tool": "pdftotext -table + parse_official",
@@ -330,6 +541,9 @@ def build_revision(pdf: Path, year: int | None, *, do_ocr: bool = False) -> dict
             "rawRowCount": len(raw_rows),
             "sourceKind": "ingested-pdf",
             "ocrPages": ocr_pages,
+            "ocrPagesParsed": sorted({r["page"] for r in ocr_rows}),
+            "ocrRows": len(ocr_rows),
+            "ocrUnparsedPages": unparsed_ocr,
             "ocrAttempts": ocr_results,
             "scannedPages": scanned_pages,
             "qcProblems": len((parsed.get("qc") or {}).get("problems", [])),
@@ -348,8 +562,11 @@ def build_revision(pdf: Path, year: int | None, *, do_ocr: bool = False) -> dict
     return revision, rows, parsed
 
 
-def write_bundle(pdf: Path, year: int | None, *, do_ocr: bool = False) -> dict:
-    revision, rows, parsed = build_revision(pdf, year, do_ocr=do_ocr)
+def write_bundle(pdf: Path, year: int | None, *, do_ocr: bool = False,
+                 ocr_texts: dict[int, str] | None = None,
+                 original_name: str | None = None) -> dict:
+    revision, rows, parsed = build_revision(
+        pdf, year, do_ocr=do_ocr, ocr_texts=ocr_texts, original_name=original_name)
     history = store.load_history()
     existing = {r["id"]: r for r in history["revisions"]}.get(revision["id"])
     active = store.active_revisions(history["revisions"]).get(revision["year"])
@@ -381,6 +598,7 @@ def main() -> int:
     ap.add_argument("--pdf", required=True)
     ap.add_argument("--year", type=int)
     ap.add_argument("--ocr", action="store_true", help="تلاش برای OCR صفحه‌های اسکن‌شده")
+    ap.add_argument("--ocr-text-dir", help="متنِ OCR از پیش تولیدشده: page-018.txt برای هر صفحهٔ اسکن‌شده")
     args = ap.parse_args()
     pdf = Path(args.pdf)
     if not pdf.is_absolute():
@@ -388,15 +606,26 @@ def main() -> int:
     if not pdf.exists():
         print(f"PDF یافت نشد: {pdf}", file=sys.stderr)
         return 1
+    ocr_texts: dict[int, str] = {}
+    if args.ocr_text_dir:
+        text_dir = Path(args.ocr_text_dir)
+        if not text_dir.is_dir():
+            print(f"پوشهٔ متنِ OCR نیست: {text_dir}", file=sys.stderr)
+            return 2
+        for path in sorted(text_dir.glob("page-*.txt")):
+            m = re.search(r"page-(\d+)\.txt$", path.name)
+            if m:
+                ocr_texts[int(m.group(1))] = path.read_text(encoding="utf-8")
     try:
-        bundle = write_bundle(pdf, args.year, do_ocr=args.ocr)
+        bundle = write_bundle(pdf, args.year, do_ocr=args.ocr, ocr_texts=ocr_texts)
     except ValueError as exc:
         print(f"خطا: {exc}", file=sys.stderr)
         return 2
     rev = bundle["revision"]
     diff = bundle["diff"]
     print(f"{rev['id']}  سال {rev['year']}  {rev['document']['pages']} صفحه  "
-          f"ردیف {rev['extraction']['rowCount']}  روش {rev['extraction']['method']}")
+          f"ردیف {rev['extraction']['rowCount']}  روش {rev['extraction']['method']}"
+          + (f"  OCR={rev['extraction']['ocrRows']}" if rev['extraction'].get("ocrRows") else ""))
     print("تغییرات:", ", ".join(f"{k}={v}" for k, v in diff["counts"].items() if v))
     if bundle["state"] == "no-op":
         print(f"این سند از پیش به‌عنوان {rev['duplicateOf']} ثبت شده است.")

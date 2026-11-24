@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T15:34:12.067253Z",
+ "generatedAt": "2026-11-24T16:11:12.131228Z",
  "gate": "pass",
  "coverage": {
   "documentYears": [
@@ -26,8 +26,8 @@
    1405,
    1406
   ],
-  "events": 657,
-  "witnessedEvents": 551,
+  "events": 652,
+  "witnessedEvents": 546,
   "unwitnessedEvents": 106,
   "occurrences": 4543,
   "byYear": {
@@ -54,9 +54,12 @@
    "1405": 244,
    "1406": 267
   },
-  "needsReview": 22,
+  "needsReview": 0,
+  "reviewedIdentities": 17,
   "revisions": 22,
   "activeRevisions": 22,
+  "baselineRevisions": 22,
+  "humanRevisions": 0,
   "changelog": 0
  },
  "issues": [],

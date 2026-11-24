@@ -240,6 +240,13 @@ def finalize(rev_id: str, *, by: str, note: str = "") -> dict:
     approved["state"] = "approved"
     approved["approvedBy"] = by.strip()
     approved["approvedAt"] = store.now_iso()
+    approved["approval"] = {
+        "kind": "human",
+        "method": "review",
+        "by": by.strip(),
+        "at": approved["approvedAt"],
+        "note": note.strip() or "تأییدِ انسانیِ تغییرات",
+    }
     approved["note"] = note.strip() or "تأییدِ انسانیِ تغییرات"
     approved["supersedes"] = current["id"] if current else None
     approved["review"] = {
@@ -328,6 +335,13 @@ def _append_revert(year: int, rows: list[dict], previous_rows: list[dict], *,
         "state": "approved",
         "approvedBy": by.strip(),
         "approvedAt": store.now_iso(),
+        "approval": {
+            "kind": "human",
+            "method": "revert",
+            "by": by.strip(),
+            "at": store.now_iso(),
+            "note": note.strip() or "بازگردانی",
+        },
         "note": note.strip() or "بازگردانی",
         "supersedes": current["id"],
         "supersededBy": None,

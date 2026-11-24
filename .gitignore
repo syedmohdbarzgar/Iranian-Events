@@ -64,6 +64,7 @@ web/server.log
 # ─── پیش‌نویس‌ها/شاهدهای موقتِ بازبینی (قابلِ بازتولید؛ دادهٔ اصلی نیستند) ───
 data/review/changes/
 data/review/ingest/
+data/review/uploads/
 *.zip
 *.7z
 *.tar
