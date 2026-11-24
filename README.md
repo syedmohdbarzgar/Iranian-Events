@@ -10,6 +10,7 @@
 py -3 scripts/extract_text.py            # هر PDF → extracted/text/<slug>.txt (+ _index.json)
 py -3 scripts/parse_official.py          # تقویم‌های سالانه → extracted/json/<سال>.json
 py -3 scripts/build_dataset.py           # دادهٔ تمیز، رویدادها، تعطیلات، وابستگیِ تقویمی
+py -3 scripts/build_history.py           # هویت/وقوعِ سالانه + نسخهٔ هر سال → data/history/
 py -3 scripts/extract_reference_docs.py  # ۳۶ سندِ مرجع → extracted/ref/<slug>.json
 ```
 
@@ -102,6 +103,40 @@ py -3 scripts/calendar_engine.py --year 1410 --out out.json
 - `reports/audit/data-manifest.json` تنها منبعِ نسخه‌دارِ شمارش است؛ `release-summary.md`، `master-validation.md` و `consistency.md` از همین اجرا/کاتالوگ ساخته می‌شوند.
 - `docs/verification.md`: جدول لنگرهای تأییدشده با منبع بیرونی (عاشورا ۱۳۴۹، فطر ۱۳۴۹، نفت ۱۳۲۹، ۲۲ بهمن ۱۳۵۷).
 - `docs/calendar-rules.md`: قواعد R1–R8 و مدل داده.
+
+## تاریخ رویداد و نسخه‌های تقویم
+
+مدلِ سه‌لایه (هویتِ رویداد / وقوعِ سالانه / نسخهٔ تقویمِ هر سال) در
+`data/history/` است:
+
+| فایل | محتوا |
+|---|---|
+| `data/history/events.json` | هویت‌ها، عنوان‌های ثبت‌شده، تاریخِ اصل، نخستین مشاهده |
+| `data/history/occurrences.json` | وقوعِ هر سال با تاریخِ سه‌تقویمی و شاهدِ صفحه/هش |
+| `data/history/revisions/index.json` | فهرستِ نسخه‌های هر سال و وضعیتِ تأیید |
+| `data/history/revisions/<id>.json` | ردیف‌های همان نسخه |
+| `data/history/changelog.json` | تاریخچهٔ فقط-افزودنیِ تأیید/رد/اصلاح/بازگردانی |
+
+**قاعده:** وقوع فقط از ردیفِ یک نسخهٔ **تأییدشده** ساخته می‌شود؛ هیچ رویدادی به
+سالِ بی‌سند تعمیم داده نمی‌شود و خروجیِ قاعده‌محور وارد این بخش نمی‌شود.
+
+```bash
+py -3 scripts/build_history.py --force       # بازسازیِ مبنا از PDFهای رسمی
+py -3 scripts/ingest_pdf.py --pdf PDF/Calendar-1407.pdf   # پیش‌نویسِ امن (بدونِ تغییرِ داده)
+py -3 scripts/review_changes.py list          # بازبینیِ پیش‌نویس‌ها
+py -3 scripts/review_server.py --port 8765    # صفحهٔ بازبینی، فقط 127.0.0.1
+py -3 scripts/audit_history.py                # گیت: شاهد، بازتولید، هشِ PDF، ChangeLog
+py -3 scripts/build_history_view.py           # → web/history.html + reports/history.md
+```
+
+- `docs/history-model.md`: سه موجودیت و تفکیکِ تاریخِ وقوع/ثبت/اصل.
+- `docs/pdf-ingestion.md`: تشخیصِ سال، مکان‌یابِ صفحه/خط، محدودیتِ OCR و `-bbox`.
+- `docs/revision-comparison.md`: دسته‌های ADDED/REMOVED/RENAMED/DATE_CHANGED/MODIFIED.
+- `docs/review-workflow.md`: تصمیمِ انسانی، تأییدِ گروهی، ChangeLog و بازگردانی.
+- `docs/evidence-contract.md`: قالبِ شاهد و سطوحِ اعتبار.
+
+سال‌های ۱۳۹۳، ۱۳۹۶ و ۱۴۰۲ تا نصبِ OCR هیچ وقوعی ندارند و در گزارش‌ها «سندِ
+بررسی‌نشده» شمرده می‌شوند؛ این محدودیت پنهان نمی‌شود.
 
 ## تعیین تقویم رویدادها
 

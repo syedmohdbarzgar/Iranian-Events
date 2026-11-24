@@ -1,0 +1,413 @@
+"""دریافت و استخراجِ یک PDF تقویم به‌صورت **پیش‌نویس** (فاز ۲ چک‌لیست).
+
+هیچ‌چیز در دادهٔ اصلی نوشته نمی‌شود. خروجی این ابزار در
+``data/review/changes/<revisionId>.json`` می‌نشیند و تنها پس از تأییدِ انسانی
+(``scripts/review_changes.py``) به تاریخچه راه می‌یابد.
+
+قابلیت‌ها:
+* هشِ SHA-256، حجم و شمارِ صفحهٔ سند؛
+* تشخیصِ سال از نامِ فایل و متنِ صفحه‌ها (با هشدارِ تناقض)؛
+* استخراجِ متنِ لایه‌متنی با همان تجزیه‌گرِ رسمی (``parse_official``)؛
+* تشخیصِ صفحه‌های اسکن‌شده/کم‌متن و صفِ OCR (در نبودِ tesseract مسدود می‌ماند)؛
+* مکان‌یابِ هر ردیف: صفحه + شمارهٔ خط + بازهٔ نویسه؛ در صورت وجودِ
+  ``pdftotext -bbox`` (poppler) کادرِ نقطه‌ای هم ثبت می‌شود؛
+* نگه‌داشتنِ تصویرِ صفحه برای ردیف‌های مشکوک، اگر رندرکننده موجود باشد؛
+* سطحِ اطمینان و پرچم‌های بازبینی برای هر ردیف؛
+* مقایسهٔ خودکار با نسخهٔ فعالِ همان سال و ساختِ پیش‌نویسِ تغییرات.
+
+اجرا:
+    py -3 scripts/ingest_pdf.py --pdf PDF/Calendar-1407.pdf
+    py -3 scripts/ingest_pdf.py --pdf new.pdf --year 1407 --ocr
+"""
+from __future__ import annotations
+
+import argparse
+import re
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+
+import history_store as store  # noqa: E402
+import parse_official  # noqa: E402
+import revision_diff  # noqa: E402
+
+PDF_DIR = ROOT / "PDF"
+YEAR_MIN, YEAR_MAX = 1300, 1420
+PERSIAN_DIGITS = str.maketrans("۰۱۲۳۴۵۶۷۸۹٠١٢٣٤٥٦٧٨٩", "01234567890123456789")
+BIDI = {ord(c): None for c in "\u200e\u200f\u202a\u202b\u202c\u202d\u202e\u2066\u2067\u2068\u2069\u200b\u200c\u200d\ufeff"}
+
+
+def _norm(text: str) -> str:
+    text = text.translate(BIDI).translate(PERSIAN_DIGITS)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def detect_year(text: str, filename: str) -> dict:
+    """سال را از نام و متن تشخیص می‌دهد و تناقض را گزارش می‌کند."""
+    candidates: dict[int, int] = {}
+    for m in re.finditer(r"(?<!\d)(1[34]\d{2})(?!\d)", text.translate(PERSIAN_DIGITS)):
+        year = int(m.group(1))
+        if YEAR_MIN <= year <= YEAR_MAX:
+            candidates[year] = candidates.get(year, 0) + 1
+    by_text = max(candidates, key=candidates.get) if candidates else None
+    m = re.search(r"(?<!\d)(1[34]\d{2})(?!\d)", filename)
+    by_name = int(m.group(1)) if m and YEAR_MIN <= int(m.group(1)) <= YEAR_MAX else None
+    conflict = bool(by_name and by_text and by_name != by_text
+                    and candidates.get(by_name, 0) < 3)
+    return {
+        "filename": by_name,
+        "text": by_text,
+        "textCandidates": dict(sorted(candidates.items(), key=lambda x: -x[1])[:5]),
+        "conflict": conflict,
+    }
+
+
+def tool(name: str) -> str | None:
+    return shutil.which(name)
+
+
+def page_locator(page_text: str, title: str) -> dict | None:
+    """صفحه/خط/بازهٔ نویسهٔ ردیف در متنِ همان صفحه (مکان‌یابِ قطعی و ارزان)."""
+    target = _norm(title)[:24]
+    if not target:
+        return None
+    offset = 0
+    for lineno, line in enumerate(page_text.split("\n"), 1):
+        norm_line = _norm(line)
+        if target[:12] and target[:12] in norm_line:
+            start = norm_line.find(target[:12])
+            return {"kind": "page-line", "page": None, "line": lineno,
+                    "charStart": offset + start, "charEnd": offset + start + len(target),
+                    "lineText": norm_line[:200]}
+        offset += len(line) + 1
+    return None
+
+
+_BBOX_SUPPORTED: bool | None = None
+
+
+def _bbox_words(pdf: Path, page: int) -> list[tuple[str, float, float, float, float]] | None:
+    """کادرِ واژه‌ها با ``pdftotext -bbox``؛ در نبودِ پشتیبانی None."""
+    global _BBOX_SUPPORTED
+    if _BBOX_SUPPORTED is False:
+        return None
+    proc = subprocess.run(
+        ["pdftotext", "-bbox", "-f", str(page), "-l", str(page), "-enc", "UTF-8", str(pdf), "-"],
+        capture_output=True)
+    if proc.returncode != 0 or b"<word" not in proc.stdout:
+        _BBOX_SUPPORTED = False
+        return None
+    _BBOX_SUPPORTED = True
+    words = []
+    for m in re.finditer(
+            rb'<word xMin="([\d.]+)" yMin="([\d.]+)" xMax="([\d.]+)" yMax="([\d.]+)">(.*?)</word>',
+            proc.stdout):
+        try:
+            text = m.group(5).decode("utf-8", "replace")
+        except Exception:  # noqa: BLE001
+            text = ""
+        words.append((_norm(text), float(m.group(1)), float(m.group(2)),
+                      float(m.group(3)), float(m.group(4))))
+    return words
+
+
+def bbox_for_title(pdf: Path, page: int, title: str) -> dict | None:
+    """کادرِ سطرِ عنوان: لنگرِ نخستین واژهٔ معنادار + هم‌باندهای افقی."""
+    words = _bbox_words(pdf, page)
+    if not words:
+        return None
+    tokens = [w for w in _norm(title).split() if len(w) >= 3]
+    if not tokens:
+        return None
+    anchor = None
+    for token in tokens[:3]:
+        for word in words:
+            if word[0] == token:
+                anchor = word
+                break
+        if anchor:
+            break
+    if anchor is None:
+        return None
+    cy = (anchor[2] + anchor[4]) / 2
+    band = [w for w in words if abs((w[2] + w[4]) / 2 - cy) <= 9]
+    wanted = set(tokens)
+    picked = [w for w in band if w[0] in wanted] or [anchor]
+    return {
+        "xMin": round(min(w[1] for w in picked), 2),
+        "yMin": round(min(w[2] for w in picked), 2),
+        "xMax": round(max(w[3] for w in picked), 2),
+        "yMax": round(max(w[4] for w in picked), 2),
+        "unit": "pt",
+    }
+
+
+def render_page(pdf: Path, page: int, out_dir: Path) -> dict:
+    """تصویرِ صفحه برای بازبینیِ انسانی، اگر رندرکننده‌ای نصب باشد."""
+    out_dir.mkdir(parents=True, exist_ok=True)
+    target = out_dir / f"page-{page:03d}.png"
+    if target.exists():
+        return {"available": True, "path": str(target.relative_to(ROOT))}
+    if tool("pdftoppm"):
+        cmd = ["pdftoppm", "-f", str(page), "-l", str(page), "-r", "150", "-png",
+               "-singlefile", str(pdf), str(target.with_suffix(""))]
+    elif tool("mutool"):
+        cmd = ["mutool", "draw", "-o", str(target), "-r", "150", str(pdf), str(page)]
+    elif tool("gs"):
+        cmd = ["gs", "-q", "-dNOPAUSE", "-dBATCH", "-sDEVICE=png16m", "-r150",
+               f"-dFirstPage={page}", f"-dLastPage={page}", f"-sOutputFile={target}", str(pdf)]
+    else:
+        return {"available": False, "reason": "هیچ رندرکننده‌ای (pdftoppm/mutool/gs) نصب نیست"}
+    proc = subprocess.run(cmd, capture_output=True)
+    if proc.returncode != 0 or not target.exists():
+        return {"available": False, "reason": proc.stderr.decode("utf-8", "replace")[:200]}
+    return {"available": True, "path": str(target.relative_to(ROOT))}
+
+
+def ocr_page(pdf: Path, page: int, out_dir: Path, lang: str = "fas+eng") -> dict:
+    """OCR یک صفحه؛ در نبودِ ابزار، وضعیتِ «مسدود» با دلیلِ عملی برمی‌گردد."""
+    if not tool("tesseract"):
+        return {"status": "blocked", "reason": "tesseract نصب نیست (apt/choco install tesseract)"}
+    rendered = render_page(pdf, page, out_dir)
+    if not rendered.get("available"):
+        return {"status": "blocked", "reason": f"رندرِ صفحه ممکن نشد: {rendered.get('reason')}"}
+    proc = subprocess.run(["tesseract", str(ROOT / rendered["path"]), "stdout", "-l", lang],
+                          capture_output=True)
+    if proc.returncode != 0:
+        return {"status": "error", "reason": proc.stderr.decode("utf-8", "replace")[:300]}
+    text = proc.stdout.decode("utf-8", "replace")
+    return {"status": "ok", "text": text, "chars": len(text.strip()), "lang": lang}
+
+
+def page_texts(pdf: Path) -> list[str]:
+    return parse_official.pdf_pages(pdf)
+
+
+def scan_pages(pages: list[str]) -> list[int]:
+    """صفحه‌های بی‌متن/کم‌متن که برای OCR نامزدند."""
+    out = []
+    for i, text in enumerate(pages, 1):
+        letters = len(re.findall(r"[آ-یءأإؤئ]", text))
+        if letters < 25:
+            out.append(i)
+    return out
+
+
+def confidence(row: dict, flags: list[str]) -> float:
+    score = 1.0
+    if not row.get("solar") or None in (row["solar"][1], row["solar"][2]):
+        score -= 0.45
+    if not row.get("gregorian") or None in (row["gregorian"] or [None, None, None]):
+        score -= 0.15
+    if len(row.get("title", "")) < 5:
+        score -= 0.2
+    for flag in flags:
+        score -= {"no-locator": 0.08, "no-bbox": 0.03, "missing-lunar": 0.05,
+                  "ocr-page": 0.25, "duplicate": 0.2, "short-title": 0.1,
+                  "fragment": 0.35}.get(flag, 0.05)
+    return round(max(0.05, min(1.0, score)), 2)
+
+
+def is_fragment(title: str) -> bool:
+    """ردیفِ شکستهٔ ناشی از خط‌شکستنِ PDF (نه یک رویدادِ مستقل)."""
+    t = _norm(title)
+    words = re.findall(r"[آ-یءأإؤئ]{2,}", t)
+    if not words:
+        return True
+    stripped = re.sub(r"[()\[\]{}،,؛;:.«»\"]|ه(?:و\s+|[.\u200c\u200d\s]+)[شق]|\d+", " ", t)
+    stripped = re.sub(r"\s+", " ", stripped).strip()
+    if len(stripped.split()) <= 1 and len(t) <= 30:
+        return True
+    if t.startswith((")", "(")) and len(words) <= 3:
+        return True
+    return False
+
+
+def build_revision(pdf: Path, year: int | None, *, do_ocr: bool = False) -> dict:
+    pages = page_texts(pdf)
+    blob = "\n".join(pages)
+    detection = detect_year(blob[:20000], pdf.name)
+    if year is None:
+        year = detection["filename"] or detection["text"]
+    if year is None:
+        raise ValueError("سالِ تقویم تشخیص داده نشد؛ --year بدهید")
+    if not YEAR_MIN <= year <= YEAR_MAX:
+        raise ValueError(f"سالِ {year} بیرون از بازهٔ پشتیبانی")
+    if detection["filename"] and detection["filename"] != year and not detection["conflict"]:
+        raise ValueError(f"نامِ فایل سالِ {detection['filename']} می‌گوید، درخواست {year} است")
+    if detection["conflict"]:
+        raise ValueError(f"تناقضِ سال: نام {detection['filename']} ≠ متن {detection['text']}; --year بدهید")
+
+    sha = store.sha256_file(pdf)
+    rid = store.revision_id(year, sha)
+    parsed = parse_official.build(year, pdf)
+    raw_rows = parsed.get("rows", [])
+    scanned_pages = scan_pages(pages)
+    ocr_results: dict[int, dict] = {}
+    ocr_pages: list[int] = []
+    if do_ocr:
+        for page in scanned_pages:
+            result = ocr_page(pdf, page, store.INGEST_DIR / rid / "ocr")
+            ocr_results[str(page)] = {k: v for k, v in result.items() if k != "text"}
+            if result.get("status") == "ok":
+                ocr_pages.append(page)
+    method = "text-layer"
+    if ocr_pages and len(ocr_pages) >= len(scanned_pages):
+        method = "ocr"
+    elif ocr_pages:
+        method = "mixed"
+
+    rows: list[dict] = []
+    flags_by_row: list[list[str]] = []
+    seen: set[tuple[str, tuple[int, int]]] = set()
+    for row in raw_rows:
+        title = row.get("title", "")
+        if not store.row_is_event(title):
+            continue
+        solar = row.get("solar") or [year, None, None]
+        flags: list[str] = []
+        if not row.get("gregorian") or None in row["gregorian"]:
+            flags.append("missing-gregorian")
+        if not row.get("lunar") or None in (row.get("lunar") or [None, None, None]):
+            flags.append("missing-lunar")
+        if len(title) < 8:
+            flags.append("short-title")
+        if is_fragment(title):
+            flags.append("fragment")
+        page = row.get("page")
+        locator = page_locator(pages[page - 1], title) if page and 0 < page <= len(pages) else None
+        if locator:
+            locator["page"] = page
+        else:
+            flags.append("no-locator")
+        if page and page in scanned_pages:
+            flags.append("ocr-page")
+        bbox = bbox_for_title(pdf, page, title) if page else None
+        if page and bbox is None and _BBOX_SUPPORTED is not False:
+            flags.append("no-bbox")
+        key = (store.identity_key(title), (solar[1] or 0, solar[2] or 0))
+        if key in seen:
+            flags.append("duplicate")
+        seen.add(key)
+        rows.append({
+            "solar": solar,
+            "gregorian": row.get("gregorian"),
+            "lunar": row.get("lunar"),
+            "weekday": row.get("weekday"),
+            "title": title,
+            "holiday": bool(row.get("holiday")),
+            "page": page,
+            "derived": row.get("derived", []),
+            "locator": locator,
+            "bbox": bbox,
+            "confidence": 0.0,
+            "flags": sorted(set(flags)),
+        })
+        flags_by_row.append(sorted(set(flags)))
+    for row, flags in zip(rows, flags_by_row):
+        row["confidence"] = confidence(row, flags)
+        row["needsReview"] = row["confidence"] < 0.8 or bool(flags)
+
+    suspicious = [r for r in rows if r.get("needsReview")]
+    images: dict[str, dict] = {}
+    for page in sorted({r.get("page") for r in suspicious if r.get("page")})[:40]:
+        images[str(page)] = render_page(pdf, page, store.INGEST_DIR / rid / "pages")
+
+    revision = {
+        "id": rid,
+        "year": year,
+        "document": {"file": pdf.name, "sha256": sha, "bytes": pdf.stat().st_size,
+                     "pages": len(pages)},
+        "extraction": {
+            "method": method,
+            "tool": "pdftotext -table + parse_official",
+            "extractedAt": store.now_iso(),
+            "rowCount": len(rows),
+            "rawRowCount": len(raw_rows),
+            "sourceKind": "ingested-pdf",
+            "ocrPages": ocr_pages,
+            "ocrAttempts": ocr_results,
+            "scannedPages": scanned_pages,
+            "qcProblems": len((parsed.get("qc") or {}).get("problems", [])),
+            "locator": ("page-line" if any(r.get("locator") for r in rows) else "none"),
+            "bbox": ("pt" if any(r.get("bbox") for r in rows) else "unavailable"),
+            "images": images,
+            "yearDetection": detection,
+        },
+        "state": "draft",
+        "approvedBy": None,
+        "approvedAt": None,
+        "note": "",
+        "supersedes": None,
+        "supersededBy": None,
+    }
+    return revision, rows, parsed
+
+
+def write_bundle(pdf: Path, year: int | None, *, do_ocr: bool = False) -> dict:
+    revision, rows, parsed = build_revision(pdf, year, do_ocr=do_ocr)
+    history = store.load_history()
+    existing = {r["id"]: r for r in history["revisions"]}.get(revision["id"])
+    active = store.active_revisions(history["revisions"]).get(revision["year"])
+    old_rows = store.load_revision_rows(active) if active else []
+    if existing:
+        revision["duplicateOf"] = existing["id"]
+        revision["duplicateState"] = existing.get("state")
+    diff = revision_diff.diff_rows(old_rows, rows, year=revision["year"], new_year=revision["year"])
+    bundle = {
+        "revision": revision,
+        "rawRows": rows,
+        "oldRevisionId": active["id"] if active else None,
+        "diff": diff,
+        "decisions": {},
+        "state": ("no-op" if existing and
+                  all(v == 0 for k, v in diff["counts"].items() if k != "UNCHANGED")
+                  else "pending"),
+        "createdAt": store.now_iso(),
+        "sourcePdf": str(pdf.relative_to(ROOT)) if pdf.is_relative_to(ROOT) else str(pdf),
+    }
+    store.write_json(store.CHANGES_DIR / f"{revision['id']}.json", bundle)
+    store.write_json(store.INGEST_DIR / revision["id"] / "revision.json",
+                     {"revision": revision, "rows": rows, "qc": parsed.get("qc", {})})
+    return bundle
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description="دریافتِ PDF تقویم به پیش‌نویسِ بازبینی")
+    ap.add_argument("--pdf", required=True)
+    ap.add_argument("--year", type=int)
+    ap.add_argument("--ocr", action="store_true", help="تلاش برای OCR صفحه‌های اسکن‌شده")
+    args = ap.parse_args()
+    pdf = Path(args.pdf)
+    if not pdf.is_absolute():
+        pdf = (ROOT / pdf).resolve()
+    if not pdf.exists():
+        print(f"PDF یافت نشد: {pdf}", file=sys.stderr)
+        return 1
+    try:
+        bundle = write_bundle(pdf, args.year, do_ocr=args.ocr)
+    except ValueError as exc:
+        print(f"خطا: {exc}", file=sys.stderr)
+        return 2
+    rev = bundle["revision"]
+    diff = bundle["diff"]
+    print(f"{rev['id']}  سال {rev['year']}  {rev['document']['pages']} صفحه  "
+          f"ردیف {rev['extraction']['rowCount']}  روش {rev['extraction']['method']}")
+    print("تغییرات:", ", ".join(f"{k}={v}" for k, v in diff["counts"].items() if v))
+    if bundle["state"] == "no-op":
+        print(f"این سند از پیش به‌عنوان {rev['duplicateOf']} ثبت شده است.")
+    blocked = [p for p, r in rev["extraction"]["ocrAttempts"].items() if r.get("status") == "blocked"]
+    if rev["extraction"]["scannedPages"]:
+        print(f"صفحه‌های اسکن‌شده: {rev['extraction']['scannedPages']}"
+              + (f" (OCR مسدود: {', '.join(blocked)})" if blocked else ""))
+    print(f"پیش‌نویس: {store.CHANGES_DIR / (rev['id'] + '.json')}")
+    print("هیچ داده‌ای به تاریخچه اضافه نشد؛ ابتدا بازبینی و تأیید لازم است.")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

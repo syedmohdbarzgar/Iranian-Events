@@ -58,7 +58,12 @@ desktop.ini
 # ─── منبعِ حجیم/بازتولیدی (محلی می‌ماند؛ GitHub با این حجم پاسخ نمی‌دهد) ───
 extracted/
 web/index.html
+web/history.html
 web/server.log
+
+# ─── پیش‌نویس‌ها/شاهدهای موقتِ بازبینی (قابلِ بازتولید؛ دادهٔ اصلی نیستند) ───
+data/review/changes/
+data/review/ingest/
 *.zip
 *.7z
 *.tar

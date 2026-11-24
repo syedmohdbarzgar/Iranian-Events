@@ -10,6 +10,14 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+
+# خروجیِ فارسی روی کنسولِ cp1252 ویندوز نباید گیت را بشکند.
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:  # noqa: BLE001
+        pass
+
 STEPS = [
     ("اصلاحیه‌های هویتی", "apply_identity_corrections.py"),
     ("موتور تقویم", "audit_calendar.py"),
@@ -26,6 +34,8 @@ STEPS = [
     ("صفِ بازبینی", "build_review_queue.py"),
     ("تکرارهای کاتالوگ", "audit_catalog_duplicates.py"),
     ("استخراجِ سال‌های مسدود", "audit_extraction_issues.py"),
+    ("گیتِ تاریخِ رویداد", "audit_history.py"),
+    ("نمای تاریخ", "build_history_view.py"),
     ("خروجیِ وب", "build_web.py"),
 ]
 
