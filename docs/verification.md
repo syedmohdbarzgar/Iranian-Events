@@ -61,7 +61,7 @@
   می‌کند تا `pdftotext` در دسترس باشد.
 - گیت دو مرحلهٔ مستقل دارد: `python scripts/verify_all.py --build-only` برای
   تولید داده/گزارش و `python scripts/verify_all.py --audit-only` برای اعتبارسنجی
-  و ۸۶ تست. اجرای کامل محلی بدون این دو پرچم هر دو را پشتِ سرِ هم اجرا می‌کند.
+  و ۹۰ تست. اجرای کامل محلی بدون این دو پرچم هر دو را پشتِ سرِ هم اجرا می‌کند.
 - پک‌های `app/src/main/assets/events/iran` متعلق به مخزن اپ‌اند و در checkout این
   مخزن وجود ندارند. `sync_app_asset_evidence.py` در نبودِ آن‌ها صریح `skipped`
   می‌شود (خروج ۰) و فقط با `--require-app` یا `--app-dir` معتبر خطا می‌دهد؛

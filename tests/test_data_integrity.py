@@ -54,7 +54,10 @@ class DataIntegrityTest(unittest.TestCase):
         for rel, expected in self.manifest["dataHashes"].items():
             path = ROOT / rel
             self.assertTrue(path.exists(), rel)
-            self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), expected, rel)
+            data = path.read_bytes()
+            if path.suffix.lower() in {".json", ".md", ".txt"}:
+                data = data.replace(b"\r\n", b"\n")
+            self.assertEqual(hashlib.sha256(data).hexdigest(), expected, rel)
 
     def test_master_ids_unique_and_status_valid(self):
         ids = [e["id"] for e in self.events]

@@ -188,7 +188,7 @@ py -3 scripts/classify_calendars.py
 ## فایل یگانه و ساخت سال‌ها
 
 ```bash
-py -3 scripts/verify_all.py            # گیتِ رسمی: ۲۳ مرحله + ۸۶ تست؛ CI در .github/workflows/gate.yml
+py -3 scripts/verify_all.py            # گیتِ رسمی: ۲۳ مرحله + ۹۰ تست؛ CI در .github/workflows/gate.yml
 ```
 
 `build_master.py` فقط ابزارِ بازسازیِ کاملِ اولیه است و **در گیت نیست**؛ اجرای دوبارهٔ آن

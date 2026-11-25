@@ -4,6 +4,7 @@
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import sys
 import tempfile
@@ -516,6 +517,15 @@ class OcrLinkTest(unittest.TestCase):
         self.assertLess(first["confidence"], 0.8)
         self.assertEqual(first["page"], 18)
         self.assertEqual(first["gregorian"], list(engine.jalali_to_gregorian(1405, 1, 2)))
+
+    def test_failed_ocr_leaves_official_calendars_untouched(self):
+        before = {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
+                  for p in sorted((ROOT / "data").glob("official-calendar-*.json"))}
+        rows = ingest_pdf.parse_ocr_page("متنِ خرابِ بدونِ تاریخ ۱۲۳۴", 1393, 1)
+        self.assertEqual(rows, [])
+        after = {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
+                 for p in sorted((ROOT / "data").glob("official-calendar-*.json"))}
+        self.assertEqual(before, after)
 
     def test_ocr_without_explicit_date_never_invents_a_row(self):
         self.assertEqual(ingest_pdf.parse_ocr_page("عید نوروز تعطیل", 1405, 18), [])
