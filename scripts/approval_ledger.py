@@ -3,8 +3,10 @@
 
 تأییدِ انسانی دیگر یک رشتهٔ ثابت در کد یا یک فیلدِ JSON نیست. هر تصمیم یک
 «بیانیهٔ» کانونی دارد (شناسه، تصمیم، مقصد، علت، شاهد، اجزا) که SHA-256 آن
-محاسبه می‌شود. تأیید، امضای Ed25519 روی همین هش است و کلیدِ عمومیِ تأییدکننده
-در ``data/history/approvals/trusted-keys.json`` ثبت می‌شود.
+محاسبه می‌شود. تأیید، امضای Ed25519 روی همین هش است و کلیدِ عمومی در
+``data/history/approvals/trusted-keys.json`` ثبت می‌شود. امضا فقط یکپارچگیِ
+رکورد را ثابت می‌کند؛ اگر ثبت‌کنندهٔ رکورد عامل باشد، ``recordedBy`` و
+``attestation`` این را صریح می‌گویند و امضا امضای شخصیِ انسان نیست.
 
 قاعده‌ها:
 
@@ -127,7 +129,7 @@ def statement_digest(entry: dict) -> str:
 
 
 def signature_payload(record: dict) -> dict:
-    return {
+    payload = {
         "kind": STATEMENT_KIND,
         "action": record.get("action"),
         "eventId": record.get("eventId"),
@@ -138,6 +140,12 @@ def signature_payload(record: dict) -> dict:
         "keyId": record.get("keyId"),
         "note": record.get("note", ""),
     }
+    # رکوردهای قدیمی این فیلدها را ندارند؛ افزودنِ آن‌ها به payload امضای
+    # قدیمی را باطل می‌کند. فقط وقتی حاضرند امضا می‌شوند.
+    for key in ("recordedBy", "attestation"):
+        if record.get(key):
+            payload[key] = record[key]
+    return payload
 
 
 # ───────────────────────────── کلیدها ─────────────────────────────
@@ -300,7 +308,9 @@ def verify_ledger(entries: list[dict], trust: dict | None = None) -> list[dict]:
 
 
 def append_action(entry: dict, private_path: Path, *, action: str, approver: str,
-                  channel: str = "cli", note: str = "", approved_at: str | None = None) -> dict:
+                  channel: str = "cli", note: str = "", approved_at: str | None = None,
+                  recorded_by: str = "agent:codebuff",
+                  attestation: str = "agent-recorded-chat-approval") -> dict:
     if action not in {"approve", "revoke"}:
         raise ValueError("کنشِ نامعتبر")
     if not approver.strip():
@@ -327,6 +337,8 @@ def append_action(entry: dict, private_path: Path, *, action: str, approver: str
         "keyId": "",
         "publicKey": "",
         "note": note,
+        "recordedBy": recorded_by,
+        "attestation": attestation,
         "prevHash": prev,
     }
     meta = load_json(private_path, {})
@@ -360,6 +372,8 @@ def attached_approval(entry: dict, record: dict) -> dict:
         "publicKey": record["publicKey"],
         "signature": record["signature"],
         "statementSha256": record["statementSha256"],
+        "recordedBy": record.get("recordedBy", ""),
+        "attestation": record.get("attestation", ""),
         "ledgerSeq": record["seq"],
         "recordHash": record["recordHash"],
     }
@@ -402,6 +416,9 @@ def verify_entry(entry: dict, trust: dict | None = None) -> list[dict]:
         "keyId": approval.get("keyId"),
         "note": approval.get("note", ""),
     }
+    for key in ("recordedBy", "attestation"):
+        if approval.get(key):
+            payload[key] = approval[key]
     if not verify_signature(approval.get("publicKey", ""), payload,
                             approval.get("signature", "")):
         issues.append({"code": "APPROVAL_SIGNATURE", "severity": "error",
@@ -456,6 +473,10 @@ def main() -> int:
     sign.add_argument("--event", action="append", default=[])
     sign.add_argument("--all", action="store_true")
     sign.add_argument("--note", default="")
+    sign.add_argument("--approved-at", default=None,
+                      help="زمانِ واقعیِ تأیید انسانی (نه زمانِ امضای ماشینی)")
+    sign.add_argument("--recorded-by", default="agent:codebuff")
+    sign.add_argument("--attestation", default="agent-recorded-chat-approval")
 
     revoke = sub.add_parser("revoke", help="پس‌گرفتنِ امضاشدهٔ یک تصمیم")
     revoke.add_argument("--private", default=str(DEFAULT_PRIVATE_KEY))
@@ -498,7 +519,10 @@ def main() -> int:
         for entry in wanted:
             record = append_action(entry, Path(args.private), action="approve",
                                    approver=args.approver, channel=args.channel,
-                                   note=args.statement + (" · " + args.note if args.note else ""))
+                                   note=args.statement + (" · " + args.note if args.note else ""),
+                                   approved_at=args.approved_at,
+                                   recorded_by=args.recorded_by,
+                                   attestation=args.attestation)
             print(f"approved {entry['eventId']} seq={record['seq']} "
                   f"digest={record['statementSha256'][:16]}")
         return 0

@@ -34,15 +34,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "82T1pAqSkYWpVU19k7O3BFDdNDHFwrNyC4Uv8q96Erz9wiW8WjZkeWeFI9ukOaIa7OZ3cIPJ9PMBc0HUyW12BQ==",
+    "signature": "JF/KeOhkVyqPjxbc6vQIsyJ0o8uwi0JST/NLLDbFOdpdLUb2L2TG7KWtSnQKxQCjxP8vuzMftzL6xdPkC2ufCA==",
     "statementSha256": "723c82f597b2e1a86bd9e6d673efde4745a069bb99d1425662f60f9ec79544a1",
-    "ledgerSeq": 1,
-    "recordHash": "5e7c9bb80a0bf54a1260a81c763a8c74adb31c85d12015dd611b9a2ec39ee94a"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 23,
+    "recordHash": "a5dbe1073f8eb92e0ebdd0918b5f01b92effea12ebb1c5db990d39ae36caaaf6"
    }
   },
   {
@@ -75,15 +77,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "wPIoAxzgOmLiYY0AqvWcFweJN2FL6xDHgK86BU/NNi2s6KSwbSZfxBZ+yp0KhHe4t523OGqCilFl3yy/IHLLCQ==",
+    "signature": "qz3+qaWaC33yoKOT8YPdHLxGs2PJlJvluu6rJc50B5dhvt6dnFU/JJd3j9SCM57eqBJ4iWupZNGO9+hHMJk2BA==",
     "statementSha256": "1a984c125cf2ed9103ceec69c92fc4c46ea8d8e4cdf5a7a85e6d0b29b9ef6017",
-    "ledgerSeq": 2,
-    "recordHash": "2fce0100822d95a6cc567494e657f2d35d070536896a3dbbcb95aaf4cce5bbbf"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 24,
+    "recordHash": "cbca25b6669871fcaa5cd4eed4317c313bef2fd3c45f51a347870b9a57002181"
    }
   },
   {
@@ -116,15 +120,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "FOi4JYLJSg/uF206PHjNA/2qLQHGLOvtSKVVPbB5bB6cANBc1K5HBon/5dkjhny9WM+nw4A95m6qM36HSEwwDA==",
+    "signature": "YSMWv3qxULIDEyRe8E8HOvBBQIh7ZGQlvih36hSAn1XPan32FvQVerNbaVLWrgsN77VEE0hj9+cnIUM2dopPAA==",
     "statementSha256": "4caafaa928892783edefca82cb07b87abf418627e0de5de57575b14103cd6f37",
-    "ledgerSeq": 3,
-    "recordHash": "f28b707c67254908ce85f47ef3572caba427d9f0a6ef5199f350b533220c306d"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 25,
+    "recordHash": "82cb80a889436af14384857e6a67efa339ad5da621257b500268912abc6b3317"
    }
   },
   {
@@ -157,15 +163,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "u18gHxjVrIcwUhosMhytM4imnN7XDPjMZDtRelXIQWg5x3qe4tewZezmO0lfVE98Ijxzbh7LpkH5u1+JM5XMDA==",
+    "signature": "ameYkc3KWs+CE2atDJR0A6rZU83JggRHtnUHlnib8k9hFveZO6WLiP3sDfFQPGxUSQvGEtQg0qEgCsyH7bG9AA==",
     "statementSha256": "cd0120578fd82cfa61bffe516be9f67044f0bd0ac36c5db102fc34313cbc0ad0",
-    "ledgerSeq": 4,
-    "recordHash": "d728e67d6827d29a258f0655ba1161f01e6799d76a945fc84df752a281bfaeed"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 26,
+    "recordHash": "ed298fe5d4216eaaeba45959ba4b06767500d0b648bb31555c4763f029447fa6"
    }
   },
   {
@@ -202,15 +210,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "Dive9MuYOYgizKFV7mrSBV+vJmD/wSj/QRjawU0G72f9C3fLFYbt9yG3J0389VPWhqbfzPCSb40qmQ0ryh1gAQ==",
+    "signature": "WQzs7mcjjXgU8q0p+NL+csrK+gDg9mbOXJ7RuRd0y9LdmBI8Q8AqfVUyp+xDtVdLdC+tzWKkGHLD+9H1kHWOBA==",
     "statementSha256": "4350be4fd9b42c471b6f6be9388e9b0b1aac56d8b5d73de505a0911e4e09b11b",
-    "ledgerSeq": 5,
-    "recordHash": "cc3fb33bc847fde95a036d702c0ad7981abc18d7ceb33ebb4571c4491abbbde0"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 27,
+    "recordHash": "5de849d4724f9a44f7a93c4b8ce09227671c42bda732dce2c7c4569b2f459cbd"
    }
   },
   {
@@ -239,15 +249,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "cLKWP4Gs4AZaFL37KUwcQ7IIVpqoGYPWP/ne/NYJ51PLGmx00N+Qe9cfM5yy2CWWDpyGzmrMBgtnVeaQcAsqDA==",
+    "signature": "jrP0SenADoYGmGEn3B1Ng0no7cWXz2Yu/G0cRPZA1vS37V+i9BvNiYucJWBQkhQYjiSKhdJ939RKsG7xHUSVBQ==",
     "statementSha256": "876ac432fae9541f59120a2a72ca8e2703eef36a92d763332ea2f9a2fd4edccf",
-    "ledgerSeq": 6,
-    "recordHash": "6d5f1ddefcb76687c9f89ea48410ae1f39df1c3b98dbb9e91ac6d14f9a388a96"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 28,
+    "recordHash": "deb9f0ed438c1c72ab33c0a4070bf9d901cbd4d42287a404f45bdc4aafb673c6"
    }
   },
   {
@@ -280,15 +292,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "bIcdw4ubxPPDiz+mEb3aOq3rodFUmJKjDAZ+fenC8Gh7LGwS/rgu0R/I3OBpMHoggSbDTjeZEgcSFHfXNSpVAA==",
+    "signature": "yLyiIMrpfc6a3wPFs5N3ktzP2vyNztxvEzTxgK4IwWozrDfRJwhQKWj8MgZhIVyZhMsX2LKC307oeDogeSbDDw==",
     "statementSha256": "1608473b36c30ad9185828eee7b2e09948548ed24cbef45771eda9f06945a5fd",
-    "ledgerSeq": 7,
-    "recordHash": "c221ff1d7bdd9015dd486f890cbbde598d715c452f4e3619a6c61414f4dedd6a"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 29,
+    "recordHash": "3d126c287e8ccba63e03943661310e44cf9f759ef9c95ef26709ced8e648c223"
    }
   },
   {
@@ -331,15 +345,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "w9KJ47VxZ75406JCTTdTwNfbqWnMq4V8clyL0V5Mzy3q1+kJuGa9Na7dADOORZslsiVjpvTWWBEeXdWmHpL6DQ==",
+    "signature": "qv+0urrXISXk6+ax73+L8+QHkiqbN+XExpfyh6/6mNO6y/Ga0jqsSW1I5yCsfvG+fNGEsA1DNZMkyRAXsmqGCA==",
     "statementSha256": "de48d5ce44f70d71e46e29aa67b2e2089f2d4af94de6a7f9da2994aca3b6648b",
-    "ledgerSeq": 8,
-    "recordHash": "d47d3362c745e09b1d73e73f725138feeeea8ee23629ad16d6ed97789014d147"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 30,
+    "recordHash": "d23e26d50e22ac74be97eeab974bb04c2389e191e6befb948fd0ba51ae3ae661"
    }
   },
   {
@@ -372,15 +388,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "ecorSi682gTCDjUuGyuxqwMx/i/uAUDjtgfIb0kP2OhpmyQhCg8D4Q8wLrbQ4RMCGqJtIQ7h8SvIVF2xwUHpBw==",
+    "signature": "07Tyj9icABtSnCFi/SiSwqMsfnxdZ9B+Duwrm7XEkPaZontKwoycM3QtvR2Ne2bsDTaLyqb35tBBmMa8/hLpCg==",
     "statementSha256": "136cc1ce94362cdbdf0fc07b2b40df9bb5c743a957b86ff0de98353c8e595600",
-    "ledgerSeq": 9,
-    "recordHash": "2e6aff152f0a7988e0bd43b37429167757d9f481121db44fd74c46d1bd129508"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 31,
+    "recordHash": "1ca9021e06d49907315fde9661dd6c4eadb5096d74c3b6b9d29c71361c282b51"
    }
   },
   {
@@ -417,15 +435,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "WLmwljbMxINx0Ww5A/EbQdG6HOaYFfB0sN/WFHatzLhu/iWG0ZEEwui3YMioMBz9Js7Ou3eeCuV7CYoQqmAODg==",
+    "signature": "OftVATba4cefLc4t9M9U2dYOqYtnJjMGBqjuV9Lz2IZM7AgvJcCm17ylaE5mhAaIStAKIuw8R9/NwIc7yHFmBg==",
     "statementSha256": "0d8bc050ac14c353dbcded46f3709cf15fa96415a7c2d786d83c91333da24998",
-    "ledgerSeq": 10,
-    "recordHash": "4544da66fc1f5c1269b108832cbb0de99244636a4bb0f723e8298112373a5cea"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 32,
+    "recordHash": "26986f025be88a51def69659dafc8a4273c00fb2ea4ca05ae2a2526597826834"
    }
   },
   {
@@ -458,15 +478,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "lHnm8r9XMd9K8gqMdHCdya+RCcp+ScUjvtxgiqHZx+LpG2wLz3GzOO5fvtHt8fg826nw4NseO5aWUO9vZIZ4AQ==",
+    "signature": "CMp4kuIE0fmStJwSa01Lox00d0508YRSP8Nu533lMOGX/njQvArRLA+O/S/OYsH9pdLTBwLURPRY9bsEj7vwDg==",
     "statementSha256": "807e62db7cce9882afb407cafb331d53a9744dce4c6753014fc207a4179ad328",
-    "ledgerSeq": 11,
-    "recordHash": "c321b09320bdd09c6f1105fa73325a5b87705a788f15697d27a93eff1c138106"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 33,
+    "recordHash": "0145b57748d137d953dd9423fe35f9fca775a78dfce3bff4f8ba13281945e142"
    }
   },
   {
@@ -499,15 +521,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "CkQ75Bj+FN+sSlHZLlJ1+p9pT9/5iU//djx2ABRV93SvLFjnpgof/adRVzu+bTBws2f4fWRlDNiBJVLfrn6qAw==",
+    "signature": "UwsazPP5cc/92CrrgUeGBea3f0FAtzMmb66TPKSdGbe5ogWIbRbNeEnqAVNRx2YKdMlS5OcQXRByYn7/kHtDCA==",
     "statementSha256": "d6237f222fcfb09bbc25519f42b71c828e8027fcddcbdb2e92473609ce548d4e",
-    "ledgerSeq": 12,
-    "recordHash": "478a1392fcfceac35424f26288dc05fd1f854ff5445cc4b4c8e552e077c90ee0"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 34,
+    "recordHash": "7d259ffb2ccc7f053a7df3c223c0d070e3b16bf644b8b9528ab9744fb95fafc4"
    }
   },
   {
@@ -540,15 +564,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "RzId5PqSbuXBPbC2xTzaGxc7tUQ43TVv1jMgf6vAfEpURBZ5n49AlcAsHXjVmMFaqMjbjGgWoOHTKZ/lzczVAg==",
+    "signature": "NRXyMJP2Fj3nKjGB8nDLKb6kO39PhtujSNQlbWqD1zKQxYlPi85HbkXrL2R6M+lTgROIbp52qmhF/LnQ4EeyAA==",
     "statementSha256": "a689de0451dab09c9536913014bc88c3292f467c39a2aa4d7a7242d3026f76f1",
-    "ledgerSeq": 13,
-    "recordHash": "a5784c1c8efad6e5fc006ebb430936785a906a69d1af4bdfcbbd8b4c6bbb163f"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 35,
+    "recordHash": "29eaa0e26b17efcd78fe5aa674b5fa0453516c79faf547d9dc09c91bd88cf7a1"
    }
   },
   {
@@ -577,15 +603,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "fYVTgU5YndEjVjsr8AgEHlUcrwRYfh0ebqcWxs9VwBa0m9jaZ4krMOBSf7OVE16uv7qa0biVuhLwm7hF2RTZAw==",
+    "signature": "8VsbKKKuPqLKNqUODpn9izOnrPdXhFTBoPlau8eb596SZvfL10HbN4zq8YG0mUWw1RHdRYbXd8CmRcEOlkkaCw==",
     "statementSha256": "4151d292381c9b689934fe5a415bf3212fc92659c8f691b3b49201809870aca8",
-    "ledgerSeq": 14,
-    "recordHash": "0d25fe364e9c03d72216b26351cac0ca5e30aebba2edd2f38c43eb4b8ce0450f"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 36,
+    "recordHash": "9813eda57602ded37f9b0fbff9e27b33e6a65971d6d4ebd6f8f78625e9865bbe"
    }
   },
   {
@@ -622,15 +650,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "7EWUb2TomGGBWp7nJ2Jlxe+usPXTUSpZa44PMCHN79KCnH/v6o4gK1CyOgx+vFwmju4mnNxYNUTMwk6/KKfsAw==",
+    "signature": "/oVzO1wnANW7gVUCM1z4+DkauXEA/SQCq+zYE1WE/Q1l1hbpO1fyz15chrAmB2g2ZQS0+r2ukx8Cn9OdRGeLBQ==",
     "statementSha256": "24e32fec00536c88dd59e028e5ecdc85964f86ab4097db8dc2cd9ee6920ae6a6",
-    "ledgerSeq": 15,
-    "recordHash": "f4fe5989b940557d2898da98ca4412c525c65474c2e30da3997e4dc412e8b3cd"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 37,
+    "recordHash": "71d6a78c46a7ec6b95fd87e2981eb86621b1fc592ff725cf1cd85140cf7e4da4"
    }
   },
   {
@@ -665,15 +695,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "YV1Z2c3dPnF51ehWzzqkVCH0QoINO/qFEeKNxm0Tetx/GTOFq+hSDCS07Nv4e4hCfZWtI/zoVUj3qS0HEAsoCA==",
+    "signature": "HbpFaaVw7KBGbu/BWhiX1ax2bTwbXDEUN5DRjJgMs6v6sObUu182TF/tFUUS2iHlTZnVIhKUy/Xjf/SdRZodCA==",
     "statementSha256": "91205c7a616aa04ba4465bce30915288047e73e2cf2604c73fe735111d65d860",
-    "ledgerSeq": 16,
-    "recordHash": "9cf6992b5f17e2362c18fbbf451a8b101e50f5a23ff010687c731dc161e44b39"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 38,
+    "recordHash": "d362831b3811e4e4d4ede19d09f045d2b3324437fc030c2f71fc18a83cb4bc0e"
    }
   },
   {
@@ -710,15 +742,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "0bRt4NG4xe2dUpRwlREmxo3LpJn14jtMIg+GSDwQ7CjFSf8pcaYfaPUzUK5lXNy4gT8+t7DmNDpBjt10l0pYAw==",
+    "signature": "KbRJyk5cD5ao9dQe96w1CbbpRdywHIvS8CcIb0NQtyz6EFZTSG24oqehprzhNtZg1fDgeMNh5QMJBA3TaCFTDg==",
     "statementSha256": "c35204ce6695c9422e1482942378e79ada3c69ceca154c85945ad27ca2ec102c",
-    "ledgerSeq": 17,
-    "recordHash": "dadcbf9820b1d88d6f8f4c5f1e379f9274761752afe42681cad52b889bab2307"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 39,
+    "recordHash": "f4c8ff5ae08694919d9f3790fb4c51c02e02524a203ed4e73c945a829c65af39"
    }
   },
   {
@@ -751,15 +785,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "aNux13EB2ffKJ1hBDWTiAiwAJF/1YE6w/iLvz2QIIMn8WPR9xaMGSTsz1+kZC9nXV0fkb+fGNhaH1JWCX3IWAg==",
+    "signature": "V2l710BIfW0NvkN3irQzuPkZFccFyFtsbH5yEWynIge6mPESI/y2Tj55v49IcE5IOcCq5mQyf6rjkBHCkgoQAw==",
     "statementSha256": "3294de577a18a6a59d7052cea6d68d5720ceb012fe1ef9238af37e8c3d90998e",
-    "ledgerSeq": 18,
-    "recordHash": "6cc43f5b79248ef4b173af4b4f2e34393e7f30def74a0af5fb60d60a3af920a1"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 40,
+    "recordHash": "49210dbcbb14b00c747e6a1fdf671171d432f790f90f8e7db972a13216bf89ee"
    }
   },
   {
@@ -788,15 +824,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "e57nb66JFI7bEF98L5k46i0lL/ft5V8+i78nHZ72Za+pEFlYhyOkfnNoa4f8RyvMx4cL4wvlo5OmlKsPxW0XAg==",
+    "signature": "woH4zEPTgmnT4w4zWf5HNLM3RsqNdq7+ZN7fGKtJTm+QbTjmyznMftDAyP7vxEFZnsIdxlf+PypV/1iT9/gfBA==",
     "statementSha256": "c79c2bc592ad6feaf71b564dbe9202ab288c6313ef72baee7a946303453fedbd",
-    "ledgerSeq": 19,
-    "recordHash": "b0214b60ccf5eab5a9c3a4c93180e795494f624b72d7c020b1e70cc089149714"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 41,
+    "recordHash": "be8f7925ee69c36d05db7df03f8f99a3cc767c7a7cd2595c49f0cc90bf08572d"
    }
   },
   {
@@ -833,15 +871,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:34Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "VCGmZEseHDOjAT8bo1LxAlfkCPqwXBlN7MC1LPoIoU7Jo5CrCapi0zDNoGg5qwyi8Qw/7ymGHEAZAHPhrJYdAQ==",
+    "signature": "HIloZPuLZIAqoAt6UXeGFCR/6Es7n1+rgCpLNCkILAYIztGwguV3Hrd2cjaqyCdYkTs3GlSJ/TtoeKF23y+9CA==",
     "statementSha256": "b08fc000506e6afc0d5b9414dc810a11f5d17df7c09faea73fa060ad5d0efe22",
-    "ledgerSeq": 20,
-    "recordHash": "dbf214fbc05c4d2b9139791e25b002995d4e1316fdba1cfc48a4d2b6275c194f"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 42,
+    "recordHash": "9b6b70cc878380425a8558403752c1e1e328de64203489ac49354b28d846e0ef"
    }
   },
   {
@@ -910,15 +950,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:35Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "Gw3nSWDZv+8CcAUfU0NUU6LGEGeHKIajaCPyA2VIiVM5PaVeqxDFdNHXmJFexkaxc0C2NbJhWGxc8eVdzVPXCQ==",
+    "signature": "OppbxKkNZaAnP2PJROx1adibCpcHd3krDNEqca5Iij7Vm8L/cYVov/oOMbHiH0YbnJZVowR1iwu4X0FRNGkUDg==",
     "statementSha256": "92f207626880f79b89ed2c4909d19fc100f2566546e59eeac5611c4f3e23b8fb",
-    "ledgerSeq": 21,
-    "recordHash": "439e32a1d37367b07209d81b1582e8d5499a24d9728d2e310bf2b66d25f3227d"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 43,
+    "recordHash": "62d175b48e464990119d7a2d95b3ae93eee6d9959cccfe5bc14558e12a006d41"
    }
   },
   {
@@ -955,15 +997,17 @@
     "kind": "human",
     "method": "ed25519",
     "by": "user:syedmohdbarzgar",
-    "at": "2026-11-25T11:43:35Z",
+    "at": "2026-11-24T00:00:00Z",
     "channel": "chat",
-    "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+    "note": "تأیید صریح کاربر در چت برای اعمال هر ۲۲ تصمیم؛ ثبت و امضای یکپارچگی توسط عامل است، نه امضای شخصی کاربر. · زمان دقیق تأیید در چت ثبت نشده؛ approvedAt فقط تاریخ است.",
     "keyId": "ed25519:9566b39b137ef4e4",
     "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
-    "signature": "4DccACLX+rdNflFxND2pGHwcQF0yMhQzhVT1lOnD1jsZH5Hn2pc0z6iSSTgoqnld0CgAmf6Rs4dYXbg0KCb3AA==",
+    "signature": "S6sy786dvokTG0wvrRcqVxlu7CxbV6G+BdpP2neAlL3PZxHcf/nyuv16kkUJ5TyXJPV/Ur0KoqhlttAJqvwZCQ==",
     "statementSha256": "121f3cd81c499b01bbbd9776179ee77e0943213003d481769d9f5ff73bc9685e",
-    "ledgerSeq": 22,
-    "recordHash": "b84633a5f35986964798698b65bbd3bb23197b093295282fbecfc66bb1f45e58"
+    "recordedBy": "agent:codebuff",
+    "attestation": "chat-approval-recorded-by-agent",
+    "ledgerSeq": 44,
+    "recordHash": "fca3c68abd6f082f6e93fd1df339e39413d771606336f98a8783f7420f1db642"
    }
   }
  ]

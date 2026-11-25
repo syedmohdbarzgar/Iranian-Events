@@ -103,8 +103,18 @@
 `reviewedBy`، `reviewedAt`، `active` و در صورتِ تأیید `approval` دارد. `approval`
 نتیجهٔ یک **امضای Ed25519** روی بیانیهٔ کانونیِ تصمیم است، نه یک فیلدِ قابلِ
 نوشتن: `keyId`، `publicKey`، `signature`، `statementSha256`، `ledgerSeq` و
-`recordHash`. دفترِ فقط-افزودنی در `data/history/approvals/identity-approvals.json`
-و کلیدهای عمومی در `trusted-keys.json` است؛ کلیدِ خصوصی commit نمی‌شود.
+`recordHash`، `recordedBy` و `attestation`. دفترِ فقط-افزودنی در
+`data/history/approvals/identity-approvals.json` و کلیدهای عمومی در
+`trusted-keys.json` است؛ کلیدِ خصوصی commit نمی‌شود.
+
+**تفکیک تأیید از ثبت:** `by`/`approvedAt` به اقدام انسانی اشاره می‌کنند، اما
+`recordedBy: agent:codebuff` و `attestation: chat-approval-recorded-by-agent`
+صریح می‌گویند رکورد را عامل از تأیید چت ثبت کرده است. امضای Ed25519 فقط
+یکپارچگیِ رکورد را ثابت می‌کند، نه هویتِ شخصیِ امضاکننده؛ اگر کلیدِ خصوصی در
+اختیار عامل باشد، امضا به‌تنهایی اثباتِ مستقلِ انسان نیست. `approvedAt` تاریخِ
+تأیید انسانی است و باید از زمانِ امضای ماشینی جدا بماند؛ اگر زمان دقیق چت ثبت
+نشده باشد، فقط تاریخ با یادداشتِ صریح نوشته می‌شود.
+
 تصمیمِ بدونِ امضا یا با بیانیهٔ تغییرکرده با `REVIEW_APPROVAL_MISSING` /
 `APPROVAL_STATEMENT_MISMATCH` رد می‌شود. گیت: `REVIEW_DECISION_UNKNOWN`،
 `REVIEW_TARGET_MISSING`، `REVIEW_EVIDENCE_MISSING`، `REVIEW_EVIDENCE_PAGE`،
@@ -115,7 +125,9 @@
 
 ```bash
 py -3 scripts/approval_ledger.py sign --all --private .approval-keys/approver.key \
-    --approver "user:..." --channel chat --statement "متنِ تأیید"
+    --approver "user:..." --channel chat --approved-at 2026-11-24T00:00:00Z \
+    --recorded-by agent:codebuff --attestation chat-approval-recorded-by-agent \
+    --statement "متنِ تأیید"
 py -3 scripts/build_identity_reviews.py --disable S1273FA50 \
     --private-key .approval-keys/approver.key --approver "user:..." --statement "دلیل"
 py -3 scripts/build_identity_reviews.py --enable S1273FA50 \

@@ -191,8 +191,8 @@ def main() -> int:
         "· منبع تصمیم: `data/history/identity-reviews.json` "
         "· دفتر تأیید: `data/history/approvals/identity-approvals.json`",
         "",
-        "| هویت | تصمیم | مقصد | شاهدِ صفحه | اجزای کاتالوگی | علت | تأیید/بازبین | امضا |",
-        "|---|---|---|---|---|---|---|---|",
+        "| هویت | تصمیم | مقصد | شاهدِ صفحه | اجزای کاتالوگی | علت | تأیید/بازبین | امضا | ثبت‌کننده |",
+        "|---|---|---|---|---|---|---|---|---|",
     ]
     for entry in reviews:
         evidence = ", ".join(
@@ -207,7 +207,8 @@ def main() -> int:
             f"{_cell((entry.get('approval') or {}).get('kind', ''))}: "
             f"{_cell((entry.get('approval') or {}).get('by', ''))} | "
             f"`{(entry.get('approval') or {}).get('keyId', '—')}` "
-            f"#{entry.get('approval', {}).get('ledgerSeq', '—')} |")
+            f"#{entry.get('approval', {}).get('ledgerSeq', '—')} | "
+            f"{_cell((entry.get('approval') or {}).get('recordedBy', '—'))} |")
     IDENTITY_REPORT.write_text("\n".join(review_lines) + "\n", encoding="utf-8")
 
     print(f"gate={'PASS' if not errors else 'FAIL'} errors={len(errors)} warnings={len(warnings)} "

@@ -4,6 +4,7 @@
 """
 from __future__ import annotations
 
+import json
 import sys
 import tempfile
 import unittest
@@ -643,6 +644,22 @@ class IdentityReviewTest(unittest.TestCase):
                 "reviewedBy": "مدیر", "reviewedAt": "2026-01-01T00:00:00Z"})
             self.assertFalse([e for e in events_ if e["id"] == eid])
             self.assertEqual({o["eventId"] for o in occ}, {"E0001"})
+
+    def test_agent_recorded_approval_declares_recorder_and_tamper_fails(self):
+        with TempStore():
+            eid = store.synthetic_event_id(store.identity_key(self.TITLE))
+            signed = self._signed({
+                "eventId": eid, "decision": "keep-merged-row", "reason": "آزمونِ ثبت",
+                "evidence": [], "constituents": [],
+                "reviewedBy": "مدیر", "reviewedAt": "2026-01-01T00:00:00Z"})
+            approval = signed["approval"]
+            self.assertEqual(approval["recordedBy"], "agent:codebuff")
+            self.assertEqual(approval["attestation"], "agent-recorded-chat-approval")
+            self.assertEqual(approval_ledger.verify_entry(signed), [])
+            tampered = json.loads(json.dumps(signed))
+            tampered["approval"]["recordedBy"] = "user:test"
+            codes = {i["code"] for i in approval_ledger.verify_entry(tampered)}
+            self.assertIn("APPROVAL_SIGNATURE", codes)
 
     def test_review_requires_explicit_human_approval(self):
         with TempStore():
