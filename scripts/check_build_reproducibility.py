@@ -38,7 +38,7 @@ def _normalized_text(path: Path) -> str:
         return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
     text = path.read_text(encoding="utf-8")
     text = re.sub(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|\+00:00)", "<time>", text)
-    text = re.sub(r"commit: `[0-9a-f]{7,40}`", "commit: `<commit>`", text)
+    text = re.sub(r"(commit[^`]*?: `)[0-9a-f]{7,40}`", r"\1<commit>`", text)
     text = text.replace(" · **درختِ کاری تمیز نیست**", "")
     return text
 
