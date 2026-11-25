@@ -42,6 +42,7 @@ def main() -> int:
     events = master["events"]
     sys.path.insert(0, str(ROOT / "scripts"))
     import calendar_engine as engine  # noqa: E402
+    import approval_ledger  # noqa: E402
 
     official_files = sorted(DATA.glob("official-calendar-*.json"))
     official = {p.stem.split("-")[-1]: json.loads(p.read_text(encoding="utf-8")) for p in official_files}
@@ -65,6 +66,19 @@ def main() -> int:
                 })
 
     statuses = Counter(e.get("verificationStatus") for e in events)
+    identity_records = approval_ledger.latest_records()
+    identity_classes = [approval_ledger.attestation_class(r) for r in identity_records.values()]
+    identity_precision = [approval_ledger.approved_at_precision(r)
+                          for r in identity_records.values()]
+    history = json.loads((DATA / "history" / "revisions" / "index.json").read_text(encoding="utf-8"))
+    revisions = history.get("revisions", [])
+    baseline_revisions = sum(1 for r in revisions
+                             if (r.get("approval") or {}).get("kind") == "baseline")
+    human_revisions = sum(1 for r in revisions
+                          if (r.get("approval") or {}).get("kind") == "human")
+    changelog_path = DATA / "history" / "changelog.json"
+    changelog = (json.loads(changelog_path.read_text(encoding="utf-8")).get("entries", [])
+                 if changelog_path.exists() else [])
     evidence_kinds = Counter((e.get("evidence") or {}).get("kind") for e in events)
     evidence_with_page = sum(1 for e in events if (e.get("evidence") or {}).get("page"))
     categories = Counter(e.get("category") for e in events)
@@ -129,6 +143,17 @@ def main() -> int:
             "pdfCalendarFiles": len(pdfs),
         },
         "verificationStatus": dict(sorted(statuses.items())),
+        "provenance": {
+            "baselineRevisions": baseline_revisions,
+            "humanApprovedRevisions": human_revisions,
+            "changelogEntries": len(changelog),
+            "identityDecisions": len(identity_records),
+            "identityHumanAttestations": identity_classes.count("human-signed"),
+            "identityMachineRecorded": sum(1 for c in identity_classes if c.startswith("machine-")),
+            "identityDateOnlyApprovedAt": identity_precision.count("date-only"),
+            "identityHumanAttestationProven": bool(identity_records) and all(
+                c == "human-signed" for c in identity_classes),
+        },
         "evidenceKinds": dict(sorted(evidence_kinds.items())),
         "evidenceWithPage": evidence_with_page,
         "categories": dict(sorted(categories.items())),
@@ -165,7 +190,18 @@ def main() -> int:
     ]
     for k, v in sorted(statuses.items(), key=lambda x: str(x[0])):
         lines.append(f"| `{k}` | {v} |")
+    p = manifest["provenance"]
     lines += [
+        "",
+        "## تفکیکِ تأیید (ماشین از انسان)",
+        "",
+        f"- نسخه‌های مبنا: **{p['baselineRevisions']}** · نسخه‌های تأییدشدهٔ انسانی: "
+        f"**{p['humanApprovedRevisions']}** · ChangeLog: {p['changelogEntries']}",
+        f"- تصمیم‌های هویت: **{p['identityDecisions']}** · تأییدِ انسانیِ مستقل: "
+        f"**{p['identityHumanAttestations']}** · رکوردِ ماشینی: {p['identityMachineRecorded']} "
+        f"· `approvedAt` فقط-تاریخی: {p['identityDateOnlyApprovedAt']}",
+        "- **این دو شمارش یکی نیستند:** نسخهٔ سالانه با `approval.kind=human` از تصمیمِ "
+        "هویتِ امضاشده جدا است؛ هیچ‌کدام از ۲۲ تصمیمِ فعلی اثباتِ تأییدِ انسانیِ مستقل نیست.",
         "",
         "## مرزِ صداقت",
         "",

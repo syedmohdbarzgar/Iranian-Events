@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T13:44:17.457432Z",
+ "generatedAt": "2026-11-25T14:33:51.514616Z",
  "reviews": [
   {
    "eventId": "S1273FA50",
@@ -11,7 +11,9 @@
    "ledgerSeq": 23,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "S194E7B48",
@@ -23,7 +25,9 @@
    "ledgerSeq": 24,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "S23C94E95",
@@ -35,7 +39,9 @@
    "ledgerSeq": 25,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "S252E2C30",
@@ -47,7 +53,9 @@
    "ledgerSeq": 26,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "S278D8684",
@@ -59,7 +67,9 @@
    "ledgerSeq": 27,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "S2864F821",
@@ -71,7 +81,9 @@
    "ledgerSeq": 28,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "S2C075D77",
@@ -83,7 +95,9 @@
    "ledgerSeq": 29,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "S4B6485C1",
@@ -95,7 +109,9 @@
    "ledgerSeq": 30,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "S6ABF99E3",
@@ -107,7 +123,9 @@
    "ledgerSeq": 31,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "S7AEF8101",
@@ -119,7 +137,9 @@
    "ledgerSeq": 32,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "SA25E4435",
@@ -131,7 +151,9 @@
    "ledgerSeq": 33,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "SAE70E9EC",
@@ -143,7 +165,9 @@
    "ledgerSeq": 34,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "SB0CAD007",
@@ -155,7 +179,9 @@
    "ledgerSeq": 35,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "SB5330A72",
@@ -167,7 +193,9 @@
    "ledgerSeq": 36,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "SB889A638",
@@ -179,7 +207,9 @@
    "ledgerSeq": 37,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "SB8C7DC86",
@@ -191,7 +221,9 @@
    "ledgerSeq": 38,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "SC44FB5BA",
@@ -203,7 +235,9 @@
    "ledgerSeq": 39,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "SD5409974",
@@ -215,7 +249,9 @@
    "ledgerSeq": 40,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "SE2CF8360",
@@ -227,7 +263,9 @@
    "ledgerSeq": 41,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "SE36B292D",
@@ -239,7 +277,9 @@
    "ledgerSeq": 42,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "SEF782279",
@@ -251,7 +291,9 @@
    "ledgerSeq": 43,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   },
   {
    "eventId": "SF918DD6B",
@@ -263,10 +305,18 @@
    "ledgerSeq": 44,
    "approvedAt": "2026-11-24T00:00:00Z",
    "recordedBy": "agent:codebuff",
-   "attestation": "chat-approval-recorded-by-agent"
+   "attestation": "chat-approval-recorded-by-agent",
+   "attestationClass": "machine-recorded-chat-approval",
+   "approvedAtPrecision": "date-only"
   }
  ],
  "issues": [],
+ "provenance": {
+  "humanSigned": 0,
+  "machineRecorded": 22,
+  "dateOnlyApprovedAt": 22,
+  "humanAttestationProven": false
+ },
  "errors": 0,
  "gate": "pass"
 }

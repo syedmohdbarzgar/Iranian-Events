@@ -341,8 +341,8 @@ def layout_rows(pdf: Path, year: int, *, force: bool = False) -> list[dict] | No
             tables = page.find_tables().tables
         except Exception:  # noqa: BLE001
             continue
-        for table in tables:
-            for raw in table.extract():
+        for table_index, table in enumerate(tables, 1):
+            for row_index, raw in enumerate(table.extract(), 1):
                 if not raw or len(raw) < 4:
                     continue
                 title = _visual_cell(raw[0])
@@ -367,7 +367,8 @@ def layout_rows(pdf: Path, year: int, *, force: bool = False) -> list[dict] | No
                     "page": pageno,
                     "unknown": [],
                     "holiday": bool(HOLIDAY.search(title)),
-                    "layout": {"method": "pymupdf-table", "printedDay": printed_day,
+                    "layout": {"method": "pymupdf-table", "table": table_index,
+                               "tableRow": row_index, "printedDay": printed_day,
                                "dayFromSequence": printed_day != day},
                 })
     return rows or None

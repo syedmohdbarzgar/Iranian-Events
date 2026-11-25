@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T13:44:30.156641Z",
+ "generatedAt": "2026-11-25T14:33:59.657123Z",
  "gate": "pass",
  "coverage": {
   "documentYears": [
@@ -60,7 +60,11 @@
   "activeRevisions": 22,
   "baselineRevisions": 22,
   "humanRevisions": 0,
-  "changelog": 0
+  "changelog": 0,
+  "identityDecisions": 22,
+  "identityHumanAttestations": 0,
+  "identityMachineAttestations": 22,
+  "identityDateOnlyApprovedAt": 22
  },
  "issues": [],
  "summary": {

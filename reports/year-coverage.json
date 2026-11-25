@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T14:09:57.861174Z",
+ "generatedAt": "2026-11-25T14:34:00.824927Z",
  "years": [
   {
    "year": 1393,
@@ -12,6 +12,9 @@
    "rowsInTextLayer": 365,
    "nonemptyTitles": 341,
    "publishable": false,
+   "reviewPacket": "data\\review\\year-review-packets\\1393.json",
+   "reviewRows": 365,
+   "reviewDecided": 0,
    "action": "draft جدول با OCR سلول‌ها 365 ردیف و 341 عنوان ساخت (PSM 7، اطمینانِ نمونهٔ 53)؛ عنوان‌ها/تاریخ قمری نیازمند بازبینی انسانی‌اند و انتشار مسدود است."
   },
   {
@@ -25,6 +28,9 @@
    "rowsInTextLayer": 365,
    "nonemptyTitles": 175,
    "publishable": false,
+   "reviewPacket": "data\\review\\year-review-packets\\1396.json",
+   "reviewRows": 365,
+   "reviewDecided": 0,
    "action": "جدول 365 ردیف و 175 عنوان داد؛ سالِ قمری در لایهٔ متنی خراب است؛ بازبینی انسانی لازم است."
   },
   {
@@ -38,6 +44,9 @@
    "rowsInTextLayer": 365,
    "nonemptyTitles": 184,
    "publishable": false,
+   "reviewPacket": "data\\review\\year-review-packets\\1402.json",
+   "reviewRows": 365,
+   "reviewDecided": 0,
    "action": "جدول 365 ردیف و 184 عنوان داد؛ ستون‌های تاریخ کامل نیستند؛ بازبینی انسانی لازم است."
   }
  ],

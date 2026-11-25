@@ -360,6 +360,29 @@ def latest_records(entries: list[dict] | None = None) -> dict[str, dict]:
     return out
 
 
+def attestation_class(record: dict | None) -> str:
+    """کلاسِ شاهدِ رکورد؛ این تابع هویتِ شخصی را اثبات نمی‌کند."""
+    if not record:
+        return "missing"
+    recorded_by = str(record.get("recordedBy") or "")
+    attestation = str(record.get("attestation") or "")
+    if recorded_by.startswith("human:") and attestation.startswith("human-"):
+        return "human-signed"
+    if "chat" in attestation and recorded_by.startswith("agent:"):
+        return "machine-recorded-chat-approval"
+    return "machine-recorded"
+
+
+def approved_at_precision(record: dict | None) -> str:
+    """دقتِ زمانِ تأیید؛ نیمه‌شبِ ثبت‌شده تاریخ است، نه زمانِ دقیق."""
+    value = str((record or {}).get("approvedAt") or "")
+    if not value:
+        return "missing"
+    if value.endswith("T00:00:00Z"):
+        return "date-only"
+    return "second"
+
+
 def attached_approval(entry: dict, record: dict) -> dict:
     return {
         "kind": "human",

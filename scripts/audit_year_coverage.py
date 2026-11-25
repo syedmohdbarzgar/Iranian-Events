@@ -37,6 +37,9 @@ def main() -> int:
         item = extraction.get(year, {})
         pdf = ROOT / "PDF" / f"Calendar-{year}.pdf"
         status = "published" if year in active else "blocked"
+        packet_path = ROOT / "data" / "review" / "year-review-packets" / f"{year}.json"
+        packet = (json.loads(packet_path.read_text(encoding="utf-8"))
+                  if packet_path.exists() else {})
         action = ""
         draft_path = ROOT / "reports" / "ocr" / "1393-rows-draft.json"
         draft = json.loads(draft_path.read_text(encoding="utf-8")) if draft_path.exists() else {}
@@ -62,6 +65,9 @@ def main() -> int:
             "rowsInTextLayer": item.get("rows"),
             "nonemptyTitles": item.get("nonemptyTitles"),
             "publishable": status == "published",
+            "reviewPacket": (str(packet_path.relative_to(ROOT)) if packet else None),
+            "reviewRows": (packet.get("counts") or {}).get("rows"),
+            "reviewDecided": (packet.get("counts") or {}).get("decided"),
             "action": action,
         })
     payload = {"generatedAt": store.now_iso(), "years": rows,
@@ -75,7 +81,9 @@ def main() -> int:
                      f"{r['activeRevision'] or '—'} | {r['status']} | {r['verdict']} | "
                      f"{r['nonemptyTitles']} | {r['action']} |")
     lines += ["", "این سه سال **منتشر نشده‌اند** و نسخهٔ رسمی/قابل انتشاری برایشان ساخته نشده است؛ "
-              "draftهای بازبینی در `data/review/` و `reports/ocr/` جدا نگه داشته می‌شوند."]
+              "draftها در `data/review/` و `reports/ocr/` و بسته‌های ردیف‌به‌ردیف در "
+              "`data/review/year-review-packets/` جدا نگه داشته می‌شوند. هر بسته صفحه، "
+              "موقعیتِ جدول، متنِ خام و جای خالیِ تصمیمِ بازبین را دارد و `publishable=false` است."]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"year coverage: published={sum(1 for r in rows if r['status']=='published')} "
           f"blocked={sum(1 for r in rows if r['status']=='blocked')}")

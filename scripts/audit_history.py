@@ -65,6 +65,10 @@ def coverage(history: dict) -> dict:
     by_year = {}
     for y in years:
         by_year[y] = sum(1 for o in history["occurrences"] if o["year"] == y)
+    identity_records = approval_ledger.latest_records()
+    identity_classes = [approval_ledger.attestation_class(r) for r in identity_records.values()]
+    identity_precision = [approval_ledger.approved_at_precision(r)
+                          for r in identity_records.values()]
     return {
         "documentYears": years,
         "events": len(events),
@@ -81,6 +85,11 @@ def coverage(history: dict) -> dict:
         "humanRevisions": sum(1 for r in active.values()
                               if (r.get("approval") or {}).get("kind") == "human"),
         "changelog": len(history["changelog"]),
+        "identityDecisions": len(identity_records),
+        "identityHumanAttestations": identity_classes.count("human-signed"),
+        "identityMachineAttestations": sum(1 for c in identity_classes
+                                           if c.startswith("machine-")),
+        "identityDateOnlyApprovedAt": identity_precision.count("date-only"),
     }
 
 
@@ -166,6 +175,9 @@ def main() -> int:
         f"- هویت‌های نیازمندِ بازبینی: {cov['needsReview']} · بازبینیِ مستندشده: {cov['reviewedIdentities']}",
         f"- نسخه‌ها: {cov['revisions']} ({cov['activeRevisions']} فعال؛ "
         f"مبنای خودکار: {cov['baselineRevisions']}، تأییدِ انسانی: {cov['humanRevisions']}) · ChangeLog: {cov['changelog']}",
+        f"- تصمیم‌های هویت: **{cov['identityDecisions']}** · تأییدِ انسانیِ مستقل: "
+        f"**{cov['identityHumanAttestations']}** · رکوردِ ماشینی: {cov['identityMachineAttestations']} "
+        f"· زمانِ فقط-تاریخی: {cov['identityDateOnlyApprovedAt']}",
         f"- خطا: **{len(errors)}** · هشدار: {len(warnings)}",
         "",
         "## پوششِ سالانه",
@@ -190,6 +202,10 @@ def main() -> int:
         f"**{len(reviews)} تصمیمِ ثبت‌شده · {sum(1 for r in reviews if r.get('active'))} فعال** "
         "· منبع تصمیم: `data/history/identity-reviews.json` "
         "· دفتر تأیید: `data/history/approvals/identity-approvals.json`",
+        f"**کلاسِ شاهد:** {cov['identityHumanAttestations']} تأییدِ انسانیِ مستقل · "
+        f"{cov['identityMachineAttestations']} رکوردِ ماشینی · "
+        f"{cov['identityDateOnlyApprovedAt']} زمانِ فقط-تاریخی. «فعال» یعنی امضای معتبر دارد، "
+        "نه اینکه انسان شخصاً امضا کرده باشد.",
         "",
         "| هویت | تصمیم | مقصد | شاهدِ صفحه | اجزای کاتالوگی | علت | تأیید/بازبین | امضا | ثبت‌کننده |",
         "|---|---|---|---|---|---|---|---|---|",

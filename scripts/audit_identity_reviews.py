@@ -129,7 +129,9 @@ def main() -> int:
                          "ledgerSeq": approval.get("ledgerSeq"),
                          "approvedAt": approval.get("at"),
                          "recordedBy": approval.get("recordedBy"),
-                         "attestation": approval.get("attestation")})
+                         "attestation": approval.get("attestation"),
+                         "attestationClass": approval_ledger.attestation_class(record),
+                         "approvedAtPrecision": approval_ledger.approved_at_precision(record)})
 
     errors = [i for i in issues if i["code"] in {
         "EVIDENCE_REVISION", "EVIDENCE_ROW", "EVIDENCE_NONE", "TARGET_MISSING",
@@ -138,21 +140,34 @@ def main() -> int:
         "APPROVAL_STATEMENT_MISMATCH", "APPROVAL_KEY_UNTRUSTED", "APPROVAL_LEDGER_MISSING",
         "APPROVAL_LEDGER_LINK", "APPROVAL_LEDGER_ACTION", "APPROVAL_RECORDER_UNDECLARED",
         "APPROVAL_ATTESTATION_MISSING", "REVIEW_PROPOSAL_ORIGIN"}]
+    human_signed = sum(1 for r in rows_out if r["attestationClass"] == "human-signed")
+    machine_recorded = sum(1 for r in rows_out
+                           if r["attestationClass"].startswith("machine-"))
+    date_only = sum(1 for r in rows_out if r["approvedAtPrecision"] == "date-only")
     payload = {"generatedAt": store.now_iso(), "reviews": rows_out, "issues": issues,
+               "provenance": {"humanSigned": human_signed,
+                               "machineRecorded": machine_recorded,
+                               "dateOnlyApprovedAt": date_only,
+                               "humanAttestationProven": human_signed == len(rows_out)},
                "errors": len(errors), "gate": "pass" if not errors else "fail"}
     store.write_json(OUT_JSON, payload)
     lines = ["# ممیزیِ مستقلِ تصمیم‌های هویت", "",
              f"**نتیجه: {'سبز' if not errors else 'قرمز'}** · {len(rows_out)} تصمیم · "
              f"{sum(1 for r in rows_out if r['approved'])} رکوردِ امضاشده", "",
-             "**مرزِ ادعا:** این رکوردها تأیید صریح کاربر در چت را ثبت می‌کنند؛ "
-             "`recordedBy` عاملِ ثبت‌کننده را نشان می‌دهد و امضای Ed25519 فقط یکپارچگی "
-             "است، نه امضای شخصیِ انسان. زمان دقیق چت ثبت نشده و `approvedAt` فقط تاریخ است.",
+             f"**تفکیکِ شاهد:** {human_signed} تأییدِ انسانیِ مستقل · "
+             f"{machine_recorded} رکوردِ ماشینی · {date_only} زمانِ فقط-تاریخی", "",
+             "**مرزِ ادعا:** «سبز» فقط یکپارچگیِ زنجیره/امضا و تطابقِ شاهد را می‌گوید؛ "
+             "اثباتِ اینکه کاربر شخصاً تأیید کرده یا کلیدِ خصوصی در اختیارِ انسان بوده، "
+             "انجام نشده است. `recordedBy` عاملِ ثبت‌کننده را نشان می‌دهد و امضای Ed25519 "
+             "فقط یکپارچگی است، نه امضای شخصیِ انسان. زمان دقیق چت ثبت نشده و "
+             "`approvedAt` برای این ۲۲ رکورد فقط تاریخ است.",
              "",
-             "| هویت | تصمیم | مقصد | شاهدِ ردیفی | اجزا | تأیید |",
-             "|---|---|---|---|---|---|"]
+             "| هویت | تصمیم | مقصد | شاهدِ ردیفی | اجزا | تأیید | کلاسِ شاهد | دقت زمان |",
+             "|---|---|---|---|---|---|---|---|"]
     for r in rows_out:
         lines.append(f"| `{r['eventId']}` | {r['decision']} | {r['target'] or '—'} | "
-                     f"{r['evidenceRows']} | {r['constituents']} | {'✓' if r['approved'] else '—'} |")
+                     f"{r['evidenceRows']} | {r['constituents']} | {'✓' if r['approved'] else '—'} | "
+                     f"{r['attestationClass']} | {r['approvedAtPrecision']} |")
     lines += ["", "## منشأ تأیید (از دفتر)", "",
               "| هویت | seq | ثبت‌کننده | attestation | approvedAt |",
               "|---|---|---|---|---|"]
@@ -164,7 +179,9 @@ def main() -> int:
               "- بررسی‌شده: وجود ردیف شاهد، صفحه/نسخه، مقصد کاتالوگی، امضا، "
               "اتصال فیلدهای approval به آخرین رکورد دفتر، ثبت‌کننده و attestation.",
               "- بررسی‌نشده: درستی تاریخی/معنایی ادعای انسان و هویت شخصیِ امضاکننده؛ "
-              "این دو به شاهد بیرونی و امضای شخصیِ انسان نیاز دارند."]
+              "این دو به شاهد بیرونی و امضای شخصیِ انسان نیاز دارند.",
+              "- **اثباتِ تأیید انسانی مستقل: انجام نشده.** هیچ‌کدام از این ۲۲ رکورد "
+              "`human-signed` نیستند؛ آن‌ها `machine-recorded-chat-approval` هستند."]
     if issues:
         lines += ["", "## اشکال/هشدار", ""] + [f"- `{i['code']}` ({i['ref']}): {i['message']}" for i in issues]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

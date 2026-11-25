@@ -30,6 +30,21 @@ jobs:
           python -m pip install -r requirements.txt
       - name: Build derived data
         run: python scripts/verify_all.py --build-only
+      - name: Reject unapproved changes to data or reports
+        run: |
+          git status --porcelain
+          # generatedAt/commit/dirty فقط provenanceِ زمان‌دارند؛ هر تغییرِ محتوایی
+          # در data/ یا گزارش‌ها باید گیت را قرمز کند.
+          git diff --exit-code \
+            --ignore-matching-lines='generatedAt' \
+            --ignore-matching-lines='workingTreeDirty' \
+            --ignore-matching-lines='"commit"' \
+            --ignore-matching-lines='زمانِ تولید' \
+            --ignore-matching-lines='commit:' \
+            --ignore-matching-lines='درختِ کاری' \
+            -- data reports/audit data/review/verification-queue.json
+      - name: Verify build is reproducible
+        run: python scripts/check_build_reproducibility.py
       - name: Validate release gate (engine, history, reports, 86 tests)
         run: python scripts/verify_all.py --audit-only
       - name: Upload gate reports on failure

@@ -2,32 +2,34 @@
 
 **نتیجه: سبز** · 22 تصمیم · 22 رکوردِ امضاشده
 
-**مرزِ ادعا:** این رکوردها تأیید صریح کاربر در چت را ثبت می‌کنند؛ `recordedBy` عاملِ ثبت‌کننده را نشان می‌دهد و امضای Ed25519 فقط یکپارچگی است، نه امضای شخصیِ انسان. زمان دقیق چت ثبت نشده و `approvedAt` فقط تاریخ است.
+**تفکیکِ شاهد:** 0 تأییدِ انسانیِ مستقل · 22 رکوردِ ماشینی · 22 زمانِ فقط-تاریخی
 
-| هویت | تصمیم | مقصد | شاهدِ ردیفی | اجزا | تأیید |
-|---|---|---|---|---|---|
-| `S1273FA50` | map | E0460 | 2 | 1 | ✓ |
-| `S194E7B48` | keep-merged-row | — | 1 | 2 | ✓ |
-| `S23C94E95` | keep-merged-row | — | 1 | 2 | ✓ |
-| `S252E2C30` | keep-merged-row | — | 1 | 2 | ✓ |
-| `S278D8684` | keep-merged-row | — | 1 | 3 | ✓ |
-| `S2864F821` | map | E0460 | 1 | 1 | ✓ |
-| `S2C075D77` | keep-merged-row | — | 1 | 2 | ✓ |
-| `S4B6485C1` | keep-merged-row | — | 2 | 3 | ✓ |
-| `S6ABF99E3` | keep-merged-row | — | 1 | 2 | ✓ |
-| `S7AEF8101` | keep-merged-row | — | 1 | 3 | ✓ |
-| `SA25E4435` | keep-merged-row | — | 1 | 2 | ✓ |
-| `SAE70E9EC` | keep-merged-row | — | 1 | 2 | ✓ |
-| `SB0CAD007` | keep-merged-row | — | 1 | 2 | ✓ |
-| `SB5330A72` | map | E0460 | 1 | 1 | ✓ |
-| `SB889A638` | keep-merged-row | — | 1 | 3 | ✓ |
-| `SB8C7DC86` | map | E0460 | 2 | 1 | ✓ |
-| `SC44FB5BA` | keep-merged-row | — | 1 | 3 | ✓ |
-| `SD5409974` | keep-merged-row | — | 1 | 2 | ✓ |
-| `SE2CF8360` | map | E0460 | 1 | 1 | ✓ |
-| `SE36B292D` | keep-merged-row | — | 1 | 3 | ✓ |
-| `SEF782279` | keep-merged-row | — | 7 | 2 | ✓ |
-| `SF918DD6B` | keep-merged-row | — | 1 | 3 | ✓ |
+**مرزِ ادعا:** «سبز» فقط یکپارچگیِ زنجیره/امضا و تطابقِ شاهد را می‌گوید؛ اثباتِ اینکه کاربر شخصاً تأیید کرده یا کلیدِ خصوصی در اختیارِ انسان بوده، انجام نشده است. `recordedBy` عاملِ ثبت‌کننده را نشان می‌دهد و امضای Ed25519 فقط یکپارچگی است، نه امضای شخصیِ انسان. زمان دقیق چت ثبت نشده و `approvedAt` برای این ۲۲ رکورد فقط تاریخ است.
+
+| هویت | تصمیم | مقصد | شاهدِ ردیفی | اجزا | تأیید | کلاسِ شاهد | دقت زمان |
+|---|---|---|---|---|---|---|---|
+| `S1273FA50` | map | E0460 | 2 | 1 | ✓ | machine-recorded-chat-approval | date-only |
+| `S194E7B48` | keep-merged-row | — | 1 | 2 | ✓ | machine-recorded-chat-approval | date-only |
+| `S23C94E95` | keep-merged-row | — | 1 | 2 | ✓ | machine-recorded-chat-approval | date-only |
+| `S252E2C30` | keep-merged-row | — | 1 | 2 | ✓ | machine-recorded-chat-approval | date-only |
+| `S278D8684` | keep-merged-row | — | 1 | 3 | ✓ | machine-recorded-chat-approval | date-only |
+| `S2864F821` | map | E0460 | 1 | 1 | ✓ | machine-recorded-chat-approval | date-only |
+| `S2C075D77` | keep-merged-row | — | 1 | 2 | ✓ | machine-recorded-chat-approval | date-only |
+| `S4B6485C1` | keep-merged-row | — | 2 | 3 | ✓ | machine-recorded-chat-approval | date-only |
+| `S6ABF99E3` | keep-merged-row | — | 1 | 2 | ✓ | machine-recorded-chat-approval | date-only |
+| `S7AEF8101` | keep-merged-row | — | 1 | 3 | ✓ | machine-recorded-chat-approval | date-only |
+| `SA25E4435` | keep-merged-row | — | 1 | 2 | ✓ | machine-recorded-chat-approval | date-only |
+| `SAE70E9EC` | keep-merged-row | — | 1 | 2 | ✓ | machine-recorded-chat-approval | date-only |
+| `SB0CAD007` | keep-merged-row | — | 1 | 2 | ✓ | machine-recorded-chat-approval | date-only |
+| `SB5330A72` | map | E0460 | 1 | 1 | ✓ | machine-recorded-chat-approval | date-only |
+| `SB889A638` | keep-merged-row | — | 1 | 3 | ✓ | machine-recorded-chat-approval | date-only |
+| `SB8C7DC86` | map | E0460 | 2 | 1 | ✓ | machine-recorded-chat-approval | date-only |
+| `SC44FB5BA` | keep-merged-row | — | 1 | 3 | ✓ | machine-recorded-chat-approval | date-only |
+| `SD5409974` | keep-merged-row | — | 1 | 2 | ✓ | machine-recorded-chat-approval | date-only |
+| `SE2CF8360` | map | E0460 | 1 | 1 | ✓ | machine-recorded-chat-approval | date-only |
+| `SE36B292D` | keep-merged-row | — | 1 | 3 | ✓ | machine-recorded-chat-approval | date-only |
+| `SEF782279` | keep-merged-row | — | 7 | 2 | ✓ | machine-recorded-chat-approval | date-only |
+| `SF918DD6B` | keep-merged-row | — | 1 | 3 | ✓ | machine-recorded-chat-approval | date-only |
 
 ## منشأ تأیید (از دفتر)
 
@@ -60,3 +62,4 @@
 
 - بررسی‌شده: وجود ردیف شاهد، صفحه/نسخه، مقصد کاتالوگی، امضا، اتصال فیلدهای approval به آخرین رکورد دفتر، ثبت‌کننده و attestation.
 - بررسی‌نشده: درستی تاریخی/معنایی ادعای انسان و هویت شخصیِ امضاکننده؛ این دو به شاهد بیرونی و امضای شخصیِ انسان نیاز دارند.
+- **اثباتِ تأیید انسانی مستقل: انجام نشده.** هیچ‌کدام از این ۲۲ رکورد `human-signed` نیستند؛ آن‌ها `machine-recorded-chat-approval` هستند.

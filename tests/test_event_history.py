@@ -743,6 +743,55 @@ class ApprovalSecurityTest(unittest.TestCase):
             self.assertTrue(ev["needsReview"])
             self.assertNotIn("review", ev)
 
+    def test_tampering_any_provenance_field_invalidates_signature(self):
+        with TempStore():
+            signed = self._signed()
+            for field, value in (("by", "user:forged"),
+                                 ("at", "2026-01-02T00:00:00Z"),
+                                 ("recordedBy", "human:forged"),
+                                 ("attestation", "human-external-signature")):
+                tampered = json.loads(json.dumps(signed))
+                tampered["approval"][field] = value
+                codes = {i["code"] for i in approval_ledger.verify_entry(tampered)}
+                self.assertIn("APPROVAL_SIGNATURE", codes, field)
+                self.assertFalse(approval_ledger.is_approved(tampered), field)
+
+    def test_agent_key_cannot_be_classified_as_human_attestation(self):
+        with TempStore():
+            entry = self._entry()
+            key = store.HISTORY_DIR.parent / "approval-key.json"
+            approval_ledger.generate_key(key, owner="agent:codebuff")
+            record = approval_ledger.append_action(
+                entry, key, action="approve", approver="agent:codebuff",
+                channel="chat", recorded_by="agent:codebuff",
+                attestation="agent-recorded-chat-approval")
+            self.assertEqual(approval_ledger.attestation_class(record),
+                             "machine-recorded-chat-approval")
+            self.assertEqual(approval_ledger.approved_at_precision(record), "second")
+            self.assertNotEqual(approval_ledger.attestation_class(record), "human-signed")
+
+    def test_ledger_deletion_reorder_and_duplicate_are_detected(self):
+        with TempStore():
+            first = self._entry()
+            second = {**self._entry(), "eventId": "S-DIFFERENT"}
+            key = store.HISTORY_DIR.parent / "approval-key.json"
+            approval_ledger.generate_key(key, owner="user:test")
+            for entry in (first, second):
+                approval_ledger.append_action(entry, key, action="approve",
+                                              approver="user:test", channel="test")
+            original = approval_ledger.ledger_document()["entries"]
+            cases = {
+                "delete": original[1:],
+                "reorder": list(reversed(original)),
+                "duplicate": original + [original[-1]],
+            }
+            for name, entries in cases.items():
+                codes = {i["code"] for i in approval_ledger.verify_ledger(entries)}
+                self.assertTrue(codes & {"APPROVAL_LEDGER_CHAIN",
+                                         "APPROVAL_LEDGER_HASH",
+                                         "APPROVAL_LEDGER_SEQ",
+                                         "APPROVAL_LEDGER_GAP"}, name)
+
     def test_ledger_tamper_and_untrusted_key_are_detected(self):
         with TempStore():
             signed = self._signed()

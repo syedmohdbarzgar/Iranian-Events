@@ -30,6 +30,7 @@ BUILD_SCRIPTS = {
     "build_data_manifest.py",
     "sync_report_versions.py",
     "build_review_queue.py",
+    "build_year_review_packets.py",
     "build_history_view.py",
     "build_web.py",
 }
@@ -49,6 +50,7 @@ STEPS = [
     ("اعتبارسنجی کاتالوگ", "audit_master.py"),
     ("ردیف‌های بدونِ تطبیق", "audit_unmatched.py"),
     ("صفِ بازبینی", "build_review_queue.py"),
+    ("بسته‌های بازبینیِ سال‌های مسدود", "build_year_review_packets.py"),
     ("تکرارهای کاتالوگ", "audit_catalog_duplicates.py"),
     ("استخراجِ سال‌های مسدود", "audit_extraction_issues.py"),
     ("ممیزیِ مستقلِ تصمیم‌های هویت", "audit_identity_reviews.py"),
