@@ -87,8 +87,27 @@ def norm(text: str) -> str:
     return text.strip()
 
 
+_PDFTOTEXT_TABLE_OK: bool | None = None
+
+
+def _pdftotext(pdf: Path, mode: str) -> subprocess.CompletedProcess:
+    return subprocess.run(["pdftotext", mode, "-enc", "UTF-8", str(pdf), "-"],
+                          capture_output=True)
+
+
 def pdf_pages(pdf: Path) -> list[str]:
-    proc = subprocess.run(["pdftotext", "-table", "-enc", "UTF-8", str(pdf), "-"], capture_output=True)
+    global _PDFTOTEXT_TABLE_OK
+    if _PDFTOTEXT_TABLE_OK is False:
+        proc = _pdftotext(pdf, "-layout")
+    else:
+        proc = _pdftotext(pdf, "-table")
+        if proc.returncode != 0:
+            # Poppler's pdftotext never implemented Xpdf's -table. Fall back to
+            # -layout for page text and let build() use the PyMuPDF table grid.
+            _PDFTOTEXT_TABLE_OK = False
+            proc = _pdftotext(pdf, "-layout")
+        else:
+            _PDFTOTEXT_TABLE_OK = True
     if proc.returncode != 0:
         raise RuntimeError(proc.stderr.decode("utf-8", "replace")[:300])
     text = proc.stdout.decode("utf-8", "replace").translate(BIDI)
@@ -262,8 +281,8 @@ def _visual_cell(cell: str | None) -> str:
     PyMuPDF متن را به ترتیبِ دیداری می‌دهد. reverse کردن کل رشته ارقام چندرقمی
     را هم برعکس می‌کند؛ پس هر دستهٔ رقمی دوباره برگردانده می‌شود.
     """
-    s = (cell or "").replace("\u200c", " ")[::-1]
-    s = s.replace("ي", "ی").replace("ك", "ک").replace("ى", "ی")
+    s = unicodedata.normalize("NFKC", cell or "").replace("\u200c", " ")[::-1]
+    s = s.replace("ي", "ی").replace("ك", "ک").replace("ى", "ی").replace("ـ", "")
     s = re.sub(r"\d+", lambda m: m.group(0)[::-1], s)
     return re.sub(r"\s+", " ", s).strip()
 
@@ -300,14 +319,14 @@ def _layout_lunar(cell: str, solar_year: int, solar_month: int, solar_day: int) 
     return list(got)
 
 
-def layout_rows(pdf: Path, year: int) -> list[dict] | None:
+def layout_rows(pdf: Path, year: int, *, force: bool = False) -> list[dict] | None:
     """بازسازیِ جدول از خودِ PDF برای سال‌هایی که لایهٔ متنی‌شان جابه‌جاست.
 
     فقط ساختارِ جدول و توالیِ روزها را بازسازی می‌کند؛ عنوانِ خام حفظ می‌شود و
     میلادی از تاریخِ شمسی محاسبه می‌شود. خروجی همچنان draft است و نباید بدونِ
     بازبینی انسانی به داده اصلی برسد.
     """
-    if year not in LAYOUT_YEARS:
+    if year not in LAYOUT_YEARS and not force:
         return None
     try:
         import pymupdf  # noqa: PLC0415
@@ -355,13 +374,20 @@ def layout_rows(pdf: Path, year: int) -> list[dict] | None:
 
 
 def build(year: int, pdf: Path) -> dict:
-    layout = layout_rows(pdf, year)
+    layout = layout_rows(pdf, year) if year in LAYOUT_YEARS else None
+    pages: list[str] | None = None
+    if layout is None:
+        pages = pdf_pages(pdf)
+        # Poppler lacks -table; its -layout output is not column-safe, so use
+        # the same PyMuPDF table grid that already handles 1396/1402.
+        if _PDFTOTEXT_TABLE_OK is False:
+            layout = layout_rows(pdf, year, force=True)
     if layout:
         return {"source": pdf.name, "year": year, "rows": layout, "filled_days": 0,
                 "qc": {"rows": len(layout), "problems": [], "gregorian_anomalies": [],
                        "method": "pymupdf-table", "note": "draft; needs human review"}}
     raw: list[dict] = []
-    for i, page in enumerate(pdf_pages(pdf), 1):
+    for i, page in enumerate(pages if pages is not None else pdf_pages(pdf), 1):
         raw.extend(parse_page(page, i))
     # تفسیرِ خانه‌ها
     parsed = []

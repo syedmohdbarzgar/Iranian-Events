@@ -526,6 +526,11 @@ def build_revision(pdf: Path, year: int | None, *, do_ocr: bool = False,
         locator = page_locator(pages[page - 1], title) if page and 0 < page <= len(pages) else None
         if locator:
             locator["page"] = page
+        elif page:
+            # در fallbackِ `-layout` پوپلر، عنوانِ چندخطی ممکن است در یک خط
+            # پیدا نشود؛ صفحه هنوز قطعی است و به‌جای حذفِ مکان‌یاب ثبت می‌شود.
+            locator = {"kind": "page-only", "page": page, "line": None}
+            flags.append("page-level-locator")
         else:
             flags.append("no-locator")
         if page and page in scanned_pages:
