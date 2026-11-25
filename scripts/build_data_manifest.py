@@ -21,10 +21,12 @@ SUMMARY = REPORTS / "release-summary.md"
 
 
 def sha(path: Path) -> str:
+    """هشِ محتوایی؛ JSON/MD با خطِ پایانِ یکسان (LF) تا ویندوز و CI یکی باشند."""
     h = hashlib.sha256()
-    with path.open("rb") as f:
-        for chunk in iter(lambda: f.read(1024 * 1024), b""):
-            h.update(chunk)
+    data = path.read_bytes()
+    if path.suffix.lower() in {".json", ".md", ".txt"}:
+        data = data.replace(b"\r\n", b"\n")
+    h.update(data)
     return h.hexdigest()
 
 
@@ -89,12 +91,6 @@ def main() -> int:
         if path.stem.isdigit():
             all_year_rows += json.loads(path.read_text(encoding="utf-8")).get("count", 0)
     raw_events = json.loads((DATA / "events.json").read_text(encoding="utf-8"))
-    raw_rows = 0
-    for path in (ROOT / "extracted" / "json").glob("*.json"):
-        try:
-            raw_rows += len(json.loads(path.read_text(encoding="utf-8")).get("rows", []))
-        except (ValueError, OSError):
-            pass
 
     core_files = [
         DATA / "events-master.json",
@@ -139,7 +135,6 @@ def main() -> int:
             "annualUnmatchedRows": len(unmatched),
             "allYearRows": all_year_rows,
             "rawEvents": len(raw_events),
-            "extractedRawRows": raw_rows,
             "pdfCalendarFiles": len(pdfs),
         },
         "verificationStatus": dict(sorted(statuses.items())),
@@ -175,7 +170,7 @@ def main() -> int:
         f"- رویدادِ یکتا: **{c['uniqueEvents']}** · عنوانِ کانونیِ یکتا: **{c['uniqueCanonicalTitles']}**",
         f"- سالِ دارای جدولِ رسمی: **{c['officialYears']}** · ردیفِ رسمی: **{c['officialRows']}**",
         f"- ردیفِ سالانهٔ ۲۲ سالِ داده: **{c['annualRows']}** · متصل: **{c['annualMatchedRows']}** · بدونِ تطبیق: **{c['annualUnmatchedRows']}**",
-        f"- ردیفِ همهٔ ۱۲۱ سال: **{c['allYearRows']}** · رویدادِ خامِ `events.json`: **{c['rawEvents']}** · همهٔ ردیف‌های خامِ استخراج: **{c['extractedRawRows']}**",
+        f"- ردیفِ همهٔ ۱۲۱ سال: **{c['allYearRows']}** · رویدادِ خامِ `events.json`: **{c['rawEvents']}**",
         f"- فایلِ PDF: **{c['pdfCalendarFiles']}** (هش در manifest)",
         "",
         "## شاهدِ ثبت‌شده",
