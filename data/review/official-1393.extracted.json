@@ -2,7 +2,7 @@
  "year": 1393,
  "publishable": false,
  "reviewStatus": "needs_manual_review",
- "verdict": "blocked_glyph_mapping_ocr_required",
+ "verdict": "blocked_ocr_table_needs_human_review",
  "note": "خروجیِ خامِ استخراج؛ برای انتشار/موتور تقویم استفاده نشود.",
  "source": "Calendar-1393.pdf",
  "rows": [

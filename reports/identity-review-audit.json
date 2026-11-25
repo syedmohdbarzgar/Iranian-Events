@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T12:31:37.163690Z",
+ "generatedAt": "2026-11-25T13:44:17.457432Z",
  "reviews": [
   {
    "eventId": "S1273FA50",
@@ -7,7 +7,11 @@
    "target": "E0460",
    "evidenceRows": 2,
    "constituents": 1,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 23,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "S194E7B48",
@@ -15,7 +19,11 @@
    "target": null,
    "evidenceRows": 1,
    "constituents": 2,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 24,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "S23C94E95",
@@ -23,7 +31,11 @@
    "target": null,
    "evidenceRows": 1,
    "constituents": 2,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 25,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "S252E2C30",
@@ -31,7 +43,11 @@
    "target": null,
    "evidenceRows": 1,
    "constituents": 2,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 26,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "S278D8684",
@@ -39,7 +55,11 @@
    "target": null,
    "evidenceRows": 1,
    "constituents": 3,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 27,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "S2864F821",
@@ -47,7 +67,11 @@
    "target": "E0460",
    "evidenceRows": 1,
    "constituents": 1,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 28,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "S2C075D77",
@@ -55,7 +79,11 @@
    "target": null,
    "evidenceRows": 1,
    "constituents": 2,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 29,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "S4B6485C1",
@@ -63,7 +91,11 @@
    "target": null,
    "evidenceRows": 2,
    "constituents": 3,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 30,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "S6ABF99E3",
@@ -71,7 +103,11 @@
    "target": null,
    "evidenceRows": 1,
    "constituents": 2,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 31,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "S7AEF8101",
@@ -79,7 +115,11 @@
    "target": null,
    "evidenceRows": 1,
    "constituents": 3,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 32,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "SA25E4435",
@@ -87,7 +127,11 @@
    "target": null,
    "evidenceRows": 1,
    "constituents": 2,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 33,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "SAE70E9EC",
@@ -95,7 +139,11 @@
    "target": null,
    "evidenceRows": 1,
    "constituents": 2,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 34,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "SB0CAD007",
@@ -103,7 +151,11 @@
    "target": null,
    "evidenceRows": 1,
    "constituents": 2,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 35,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "SB5330A72",
@@ -111,7 +163,11 @@
    "target": "E0460",
    "evidenceRows": 1,
    "constituents": 1,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 36,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "SB889A638",
@@ -119,7 +175,11 @@
    "target": null,
    "evidenceRows": 1,
    "constituents": 3,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 37,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "SB8C7DC86",
@@ -127,7 +187,11 @@
    "target": "E0460",
    "evidenceRows": 2,
    "constituents": 1,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 38,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "SC44FB5BA",
@@ -135,7 +199,11 @@
    "target": null,
    "evidenceRows": 1,
    "constituents": 3,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 39,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "SD5409974",
@@ -143,7 +211,11 @@
    "target": null,
    "evidenceRows": 1,
    "constituents": 2,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 40,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "SE2CF8360",
@@ -151,7 +223,11 @@
    "target": "E0460",
    "evidenceRows": 1,
    "constituents": 1,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 41,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "SE36B292D",
@@ -159,7 +235,11 @@
    "target": null,
    "evidenceRows": 1,
    "constituents": 3,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 42,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "SEF782279",
@@ -167,7 +247,11 @@
    "target": null,
    "evidenceRows": 7,
    "constituents": 2,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 43,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   },
   {
    "eventId": "SF918DD6B",
@@ -175,7 +259,11 @@
    "target": null,
    "evidenceRows": 1,
    "constituents": 3,
-   "approved": true
+   "approved": true,
+   "ledgerSeq": 44,
+   "approvedAt": "2026-11-24T00:00:00Z",
+   "recordedBy": "agent:codebuff",
+   "attestation": "chat-approval-recorded-by-agent"
   }
  ],
  "issues": [],

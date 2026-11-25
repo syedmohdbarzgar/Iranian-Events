@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T12:31:51.421134Z",
+ "generatedAt": "2026-11-25T13:44:32.689146Z",
  "years": [
   {
    "year": 1393,
@@ -7,12 +7,12 @@
    "pdfExists": true,
    "activeRevision": null,
    "status": "blocked",
-   "verdict": "blocked_glyph_mapping_ocr_required",
-   "why": "لایهٔ متنی با نگاشتِ ناقصِ فونت؛ عنوان‌ها خوانا نیستند.",
+   "verdict": "blocked_ocr_table_needs_human_review",
+   "why": "لایهٔ متنی نگاشتِ ناقص دارد؛ draft بازسازیِ جدول با OCR 365 ردیف ساخت، اما عنوان‌ها/تاریخ قمری غلط‌خوانی دارند و همه needsReview هستند.",
    "rowsInTextLayer": 365,
-   "nonemptyTitles": 0,
+   "nonemptyTitles": 341,
    "publishable": false,
-   "action": "لایهٔ متنی نگاشتِ ناقص دارد؛ OCR فارسی اجرا شد اما اطمینان 53 و ردیفِ تاریخ‌دار صفر است. نیاز به بازبینیِ دستی/مدلِ جدول‌خوان."
+   "action": "draft جدول با OCR سلول‌ها 365 ردیف و 341 عنوان ساخت (PSM 7، اطمینانِ نمونهٔ 53)؛ عنوان‌ها/تاریخ قمری نیازمند بازبینی انسانی‌اند و انتشار مسدود است."
   },
   {
    "year": 1396,
@@ -20,12 +20,12 @@
    "pdfExists": true,
    "activeRevision": null,
    "status": "blocked",
-   "verdict": "blocked_empty_titles_manual_extraction_required",
-   "why": "ردیف‌های تاریخ ساخته شدند ولی ستونِ مناسبت‌ها خالی است.",
+   "verdict": "blocked_layout_lunar_review_required",
+   "why": "جدول 365 ردیف و 175 عنوان داد؛ سالِ قمریِ لایهٔ متنی خراب است (۱۴۱۸ به‌جای ۱۴۳۸) و عنوان‌ها نیازمند بازبینی‌اند.",
    "rowsInTextLayer": 365,
-   "nonemptyTitles": 0,
+   "nonemptyTitles": 175,
    "publishable": false,
-   "action": "عنوان‌ها در لایهٔ متنی خالی‌اند؛ استخراجِ دستی یا OCR با بازبینی لازم است."
+   "action": "جدول 365 ردیف و 175 عنوان داد؛ سالِ قمری در لایهٔ متنی خراب است؛ بازبینی انسانی لازم است."
   },
   {
    "year": 1402,
@@ -33,12 +33,12 @@
    "pdfExists": true,
    "activeRevision": null,
    "status": "blocked",
-   "verdict": "blocked_date_columns_manual_review_required",
-   "why": "عنوان‌ها می‌آیند ولی سالِ میلادی/روزِ هفته جابه‌جاست؛ ردیف برای انتشار قابل‌استناد نیست.",
+   "verdict": "blocked_layout_title_review_required",
+   "why": "جدول 365 ردیف و 184 عنوان داد؛ ستون‌های میلادی/قمری فقط جزئی خوانده شدند و عنوان‌ها نیازمند بازبینی‌اند.",
    "rowsInTextLayer": 365,
-   "nonemptyTitles": 73,
+   "nonemptyTitles": 184,
    "publishable": false,
-   "action": "عنوان‌ها می‌آیند ولی ستون‌های تاریخ جابه‌جاست؛ اصلاحِ parser و بازبینیِ دستی لازم است."
+   "action": "جدول 365 ردیف و 184 عنوان داد؛ ستون‌های تاریخ کامل نیستند؛ بازبینی انسانی لازم است."
   }
  ],
  "rule": "سالِ بدونِ شاهدِ کامل منتشر نمی‌شود و با حدس پر نمی‌شود."

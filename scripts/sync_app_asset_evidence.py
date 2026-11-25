@@ -8,6 +8,7 @@ master ندارد `unverified` می‌ماند و حذف نمی‌شود. این
 """
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import sys
@@ -92,11 +93,31 @@ def fallback_meta(row: dict, pack: str) -> dict:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description="همگام‌سازی متادیتای شاهد با پک‌های اپ")
+    parser.add_argument("--app-dir", type=Path, default=PACK_DIR,
+                        help="پوشهٔ events/iran در مخزن اپ (پیش‌فرض: خواهر همین مخزن)")
+    parser.add_argument("--require-app", action="store_true",
+                        help="نبودِ پک اپ خطا باشد؛ پیش‌فرض: صریح skip شود")
+    args = parser.parse_args()
+    pack_dir = args.app_dir.expanduser().resolve()
+    if not pack_dir.is_dir():
+        message = (f"app-assets: پک اپ پیدا نشد: {pack_dir} · "
+                   "این مخزن بدون مخزن اپ هم باید قابل اعتبارسنجی باشد")
+        if args.require_app:
+            print(message, file=sys.stderr)
+            return 1
+        print(message + " · skipped")
+        return 0
+    missing = [p for p in BASE_PACKS if not (pack_dir / f"{p}_events.json").is_file()]
+    if missing:
+        print(f"app-assets: پک‌های پایهٔ ناقص: {', '.join(missing)} در {pack_dir}", file=sys.stderr)
+        return 1
+
     events = json.loads(MASTER.read_text(encoding="utf-8"))["events"]
     base_meta: dict[str, dict] = {}
     matched = 0
     for pack in BASE_PACKS:
-        path = PACK_DIR / f"{pack}_events.json"
+        path = pack_dir / f"{pack}_events.json"
         rows = json.loads(path.read_text(encoding="utf-8"))
         for row in rows:
             event = match_event(row, events)
@@ -107,11 +128,11 @@ def main() -> int:
 
     base_rows: dict[str, dict[str, dict]] = {}
     for pack in BASE_PACKS:
-        rows = json.loads((PACK_DIR / f"{pack}_events.json").read_text(encoding="utf-8"))
+        rows = json.loads((pack_dir / f"{pack}_events.json").read_text(encoding="utf-8"))
         base_rows[pack] = {row["id"]: row for row in rows}
 
     changed = 0
-    for path in sorted(PACK_DIR.glob("*_events*.json")):
+    for path in sorted(pack_dir.glob("*_events*.json")):
         pack = path.name.split("_events")[0]
         rows = json.loads(path.read_text(encoding="utf-8"))
         is_base = path.name == f"{pack}_events.json"
@@ -132,7 +153,7 @@ def main() -> int:
         path.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     statuses = {}
-    for path in PACK_DIR.glob("*_events.json"):
+    for path in pack_dir.glob("*_events.json"):
         for row in json.loads(path.read_text(encoding="utf-8")):
             statuses[row.get("verificationStatus")] = statuses.get(row.get("verificationStatus"), 0) + 1
     print(f"app-assets: rows={sum(statuses.values())} matched={matched} changed={changed} statuses={statuses}")

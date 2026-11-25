@@ -80,3 +80,6 @@ data/review/uploads/
 # ─── ابزار/تصاویرِ OCR (قابلِ بازتولید) ───
 tools/ocr/node_modules/
 tools/ocr/cache/
+reports/ocr/images/page-*.png
+reports/ocr/rows/
+reports/diagnostics/

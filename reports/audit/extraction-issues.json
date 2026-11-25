@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-11-25T12:31:36+00:00",
+ "generatedAt": "2026-11-25T13:44:16+00:00",
  "years": [
   {
    "year": 1393,
    "pdf": "PDF/Calendar-1393.pdf",
    "rows": 365,
-   "nonemptyTitles": 0,
+   "nonemptyTitles": 341,
    "weekdayProblems": 0,
    "gregorianAnomalies": 0,
    "sample": [
@@ -34,8 +34,11 @@
      "title": ""
     }
    ],
-   "verdict": "blocked_glyph_mapping_ocr_required",
-   "why": "لایهٔ متنی با نگاشتِ ناقصِ فونت؛ عنوان‌ها خوانا نیستند.",
+   "ocrDraftRows": 365,
+   "ocrDraftTitles": 341,
+   "nonemptyTitlesSource": "ocr-draft",
+   "verdict": "blocked_ocr_table_needs_human_review",
+   "why": "لایهٔ متنی نگاشتِ ناقص دارد؛ draft بازسازیِ جدول با OCR 365 ردیف ساخت، اما عنوان‌ها/تاریخ قمری غلط‌خوانی دارند و همه needsReview هستند.",
    "publishable": false,
    "rawFile": "data/review/official-1393.extracted.json"
   },
@@ -43,7 +46,7 @@
    "year": 1396,
    "pdf": "PDF/Calendar-1396.pdf",
    "rows": 365,
-   "nonemptyTitles": 0,
+   "nonemptyTitles": 175,
    "weekdayProblems": 0,
    "gregorianAnomalies": 0,
    "sample": [
@@ -53,7 +56,7 @@
       1,
       1
      ],
-     "title": ""
+     "title": "آغاز نوروز (تعطیل)"
     },
     {
      "solar": [
@@ -61,7 +64,7 @@
       1,
       2
      ],
-     "title": ""
+     "title": "آغاز عملیات فتحالمبین (1131 هـ ش) عید نوروز (تعطیل) ـ هجوم مأموران ستم شاهی پهلو"
     },
     {
      "solar": [
@@ -69,11 +72,11 @@
       1,
       3
      ],
-     "title": ""
+     "title": "عید نوروز (تعطیل)"
     }
    ],
-   "verdict": "blocked_empty_titles_manual_extraction_required",
-   "why": "ردیف‌های تاریخ ساخته شدند ولی ستونِ مناسبت‌ها خالی است.",
+   "verdict": "blocked_layout_lunar_review_required",
+   "why": "جدول 365 ردیف و 175 عنوان داد؛ سالِ قمریِ لایهٔ متنی خراب است (۱۴۱۸ به‌جای ۱۴۳۸) و عنوان‌ها نیازمند بازبینی‌اند.",
    "publishable": false,
    "rawFile": "data/review/official-1396.extracted.json"
   },
@@ -81,9 +84,9 @@
    "year": 1402,
    "pdf": "PDF/Calendar-1402.pdf",
    "rows": 365,
-   "nonemptyTitles": 73,
-   "weekdayProblems": 132,
-   "gregorianAnomalies": 156,
+   "nonemptyTitles": 184,
+   "weekdayProblems": 0,
+   "gregorianAnomalies": 0,
    "sample": [
     {
      "solar": [
@@ -91,7 +94,7 @@
       1,
       1
      ],
-     "title": "ولادت حضرت امام حسن مجتبی علیهالسلام ) 2 هو ق( و روز اکرام و تکریم خیرین"
+     "title": "آغاز نوروز (تعطیل)"
     },
     {
      "solar": [
@@ -99,19 +102,19 @@
       1,
       2
      ],
-     "title": "روز طبیعت )تعطیل("
+     "title": "(0242 هو ش)و آغاز عملیات فتحالمبین (0260 هو ش) عید نوروز (تعطیل) و هجوم مأموران "
     },
     {
      "solar": [
       1402,
       1,
-      8
+      3
      ],
-     "title": "روز سلامتی"
+     "title": "عید نوروز (تعطیل)"
     }
    ],
-   "verdict": "blocked_date_columns_manual_review_required",
-   "why": "عنوان‌ها می‌آیند ولی سالِ میلادی/روزِ هفته جابه‌جاست؛ ردیف برای انتشار قابل‌استناد نیست.",
+   "verdict": "blocked_layout_title_review_required",
+   "why": "جدول 365 ردیف و 184 عنوان داد؛ ستون‌های میلادی/قمری فقط جزئی خوانده شدند و عنوان‌ها نیازمند بازبینی‌اند.",
    "publishable": false,
    "rawFile": "data/review/official-1402.extracted.json"
   }

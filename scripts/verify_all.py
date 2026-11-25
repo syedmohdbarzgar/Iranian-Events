@@ -1,10 +1,13 @@
-"""گیتِ انتشار: موتور + رویدادها + سال‌ها؛ خروجِ غیرصفر روی خطای بحرانی.
+"""گیتِ انتشار: تولید داده، اعتبارسنجی و تست؛ خروجِ غیرصفر روی خطای بحرانی.
 
-اجرا: `py -3 scripts/verify_all.py`. این اسکریپت هیچ داده‌ای نمی‌سازد و فقط می‌سنجد؛
-اگر خطای بحرانی یا شکستِ موتور باشد، انتشار باید متوقف شود.
+اجرای پیش‌فرض `py -3 scripts/verify_all.py` هر دو مرحله را پشتِ سرِ هم اجرا می‌کند.
+`--build-only` فقط اسکریپت‌های تولید داده/گزارش را می‌سازد و `--audit-only` فقط
+اعتبارسنجی و تست را روی خروجی‌های موجود اجرا می‌کند؛ در هیچ حالت، اسکریپتِ
+اعتبارسنجی دادهٔ منتشرشده را جایگزین نمی‌کند و خروجیِ غیرصفر انتشار را متوقف می‌کند.
 """
 from __future__ import annotations
 
+import argparse
 import subprocess
 import sys
 from pathlib import Path
@@ -17,6 +20,19 @@ for _stream in (sys.stdout, sys.stderr):
         _stream.reconfigure(encoding="utf-8", errors="replace")
     except Exception:  # noqa: BLE001
         pass
+
+BUILD_SCRIPTS = {
+    "apply_identity_corrections.py",
+    "build_years.py",
+    "build_event_evidence.py",
+    "apply_evidence_status.py",
+    "sync_app_asset_evidence.py",
+    "build_data_manifest.py",
+    "sync_report_versions.py",
+    "build_review_queue.py",
+    "build_history_view.py",
+    "build_web.py",
+}
 
 STEPS = [
     ("اصلاحیه‌های هویتی", "apply_identity_corrections.py"),
@@ -46,12 +62,31 @@ STEPS = [
 
 
 def main() -> int:
+    ap = argparse.ArgumentParser(description="گیت انتشار Iranian-Events")
+    mode = ap.add_mutually_exclusive_group()
+    mode.add_argument("--build-only", action="store_true",
+                      help="فقط تولید داده/گزارش؛ بدون تست و اعتبارسنجی")
+    mode.add_argument("--audit-only", action="store_true",
+                      help="فقط اعتبارسنجی و تست روی خروجی‌های موجود؛ بدون بازتولید داده")
+    args = ap.parse_args()
+
     failed: list[str] = []
     for name, script in STEPS:
+        is_build = script in BUILD_SCRIPTS
+        if args.build_only and not is_build:
+            continue
+        if args.audit_only and is_build:
+            continue
         print(f"== {name}: {script}")
         res = subprocess.run([sys.executable, str(ROOT / "scripts" / script)], cwd=ROOT)
         if res.returncode != 0:
             failed.append(f"{name} ({script})")
+    if args.build_only:
+        if failed:
+            print("\nتولید داده شکست خورد: " + "، ".join(failed))
+            return 1
+        print("\nتولید داده سبز است؛ اعتبارسنجی جداگانه اجرا شود.")
+        return 0
     tests = subprocess.run([sys.executable, "-m", "unittest", "discover", "-s", "tests", "-q"], cwd=ROOT)
     if tests.returncode != 0:
         failed.append("تست‌های خودکار")

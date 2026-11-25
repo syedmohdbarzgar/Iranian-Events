@@ -761,9 +761,12 @@ class UploadSecurityTest(unittest.TestCase):
 
     @staticmethod
     def valid_pdf() -> bytes:
+        """PDF واقعی می‌سازد؛ فایل LFS pointer نباید fixture را بشکند."""
         source = ROOT / "PDF" / "Calendar-1405.pdf"
         if source.exists():
-            return source.read_bytes()
+            data = source.read_bytes()
+            if data.startswith(b"%PDF-"):
+                return data
         import pymupdf
         doc = pymupdf.open()
         doc.new_page()

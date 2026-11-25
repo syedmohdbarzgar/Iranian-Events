@@ -38,15 +38,19 @@ def main() -> int:
         pdf = ROOT / "PDF" / f"Calendar-{year}.pdf"
         status = "published" if year in active else "blocked"
         action = ""
+        draft_path = ROOT / "reports" / "ocr" / "1393-rows-draft.json"
+        draft = json.loads(draft_path.read_text(encoding="utf-8")) if draft_path.exists() else {}
         if year == 1393:
-            action = ("لایهٔ متنی نگاشتِ ناقص دارد؛ OCR فارسی اجرا شد اما اطمینان "
-                      f"{probe.get('confidence') if probe else 'نامعلوم'} و ردیفِ تاریخ‌دار صفر است. "
-                      "نیاز به بازبینیِ دستی/مدلِ جدول‌خوان.") if probe else \
-                     "OCR فارسی اجرا نشده است."
+            action = (f"draft جدول با OCR سلول‌ها {draft.get('rows', 0)} ردیف و "
+                      f"{item.get('ocrDraftTitles', 0)} عنوان ساخت (PSM 7، اطمینانِ نمونهٔ "
+                      f"{probe.get('confidence') if probe else 'نامعلوم'})؛ عنوان‌ها/تاریخ قمری "
+                      "نیازمند بازبینی انسانی‌اند و انتشار مسدود است.")
         elif year == 1396:
-            action = "عنوان‌ها در لایهٔ متنی خالی‌اند؛ استخراجِ دستی یا OCR با بازبینی لازم است."
+            action = (f"جدول {item.get('rows', 0)} ردیف و {item.get('nonemptyTitles', 0)} عنوان داد؛ "
+                      "سالِ قمری در لایهٔ متنی خراب است؛ بازبینی انسانی لازم است.")
         elif year == 1402:
-            action = "عنوان‌ها می‌آیند ولی ستون‌های تاریخ جابه‌جاست؛ اصلاحِ parser و بازبینیِ دستی لازم است."
+            action = (f"جدول {item.get('rows', 0)} ردیف و {item.get('nonemptyTitles', 0)} عنوان داد؛ "
+                      "ستون‌های تاریخ کامل نیستند؛ بازبینی انسانی لازم است.")
         rows.append({
             "year": year,
             "pdf": str(pdf.relative_to(ROOT)),

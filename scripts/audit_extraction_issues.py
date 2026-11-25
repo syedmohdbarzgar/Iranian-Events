@@ -43,14 +43,24 @@ def main() -> int:
                 ],
             })
             if year == 1393:
-                item["verdict"] = "blocked_glyph_mapping_ocr_required"
-                item["why"] = "لایهٔ متنی با نگاشتِ ناقصِ فونت؛ عنوان‌ها خوانا نیستند."
+                draft_path = ROOT / "reports" / "ocr" / "1393-rows-draft.json"
+                draft = json.loads(draft_path.read_text(encoding="utf-8")) if draft_path.exists() else {}
+                item["ocrDraftRows"] = draft.get("rows", 0)
+                item["ocrDraftTitles"] = sum(1 for r in draft.get("data", []) if r.get("title"))
+                item["nonemptyTitles"] = item["ocrDraftTitles"]
+                item["nonemptyTitlesSource"] = "ocr-draft"
+                item["verdict"] = "blocked_ocr_table_needs_human_review"
+                item["why"] = ("لایهٔ متنی نگاشتِ ناقص دارد؛ draft بازسازیِ جدول با OCR "
+                                f"{draft.get('rows', 0)} ردیف ساخت، اما عنوان‌ها/تاریخ قمری "
+                                "غلط‌خوانی دارند و همه needsReview هستند.")
             elif year == 1396:
-                item["verdict"] = "blocked_empty_titles_manual_extraction_required"
-                item["why"] = "ردیف‌های تاریخ ساخته شدند ولی ستونِ مناسبت‌ها خالی است."
+                item["verdict"] = "blocked_layout_lunar_review_required"
+                item["why"] = (f"جدول {len(rows)} ردیف و {len(nonempty)} عنوان داد؛ سالِ قمریِ "
+                                "لایهٔ متنی خراب است (۱۴۱۸ به‌جای ۱۴۳۸) و عنوان‌ها نیازمند بازبینی‌اند.")
             else:
-                item["verdict"] = "blocked_date_columns_manual_review_required"
-                item["why"] = "عنوان‌ها می‌آیند ولی سالِ میلادی/روزِ هفته جابه‌جاست؛ ردیف برای انتشار قابل‌استناد نیست."
+                item["verdict"] = "blocked_layout_title_review_required"
+                item["why"] = (f"جدول {len(rows)} ردیف و {len(nonempty)} عنوان داد؛ ستون‌های میلادی/قمری "
+                                "فقط جزئی خوانده شدند و عنوان‌ها نیازمند بازبینی‌اند.")
         except Exception as exc:  # noqa: BLE001
             item.update({"verdict": "extraction_failed", "why": f"{type(exc).__name__}: {exc}"})
         item["publishable"] = False
@@ -87,9 +97,9 @@ def main() -> int:
         "",
         "## دلیلِ توقف",
         "",
-        "- **۱۳۹۳:** نگاشتِ فونتِ PDF ناقص است (`ʆɳʈ…`)؛ بدونِ OCR نمی‌توان عنوان را خواند.",
-        "- **۱۳۹۶:** جدول تاریخ ساخته می‌شود ولی عنوان‌ها خالی می‌مانند؛ ستونِ مناسبت استخراج نمی‌شود.",
-        "- **۱۴۰۲:** ارقامِ سال/میلادی جابه‌جا می‌شوند (۱۴۰۲→۲۱۲۲) و روزِ هفته با تاریخ نمی‌خواند.",
+        "- **۱۳۹۳:** نگاشتِ فونتِ PDF ناقص است؛ draft جدول با OCR سلول‌ها ساخته شد اما بازبینی انسانی لازم دارد.",
+        "- **۱۳۹۶:** جدول ۳۶۵ ردیف و ۱۷۵ عنوان داد؛ سالِ قمری در لایهٔ متنی خراب است.",
+        "- **۱۴۰۲:** جدول ۳۶۵ ردیف و ۱۸۴ عنوان داد؛ ستون‌های تاریخ کامل نیستند.",
         "",
         "## اقدامِ لازم",
         "",
