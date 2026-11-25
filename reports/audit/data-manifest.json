@@ -1,10 +1,10 @@
 {
  "schema": 1,
- "generatedAt": "2026-11-25T14:36:42+00:00",
+ "generatedAt": "2026-11-25T14:39:28+00:00",
  "dataVersion": "v2+5864ccb",
  "contentHash": "5864ccb17803aa46281f5a5a420d51bf6d1aaf7cb1400ea0087d7ebd1bd4d628",
- "commit": "b838076444b4146fd7e4a06453ea482d31dba510",
- "workingTreeDirty": true,
+ "commit": "43cd80ccb6fc296d0909c2ff5d647cbff3c5f935",
+ "workingTreeDirty": false,
  "generatedBy": "scripts/build_data_manifest.py",
  "counts": {
   "uniqueEvents": 503,
