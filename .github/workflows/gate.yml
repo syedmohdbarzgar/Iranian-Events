@@ -46,13 +46,19 @@ jobs:
           git status --porcelain
           # generatedAt/commit/dirty فقط provenanceِ زمان‌دارند؛ هر تغییرِ محتوایی
           # در data/ یا گزارش‌ها باید گیت را قرمز کند.
-          git diff --exit-code \
+          if ! git diff --exit-code \
             --ignore-matching-lines='generatedAt' \
             --ignore-matching-lines='workingTreeDirty' \
             --ignore-matching-lines='commit' \
             --ignore-matching-lines='زمانِ تولید' \
             --ignore-matching-lines='درختِ کاری' \
-            -- data reports/audit data/review/verification-queue.json
+            -- data reports/audit data/review/verification-queue.json \
+            > build-diff.txt 2>&1; then
+            cat build-diff.txt
+            msg=$(head -40 build-diff.txt | tr '\n' ' ' | cut -c1-1800)
+            echo "::error title=Unapproved build diff::$msg"
+            exit 1
+          fi
       - name: Verify build is reproducible
         run: python scripts/check_build_reproducibility.py
       - name: Validate release gate (engine, history, reports, 86 tests)
