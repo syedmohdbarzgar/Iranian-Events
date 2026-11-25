@@ -30,11 +30,13 @@ def main() -> int:
         text = path.read_text(encoding="utf-8")
         new = re.sub(r"v\d+\+[0-9a-f]{7}", version, text)
         if manifest.get("commit"):
-            new = re.sub(r"commit: `[0-9a-f]{7,40}`", f"commit: `{manifest['commit']}`", new)
+            new = re.sub(r"(commit[^`]*?: `)[0-9a-f]{7,40}`",
+                         lambda m: m.group(1) + manifest["commit"] + "`", new)
         if manifest.get("workingTreeDirty") is not None:
             new = re.sub(r" · \*\*درختِ کاری تمیز نیست\*\*", "", new)
             if manifest["workingTreeDirty"]:
-                new = re.sub(r"(commit: `[^`]+`)", r"\1 · **درختِ کاری تمیز نیست**", new)
+                new = re.sub(r"(commit[^`]*?: `[^`]+`)",
+                             r"\1 · **درختِ کاری تمیز نیست**", new)
         if rows is not None:
             new = re.sub(r"(رسمیِ منتشرشده \(پس از اصلاحیه\): )\d+",
                          lambda m: m.group(1) + str(rows), new)

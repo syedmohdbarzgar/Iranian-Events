@@ -169,7 +169,7 @@ def main() -> int:
     lines = [
         "# گزارشِ انتشارِ داده — یک منبع، یک اجرا",
         "",
-        f"- داده: **{manifest['dataVersion']}** · commit: `{commit or 'نامشخص'}`"
+        f"- داده: **{manifest['dataVersion']}** · commitِ پایهٔ تولید: `{commit or 'نامشخص'}`"
         + (" · **درختِ کاری تمیز نیست**" if dirty else ""),
         f"- زمانِ تولید (UTC): `{manifest['generatedAt']}`",
         f"- رویدادِ یکتا: **{c['uniqueEvents']}** · عنوانِ کانونیِ یکتا: **{c['uniqueCanonicalTitles']}**",
