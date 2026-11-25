@@ -37,6 +37,7 @@ for _stream in (sys.stdout, sys.stderr):
     except Exception:  # noqa: BLE001 - جریانِ غیرقابل‌تنظیم
         pass
 
+import approval_ledger  # noqa: E402
 import calendar_engine as engine  # noqa: E402
 import event_normalize  # noqa: E402
 
@@ -109,8 +110,9 @@ def load_identity_review_entries() -> list[dict]:
 
 
 def load_identity_reviews() -> dict[str, dict]:
+    """فقط تصمیم‌هایی که امضای معتبر دارند؛ JSONِ دست‌کاری‌شده اثر ندارد."""
     return {r["eventId"]: r for r in load_identity_review_entries()
-            if r.get("eventId")}
+            if r.get("eventId") and approval_ledger.is_approved(r)}
 
 
 def save_history(events: list[dict], occurrences: list[dict]) -> None:
@@ -411,7 +413,8 @@ def derive(events_catalog: list[dict], revisions: list[dict],
     matcher = CatalogMatcher(events_catalog)
     by_id = {e["id"]: e for e in events_catalog}
     reviews = load_identity_reviews() if identity_reviews is None else identity_reviews
-    reviews = {k: v for k, v in reviews.items() if v.get("active", True)}
+    reviews = {k: v for k, v in reviews.items()
+               if v.get("active", True) and approval_ledger.is_approved(v)}
     active = active_revisions(revisions)
     occurrences: list[dict] = []
     observed: dict[str, set[str]] = {}
@@ -480,6 +483,8 @@ def derive(events_catalog: list[dict], revisions: list[dict],
                         "page": row.get("page"),
                         "sourceRef": f"{rev['document'].get('file')}#page={row.get('page')}",
                         "bbox": row.get("bbox"),
+                        "locator": row.get("locator"),
+                        "ocr": row.get("ocr"),
                         "method": rev["extraction"].get("method"),
                         "extractedAt": rev["extraction"].get("extractedAt"),
                     },
@@ -690,10 +695,15 @@ def validate(history: dict, *, expected: tuple[list[dict], list[dict]] | None = 
         if not entry.get("reason") or not entry.get("reviewedBy") or not entry.get("reviewedAt"):
             issues.append(_issue("REVIEW_INCOMPLETE", "error",
                                  "تصمیم بدونِ علت/بازبین/زمان", eid))
-        approval = entry.get("approval") or {}
-        if approval.get("kind") != "human" or not approval.get("by") or not approval.get("at"):
-            issues.append(_issue("REVIEW_APPROVAL_MISSING", "error",
-                                 "تصمیمِ هویت تأییدِ صریحِ انسانی ندارد", eid))
+        approval_issues = approval_ledger.verify_entry(entry)
+        if entry.get("active", True):
+            issues.extend(approval_issues)
+        elif approval_issues and (entry.get("approval") or {}).get("kind"):
+            # تأییدِ ادعاشده اما نامعتبر هرگز با «در انتظار» پنهان نمی‌شود.
+            issues.extend(approval_issues)
+        elif approval_issues:
+            issues.append(_issue("REVIEW_PENDING", "warning",
+                                 "تصمیم در انتظارِ تأییدِ امضاشده است", eid))
         if entry["decision"] == "map":
             if entry.get("target") not in event_ids:
                 issues.append(_issue("REVIEW_TARGET_MISSING", "error",

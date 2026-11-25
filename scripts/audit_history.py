@@ -20,6 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
+import approval_ledger  # noqa: E402
 import history_store as store  # noqa: E402
 import calendar_engine as engine  # noqa: E402
 
@@ -98,6 +99,23 @@ def main() -> int:
         check_pdf_hashes=not args.no_pdf_hash,
         identity_reviews=store.load_identity_review_entries())
     issues += date_issues(history["occurrences"])
+    # زنجیرهٔ دفترِ تأیید هم بخشی از شاهدِ انتشار است، نه فقط امضای تک‌تک ردیف‌ها.
+    ledger_entries = approval_ledger.ledger_document()["entries"]
+    issues += approval_ledger.verify_ledger(ledger_entries)
+    for entry in store.load_identity_review_entries():
+        approval = entry.get("approval") or {}
+        if approval.get("method") != "ed25519":
+            continue
+        record = next((r for r in ledger_entries
+                       if r.get("seq") == approval.get("ledgerSeq")), None)
+        if record is None or record.get("recordHash") != approval.get("recordHash"):
+            issues.append(store._issue("REVIEW_LEDGER_MISSING", "error",
+                                       "تأیید به رکوردِ معتبرِ دفتر وصل نیست",
+                                       entry.get("eventId", "")))
+        elif record.get("statementSha256") != approval.get("statementSha256"):
+            issues.append(store._issue("REVIEW_LEDGER_STATEMENT", "error",
+                                       "هشِ بیانیه با دفتر نمی‌خواند",
+                                       entry.get("eventId", "")))
 
     active = store.active_revisions(history["revisions"])
     for rev in history["revisions"]:
@@ -169,10 +187,12 @@ def main() -> int:
     review_lines = [
         "# بازبینیِ هویت‌های ردیفی — شاهد و علت",
         "",
-        f"**{len(reviews)} تصمیمِ ثبت‌شده** · منبع: `data/history/identity-reviews.json`",
+        f"**{len(reviews)} تصمیمِ ثبت‌شده · {sum(1 for r in reviews if r.get('active'))} فعال** "
+        "· منبع تصمیم: `data/history/identity-reviews.json` "
+        "· دفتر تأیید: `data/history/approvals/identity-approvals.json`",
         "",
-        "| هویت | تصمیم | مقصد | شاهدِ صفحه | اجزای کاتالوگی | علت | تأیید/بازبین |",
-        "|---|---|---|---|---|---|---|",
+        "| هویت | تصمیم | مقصد | شاهدِ صفحه | اجزای کاتالوگی | علت | تأیید/بازبین | امضا |",
+        "|---|---|---|---|---|---|---|---|",
     ]
     for entry in reviews:
         evidence = ", ".join(
@@ -185,7 +205,9 @@ def main() -> int:
             f"{entry.get('target') or '—'} | {_cell(evidence) or '—'} | "
             f"{_cell(parts)} | {_cell(entry.get('reason', ''))} | "
             f"{_cell((entry.get('approval') or {}).get('kind', ''))}: "
-            f"{_cell(entry.get('reviewedBy', ''))} |")
+            f"{_cell((entry.get('approval') or {}).get('by', ''))} | "
+            f"`{(entry.get('approval') or {}).get('keyId', '—')}` "
+            f"#{entry.get('approval', {}).get('ledgerSeq', '—')} |")
     IDENTITY_REPORT.write_text("\n".join(review_lines) + "\n", encoding="utf-8")
 
     print(f"gate={'PASS' if not errors else 'FAIL'} errors={len(errors)} warnings={len(warnings)} "

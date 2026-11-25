@@ -50,6 +50,19 @@ def save_upload(filename: str, data: bytes, directory: Path | None = None) -> Pa
         raise ValueError("فایلِ PDF خالی/ناقص است")
     if len(data) > MAX_UPLOAD:
         raise ValueError(f"حجمِ فایل بیش از {MAX_UPLOAD // (1 << 20)} مگابایت است")
+    try:
+        import pymupdf  # noqa: PLC0415 - اعتبارسنجیِ اختیاری اما در دسترس
+        document = pymupdf.open(stream=data, filetype="pdf")
+        if document.needs_pass or document.page_count < 1:
+            raise ValueError("PDF رمزدار یا بدونِ صفحه است")
+        document.close()
+    except ImportError:
+        if b"%%EOF" not in data[-2048:]:
+            raise ValueError("PDF ناقص است (EOF ندارد)") from None
+    except ValueError:
+        raise
+    except Exception as exc:  # noqa: BLE001
+        raise ValueError(f"PDF قابل خواندن نیست: {type(exc).__name__}") from None
     target_dir = directory or UPLOAD_DIR
     target_dir.mkdir(parents=True, exist_ok=True)
     digest = hashlib.sha256(data).hexdigest()

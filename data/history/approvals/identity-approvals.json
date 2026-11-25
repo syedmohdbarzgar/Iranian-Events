@@ -1,0 +1,992 @@
+{
+ "version": 1,
+ "kind": "identity-approval-ledger-v1",
+ "entries": [
+  {
+   "seq": 1,
+   "action": "approve",
+   "eventId": "S1273FA50",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "S1273FA50",
+    "decision": "map",
+    "target": "E0460",
+    "reason": "عنوان و تاریخِ ۶ ذی‌الحجه با E0460 یکی است. پنج ردیفِ پراکندهٔ همین رویداد در سال‌های مختلف به یک هویتِ کاتالوگی نگاشت شدند؛ عنوانِ اصلیِ هر ردیف به‌عنوان شاهد حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0460",
+      "title": "شهادت مظلومانه زائران خانه خدا به دست مأموران آل سعود"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1382-c294d47c",
+      "page": 12,
+      "year": 1382,
+      "observedTitle": "شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران آل سعود 6) ذیالحجه 1407 ه.ق- برابر با 11 مرداد 1366 ه.ش)"
+     },
+     {
+      "revisionId": "R-1383-e445faf3",
+      "page": 14,
+      "year": 1383,
+      "observedTitle": "شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران آل سعود 6) ذیالحجه 1407 ه.ق- برابر با 11 مرداد 1366 ه.ش)"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "723c82f597b2e1a86bd9e6d673efde4745a069bb99d1425662f60f9ec79544a1",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "",
+   "signature": "82T1pAqSkYWpVU19k7O3BFDdNDHFwrNyC4Uv8q96Erz9wiW8WjZkeWeFI9ukOaIa7OZ3cIPJ9PMBc0HUyW12BQ==",
+   "recordHash": "5e7c9bb80a0bf54a1260a81c763a8c74adb31c85d12015dd611b9a2ec39ee94a"
+  },
+  {
+   "seq": 2,
+   "action": "approve",
+   "eventId": "S194E7B48",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "S194E7B48",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "شهادتِ آیت‌الله مدنی + روز تجلیل از امام‌زادگان. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0037 شهادت دومین شهید محراب آیت‌الله مدنی به دست منافقان؛ E0414 روز تجلیل از امام زادگان و بقاع متبرکه. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0037",
+      "title": "شهادت دومین شهید محراب آیت‌الله مدنی به دست منافقان"
+     },
+     {
+      "id": "E0414",
+      "title": "روز تجلیل از امام زادگان و بقاع متبرکه"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1392-636d8e39",
+      "page": 9,
+      "year": 1392,
+      "observedTitle": "از تجلیل روز ش) مدنی به دست منافقان 1360)ه شهادت دومین شهید محراب آیتاالله امامزادگان و بقاع متبرکه"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "1a984c125cf2ed9103ceec69c92fc4c46ea8d8e4cdf5a7a85e6d0b29b9ef6017",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "5e7c9bb80a0bf54a1260a81c763a8c74adb31c85d12015dd611b9a2ec39ee94a",
+   "signature": "wPIoAxzgOmLiYY0AqvWcFweJN2FL6xDHgK86BU/NNi2s6KSwbSZfxBZ+yp0KhHe4t523OGqCilFl3yy/IHLLCQ==",
+   "recordHash": "2fce0100822d95a6cc567494e657f2d35d070536896a3dbbcb95aaf4cce5bbbf"
+  },
+  {
+   "seq": 3,
+   "action": "approve",
+   "eventId": "S23C94E95",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "S23C94E95",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "رحلتِ امام خمینی + انتخابِ آیت‌الله خامنه‌ای. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0126 رحلت حضرت امام خمینی (ره)، رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران؛ E0110 انتخاب حضرت آیت‌الله امام خامنه‌ای به رهبری. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0110",
+      "title": "انتخاب حضرت آیت‌الله امام خامنه‌ای به رهبری"
+     },
+     {
+      "id": "E0126",
+      "title": "رحلت حضرت امام خمینی (ره)، رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1387-eaaccc43",
+      "page": 5,
+      "year": 1387,
+      "observedTitle": "1368) ایران رحلت حضرت امام خمینی (ره) رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ه. ش) انتخاب حضرت آیتاالله خامنهای به رهبری 1368)ه ش)"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "4caafaa928892783edefca82cb07b87abf418627e0de5de57575b14103cd6f37",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "2fce0100822d95a6cc567494e657f2d35d070536896a3dbbcb95aaf4cce5bbbf",
+   "signature": "FOi4JYLJSg/uF206PHjNA/2qLQHGLOvtSKVVPbB5bB6cANBc1K5HBon/5dkjhny9WM+nw4A95m6qM36HSEwwDA==",
+   "recordHash": "f28b707c67254908ce85f47ef3572caba427d9f0a6ef5199f350b533220c306d"
+  },
+  {
+   "seq": 4,
+   "action": "approve",
+   "eventId": "S252E2C30",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "S252E2C30",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "ولادتِ حضرت فاطمه زهرا + روز زن. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0500 ولادت حضرت فاطمه زهرا سلام الله علیها (هشتم قبل از هجرت؛ E0422 روز زن. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0422",
+      "title": "روز زن"
+     },
+     {
+      "id": "E0500",
+      "title": "ولادت حضرت فاطمه زهرا سلام الله علیها (هشتم قبل از هجرت"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1400-f3798991",
+      "page": 13,
+      "year": 1400,
+      "observedTitle": "تولد از هجرت) و روز زن سلام االله علیها (هشتم قبل ولادت حضرت فاطمۀ زهرا اسلامی 1320)ه ق) الله علیه) رهبر کبیر انقلاب حضرت امام خمینی (رحمة"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "cd0120578fd82cfa61bffe516be9f67044f0bd0ac36c5db102fc34313cbc0ad0",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "f28b707c67254908ce85f47ef3572caba427d9f0a6ef5199f350b533220c306d",
+   "signature": "u18gHxjVrIcwUhosMhytM4imnN7XDPjMZDtRelXIQWg5x3qe4tewZezmO0lfVE98Ijxzbh7LpkH5u1+JM5XMDA==",
+   "recordHash": "d728e67d6827d29a258f0655ba1161f01e6799d76a945fc84df752a281bfaeed"
+  },
+  {
+   "seq": 5,
+   "action": "approve",
+   "eventId": "S278D8684",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "S278D8684",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "شهادتِ آیت‌الله صدوقی + ولادتِ امام حسن مجتبی + روز اکرام. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0033 شهادت آیت‌الله صدوقی چهارمین شهید محراب به دست منافقین؛ E0483 ولادت حضرت امام حسن مجتبی علیه‌السلام؛ E0407 روز اکرام و تکریم خیرین. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0033",
+      "title": "شهادت آیت‌الله صدوقی چهارمین شهید محراب به دست منافقین"
+     },
+     {
+      "id": "E0407",
+      "title": "روز اکرام و تکریم خیرین"
+     },
+     {
+      "id": "E0483",
+      "title": "ولادت حضرت امام حسن مجتبی علیه‌السلام"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1394-e204a669",
+      "page": 7,
+      "year": 1394,
+      "observedTitle": "ش) ولادت 1361)ه شهادت آیتاالله صدوقی چهارمین شهید محراب حضرت امام حسن مجتبی علیهالسلام 3)ه ق) و روز اکرام \" \" 2"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "4350be4fd9b42c471b6f6be9388e9b0b1aac56d8b5d73de505a0911e4e09b11b",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "d728e67d6827d29a258f0655ba1161f01e6799d76a945fc84df752a281bfaeed",
+   "signature": "Dive9MuYOYgizKFV7mrSBV+vJmD/wSj/QRjawU0G72f9C3fLFYbt9yG3J0389VPWhqbfzPCSb40qmQ0ryh1gAQ==",
+   "recordHash": "cc3fb33bc847fde95a036d702c0ad7981abc18d7ceb33ebb4571c4491abbbde0"
+  },
+  {
+   "seq": 6,
+   "action": "approve",
+   "eventId": "S2864F821",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "S2864F821",
+    "decision": "map",
+    "target": "E0460",
+    "reason": "عنوان و تاریخِ ۶ ذی‌الحجه با E0460 یکی است. پنج ردیفِ پراکندهٔ همین رویداد در سال‌های مختلف به یک هویتِ کاتالوگی نگاشت شدند؛ عنوانِ اصلیِ هر ردیف به‌عنوان شاهد حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0460",
+      "title": "شهادت مظلومانه زائران خانه خدا به دست مأموران آل سعود"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1387-eaaccc43",
+      "page": 11,
+      "year": 1387,
+      "observedTitle": "ش ه 1366) سعود شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران آل برابر با 6 ذیالحجه 1407 ه ق)"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "876ac432fae9541f59120a2a72ca8e2703eef36a92d763332ea2f9a2fd4edccf",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "cc3fb33bc847fde95a036d702c0ad7981abc18d7ceb33ebb4571c4491abbbde0",
+   "signature": "cLKWP4Gs4AZaFL37KUwcQ7IIVpqoGYPWP/ne/NYJ51PLGmx00N+Qe9cfM5yy2CWWDpyGzmrMBgtnVeaQcAsqDA==",
+   "recordHash": "6d5f1ddefcb76687c9f89ea48410ae1f39df1c3b98dbb9e91ac6d14f9a388a96"
+  },
+  {
+   "seq": 7,
+   "action": "approve",
+   "eventId": "S2C075D77",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "S2C075D77",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "رحلتِ امام خمینی + انتخابِ آیت‌الله خامنه‌ای. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0126 رحلت حضرت امام خمینی (ره)، رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران؛ E0110 انتخاب حضرت آیت‌الله امام خامنه‌ای به رهبری. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0110",
+      "title": "انتخاب حضرت آیت‌الله امام خامنه‌ای به رهبری"
+     },
+     {
+      "id": "E0126",
+      "title": "رحلت حضرت امام خمینی (ره)، رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1395-7ba69166",
+      "page": 4,
+      "year": 1395,
+      "observedTitle": "ایران جمهوری اسلامی انقلاب و بنیانگذار االله علیه) رهبر کبیر رحلت حضرت امام خمینی (رحمة ه ش) به رهبری 1368) آیتاالله امام خامنهای 1368)ه ش) انتخاب حضرت"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "1608473b36c30ad9185828eee7b2e09948548ed24cbef45771eda9f06945a5fd",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "6d5f1ddefcb76687c9f89ea48410ae1f39df1c3b98dbb9e91ac6d14f9a388a96",
+   "signature": "bIcdw4ubxPPDiz+mEb3aOq3rodFUmJKjDAZ+fenC8Gh7LGwS/rgu0R/I3OBpMHoggSbDTjeZEgcSFHfXNSpVAA==",
+   "recordHash": "c221ff1d7bdd9015dd486f890cbbde598d715c452f4e3619a6c61414f4dedd6a"
+  },
+  {
+   "seq": 8,
+   "action": "approve",
+   "eventId": "S4B6485C1",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "S4B6485C1",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "تسخیرِ لانهٔ جاسوسی + روز مبارزه با استکبار + روز دانش‌آموز. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0118 تسخیر لانه جاسوسی آمریکا به دست دانشجویان پیرو خط امام؛ E0303 روز ملی مبارزه با استکبار جهانی؛ E0242 روز دانش‌آموز. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0118",
+      "title": "تسخیر لانه جاسوسی آمریکا به دست دانشجویان پیرو خط امام"
+     },
+     {
+      "id": "E0242",
+      "title": "روز دانش‌آموز"
+     },
+     {
+      "id": "E0303",
+      "title": "روز ملی مبارزه با استکبار جهانی"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1394-e204a669",
+      "page": 11,
+      "year": 1394,
+      "observedTitle": "ملی روز ش) ه 1358) امام خط پیرو به دست دانشجویان تسخیر لانه جاسوسی آمریکا دانش آموز مبارزه با استکبار جهانی روز"
+     },
+     {
+      "revisionId": "R-1395-7ba69166",
+      "page": 9,
+      "year": 1395,
+      "observedTitle": "ملی روز ش) ه 1358) امام خط پیرو به دست دانشجویان تسخیر لانه جاسوسی آمریکا دانش آموز مبارزه با استکبار جهانی روز"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "de48d5ce44f70d71e46e29aa67b2e2089f2d4af94de6a7f9da2994aca3b6648b",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "c221ff1d7bdd9015dd486f890cbbde598d715c452f4e3619a6c61414f4dedd6a",
+   "signature": "w9KJ47VxZ75406JCTTdTwNfbqWnMq4V8clyL0V5Mzy3q1+kJuGa9Na7dADOORZslsiVjpvTWWBEeXdWmHpL6DQ==",
+   "recordHash": "d47d3362c745e09b1d73e73f725138feeeea8ee23629ad16d6ed97789014d147"
+  },
+  {
+   "seq": 9,
+   "action": "approve",
+   "eventId": "S6ABF99E3",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "S6ABF99E3",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "شهادتِ آیت‌الله اشرفی اصفهانی + روز جهانی نابینایان. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0047 شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان؛ E0085 روز جهانی نابینایان (عصای سفید. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0047",
+      "title": "شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان"
+     },
+     {
+      "id": "E0085",
+      "title": "روز جهانی نابینایان (عصای سفید"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1389-3bd9a663",
+      "page": 10,
+      "year": 1389,
+      "observedTitle": "روز ش) 1361)ه شهادت پنجمین شهید محراب آیتاالله اشرفی اصفهانی به دست منافقان جهانی نابینایان (عصای سفید)"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "136cc1ce94362cdbdf0fc07b2b40df9bb5c743a957b86ff0de98353c8e595600",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "d47d3362c745e09b1d73e73f725138feeeea8ee23629ad16d6ed97789014d147",
+   "signature": "ecorSi682gTCDjUuGyuxqwMx/i/uAUDjtgfIb0kP2OhpmyQhCg8D4Q8wLrbQ4RMCGqJtIQ7h8SvIVF2xwUHpBw==",
+   "recordHash": "2e6aff152f0a7988e0bd43b37429167757d9f481121db44fd74c46d1bd129508"
+  },
+  {
+   "seq": 10,
+   "action": "approve",
+   "eventId": "S7AEF8101",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "S7AEF8101",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "روز تشکل‌ها + روز سلمان فارسی + ولادتِ امام حسن مجتبی. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0213 روز تشکل‌ها و مشارکت‌های اجتماعی؛ E0411 روز بزرگداشت سلمان فارسی؛ E0483 ولادت حضرت امام حسن مجتبی علیه‌السلام. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0213",
+      "title": "روز تشکل‌ها و مشارکت‌های اجتماعی"
+     },
+     {
+      "id": "E0411",
+      "title": "روز بزرگداشت سلمان فارسی"
+     },
+     {
+      "id": "E0483",
+      "title": "ولادت حضرت امام حسن مجتبی علیه‌السلام"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1403-6cfaa18d",
+      "page": 8,
+      "year": 1403,
+      "observedTitle": "بزرگداشت روز و روایتی به ق(حسن مجتبی علیهالسلام) 50 ه‍.شهادت حضرت امام تشکلها و مشارکتهای اجتماعی سلمان فارسی و روز"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "0d8bc050ac14c353dbcded46f3709cf15fa96415a7c2d786d83c91333da24998",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "2e6aff152f0a7988e0bd43b37429167757d9f481121db44fd74c46d1bd129508",
+   "signature": "WLmwljbMxINx0Ww5A/EbQdG6HOaYFfB0sN/WFHatzLhu/iWG0ZEEwui3YMioMBz9Js7Ou3eeCuV7CYoQqmAODg==",
+   "recordHash": "4544da66fc1f5c1269b108832cbb0de99244636a4bb0f723e8298112373a5cea"
+  },
+  {
+   "seq": 11,
+   "action": "approve",
+   "eventId": "SA25E4435",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "SA25E4435",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "رحلتِ امام خمینی + شهادتِ آیت‌الله دستغیب. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0126 رحلت حضرت امام خمینی (ره)، رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران؛ E0029 شهادت آیت‌الله دستغیب سومین شهید محراب به دست منافقان. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0029",
+      "title": "شهادت آیت‌الله دستغیب سومین شهید محراب به دست منافقان"
+     },
+     {
+      "id": "E0126",
+      "title": "رحلت حضرت امام خمینی (ره)، رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1404-057a40b2",
+      "page": 12,
+      "year": 1404,
+      "observedTitle": "حضرت امام خمینی)رحمة الله علیه(رهبر کبیر انقلاب اسلامی) 1320 ه‍.ق(و شهادت سومین شهید محراب، آیتالله دستغیب به دست منافقان) 1360 ه‍.ش("
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "807e62db7cce9882afb407cafb331d53a9744dce4c6753014fc207a4179ad328",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "4544da66fc1f5c1269b108832cbb0de99244636a4bb0f723e8298112373a5cea",
+   "signature": "lHnm8r9XMd9K8gqMdHCdya+RCcp+ScUjvtxgiqHZx+LpG2wLz3GzOO5fvtHt8fg826nw4NseO5aWUO9vZIZ4AQ==",
+   "recordHash": "c321b09320bdd09c6f1105fa73325a5b87705a788f15697d27a93eff1c138106"
+  },
+  {
+   "seq": 12,
+   "action": "approve",
+   "eventId": "SAE70E9EC",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "SAE70E9EC",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "شهادتِ آیت‌الله اشرفی اصفهانی + روز جهانی نابینایان. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0047 شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان؛ E0085 روز جهانی نابینایان (عصای سفید. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0047",
+      "title": "شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان"
+     },
+     {
+      "id": "E0085",
+      "title": "روز جهانی نابینایان (عصای سفید"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1390-23618f9d",
+      "page": 12,
+      "year": 1390,
+      "observedTitle": "روز ش) ه 1361) منافقان دست به شهادت پنجمین شهید محراب آیتاالله اشرفی اصفهانی جهانی نابینایان (عصای سفید)"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "d6237f222fcfb09bbc25519f42b71c828e8027fcddcbdb2e92473609ce548d4e",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "c321b09320bdd09c6f1105fa73325a5b87705a788f15697d27a93eff1c138106",
+   "signature": "CkQ75Bj+FN+sSlHZLlJ1+p9pT9/5iU//djx2ABRV93SvLFjnpgof/adRVzu+bTBws2f4fWRlDNiBJVLfrn6qAw==",
+   "recordHash": "478a1392fcfceac35424f26288dc05fd1f854ff5445cc4b4c8e552e077c90ee0"
+  },
+  {
+   "seq": 13,
+   "action": "approve",
+   "eventId": "SB0CAD007",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "SB0CAD007",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "شهادتِ آیت‌الله اشرفی اصفهانی + روز جهانی نابینایان. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0047 شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان؛ E0085 روز جهانی نابینایان (عصای سفید. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0047",
+      "title": "شهادت پنجمین شهید محراب، آیت‌الله اشرفی اصفهانی به دست منافقان"
+     },
+     {
+      "id": "E0085",
+      "title": "روز جهانی نابینایان (عصای سفید"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1388-17dacabc",
+      "page": 10,
+      "year": 1388,
+      "observedTitle": "روز شهادت پنجمین شهید محراب آیتاالله اشرفی اصفهانی به دست منافقان 1361)ه ش) جهانی نابینایان (عصای سفید)"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "a689de0451dab09c9536913014bc88c3292f467c39a2aa4d7a7242d3026f76f1",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "478a1392fcfceac35424f26288dc05fd1f854ff5445cc4b4c8e552e077c90ee0",
+   "signature": "RzId5PqSbuXBPbC2xTzaGxc7tUQ43TVv1jMgf6vAfEpURBZ5n49AlcAsHXjVmMFaqMjbjGgWoOHTKZ/lzczVAg==",
+   "recordHash": "a5784c1c8efad6e5fc006ebb430936785a906a69d1af4bdfcbbd8b4c6bbb163f"
+  },
+  {
+   "seq": 14,
+   "action": "approve",
+   "eventId": "SB5330A72",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "SB5330A72",
+    "decision": "map",
+    "target": "E0460",
+    "reason": "عنوان و تاریخِ ۶ ذی‌الحجه با E0460 یکی است. پنج ردیفِ پراکندهٔ همین رویداد در سال‌های مختلف به یک هویتِ کاتالوگی نگاشت شدند؛ عنوانِ اصلیِ هر ردیف به‌عنوان شاهد حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0460",
+      "title": "شهادت مظلومانه زائران خانه خدا به دست مأموران آل سعود"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1385-0b1d4305",
+      "page": 8,
+      "year": 1385,
+      "observedTitle": "شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران آل سعود 1366)ه ش برابر با 6 ذی-الحجه 1407 ه ق)"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "4151d292381c9b689934fe5a415bf3212fc92659c8f691b3b49201809870aca8",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "a5784c1c8efad6e5fc006ebb430936785a906a69d1af4bdfcbbd8b4c6bbb163f",
+   "signature": "fYVTgU5YndEjVjsr8AgEHlUcrwRYfh0ebqcWxs9VwBa0m9jaZ4krMOBSf7OVE16uv7qa0biVuhLwm7hF2RTZAw==",
+   "recordHash": "0d25fe364e9c03d72216b26351cac0ca5e30aebba2edd2f38c43eb4b8ce0450f"
+  },
+  {
+   "seq": 15,
+   "action": "approve",
+   "eventId": "SB889A638",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "SB889A638",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "هجوم به فیضیه + عید نوروز + آغاز عملیات فتح‌المبین. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0383 هجوم مأموران ستم‌شاهی پهلوی به مدرسه فیضیه قم؛ E0007 عید نوروز؛ E0100 آغاز عملیات فتح‌المبین. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0007",
+      "title": "عید نوروز"
+     },
+     {
+      "id": "E0100",
+      "title": "آغاز عملیات فتح‌المبین"
+     },
+     {
+      "id": "E0383",
+      "title": "هجوم مأموران ستم‌شاهی پهلوی به مدرسه فیضیه قم"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1390-23618f9d",
+      "page": 5,
+      "year": 1390,
+      "observedTitle": "ش) ه 1342) قم فیضیه مدرسه شاهی پهلوی به نوروز هجوم مأموران ستم عید عملیات فتحالمبین 1361)ه ش) آغاز"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "24e32fec00536c88dd59e028e5ecdc85964f86ab4097db8dc2cd9ee6920ae6a6",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "0d25fe364e9c03d72216b26351cac0ca5e30aebba2edd2f38c43eb4b8ce0450f",
+   "signature": "7EWUb2TomGGBWp7nJ2Jlxe+usPXTUSpZa44PMCHN79KCnH/v6o4gK1CyOgx+vFwmju4mnNxYNUTMwk6/KKfsAw==",
+   "recordHash": "f4fe5989b940557d2898da98ca4412c525c65474c2e30da3997e4dc412e8b3cd"
+  },
+  {
+   "seq": 16,
+   "action": "approve",
+   "eventId": "SB8C7DC86",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "SB8C7DC86",
+    "decision": "map",
+    "target": "E0460",
+    "reason": "عنوان و تاریخِ ۶ ذی‌الحجه با E0460 یکی است. پنج ردیفِ پراکندهٔ همین رویداد در سال‌های مختلف به یک هویتِ کاتالوگی نگاشت شدند؛ عنوانِ اصلیِ هر ردیف به‌عنوان شاهد حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0460",
+      "title": "شهادت مظلومانه زائران خانه خدا به دست مأموران آل سعود"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1388-17dacabc",
+      "page": 12,
+      "year": 1388,
+      "observedTitle": "ش شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران آل سعود 1366)ه برابر با 6 ذیالحجه 1407 ه ق)"
+     },
+     {
+      "revisionId": "R-1389-3bd9a663",
+      "page": 11,
+      "year": 1389,
+      "observedTitle": "ش شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران آل سعود 1366)ه برابر با 6 ذیالحجه 1407 ه ق)"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "91205c7a616aa04ba4465bce30915288047e73e2cf2604c73fe735111d65d860",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "f4fe5989b940557d2898da98ca4412c525c65474c2e30da3997e4dc412e8b3cd",
+   "signature": "YV1Z2c3dPnF51ehWzzqkVCH0QoINO/qFEeKNxm0Tetx/GTOFq+hSDCS07Nv4e4hCfZWtI/zoVUj3qS0HEAsoCA==",
+   "recordHash": "9cf6992b5f17e2362c18fbbf451a8b101e50f5a23ff010687c731dc161e44b39"
+  },
+  {
+   "seq": 17,
+   "action": "approve",
+   "eventId": "SC44FB5BA",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "SC44FB5BA",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "هجوم به فیضیه + عید نوروز + آغاز عملیات فتح‌المبین. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0383 هجوم مأموران ستم‌شاهی پهلوی به مدرسه فیضیه قم؛ E0007 عید نوروز؛ E0100 آغاز عملیات فتح‌المبین. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0007",
+      "title": "عید نوروز"
+     },
+     {
+      "id": "E0100",
+      "title": "آغاز عملیات فتح‌المبین"
+     },
+     {
+      "id": "E0383",
+      "title": "هجوم مأموران ستم‌شاهی پهلوی به مدرسه فیضیه قم"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1394-e204a669",
+      "page": 4,
+      "year": 1394,
+      "observedTitle": "ش) ه فیضیه قم 1342) نوروز هجوم مأموران ستم شاهی پهلوی به مدرسه عید عملیات فتحالمبین 1361)ه ش) آغاز"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "c35204ce6695c9422e1482942378e79ada3c69ceca154c85945ad27ca2ec102c",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "9cf6992b5f17e2362c18fbbf451a8b101e50f5a23ff010687c731dc161e44b39",
+   "signature": "0bRt4NG4xe2dUpRwlREmxo3LpJn14jtMIg+GSDwQ7CjFSf8pcaYfaPUzUK5lXNy4gT8+t7DmNDpBjt10l0pYAw==",
+   "recordHash": "dadcbf9820b1d88d6f8f4c5f1e379f9274761752afe42681cad52b889bab2307"
+  },
+  {
+   "seq": 18,
+   "action": "approve",
+   "eventId": "SD5409974",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "SD5409974",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "لغوِ امتیاز تنباکو + شهادتِ امام موسی کاظم. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0379 لغو امتیاز تنباکو به فتوای آیت‌الله میرزا حسن شیرازی؛ E0455 شهادت حضرت امام موسی کاظم علیه‌السلام. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0379",
+      "title": "لغو امتیاز تنباکو به فتوای آیت‌الله میرزا حسن شیرازی"
+     },
+     {
+      "id": "E0455",
+      "title": "شهادت حضرت امام موسی کاظم علیه‌السلام"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1394-e204a669",
+      "page": 5,
+      "year": 1394,
+      "observedTitle": "امام حضرت ه ش) شهادت 1270) شیرازی حسن لغو امتیاز تنباکو به فتوای آیتاالله میرزا موسی کاظم علیه السلام 183)ه ق)"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "3294de577a18a6a59d7052cea6d68d5720ceb012fe1ef9238af37e8c3d90998e",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "dadcbf9820b1d88d6f8f4c5f1e379f9274761752afe42681cad52b889bab2307",
+   "signature": "aNux13EB2ffKJ1hBDWTiAiwAJF/1YE6w/iLvz2QIIMn8WPR9xaMGSTsz1+kZC9nXV0fkb+fGNhaH1JWCX3IWAg==",
+   "recordHash": "6cc43f5b79248ef4b173af4b4f2e34393e7f30def74a0af5fb60d60a3af920a1"
+  },
+  {
+   "seq": 19,
+   "action": "approve",
+   "eventId": "SE2CF8360",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "SE2CF8360",
+    "decision": "map",
+    "target": "E0460",
+    "reason": "عنوان و تاریخِ ۶ ذی‌الحجه با E0460 یکی است. پنج ردیفِ پراکندهٔ همین رویداد در سال‌های مختلف به یک هویتِ کاتالوگی نگاشت شدند؛ عنوانِ اصلیِ هر ردیف به‌عنوان شاهد حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0460",
+      "title": "شهادت مظلومانه زائران خانه خدا به دست مأموران آل سعود"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1384-94bd5039",
+      "page": 14,
+      "year": 1384,
+      "observedTitle": "(6 سعود آل شهادت مظلومانه زائران خانه خدا به دستور آمریکا به دست مأموران ذیالحجه 1407 ه.ق- برابر با 11 مرداد 1366 ه.ش)"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "c79c2bc592ad6feaf71b564dbe9202ab288c6313ef72baee7a946303453fedbd",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "6cc43f5b79248ef4b173af4b4f2e34393e7f30def74a0af5fb60d60a3af920a1",
+   "signature": "e57nb66JFI7bEF98L5k46i0lL/ft5V8+i78nHZ72Za+pEFlYhyOkfnNoa4f8RyvMx4cL4wvlo5OmlKsPxW0XAg==",
+   "recordHash": "b0214b60ccf5eab5a9c3a4c93180e795494f624b72d7c020b1e70cc089149714"
+  },
+  {
+   "seq": 20,
+   "action": "approve",
+   "eventId": "SE36B292D",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "SE36B292D",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "هجوم به فیضیه + عید نوروز + آغاز عملیات فتح‌المبین. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0383 هجوم مأموران ستم‌شاهی پهلوی به مدرسه فیضیه قم؛ E0007 عید نوروز؛ E0100 آغاز عملیات فتح‌المبین. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0007",
+      "title": "عید نوروز"
+     },
+     {
+      "id": "E0100",
+      "title": "آغاز عملیات فتح‌المبین"
+     },
+     {
+      "id": "E0383",
+      "title": "هجوم مأموران ستم‌شاهی پهلوی به مدرسه فیضیه قم"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1385-0b1d4305",
+      "page": 4,
+      "year": 1385,
+      "observedTitle": "ش) ه 1342 (قم فیضیه مدرسه به نوروز هجوم مأموران ستم شاهی پهلوی عید عملیات فتح المبین 1361)هش) آغاز"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "b08fc000506e6afc0d5b9414dc810a11f5d17df7c09faea73fa060ad5d0efe22",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:34Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "b0214b60ccf5eab5a9c3a4c93180e795494f624b72d7c020b1e70cc089149714",
+   "signature": "VCGmZEseHDOjAT8bo1LxAlfkCPqwXBlN7MC1LPoIoU7Jo5CrCapi0zDNoGg5qwyi8Qw/7ymGHEAZAHPhrJYdAQ==",
+   "recordHash": "dbf214fbc05c4d2b9139791e25b002995d4e1316fdba1cfc48a4d2b6275c194f"
+  },
+  {
+   "seq": 21,
+   "action": "approve",
+   "eventId": "SEF782279",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "SEF782279",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "رحلتِ امام خمینی + انتخابِ آیت‌الله خامنه‌ای. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0126 رحلت حضرت امام خمینی (ره)، رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران؛ E0110 انتخاب حضرت آیت‌الله امام خامنه‌ای به رهبری. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0110",
+      "title": "انتخاب حضرت آیت‌الله امام خامنه‌ای به رهبری"
+     },
+     {
+      "id": "E0126",
+      "title": "رحلت حضرت امام خمینی (ره)، رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1382-c294d47c",
+      "page": 4,
+      "year": 1382,
+      "observedTitle": "رحلت حضرت امام خمینی (ره) رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران 1368)ه.ش) - انتخاب حضرت آیتاالله خامنهای به رهبری 1368) \" \" 4 \" \" 3 \" 14 چهارشنبه ه.ش)"
+     },
+     {
+      "revisionId": "R-1383-e445faf3",
+      "page": 6,
+      "year": 1383,
+      "observedTitle": "رحلت حضرت امام خمینی (ره) رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران 1368)ه.ش) - انتخاب حضرت آیتاالله خامنهای به رهبری 1368) ه.ش)"
+     },
+     {
+      "revisionId": "R-1384-94bd5039",
+      "page": 6,
+      "year": 1384,
+      "observedTitle": "رحلت حضرت امام خمینی (ره) رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران 1368)ه.ش) - انتخاب حضرت آیتاالله خامنهای به رهبری 1368) ه.ش)"
+     },
+     {
+      "revisionId": "R-1385-0b1d4305",
+      "page": 6,
+      "year": 1385,
+      "observedTitle": "رحلت حضرت امام خمینی (ره) رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران 1368)ه ش) انتخاب حضرت آیت االله خامنه ای به رهبری 1368)ه ش)"
+     },
+     {
+      "revisionId": "R-1386-07dfaefd",
+      "page": 5,
+      "year": 1386,
+      "observedTitle": "رحلت حضرت امام خمینی (ره) رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران 1368)ه ش) – انتخاب حضرت آیت االله خامنهای به رهبری 1368)ه ش)"
+     },
+     {
+      "revisionId": "R-1388-17dacabc",
+      "page": 6,
+      "year": 1388,
+      "observedTitle": "رحلت حضرت امام خمینی (ره) رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران 1368) ه ش) انتخاب حضرت آیتاالله خامنهای به رهبری 1368)ه ش)"
+     },
+     {
+      "revisionId": "R-1389-3bd9a663",
+      "page": 6,
+      "year": 1389,
+      "observedTitle": "رحلت حضرت امام خمینی (ره) رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی ایران 1368) ه ش) انتخاب حضرت آیتاالله خامنهای به رهبری 1368)ه ش)"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "92f207626880f79b89ed2c4909d19fc100f2566546e59eeac5611c4f3e23b8fb",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:35Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "dbf214fbc05c4d2b9139791e25b002995d4e1316fdba1cfc48a4d2b6275c194f",
+   "signature": "Gw3nSWDZv+8CcAUfU0NUU6LGEGeHKIajaCPyA2VIiVM5PaVeqxDFdNHXmJFexkaxc0C2NbJhWGxc8eVdzVPXCQ==",
+   "recordHash": "439e32a1d37367b07209d81b1582e8d5499a24d9728d2e310bf2b66d25f3227d"
+  },
+  {
+   "seq": 22,
+   "action": "approve",
+   "eventId": "SF918DD6B",
+   "statement": {
+    "kind": "identity-review-v1",
+    "eventId": "SF918DD6B",
+    "decision": "keep-merged-row",
+    "target": null,
+    "reason": "شهادتِ آیت‌الله مفتح + روز وحدتِ حوزه و دانشگاه + روز جهان عاری از خشونت. PDF چند رویدادِ متفاوت را در یک سطر چاپ کرده و ترتیبِ واژه‌ها جابه‌جا شده است. اجزای قابلِ تشخیص: E0030 شهادت آیت‌الله دکتر محمد مفتح؛ E0326 روز وحدت حوزه و دانشگاه؛ E0223 روز جهان عاری از خشونت و افراطی‌گری. ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.",
+    "constituents": [
+     {
+      "id": "E0030",
+      "title": "شهادت آیت‌الله دکتر محمد مفتح"
+     },
+     {
+      "id": "E0223",
+      "title": "روز جهان عاری از خشونت و افراطی‌گری"
+     },
+     {
+      "id": "E0326",
+      "title": "روز وحدت حوزه و دانشگاه"
+     }
+    ],
+    "evidence": [
+     {
+      "revisionId": "R-1401-1c1e4462",
+      "page": 14,
+      "year": 1401,
+      "observedTitle": "دانشگاه و حوزه وحدت روز ش) ه مفتح 1358) شهادت آیتاالله دکتر محمد افراطیگری روز جهانعاری از خشونت و"
+     }
+    ],
+    "reviewedBy": "proposal:build_identity_reviews.py",
+    "reviewedAt": "2026-11-24T00:00:00Z"
+   },
+   "statementSha256": "121f3cd81c499b01bbbd9776179ee77e0943213003d481769d9f5ff73bc9685e",
+   "approver": "user:syedmohdbarzgar",
+   "channel": "chat",
+   "approvedAt": "2026-11-25T11:43:35Z",
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "note": "تأیید صریح کاربر در چت (۲۴ نوامبر ۲۰۲۶) برای اعمال هر ۲۲ تصمیم بازبینی هویت، بر پایه شاهد صفحه/نسخه و علت ثبت‌شده. · approval recorded from explicit chat instruction",
+   "prevHash": "439e32a1d37367b07209d81b1582e8d5499a24d9728d2e310bf2b66d25f3227d",
+   "signature": "4DccACLX+rdNflFxND2pGHwcQF0yMhQzhVT1lOnD1jsZH5Hn2pc0z6iSSTgoqnld0CgAmf6Rs4dYXbg0KCb3AA==",
+   "recordHash": "b84633a5f35986964798698b65bbd3bb23197b093295282fbecfc66bb1f45e58"
+  }
+ ]
+}

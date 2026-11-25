@@ -1,0 +1,13 @@
+{
+ "version": 1,
+ "keys": [
+  {
+   "keyId": "ed25519:9566b39b137ef4e4",
+   "algorithm": "Ed25519",
+   "publicKey": "wbKbLZF3OAXHRDIMsonwzMtCJkqOwpghOn65s9cOHDY=",
+   "owner": "user:syedmohdbarzgar",
+   "createdAt": "2026-11-25T11:43:27Z",
+   "note": "کلیدِ محلیِ تأییدِ تصمیم‌های هویت؛ خصوصی commit نمی‌شود."
+  }
+ ]
+}

@@ -69,3 +69,13 @@ data/review/uploads/
 *.7z
 *.tar
 *.tar.gz
+
+# ─── کلیدِ خصوصیِ تأیید (فقط محلی؛ کلیدِ عمومی در approvals) ───
+.approval-keys/
+
+# ─── ابزارهای خودکارِ محیط ───
+.agents/
+
+# ─── ابزار/تصاویرِ OCR (قابلِ بازتولید) ───
+tools/ocr/node_modules/
+tools/ocr/cache/

@@ -89,7 +89,10 @@ def pdf_pages(pdf: Path) -> list[str]:
     proc = subprocess.run(["pdftotext", "-table", "-enc", "UTF-8", str(pdf), "-"], capture_output=True)
     if proc.returncode != 0:
         raise RuntimeError(proc.stderr.decode("utf-8", "replace")[:300])
-    return proc.stdout.decode("utf-8", "replace").translate(BIDI).split("\f")
+    text = proc.stdout.decode("utf-8", "replace").translate(BIDI)
+    # pdftotext بعد از آخرین صفحه یک \f و صفحهٔ خالیِ انتهایی می‌گذارد؛ آن یک
+    # صفحهٔ واقعی نیست و نباید به صفِ OCR/شاهد اضافه شود.
+    return text.rstrip("\f").split("\f")
 
 
 def jalali_to_gregorian(jy: int, jm: int, jd: int) -> tuple[int, int, int]:

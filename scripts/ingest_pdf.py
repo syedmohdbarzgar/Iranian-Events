@@ -22,6 +22,8 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
+import json
 import re
 import shutil
 import subprocess
@@ -37,6 +39,7 @@ import parse_official  # noqa: E402
 import revision_diff  # noqa: E402
 
 PDF_DIR = ROOT / "PDF"
+OCR_TOOL = ROOT / "tools" / "ocr" / "ocr_page.cjs"
 YEAR_MIN, YEAR_MAX = 1300, 1420
 PERSIAN_DIGITS = str.maketrans("۰۱۲۳۴۵۶۷۸۹٠١٢٣٤٥٦٧٨٩", "01234567890123456789")
 BIDI = {ord(c): None for c in "\u200e\u200f\u202a\u202b\u202c\u202d\u202e\u2066\u2067\u2068\u2069\u200b\u200c\u200d\ufeff"}
@@ -162,7 +165,18 @@ def render_page(pdf: Path, page: int, out_dir: Path) -> dict:
         cmd = ["gs", "-q", "-dNOPAUSE", "-dBATCH", "-sDEVICE=png16m", "-r150",
                f"-dFirstPage={page}", f"-dLastPage={page}", f"-sOutputFile={target}", str(pdf)]
     else:
-        return {"available": False, "reason": "هیچ رندرکننده‌ای (pdftoppm/mutool/gs) نصب نیست"}
+        try:
+            import pymupdf  # noqa: PLC0415 - وابستگیِ اختیاریِ OCR
+        except ImportError:
+            return {"available": False,
+                    "reason": "هیچ رندرکننده‌ای (pdftoppm/mutool/gs/pymupdf) نصب نیست"}
+        document = pymupdf.open(pdf)
+        if not 1 <= page <= document.page_count:
+            return {"available": False, "reason": f"صفحهٔ {page} در سند نیست"}
+        pix = document[page - 1].get_pixmap(dpi=400)
+        pix.save(target)
+        return {"available": True, "path": str(target.relative_to(ROOT)),
+                "engine": "pymupdf", "width": pix.width, "height": pix.height}
     proc = subprocess.run(cmd, capture_output=True)
     if proc.returncode != 0 or not target.exists():
         return {"available": False, "reason": proc.stderr.decode("utf-8", "replace")[:200]}
@@ -170,18 +184,39 @@ def render_page(pdf: Path, page: int, out_dir: Path) -> dict:
 
 
 def ocr_page(pdf: Path, page: int, out_dir: Path, lang: str = "fas+eng") -> dict:
-    """OCR یک صفحه؛ در نبودِ ابزار، وضعیتِ «مسدود» با دلیلِ عملی برمی‌گردد."""
-    if not tool("tesseract"):
-        return {"status": "blocked", "reason": "tesseract نصب نیست (apt/choco install tesseract)"}
+    """OCR یک صفحه با tesseract یا tesseract.js؛ نتیجهٔ ساختاری با شاهدِ تصویر."""
+    if not tool("tesseract") and not (tool("node") and OCR_TOOL.exists()):
+        return {"status": "blocked",
+                "reason": "tesseract و tesseract.js هر دو در دسترس نیستند"}
     rendered = render_page(pdf, page, out_dir)
     if not rendered.get("available"):
         return {"status": "blocked", "reason": f"رندرِ صفحه ممکن نشد: {rendered.get('reason')}"}
-    proc = subprocess.run(["tesseract", str(ROOT / rendered["path"]), "stdout", "-l", lang],
-                          capture_output=True)
+    image = ROOT / rendered["path"]
+    meta = {
+        "page": page,
+        "image": rendered["path"],
+        "imageSha256": store.sha256_file(image),
+        "render": rendered.get("engine", "external"),
+    }
+    if tool("tesseract"):
+        proc = subprocess.run(["tesseract", str(image), "stdout", "-l", lang],
+                              capture_output=True)
+        if proc.returncode != 0:
+            return {"status": "error", "reason": proc.stderr.decode("utf-8", "replace")[:300], **meta}
+        text = proc.stdout.decode("utf-8", "replace")
+        return {"status": "ok", "text": text, "chars": len(text.strip()), "lang": lang,
+                "engine": "tesseract", "confidence": None, **meta}
+    proc = subprocess.run(["node", str(OCR_TOOL), str(image)], capture_output=True)
     if proc.returncode != 0:
-        return {"status": "error", "reason": proc.stderr.decode("utf-8", "replace")[:300]}
-    text = proc.stdout.decode("utf-8", "replace")
-    return {"status": "ok", "text": text, "chars": len(text.strip()), "lang": lang}
+        return {"status": "error", "reason": proc.stderr.decode("utf-8", "replace")[:300], **meta}
+    try:
+        data = json.loads(proc.stdout.decode("utf-8"))
+    except json.JSONDecodeError as exc:
+        return {"status": "error", "reason": f"خروجیِ OCR قابلِ تجزیه نیست: {exc}", **meta}
+    text = data.get("text", "")
+    return {"status": "ok", "text": text, "chars": len(text.strip()),
+            "lang": data.get("lang", "fas"), "engine": data.get("engine", "tesseract.js"),
+            "confidence": data.get("confidence"), "ocrLines": data.get("lines"), **meta}
 
 
 def page_texts(pdf: Path) -> list[str]:
@@ -236,8 +271,8 @@ def _ocr_title(line: str, spans: list[tuple[int, int]]) -> str:
     title = "".join(chars)
     title = re.sub(r"(?:شنبه|یکشنبه|يكشنبه|دوشنبه|سهشنبه|سه\s*شنبه|چهارشنبه|پنجشنبه|پنج\s*شنبه|جمعه|آدینه)", " ", title)
     title = title.replace("تعطیل", " ")
-    title = re.sub(r"[()\[\]{}«»\"'،,؛;:.!?؟]+", " ", title)
-    title = re.sub(r"\s+", " ", title).strip(" -–—")
+    title = re.sub(r"[()\[\]{}«»\"'،,؛;:.!?؟|\\/]+", " ", title)
+    title = re.sub(r"\s+", " ", title).strip(" -–—|")
     return title
 
 
@@ -291,7 +326,8 @@ def _explicit_lunar(line: str) -> list[int] | None:
     return [int(ym.group(1)) if ym else None, month, int(m.group(1))]
 
 
-def parse_ocr_page(text: str, year: int, page: int) -> list[dict]:
+def parse_ocr_page(text: str, year: int, page: int,
+                   ocr_meta: dict | None = None) -> list[dict]:
     """متنِ OCR یک صفحه را به ردیف‌های تاریخ‌دار تبدیل می‌کند.
 
     ابتدا همان تجزیه‌گرِ جدولِ رسمی امتحان می‌شود (اگر OCR ستون‌ها را حفظ کرده باشد)؛
@@ -301,6 +337,7 @@ def parse_ocr_page(text: str, year: int, page: int) -> list[dict]:
     """
     rows: list[dict] = []
     seen: set[tuple[int, int, str]] = set()
+    ocr_witness = {"page": page, **(ocr_meta or {})}
     lines = text.splitlines()
     offset = 0
     line_starts = []
@@ -337,6 +374,7 @@ def parse_ocr_page(text: str, year: int, page: int) -> list[dict]:
                 "weekday": r.get("weekday"), "title": title, "holiday": holiday,
                 "page": page, "derived": r.get("derived", []), "locator": None,
                 "bbox": None, "source": "ocr-table", "function": None,
+                "ocr": dict(ocr_witness),
             }
             flags = _ocr_flags(row, multiple_dates=False)
             row["confidence"] = confidence(row, flags)
@@ -371,6 +409,9 @@ def parse_ocr_page(text: str, year: int, page: int) -> list[dict]:
                             "charEnd": line_starts[lineno - 1] + end,
                             "lineText": norm_line[:200]},
                 "bbox": None, "source": "ocr-line", "function": None,
+                "ocr": {**ocr_witness,
+                        "line": lineno, "charStart": line_starts[lineno - 1] + start,
+                        "charEnd": line_starts[lineno - 1] + end},
             }
             flags = _ocr_flags(row, multiple_dates=len(dates) > 1)
             row["confidence"] = confidence(row, flags)
@@ -441,7 +482,7 @@ def build_revision(pdf: Path, year: int | None, *, do_ocr: bool = False,
     ocr_rows: list[dict] = []
     unparsed_ocr: list[int] = []
     provided = ocr_texts or {}
-    for page in scanned_pages:
+    for page in sorted(set(scanned_pages) | set(provided)):
         text = provided.get(page)
         if text is None and do_ocr:
             result = ocr_page(pdf, page, store.INGEST_DIR / rid / "ocr")
@@ -453,7 +494,11 @@ def build_revision(pdf: Path, year: int | None, *, do_ocr: bool = False,
                                       "source": "provided-ocr-text"}
         if text is None:
             continue
-        parsed_ocr = parse_ocr_page(text, year, page)
+        parsed_ocr = parse_ocr_page(
+            text, year, page,
+            ocr_meta={k: v for k, v in ocr_results[str(page)].items()
+                      if k in {"engine", "lang", "confidence", "image", "imageSha256",
+                               "render", "source", "ocrLines"}})
         ocr_pages.append(page)
         if parsed_ocr:
             ocr_rows.extend(parsed_ocr)

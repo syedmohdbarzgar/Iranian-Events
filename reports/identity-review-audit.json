@@ -1,0 +1,184 @@
+{
+ "generatedAt": "2026-11-25T12:16:10.089931Z",
+ "reviews": [
+  {
+   "eventId": "S1273FA50",
+   "decision": "map",
+   "target": "E0460",
+   "evidenceRows": 2,
+   "constituents": 1,
+   "approved": true
+  },
+  {
+   "eventId": "S194E7B48",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 1,
+   "constituents": 2,
+   "approved": true
+  },
+  {
+   "eventId": "S23C94E95",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 1,
+   "constituents": 2,
+   "approved": true
+  },
+  {
+   "eventId": "S252E2C30",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 1,
+   "constituents": 2,
+   "approved": true
+  },
+  {
+   "eventId": "S278D8684",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 1,
+   "constituents": 3,
+   "approved": true
+  },
+  {
+   "eventId": "S2864F821",
+   "decision": "map",
+   "target": "E0460",
+   "evidenceRows": 1,
+   "constituents": 1,
+   "approved": true
+  },
+  {
+   "eventId": "S2C075D77",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 1,
+   "constituents": 2,
+   "approved": true
+  },
+  {
+   "eventId": "S4B6485C1",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 2,
+   "constituents": 3,
+   "approved": true
+  },
+  {
+   "eventId": "S6ABF99E3",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 1,
+   "constituents": 2,
+   "approved": true
+  },
+  {
+   "eventId": "S7AEF8101",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 1,
+   "constituents": 3,
+   "approved": true
+  },
+  {
+   "eventId": "SA25E4435",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 1,
+   "constituents": 2,
+   "approved": true
+  },
+  {
+   "eventId": "SAE70E9EC",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 1,
+   "constituents": 2,
+   "approved": true
+  },
+  {
+   "eventId": "SB0CAD007",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 1,
+   "constituents": 2,
+   "approved": true
+  },
+  {
+   "eventId": "SB5330A72",
+   "decision": "map",
+   "target": "E0460",
+   "evidenceRows": 1,
+   "constituents": 1,
+   "approved": true
+  },
+  {
+   "eventId": "SB889A638",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 1,
+   "constituents": 3,
+   "approved": true
+  },
+  {
+   "eventId": "SB8C7DC86",
+   "decision": "map",
+   "target": "E0460",
+   "evidenceRows": 2,
+   "constituents": 1,
+   "approved": true
+  },
+  {
+   "eventId": "SC44FB5BA",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 1,
+   "constituents": 3,
+   "approved": true
+  },
+  {
+   "eventId": "SD5409974",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 1,
+   "constituents": 2,
+   "approved": true
+  },
+  {
+   "eventId": "SE2CF8360",
+   "decision": "map",
+   "target": "E0460",
+   "evidenceRows": 1,
+   "constituents": 1,
+   "approved": true
+  },
+  {
+   "eventId": "SE36B292D",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 1,
+   "constituents": 3,
+   "approved": true
+  },
+  {
+   "eventId": "SEF782279",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 7,
+   "constituents": 2,
+   "approved": true
+  },
+  {
+   "eventId": "SF918DD6B",
+   "decision": "keep-merged-row",
+   "target": null,
+   "evidenceRows": 1,
+   "constituents": 3,
+   "approved": true
+  }
+ ],
+ "issues": [],
+ "errors": 0,
+ "gate": "pass"
+}

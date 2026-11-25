@@ -26,6 +26,7 @@ STEPS = [
     ("وضعیتِ مبتنی بر شاهد", "apply_evidence_status.py"),
     ("متادیتای دارایی‌های اپ", "sync_app_asset_evidence.py"),
     ("manifest داده", "build_data_manifest.py"),
+    ("هم‌گام‌سازیِ نسخهٔ گزارش‌ها", "sync_report_versions.py"),
     ("رویدادها و پک‌ها", "audit_events.py"),
     ("جدول‌های درهم‌ادغام", "audit_merged_tables.py"),
     ("سازگاری کاتالوگ", "check_consistency.py"),
@@ -34,9 +35,13 @@ STEPS = [
     ("صفِ بازبینی", "build_review_queue.py"),
     ("تکرارهای کاتالوگ", "audit_catalog_duplicates.py"),
     ("استخراجِ سال‌های مسدود", "audit_extraction_issues.py"),
+    ("ممیزیِ مستقلِ تصمیم‌های هویت", "audit_identity_reviews.py"),
     ("گیتِ تاریخِ رویداد", "audit_history.py"),
     ("نمای تاریخ", "build_history_view.py"),
+    ("تطبیقِ آمارِ گزارش‌ها", "audit_statistics.py"),
+    ("تکلیفِ سال‌های بدونِ نسخه", "audit_year_coverage.py"),
     ("خروجیِ وب", "build_web.py"),
+    ("تطبیقِ وب و JSON", "audit_web_consistency.py"),
 ]
 
 

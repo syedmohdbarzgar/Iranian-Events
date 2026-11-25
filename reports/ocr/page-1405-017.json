@@ -1,0 +1,137 @@
+{
+ "status": "ok",
+ "pdf": "PDF\\Calendar-1405.pdf",
+ "pdfSha256": "8e32b520d5da058414b9378d62a01117273336a4c074591f4e84d59ab32a963c",
+ "page": 17,
+ "year": 1405,
+ "engine": "tesseract.js",
+ "lang": "fas",
+ "confidence": 71,
+ "image": "reports\\ocr\\images\\page-017.png",
+ "imageSha256": "7df0512fb14b61b571dd00b0d73de4ae28cd4aebf9dd341cce6f4a730e25350e",
+ "render": "pymupdf",
+ "textChars": 656,
+ "text": "تقویم رسمی سال ۱۳۰۵ هجری شمسی\nاستخراج و تنظیم: شورای مرکز تقویم موْسسةٌ زئوفیزیک دانشگاه تهران\nبس ۱ شکسته شدن حکومت نظامی به فرمان حضرت امام خمینی :۶۴۱۹ (۱۳۵۷ هد ش)\nصدور حکم تاریخی حضرت امام خمین (حمّالله علب) مینی بر ارتداد سلمان رشدی نویسندةٌ خائن کتاب آیات شیطانی (۱۳۶۷ هش)\n۸ اسفند | اسف را روز آمور تربیتی و تربیت اسلامی - روز بزرگداشت حکیم حاج ملاهادی سبزواری\nاس ووزحات از طوق ضرف کنضان\nکت\nجدول تنغویم اصناف» حرفه‌ها و مشاغل کشور\n۵ اردیبهشت\n۵ اردیبهشت\n۳ اردیبهشت روز مشاغل خانگی و تولید خانواده‌محور\n۱ اردیبهشت\nروز مشاور املاک\nروز صنعت ابزارآلات\nروز عینک‌سازی و پینایی‌سنجی\n۵ آبان\nروز دفاتر اسناد رسمی\nروز خادمان آرامستان\nوزصتت طلا جوا تفر و تودرستنا\n",
+ "rows": [
+  {
+   "solar": [
+    1405,
+    2,
+    3
+   ],
+   "gregorian": [
+    2026,
+    4,
+    23
+   ],
+   "lunar": null,
+   "weekday": null,
+   "title": "روز مشاغل خانگی و تولید خانوادهمحور",
+   "holiday": false,
+   "page": 17,
+   "derived": [
+    "gregorian"
+   ],
+   "locator": {
+    "kind": "ocr-line",
+    "page": 17,
+    "line": 11,
+    "charStart": 457,
+    "charEnd": 467,
+    "lineText": "3 اردیبهشت روز مشاغل خانگی و تولید خانوادهمحور"
+   },
+   "bbox": null,
+   "source": "ocr-line",
+   "function": null,
+   "ocr": {
+    "page": 17,
+    "engine": "tesseract.js",
+    "lang": "fas",
+    "confidence": 71,
+    "image": "reports\\ocr\\images\\page-017.png",
+    "imageSha256": "7df0512fb14b61b571dd00b0d73de4ae28cd4aebf9dd341cce6f4a730e25350e",
+    "render": "pymupdf",
+    "line": 11,
+    "charStart": 457,
+    "charEnd": 467
+   },
+   "confidence": 0.4,
+   "flags": [
+    "missing-lunar",
+    "ocr-page",
+    "ocr-row"
+   ],
+   "needsReview": true,
+   "link": {
+    "occurrenceId": null,
+    "eventId": null,
+    "kind": "unmatched",
+    "candidates": 4,
+    "sourceRevisionId": null,
+    "sourcePage": null
+   }
+  },
+  {
+   "solar": [
+    1405,
+    12,
+    8
+   ],
+   "gregorian": [
+    2027,
+    2,
+    27
+   ],
+   "lunar": null,
+   "weekday": null,
+   "title": "اسف را روز آمور تربیتی و تربیت اسلامی - روز بزرگداشت حکیم حاج ملاهادی سبزواری",
+   "holiday": false,
+   "page": 17,
+   "derived": [
+    "gregorian"
+   ],
+   "locator": {
+    "kind": "ocr-line",
+    "page": 17,
+    "line": 5,
+    "charStart": 277,
+    "charEnd": 284,
+    "lineText": "8 اسفند | اسف را روز آمور تربیتی و تربیت اسلامی - روز بزرگداشت حکیم حاج ملاهادی سبزواری"
+   },
+   "bbox": null,
+   "source": "ocr-line",
+   "function": null,
+   "ocr": {
+    "page": 17,
+    "engine": "tesseract.js",
+    "lang": "fas",
+    "confidence": 71,
+    "image": "reports\\ocr\\images\\page-017.png",
+    "imageSha256": "7df0512fb14b61b571dd00b0d73de4ae28cd4aebf9dd341cce6f4a730e25350e",
+    "render": "pymupdf",
+    "line": 5,
+    "charStart": 277,
+    "charEnd": 284
+   },
+   "confidence": 0.4,
+   "flags": [
+    "missing-lunar",
+    "ocr-page",
+    "ocr-row"
+   ],
+   "needsReview": true,
+   "link": {
+    "occurrenceId": "O-1405-E0232-1208-1",
+    "eventId": "E0232",
+    "kind": "date-only",
+    "candidates": 1,
+    "sourceRevisionId": "R-1405-8e32b520",
+    "sourcePage": 14
+   }
+  }
+ ],
+ "linked": 1,
+ "unmatched": 1,
+ "needsReview": true,
+ "rule": "ردیفِ OCR فقط با تاریخِ صریح ساخته می‌شود و هرگز خودکار تأیید نمی‌شود."
+}

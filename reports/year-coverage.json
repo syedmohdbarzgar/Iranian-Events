@@ -1,0 +1,45 @@
+{
+ "generatedAt": "2026-11-25T12:16:26.147796Z",
+ "years": [
+  {
+   "year": 1393,
+   "pdf": "PDF\\Calendar-1393.pdf",
+   "pdfExists": true,
+   "activeRevision": null,
+   "status": "blocked",
+   "verdict": "blocked_glyph_mapping_ocr_required",
+   "why": "لایهٔ متنی با نگاشتِ ناقصِ فونت؛ عنوان‌ها خوانا نیستند.",
+   "rowsInTextLayer": 365,
+   "nonemptyTitles": 0,
+   "publishable": false,
+   "action": "لایهٔ متنی نگاشتِ ناقص دارد؛ OCR فارسی اجرا شد اما اطمینان 53 و ردیفِ تاریخ‌دار صفر است. نیاز به بازبینیِ دستی/مدلِ جدول‌خوان."
+  },
+  {
+   "year": 1396,
+   "pdf": "PDF\\Calendar-1396.pdf",
+   "pdfExists": true,
+   "activeRevision": null,
+   "status": "blocked",
+   "verdict": "blocked_empty_titles_manual_extraction_required",
+   "why": "ردیف‌های تاریخ ساخته شدند ولی ستونِ مناسبت‌ها خالی است.",
+   "rowsInTextLayer": 365,
+   "nonemptyTitles": 0,
+   "publishable": false,
+   "action": "عنوان‌ها در لایهٔ متنی خالی‌اند؛ استخراجِ دستی یا OCR با بازبینی لازم است."
+  },
+  {
+   "year": 1402,
+   "pdf": "PDF\\Calendar-1402.pdf",
+   "pdfExists": true,
+   "activeRevision": null,
+   "status": "blocked",
+   "verdict": "blocked_date_columns_manual_review_required",
+   "why": "عنوان‌ها می‌آیند ولی سالِ میلادی/روزِ هفته جابه‌جاست؛ ردیف برای انتشار قابل‌استناد نیست.",
+   "rowsInTextLayer": 365,
+   "nonemptyTitles": 73,
+   "publishable": false,
+   "action": "عنوان‌ها می‌آیند ولی ستون‌های تاریخ جابه‌جاست؛ اصلاحِ parser و بازبینیِ دستی لازم است."
+  }
+ ],
+ "rule": "سالِ بدونِ شاهدِ کامل منتشر نمی‌شود و با حدس پر نمی‌شود."
+}

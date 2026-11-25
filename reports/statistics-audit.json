@@ -1,0 +1,41 @@
+{
+ "generatedAt": "2026-11-25T12:16:25.440402Z",
+ "actual": {
+  "events": 652,
+  "occurrences": 4543,
+  "witnessedEvents": 546,
+  "needsReview": 0,
+  "reviewedIdentities": 17,
+  "revisions": 22,
+  "activeRevisions": 22,
+  "documentYears": [
+   1382,
+   1383,
+   1384,
+   1385,
+   1386,
+   1387,
+   1388,
+   1389,
+   1390,
+   1391,
+   1392,
+   1394,
+   1395,
+   1397,
+   1398,
+   1399,
+   1400,
+   1401,
+   1403,
+   1404,
+   1405,
+   1406
+  ],
+  "changelog": 0,
+  "identityReviews": 22,
+  "approvedIdentityReviews": 22
+ },
+ "issues": [],
+ "gate": "pass"
+}

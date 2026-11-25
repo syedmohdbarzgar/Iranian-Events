@@ -1,9 +1,9 @@
 {
  "schema": 1,
- "generatedAt": "2026-11-24T14:13:17+00:00",
- "dataVersion": "v2+da12b32",
- "contentHash": "da12b32fc22b592a992e12f564c72a7a76c2b1bae756d470d9034581b0d6b1ca",
- "commit": "57cc23b81152121bd0ca6169d18b085d8da8389d",
+ "generatedAt": "2026-11-25T12:13:13+00:00",
+ "dataVersion": "v2+5864ccb",
+ "contentHash": "5864ccb17803aa46281f5a5a420d51bf6d1aaf7cb1400ea0087d7ebd1bd4d628",
+ "commit": "6c81925bb9258e2194bbf4278a91511915acac9e",
  "workingTreeDirty": true,
  "generatedBy": "scripts/build_data_manifest.py",
  "counts": {
@@ -70,7 +70,7 @@
  "dataHashes": {
   "data/event-corrections.json": "d16e50e506089b3383395c6a35f08a4fe9caf76e5aa109de4b42edac8e1bd68a",
   "data/event-identity-corrections.json": "2b571853cead71b3c247fa051b3386cc73f320d06acdd1ca8277b6a60fcebded",
-  "data/events-master.json": "508c648b3c9a78127538004bccab73cb0e14b6320f1f65fd07885272bd282827",
+  "data/events-master.json": "aea2760232d1b9088a63251e51c328b1906751969524f6c3ede7c489c0e8f43b",
   "data/official-calendar-1382.json": "b0822697866b6888283426be0121e0778630efaee958074e22f2f6d8af91109e",
   "data/official-calendar-1383.json": "291917b4869c261c7839c7990ca68ab93cae45dabec7504af563b815667d0715",
   "data/official-calendar-1384.json": "c4411698180ea3754e012001e7230aaecc755be4fc34cafe312a419ef076c4a5",

@@ -100,17 +100,27 @@
 - `keep-garbled-row`: یک رویداد با عنوانِ مخدوش که نگاشتِ مطمئن ندارد.
 
 هر ورودی `reason`، `evidence[{revisionId,page,year,observedTitle}]`،
-`reviewedBy`، `reviewedAt`، `approval` (نوعِ `human`، کانال و یادداشتِ تأیید) و
-`active` دارد. تصمیمِ بدونِ `approval.kind=human` با `REVIEW_APPROVAL_MISSING`
-رد می‌شود. گیت: `REVIEW_DECISION_UNKNOWN`،
+`reviewedBy`، `reviewedAt`، `active` و در صورتِ تأیید `approval` دارد. `approval`
+نتیجهٔ یک **امضای Ed25519** روی بیانیهٔ کانونیِ تصمیم است، نه یک فیلدِ قابلِ
+نوشتن: `keyId`، `publicKey`، `signature`، `statementSha256`، `ledgerSeq` و
+`recordHash`. دفترِ فقط-افزودنی در `data/history/approvals/identity-approvals.json`
+و کلیدهای عمومی در `trusted-keys.json` است؛ کلیدِ خصوصی commit نمی‌شود.
+تصمیمِ بدونِ امضا یا با بیانیهٔ تغییرکرده با `REVIEW_APPROVAL_MISSING` /
+`APPROVAL_STATEMENT_MISMATCH` رد می‌شود. گیت: `REVIEW_DECISION_UNKNOWN`،
 `REVIEW_TARGET_MISSING`، `REVIEW_EVIDENCE_MISSING`، `REVIEW_EVIDENCE_PAGE`،
-`REVIEW_INCOMPLETE`، `REVIEW_DUPLICATE` و هشدارِ `REVIEW_OPEN`.
+`REVIEW_INCOMPLETE`، `REVIEW_DUPLICATE`، `APPROVAL_LEDGER_CHAIN` و هشدارِ
+`REVIEW_OPEN`.
 
-بازگردانیِ یک تصمیم بدونِ ویرایشِ دستیِ داده:
+ثبت/بازگردانیِ تصمیم فقط با امضا:
 
 ```bash
-py -3 scripts/build_identity_reviews.py --disable S1273FA50   # تصمیم خاموش + بازتولید
-py -3 scripts/build_identity_reviews.py --enable  S1273FA50   # روشن‌کردنِ دوباره
+py -3 scripts/approval_ledger.py sign --all --private .approval-keys/approver.key \
+    --approver "user:..." --channel chat --statement "متنِ تأیید"
+py -3 scripts/build_identity_reviews.py --disable S1273FA50 \
+    --private-key .approval-keys/approver.key --approver "user:..." --statement "دلیل"
+py -3 scripts/build_identity_reviews.py --enable S1273FA50 \
+    --private-key .approval-keys/approver.key --approver "user:..." --statement "دلیل"
+py -3 scripts/approval_ledger.py verify
 ```
 
 خاموش‌کردن، هویت/وقوع را از نو می‌سازد و هویتِ ردیفی را دوباره `needsReview`

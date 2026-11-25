@@ -7,11 +7,13 @@ from __future__ import annotations
 import sys
 import tempfile
 import unittest
+import unittest.mock
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
+import approval_ledger  # noqa: E402
 import calendar_engine as engine  # noqa: E402
 import history_store as store  # noqa: E402
 import ingest_pdf  # noqa: E402
@@ -59,6 +61,7 @@ class TempStore:
     NAMES = ("HISTORY_DIR", "REVISION_DIR", "EVENTS_FILE", "OCCURRENCES_FILE",
              "REVISIONS_FILE", "CHANGELOG_FILE", "IDENTITY_REVIEWS_FILE",
              "CHANGES_DIR", "INGEST_DIR")
+    APPROVAL_NAMES = ("APPROVAL_DIR", "LEDGER_FILE", "TRUST_FILE")
 
     def __enter__(self):
         self.tmp = tempfile.TemporaryDirectory()
@@ -78,11 +81,18 @@ class TempStore:
         store.INGEST_DIR = root / "review" / "ingest"
         review.CHANGES_DIR = store.CHANGES_DIR
         store.master_catalog = lambda: [dict(e) for e in CATALOG]
+        self.saved_approval = {name: getattr(approval_ledger, name)
+                               for name in self.APPROVAL_NAMES}
+        approval_ledger.APPROVAL_DIR = history / "approvals"
+        approval_ledger.LEDGER_FILE = approval_ledger.APPROVAL_DIR / "ledger.json"
+        approval_ledger.TRUST_FILE = approval_ledger.APPROVAL_DIR / "trusted-keys.json"
         return root
 
     def __exit__(self, *exc):
         for name, value in self.saved.items():
             setattr(store, name, value)
+        for name, value in self.saved_approval.items():
+            setattr(approval_ledger, name, value)
         review.CHANGES_DIR = self.saved_review
         store.master_catalog = self.saved_master
         self.tmp.cleanup()
@@ -389,8 +399,13 @@ class ReviewWorkflowTest(unittest.TestCase):
                     row(1405, 3, 1, "رویداد سوم", 4)]
             bundle = self._bundle("R-1405-cccc", rows)
             self.assertTrue(any(c["requiresHuman"] for c in bundle["diff"]["changes"]))
+            before = store.load_history()
             with self.assertRaises(ValueError):
                 review.finalize("R-1405-cccc", by="مدیر")
+            after = store.load_history()
+            self.assertEqual(len(after["occurrences"]), len(before["occurrences"]))
+            self.assertEqual(len(after["revisions"]), len(before["revisions"]))
+            self.assertEqual(after["changelog"], before["changelog"])
 
     def test_same_document_gets_distinct_approved_revision(self):
         with TempStore():
@@ -447,6 +462,14 @@ class IngestTest(unittest.TestCase):
         self.assertEqual(loc["line"], 2)
         self.assertEqual(loc["page"], None)
 
+    def test_pdf_pages_have_no_phantom_trailing_page(self):
+        pdf = ROOT / "PDF" / "Calendar-1405.pdf"
+        if not pdf.exists():
+            self.skipTest("PDF نمونه موجود نیست")
+        pages = ingest_pdf.page_texts(pdf)
+        self.assertEqual(len(pages), 17)
+        self.assertTrue(pages[-1].strip())
+
     def test_real_pdf_extraction(self):
         pdf = ROOT / "PDF" / "Calendar-1405.pdf"
         if not pdf.exists():
@@ -468,6 +491,17 @@ class OcrLinkTest(unittest.TestCase):
             "۵ فروردین ۱۴۰۵ زادروز زرتشت\n"
             "جشن بهاری بدون تاریخ\n"
             "۱۴۰۵/۰۱/۱۳ سیزده‌بدر تعطیل")
+
+    def test_ocr_metadata_keeps_engine_page_and_image_hash(self):
+        rows = ingest_pdf.parse_ocr_page(
+            self.TEXT, 1405, 17,
+            ocr_meta={"engine": "tesseract.js", "lang": "fas", "confidence": 61,
+                      "image": "reports/ocr/images/page-017.png", "imageSha256": "a" * 64})
+        self.assertTrue(rows)
+        self.assertEqual(rows[0]["ocr"]["engine"], "tesseract.js")
+        self.assertEqual(rows[0]["ocr"]["page"], 17)
+        self.assertEqual(rows[0]["ocr"]["imageSha256"], "a" * 64)
+        self.assertEqual(rows[0]["ocr"]["line"], 1)
 
     def test_explicit_ocr_dates_become_rows(self):
         rows = ingest_pdf.parse_ocr_page(self.TEXT, 1405, 18)
@@ -499,11 +533,11 @@ class OcrLinkTest(unittest.TestCase):
         if not pdf.exists():
             self.skipTest("PDF نمونه موجود نیست")
         revision_data, rows, _ = ingest_pdf.build_revision(
-            pdf, 1405, ocr_texts={18: self.TEXT})
+            pdf, 1405, ocr_texts={17: self.TEXT})
         extraction = revision_data["extraction"]
         self.assertEqual(extraction["method"], "mixed")
         self.assertEqual(extraction["ocrRows"], 3)
-        self.assertEqual(extraction["ocrPagesParsed"], [18])
+        self.assertEqual(extraction["ocrPagesParsed"], [17])
         ocr_rows = [r for r in rows if str(r.get("source", "")).startswith("ocr")]
         self.assertEqual(len(ocr_rows), 3)
         self.assertTrue(all(r["needsReview"] for r in ocr_rows))
@@ -554,11 +588,24 @@ class IdentityReviewTest(unittest.TestCase):
     TITLE = ("عنوانِ ساختگیِ بسیار بلند برای آزمونِ ردیفِ چسبیده که هیچ تطبیقِ کاتالوگی "
              "ندارد و باید به‌عنوانِ هویتِ ردیفی بماند")
 
+    def _signed(self, entry: dict) -> dict:
+        """تصمیم را با کلیدِ موقتِ آزمون امضا می‌کند؛ تأییدِ بدونِ امضا معتبر نیست."""
+        if entry.get("active") is False:
+            return entry
+        key = store.HISTORY_DIR.parent / "approval-key.json"
+        if not key.exists():
+            approval_ledger.generate_key(key, owner="user:test")
+        record = approval_ledger.append_action(
+            entry, key, action="approve", approver="user:test", channel="test")
+        return {**entry, "active": True,
+                "approval": approval_ledger.attached_approval(entry, record)}
+
     def _derive(self, review_entry: dict):
         rev = revision("R-1405-bbbb", 1405, "b" * 64)
         rows = [row(1405, 1, 10, self.TITLE, 2)]
         store.save_revision_rows(rev["id"], 1405, rows)
-        reviews = {review_entry["eventId"]: review_entry}
+        signed = self._signed(review_entry)
+        reviews = {signed["eventId"]: signed}
         return store.derive(CATALOG, [rev], {rev["id"]: rows}, identity_reviews=reviews)
 
     def test_keep_documents_without_merging(self):
@@ -622,7 +669,88 @@ class IdentityReviewTest(unittest.TestCase):
             self.assertIn("REVIEW_TARGET_MISSING", codes)
 
 
+class ApprovalSecurityTest(unittest.TestCase):
+    """P0-02/P0-05: تأییدِ JSONی و امضای جعلی نباید از گیت بگذرد."""
+
+    TITLE = IdentityReviewTest.TITLE
+
+    def _entry(self):
+        return {
+            "eventId": store.synthetic_event_id(store.identity_key(self.TITLE)),
+            "decision": "keep-merged-row", "target": None,
+            "reason": "آزمونِ امنیتِ تأیید",
+            "constituents": [], "evidence": [],
+            "reviewedBy": "proposal:test", "reviewedAt": "2026-01-01T00:00:00Z",
+        }
+
+    def _signed(self):
+        entry = self._entry()
+        key = store.HISTORY_DIR.parent / "approval-key.json"
+        approval_ledger.generate_key(key, owner="user:test")
+        record = approval_ledger.append_action(
+            entry, key, action="approve", approver="user:test", channel="test")
+        return {**entry, "active": True,
+                "approval": approval_ledger.attached_approval(entry, record)}
+
+    def test_unsigned_human_claim_is_rejected(self):
+        with TempStore():
+            entry = dict(self._entry(), active=True,
+                         approval={"kind": "human", "by": "user:forged",
+                                   "at": "2026-01-01T00:00:00Z"})
+            codes = {i["code"] for i in approval_ledger.verify_entry(entry)}
+            self.assertIn("REVIEW_APPROVAL_UNSIGNED", codes)
+            self.assertFalse(approval_ledger.is_approved(entry))
+
+    def test_edited_decision_invalidates_signature(self):
+        with TempStore():
+            entry = self._signed()
+            self.assertTrue(approval_ledger.is_approved(entry))
+            entry["reason"] = "علتِ عوض‌شده پس از امضا"
+            codes = {i["code"] for i in approval_ledger.verify_entry(entry)}
+            self.assertIn("APPROVAL_STATEMENT_MISMATCH", codes)
+            self.assertFalse(approval_ledger.is_approved(entry))
+
+    def test_forged_approval_does_not_reach_derived_data(self):
+        with TempStore():
+            fake = dict(self._entry(), active=True,
+                        approval={"kind": "human", "method": "ed25519",
+                                  "by": "user:forged", "at": "2026-01-01T00:00:00Z",
+                                  "keyId": "ed25519:forged", "publicKey": "AAAA",
+                                  "signature": "AAAA", "statementSha256": "0" * 64})
+            rev = revision("R-1405-bbbb", 1405, "b" * 64)
+            rows = [row(1405, 1, 10, self.TITLE, 2)]
+            store.save_revision_rows(rev["id"], 1405, rows)
+            events, _ = store.derive(CATALOG, [rev], {rev["id"]: rows},
+                                     identity_reviews={fake["eventId"]: fake})
+            ev = next(e for e in events if e["id"] == fake["eventId"])
+            self.assertTrue(ev["needsReview"])
+            self.assertNotIn("review", ev)
+
+    def test_ledger_tamper_and_untrusted_key_are_detected(self):
+        with TempStore():
+            signed = self._signed()
+            document = approval_ledger.ledger_document()
+            document["entries"][0]["note"] = "دست‌کاری"
+            approval_ledger.write_json(approval_ledger.LEDGER_FILE, document)
+            codes = {i["code"] for i in approval_ledger.verify_ledger(
+                approval_ledger.ledger_document()["entries"])}
+            self.assertIn("APPROVAL_LEDGER_HASH", codes)
+            approval_ledger.TRUST_FILE.unlink()
+            codes = {i["code"] for i in approval_ledger.verify_entry(signed)}
+            self.assertIn("APPROVAL_KEY_UNTRUSTED", codes)
+
+
 class UploadSecurityTest(unittest.TestCase):
+
+    @staticmethod
+    def valid_pdf() -> bytes:
+        source = ROOT / "PDF" / "Calendar-1405.pdf"
+        if source.exists():
+            return source.read_bytes()
+        import pymupdf
+        doc = pymupdf.open()
+        doc.new_page()
+        return doc.tobytes()
 
     def test_rejects_non_pdf_and_bad_magic(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -631,9 +759,20 @@ class UploadSecurityTest(unittest.TestCase):
             with self.assertRaises(ValueError):
                 review_server.save_upload("x.pdf", b"not a pdf", Path(tmp))
 
+    def test_rejects_corrupt_pdf_with_valid_magic(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaises(ValueError):
+                review_server.save_upload("broken.pdf", b"%PDF-1.7\n" + b"x" * 200, Path(tmp))
+
+    def test_rejects_oversized_upload(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with unittest.mock.patch.object(review_server, "MAX_UPLOAD", 64):
+                with self.assertRaises(ValueError):
+                    review_server.save_upload("big.pdf", self.valid_pdf(), Path(tmp))
+
     def test_sanitizes_name_and_never_touches_pdf_dir(self):
         with tempfile.TemporaryDirectory() as tmp:
-            payload = b"%PDF-1.7\n% test payload for upload\n"
+            payload = self.valid_pdf()
             target = review_server.save_upload("../../evil name.pdf", payload, Path(tmp))
             self.assertEqual(target.parent, Path(tmp))
             self.assertNotIn("..", target.name)
@@ -641,6 +780,7 @@ class UploadSecurityTest(unittest.TestCase):
             self.assertEqual(target.read_bytes(), payload)
             again = review_server.save_upload("evil name.pdf", payload, Path(tmp))
             self.assertEqual(again, target)
+            self.assertFalse((ROOT / "PDF" / "evil_name.pdf").exists())
 
     def test_multipart_parser(self):
         body = (b'--X\r\nContent-Disposition: form-data; name="year"\r\n\r\n1405\r\n'

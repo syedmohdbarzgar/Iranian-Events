@@ -115,7 +115,9 @@ py -3 scripts/calendar_engine.py --year 1410 --out out.json
 | `data/history/occurrences.json` | وقوعِ هر سال با تاریخِ سه‌تقویمی و شاهدِ صفحه/هش |
 | `data/history/revisions/index.json` | فهرستِ نسخه‌های هر سال و وضعیتِ تأیید |
 | `data/history/revisions/<id>.json` | ردیف‌های همان نسخه |
-| `data/history/identity-reviews.json` | تصمیمِ مستند برای هویت‌های ردیفیِ مشکوک (نگاشت/حفظ بدونِ ادغام) |
+| `data/history/identity-reviews.json` | تصمیمِ پیشنهادی برای هویت‌های ردیفیِ مشکوک (نگاشت/حفظ بدونِ ادغام) |
+| `data/history/approvals/identity-approvals.json` | دفترِ فقط-افزودنیِ تأییدِ امضاشده (Ed25519) با زنجیرهٔ هش |
+| `data/history/approvals/trusted-keys.json` | کلیدهای عمومیِ موردِ اعتماد؛ کلیدِ خصوصی در `.approval-keys/` و commit نمی‌شود |
 | `data/history/changelog.json` | تاریخچهٔ فقط-افزودنیِ تأیید/رد/اصلاح/بازگردانی |
 
 **قاعده:** وقوع فقط از ردیفِ یک نسخهٔ **تأییدشده** ساخته می‌شود؛ هیچ رویدادی به
@@ -123,7 +125,11 @@ py -3 scripts/calendar_engine.py --year 1410 --out out.json
 
 ```bash
 py -3 scripts/build_history.py --force       # بازسازیِ مبنا از PDFهای رسمی
-py -3 scripts/build_identity_reviews.py      # ثبت/بازتولیدِ تصمیم‌های ۲۲ هویتِ ردیفی
+py -3 scripts/build_identity_reviews.py      # پیشنهادِ تصمیم‌ها؛ تأیید فقط از دفترِ امضاشده
+py -3 scripts/approval_ledger.py keygen --owner "user:..."   # یک‌بار؛ کلیدِ خصوصی محلی می‌ماند
+py -3 scripts/approval_ledger.py sign --all --private .approval-keys/approver.key \
+    --approver "user:..." --channel chat --statement "متنِ تأیید"
+py -3 scripts/approval_ledger.py verify    # زنجیره + امضا + بیانیه
 py -3 scripts/ingest_pdf.py --pdf PDF/Calendar-1407.pdf   # پیش‌نویسِ امن (بدونِ تغییرِ داده)
 py -3 scripts/ingest_pdf.py --pdf new.pdf --year 1407 --ocr
 py -3 scripts/ingest_pdf.py --pdf scanned.pdf --year 1407 --ocr-text-dir ocr-pages/
@@ -139,15 +145,24 @@ py -3 scripts/build_history_view.py           # → web/history.html + reports/h
 - `docs/review-workflow.md`: تصمیمِ انسانی، تأییدِ گروهی، ChangeLog، بازگردانی و بارگذاریِ PDF.
 - `docs/evidence-contract.md`: قالبِ شاهد و سطوحِ اعتبار.
 - `reports/history-identity-review.md`: شاهد/علتِ هر تصمیمِ هویتِ ردیفی.
-- `reports/ocr-status.md`: نتیجهٔ واقعیِ تلاشِ OCR صفحهٔ ۱۸ و دلیلِ مسدودبودن.
+- `reports/ocr-status.md`: اجرای واقعیِ OCR فارسی، اصلاحِ «صفحهٔ ۱۸» و محدودیتِ بازسازیِ جدول.
+- `reports/identity-review-audit.md`: ممیزیِ مستقلِ ۲۲ تصمیم + امضا و شاهدِ ردیفی.
+- `reports/statistics-audit.md` و `reports/web-consistency.md`: تطبیقِ آمار و خروجیِ وب با داده.
+- `reports/year-coverage.md`: تکلیفِ صریحِ ۱۳۹۳/۱۳۹۶/۱۴۰۲ (منتشرنشده).
 
 آمارِ فعلی: **۶۵۲ هویت** (۵۴۶ با وقوع، ۱۰۶ بدونِ سند)، **۴٬۵۴۳ وقوع**، **۲۲ نسخه**؛
-هر ۲۲ نسخه `approval.kind = baseline` دارند (تأییدِ انسانی نیست) و هر ۲۲ هویتِ
-ردیفیِ مشکوک تصمیمِ مستند دارند (۵ نگاشت + ۱۷ حفظِ ردیفِ چنده‌رویدادی).
+هر ۲۲ نسخه `approval.kind = baseline` دارند (تأییدِ انسانیِ نسخه نیست) و هر ۲۲ هویتِ
+ردیفیِ مشکوک تصمیمِ **امضاشده** دارند (۵ نگاشت + ۱۷ حفظِ ردیفِ چنده‌رویدادی).
+تأییدِ تصمیم‌ها با کلیدِ Ed25519 و دفترِ زنجیره‌ای است، نه فیلدِ JSON یا رشتهٔ ثابتِ کد.
 
-سال‌های ۱۳۹۳، ۱۳۹۶ و ۱۴۰۲ تا نصبِ OCR هیچ وقوعی ندارند و در گزارش‌ها «سندِ
-بررسی‌نشده» شمرده می‌شوند؛ این محدودیت پنهان نمی‌شود. مسیرِ اتصالِ OCR ساخته و
-آزمون شده است، اما OCR واقعیِ آن صفحات در این محیط اجرا نشد.
+**مرزِ امنیت:** این سازوکار از ویرایشِ JSON/داده در مخزن و CI محافظت می‌کند. کسی که
+به فایلِ خصوصیِ `.approval-keys/approver.key` دسترسی دارد می‌تواند امضا بسازد؛ آن فایل
+باید فقط در اختیارِ تأییدکننده و خارج از git بماند. برای تفکیکِ کاملِ انسان از ماشین،
+امضا باید روی دستگاهِ تأییدکننده و با کلیدِ غیرقابلِ‌استخراج انجام شود.
+
+سال‌های ۱۳۹۳، ۱۳۹۶ و ۱۴۰۲ منتشر نشده‌اند: ۱۳۹۳ اسکن است و OCR فارسی اجرا شد
+(اطمینان ۵۳، صفر ردیفِ تاریخ‌دار)؛ ۱۳۹۶ عنوانِ خالی و ۱۴۰۲ ستونِ تاریخِ جابه‌جا دارد.
+گزارشِ `reports/year-coverage.md` دلیل و اقدامِ هر سه را ثبت می‌کند.
 
 ## تعیین تقویم رویدادها
 
@@ -160,7 +175,7 @@ py -3 scripts/classify_calendars.py
 ## فایل یگانه و ساخت سال‌ها
 
 ```bash
-py -3 scripts/verify_all.py            # گیتِ رسمی: شاهد، وضعیت، سال‌ها، وب و تست‌ها
+py -3 scripts/verify_all.py            # گیتِ رسمی: ۲۳ مرحله + ۸۵ تست؛ CI در .github/workflows/gate.yml
 ```
 
 `build_master.py` فقط ابزارِ بازسازیِ کاملِ اولیه است و **در گیت نیست**؛ اجرای دوبارهٔ آن

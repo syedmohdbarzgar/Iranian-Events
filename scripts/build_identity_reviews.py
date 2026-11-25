@@ -25,12 +25,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
+import approval_ledger  # noqa: E402
 import history_store as store  # noqa: E402
 
+# این ابزار فقط «پیشنهادِ تصمیم» می‌سازد. تأیید، امضای جداگانه در دفترِ
+# ``data/history/approvals`` است و بدونِ آن تصمیم اعمال نمی‌شود.
 REVIEWED_AT = "2026-11-24T00:00:00Z"
-REVIEWED_BY = "user:explicit-chat-approval-2026-11-24"
-APPROVAL_NOTE = ("تأیید صریحِ کاربر در چت برای اعمالِ هر ۲۲ تصمیمِ بازبینیِ هویت، "
-                 "بر پایهٔ شاهدِ صفحه/نسخه و علتِ ثبت‌شده.")
+REVIEWED_BY = "proposal:build_identity_reviews.py"
 OUT = store.IDENTITY_REVIEWS_FILE
 
 # eventId → (decision, target, constituent catalog ids, match basis)
@@ -79,31 +80,40 @@ DECISIONS: dict[str, tuple[str, str | None, list[str], str]] = {
 }
 
 
-def toggle(event_id: str, active: bool) -> int:
-    """خاموش/روشن‌کردنِ یک تصمیم و بازتولیدِ فوریِ داده (بازگردانیِ قابلِ ردیابی)."""
+def toggle(event_id: str, active: bool, *, private_key: str, approver: str,
+           statement: str) -> int:
+    """خاموش/روشن‌کردن با رکوردِ امضاشده؛ ویرایشِ JSON به‌تنهایی پذیرفته نمی‌شود."""
     data = store.load_json(store.IDENTITY_REVIEWS_FILE, {"reviews": []})
     entry = next((r for r in data.get("reviews", []) if r.get("eventId") == event_id), None)
     if entry is None:
         print(f"تصمیمِ {event_id} در فایل نیست", file=sys.stderr)
         return 2
-    entry["active"] = active
-    store.write_json(store.IDENTITY_REVIEWS_FILE, data)
-    events, occurrences = store.rebuild_from_revisions()
-    store.save_history(events, occurrences)
-    print(f"{event_id}: active={active} · events={len(events)} occurrences={len(occurrences)}")
-    return 0
+    approval_ledger.append_action(
+        entry, Path(private_key), action="approve" if active else "revoke",
+        approver=approver, channel="cli", note=statement)
+    return rebuild()
 
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="ثبت/بازتولیدِ تصمیم‌های هویتِ ردیفی")
-    ap.add_argument("--disable", metavar="EVENT_ID", help="خاموش‌کردنِ یک تصمیم و بازگردانیِ داده")
-    ap.add_argument("--enable", metavar="EVENT_ID", help="روشن‌کردنِ دوبارهٔ یک تصمیم")
+    ap.add_argument("--disable", metavar="EVENT_ID", help="پس‌گرفتنِ امضاشدهٔ یک تصمیم")
+    ap.add_argument("--enable", metavar="EVENT_ID", help="تأییدِ دوبارهٔ یک تصمیم")
+    ap.add_argument("--private-key", default=str(approval_ledger.DEFAULT_PRIVATE_KEY),
+                    help="کلیدِ خصوصی برای disable/enable (خارج از مخزن)")
+    ap.add_argument("--approver", default="", help="نامِ تأییدکننده برای disable/enable")
+    ap.add_argument("--statement", default="", help="متنِ تأیید برای disable/enable")
     args = ap.parse_args()
-    if args.disable:
-        return toggle(args.disable, False)
-    if args.enable:
-        return toggle(args.enable, True)
+    if args.disable or args.enable:
+        if not args.approver or not args.statement:
+            print("برای تغییر، --approver و --statement لازم است", file=sys.stderr)
+            return 2
+        return toggle(args.disable or args.enable, bool(args.enable),
+                      private_key=args.private_key, approver=args.approver,
+                      statement=args.statement)
+    return rebuild()
 
+
+def rebuild() -> int:
     events = json.loads(store.EVENTS_FILE.read_text(encoding="utf-8"))["events"]
     occurrences = json.loads(store.OCCURRENCES_FILE.read_text(encoding="utf-8"))["occurrences"]
     catalog = {e["id"]: e for e in store.master_catalog()}
@@ -165,30 +175,31 @@ def main() -> int:
                       "ادغامِ خودکار انجام نشد؛ ردیف به‌عنوان شاهدِ چنده‌رویدادی حفظ می‌شود.")
         reviews.append({
             "eventId": eid,
-            "active": True,
             "decision": decision,
             "target": target,
             "reason": reason,
             "constituents": constituents,
             "evidence": evidence,
-            "approval": {
-                "kind": "human",
-                "channel": "chat",
-                "by": REVIEWED_BY,
-                "at": REVIEWED_AT,
-                "note": APPROVAL_NOTE,
-            },
             "reviewedBy": REVIEWED_BY,
             "reviewedAt": REVIEWED_AT,
         })
 
+    # تأیید فقط از دفترِ امضاشده می‌آید؛ هیچ مقدارِ ثابتی اینجا نوشته نمی‌شود.
+    approved = approval_ledger.approvals_for(reviews)
+    for entry in reviews:
+        record = approved.get(entry["eventId"])
+        entry["active"] = bool(record)
+        if record:
+            entry["approval"] = approval_ledger.attached_approval(entry, record)
+
     store.write_json(OUT, {
         "generatedAt": REVIEWED_AT,
-        "rule": "هیچ ادغامِ خودکاری؛ map فقط با شاهدِ عنوان/تاریخ؛ ردیفِ چسبیده حفظ می‌شود.",
+        "rule": "هیچ ادغامِ خودکاری؛ map فقط با شاهدِ عنوان/تاریخ؛ تأیید فقط با امضای Ed25519.",
         "reviews": reviews,
     })
     print(f"identity reviews: {len(reviews)} → {OUT.relative_to(ROOT)}")
-    print("map:", sum(1 for r in reviews if r["decision"] == "map"),
+    print("approved:", len(approved), "· pending:", len(reviews) - len(approved),
+          "· map:", sum(1 for r in reviews if r["decision"] == "map"),
           "· keep-merged-row:", sum(1 for r in reviews if r["decision"] == "keep-merged-row"))
     return 0
 
