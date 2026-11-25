@@ -38,9 +38,8 @@ jobs:
           git diff --exit-code \
             --ignore-matching-lines='generatedAt' \
             --ignore-matching-lines='workingTreeDirty' \
-            --ignore-matching-lines='"commit"' \
+            --ignore-matching-lines='commit' \
             --ignore-matching-lines='زمانِ تولید' \
-            --ignore-matching-lines='commit:' \
             --ignore-matching-lines='درختِ کاری' \
             -- data reports/audit data/review/verification-queue.json
       - name: Verify build is reproducible

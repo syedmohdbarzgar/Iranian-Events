@@ -1,6 +1,6 @@
 # اعتبارسنجی فایل یگانهٔ رویدادها (نسخهٔ ۲)
 
-- داده: **v2+5864ccb** · commit: `db094851214383c230790ab61b2010d583da0cff`
+- داده: **v2+5864ccb** · commit: `f50ae3f38b5171542d21b6f04590fd4e2bfc08e5`
 - رویدادها: **503** · عنوان‌های ادغام‌شده: **76** · اصلاحیهٔ هویتی: **2**
 - دسته‌ها: cultural: 12 · historical: 45 · international: 40 · official: 293 · religious: 113
 - تقویم: gregorian: 39 · lunar: 115 · solar: 349
