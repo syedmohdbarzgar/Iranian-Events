@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-EXTRACTED = ROOT / "extracted" / "json"
+REVIEW_ROWS = ROOT / "data" / "review"
 DRAFT_1393 = ROOT / "reports" / "ocr" / "1393-rows-draft.json"
 OUT = ROOT / "data" / "review" / "year-review-packets"
 YEARS = (1393, 1396, 1402)
@@ -41,7 +41,8 @@ def _rows_1393() -> tuple[dict, list[dict]]:
 
 
 def _rows_layout(year: int) -> tuple[dict, list[dict]]:
-    doc = json.loads((EXTRACTED / f"{year}.json").read_text(encoding="utf-8"))
+    doc = json.loads((REVIEW_ROWS / f"official-{year}.extracted.json")
+                     .read_text(encoding="utf-8"))
     rows = []
     for raw in doc.get("rows", []):
         layout = raw.get("layout") or {}
