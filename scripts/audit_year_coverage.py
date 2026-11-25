@@ -74,7 +74,8 @@ def main() -> int:
         lines.append(f"| {r['year']} | {'دارد' if r['pdfExists'] else 'ندارد'} | "
                      f"{r['activeRevision'] or '—'} | {r['status']} | {r['verdict']} | "
                      f"{r['nonemptyTitles']} | {r['action']} |")
-    lines += ["", "این سه سال **منتشر نشده‌اند** و دادهٔ مشتق‌شده‌ای برایشان ساخته نشده است."]
+    lines += ["", "این سه سال **منتشر نشده‌اند** و نسخهٔ رسمی/قابل انتشاری برایشان ساخته نشده است؛ "
+              "draftهای بازبینی در `data/review/` و `reports/ocr/` جدا نگه داشته می‌شوند."]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"year coverage: published={sum(1 for r in rows if r['status']=='published')} "
           f"blocked={sum(1 for r in rows if r['status']=='blocked')}")
