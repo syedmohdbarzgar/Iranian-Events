@@ -29,7 +29,9 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
       - name: Build derived data
-        run: python scripts/verify_all.py --build-only
+        run: |
+          set -o pipefail
+          python scripts/verify_all.py --build-only 2>&1 | tee build.log
       - name: Reject unapproved changes to data or reports
         run: |
           git status --porcelain
@@ -58,4 +60,5 @@ jobs:
             reports/identity-review-audit.md
             reports/web-consistency.md
             reports/ocr-status.md
+            build.log
           if-no-files-found: ignore
