@@ -39,6 +39,8 @@ jobs:
           echo '```' >> "$GITHUB_STEP_SUMMARY"
           tail -60 build.log >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
           echo '```' >> "$GITHUB_STEP_SUMMARY"
+          msg=$(tail -25 build.log 2>/dev/null | tr '\n' ' ' | cut -c1-1800)
+          echo "::error title=Build failure::$msg"
       - name: Reject unapproved changes to data or reports
         run: |
           git status --porcelain
