@@ -104,11 +104,22 @@ def main() -> int:
             source_name = event.get("sourceName") or "کاتالوگ"
             source_url = event.get("sourceUrl") or ""
 
+        old_evidence = event.get("evidence") or {}
+        source_unchanged = (
+            old_evidence.get("sourceRef") == witness["sourceRef"]
+            and old_evidence.get("witnessText") == witness["witnessText"]
+            and old_evidence.get("witnessDate") == witness["witnessDate"]
+            and old_evidence.get("kind") == witness["kind"]
+        )
         event["evidence"] = {
             **witness,
             "sourceName": source_name,
             "sourceUrl": source_url,
-            "reviewedAt": REVIEWED_AT,
+            # ثبتِ خودکار فقط وقتی تاریخِ تازه می‌گیرد که شاهد عوض شده باشد؛
+            # وگرنه هر build تاریخِ کلِ داده را جابه‌جا می‌کرد و diffِ ناخواسته
+            # می‌ساخت (همان چیزی که گیتِ CI را در روزِ بعد قرمز می‌کرد).
+            "reviewedAt": (old_evidence.get("reviewedAt") or REVIEWED_AT)
+            if source_unchanged else REVIEWED_AT,
             "reviewKind": "automated-source-capture",
             "verificationStatus": event.get("verificationStatus"),
             "dateCertainty": ((row or {}).get("dateCertainty") if row else None) or (
