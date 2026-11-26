@@ -550,7 +550,18 @@ class OcrLinkTest(unittest.TestCase):
         self.assertEqual(extraction["ocrRows"], 3)
         self.assertEqual(extraction["ocrPagesParsed"], [17])
         ocr_rows = [r for r in rows if str(r.get("source", "")).startswith("ocr")]
-        self.assertEqual(len(ocr_rows), 3)
+        # استخراجِ متنِ PDF در لینوکس ممکن است یکی از همین سه تاریخ را از قبل
+        # داشته باشد؛ merge عمداً ردیفِ تکراری نمی‌سازد. پس هر سه ردیفِ OCR باید
+        # در خروجی «نماینده» داشته باشند، نه اینکه هر سه با source=ocr بمانند.
+        self.assertTrue(ocr_rows)
+        parsed_ocr = ingest_pdf.parse_ocr_page(self.TEXT, 1405, 17)
+        self.assertEqual(len(parsed_ocr), 3)
+        for expected in parsed_ocr:
+            matches = [r for r in rows
+                       if r.get("solar") == expected.get("solar")
+                       and store.identity_key(r.get("title", ""))
+                       == store.identity_key(expected.get("title", ""))]
+            self.assertTrue(matches, f"ردیفِ OCR گم شد: {expected.get('title')}")
         self.assertTrue(all(r["needsReview"] for r in ocr_rows))
         self.assertTrue(all(r["solar"][0] == 1405 for r in ocr_rows))
 
