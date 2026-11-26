@@ -22,9 +22,22 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import history_store as store  # noqa: E402
+import review_audit  # noqa: E402
+import review_model  # noqa: E402
+import reviewer_auth  # noqa: E402
 import revision_diff  # noqa: E402
 
 CHANGES_DIR = store.CHANGES_DIR
+AGENT_PREFIXES = ("agent:", "proposal:", "ai:", "bot:", "codebuff:")
+
+
+def _human_actor(value: str) -> str:
+    actor = (value or "").strip()
+    if not actor:
+        raise ValueError("هویتِ بازبین لازم است")
+    if actor.lower().startswith(AGENT_PREFIXES):
+        raise ValueError("عامل/ربات نمی‌تواند تأییدِ انسانی ثبت کند")
+    return actor
 
 
 # ───────────────────────────── ابزارِ پیش‌نویس ─────────────────────────────
@@ -87,28 +100,50 @@ def _validate_edit(edit: dict, year: int) -> dict:
         out["description"] = str(edit["description"])[:1000]
     if "note" in edit:
         out["note"] = str(edit["note"])[:500]
+    for key in ("start", "end"):
+        if key in edit and edit[key] is not None:
+            out[key] = review_model.validate_solar(year, edit[key])
+    if "dateMeta" in edit and edit["dateMeta"] is not None:
+        meta = edit["dateMeta"]
+        if not isinstance(meta, dict):
+            raise ValueError("dateMeta باید شیء باشد")
+        out["dateMeta"] = {
+            "source": meta.get("source"),
+            "conversion": meta.get("conversion"),
+            "startSolar": meta.get("startSolar"),
+            "endSolar": meta.get("endSolar"),
+            "multiDay": bool(meta.get("multiDay")),
+        }
+    if "start" in out and "end" in out and tuple(out["end"]) < tuple(out["start"]):
+        raise ValueError("پایانِ بازه پیش از شروع است")
     return out
 
 
 def decide(rev_id: str, change_id: str, action: str, *, by: str, note: str = "",
-           edit: dict | None = None) -> dict:
-    if action not in {"approve", "reject", "edit"}:
-        raise ValueError("action باید approve/reject/edit باشد")
-    if not by.strip():
-        raise ValueError("نامِ بررسی‌کننده (--by) لازم است")
+           edit: dict | None = None, meta: dict | None = None) -> dict:
+    if action not in {"approve", "reject", "edit", "needs-evidence"}:
+        raise ValueError("action باید approve/reject/edit/needs-evidence باشد")
+    by = _human_actor(by)
     bundle = load_bundle(rev_id)
     if bundle.get("state") in {"applied", "reverted"}:
         raise ValueError(f"این پیش‌نویس پیش‌تر اعمال شده است ({bundle['state']})")
     change = find_change(bundle, change_id)
     if change is None:
         raise ValueError(f"تغییرِ {change_id} در این پیش‌نویس نیست")
-    payload = {"action": action, "by": by.strip(), "at": store.now_iso(), "note": note.strip()}
+    payload = {"action": action, "by": by, "at": store.now_iso(), "note": note.strip()}
     if action == "edit":
         if not edit:
             raise ValueError("برای edit، --title/--solar/--holiday لازم است")
         payload["edit"] = _validate_edit(edit, bundle["revision"]["year"])
         payload["action"] = "approve"
         payload["edited"] = True
+    elif edit:
+        raise ValueError("edit فقط با action=edit مجاز است")
+    if meta:
+        for key in ("reason", "evidence", "delegatedTo", "dateMeta", "reviewerId",
+                    "assurance"):
+            if key in meta and meta[key] is not None:
+                payload[key] = meta[key]
     bundle["decisions"][change_id] = payload
     bundle["state"] = "in-review"
     save_bundle(bundle)
@@ -116,8 +151,7 @@ def decide(rev_id: str, change_id: str, action: str, *, by: str, note: str = "",
 
 
 def approve_all(rev_id: str, *, by: str, note: str = "", include_unchanged: bool = True) -> dict:
-    if not by.strip():
-        raise ValueError("نامِ بررسی‌کننده (--by) لازم است")
+    by = _human_actor(by)
     bundle = load_bundle(rev_id)
     if bundle.get("state") in {"applied", "reverted"}:
         raise ValueError("این پیش‌نویس پیش‌تر اعمال شده است")
@@ -142,6 +176,11 @@ def _apply_edit(row: dict | None, edit: dict | None) -> dict | None:
         return row
     out = copy.deepcopy(row)
     import calendar_engine as engine
+    if "sourceDate" not in out:
+        out["sourceDate"] = copy.deepcopy(out.get("solar"))
+        out["sourceLunar"] = copy.deepcopy(out.get("lunar"))
+        out["sourceGregorian"] = copy.deepcopy(out.get("gregorian"))
+        out["sourceTitle"] = out.get("titleRaw") or out.get("title")
     if "title" in edit:
         out["title"] = edit["title"]
     if "solar" in edit:
@@ -151,6 +190,21 @@ def _apply_edit(row: dict | None, edit: dict | None) -> dict | None:
         out["lunar"] = [None, None, None]
         out["derived"] = sorted(set(list(out.get("derived") or []) + ["gregorian", "lunar"]))
         out["edited"] = True
+    if "start" in edit:
+        out["startSolar"] = list(edit["start"])
+        out["endSolar"] = list(edit.get("end") or edit["start"])
+        out["multiDay"] = out["startSolar"] != out["endSolar"]
+        out["solar"] = list(out["startSolar"])
+        out["gregorian"] = list(engine.jalali_to_gregorian(*out["startSolar"]))
+        out["lunar"] = [None, None, None]
+        out["derived"] = sorted(set(list(out.get("derived") or []) + ["gregorian", "lunar"]))
+        out["edited"] = True
+    if edit.get("dateMeta"):
+        conversion = copy.deepcopy(edit["dateMeta"].get("conversion")) or {}
+        out["dateConversion"] = conversion
+        out["dateSource"] = copy.deepcopy(edit["dateMeta"].get("source"))
+        out["conversionAlgorithm"] = conversion.get("algorithm")
+        out["conversionVersion"] = conversion.get("version")
     if "holiday" in edit:
         out["holiday"] = bool(edit["holiday"])
         out["edited"] = True
@@ -203,24 +257,57 @@ def _validate_rows(rows: list[dict], year: int) -> None:
             raise ValueError(f"ردیفِ سالِ نادرست: {solar} — {row.get('title', '')[:50]}")
         if not 1 <= solar[1] <= 12 or not 1 <= solar[2] <= engine.month_len(year, solar[1]):
             raise ValueError(f"تاریخِ نامعتبر: {solar}")
+        for key in ("startSolar", "endSolar"):
+            if row.get(key) is not None:
+                value = row[key]
+                if (not isinstance(value, list) or len(value) != 3 or value[0] != year
+                        or not 1 <= value[1] <= 12
+                        or not 1 <= value[2] <= engine.month_len(year, value[1])):
+                    raise ValueError(f"{key} نامعتبر: {value}")
+        if row.get("startSolar") and row.get("endSolar"):
+            if tuple(row["endSolar"]) < tuple(row["startSolar"]):
+                raise ValueError("پایانِ بازه پیش از شروع است")
+            if bool(row.get("multiDay")) != (row["startSolar"] != row["endSolar"]):
+                raise ValueError("نشانهٔ چندروزه با بازه نمی‌خواند")
         if not store.row_is_event(row.get("title", "")):
             raise ValueError(f"عنوانِ نامعتبر: {row.get('title', '')!r}")
 
 
 # ───────────────────────────── تأیید و اعمال ─────────────────────────────
 
-def finalize(rev_id: str, *, by: str, note: str = "") -> dict:
-    if not by.strip():
-        raise ValueError("نامِ تأییدکننده (--by) لازم است")
+def finalize(rev_id: str, *, by: str, note: str = "",
+             signed_approval: dict | None = None) -> dict:
+    by = _human_actor(by)
     bundle = load_bundle(rev_id)
     revision = bundle["revision"]
     if bundle.get("state") in {"applied", "reverted"}:
         raise ValueError("این پیش‌نویس پیش‌تر اعمال شده است")
     unresolved = [c["id"] for c in bundle["diff"]["changes"]
-                  if c["requiresHuman"] and c["id"] not in bundle["decisions"]]
+                  if c.get("requiresHuman", True)
+                  and (bundle["decisions"].get(c["id"]) or {}).get("action")
+                  not in {"approve", "reject"}]
     if unresolved:
         raise ValueError("تصمیمِ انسانی برای این تغییرها ثبت نشده: " + ", ".join(unresolved[:8]))
+    signed_by = None
+    if signed_approval is not None:
+        trusted = {r["keyId"]: r["publicKey"] for r in reviewer_auth.load_reviewers()
+                   if r.get("active", True)}
+        issues = review_audit.verify_entry(signed_approval, trusted)
+        if issues:
+            raise ValueError("تأییدِ سال امضای معتبر ندارد: " + issues[0]["code"])
+        payload = signed_approval.get("payload") or {}
+        if signed_approval.get("action") != "year-approval":
+            raise ValueError("رکوردِ امضاشده تأییدِ سال نیست")
+        if payload.get("revisionId") != rev_id or payload.get("year") != revision["year"]:
+            raise ValueError("تأییدِ امضاشده به این پیش‌نویس/سال تعلق ندارد")
+        if payload.get("bundleHash") != review_model.approval_bundle_hash(bundle):
+            raise ValueError("تصمیم‌ها پس از تأییدِ سال تغییر کرده‌اند؛ تأیید را تکرار کنید")
+        signed_by = signed_approval.get("actor") or {}
+        if signed_by.get("reviewerId") != by:
+            raise ValueError("تأییدکنندهٔ سال با امضاکننده یکی نیست")
     year = revision["year"]
+    if year in review_model.LOCKED_YEARS:
+        raise ValueError(f"سالِ {year} قفل است؛ بستهٔ بازبینیِ آن نباید فعال/منتشر شود")
     history = store.load_history()
     current = store.active_revisions(history["revisions"]).get(year)
     if bundle.get("oldRevisionId") != (current["id"] if current else None):
@@ -238,15 +325,26 @@ def finalize(rev_id: str, *, by: str, note: str = "") -> dict:
         approved["id"] = f"{current['id']}-review-{n:02d}"
         approved["extraction"]["reviewedFrom"] = current["id"]
     approved["state"] = "approved"
-    approved["approvedBy"] = by.strip()
+    approved["approvedBy"] = by
     approved["approvedAt"] = store.now_iso()
     approved["approval"] = {
         "kind": "human",
-        "method": "review",
-        "by": by.strip(),
+        "method": "ed25519-review" if signed_approval else "review",
+        "by": by,
         "at": approved["approvedAt"],
         "note": note.strip() or "تأییدِ انسانیِ تغییرات",
     }
+    if signed_approval:
+        approved["approval"].update({
+            "reviewerId": signed_by.get("reviewerId"),
+            "keyId": signed_by.get("keyId"),
+            "publicKey": signed_approval.get("publicKey"),
+            "signature": signed_approval.get("signature"),
+            "auditSeq": signed_approval.get("seq"),
+            "auditRecordHash": signed_approval.get("recordHash"),
+            "bundleHash": (signed_approval.get("payload") or {}).get("bundleHash"),
+            "assurance": "local-key-signature",
+        })
     approved["note"] = note.strip() or "تأییدِ انسانیِ تغییرات"
     approved["supersedes"] = current["id"] if current else None
     approved["review"] = {
@@ -272,7 +370,7 @@ def finalize(rev_id: str, *, by: str, note: str = "") -> dict:
         "id": f"L-{len(history['changelog']) + 1:05d}",
         "at": approved["approvedAt"],
         "action": "APPROVE",
-        "actor": by.strip(),
+        "actor": by,
         "year": year,
         "revisionId": approved["id"],
         "bundleId": rev_id,
@@ -290,11 +388,10 @@ def finalize(rev_id: str, *, by: str, note: str = "") -> dict:
 
 
 def reject_revision(rev_id: str, *, by: str, note: str = "") -> dict:
-    if not by.strip():
-        raise ValueError("نامِ بررسی‌کننده (--by) لازم است")
+    by = _human_actor(by)
     bundle = load_bundle(rev_id)
     bundle["state"] = "rejected"
-    bundle["rejectedBy"] = by.strip()
+    bundle["rejectedBy"] = by
     bundle["rejectedAt"] = store.now_iso()
     bundle["rejectionNote"] = note.strip()
     save_bundle(bundle)
@@ -376,8 +473,7 @@ def _append_revert(year: int, rows: list[dict], previous_rows: list[dict], *,
 
 
 def revert_log(log_id: str, *, by: str, note: str = "") -> dict:
-    if not by.strip():
-        raise ValueError("نامِ بررسی‌کننده (--by) لازم است")
+    by = _human_actor(by)
     history = store.load_history()
     entry = next((e for e in history["changelog"] if e["id"] == log_id), None)
     if entry is None:
@@ -393,8 +489,7 @@ def revert_log(log_id: str, *, by: str, note: str = "") -> dict:
 
 
 def revert_change(change_id: str, *, by: str, note: str = "") -> dict:
-    if not by.strip():
-        raise ValueError("نامِ بررسی‌کننده (--by) لازم است")
+    by = _human_actor(by)
     history = store.load_history()
     log = next((e for e in reversed(history["changelog"])
                 if e["action"] == "APPROVE" and change_id in e.get("changeIds", [])), None)
@@ -467,7 +562,8 @@ def main() -> int:
     p_dec = sub.add_parser("decide", help="ثبتِ تصمیم برای یک تغییر")
     p_dec.add_argument("--revision", required=True)
     p_dec.add_argument("--change", required=True)
-    p_dec.add_argument("--action", required=True, choices=["approve", "reject", "edit"])
+    p_dec.add_argument("--action", required=True,
+                       choices=["approve", "reject", "edit", "needs-evidence"])
     p_dec.add_argument("--title")
     p_dec.add_argument("--solar", help="سال-ماه-روز")
     p_dec.add_argument("--holiday", choices=["true", "false"])

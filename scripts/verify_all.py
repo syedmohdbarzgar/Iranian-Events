@@ -54,6 +54,7 @@ STEPS = [
     ("تکرارهای کاتالوگ", "audit_catalog_duplicates.py"),
     ("استخراجِ سال‌های مسدود", "audit_extraction_issues.py"),
     ("ممیزیِ مستقلِ تصمیم‌های هویت", "audit_identity_reviews.py"),
+    ("ممیزیِ دفترِ امضاشدهٔ بازبینی", "review_audit.py"),
     ("گیتِ تاریخِ رویداد", "audit_history.py"),
     ("نمای تاریخ", "build_history_view.py"),
     ("تطبیقِ آمارِ گزارش‌ها", "audit_statistics.py"),

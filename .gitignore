@@ -72,6 +72,10 @@ data/review/uploads/
 
 # ─── کلیدِ خصوصیِ تأیید (فقط محلی؛ کلیدِ عمومی در approvals) ───
 .approval-keys/
+# کلیدِ خصوصیِ رمزگذاری‌شدهٔ بازبینان پنل (فقط محلی؛ کلیدِ عمومی در reviewers.json)
+.review-keys/
+# روسترِ حسابِ محلی؛ salt/hash رمز را commit نکنید (کلیدِ عمومی در دفتر است)
+data/review/reviewers.json
 
 # ─── ابزارهای خودکارِ محیط (مهارت‌های نسخه‌دار مستثنا) ───
 .agents/*

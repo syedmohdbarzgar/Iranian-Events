@@ -119,6 +119,9 @@ py -3 scripts/calendar_engine.py --year 1410 --out out.json
 | `data/history/approvals/identity-approvals.json` | دفترِ فقط-افزودنیِ تأییدِ امضاشده (Ed25519) با زنجیرهٔ هش |
 | `data/history/approvals/trusted-keys.json` | کلیدهای عمومیِ موردِ اعتماد؛ کلیدِ خصوصی در `.approval-keys/` و commit نمی‌شود |
 | `data/history/changelog.json` | تاریخچهٔ فقط-افزودنیِ تأیید/رد/اصلاح/بازگردانی |
+| `data/review/reviewers.json` | روسترِ محلیِ بازبینان (کلیدِ عمومی؛ رمز ذخیره نمی‌شود) |
+| `data/review/review-audit-log.json` | دفترِ امضاشدهٔ تصمیم/تأییدِ سال با زنجیرهٔ هش |
+| `data/review/review-audit-head.json` | سرِ امضاشده برای تشخیصِ قطعِ انتهای زنجیره |
 
 **قاعده:** وقوع فقط از ردیفِ یک نسخهٔ **تأییدشده** ساخته می‌شود؛ هیچ رویدادی به
 سالِ بی‌سند تعمیم داده نمی‌شود و خروجیِ قاعده‌محور وارد این بخش نمی‌شود.
@@ -134,7 +137,8 @@ py -3 scripts/ingest_pdf.py --pdf PDF/Calendar-1407.pdf   # پیش‌نویسِ 
 py -3 scripts/ingest_pdf.py --pdf new.pdf --year 1407 --ocr
 py -3 scripts/ingest_pdf.py --pdf scanned.pdf --year 1407 --ocr-text-dir ocr-pages/
 py -3 scripts/review_changes.py list          # بازبینیِ پیش‌نویس‌ها
-py -3 scripts/review_server.py --port 8765    # صفحهٔ بازبینی + بارگذاریِ PDF، فقط 127.0.0.1
+py -3 scripts/reviewer_auth.py register --id reviewer-1 --name "نامِ بازبین"  # حسابِ محلی + کلیدِ امضا
+py -3 scripts/review_server.py --port 8765    # پنلِ امضاشده + PDF + بارگذاری، فقط 127.0.0.1
 py -3 scripts/audit_history.py                # گیت: شاهد، بازتولید، هشِ PDF، منشأِ تأیید
 py -3 scripts/build_history_view.py           # → web/history.html + reports/history.md
 ```
@@ -142,7 +146,7 @@ py -3 scripts/build_history_view.py           # → web/history.html + reports/h
 - `docs/history-model.md`: سه موجودیت و تفکیکِ تاریخِ وقوع/ثبت/اصل.
 - `docs/pdf-ingestion.md`: تشخیصِ سال، مکان‌یابِ صفحه/خط، محدودیتِ OCR و `-bbox`.
 - `docs/revision-comparison.md`: دسته‌های ADDED/REMOVED/RENAMED/DATE_CHANGED/MODIFIED.
-- `docs/review-workflow.md`: تصمیمِ انسانی، تأییدِ گروهی، ChangeLog، بازگردانی و بارگذاریِ PDF.
+- `docs/review-workflow.md`: پنلِ امضاشده، احرازِ هویتِ محلی، تاریخِ سه‌تقویمی، ChangeLog، بازگردانی و بارگذاریِ PDF.
 - `docs/evidence-contract.md`: قالبِ شاهد و سطوحِ اعتبار.
 - `reports/history-identity-review.md`: شاهد/علتِ هر تصمیمِ هویتِ ردیفی.
 - `reports/ocr-status.md`: اجرای واقعیِ OCR فارسی، اصلاحِ «صفحهٔ ۱۸» و draft ۳۶۵ ردیفیِ جدول ۱۳۹۳.

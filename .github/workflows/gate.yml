@@ -61,7 +61,7 @@ jobs:
           fi
       - name: Verify build is reproducible
         run: python scripts/check_build_reproducibility.py
-      - name: Validate release gate (engine, history, reports, 90 tests)
+      - name: Validate release gate (engine, history, reports, 106 tests)
         run: python scripts/verify_all.py --audit-only
       - name: Upload gate reports on failure
         if: failure()

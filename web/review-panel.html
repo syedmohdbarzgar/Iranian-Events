@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>پنل بازبینی انسانی تقویم</title>
+<style>
+:root{--bg:#0e1217;--panel:#151b22;--panel2:#1b232d;--line:#2b3643;--text:#e9eef5;--muted:#93a0af;--accent:#75a7ff;--ok:#42d392;--danger:#ef7b86;--warn:#e7b04b;--chip:#202a35;--input:#10161d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Tahoma,"Segoe UI",sans-serif;line-height:1.75;font-size:14px}
+button,input,select,textarea{font-family:inherit;font-size:13px}
+button{background:var(--chip);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:7px 11px;cursor:pointer}
+button:hover{border-color:#405268}
+button.primary{border-color:var(--accent);color:var(--accent)}
+button.ok{border-color:#286346;color:var(--ok)}
+button.no{border-color:#6b3038;color:var(--danger)}
+button:disabled{opacity:.45;cursor:not-allowed}
+input,select,textarea{background:var(--input);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:7px 9px;width:100%}
+textarea{min-height:64px;resize:vertical}
+a{color:var(--accent)}
+.hidden{display:none!important}
+.wrap{max-width:1500px;margin:0 auto;padding:0 18px}
+header{border-bottom:1px solid var(--line);background:#111820;position:sticky;top:0;z-index:10}
+.head{display:flex;gap:14px;align-items:center;justify-content:space-between;padding:12px 0;flex-wrap:wrap}
+.brand{display:flex;flex-direction:column}.brand b{font-size:18px}.sub{color:var(--muted);font-size:12px}
+.who{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.badge{border:1px solid var(--line);border-radius:999px;padding:0 8px;font-size:11px;color:var(--muted);background:var(--chip)}
+.pill{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:999px;padding:0 8px;font-size:11px;color:var(--muted);background:var(--chip);white-space:nowrap}
+.pill.pending{color:var(--warn);border-color:#5e4821}.pill.approved{color:var(--ok);border-color:#285a42}
+.pill.corrected{color:#8fc7ff;border-color:#2e5277}.pill.rejected{color:var(--danger);border-color:#5c2a31}
+.pill.needs-evidence{color:#e5a0f2;border-color:#573663}.pill.draft{color:var(--muted)}
+.login{min-height:100vh;display:grid;place-items:center;padding:24px}
+.login .card{width:min(430px,100%);background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px}
+.login h1{font-size:20px;margin:0 0 4px}.field{margin:12px 0}.field label{display:block;font-size:12px;color:var(--muted);margin-bottom:4px}
+.notice{font-size:12px;color:var(--muted);border-right:2px solid var(--accent);padding-right:9px;margin:12px 0}
+.error{background:#2a1518;border:1px solid #5a2a30;color:#f0b3b8;padding:8px 10px;border-radius:8px;font-size:12.5px;white-space:pre-wrap}
+main{padding:16px 0 60px}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 14px}
+.toolbar input{max-width:260px}.toolbar select{max-width:170px}
+.stats{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:6px 10px;min-width:92px}
+.stat b{display:block;font-size:17px}.stat span{font-size:11px;color:var(--muted)}
+.layout{display:grid;grid-template-columns:330px minmax(0,1fr);gap:14px;align-items:start}
+.queue{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;position:sticky;top:74px}
+.qhead{padding:10px 12px;border-bottom:1px solid var(--line);font-size:12px;color:var(--muted)}
+#qlist{max-height:calc(100vh - 180px);overflow:auto}
+.qitem{padding:10px 12px;border-bottom:1px solid var(--line);cursor:pointer}
+.qitem:hover,.qitem.active{background:var(--panel2)}
+.qitem.active{box-shadow:inset 3px 0 var(--accent)}
+.qtitle{font-size:13px;margin:2px 0 4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.qmeta{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:11px;color:var(--muted)}
+.detail{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.dhead{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;gap:10px;justify-content:space-between;flex-wrap:wrap}
+.dhead h2{margin:0;font-size:16px}.dbody{padding:14px 16px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.box{border:1px solid var(--line);border-radius:10px;padding:11px;background:#121921;min-width:0}
+.box h3{margin:0 0 7px;font-size:12px;color:var(--muted);font-weight:normal}
+.kv{display:grid;grid-template-columns:78px minmax(0,1fr);gap:4px 8px;font-size:12.5px}.kv dt{color:var(--muted)}.kv dd{margin:0;overflow-wrap:anywhere}
+.before{color:#e9b4ba}.after{color:#a9dfbf}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}
+.pdf{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#0a0d11;margin-top:12px}
+.pdf iframe{display:block;width:100%;height:560px;border:0;background:#fff}
+.pdfbar{display:flex;gap:8px;align-items:center;justify-content:space-between;padding:6px 9px;font-size:11px;color:var(--muted);border-bottom:1px solid var(--line)}
+.actions{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}
+.formrow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;align-items:end}
+.formrow .wide{grid-column:span 2}
+.section{border-top:1px solid var(--line);margin-top:14px;padding-top:14px}
+.section h3{font-size:13px;margin:0 0 8px}
+.muted{color:var(--muted);font-size:12px}
+.small{font-size:11px}
+.evidence{border-right:3px solid var(--warn);padding:7px 10px;background:#1b1811;border-radius:6px;font-size:12px;white-space:pre-wrap;margin:7px 0}
+.footer{padding:12px 16px;border-top:1px solid var(--line);display:flex;gap:8px;flex-wrap:wrap;align-items:center;background:#121921}
+.empty{padding:30px;text-align:center;color:var(--muted)}
+.toast{position:fixed;bottom:18px;left:18px;right:18px;max-width:650px;margin:auto;padding:10px 14px;border-radius:9px;z-index:30;display:none;font-size:13px}
+.toast.ok{display:block;background:#13241b;border:1px solid #245c42;color:#a8e6c2}
+.toast.err{display:block;background:#2a1518;border:1px solid #5a2a30;color:#f0b3b8;white-space:pre-wrap}
+.tabs{display:flex;gap:6px;margin:10px 0}.tabs button.on{border-color:var(--accent);color:var(--accent)}
+.audit-entry{border:1px solid var(--line);border-radius:8px;padding:8px;margin:6px 0;font-size:11.5px;background:#121921;overflow-wrap:anywhere}
+code{font-family:Consolas,monospace;direction:ltr;display:inline-block;font-size:11.5px}
+@media(max-width:900px){.layout{grid-template-columns:1fr}.queue{position:static}#qlist{max-height:300px}.grid2,.split{grid-template-columns:1fr}.formrow{grid-template-columns:1fr 1fr}.formrow .wide{grid-column:span 2}.pdf iframe{height:420px}}
+</style>
+</head>
+<body>
+<div class="login" id="loginView">
+  <div class="card">
+    <h1>پنل بازبینی انسانی</h1>
+    <div class="sub">صف مستقل از OCR و Build · تصمیم‌های امضاشده · تاریخچهٔ زنجیره‌ای</div>
+    <div class="notice">این احراز هویت محلی است: حساب و کلیدِ همین نصب. هویتِ بیرونی/دولتی را اثبات نمی‌کند. تأیید فقط با رمز و کلیدِ تحت کنترل بازبین امضا می‌شود.</div>
+    <div id="loginError" class="error hidden"></div>
+    <div class="field"><label for="reviewer">بازبین</label><select id="reviewer"></select></div>
+    <div class="field"><label for="password">رمز</label><input id="password" type="password" autocomplete="current-password"></div>
+    <button class="primary" id="loginBtn" style="width:100%">ورود</button>
+    <div class="muted small" style="margin-top:10px">اگر حسابی نیست، در ترمینال اجرا کنید:<br><code>py -3 scripts/reviewer_auth.py register --id reviewer-1 --name "نام"</code></div>
+  </div>
+</div>
+
+<div id="appView" class="hidden">
+<header><div class="wrap head">
+  <div class="brand"><b>پنل بازبینی انسانی تقویم</b><span class="sub" id="assurance">نشست محلی · تصمیم‌ها امضاشده</span></div>
+  <div class="who"><span class="badge" id="whoLabel"></span><button id="logoutBtn">خروج</button></div>
+</div></header>
+<main class="wrap">
+  <div class="toolbar">
+    <input id="search" placeholder="جست‌وجو در عنوان/شناسه">
+    <select id="yearFilter"><option value="">همهٔ سال‌ها</option></select>
+    <select id="statusFilter"><option value="">همهٔ وضعیت‌ها</option></select>
+    <button id="refreshBtn">بازخوانی</button>
+    <button id="auditBtn">تاریخچه و یکپارچگی</button>
+  </div>
+  <div class="stats" id="stats"></div>
+  <div class="layout">
+    <aside class="queue"><div class="qhead" id="qhead">صف</div><div id="qlist"></div></aside>
+    <section class="detail" id="detail"><div class="empty">یک ردیف از صف را انتخاب کنید.</div></section>
+  </div>
+  <div class="section hidden" id="auditSection">
+    <h3>تاریخچهٔ امضاشده و بازگردانی</h3>
+    <div id="auditSummary" class="muted"></div>
+    <div class="formrow" style="margin:10px 0">
+      <div><label class="small muted">Log ID برای بازگردانی</label><input id="revertLog" dir="ltr" placeholder="L-00001"></div>
+      <div><label class="small muted">یا Change ID</label><input id="revertChange" dir="ltr" placeholder="C-1405-0001"></div>
+      <div class="wide"><label class="small muted">دلیل بازگردانی</label><input id="revertReason" placeholder="الزامی"></div>
+      <button class="no" id="revertBtn">ثبت بازگردانی</button>
+    </div>
+    <div id="auditList"></div>
+  </div>
+  <div class="section" id="uploadSection">
+    <h3>ساخت پیش‌نویس از PDF تازه</h3>
+    <div class="muted small">فقط پیش‌نویس می‌سازد؛ فایل اصلی و دادهٔ تأییدشده دست نمی‌خورند. OCR فقط وقتی انتخاب شود اجرا می‌شود و هرگز حدس نمی‌زند.</div>
+    <div class="formrow" style="margin-top:8px">
+      <div class="wide"><input id="pdfFile" type="file" accept="application/pdf,.pdf"></div>
+      <div><input id="pdfYear" placeholder="سال (اختیاری)" dir="ltr"></div>
+      <label class="muted small"><input id="ocr" type="checkbox" style="width:auto"> OCR صفحات اسکن‌شده</label>
+      <button class="primary" id="uploadBtn">ساخت پیش‌نویس</button>
+    </div>
+    <div id="uploadMsg" class="muted small" style="margin-top:6px"></div>
+  </div>
+</main>
+</div>
+<div class="toast" id="toast"></div>
+<script>
+const TOKEN = "__TOKEN__";
+const state = {me:null, queue:null, reviewers:[], selected:null, filter:{q:"",year:"",status:""}};
+const $ = id => document.getElementById(id);
+const esc = v => String(v ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmtDate = d => Array.isArray(d) && d.length===3 && !d.includes(null) ? `${d[0]}/${String(d[1]).padStart(2,"0")}/${String(d[2]).padStart(2,"0")}` : "—";
+const fmtG = d => Array.isArray(d) && d.length===3 && !d.includes(null) ? `${d[0]}-${String(d[1]).padStart(2,"0")}-${String(d[2]).padStart(2,"0")}` : "—";
+const fmtL = d => Array.isArray(d) && d.length===3 && !d.includes(null) ? `${d[0]}/${d[1]}/${d[2]}` : "—";
+const statusLabels = {draft:"Draft",pending:"Pending",approved:"Approved",corrected:"Corrected",rejected:"Rejected","needs-evidence":"Needs Evidence"};
+
+function toast(text, ok=false){
+  const t=$("toast"); t.textContent=text; t.className="toast "+(ok?"ok":"err");
+  clearTimeout(toast.timer); toast.timer=setTimeout(()=>t.className="toast",7000);
+}
+async function api(path, opts={}){
+  const headers = Object.assign({"X-Review-Token":TOKEN}, opts.headers||{});
+  if(opts.body && !(opts.body instanceof FormData)) headers["Content-Type"]="application/json";
+  const r = await fetch(path, Object.assign({credentials:"same-origin"}, opts, {headers}));
+  let data={}; try{data=await r.json();}catch(e){}
+  if(r.status===401){showLogin(); throw new Error(data.error||"نشست منقضی شده است");}
+  if(!r.ok) throw new Error(data.error||("خطای سرور: "+r.status));
+  return data;
+}
+function showLogin(){ $("appView").classList.add("hidden"); $("loginView").classList.remove("hidden"); }
+function showApp(){ $("loginView").classList.add("hidden"); $("appView").classList.remove("hidden"); }
+async function loadReviewers(){
+  const r=await api("/api/reviewers");
+  state.reviewers=r.reviewers||[];
+  $("reviewer").innerHTML=state.reviewers.map(x=>`<option value="${esc(x.id)}">${esc(x.displayName)} — ${esc(x.id)}</option>`).join("") || '<option value="">حسابی ثبت نشده</option>';
+}
+async function boot(){
+  await loadReviewers();
+  try{
+    const s=await api("/api/session");
+    if(s.authenticated){ state.me=s.reviewer; showApp(); await loadState(); }
+    else showLogin();
+  }catch(e){ showLogin(); }
+}
+$("loginBtn").onclick=async()=>{
+  $("loginError").classList.add("hidden");
+  try{
+    const r=await api("/api/login",{method:"POST",body:JSON.stringify({reviewer:$("reviewer").value,password:$("password").value})});
+    state.me=r.reviewer; $("password").value=""; showApp(); await loadState();
+  }catch(e){ $("loginError").textContent=e.message; $("loginError").classList.remove("hidden"); }
+};
+$("logoutBtn").onclick=async()=>{ try{await api("/api/logout",{method:"POST",body:"{}"});}catch(e){} showLogin(); };
+$("refreshBtn").onclick=()=>loadState();
+$("auditBtn").onclick=()=>loadAudit();
+$("search").oninput=e=>{state.filter.q=e.target.value.trim(); renderQueue();};
+$("yearFilter").onchange=e=>{state.filter.year=e.target.value; renderQueue();};
+$("statusFilter").onchange=e=>{state.filter.status=e.target.value; renderQueue();};
+
+function allItems(){ return state.queue?.items||[]; }
+function visibleItems(){
+  const q=state.filter.q.toLowerCase();
+  return allItems().filter(i=>{
+    if(state.filter.year && String(i.year)!==state.filter.year) return false;
+    if(state.filter.status && i.status!==state.filter.status) return false;
+    if(q && !(`${i.sourceTitle} ${i.itemId} ${i.changeId} ${i.dateKey}`.toLowerCase().includes(q))) return false;
+    return true;
+  });
+}
+function renderStats(){
+  const c=state.queue?.counts||{};
+  $("stats").innerHTML=Object.keys(statusLabels).map(k=>`<div class="stat"><b>${c[k]||0}</b><span>${statusLabels[k]}</span></div>`).join("");
+  const years=[...new Set(allItems().map(i=>i.year))].sort();
+  const yf=$("yearFilter"), current=yf.value;
+  yf.innerHTML='<option value="">همهٔ سال‌ها</option>'+years.map(y=>`<option value="${y}">${y}</option>`).join("");
+  yf.value=current;
+  const sf=$("statusFilter"), sc=sf.value;
+  sf.innerHTML='<option value="">همهٔ وضعیت‌ها</option>'+Object.keys(statusLabels).map(k=>`<option value="${k}">${statusLabels[k]}</option>`).join("");
+  sf.value=sc;
+}
+function renderQueue(){
+  renderStats();
+  const items=visibleItems();
+  $("qhead").textContent=`${items.length} ردیف در صف · ${state.queue?.bundles?.length||0} پیش‌نویس`;
+  $("qlist").innerHTML=items.length?items.map(i=>`
+    <div class="qitem ${state.selected===i.itemId?"active":""}" data-id="${esc(i.itemId)}">
+      <div class="qmeta"><span class="pill ${i.status}">${statusLabels[i.status]||i.status}</span><span>${i.year}</span><span>${esc(i.kind||"")}</span>${i.page?`<span>صفحهٔ ${i.page}</span>`:""}</div>
+      <div class="qtitle">${esc(i.sourceTitle||"بدون عنوان")}</div>
+      <div class="qmeta"><span>${esc(i.changeId||"")}</span><span>${esc(i.dateKey||"")}</span>${i.needsEvidence?'<span class="pill needs-evidence">شاهد کم است</span>':""}</div>
+    </div>`).join(""):'<div class="empty">با این فیلتر ردیفی نیست.</div>';
+  document.querySelectorAll(".qitem").forEach(n=>n.onclick=()=>{state.selected=n.dataset.id; renderQueue(); renderDetail();});
+}
+function bundleFor(item){ return (state.queue?.bundles||[]).find(b=>b.revisionId===item.revisionId); }
+function bundleFooter(item){
+  const b=bundleFor(item); if(!b) return "";
+  return `<div class="footer">
+    <span class="muted small">${b.resolved}/${b.required} ردیف نیازمندِ تصمیم حل شده</span>
+    ${b.locked?'<span class="pill rejected">سالِ قفل‌شده — انتشار ممنوع</span>':''}
+    <button class="ok" id="yearApprove" ${b.canFinalize?"":"disabled"}>تأیید نهایی و مستقل سال ${b.year}</button>
+    <button class="no" id="rejectBundle">رد کل پیش‌نویس</button>
+  </div>`;
+}
+function rowBox(label, row, cls){
+  if(!row) return `<div class="box"><h3>${label}</h3><div class="muted">—</div></div>`;
+  return `<div class="box"><h3>${label}</h3><dl class="kv">
+    <dt>عنوان</dt><dd class="${cls}">${esc(row.title||row.titleRaw||"—")}</dd>
+    <dt>تاریخ</dt><dd><code>${fmtDate(row.solar||row.sourceDate)}</code> ${row.multiDay?`<span class="pill">${fmtDate(row.startSolar)} تا ${fmtDate(row.endSolar)}</span>`:""}</dd>
+    <dt>میلادی</dt><dd><code>${fmtG(row.gregorian||row.sourceGregorian)}</code></dd>
+    <dt>قمری</dt><dd><code>${fmtL(row.lunar||row.sourceLunar)}</code></dd>
+    <dt>تعطیل</dt><dd>${row.holiday===true?"بله":row.holiday===false?"خیر":"—"}</dd>
+    <dt>صفحه</dt><dd>${row.page??"ثبت نشده"}</dd>
+    ${row.sourceDate?`<dt>تاریخ منبع</dt><dd><code>${fmtDate(row.sourceDate)}</code> محفوظ</dd>`:""}
+  </dl></div>`;
+}
+function renderDetail(){
+  const item=allItems().find(i=>i.itemId===state.selected);
+  if(!item){ $("detail").innerHTML='<div class="empty">یک ردیف از صف را انتخاب کنید.</div>'; return; }
+  const b=bundleFor(item)||{};
+  const d=item.decision||{};
+  const page=item.page||1;
+  const pdf=`/api/pdf?revision=${encodeURIComponent(item.revisionId)}&page=${page}#page=${page}&zoom=page-width`;
+  const dateMeta=d.dateMeta||d.edit?.dateMeta||null;
+  const conv=dateMeta?.conversion||item.after?.dateConversion||null;
+  $("detail").innerHTML=`
+    <div class="dhead"><div><h2>${esc(item.sourceTitle||"ردیف بدون عنوان")}</h2>
+      <div class="qmeta"><span class="pill ${item.status}">${statusLabels[item.status]||item.status}</span>
+        <span>${esc(item.revisionId)}</span><span>${esc(item.changeId)}</span><span>سال ${item.year}</span></div></div>
+      <div class="qmeta"><span class="pill">شناسه پایدار ${esc(item.itemId)}</span>${item.page?`<span class="pill">صفحهٔ ${item.page}</span>`:'<span class="pill rejected">صفحه نامشخص</span>'}</div>
+    </div>
+    <div class="dbody">
+      <div class="grid2">${rowBox("پیش از تغییر",item.before,"before")}${rowBox("پس از تغییر / پیشنهاد",item.after,"after")}</div>
+      <div class="split">
+        <div class="box"><h3>تفاوت و دلیل ماشینی</h3><div class="small">${esc(item.reason||"—")}</div>
+          <div class="qmeta" style="margin-top:6px"><span class="pill">${esc(item.kind)}</span>${item.similarity?`<span class="pill">شباهت ${item.similarity}</span>`:""}${item.duplicateGroup?`<span class="pill">گروه تکرار ${esc(item.duplicateGroup)}</span>`:""}${item.suspectedSplit?'<span class="pill">احتمال قطعهٔ شکسته</span>':""}</div></div>
+        <div class="box"><h3>وضعیت تصمیم</h3><div class="small">${d.action?`${esc(d.action)} — ${esc(d.by||"")}<br>${esc(d.reason||d.note||"")}${d.edited?" <span class='pill corrected'>اصلاح‌شده</span>":""}`:"هنوز تصمیمی ثبت نشده است."}</div>
+          ${d.evidence?`<div class="evidence">${esc(d.evidence)}</div>`:""}
+          ${d.delegatedTo?`<div class="small muted">واگذارشده به: ${esc(d.delegatedTo)}</div>`:""}
+          ${conv?`<div class="small muted">تبدیل: ${esc(conv.from||"")} → ${esc(conv.to||"solar")} · الگوریتم ${esc(conv.algorithm||"")} v${esc(conv.version||"")}</div>`:""}
+        </div>
+      </div>
+      <div class="pdf"><div class="pdfbar"><span>سند: ${esc(item.document?.file||b.file||"")} · صفحهٔ ${page}${item.tableRow?` · سطر جدول ${item.tableRow}`:""}</span><a href="${pdf}" target="_blank" rel="noopener">باز کردن PDF در تب</a></div>
+        <iframe title="صفحهٔ PDF" src="${pdf}"></iframe></div>
+      <div class="section">
+        <h3>ثبت تصمیم</h3>
+        <div class="formrow">
+          <div class="wide"><label class="small muted">دلیل / یادداشت بازبین</label><textarea id="reason" placeholder="برای رد یا نیازمند شاهد الزامی است">${esc(d.reason||d.note||"")}</textarea></div>
+          <div class="wide"><label class="small muted">شاهد / نشانی شاهد</label><textarea id="evidence" placeholder="برای «نیازمند شاهد» الزامی است؛ مثلاً صفحه/سطر یا نشانی سند">${esc(d.evidence||"")}</textarea></div>
+          <div><label class="small muted">واگذاری به بازبین دیگر</label><select id="delegated"><option value="">بدون واگذاری</option>${state.reviewers.filter(r=>r.id!==state.me?.reviewerId).map(r=>`<option value="${esc(r.id)}" ${d.delegatedTo===r.id?"selected":""}>${esc(r.displayName)}</option>`).join("")}</select></div>
+        </div>
+        <div class="actions">
+          <button class="ok" id="approveBtn">تأیید</button>
+          <button class="no" id="rejectBtn">رد</button>
+          <button id="evidenceBtn">نیازمند شاهد</button>
+          <button class="primary" id="editBtn">اصلاح و مقایسه</button>
+        </div>
+        <div class="section hidden" id="editForm">
+          <h3>اصلاح تاریخ/عنوان (قبل و بعد همیشه نمایش داده می‌شود)</h3>
+          <div class="formrow">
+            <div class="wide"><label class="small muted">عنوان اصلاح‌شده</label><input id="editTitle" value="${esc(item.after?.title||"")}"></div>
+            <div><label class="small muted">تعطیلی</label><select id="editHoliday"><option value="">بدون تغییر</option><option value="true" ${item.after?.holiday===true?"selected":""}>تعطیل</option><option value="false" ${item.after?.holiday===false?"selected":""}>غیرتعطیل</option></select></div>
+            <div class="wide"><label class="small muted">توضیح</label><input id="editDescription" value="${esc(item.after?.description||"")}"></div>
+          </div>
+          <div class="formrow" style="margin-top:8px">
+            <div><label class="small muted">تقویم شروع</label><select id="startCal"><option value="solar">شمسی</option><option value="lunar">قمری</option><option value="gregorian">میلادی</option></select></div>
+            <div><label class="small muted">شروع (سال/ماه/روز)</label><div style="display:flex;gap:4px"><input id="sy" dir="ltr" value="${item.after?.solar?.[0]??item.year}"><input id="sm" dir="ltr" value="${item.after?.solar?.[1]??""}"><input id="sd" dir="ltr" value="${item.after?.solar?.[2]??""}"></div></div>
+            <div><label class="small muted">تقویم پایان (اختیاری)</label><select id="endCal"><option value="solar">شمسی</option><option value="lunar">قمری</option><option value="gregorian">میلادی</option></select></div>
+            <div><label class="small muted">پایان (خالی = تک‌روزه)</label><div style="display:flex;gap:4px"><input id="ey" dir="ltr" placeholder="سال"><input id="em" dir="ltr" placeholder="ماه"><input id="ed" dir="ltr" placeholder="روز"></div></div>
+          </div>
+          <div class="notice">تاریخ اصلی منبع حفظ می‌شود؛ تاریخ نمایش‌داده‌شده و روش/نسخهٔ تبدیل هم در تاریخچه ذخیره می‌شود. شروع و پایان مستقل‌اند.</div>
+          <button class="primary" id="saveEditBtn">ثبت اصلاح امضاشده</button>
+        </div>
+      </div>
+    </div>
+    ${bundleFooter(item)}`;
+  $("approveBtn").onclick=()=>submitDecision(item,"approve");
+  $("rejectBtn").onclick=()=>submitDecision(item,"reject");
+  $("evidenceBtn").onclick=()=>submitDecision(item,"needs-evidence");
+  $("editBtn").onclick=()=>$("editForm").classList.toggle("hidden");
+  $("saveEditBtn").onclick=()=>submitDecision(item,"edit");
+  const ya=$("yearApprove"); if(ya) ya.onclick=()=>yearApprove(item);
+  const rb=$("rejectBundle"); if(rb) rb.onclick=()=>rejectBundle(item);
+}
+async function loadState(){
+  const q=await api("/api/state");
+  state.queue=q;
+  $("whoLabel").textContent=`${state.me?.displayName||""} · ${state.me?.reviewerId||""}`;
+  $("assurance").textContent=`نشست محلی · ${state.me?.assurance||"رمز و کلید رمزگذاری‌شده"}`;
+  renderQueue();
+  if(state.selected && allItems().some(i=>i.itemId===state.selected)) renderDetail();
+  else { state.selected=allItems()[0]?.itemId||null; renderQueue(); renderDetail(); }
+}
+function readPeriod(){
+  const start=[$("sy").value,$("sm").value,$("sd").value];
+  if(start.some(v=>String(v).trim()==="")) return null;
+  const end=[$("ey").value,$("em").value,$("ed").value];
+  const hasEnd=end.some(v=>String(v).trim()!=="");
+  if(hasEnd && end.some(v=>String(v).trim()==="")) throw new Error("پایان بازه ناقص است؛ یا کامل بدهید یا خالی بگذارید.");
+  return {
+    start:{calendar:$("startCal").value,date:start.map(Number)},
+    ...(hasEnd?{end:{calendar:$("endCal").value,date:end.map(Number)}}:{})
+  };
+}
+async function submitDecision(item,action){
+  try{
+    const payload={revision:item.revisionId,change:item.changeId,action,reason:$("reason").value.trim(),
+      evidence:$("evidence").value.trim(),delegatedTo:$("delegated").value};
+    if(action==="edit"){
+      payload.title=$("editTitle").value.trim();
+      payload.description=$("editDescription").value;
+      if($("editHoliday").value!=="") payload.holiday=$("editHoliday").value==="true";
+      try{payload.date=readPeriod();}catch(e){toast(e.message);return;}
+      if(!payload.date && !payload.title && !payload.description){toast("هیچ اصلاحی وارد نشده است.");return;}
+    }
+    const r=await api("/api/decide",{method:"POST",body:JSON.stringify(payload)});
+    toast(`ثبت شد · وضعیت ${statusLabels[r.status]||r.status} · Audit #${r.auditSeq}`,true);
+    await loadState();
+  }catch(e){toast(e.message);}
+}
+async function yearApprove(item){
+  const b=bundleFor(item);
+  const note=$("reason")?.value.trim()||"";
+  if(!confirm(`تأیید سال ${b.year} جدا از تصمیم ردیف‌ها امضا و اعمال شود؟`)) return;
+  try{
+    const r=await api("/api/year-approval",{method:"POST",body:JSON.stringify({revision:item.revisionId,note})});
+    toast(`تأیید سال امضا شد: ${r.revision} · ${r.log}`,true); await loadState();
+  }catch(e){toast(e.message);}
+}
+async function rejectBundle(item){
+  const reason=$("reason")?.value.trim()||prompt("دلیل رد کل پیش‌نویس:");
+  if(!reason) return;
+  if(!confirm("کل پیش‌نویس رد شود؟ داده اصلی تغییر نمی‌کند.")) return;
+  try{await api("/api/reject",{method:"POST",body:JSON.stringify({revision:item.revisionId,reason})}); toast("پیش‌نویس رد شد.",true); await loadState();}
+  catch(e){toast(e.message);}
+}
+async function loadAudit(){
+  $("auditSection").classList.remove("hidden");
+  try{
+    const a=await api("/api/audit");
+    const ok=a.integrity.ok;
+    $("auditSummary").innerHTML=`${a.entries.length} رکورد امضاشده · زنجیره: <b style="color:${ok?"var(--ok)":"var(--danger)"}">${ok?"سالم":"سالم نیست"}</b>`;
+    $("auditList").innerHTML=a.integrity.issues.length?`<div class="error">${esc(JSON.stringify(a.integrity.issues,null,1))}</div>`:"";
+    $("auditList").innerHTML += a.entries.slice().reverse().map(e=>`<div class="audit-entry">
+      <b>#${e.seq}</b> ${esc(e.action)} · ${esc(e.actor?.displayName||e.actor?.reviewerId)} · ${esc(e.at)}
+      <br><code>${esc(e.recordHash)}</code>
+      <details><summary class="muted small">payload</summary><pre class="small" style="white-space:pre-wrap">${esc(JSON.stringify(e.payload,null,1))}</pre></details>
+    </div>`).join("") || '<div class="empty">هنوز رکوردی نیست.</div>';
+    $("auditSection").scrollIntoView({behavior:"smooth"});
+  }catch(e){toast(e.message);}
+}
+$("revertBtn").onclick=async()=>{
+  try{
+    const r=await api("/api/revert",{method:"POST",body:JSON.stringify({
+      log:$("revertLog").value.trim(),change:$("revertChange").value.trim(),reason:$("revertReason").value.trim()})});
+    toast(`بازگردانی ثبت شد: ${r.log} · ${r.revision}`,true); $("revertLog").value="";$("revertChange").value=""; await loadState(); await loadAudit();
+  }catch(e){toast(e.message);}
+};
+$("uploadBtn").onclick=async()=>{
+  const f=$("pdfFile").files[0]; if(!f){toast("یک PDF انتخاب کنید.");return;}
+  const fd=new FormData(); fd.append("file",f,f.name);
+  if($("pdfYear").value.trim()) fd.append("year",$("pdfYear").value.trim());
+  if($("ocr").checked) fd.append("ocr","1");
+  $("uploadMsg").textContent="در حال ساخت پیش‌نویس…";
+  try{
+    const r=await api("/api/upload",{method:"POST",body:fd});
+    $("uploadMsg").textContent=`${r.revisionId} · ${r.rows} ردیف · ${r.method}`;
+    toast("پیش‌نویس ساخته شد؛ هیچ داده‌ای اعمال نشد.",true); await loadState();
+  }catch(e){$("uploadMsg").textContent="";toast(e.message);}
+};
+boot();
+</script>
+</body>
+</html>
