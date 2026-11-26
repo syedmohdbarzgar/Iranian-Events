@@ -86,15 +86,19 @@ def _gregorian_to_solar(year: int, values) -> list[int]:
 
 def lunar_to_solar(year: int, values) -> list[int]:
     y, m, d = _triple(values)
-    # سالِ قمری، سالِ هجریِ قمری است و با سالِ شمسی یکی نیست؛ فقط بازهٔ معقول
-    # بررسی می‌شود و نگاشتِ واقعی با lunar_occurrence انجام می‌گیرد.
     if not 1300 <= y <= 1500:
         raise ValueError("سالِ قمری در بازهٔ معقول نیست")
     if not 1 <= m <= 12 or not 1 <= d <= 30:
         raise ValueError(f"تاریخِ قمریِ نامعتبر: {y}-{m}-{d}")
-    solar = engine.lunar_occurrence(year, m, d)
+    solar = engine.lunar_occurrence(year, m, d, y)
     if solar is None:
         raise ValueError(f"تاریخِ قمری {m}/{d} در سالِ {year} به روزِ شمسی نگاشت نشد")
+    actual = engine.lunar_from_solar(*solar)
+    if tuple(actual) != (y, m, d):
+        raise ValueError(
+            f"سال/روزِ قمری با تاریخِ شمسیِ متناظر نمی‌خواند؛ "
+            f"ورودی {y}-{m}-{d} اما نگاشت {actual[0]}-{actual[1]}-{actual[2]}"
+        )
     return list(solar)
 
 
@@ -133,6 +137,8 @@ def normalize_period(payload: dict, year: int, fallback_solar) -> dict:
         "multiDay": end_solar != start_solar,
         "source": {
             "calendar": start_cal,
+            "startCalendar": start_cal,
+            "endCalendar": end_cal,
             "start": _triple(start_values),
             "end": _triple(end_values) if end_values else _triple(start_values),
         },
@@ -141,6 +147,8 @@ def normalize_period(payload: dict, year: int, fallback_solar) -> dict:
             "version": ALGORITHM_VERSION,
             "from": start_cal,
             "to": "solar",
+            "startFrom": start_cal,
+            "endFrom": end_cal,
             "startSolar": start_solar,
             "endSolar": end_solar,
         },

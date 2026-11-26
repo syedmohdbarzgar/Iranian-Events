@@ -122,7 +122,9 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("X-Content-Type-Options", "nosniff")
         self.send_header("Referrer-Policy", "no-referrer")
         for key, value in (extra or {}).items():
-            self.send_header(key, value)
+            values = value if isinstance(value, (list, tuple)) else [value]
+            for item in values:
+                self.send_header(key, item)
         self.end_headers()
         if self.command != "HEAD":
             self.wfile.write(body)
@@ -151,7 +153,16 @@ class Handler(BaseHTTPRequestHandler):
         return host in {"127.0.0.1", "localhost", "::1"}
 
     def _token_ok(self) -> bool:
-        return hmac.compare_digest(self.headers.get("X-Review-Token", ""), TOKEN)
+        supplied = self.headers.get("X-Review-Token", "")
+        if not supplied:
+            cookie = SimpleCookie()
+            try:
+                cookie.load(self.headers.get("Cookie", ""))
+            except Exception:  # noqa: BLE001
+                cookie = SimpleCookie()
+            morsel = cookie.get("review_csrf")
+            supplied = morsel.value if morsel else ""
+        return hmac.compare_digest(supplied, TOKEN)
 
     def _session(self) -> dict | None:
         raw = self.headers.get("X-Review-Session", "")
@@ -230,6 +241,9 @@ class Handler(BaseHTTPRequestHandler):
         if path == "/healthz":
             self._json(200, {"ok": True, "service": "review-panel"})
             return
+        if path in {"/favicon.ico", "/robots.txt"}:
+            self._send(204, b"", "text/plain; charset=utf-8")
+            return
         if not self._token_ok():
             self._json(403, {"error": "توکن نامعتبر"})
             return
@@ -305,8 +319,10 @@ class Handler(BaseHTTPRequestHandler):
                         SESSIONS.pop(raw.value, None)
                 except Exception:  # noqa: BLE001
                     pass
-            self._json(200, {"ok": True}, {"Set-Cookie":
-                       "review_session=; HttpOnly; SameSite=Strict; Path=/; Max-Age=0"})
+            self._json(200, {"ok": True}, {"Set-Cookie": [
+                "review_session=; HttpOnly; SameSite=Strict; Path=/; Max-Age=0",
+                "review_csrf=; HttpOnly; SameSite=Strict; Path=/; Max-Age=0",
+            ]})
             return
         session = self._require_session()
         if session is None:
@@ -368,9 +384,15 @@ class Handler(BaseHTTPRequestHandler):
                          "displayName": session["displayName"],
                          "keyId": session["keyId"],
                          "assurance": session["assurance"]},
-        }, {"Set-Cookie": (
-            f"review_session={token}; HttpOnly; SameSite=Strict; Path=/; "
-            f"Max-Age={SESSION_TTL}")})
+        }, {"Set-Cookie": [
+            (f"review_session={token}; HttpOnly; SameSite=Strict; Path=/; "
+             f"Max-Age={SESSION_TTL}"),
+            # iframeِ PDF نمی‌تواند هدرِ CSRF بفرستد؛ همین توکن را به‌صورت
+            # HttpOnly و SameSite در کوکی نگه می‌داریم تا درخواستِ خودِ صفحه
+            # مجاز باشد، بدونِ گذاشتنِ توکن در URL/Referer.
+            (f"review_csrf={TOKEN}; HttpOnly; SameSite=Strict; Path=/; "
+             f"Max-Age={SESSION_TTL}"),
+        ]})
 
     def _upload(self) -> None:
         try:

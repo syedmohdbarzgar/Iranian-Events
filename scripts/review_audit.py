@@ -24,7 +24,7 @@ import reviewer_auth  # noqa: E402
 
 AUDIT_FILE = ROOT / "data" / "review" / "review-audit-log.json"
 AUDIT_HEAD_FILE = ROOT / "data" / "review" / "review-audit-head.json"
-ACTIONS = {"decision", "year-approval", "finalize", "revert", "delegate"}
+ACTIONS = {"decision", "year-approval", "finalize", "revert", "delegate", "abort"}
 _APPEND_LOCK = threading.RLock()
 
 
@@ -183,8 +183,19 @@ def verify_entries(entries: list[dict], trusted: dict[str, str]) -> list[dict]:
     return issues
 
 
-def append(session: dict, action: str, payload: dict, *, file: Path | None = None,
-           reviewers_file: Path | None = None) -> dict:
+def _write_head(entry: dict, session: dict, path: Path) -> None:
+    head_body = {**_head_payload(entry), "actor": entry["actor"], "at": entry["at"]}
+    _write(head_path(path), {**head_body, "publicKey": session["publicKey"],
+                             "signature": reviewer_auth.sign(session, head_body)})
+
+
+def prepare(session: dict, action: str, payload: dict, *, file: Path | None = None,
+            reviewers_file: Path | None = None) -> dict:
+    """رکورد را می‌سازد و امضا می‌کند، ولی هنوز به دفتر اضافه نمی‌کند.
+
+    این مرحله برای تأییدِ سال است: اگر اعمالِ نسخه شکست بخورد، هیچ رکوردِ
+    year-approval در دفتر نمی‌نشیند.
+    """
     if action not in ACTIONS:
         raise ValueError("کنشِ دفتر نامعتبر است")
     if not isinstance(payload, dict) or not payload:
@@ -201,15 +212,40 @@ def append(session: dict, action: str, payload: dict, *, file: Path | None = Non
         prev = entries[-1]["recordHash"] if entries else ""
         body = _body(len(entries) + 1, action, session, now_iso(), payload, prev)
         body["recordHash"] = _record_hash(body)
-        entry = {**body, "publicKey": session["publicKey"],
-                 "signature": reviewer_auth.sign(session, body)}
+        return {**body, "publicKey": session["publicKey"],
+                "signature": reviewer_auth.sign(session, body)}
+
+
+def commit(entry: dict, session: dict, *, file: Path | None = None,
+           reviewers_file: Path | None = None) -> dict:
+    """رکوردِ آماده‌شده را فقط اگر زنجیره همان لحظه باشد اضافه می‌کند."""
+    path = file or AUDIT_FILE
+    with _APPEND_LOCK:
+        document = _load(path)
+        entries = document["entries"]
+        trusted = _trusted(reviewers_file)
+        issues = verify_entries(entries, trusted) + _verify_head(path, entries, trusted)
+        if issues:
+            raise ValueError("دفتر پیش از افزودن معتبر نیست: "
+                             + ", ".join(sorted({i["code"] for i in issues})))
+        if entry.get("actor", {}).get("keyId") != session.get("keyId"):
+            raise ValueError("رکوردِ آماده با نشستِ فعلی نمی‌خواند")
+        prev = entries[-1]["recordHash"] if entries else ""
+        if entry.get("seq") != len(entries) + 1 or entry.get("prevHash") != prev:
+            raise ValueError("دفتر بین ساخت و ثبتِ رکورد عوض شده است؛ دوباره تلاش کنید")
+        issues = verify_entry(entry, trusted)
+        if issues:
+            raise ValueError("رکوردِ آماده امضای معتبر ندارد: " + issues[0]["code"])
         entries.append(entry)
         _write(path, document)
-        head_body = {**_head_payload(entry),
-                     "actor": entry["actor"], "at": entry["at"]}
-        _write(head_path(path), {**head_body, "publicKey": session["publicKey"],
-                                 "signature": reviewer_auth.sign(session, head_body)})
+        _write_head(entry, session, path)
         return entry
+
+
+def append(session: dict, action: str, payload: dict, *, file: Path | None = None,
+           reviewers_file: Path | None = None) -> dict:
+    entry = prepare(session, action, payload, file=file, reviewers_file=reviewers_file)
+    return commit(entry, session, file=file, reviewers_file=reviewers_file)
 
 
 def load_entries(file: Path | None = None) -> list[dict]:

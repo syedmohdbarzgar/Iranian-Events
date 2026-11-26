@@ -7,7 +7,9 @@
 """
 from __future__ import annotations
 
+import functools
 import sys
+import threading
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,6 +23,17 @@ import reviewer_auth  # noqa: E402
 
 class PanelError(ValueError):
     """خطای قابلِ نمایش به کاربر؛ هیچ داده‌ای نباید نیمه‌کاره اعمال شود."""
+
+
+_MUTATION_LOCK = threading.RLock()
+
+
+def _serialized(fn):
+    @functools.wraps(fn)
+    def wrapper(*args, **kwargs):
+        with _MUTATION_LOCK:
+            return fn(*args, **kwargs)
+    return wrapper
 
 
 def _actor(session: dict) -> str:
@@ -88,6 +101,7 @@ def reviewers() -> list[dict]:
     return reviewer_auth.public_reviewers()
 
 
+@_serialized
 def decide(session: dict, body: dict) -> dict:
     reviewer = _actor(session)
     rev_id = _clean_text(body.get("revision"), 100)
@@ -99,6 +113,8 @@ def decide(session: dict, body: dict) -> dict:
     change = review.find_change(bundle, change_id)
     if change is None:
         raise PanelError("این تغییر در پیش‌نویس نیست")
+    if change_id in (bundle.get("decisions") or {}):
+        raise PanelError("برای این تغییر قبلاً تصمیم ثبت شده است؛ تصمیمِ قبلی بازنویسی نمی‌شود")
     reason = _clean_text(body.get("reason") or body.get("note"), 2000)
     evidence = _clean_text(body.get("evidence"), 4000)
     if action in {"reject", "needs-evidence", "edit"} and not reason:
@@ -161,6 +177,7 @@ def decide(session: dict, body: dict) -> dict:
         "delegatedTo": delegated or None,
         "reviewerId": reviewer,
         "assurance": session.get("assurance"),
+        "auditSeq": audit["seq"],
     }
     if date_meta:
         meta["dateMeta"] = date_meta
@@ -168,13 +185,24 @@ def decide(session: dict, body: dict) -> dict:
         updated = review.decide(rev_id, change_id, action, by=reviewer,
                                 note=reason, edit=edit, meta=meta)
     except (ValueError, FileNotFoundError) as exc:
-        raise PanelError(f"دفتر ثبت شد اما تصمیم اعمال نشد: {exc}") from exc
+        _record_abort(session, "decision", rev_id, change_id, exc)
+        raise PanelError(f"تصمیم ثبت نشد؛ رکوردِ ناموفق در دفتر علامت خورد: {exc}") from exc
     decision = updated["decisions"].get(change_id, {})
-    decision["auditSeq"] = audit["seq"]
-    updated["decisions"][change_id] = decision
-    review.save_bundle(updated)
     return {"ok": True, "itemId": payload["itemId"], "auditSeq": audit["seq"],
             "status": review_model.status_for(updated, change)}
+
+
+def _record_abort(session: dict, action: str, rev_id: str, change_id: str,
+                  exc: Exception) -> None:
+    try:
+        review_audit.append(session, "abort", {
+            "attemptedAction": action,
+            "revisionId": rev_id,
+            "changeId": change_id,
+            "reason": str(exc)[:1000],
+        })
+    except Exception:  # noqa: BLE001 - خودِ دفتر خراب است؛ خطای اصلی را نگه دار
+        pass
 
 
 def approve_all_requires_single_decisions() -> None:
@@ -182,6 +210,7 @@ def approve_all_requires_single_decisions() -> None:
     raise PanelError("تأییدِ گروهی در پنل غیرفعال است؛ هر ردیف را جداگانه تأیید کنید")
 
 
+@_serialized
 def year_approval(session: dict, body: dict) -> dict:
     reviewer = _actor(session)
     rev_id = _clean_text(body.get("revision"), 100)
@@ -203,24 +232,33 @@ def year_approval(session: dict, body: dict) -> dict:
         "decisionCount": len(bundle.get("decisions") or {}),
         "note": _clean_text(body.get("note"), 1000),
     }
-    audit = review_audit.append(session, "year-approval", payload)
+    # ابتدا امضا ساخته می‌شود ولی هنوز در دفتر نمی‌نشیند؛ اگر finalize
+    # شکست بخورد، هیچ year-approval نیمه‌کاره‌ای در تاریخچه نمی‌ماند.
+    approval = review_audit.prepare(session, "year-approval", payload)
     try:
         result = review.finalize(rev_id, by=reviewer, note=payload["note"],
-                                 signed_approval=audit)
+                                 signed_approval=approval)
     except (ValueError, FileNotFoundError) as exc:
-        raise PanelError(f"تأییدِ سال امضا شد اما اعمال نشد: {exc}") from exc
+        _record_abort(session, "year-approval", rev_id, "", exc)
+        raise PanelError(f"تأییدِ سال اعمال نشد و در دفتر ثبت نشد: {exc}") from exc
+    try:
+        review_audit.commit(approval, session)
+    except ValueError as exc:
+        _record_abort(session, "year-approval-commit", rev_id, "", exc)
+        raise PanelError(f"نسخه اعمال شد اما ثبتِ تأییدِ سال در دفتر ناموفق بود: {exc}") from exc
     review_audit.append(session, "finalize", {
         "revisionId": rev_id,
         "year": year,
         "approvedRevisionId": result["revision"]["id"],
         "changelogId": result["entry"]["id"],
-        "yearApprovalSeq": audit["seq"],
+        "yearApprovalSeq": approval["seq"],
         "rows": result["rows"],
     })
     return {"ok": True, "revision": result["revision"]["id"],
-            "log": result["entry"]["id"], "yearApprovalSeq": audit["seq"]}
+            "log": result["entry"]["id"], "yearApprovalSeq": approval["seq"]}
 
 
+@_serialized
 def reject_revision(session: dict, body: dict) -> dict:
     reviewer = _actor(session)
     rev_id = _clean_text(body.get("revision"), 100)
@@ -234,10 +272,12 @@ def reject_revision(session: dict, body: dict) -> dict:
     try:
         review.reject_revision(rev_id, by=reviewer, note=reason)
     except (ValueError, FileNotFoundError) as exc:
-        raise PanelError(str(exc)) from exc
+        _record_abort(session, "reject-revision", rev_id, "", exc)
+        raise PanelError(f"ردِ پیش‌نویس اعمال نشد؛ رکوردِ ناموفق علامت خورد: {exc}") from exc
     return {"ok": True, "auditSeq": audit["seq"], "year": bundle["revision"]["year"]}
 
 
+@_serialized
 def revert(session: dict, body: dict) -> dict:
     reviewer = _actor(session)
     log_id = _clean_text(body.get("log"), 40)
@@ -253,7 +293,8 @@ def revert(session: dict, body: dict) -> dict:
         entry = (review.revert_log(log_id, by=reviewer, note=reason) if log_id
                  else review.revert_change(change_id, by=reviewer, note=reason))
     except (ValueError, FileNotFoundError) as exc:
-        raise PanelError(str(exc)) from exc
+        _record_abort(session, "revert", rev_id="", change_id=change_id, exc=exc)
+        raise PanelError(f"بازگردانی اعمال نشد؛ رکوردِ ناموفق علامت خورد: {exc}") from exc
     return {"ok": True, "log": entry["id"], "revision": entry["revisionId"],
             "auditSeq": audit["seq"]}
 

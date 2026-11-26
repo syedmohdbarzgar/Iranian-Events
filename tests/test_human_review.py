@@ -5,11 +5,17 @@
 from __future__ import annotations
 
 import copy
+import http.client
 import json
 import sys
 import tempfile
+import threading
+import time
 import unittest
+from concurrent.futures import ThreadPoolExecutor
+from http.server import ThreadingHTTPServer
 from pathlib import Path
+from unittest import mock
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -20,6 +26,7 @@ import review_audit  # noqa: E402
 import review_changes as review  # noqa: E402
 import review_model  # noqa: E402
 import review_panel  # noqa: E402
+import review_server  # noqa: E402
 import reviewer_auth  # noqa: E402
 import revision_diff  # noqa: E402
 
@@ -153,13 +160,41 @@ class DateAndStatusTest(unittest.TestCase):
         lunar = review_model.normalize_period(
             {"start": {"calendar": "lunar", "date": [1447, 10, 2]}},
             1405, [1405, 1, 1])
-        self.assertEqual(lunar["startSolar"], [1405, 1, 2])
+        self.assertEqual(lunar["startSolar"], [1405, 1, 1])
+        self.assertEqual(lunar["source"]["startCalendar"], "lunar")
         self.assertEqual(lunar["conversion"]["from"], "lunar")
         greg = review_model.normalize_period(
             {"start": {"calendar": "gregorian", "date": [2026, 3, 22]}},
             1405, [1405, 1, 1])
         self.assertEqual(greg["startSolar"], [1405, 1, 2])
         self.assertFalse(greg["multiDay"])
+
+    def test_lunar_year_must_match_the_converted_solar_date(self):
+        self.assertEqual(review_model.lunar_to_solar(1405, [1447, 10, 2]),
+                         [1405, 1, 1])
+        with self.assertRaises(ValueError):
+            review_model.lunar_to_solar(1405, [1446, 10, 2])
+        with self.assertRaises(ValueError):
+            review_model.lunar_to_solar(1405, [1447, 13, 1])
+        with self.assertRaises(ValueError):
+            review_model.lunar_to_solar(1405, [1447, 10, 31])
+
+    def test_lunar_boundary_dates_round_trip_inside_the_solar_year(self):
+        for solar in ([1405, 1, 1], [1405, 6, 31], [1405, 12, 29]):
+            lunar = list(engine.lunar_from_solar(*solar))
+            self.assertEqual(review_model.lunar_to_solar(1405, lunar), solar)
+
+    def test_start_and_end_keep_independent_calendars(self):
+        p = review_model.normalize_period(
+            {"start": {"calendar": "lunar", "date": [1447, 10, 2]},
+             "end": {"calendar": "gregorian", "date": [2026, 3, 24]}},
+            1405, [1405, 1, 1])
+        self.assertEqual(p["startSolar"], [1405, 1, 1])
+        self.assertEqual(p["endSolar"], [1405, 1, 4])
+        self.assertEqual(p["source"]["startCalendar"], "lunar")
+        self.assertEqual(p["source"]["endCalendar"], "gregorian")
+        self.assertEqual(p["conversion"]["startFrom"], "lunar")
+        self.assertEqual(p["conversion"]["endFrom"], "gregorian")
 
     def test_invalid_day_month_and_reverse_period_are_refused(self):
         with self.assertRaises(ValueError):
@@ -420,7 +455,7 @@ class PanelFlowTest(unittest.TestCase):
             active = store.active_revisions(store.load_history()["revisions"])[1405]
             rows = store.load_revision_rows(active)
             edited = next(r for r in rows if r.get("title") == "عنوان درست")
-            self.assertEqual(edited["startSolar"], [1405, 1, 2])
+            self.assertEqual(edited["startSolar"], [1405, 1, 1])
             self.assertEqual(edited["endSolar"], [1405, 1, 4])
             self.assertTrue(edited["multiDay"])
             self.assertEqual(edited["sourceDate"], [1405, 3, 1])
@@ -430,6 +465,190 @@ class PanelFlowTest(unittest.TestCase):
             self.assertEqual(edited["conversionVersion"], review_model.ALGORITHM_VERSION)
             decision = review.load_bundle("R-1405-cccc")["decisions"][added["id"]]
             self.assertEqual(decision["auditSeq"], 1)
+
+    def test_duplicate_decision_is_refused_without_a_second_audit_record(self):
+        with TempReview() as temp:
+            session = session_for(temp)
+            install_baseline()
+            bundle = make_bundle("R-1405-cccc", [row(1405, 1, 10, "آزمون سراسری", 2),
+                                                 row(1405, 2, 1, "رویداد دوم", 3),
+                                                 row(1405, 3, 1, "رویداد سوم", 4)])
+            change = next(c for c in bundle["diff"]["changes"] if c.get("requiresHuman"))
+            body = {"revision": "R-1405-cccc", "change": change["id"], "action": "approve"}
+            review_panel.decide(session, body)
+            with self.assertRaises(review_panel.PanelError):
+                review_panel.decide(session, body)
+            saved = review.load_bundle("R-1405-cccc")
+            self.assertEqual(list(saved["decisions"]), [change["id"]])
+            actions = [e["action"] for e in review_audit.load_entries()]
+            self.assertEqual(actions.count("decision"), 1)
+
+    def test_failed_decision_storage_leaves_no_decision_and_records_abort(self):
+        with TempReview() as temp:
+            session = session_for(temp)
+            install_baseline()
+            bundle = make_bundle("R-1405-cccc", [row(1405, 1, 10, "آزمون سراسری", 2),
+                                                 row(1405, 2, 1, "رویداد دوم", 3),
+                                                 row(1405, 3, 1, "رویداد سوم", 4)])
+            change = next(c for c in bundle["diff"]["changes"] if c.get("requiresHuman"))
+            with mock.patch.object(review, "decide", side_effect=ValueError("disk full")):
+                with self.assertRaises(review_panel.PanelError):
+                    review_panel.decide(session, {"revision": "R-1405-cccc",
+                                                   "change": change["id"],
+                                                   "action": "approve"})
+            self.assertNotIn(change["id"], review.load_bundle("R-1405-cccc")["decisions"])
+            actions = [e["action"] for e in review_audit.load_entries()]
+            self.assertEqual(actions, ["decision", "abort"])
+            self.assertEqual(review_audit.verify_file(temp.audit_file, temp.reviewers_file), [])
+
+    def test_storage_failure_during_finalize_rolls_back_history(self):
+        with TempReview() as temp:
+            session = session_for(temp)
+            self._complete(temp, session)
+            before = store.load_history()
+            before_bundle = review.load_bundle("R-1405-cccc")
+            with mock.patch.object(store, "save_changelog",
+                                   side_effect=ValueError("disk full")):
+                with self.assertRaises(review_panel.PanelError):
+                    review_panel.year_approval(session, {"revision": "R-1405-cccc"})
+            after = store.load_history()
+            self.assertEqual([r["id"] for r in after["revisions"]],
+                             [r["id"] for r in before["revisions"]])
+            self.assertEqual(after["changelog"], before["changelog"])
+            self.assertEqual(after["events"], before["events"])
+            self.assertEqual(after["occurrences"], before["occurrences"])
+            self.assertEqual(review.load_bundle("R-1405-cccc")["state"],
+                             before_bundle["state"])
+            self.assertNotIn("year-approval",
+                             [e["action"] for e in review_audit.load_entries()])
+
+    def test_failed_year_approval_is_not_written_to_the_audit(self):
+        with TempReview() as temp:
+            session = session_for(temp)
+            self._complete(temp, session)
+            with mock.patch.object(review, "finalize", side_effect=ValueError("write failed")):
+                with self.assertRaises(review_panel.PanelError):
+                    review_panel.year_approval(session, {"revision": "R-1405-cccc"})
+            actions = [e["action"] for e in review_audit.load_entries()]
+            self.assertNotIn("year-approval", actions)
+            self.assertIn("abort", actions)
+            self.assertEqual(review.load_bundle("R-1405-cccc")["state"], "in-review")
+
+    def test_year_approval_cannot_be_repeated(self):
+        with TempReview() as temp:
+            session = session_for(temp)
+            self._complete(temp, session)
+            review_panel.year_approval(session, {"revision": "R-1405-cccc"})
+            with self.assertRaises(review_panel.PanelError):
+                review_panel.year_approval(session, {"revision": "R-1405-cccc"})
+            self.assertEqual(sum(1 for e in review_audit.load_entries()
+                                 if e["action"] == "year-approval"), 1)
+
+    def test_concurrent_reviewers_cannot_decide_the_same_item_twice(self):
+        with TempReview() as temp:
+            first = session_for(temp, "reviewer-a")
+            second = session_for(temp, "reviewer-b")
+            install_baseline()
+            bundle = make_bundle("R-1405-cccc", [row(1405, 1, 10, "آزمون سراسری", 2),
+                                                 row(1405, 2, 1, "رویداد دوم", 3),
+                                                 row(1405, 3, 1, "رویداد سوم", 4)])
+            change = next(c for c in bundle["diff"]["changes"] if c.get("requiresHuman"))
+            barrier = threading.Barrier(2)
+
+            def act(session):
+                barrier.wait(timeout=5)
+                try:
+                    review_panel.decide(session, {"revision": "R-1405-cccc",
+                                                   "change": change["id"],
+                                                   "action": "approve"})
+                    return "ok"
+                except review_panel.PanelError:
+                    return "rejected"
+
+            with ThreadPoolExecutor(max_workers=2) as pool:
+                results = sorted(pool.map(act, [first, second]))
+            self.assertEqual(results, ["ok", "rejected"])
+            self.assertEqual(len(review.load_bundle("R-1405-cccc")["decisions"]), 1)
+            self.assertEqual(sum(1 for e in review_audit.load_entries()
+                                 if e["action"] == "decision"), 1)
+            self.assertEqual(review_audit.verify_file(temp.audit_file, temp.reviewers_file), [])
+
+    def test_audit_prepare_cannot_land_on_a_changed_chain(self):
+        with TempReview() as temp:
+            session = session_for(temp)
+            prepared = review_audit.prepare(session, "year-approval",
+                                            {"revisionId": "R", "year": 1405})
+            review_audit.append(session, "decision", {"revisionId": "R", "action": "approve"})
+            with self.assertRaises(ValueError):
+                review_audit.commit(prepared, session)
+            self.assertEqual(len(review_audit.load_entries()), 1)
+
+    def test_origin_token_and_expired_session_are_rejected(self):
+        handler = object.__new__(review_server.Handler)
+        handler.headers = {"Origin": "https://evil.example"}
+        self.assertFalse(handler._origin_ok())
+        handler.headers = {"Origin": "http://localhost:8765"}
+        self.assertTrue(handler._origin_ok())
+        handler.headers = {"X-Review-Token": "wrong"}
+        self.assertFalse(handler._token_ok())
+        handler.headers = {"X-Review-Token": review_server.TOKEN}
+        self.assertTrue(handler._token_ok())
+        handler.headers = {"Cookie": f"review_csrf={review_server.TOKEN}"}
+        self.assertTrue(handler._token_ok())
+        token = "expired-test-token"
+        review_server.SESSIONS[token] = {"expires": time.time() - 1}
+        handler.headers = {"X-Review-Session": token}
+        self.assertIsNone(handler._session())
+        self.assertNotIn(token, review_server.SESSIONS)
+
+    def test_http_login_sets_csrf_cookie_that_can_load_a_pdf(self):
+        with TempReview() as temp:
+            install_baseline()
+            session = session_for(temp)
+            pdf = ROOT / "PDF" / "Calendar-1405.pdf"
+            if not pdf.exists():
+                self.skipTest("PDF نمونه در دسترس نیست")
+            rid = "R-1405-http"
+            rev = revision(rid, 1405, store.sha256_file(pdf))
+            rev["document"]["pages"] = 17
+            rev["document"]["storedPath"] = "PDF/Calendar-1405.pdf"
+            review.save_bundle({"revision": rev, "rawRows": [], "oldRevisionId": None,
+                                "diff": {"changes": [], "counts": {}, "duplicates": []},
+                                "decisions": {}, "state": "pending", "createdAt": store.now_iso()})
+            review_server.SESSIONS.clear()
+            server = ThreadingHTTPServer(("127.0.0.1", 0), review_server.Handler)
+            thread = threading.Thread(target=server.serve_forever, daemon=True)
+            thread.start()
+            try:
+                conn = http.client.HTTPConnection("127.0.0.1", server.server_address[1], timeout=5)
+                body = json.dumps({"reviewer": session["reviewerId"],
+                                   "password": "correct horse battery"})
+                conn.request("POST", "/api/login", body,
+                             {"X-Review-Token": review_server.TOKEN,
+                              "Content-Type": "application/json"})
+                response = conn.getresponse()
+                self.assertEqual(response.status, 200, response.read().decode("utf-8"))
+                response.read()
+                cookies = [v for k, v in response.getheaders()
+                           if k.lower() == "set-cookie"]
+                self.assertTrue(any(c.startswith("review_csrf=") for c in cookies))
+                cookie_header = "; ".join(c.split(";", 1)[0] for c in cookies)
+                conn.request("GET", f"/api/pdf?revision={rid}&page=1",
+                             headers={"Cookie": cookie_header})
+                pdf_response = conn.getresponse()
+                data = pdf_response.read()
+                self.assertEqual(pdf_response.status, 200)
+                self.assertTrue(data.startswith(b"%PDF-"))
+                conn.close()
+            finally:
+                server.shutdown()
+                server.server_close()
+                review_server.SESSIONS.clear()
+
+    def test_private_keys_and_local_roster_are_gitignored(self):
+        ignored = (ROOT / ".gitignore").read_text(encoding="utf-8")
+        self.assertIn(".review-keys/", ignored)
+        self.assertIn("data/review/reviewers.json", ignored)
 
 
 if __name__ == "__main__":

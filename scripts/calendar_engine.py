@@ -114,10 +114,15 @@ def jdn_islamic(iy: int, im: int, idd: int) -> int:
 
 
 def islamic_from_jdn(jdn: int) -> tuple[int, int, int]:
+    """معکوسِ دقیقِ jdn_islamic؛ بدونِ خطای یک‌روزه در مرزِ ماه."""
     iy = (30 * (jdn - 1948440) + 10646) // 10631
-    im = min(12, math.ceil((jdn - 29 - jdn_islamic(iy, 1, 1)) / 29.5) + 1)
-    while jdn_islamic(iy, im, 1) > jdn:
-        im -= 1
+    while jdn < jdn_islamic(iy, 1, 1):
+        iy -= 1
+    while jdn >= jdn_islamic(iy + 1, 1, 1):
+        iy += 1
+    im = 1
+    while im < 12 and jdn >= jdn_islamic(iy, im + 1, 1):
+        im += 1
     idd = jdn - jdn_islamic(iy, im, 1) + 1
     return iy, im, idd
 
@@ -130,15 +135,27 @@ def month_len(jy: int, jm: int) -> int:
     return (date(*_jalali_to_gregorian_unchecked(*nxt)) - g1).days
 
 
-def lunar_occurrence(jy: int, lm: int, ld: int) -> tuple[int, int, int] | None:
-    """تاریخِ شمسیِ (lm، ld) قمری در سالِ شمسی jy — با تقویمِ تربیعی."""
+def lunar_from_solar(jy: int, jm: int, jd: int) -> tuple[int, int, int]:
+    """تاریخِ قمریِ متناظر با یک تاریخِ شمسی (تقویمِ تربیعیِ همین موتور)."""
+    return islamic_from_jdn(jdn_jalali(jy, jm, jd))
+
+
+def lunar_occurrence(jy: int, lm: int, ld: int,
+                     lunar_year: int | None = None) -> tuple[int, int, int] | None:
+    """تاریخِ شمسیِ (lm، ld) قمری در سالِ شمسی jy — با تقویمِ تربیعی.
+
+    اگر ``lunar_year`` داده شود، فقط همان سالِ هجریِ قمری پذیرفته می‌شود؛ این
+    برای جلوگیری از انتخابِ اشتباهِ یکی از دو رخدادِ هم‌ماه در یک سالِ شمسی است.
+    """
     lo = jdn_jalali(jy, 1, 1)
     hi = jdn_jalali(*( (jy + 1, 1, 1) ))
     approx_iy = int((lo - 1948440) * 30 / 10631) + 1
     for iy in range(approx_iy - 2, approx_iy + 3):
+        if lunar_year is not None and iy != lunar_year:
+            continue
         j = jdn_islamic(iy, lm, ld)
         if lo <= j < hi:
-            return gregorian_to_jalali(*date.fromordinal(j - 1721425 + 1).timetuple()[:3])
+            return gregorian_to_jalali(*date.fromordinal(j - 1721425).timetuple()[:3])
     return None
 
 

@@ -76,6 +76,7 @@ main{padding:16px 0 60px}
 .toast.err{display:block;background:#2a1518;border:1px solid #5a2a30;color:#f0b3b8;white-space:pre-wrap}
 .tabs{display:flex;gap:6px;margin:10px 0}.tabs button.on{border-color:var(--accent);color:var(--accent)}
 .audit-entry{border:1px solid var(--line);border-radius:8px;padding:8px;margin:6px 0;font-size:11.5px;background:#121921;overflow-wrap:anywhere}
+.audit-entry.failed{border-color:var(--danger);background:#241417}
 code{font-family:Consolas,monospace;direction:ltr;display:inline-block;font-size:11.5px}
 @media(max-width:900px){.layout{grid-template-columns:1fr}.queue{position:static}#qlist{max-height:300px}.grid2,.split{grid-template-columns:1fr}.formrow{grid-template-columns:1fr 1fr}.formrow .wide{grid-column:span 2}.pdf iframe{height:420px}}
 </style>
@@ -369,10 +370,12 @@ async function loadAudit(){
   try{
     const a=await api("/api/audit");
     const ok=a.integrity.ok;
-    $("auditSummary").innerHTML=`${a.entries.length} رکورد امضاشده · زنجیره: <b style="color:${ok?"var(--ok)":"var(--danger)"}">${ok?"سالم":"سالم نیست"}</b>`;
+    const failed=a.entries.filter(e=>e.action==="abort").length;
+    $("auditSummary").innerHTML=`${a.entries.length} رکورد امضاشده · زنجیره: <b style="color:${ok?"var(--ok)":"var(--danger)"}">${ok?"سالم":"سالم نیست"}</b>`+
+      (failed?` · <b style="color:var(--danger)">${failed} تلاش ناموفق</b>`:"");
     $("auditList").innerHTML=a.integrity.issues.length?`<div class="error">${esc(JSON.stringify(a.integrity.issues,null,1))}</div>`:"";
-    $("auditList").innerHTML += a.entries.slice().reverse().map(e=>`<div class="audit-entry">
-      <b>#${e.seq}</b> ${esc(e.action)} · ${esc(e.actor?.displayName||e.actor?.reviewerId)} · ${esc(e.at)}
+    $("auditList").innerHTML += a.entries.slice().reverse().map(e=>`<div class="audit-entry${e.action==="abort"?" failed":""}">
+      <b>#${e.seq}</b> ${esc(e.action)}${e.action==="abort"?` · <b>ناموفق</b> · ${esc(e.payload?.attemptedAction||"")} · ${esc(e.payload?.reason||"")}`:""} · ${esc(e.actor?.displayName||e.actor?.reviewerId)} · ${esc(e.at)}
       <br><code>${esc(e.recordHash)}</code>
       <details><summary class="muted small">payload</summary><pre class="small" style="white-space:pre-wrap">${esc(JSON.stringify(e.payload,null,1))}</pre></details>
     </div>`).join("") || '<div class="empty">هنوز رکوردی نیست.</div>';

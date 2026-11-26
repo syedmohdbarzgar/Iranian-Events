@@ -130,6 +130,9 @@ def decide(rev_id: str, change_id: str, action: str, *, by: str, note: str = "",
     change = find_change(bundle, change_id)
     if change is None:
         raise ValueError(f"تغییرِ {change_id} در این پیش‌نویس نیست")
+    if change_id in bundle.get("decisions", {}):
+        raise ValueError("برای این تغییر قبلاً تصمیم امضاشده ثبت شده است؛ "
+                         "تصمیمِ قبلی قابلِ بازنویسی نیست")
     payload = {"action": action, "by": by, "at": store.now_iso(), "note": note.strip()}
     if action == "edit":
         if not edit:
@@ -141,7 +144,7 @@ def decide(rev_id: str, change_id: str, action: str, *, by: str, note: str = "",
         raise ValueError("edit فقط با action=edit مجاز است")
     if meta:
         for key in ("reason", "evidence", "delegatedTo", "dateMeta", "reviewerId",
-                    "assurance"):
+                    "assurance", "auditSeq"):
             if key in meta and meta[key] is not None:
                 payload[key] = meta[key]
     bundle["decisions"][change_id] = payload
@@ -275,6 +278,23 @@ def _validate_rows(rows: list[dict], year: int) -> None:
 
 # ───────────────────────────── تأیید و اعمال ─────────────────────────────
 
+def _snapshot_files(paths: list[Path]) -> dict[Path, tuple[bool, bytes | None]]:
+    return {p: (p.exists(), p.read_bytes() if p.exists() else None) for p in paths}
+
+
+def _restore_files(snapshot: dict[Path, tuple[bool, bytes | None]]) -> None:
+    """بازگرداندنِ فایل‌های یک finalizeِ نیمه‌کاره پس از خطای ذخیره‌سازی."""
+    for path, (existed, data) in snapshot.items():
+        try:
+            if existed and data is not None:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(data)
+            elif path.exists():
+                path.unlink()
+        except OSError:
+            pass
+
+
 def finalize(rev_id: str, *, by: str, note: str = "",
              signed_approval: dict | None = None) -> dict:
     by = _human_actor(by)
@@ -360,30 +380,42 @@ def finalize(rev_id: str, *, by: str, note: str = "",
         current["supersededBy"] = approved["id"]
 
     revisions = [r for r in history["revisions"] if r["id"] != approved["id"]] + [approved]
-    store.save_revisions(revisions)
-    store.save_revision_rows(approved["id"], year, rows, source=approved["document"])
-    bundle["state"] = "applied"
-    bundle["appliedAt"] = approved["approvedAt"]
-    save_bundle(bundle)
+    # چند فایل پشتِ سرِ هم نوشته می‌شوند؛ اگر یکی شکست بخورد، وضعیتِ پیش از
+    # تلاش برمی‌گردد و هیچ نسخه/تاریخچهٔ نیمه‌کاره نمی‌ماند. قطعِ برق در
+    # میانهٔ همین چند میلی‌ثانیه همچنان با بازگردانیِ پشتیبان درمان می‌شود.
+    snapshot = _snapshot_files([
+        store.REVISIONS_FILE, store.CHANGELOG_FILE, store.EVENTS_FILE,
+        store.OCCURRENCES_FILE, store.IDENTITY_REVIEWS_FILE,
+        bundle_path(rev_id), store.REVISION_DIR / f"{approved['id']}.json",
+    ])
+    try:
+        store.save_revisions(revisions)
+        store.save_revision_rows(approved["id"], year, rows, source=approved["document"])
+        bundle["state"] = "applied"
+        bundle["appliedAt"] = approved["approvedAt"]
+        save_bundle(bundle)
 
-    entry = {
-        "id": f"L-{len(history['changelog']) + 1:05d}",
-        "at": approved["approvedAt"],
-        "action": "APPROVE",
-        "actor": by,
-        "year": year,
-        "revisionId": approved["id"],
-        "bundleId": rev_id,
-        "supersedes": current["id"] if current else None,
-        "changeIds": [c["id"] for c in bundle["diff"]["changes"]],
-        "decisions": {k: v.get("action") for k, v in bundle["decisions"].items()},
-        "note": note.strip(),
-        "snapshotBefore": old_rows,
-        "snapshotAfter": rows,
-    }
-    history["changelog"].append(entry)
-    store.save_changelog(history["changelog"])
-    rebuild_canonical()
+        entry = {
+            "id": f"L-{len(history['changelog']) + 1:05d}",
+            "at": approved["approvedAt"],
+            "action": "APPROVE",
+            "actor": by,
+            "year": year,
+            "revisionId": approved["id"],
+            "bundleId": rev_id,
+            "supersedes": current["id"] if current else None,
+            "changeIds": [c["id"] for c in bundle["diff"]["changes"]],
+            "decisions": {k: v.get("action") for k, v in bundle["decisions"].items()},
+            "note": note.strip(),
+            "snapshotBefore": old_rows,
+            "snapshotAfter": rows,
+        }
+        history["changelog"].append(entry)
+        store.save_changelog(history["changelog"])
+        rebuild_canonical()
+    except Exception:
+        _restore_files(snapshot)
+        raise
     return {"entry": entry, "revision": approved, "rows": len(rows)}
 
 
