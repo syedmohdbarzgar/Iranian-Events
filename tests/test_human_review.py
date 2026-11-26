@@ -181,7 +181,7 @@ class DateAndStatusTest(unittest.TestCase):
 
     def test_lunar_boundary_dates_round_trip_inside_the_solar_year(self):
         for solar in ([1405, 1, 1], [1405, 6, 31], [1405, 12, 29]):
-            lunar = list(engine.lunar_from_solar(*solar))
+            lunar = list(review_model.lunar_from_solar(*solar))
             self.assertEqual(review_model.lunar_to_solar(1405, lunar), solar)
 
     def test_start_and_end_keep_independent_calendars(self):

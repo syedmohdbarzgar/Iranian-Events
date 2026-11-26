@@ -44,7 +44,7 @@ jobs:
       - name: Reject unapproved changes to data or reports
         run: |
           git status --porcelain
-          # generatedAt/commit/dirty فقط provenanceِ زمان‌دارند؛ هر تغییرِ محتوایی
+          # generatedAt/commit/dirty/dataVersion/تاریخ/تولید فقط provenanceِ زمان‌دارند؛ هر تغییرِ محتوایی
           # در data/ یا گزارش‌ها باید گیت را قرمز کند.
           if ! git diff --exit-code \
             --ignore-matching-lines='generatedAt' \
@@ -52,6 +52,9 @@ jobs:
             --ignore-matching-lines='commit' \
             --ignore-matching-lines='زمانِ تولید' \
             --ignore-matching-lines='درختِ کاری' \
+            --ignore-matching-lines='dataVersion' \
+            --ignore-matching-lines='تاریخ' \
+            --ignore-matching-lines='تولید' \
             -- data reports/audit data/review/verification-queue.json \
             > build-diff.txt 2>&1; then
             cat build-diff.txt

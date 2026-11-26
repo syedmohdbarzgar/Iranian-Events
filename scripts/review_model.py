@@ -84,16 +84,45 @@ def _gregorian_to_solar(year: int, values) -> list[int]:
     return solar
 
 
+def lunar_from_solar(jy: int, jm: int, jd: int) -> tuple[int, int, int]:
+    """معکوسِ دقیقِ تقویمِ تربیعی؛ فقط مسیرِ بازبینی از آن استفاده می‌کند.
+
+    موتورِ کلی برای پایدارماندنِ دادهٔ منتشرشده دست‌نخورده می‌ماند؛ پنل باید سالِ
+    قمری را واقعاً با روزِ شمسی تطبیق دهد و نمی‌تواند به تقریبِ یک‌روزه تکیه کند.
+    """
+    jdn = engine.jdn_jalali(jy, jm, jd)
+    iy = (30 * (jdn - 1948440) + 10646) // 10631
+    while jdn < engine.jdn_islamic(iy, 1, 1):
+        iy -= 1
+    while jdn >= engine.jdn_islamic(iy + 1, 1, 1):
+        iy += 1
+    im = 1
+    while im < 12 and jdn >= engine.jdn_islamic(iy, im + 1, 1):
+        im += 1
+    return iy, im, jdn - engine.jdn_islamic(iy, im, 1) + 1
+
+
+def _lunar_occurrence(year: int, month: int, day: int, lunar_year: int):
+    """فقط همان سالِ قمریِ صریح را در سالِ شمسیِ هدف می‌پذیرد."""
+    lo = engine.jdn_jalali(year, 1, 1)
+    hi = engine.jdn_jalali(year + 1, 1, 1)
+    jdn = engine.jdn_islamic(lunar_year, month, day)
+    if not lo <= jdn < hi:
+        return None
+    greg = date.fromordinal(jdn - 1721425).timetuple()[:3]
+    return list(engine.gregorian_to_jalali(*greg))
+
+
 def lunar_to_solar(year: int, values) -> list[int]:
     y, m, d = _triple(values)
     if not 1300 <= y <= 1500:
         raise ValueError("سالِ قمری در بازهٔ معقول نیست")
     if not 1 <= m <= 12 or not 1 <= d <= 30:
         raise ValueError(f"تاریخِ قمریِ نامعتبر: {y}-{m}-{d}")
-    solar = engine.lunar_occurrence(year, m, d, y)
+    solar = _lunar_occurrence(year, m, d, y)
     if solar is None:
-        raise ValueError(f"تاریخِ قمری {m}/{d} در سالِ {year} به روزِ شمسی نگاشت نشد")
-    actual = engine.lunar_from_solar(*solar)
+        raise ValueError(f"تاریخِ قمری {y}/{m}/{d} در سالِ شمسیِ {year} واقع نشده است")
+    actual = lunar_from_solar(*solar)
     if tuple(actual) != (y, m, d):
         raise ValueError(
             f"سال/روزِ قمری با تاریخِ شمسیِ متناظر نمی‌خواند؛ "
